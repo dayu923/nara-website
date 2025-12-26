@@ -1,6 +1,18 @@
+/* eslint-disable no-unused-vars */
 import Layout from "@/components/solutions/layout";
 import { withLocales } from "@workspace/i18n/routing";
 import { Hero } from "@/components/index/hero";
+import { HeroSection } from "@/components/index/heroSection";
+import { PrivacySection } from "@/components/index/privacySection";
+import { WhatSection } from "@/components/index/whatSection";
+import { AdvantagesSection } from "@/components/index/advantagesSection";
+import { ProtocolSection } from "@/components/index/protocolSection";
+import { DesignSection } from "@/components/index/designSection";
+import { DeveloperSection } from "@/components/index/developerSection";
+import { EarlySection } from "@/components/index/earlySection";
+import { TokenomicsSection } from "@/components/index/tokenomicsSection";
+import { RoadmapSection } from "@/components/index/roadmapSection";
+import { TipsSection } from "@/components/index/tipsSection";
 import { useTranslations } from "next-intl";
 import HTMLHead from "@/components/HTMLHead";
 import { Logos } from "@/component-library/logos";
@@ -116,7 +128,19 @@ export default function Home({
         socialShare="/src/img/index/og-image.jpeg"
       />
 
-      <Hero
+      <HeroSection />
+      <PrivacySection />
+      <WhatSection />
+      <AdvantagesSection />
+      <ProtocolSection />
+      <DesignSection />
+      <DeveloperSection />
+      <EarlySection />
+      <TokenomicsSection />
+      <RoadmapSection />
+      <TipsSection />
+
+      {/* <Hero
         title={t.rich("index.hero.title", {
           light: (chunks) => (
             <>
@@ -363,7 +387,7 @@ export default function Home({
         }))}
       />
 
-      <VideoPlayerModal />
+      <VideoPlayerModal /> */}
     </Layout>
   );
 }
@@ -417,7 +441,6 @@ export async function getStaticProps({ params }) {
     }
 
     const { posts } = await fetchLatestPosts({ limit: 10 });
-
     return {
       props: {
         locale,

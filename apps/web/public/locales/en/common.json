@@ -3616,6 +3616,121 @@
       }
     }
   },
+
+  "newindex":{
+    "meta": {
+      "title": "Nara Solana",
+      "description":"Privacy-Focused High-Performance Layer-1 Blockchain Fully Compatible with Solana Ecosystem"
+    },
+    "privacy": {
+      "title": "Privacy-First Solana Layer-1",
+      "heroDescription1":"Nara Solana: High-performance <light>privacy-focused Layer-1 blockchain, deeply optimized on Solana architecture.</light>",
+      "heroDescription2":"Fully compatible <light>with Solana ecosystem, seamlessly maps mainnet assets, built for next-gen finance, privacy, and global Web3 infrastructure.</light>",
+      "heroDescription3":"Not just cheaper Solana: <light>new execution layer for privacy finance, anonymous social, next-gen DeFi, large-scale on-chain apps.</light>"
+    },
+    "what":{
+      "title":"What is Nara?",
+      "subTitle": "Nara Solana",
+      "subDescription": "Nara: the 'Linux of' AI trading—an open-source, transparent OS unifying decision, risk, execution across all assets. Starts crypto, expands to stocks/forex/futures."
+    },
+    "advantages":{
+      "title":"Core Advantages",
+      "gas":"Lower Gas",
+      "gasDescription":"Extremely low fees—perfect for high-frequency interactions and large-scale apps.",
+      "lower":"Lower Account Rent",
+      "lowerDescription":"Significantly reduced long-term state storage costs—greatly enhancing app sustainability.",
+      "ultra":"Ultra-Large Account",
+      "ultraDescription":"Supports much larger app accounts—breaking Solana's traditional storage limits.",
+      "super":"Super Large-Scale On-Chain",
+      "superDescription":"Designed for complex DeFi, on-chain games, privacy protocols, and big data apps.",
+      "program":"Program compatibility",
+      "programDescription":"No need to relearn: migrate existing Solana programs at low cost.",
+      "assets":"Solana Mainnet Asset",
+      "assetsDescription":"Secure cross-chain bridging: native Solana assets seamlessly enter Nara ecosystem."
+    },
+    "protocol":{
+      "title":"Core Protocol-Level Parameter Enhancements",
+      "description":"Retains Solana's high-performance architecture—dramatically raises protocol limits.",
+      "description2":"This makes Nara Solana the first public chain truly capable of hosting “on-chain operating system-level applications",
+      "subTitle1":"Max Instruction Data",
+      "subTitle2":"Per-Instruction Account Extension",
+      "subTitle3":"Max Account Size",
+      "subTitle4":"Stack Frame Size",
+      "subTitle5":"Single realloc Limit",
+      "subTitle6":"Default Compute Units",
+      "subTitle7":"Max Compute Units",
+      "subTitle8":"Per-Transaction Account Load Limit"
+    },
+    "design":{
+      "title":"Privacy-Native Design",
+      "description":"Nara Solana features a built-in complete privacy protocol layer:",
+      "zkId":"zkID – Anonymous Identity System",
+      "zkIdDescription":"Decentralized identity via zero-knowledge proofs—users never reveal real identity.",
+      "anonymousTransfers":"Anonymous Transfers",
+      "anonymousDescription":"Fully private on-chain fund flows via zkID-based confidential assets.",
+      "anonymousVoting":"Anonymous Voting",
+      "anonymousDescription2":"Suitable for governance, DAOs, community management, and privacy-preserving elections.",
+      "privacyDeFi":"Privacy DeFi",
+      "privacyDescription":"Supports private market making, anonymous lending, private derivatives, and dark pool trading.",
+      "privacySocialNetworks":"Privacy Social Networks",
+      "privacyDescription2":"Enables anonymous following, private content publishing, and privatized relationship graphs.",
+      "nativeDeFiLaunchpad":"Native DeFi Launchpad",
+      "nativeDescription":"Dedicated launch platform for the next generation of anonymous projects."
+    },
+    "developer":{
+      "title":"Developer Ecosystem & Incentive Programs",
+      "description":"To drive cold-start and explosive ecosystem growth, Nara Solana has launched a massive developer program.",
+      "rewards":"Solana Project Migration Rewards",
+      "rewardsDescription":"Full support for low-cost migration of existing Solana DApps, with dedicated bonuses.",
+      "funding":"Ecosystem Application Funding",
+      "fundingDescription":"Full support for low-cost migration of existing Solana DApps, with dedicated bonuses.",
+      "program":"Early Builder Program",
+      "programDescription":"Extra incentives for early validators and ecosystem contributors."
+    },
+    "early":{
+      "title":"Early Staking Subsidy Program",
+      "description":"To ensure network security and decentralization",
+      "subsidy1":"Ultra-high APR early subsidies",
+      "subsidy2":"Validator node launch subsidies",
+      "subsidy3":"Additional bonuses for long-term participants",
+      "subsidy4":"The longer you lock, the higher the rewards"
+    },
+    "tokenomics":{
+      "title":"Tokenomics",
+      "totalSupply":"Total Supply",
+      "privatePresale":"Public/Private Presale",
+      "airdropToSolanaHolders":"Airdrop to Solana Holders",
+      "dAppEcosystemRewards":"DApp Ecosystem Rewards",
+      "earlyStakingRewards":"Early Staking Rewards",
+      "testnetParticipantRewards":"Testnet Participant Rewards",
+      "foundationReserve":"Foundation Reserve"
+    },
+    "roadmap":{
+      "title":"Roadmap",
+      "testnetGenesis":"Testnet Genesis",
+      "testnetGenesisDescription": "Mainnet-level performance testing",
+      "testnetGenesisDescription2":  "Nara Bridge cross-chain bridge launch",
+      "testnetGenesisDescription3":  "zkID infrastructure release",
+      "mainnetLaunch":"Mainnet Launch",
+      "mainnetLaunchDescription": "Mainnet goes live",
+      "mainnetLaunchDescription2":  "Anonymous transfers & private accounts",
+      "mainnetLaunchDescription3":  "Node recruitment begins",
+      "deFiExpansion":"DeFi & Privacy Expansion",
+      "deFiExpansionDescription": "Anonymous DEX",
+      "deFiExpansionDescription2":  "Private lending protocols",
+      "deFiExpansionDescription3":  "Anonymous DAO governance system",
+      "massAdoption":"Mass Adoption",
+      "massAdoptionDescription": "Anonymous social networking",
+      "massAdoptionDescription2":  "Enterprise-grade private chain solutions",
+      "massAdoptionDescription3":  "Global developer ecosystem support program"
+    },
+    "build":{
+      "buildFreely":"Build Freely. Transact Privately. Scale Infinitely.",
+      "buildAbove":"Build above the light, be free within privacy."
+
+    }
+  },
+
   "index": {
     "meta": {
       "title": "The Capital Market For Every Asset on Earth",

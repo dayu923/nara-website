@@ -3499,6 +3499,121 @@
       }
     }
   },
+
+  "newindex": {
+      "meta": {
+        "title": "Nara Solana",
+        "description": "以隐私为核心的高性能 Layer-1 区块链，全面兼容 Solana 生态"
+      },
+      "privacy": {
+        "title": "隐私优先的 Solana Layer-1",
+        "heroDescription1": "Nara Solana：高性能 <light>、以隐私为核心的 Layer-1 区块链，基于 Solana 架构进行深度优化。</light>",
+        "heroDescription2": "全面兼容 <light>Solana 生态，无缝映射主网资产，专为下一代金融、隐私应用与全球 Web3 基础设施而构建。</light>",
+        "heroDescription3": "不仅是更便宜的 Solana：<light>这是一个面向隐私金融、匿名社交、下一代 DeFi 与大规模链上应用的全新执行层。</light>"
+      },
+      "what": {
+        "title": "什么是 Nara？",
+        "subTitle": "Nara Solana",
+        "subDescription": "Nara：AI 交易领域的“Linux”——一个开源、透明的操作系统，统一决策、风控与执行，覆盖全资产类别。起步于加密资产，逐步扩展至股票、外汇与期货。"
+      },
+      "advantages": {
+        "title": "核心优势",
+        "gas": "更低 Gas 费用",
+        "gasDescription": "极低交易费用，完美支持高频交互与大规模应用场景。",
+        "lower": "更低账户租金",
+        "lowerDescription": "显著降低长期状态存储成本，大幅提升应用的可持续性。",
+        "ultra": "超大账户容量",
+        "ultraDescription": "支持远超 Solana 传统限制的账户规模，突破存储瓶颈。",
+        "super": "超大规模链上应用",
+        "superDescription": "专为复杂 DeFi、链游、隐私协议与大数据应用而设计。",
+        "program": "程序兼容性",
+        "programDescription": "无需重新学习，以极低成本迁移现有 Solana 程序。",
+        "assets": "Solana 主网资产",
+        "assetsDescription": "安全的跨链桥接，Solana 原生资产可无缝进入 Nara 生态。"
+      },
+      "protocol": {
+        "title": "核心协议级参数增强",
+        "description": "在保留 Solana 高性能架构的基础上，大幅提升协议上限。",
+        "description2": "使 Nara Solana 成为首个真正能够承载“链上操作系统级应用”的公链。",
+        "subTitle1": "最大指令数据大小",
+        "subTitle2": "单指令账户扩展数量",
+        "subTitle3": "最大账户尺寸",
+        "subTitle4": "栈帧大小",
+        "subTitle5": "单次 realloc 限制",
+        "subTitle6": "默认计算单元",
+        "subTitle7": "最大计算单元",
+        "subTitle8": "单笔交易账户加载上限"
+      },
+      "design": {
+        "title": "原生隐私架构设计",
+        "description": "Nara Solana 内置完整的隐私协议层：",
+        "zkId": "zkID —— 匿名身份系统",
+        "zkIdDescription": "基于零知识证明的去中心化身份体系，用户无需暴露真实身份。",
+        "anonymousTransfers": "匿名转账",
+        "anonymousDescription": "基于 zkID 的机密资产，实现完全私密的链上资金流转。",
+        "anonymousVoting": "匿名投票",
+        "anonymousDescription2": "适用于治理、DAO、社区管理与隐私保护型选举。",
+        "privacyDeFi": "隐私 DeFi",
+        "privacyDescription": "支持私有做市、匿名借贷、私密衍生品与暗池交易。",
+        "privacySocialNetworks": "隐私社交网络",
+        "privacyDescription2": "支持匿名关注、私密内容发布与关系图谱隐私化。",
+        "nativeDeFiLaunchpad": "原生 DeFi 启动平台",
+        "nativeDescription": "为下一代匿名项目打造的专属发行与启动平台。"
+      },
+      "developer": {
+        "title": "开发者生态与激励计划",
+        "description": "为解决冷启动并实现生态爆发式增长，Nara Solana 推出了大规模开发者激励计划。",
+        "rewards": "Solana 项目迁移奖励",
+        "rewardsDescription": "全力支持现有 Solana DApp 低成本迁移，并提供专属奖励。",
+        "funding": "生态应用资助",
+        "fundingDescription": "为优质生态应用提供资金与资源支持，加速落地。",
+        "program": "早期建设者计划",
+        "programDescription": "为早期验证者与生态贡献者提供额外激励。"
+      },
+      "early": {
+        "title": "早期质押补贴计划",
+        "description": "用于保障网络安全与去中心化程度",
+        "subsidy1": "超高 APR 的早期补贴",
+        "subsidy2": "验证者节点启动补贴",
+        "subsidy3": "长期参与者额外奖励",
+        "subsidy4": "锁仓时间越长，收益越高"
+      },
+      "tokenomics": {
+        "title": "代币经济模型",
+        "totalSupply": "代币总量",
+        "privatePresale": "公开 / 私募预售",
+        "airdropToSolanaHolders": "Solana 持有者空投",
+        "dAppEcosystemRewards": "DApp 生态激励",
+        "earlyStakingRewards": "早期质押奖励",
+        "testnetParticipantRewards": "测试网参与奖励",
+        "foundationReserve": "基金会储备"
+      },
+      "roadmap": {
+        "title": "路线图",
+        "testnetGenesis": "测试网创世",
+        "testnetGenesisDescription": "主网级性能测试",
+        "testnetGenesisDescription2": "Nara Bridge 跨链桥上线",
+        "testnetGenesisDescription3": "zkID 基础设施发布",
+        "mainnetLaunch": "主网启动",
+        "mainnetLaunchDescription": "主网正式上线",
+        "mainnetLaunchDescription2": "匿名转账与私密账户",
+        "mainnetLaunchDescription3": "节点招募启动",
+        "deFiExpansion": "DeFi 与隐私扩展",
+        "deFiExpansionDescription": "匿名 DEX",
+        "deFiExpansionDescription2": "私密借贷协议",
+        "deFiExpansionDescription3": "匿名 DAO 治理系统",
+        "massAdoption": "大规模采用",
+        "massAdoptionDescription": "匿名社交网络",
+        "massAdoptionDescription2": "企业级私有链解决方案",
+        "massAdoptionDescription3": "全球开发者生态支持计划"
+      },
+      "build": {
+        "buildFreely": "自由构建，私密交易，无限扩展。",
+        "buildAbove": "构建于光之上，自由于隐私之中。"
+      }
+    },
+  
+
   "index": {
     "meta": {
       "title": "为地球上每一种资产打造的资本市场",
