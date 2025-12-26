@@ -45,7 +45,7 @@ const HeaderListNetwork = () => {
               variant="large"
             />
           </Link>
-          <InlineLink
+          {/* <InlineLink
             to="https://status.solana.com/"
             className="block no-underline text-inherit group/link"
           >
@@ -67,7 +67,7 @@ const HeaderListNetwork = () => {
               Icon={SwitchIcon}
               variant="large"
             />
-          </Link>
+          </Link> */}
         </div>
       </div>
       <div className="px-3 grow">
@@ -76,7 +76,7 @@ const HeaderListNetwork = () => {
         </div>
         <div className="divide-y divide-[rgba(238,228,255,0.04)]">
           <InlineLink
-            to="https://solscan.io/"
+            to="https://solscan.io/?cluster=custom&customUrl=https%3A%2F%2Ftestnet.naraso.org%2F"
             className="block no-underline text-inherit group/link"
           >
             <HeaderItem
@@ -87,7 +87,7 @@ const HeaderListNetwork = () => {
             />
           </InlineLink>
           <InlineLink
-            to="https://solana.fm/"
+            to="https://solana.fm/?cluster=custom-testnet.naraso.org"
             className="block no-underline text-inherit group/link"
           >
             <HeaderItem
@@ -98,7 +98,7 @@ const HeaderListNetwork = () => {
             />
           </InlineLink>
           <InlineLink
-            to="https://explorer.solana.com/"
+            to="https://explorer.solana.com/?cluster=custom&customUrl=https%3A%2F%2Ftestnet.naraso.org"
             className="block no-underline text-inherit group/link"
           >
             <HeaderItem

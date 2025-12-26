@@ -12,7 +12,7 @@ import { LanguageSelector } from "./language-selector";
 import { MobileMenu } from "./mobile-menu";
 import { InkeepChatButton } from "./inkeep-chat-button";
 
-import SolanaLogo from "./assets/logotype.inline.svg";
+import NaraLogo from "./assets/nara.inline.svg";
 import Moon from "./assets/moon.inline.svg";
 import Sun from "./assets/sun.inline.svg";
 
@@ -41,12 +41,12 @@ function Header({
               className="block shrink-0 grow-0 !text-white light:!text-[#121212] "
               aria-label="Solana"
             >
-              <SolanaLogo
+              <NaraLogo
                 style={{ color: "currentColor" }}
-                width={134}
+                width={100}
                 height={40}
-                viewBox="0 0 149 22"
-                className="block w-[107px] xl:w-[134px]"
+                viewBox="0 0 92 18"
+                className="block w-[80px] xl:w-[100px]"
               />
             </Link>
 

@@ -953,6 +953,7 @@
     },
     "network": {
       "title": "网络",
+      "testnet":"测试网络",
       "inspect": {
         "title": "检查",
         "items": [

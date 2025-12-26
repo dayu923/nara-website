@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { styled } from "styled-components";
 
+import GeneralTitle from "./generalTitle";
 import AnimatedSection from "./AnimatedSection";
 import roadmapBg1 from "@@/public/src/img/index/home_roadmap_bg1.webp";
 import roadmapBg2 from "@@/public/src/img/index/home_roadmap_bg2.webp";
@@ -49,7 +50,7 @@ export function RoadmapSection() {
 
   return (
     <Wrapper>
-      <Title>{t("newindex.roadmap.title")}</Title>
+      <GeneralTitle>{t("newindex.roadmap.title")}</GeneralTitle>
       <RoadList>
         {roadData.map((road, index) => (
           <RoadItem key={index}>
@@ -70,17 +71,6 @@ export function RoadmapSection() {
 const Wrapper = styled(AnimatedSection)`
   @media (max-width: 768px) {
     padding: 0 20px;
-  }
-`;
-
-const Title = styled.h1`
-  margin: 0;
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 1.5;
-
-  @media (max-width: 768px) {
-    font-size: 24px;
   }
 `;
 

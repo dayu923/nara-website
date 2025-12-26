@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { styled } from "styled-components";
 import AnimatedSection from "./AnimatedSection";
+import GeneralTitle from "./generalTitle";
 
 import coreIcon1 from "@@/public/src/img/index/home-core-1.png";
 import coreIcon2 from "@@/public/src/img/index/home-core-2.png";
@@ -9,6 +10,7 @@ import coreIcon3 from "@@/public/src/img/index/home-core-3.png";
 import coreIcon4 from "@@/public/src/img/index/home-core-4.png";
 import coreIcon5 from "@@/public/src/img/index/home-core-5.png";
 import coreIcon6 from "@@/public/src/img/index/home-core-6.png";
+import cardBgIcon from "@@/public/src/img/index/home_core_hover1.webp";
 
 export function AdvantagesSection() {
   const t = useTranslations();
@@ -47,7 +49,7 @@ export function AdvantagesSection() {
 
   return (
     <Wrapper>
-      <Title>{t("newindex.advantages.title")}</Title>
+      <GeneralTitle>{t("newindex.advantages.title")}</GeneralTitle>
       <AdvantagesList>
         <AdvantagesBgSize>NARA</AdvantagesBgSize>
         {advantagesData.map((advantage, index) => (
@@ -68,17 +70,6 @@ const Wrapper = styled(AnimatedSection)`
   @media (max-width: 768px) {
     position: relative;
     padding-left: 20px;
-  }
-`;
-
-const Title = styled.h1`
-  margin: 0;
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 1.5;
-
-  @media (max-width: 768px) {
-    font-size: 24px;
   }
 `;
 
@@ -115,6 +106,8 @@ const AdvantagesItem = styled.div`
   line-height: 1.5;
   backdrop-filter: blur(16px);
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  overflow: hidden;
 
   img {
     width: 40px;
@@ -129,6 +122,19 @@ const AdvantagesItem = styled.div`
   span {
     color: #656467;
     font-size: 16px;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    inset: 0;
+    background: url(${cardBgIcon.src}) no-repeat;
+    background-size: 100% 100%;
+    opacity: 0;
+  }
+
+  &:hover::before {
+    opacity: 1;
   }
 
   @media (max-width: 768px) {

@@ -1,6 +1,7 @@
 import { useTranslations } from "next-intl";
 import { styled } from "styled-components";
 import AnimatedSection from "./AnimatedSection";
+import GeneralTitle from "./generalTitle";
 import ItemBgIcon from "@@/public/src/img/index/home_bg_dev.png";
 
 export function DeveloperSection() {
@@ -22,7 +23,7 @@ export function DeveloperSection() {
 
   return (
     <Wrapper>
-      <Title>{t("newindex.developer.title")}</Title>
+      <GeneralTitle>{t("newindex.developer.title")}</GeneralTitle>
       <TitleDescription>{t("newindex.developer.description")}</TitleDescription>
       <DeveloperList>
         {DeveloperData.map((item, index) => (
@@ -41,16 +42,6 @@ const Wrapper = styled(AnimatedSection)`
 
   @media (max-width: 768px) {
     padding: 0 20px;
-  }
-`;
-
-const Title = styled.h1`
-  margin: 0;
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 1.5;
-  @media (max-width: 768px) {
-    font-size: 24px;
   }
 `;
 

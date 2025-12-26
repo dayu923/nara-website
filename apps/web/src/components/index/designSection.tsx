@@ -2,6 +2,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { styled } from "styled-components";
 
+import GeneralTitle from "./generalTitle";
 import AnimatedSection from "./AnimatedSection";
 
 import pndIcon1 from "@@/public/src/img/index/home_icon_pnd1.png";
@@ -48,7 +49,7 @@ export function DesignSection() {
 
   return (
     <Wrapper>
-      <Title>{t("newindex.design.title")}</Title>
+      <GeneralTitle>{t("newindex.design.title")}</GeneralTitle>
       <TitleDescription>{t("newindex.design.description")}</TitleDescription>
       <DesignList>
         {designData.map((advantage, index) => (
@@ -65,16 +66,6 @@ export function DesignSection() {
 
 const Wrapper = styled(AnimatedSection)`
   gap: 0 !important;
-`;
-
-const Title = styled.h1`
-  margin: 0;
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 1.5;
-  @media (max-width: 768px) {
-    font-size: 24px;
-  }
 `;
 
 const TitleDescription = styled.div`

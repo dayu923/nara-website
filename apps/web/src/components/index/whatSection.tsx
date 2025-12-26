@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import Typewriter from "@/components/Typewriter";
 import AnimatedSection from "./AnimatedSection";
+import GeneralTitle from "./generalTitle";
 
 import whatsBgIcon from "@@/public/src/img/index/home_img_whats1.webp";
 import whatsBgIcon2 from "@@/public/src/img/index/home_img_whats2.webp";
@@ -12,7 +13,7 @@ export function WhatSection() {
   const t = useTranslations();
   return (
     <Wrapper>
-      <WrapperTitle>{t("newindex.what.title")}</WrapperTitle>
+      <GeneralTitle>{t("newindex.what.title")}</GeneralTitle>
       <Grid>
         <GridShaowBg src={whatsBgIcon} alt="" />
         <GridShaowBg2 src={whatsBgIcon2} alt="" />
@@ -52,16 +53,6 @@ export function WhatSection() {
 const Wrapper = styled(AnimatedSection)`
   @media (max-width: 768px) {
     padding: 0 20px;
-  }
-`;
-
-const WrapperTitle = styled.div`
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 1.5;
-
-  @media (max-width: 768px) {
-    font-size: 24px;
   }
 `;
 

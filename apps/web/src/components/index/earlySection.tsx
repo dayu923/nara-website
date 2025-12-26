@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { styled } from "styled-components";
 import { motion } from "framer-motion";
 
+import GeneralTitle from "./generalTitle";
 import AnimatedSection from "./AnimatedSection";
 
 import stakingIcon1 from "@@/public/src/img/index/home_icon_staking1.png";
@@ -21,7 +22,7 @@ export function EarlySection() {
 
   return (
     <Wrapper>
-      <Title>{t("newindex.early.title")}</Title>
+      <GeneralTitle>{t("newindex.early.title")}</GeneralTitle>
       <TitleDescription>{t("newindex.early.description")}</TitleDescription>
       <EarlyList>
         {earlyData.map((advantage, index) => (
@@ -43,16 +44,6 @@ export function EarlySection() {
 
 const Wrapper = styled(AnimatedSection)`
   gap: 0 !important;
-`;
-
-const Title = styled.h1`
-  margin: 0;
-  font-size: 48px;
-  font-weight: bold;
-  line-height: 1.5;
-  @media (max-width: 768px) {
-    font-size: 24px;
-  }
 `;
 
 const TitleDescription = styled.div`

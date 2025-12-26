@@ -1,7 +1,10 @@
 import { styled } from "styled-components";
 import { useTranslations } from "next-intl";
 
+import GeneralTitle from "./generalTitle";
 import AnimatedSection from "./AnimatedSection";
+
+import cardBgIcon from "@@/public/src/img/index/home_core_hover2.webp";
 
 export function ProtocolSection() {
   const t = useTranslations();
@@ -140,7 +143,7 @@ export function ProtocolSection() {
 
   return (
     <Wrapper>
-      <Title>{t("newindex.protocol.title")}</Title>
+      <GeneralTitle>{t("newindex.protocol.title")}</GeneralTitle>
       <Description>{t("newindex.protocol.description")}</Description>
 
       <ProtocolContent>
@@ -201,17 +204,6 @@ const Wrapper = styled(AnimatedSection)`
   }
 `;
 
-const Title = styled.div`
-  margin: 0;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 1.5;
-
-  @media (max-width: 768px) {
-    font-size: 24px;
-  }
-`;
-
 const Description = styled.div`
   font-size: 16px;
   color: #979699;
@@ -250,11 +242,26 @@ const ProtocolList = styled.div`
 `;
 
 const ProtocolItem = styled.div<{ $width: string }>`
+  position: relative;
   flex: 1 1 ${(props) => props.$width || "50%"};
   padding: 24px;
   background: rgba(250, 250, 250, 0.05);
   border-radius: 16px;
   border: 1px solid rgba(250, 250, 250, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url(${cardBgIcon.src}) no-repeat top left;
+    opacity: 0;
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
 
   @media (max-width: 768px) {
     min-width: 250px;

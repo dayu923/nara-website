@@ -1,4 +1,4 @@
-import { ThemeProvider, InkeepChatButton } from "@solana-com/ui-chrome";
+import { ThemeProvider } from "@solana-com/ui-chrome";
 import "../app/globals.css";
 import "../scss/index.scss";
 import { NextIntlClientProvider } from "next-intl";
@@ -18,7 +18,7 @@ const App = ({ Component, pageProps: { messages, ...pageProps } }) => {
       <CookieConsent />
       <ThemeProvider>
         <Component {...pageProps} key={pageProps.key} />
-        <InkeepChatButton />
+        {/* <InkeepChatButton /> */}
         <Script
           id="signals-script"
           strategy="afterInteractive"

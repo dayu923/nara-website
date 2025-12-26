@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 
 import chatIcon from "@@/public/src/img/index/home_img_chart.png";
 
+import GeneralTitle from "./generalTitle";
 import AnimatedSection from "./AnimatedSection";
 
 export function TokenomicsSection() {
@@ -49,7 +50,7 @@ export function TokenomicsSection() {
 
   return (
     <Wrapper>
-      <Title>{t("newindex.tokenomics.title")}</Title>
+      <GeneralTitle>{t("newindex.tokenomics.title")}</GeneralTitle>
       <Chat>
         <ChaLablel>{t("newindex.tokenomics.totalSupply")}</ChaLablel>
         <ChatValue>1000,000,000 NARA</ChatValue>
@@ -76,16 +77,6 @@ const Wrapper = styled(AnimatedSection)`
   @media (max-width: 768px) {
     gap: 12px;
     padding: 0 36px;
-  }
-`;
-
-const Title = styled.div`
-  margin: 0;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 1.5;
-  @media (max-width: 768px) {
-    font-size: 24px;
   }
 `;
 

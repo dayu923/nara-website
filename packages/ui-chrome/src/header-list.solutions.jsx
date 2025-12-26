@@ -67,7 +67,7 @@ const HeaderListSolutions = ({ isMobile = false }) => {
                   Icon={ChainLinkIcon}
                 />
               </Link>
-              <Link
+              {/* <Link
                 to="/wallets"
                 className="block no-underline text-inherit group/link"
                 activeClassName="active"
@@ -86,7 +86,7 @@ const HeaderListSolutions = ({ isMobile = false }) => {
                   title={solutionsToolsItems[7].title}
                   Icon={ShieldIcon}
                 />
-              </Link>
+              </Link> */}
             </div>
             <div className="divide-y divide-[rgba(238,228,255,0.04)] flex-1">
               <Link
@@ -99,7 +99,7 @@ const HeaderListSolutions = ({ isMobile = false }) => {
                   Icon={SwordIcon}
                 />
               </Link>
-              <Link
+              {/* <Link
                 to="/solutions/payments-tooling"
                 className="block no-underline text-inherit group/link"
                 activeClassName="active"
@@ -128,7 +128,7 @@ const HeaderListSolutions = ({ isMobile = false }) => {
                   title={solutionsToolsItems[4].title}
                   Icon={FlowIcon}
                 />
-              </Link>
+              </Link> */}
             </div>
             <div className="divide-y divide-[rgba(238,228,255,0.04)] flex-1">
               <Link
@@ -141,7 +141,7 @@ const HeaderListSolutions = ({ isMobile = false }) => {
                   Icon={ContrastIcon}
                 />
               </Link>
-              <Link
+              {/* <Link
                 to="/solutions/real-world-assets"
                 className="block no-underline text-inherit group/link"
                 activeClassName="active"
@@ -161,12 +161,12 @@ const HeaderListSolutions = ({ isMobile = false }) => {
                   title={solutionsToolsItems[6].title}
                   Icon={PhoneIcon}
                 />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </CollapseMenu>
       </div>
-      <div className="flex flex-col xl:flex-row">
+      {/* <div className="flex flex-col xl:flex-row">
         <div className="px-3 w-full xl:w-2/3 max-xl:border-b max-xl:border-[rgba(238,228,255,0.04)] max-xl:border-dotted">
           <CollapseMenu
             className="text-[rgba(255,255,255,0.64)] data-[state=open]:text-white"
@@ -231,7 +231,7 @@ const HeaderListSolutions = ({ isMobile = false }) => {
                     Icon={CoinIcon}
                   />
                 </Link>
-                {/* <Link
+                <Link
                 to="/solutions/defi"
                 className="block no-underline text-inherit group/link"
                 activeClassName="active"
@@ -240,8 +240,8 @@ const HeaderListSolutions = ({ isMobile = false }) => {
                   title={solutionsCasesItems[9].title}
                   Icon={CoinIcon}
                 />
-              </Link> */}
-                {/* <Link
+              </Link>
+                <Link
                 to="/solutions/consumer"
                 className="block no-underline text-inherit group/link"
                 activeClassName="active"
@@ -250,8 +250,8 @@ const HeaderListSolutions = ({ isMobile = false }) => {
                   title={solutionsCasesItems[10].title}
                   Icon={CoinIcon}
                 />
-              </Link> */}
-                {/* <Link
+              </Link>
+                <Link
                 to="/solutions/ai"
                 className="block no-underline text-inherit group/link"
                 activeClassName="active"
@@ -260,8 +260,8 @@ const HeaderListSolutions = ({ isMobile = false }) => {
                   title={solutionsCasesItems[11].title}
                   Icon={CoinIcon}
                 />
-              </Link> */}
-                {/* <Link
+              </Link>
+                <Link
                 to="/solutions/desci"
                 className="block no-underline text-inherit group/link"
                 activeClassName="active"
@@ -270,7 +270,7 @@ const HeaderListSolutions = ({ isMobile = false }) => {
                   title={solutionsCasesItems[12].title}
                   Icon={CoinIcon}
                 />
-              </Link> */}
+              </Link>
                 <Link
                   to="/solutions/enterprise"
                   className="block no-underline text-inherit group/link"
@@ -349,7 +349,7 @@ const HeaderListSolutions = ({ isMobile = false }) => {
             </div>
           </CollapseMenu>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

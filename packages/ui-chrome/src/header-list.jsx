@@ -91,7 +91,7 @@ const HeaderList = () => {
           value="network"
         >
           <NavigationMenuTrigger isActive={isNetworkActive}>
-            {t("nav.network.title")}
+            {t("nav.network.testnet")}
           </NavigationMenuTrigger>
           <NavigationMenuContent align="left">
             <HeaderListNetwork />
@@ -99,14 +99,14 @@ const HeaderList = () => {
         </NavigationMenuItem>
 
         {/* Community */}
-        <NavigationMenuItem className="w-full xl:w-auto" value="community">
+        {/* <NavigationMenuItem className="w-full xl:w-auto" value="community">
           <NavigationMenuTrigger isActive={isCommunityActive}>
             {t("nav.community.title")}
           </NavigationMenuTrigger>
           <NavigationMenuContent align="center">
             <HeaderListCommunity />
           </NavigationMenuContent>
-        </NavigationMenuItem>
+        </NavigationMenuItem> */}
       </NavigationMenuList>
     </NavigationMenu>
   );

@@ -4,7 +4,7 @@ import { HeaderItem } from "./header-item";
 import { HeaderBanner } from "./header-banner";
 import WalletIcon from "./assets/nav/learn/wallet.inline.svg";
 import DocumentsIcon from "./assets/nav/learn/documents.inline.svg";
-import EducationIcon from "./assets/nav/learn/education.inline.svg";
+// import EducationIcon from "./assets/nav/learn/education.inline.svg";
 import TradingViewIcon from "./assets/nav/learn/trading-view.inline.svg";
 
 const HeaderListLearn = () => {
@@ -48,7 +48,7 @@ const HeaderListLearn = () => {
               variant="large"
             />
           </Link>
-          <Link
+          {/* <Link
             to="/universities"
             className="block no-underline text-inherit group/link"
             activeClassName="active"
@@ -59,7 +59,7 @@ const HeaderListLearn = () => {
               Icon={EducationIcon}
               variant="large"
             />
-          </Link>
+          </Link> */}
           <Link
             to="/learn"
             className="block no-underline text-inherit group/link"

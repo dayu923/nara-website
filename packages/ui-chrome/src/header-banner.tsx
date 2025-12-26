@@ -31,7 +31,7 @@ export const HeaderBanner: React.FC<HeaderBannerProps> = ({
         "aspect-[5/4] xl:aspect-square p-4 rounded-xl flex flex-col items-start justify-between gap-2.5 max-xl:py-3 xl:py-2.5 text-[14px] xl:text-[16px] leading-[1.5]",
         className,
         `bg-cover bg-center bg-no-repeat bg-black`,
-        `xl:bg-[url(/src/img/nav/nav-banner-bg.webp)] bg-[url(/src/img/nav/nav-banner-bg-mobile.webp)]`,
+        // `xl:bg-[url(/src/img/nav/nav-banner-bg.webp)] bg-[url(/src/img/nav/nav-banner-bg-mobile.webp)]`,
       )}
     >
       <div>

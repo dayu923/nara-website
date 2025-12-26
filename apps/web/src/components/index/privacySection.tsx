@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
+import GeneralTitle from "./generalTitle";
 import AnimatedSection from "./AnimatedSection";
 
 import privacyBgIcon from "@@/public/src/img/index/home_img_privacybg.webp";
@@ -44,7 +45,7 @@ export function PrivacySection() {
 
   return (
     <PrivacySectionBox>
-      <PrivacyTitle>{t("newindex.privacy.title")}</PrivacyTitle>
+      <GeneralTitle>{t("newindex.privacy.title")}</GeneralTitle>
       <PrivacyShadowBg src={privacyBgIcon} alt="bg" />
       <PrivacyBg>
         <PrivacyList>
@@ -67,16 +68,6 @@ const PrivacySectionBox = styled(AnimatedSection)`
   position: relative;
   @media (max-width: 768px) {
     padding: 0 20px;
-  }
-`;
-
-const PrivacyTitle = styled.h1`
-  margin: 0;
-  font-size: 48px;
-  font-weight: bold;
-
-  @media (max-width: 768px) {
-    font-size: 24px;
   }
 `;
 
