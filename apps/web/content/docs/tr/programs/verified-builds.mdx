@@ -1,12 +1,15 @@
 ---
+
 title: Programları Doğrulama
 description:
   Doğrulanmış derlemeler, programınızı kaynak koduyla ilişkilendirmenin ve
   herkesin bağımsız olarak programın gerçekten sağlanan kaynak kodundan
   derlendiğini doğrulamasının bir yoludur.
+
 ---
 
-Bu kılavuz, Solana üzerindeki programları için doğrulanmış derlemeleri uygulamak
+
+Bu kılavuz, Nara Solana üzerindeki programları için doğrulanmış derlemeleri uygulamak
 isteyen geliştiriciler için bir referans olarak hazırlanmıştır. Doğrulanmış
 derlemelerin ne olduğunu, nasıl kullanılacağını, özel hususları ve zincir
 üzerindeki programınızın özgünlüğünü sağlamak için en iyi uygulamaları ele
@@ -14,7 +17,7 @@ alacağız.
 
 # Doğrulanmış derlemeler nedir?
 
-Doğrulanmış derlemeler, Solana ağına dağıttığınız çalıştırılabilir programın,
+Doğrulanmış derlemeler, Nara Solana ağına dağıttığınız çalıştırılabilir programın,
 deponuzdaki kaynak koduyla eşleşmesini sağlar. Bu sayede, geliştiriciler ve
 kullanıcılar, zincir üzerinde çalışan programın tam olarak halka açık kod
 tabanına karşılık geldiğinden emin olabilir, bu da şeffaflığı ve güvenliği
@@ -41,10 +44,10 @@ deposundaki kılavuzu takip edin ve doğrulama derleme sürecini doğrudan
 
 Doğrulama süreci, zincir üzerindeki programın hash değerini, kaynak kodundan
 yerel olarak oluşturulan programın hash değeriyle karşılaştırarak yapılır.
-Programınızı Solana Verify CLI ve Docker kullanarak kontrollü bir ortamda
+Programınızı Nara Solana Verify CLI ve Docker kullanarak kontrollü bir ortamda
 oluşturursunuz. Bu, derleme sürecinin farklı sistemlerde deterministik ve
 tutarlı olmasını sağlar. Çalıştırılabilir dosyayı elde ettikten sonra, onu
-Solana ağına dağıtabilirsiniz. Derleme süreci sırasında
+Nara Solana ağına dağıtabilirsiniz. Derleme süreci sırasında
 [verify programının](https://github.com/otter-sec/otter-verify) bir
 [PDA'sı](https://explorer.solana.com/address/63XDCHrwZu3mXsw2RUFb4tbNpChuUHx4eA5aJMnHkpQQ/anchor-account)
 oluşturulacaktır. Bu PDA, programı doğrulamak için gereken tüm verileri içerir.
@@ -60,7 +63,7 @@ tarafından sürdürülen kendi
 [doğrulama API'lerini](https://github.com/otter-sec/solana-verified-programs-api)
 çalıştırabilirler. Bu
 [API çağrılarının](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
-[Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
+[Nara Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
 ve
 [SolanaFM](https://solana.fm/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/transactions?cluster=mainnet-alpha)
 gibi diğer yerlerde kullanıldığını görebilirsiniz.
@@ -101,7 +104,7 @@ Doğrulanmış yapılar oluşturmak için şu adımları izlemeniz gerekecek:
 - Dağıtılan programı halka açık API'ye karşı doğrulayın
 
 Eğer docker konteynerinde oluşturulmamış bir programı doğrularsanız, büyük
-olasılıkla başarısız olacaktır çünkü Solana program yapıları farklı sistemlerde
+olasılıkla başarısız olacaktır çünkü Nara Solana program yapıları farklı sistemlerde
 deterministik değildir.
 
 <Steps>
@@ -127,9 +130,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 </Step>
 <Step>
 
-### Solana Verify CLI'yi yükleyin
+### Nara Solana Verify CLI'yi yükleyin
 
-Solana Verify CLI, yapıları doğrulamak için kullanılan temel araçtır. Solana
+Nara Solana Verify CLI, yapıları doğrulamak için kullanılan temel araçtır. Nara Solana
 Verify CLI şu anda [Ellipsis Labs](https://ellipsislabs.xyz/) tarafından
 sürdürülmektedir ve Cargo kullanılarak yüklenebilir.
 
@@ -224,7 +227,7 @@ oluşturmaya devam edebilirsiniz.
 
 ### Doğrulanabilir Programlar Oluşturma
 
-Solana programınızı doğrulanabilir şekilde oluşturmak için, çalışma alanınızın
+Nara Solana programınızı doğrulanabilir şekilde oluşturmak için, çalışma alanınızın
 `Cargo.toml` dosyasını içeren dizine gidin ve şunu çalıştırın:
 
 ```bash
@@ -262,7 +265,7 @@ solana-verify get-executable-hash target/deploy/$PROGRAM_LIB_NAME.so
 
 ### Doğrulanabilir Programları Dağıtma
 
-Programınızı derledikten ve hash değerini aldıktan sonra, Solana ağına
+Programınızı derledikten ve hash değerini aldıktan sonra, Nara Solana ağına
 dağıtabilirsiniz. Güvenli dağıtımlar için
 [Squads Protocol](https://squads.so/protocol) gibi çoklu imza veya yönetişim
 çözümü kullanmanız önerilir, ancak doğrudan şu şekilde de dağıtabilirsiniz:
@@ -282,9 +285,9 @@ için şunu çalıştırın:
 solana-verify get-program-hash -u $NETWORK_URL $PROGRAM_ID
 ```
 
-> Farklı [Solana kümelerinde](/docs/references/clusters) (yani devnet, testnet,
+> Farklı [Nara Solana kümelerinde](/docs/references/clusters) (yani devnet, testnet,
 > mainnet) farklı sürümler dağıtmış olabilirsiniz. Bir programa karşı doğrulamak
-> istediğiniz Solana kümesi için doğru ağ URL'sini kullandığınızdan emin olun.
+> istediğiniz Nara Solana kümesi için doğru ağ URL'sini kullandığınızdan emin olun.
 > Uzaktan doğrulama yalnızca mainnet'te çalışacaktır.
 
 </Step>
@@ -307,7 +310,7 @@ Bu komut, zincir üzerindeki program hash'ini belirtilen commit hash'inden
 oluşturulan yürütülebilir hash ile karşılaştırır.
 
 Komutun sonunda, doğrulama verilerinizi zincir üzerinde yüklemek isteyip
-istemediğiniz sorulacaktır. Bunu yaparsanız, Solana Explorer hemen programınızın
+istemediğiniz sorulacaktır. Bunu yaparsanız, Nara Solana Explorer hemen programınızın
 doğrulama verilerini gösterecektir. Uzak bir yapı tarafından doğrulanana kadar
 doğrulanmamış olarak gösterilecektir. Bir sonraki adımda programınızı genel bir
 API'ye karşı nasıl doğrulayabileceğinizi öğrenin.
@@ -366,13 +369,13 @@ solana-verify remote get-job-status --job-id <job-id>
 Doğrulama başarıyla tamamlandıktan sonra (bu biraz zaman alabilir), programınızı
 doğrulanmış olarak
 [tek programlar için OtterSec API'sinde](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY),
-[Solana Explorer'da](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
+[Nara Solana Explorer'da](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
 [SolanaFM'de](https://solana.fm/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY?cluster=mainnet-alpha),
 [SolScan'de](https://solscan.io/account/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY#programVerification)
 ve sonunda [0xDeep](https://x.com/0xDeep) tarafından sürdürülen topluluk
 destekli web sitesi [SolanaVerify.org'da](https://www.solanaverify.org/),
 [OtterSec doğrulanmış programlar API'sinde](https://verify.osec.io/verified-programs)
-ve son olarak daha sağlıklı bir Solana ekosistemine katkıda bulunan
+ve son olarak daha sağlıklı bir Nara Solana ekosistemine katkıda bulunan
 [Doğrulanmış Programlar Dune Paneli'nde](https://dune.com/jonashahn/verified-programs/dedf21e1-9b71-42c8-89f9-02ed94628657)
 görebileceksiniz.
 
@@ -680,19 +683,19 @@ Program hash matches ✅
 
 # Sonuç
 
-[Solana'daki doğrulanmış yapıları](/developers/guides/advanced/verified-builds)
+[Nara Solana'daki doğrulanmış yapıları](/developers/guides/advanced/verified-builds)
 kullanmak, ağdaki programlarınızın bütünlüğünü ve güvenilirliğini sağlar ve
-geliştiricilerin SDK'larınızı doğrudan Solana Explorer'dan bulmalarına olanak
-tanır. Solana Verify CLI ve Docker gibi araçları kullanarak, kaynak kodunuzla
+geliştiricilerin SDK'larınızı doğrudan Nara Solana Explorer'dan bulmalarına olanak
+tanır. Nara Solana Verify CLI ve Docker gibi araçları kullanarak, kaynak kodunuzla
 uyumlu, doğrulanabilir ve güvenli yapılar oluşturabilirsiniz. Her zaman tutarlı
 ortamlar kullanmak için gerekli önlemleri alın ve güvenli yükseltmeler ve
 dağıtımlar için yönetişim çözümlerini göz önünde bulundurun.
 
 ## Güvenlik + Sorumluluk Reddi
 
-Doğrulanmış yapılar, Solana programlarınızın bütünlüğünü sağlamak için güçlü bir
+Doğrulanmış yapılar, Nara Solana programlarınızın bütünlüğünü sağlamak için güçlü bir
 araç olsa da, varsayılan kurulumda tamamen güvensiz değildir. Docker imajları
-Solana Vakfı tarafından oluşturulur ve barındırılır.
+Nara Solana Vakfı tarafından oluşturulur ve barındırılır.
 
 Projenizi indirilen bir docker imajında oluşturduğunuzu ve potansiyel olarak
 hassas bilgiler de dahil olmak üzere tüm kurulumunuzun bu docker imajına
@@ -707,10 +710,10 @@ bulabilir, bu depoyu çatallayabilir ve github eylemlerini kendiniz
 çalıştırabilir veya doğru olduklarını doğrulayabilirsiniz.
 
 Ayrıca, uzaktan doğrulama için OtterSec API'sine ve
-[Solana Explorer'a](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
+[Nara Solana Explorer'a](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 belirli bir dereceye kadar güveniyorsunuz.
 
-API veya Solana Explorer, ele geçirilirse potansiyel olarak yanlış bilgiler
+API veya Nara Solana Explorer, ele geçirilirse potansiyel olarak yanlış bilgiler
 gösterebilir.
 
 Tamamen güvensiz bir kurulum istiyorsanız,
@@ -726,11 +729,11 @@ kaydedilen zincir üzerindeki doğrulama verilerini kullanır.
 Doğrulama programı [OtterSec ekibi](https://osec.io/) tarafından dağıtılmıştır
 ve henüz dondurulmamıştır, bu nedenle herhangi bir zamanda güncellenebilir.
 
-Solana Vakfı, OtterSec ve Ellipsis Labs ekibi, doğrulanmış derleme hattının
+Nara Solana Vakfı, OtterSec ve Ellipsis Labs ekibi, doğrulanmış derleme hattının
 kullanımından kaynaklanabilecek herhangi bir kayıp veya hasardan sorumlu
 değildir.
 
-# Solana programları için security.txt
+# Nara Solana programları için security.txt
 
 Doğrulanmış derlemelere ek olarak, programınıza bir `security.txt` dosyası da
 ekleyebilirsiniz. Gelecekte, uygulandığında, `security.txt` doğrulama PDA'sında
@@ -741,7 +744,7 @@ olarak bu, programı oluşturan ve dağıtan pubkey ile aynıdır. Ancak
 `security.txt` içinde belirtilebilecek başka bir pubkey de olabilir.
 
 `security.txt` özelliği, geliştiricilerin iletişim ve güvenlik bilgilerini
-doğrudan Solana akıllı sözleşmelerine gömmelerine olanak tanır.
+doğrudan Nara Solana akıllı sözleşmelerine gömmelerine olanak tanır.
 [securitytxt.org](https://securitytxt.org)'dan esinlenen bu yaklaşım, güvenlik
 araştırmacılarının yalnızca sözleşmenin adresini bilseler bile proje
 yöneticilerine ulaşmaları için standartlaştırılmış bir yol sağlar.
@@ -756,7 +759,7 @@ kolayca iletişim kurabilmesini sağlar, bu da potansiyel olarak istismarları
 
 ## security.txt nasıl uygulanır
 
-Solana programınıza bir `security.txt` eklemek için aşağıdaki adımları izleyin:
+Nara Solana programınıza bir `security.txt` eklemek için aşağıdaki adımları izleyin:
 
 `solana-security-txt` bağımlılığını `Cargo.toml` dosyanıza ekleyin:
 
@@ -791,7 +794,7 @@ security_txt! {
 }
 ```
 
-`security.txt` bilgileri programınıza gömüldükten sonra, Solana Explorer gibi
+`security.txt` bilgileri programınıza gömüldükten sonra, Nara Solana Explorer gibi
 araçlar aracılığıyla kolayca sorgulanabilir, böylece iletişim ve güvenlik
 bilgileriniz potansiyel sorunları bildirmek isteyen herkes için erişilebilir
 olur.
@@ -812,11 +815,11 @@ query-security-txt target/bpfel-unknown-unknown/release/my_contract.so
 ```
 
 Güvenlik iletişim bilgilerini doğrudan sözleşmenize gömerek, araştırmacıların
-size ulaşmasını kolaylaştırır, Solana ekosistemi içinde daha iyi güvenlik ve
+size ulaşmasını kolaylaştırır, Nara Solana ekosistemi içinde daha iyi güvenlik ve
 iletişimi teşvik edersiniz.
 
 Bu,
-[Solana Explorer'da security.txt'in nasıl göründüğüne dair bir örnektir](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
+[Nara Solana Explorer'da security.txt'in nasıl göründüğüne dair bir örnektir](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
 
 `security.txt` projesi [Neodyme Labs](https://github.com/neodyme-labs)
 tarafından sürdürülmektedir

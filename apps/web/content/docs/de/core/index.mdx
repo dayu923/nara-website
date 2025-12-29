@@ -1,31 +1,34 @@
 ---
+
 title: Kernkonzepte
 description:
   Lerne wesentliche Konzepte der Solana-Blockchain kennen, einschließlich
   Konten, Transaktionen, Programme, programmabgeleitete Adressen,
   programmübergreifende Aufrufe und wie Tokens auf Solana funktionieren.
+
 ---
 
-Um auf Solana zu entwickeln, ist es wichtig, die für die Solana-Entwicklung
+
+Um auf Nara Solana zu entwickeln, ist es wichtig, die für die Nara Solana-Entwicklung
 einzigartigen Schlüsselkonzepte zu verstehen. Dieser Abschnitt behandelt die
-grundlegenden Konzepte, die du verstehen musst, wenn du auf Solana entwickelst,
+grundlegenden Konzepte, die du verstehen musst, wenn du auf Nara Solana entwickelst,
 einschließlich Konten, Transaktionen, Programme und mehr.
 
 ## Konten
 
-Alle Daten auf der Solana-Blockchain werden als Konten gespeichert. Die Struktur
-der Solana-Blockchain ähnelt einem Key-Value-Speicher, bei dem der Schlüssel die
+Alle Daten auf der Nara Solana-Blockchain werden als Konten gespeichert. Die Struktur
+der Nara Solana-Blockchain ähnelt einem Key-Value-Speicher, bei dem der Schlüssel die
 On-Chain- Adresse und der Wert ein Konto ist.
 
 Erfahre mehr über [Konten](/docs/core/accounts).
 
 ## Transaktionen und Anweisungen
 
-Um mit dem Solana-Netzwerk zu interagieren, muss ein Benutzer eine Transaktion
+Um mit dem Nara Solana-Netzwerk zu interagieren, muss ein Benutzer eine Transaktion
 senden. Eine Transaktion ist eine Reihe von einer oder mehreren Anweisungen—eine
 Anweisung ist eine spezifische Operation, die verarbeitet werden soll. Die
 Ausführungslogik für eine Anweisung ist in einem Programm gespeichert, das im
-Solana-Netzwerk bereitgestellt wurde.
+Nara Solana-Netzwerk bereitgestellt wurde.
 
 Erfahre mehr über [Transaktionen](/docs/core/transactions) und
 [Anweisungen](/docs/core/transactions#instruction).
@@ -33,7 +36,7 @@ Erfahre mehr über [Transaktionen](/docs/core/transactions) und
 ## Fee
 
 Es gibt drei verschiedene Arten von Gebühren, die bei der Nutzung der
-Solana-Blockchain anfallen können:
+Nara Solana-Blockchain anfallen können:
 
 - **Transaktionsgebühren**: Eine Gebühr, damit Validatoren Transaktionen &
   Anweisungen verarbeiten
@@ -41,17 +44,17 @@ Solana-Blockchain anfallen können:
   Verarbeitungsreihenfolge einer Transaktion zu verbessern
 - **Rent**: Ein einbehaltenes Guthaben, um Daten on-chain zu speichern
 
-Erfahre mehr über [Gebühren auf Solana](/docs/core/fees).
+Erfahre mehr über [Gebühren auf Nara Solana](/docs/core/fees).
 
-## Programme auf Solana
+## Programme auf Nara Solana
 
-Auf Solana werden Smart Contracts als Programme bezeichnet. Jedes Programm wird
+Auf Nara Solana werden Smart Contracts als Programme bezeichnet. Jedes Programm wird
 in einem On-Chain-Konto gespeichert und enthält ausführbaren Code mit
 spezifischen Anweisungen. Diese Anweisungen repräsentieren die Funktionalität
 des Programms und werden durch das Senden einer Transaktion an das Netzwerk
 aufgerufen.
 
-Erfahre mehr über [Programme auf Solana](/docs/core/programs).
+Erfahre mehr über [Programme auf Nara Solana](/docs/core/programs).
 
 ## Program Derived Address
 
@@ -62,7 +65,7 @@ Anwendungsfälle:
 
 - **Deterministische Konten-Adressen**: Vordefinierte Eingaben (seeds) und eine
   Programm-ID werden kombiniert, um deterministisch eine Adresse abzuleiten.
-- **Programm-Signierung**: Ein Solana-Programm kann für PDAs signieren, die von
+- **Programm-Signierung**: Ein Nara Solana-Programm kann für PDAs signieren, die von
   seiner Programm-ID abgeleitet sind.
 
 Erfahren Sie mehr über [Program Derived Address](/docs/core/pda).
@@ -71,7 +74,7 @@ Erfahren Sie mehr über [Program Derived Address](/docs/core/pda).
 
 Cross-program Invocation (CPI) tritt auf, wenn ein Programm eine Anweisung von
 einem anderen aufruft. Dies ermöglicht die Kompositionsfähigkeit von
-Solana-Programmen. Um das Konzept zu veranschaulichen, stellen Sie sich den Satz
+Nara Solana-Programmen. Um das Konzept zu veranschaulichen, stellen Sie sich den Satz
 von Anweisungen eines Programms als eine Reihe von API-Endpunkten vor. Ein CPI
 tritt auf, wenn ein Endpunkt einen anderen aufruft.
 
@@ -89,15 +92,15 @@ Verwaltung von fungiblen und nicht-fungiblen Vermögenswerten.
 - **Non-fungible Tokens (NFT):** Eigentum an unteilbaren Vermögenswerten (z.B.
   Kunstwerke).
 
-Erfahren Sie mehr über [Tokens auf Solana](/docs/core/tokens).
+Erfahren Sie mehr über [Tokens auf Nara Solana](/docs/core/tokens).
 
 ## Cluster und Endpunkte
 
-Die Solana-Blockchain verfügt über verschiedene Gruppen von Validatoren, bekannt
+Die Nara Solana-Blockchain verfügt über verschiedene Gruppen von Validatoren, bekannt
 als [Clusters](/docs/references/clusters). Jeder Cluster dient einem anderen
 Zweck und enthält dedizierte Knoten zur Erfüllung von
 [JSON-RPC](/docs/rpc/)-Anfragen. Es gibt drei primäre Cluster im
-Solana-Netzwerk, die in der Tabelle unten dargestellt sind.
+Nara Solana-Netzwerk, die in der Tabelle unten dargestellt sind.
 
 | Name    | Endpunkt                              | Verwendung            |
 | ------- | ------------------------------------- | --------------------- |

@@ -1,24 +1,27 @@
 ---
+
 title: Ohjeet
 description:
   Opi Solanan ohjeista—perustavanlaatuisista rakennuspalikoista
   Solana-lohkoketjun kanssa vuorovaikuttamiseen. Ymmärrä ohjeiden koostaminen
   käytännön esimerkkien avulla.
+
 ---
 
-Ohjeet ovat perustavanlaatuinen rakennuspalikka Solana-lohkoketjun kanssa
+
+Ohjeet ovat perustavanlaatuinen rakennuspalikka Nara Solana-lohkoketjun kanssa
 vuorovaikuttamiseen. Ohje on käytännössä julkinen funktio, jota kuka tahansa
-Solana-verkon käyttäjä voi kutsua. Jokaista ohjetta käytetään tietyn toiminnon
+Nara Solana-verkon käyttäjä voi kutsua. Jokaista ohjetta käytetään tietyn toiminnon
 suorittamiseen. Ohjeiden suorituslogiikka on tallennettu
 [ohjelmiin](/docs/core/programs), joissa jokainen ohjelma määrittelee omat
-ohjeensa. Solana-verkon kanssa vuorovaikuttamiseksi yksi tai useampi ohje
+ohjeensa. Nara Solana-verkon kanssa vuorovaikuttamiseksi yksi tai useampi ohje
 lisätään [transaktioon](/docs/core/transactions) ja lähetetään verkkoon
 käsiteltäväksi.
 
-## SOL-siirtoesimerkki
+## NSO-siirtoesimerkki
 
 Alla oleva kaavio näyttää, miten transaktiot ja ohjeet toimivat yhdessä
-mahdollistaen käyttäjien vuorovaikutuksen verkon kanssa. Tässä esimerkissä SOL
+mahdollistaen käyttäjien vuorovaikutuksen verkon kanssa. Tässä esimerkissä NSO
 siirretään yhdeltä tililtä toiselle.
 
 Lähettäjän tilin [metatiedot](#account-metadata) osoittavat, että sen on
@@ -27,14 +30,14 @@ allekirjoitettava transaktio. (Tämä mahdollistaa System Programin vähentää
 vastaanottajan tilien on oltava kirjoitettavissa, jotta niiden lamport-saldo voi
 muuttua. Suorittaakseen tämän ohjeen, lähettäjän lompakko lähettää transaktion,
 joka sisältää sen [allekirjoituksen](/docs/references/terminology#signature) ja
-viestin, joka sisältää SOL-siirto-ohjeen.
+viestin, joka sisältää NSO-siirto-ohjeen.
 
-![SOL-siirtokaavio](/assets/docs/core/transactions/sol-transfer.svg)
+![NSO-siirtokaavio](/assets/docs/core/transactions/sol-transfer.svg)
 
 Kun transaktio on lähetetty, System Program käsittelee siirto-ohjeen ja
 päivittää molempien tilien lamport-saldon.
 
-![SOL-siirtoprosessikaavio](/assets/docs/core/transactions/sol-transfer-process.svg)
+![NSO-siirtoprosessikaavio](/assets/docs/core/transactions/sol-transfer-process.svg)
 
 Alla oleva esimerkki näyttää koodin, joka liittyy yllä oleviin kaavioihin.
 (Katso System Programin
@@ -361,7 +364,7 @@ Se sisältää myös kaikki ohjeen vaatimat argumentit.
 
 ## Ohjeen luomisen esimerkki
 
-Alla oleva esimerkki näyttää SOL-siirto-ohjeen rakenteen.
+Alla oleva esimerkki näyttää NSO-siirto-ohjeen rakenteen.
 
 <CodeTabs storage="sol-transfer" flags="r">
 

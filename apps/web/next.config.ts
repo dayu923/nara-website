@@ -7,6 +7,7 @@ import withBundleAnalyzer from "@next/bundle-analyzer";
 import { builder } from "@builder.io/sdk";
 import { createMDX } from "fumadocs-mdx/next";
 import { withSentryConfig } from "@sentry/nextjs";
+import path from "node:path";
 
 const securityHeaders: Array<{ key: string; value: string }> = [
   {
@@ -136,11 +137,11 @@ const nextConfig: NextConfig = {
   },
 
   webpack(config) {
-    config.module.rules.push({
-      test: /\.tsx?$/,
-      use: "ts-loader",
-      exclude: /node_modules/,
-    });
+    // config.module.rules.push({
+    //   test: /\.tsx?$/,
+    //   use: "ts-loader",
+    //   exclude: /node_modules/,
+    // });
 
     config.module.rules.push({
       test: /\.inline\.svg$/,
@@ -169,6 +170,9 @@ const nextConfig: NextConfig = {
       test: /(?<!inline)\.svg$/,
       type: "asset",
     });
+
+    config.resolve.alias["@"] = path.resolve(__dirname, "src");
+    config.resolve.alias["@@"] = path.resolve(__dirname);
 
     return config;
   },

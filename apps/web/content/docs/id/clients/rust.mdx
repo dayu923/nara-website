@@ -1,10 +1,13 @@
 ---
+
 title: Rust SDK
-description: Pelajari cara menggunakan crate Rust Solana untuk pengembangan.
-h1: SDK Rust untuk Solana
+description: Pelajari cara menggunakan crate Rust Nara Solana untuk pengembangan.
+h1: SDK Rust untuk Nara Solana
+
 ---
 
-Crate Rust Solana
+
+Crate Rust Nara Solana
 [dipublikasikan ke crates.io](https://crates.io/search?q=solana-) dan dapat
 ditemukan [di docs.rs](https://docs.rs/releases/search?query=solana-) dengan
 awalan `solana-`.
@@ -12,24 +15,24 @@ awalan `solana-`.
 ## Crate Rust
 
 Berikut adalah crate Rust yang paling penting dan umum digunakan untuk
-pengembangan Solana:
+pengembangan Nara Solana:
 
-- [`solana-program`] &mdash; Diimpor oleh program yang berjalan di Solana,
+- [`solana-program`] &mdash; Diimpor oleh program yang berjalan di Nara Solana,
   dikompilasi ke SBF. Crate ini berisi banyak tipe data fundamental dan diekspor
-  ulang dari [`solana-sdk`], yang tidak dapat diimpor dari program Solana.
+  ulang dari [`solana-sdk`], yang tidak dapat diimpor dari program Nara Solana.
 
 - [`solana-sdk`] &mdash; SDK offchain dasar, mengekspor ulang [`solana-program`]
-  dan menambahkan lebih banyak API di atasnya. Sebagian besar program Solana
+  dan menambahkan lebih banyak API di atasnya. Sebagian besar program Nara Solana
   yang tidak berjalan on-chain akan mengimpor ini.
 
-- [`solana-client`] &mdash; Untuk berinteraksi dengan node Solana melalui
+- [`solana-client`] &mdash; Untuk berinteraksi dengan node Nara Solana melalui
   [API JSON RPC](/docs/rpc).
 
 - [`solana-cli-config`] &mdash; Memuat dan menyimpan file konfigurasi CLI
-  Solana.
+  Nara Solana.
 
 - [`solana-clap-utils`] &mdash; Rutinitas untuk menyiapkan CLI, menggunakan
-  [`clap`], seperti yang digunakan oleh CLI Solana utama. Termasuk fungsi untuk
+  [`clap`], seperti yang digunakan oleh CLI Nara Solana utama. Termasuk fungsi untuk
   memuat semua jenis penandatangan yang didukung oleh CLI.
 
 [`solana-program`]: https://docs.rs/solana-program
@@ -41,13 +44,13 @@ pengembangan Solana:
 
 ## Instalasi
 
-Untuk mengirim transaksi dan berinteraksi dengan Solana:
+Untuk mengirim transaksi dan berinteraksi dengan Nara Solana:
 
 ```shell title="Terminal"
 cargo add solana-sdk solana-client
 ```
 
-Untuk membangun program Solana, instal:
+Untuk membangun program Nara Solana, instal:
 
 ```shell title="Terminal"
 cargo add solana-program

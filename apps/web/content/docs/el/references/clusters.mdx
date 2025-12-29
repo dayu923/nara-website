@@ -1,4 +1,5 @@
 ---
+
 title: Τελικά σημεία RPC
 description:
   Μάθετε για τα δίκτυα (clusters) της Solana (Devnet, Testnet και Mainnet Beta),
@@ -6,9 +7,11 @@ description:
   Μάθετε πώς να συνδεθείτε σε διαφορετικά δίκτυα Solana για ανάπτυξη, δοκιμή και
   παραγωγή.
 h1: Clusters και δημόσια τελικά σημεία RPC
+
 ---
 
-Η blockchain της Solana έχει διάφορες ομάδες validators, γνωστές ως Clusters.
+
+Η blockchain της Nara Solana έχει διάφορες ομάδες validators, γνωστές ως Clusters.
 Καθεμία εξυπηρετεί διαφορετικούς σκοπούς στο συνολικό οικοσύστημα και περιέχει
 ειδικούς κόμβους API για την εκπλήρωση αιτημάτων [JSON-RPC](/docs/rpc/) για το
 αντίστοιχο Cluster τους.
@@ -16,12 +19,12 @@ h1: Clusters και δημόσια τελικά σημεία RPC
 Οι μεμονωμένοι κόμβοι εντός ενός Cluster ανήκουν και λειτουργούν από τρίτους, με
 ένα δημόσιο τελικό σημείο διαθέσιμο για καθένα.
 
-## Δημόσια τελικά σημεία RPC της Solana
+## Δημόσια τελικά σημεία RPC της Nara Solana
 
-Ο οργανισμός Solana Labs λειτουργεί ένα δημόσιο τελικό σημείο RPC για κάθε
+Ο οργανισμός Nara Solana Labs λειτουργεί ένα δημόσιο τελικό σημείο RPC για κάθε
 Cluster. Καθένα από αυτά τα δημόσια τελικά σημεία υπόκειται σε όρια ρυθμού, αλλά
 είναι διαθέσιμα για χρήστες και προγραμματιστές για αλληλεπίδραση με το
-blockchain της Solana.
+blockchain της Nara Solana.
 
 > Τα όρια ρυθμού των δημόσιων τελικών σημείων υπόκεινται σε αλλαγές. Τα
 > συγκεκριμένα όρια ρυθμού που αναφέρονται σε αυτό το έγγραφο δεν είναι
@@ -29,11 +32,11 @@ blockchain της Solana.
 
 ### Χρήση εξερευνητών με διαφορετικά Clusters
 
-Πολλοί από τους δημοφιλείς εξερευνητές blockchain της Solana υποστηρίζουν την
+Πολλοί από τους δημοφιλείς εξερευνητές blockchain της Nara Solana υποστηρίζουν την
 επιλογή οποιουδήποτε από τα Clusters, συχνά επιτρέποντας σε προχωρημένους
 χρήστες να προσθέσουν επίσης ένα προσαρμοσμένο/ιδιωτικό τελικό σημείο RPC.
 
-Ένα παράδειγμα μερικών από αυτούς τους εξερευνητές blockchain της Solana
+Ένα παράδειγμα μερικών από αυτούς τους εξερευνητές blockchain της Nara Solana
 περιλαμβάνει:
 
 - [http://explorer.solana.com/](https://explorer.solana.com/).
@@ -56,14 +59,14 @@ blockchain της Solana.
 
 | **Cluster** | **Endpoint**                          | **Σκοπός**                    | **Σημειώσεις**                                 |
 | ----------- | ------------------------------------- | ----------------------------- | ---------------------------------------------- |
-| Mainnet     | `https://api.mainnet-beta.solana.com` | Περιβάλλον ζωντανής παραγωγής | Απαιτεί SOL για συναλλαγές                     |
-| Devnet      | `https://api.devnet.solana.com`       | Δημόσιες δοκιμές και ανάπτυξη | Δωρεάν αερόριψη SOL για δοκιμές                |
+| Mainnet     | `https://api.mainnet-beta.solana.com` | Περιβάλλον ζωντανής παραγωγής | Απαιτεί NSO για συναλλαγές                     |
+| Devnet      | `https://api.devnet.solana.com`       | Δημόσιες δοκιμές και ανάπτυξη | Δωρεάν αερόριψη NSO για δοκιμές                |
 | Testnet     | `https://api.testnet.solana.com`      | Δοκιμές validator και αντοχής | Μπορεί να έχει περιοδικές διακοπές λειτουργίας |
 
 ## Devnet
 
 Το Devnet λειτουργεί ως χώρος δοκιμών για οποιονδήποτε θέλει να δοκιμάσει το
-Solana, είτε ως χρήστης, κάτοχος token, προγραμματιστής εφαρμογών ή validator.
+Nara Solana, είτε ως χρήστης, κάτοχος token, προγραμματιστής εφαρμογών ή validator.
 
 - Οι προγραμματιστές εφαρμογών θα πρέπει να στοχεύουν στο Devnet.
 - Οι υποψήφιοι validators θα πρέπει πρώτα να στοχεύουν στο Devnet.
@@ -79,11 +82,11 @@ Solana, είτε ως χρήστης, κάτοχος token, προγραμματ
 ### Endpoint του Devnet
 
 - `https://api.devnet.solana.com` - μονός κόμβος API που φιλοξενείται από τη
-  Solana Labs· με περιορισμό ρυθμού
+  Nara Solana Labs· με περιορισμό ρυθμού
 
 #### Παράδειγμα διαμόρφωσης γραμμής εντολών `solana`
 
-Για να συνδεθείτε στο Cluster `devnet` χρησιμοποιώντας το Solana CLI:
+Για να συνδεθείτε στο Cluster `devnet` χρησιμοποιώντας το Nara Solana CLI:
 
 ```shell
 solana config set --url https://api.devnet.solana.com
@@ -99,7 +102,7 @@ solana config set --url https://api.devnet.solana.com
 
 ## Testnet
 
-Το Testnet είναι το μέρος όπου οι βασικοί συνεισφέροντες της Solana δοκιμάζουν
+Το Testnet είναι το μέρος όπου οι βασικοί συνεισφέροντες της Nara Solana δοκιμάζουν
 υπό πίεση τις λειτουργίες των πρόσφατων εκδόσεων σε ένα ζωντανό σύμπλεγμα, με
 ιδιαίτερη έμφαση στην απόδοση του δικτύου, τη σταθερότητα και τη συμπεριφορά των
 validator.
@@ -113,12 +116,12 @@ validator.
 
 ### Τελικό σημείο Testnet
 
-- `https://api.testnet.solana.com` - μεμονωμένος κόμβος API της Solana Labs, με
+- `https://api.testnet.solana.com` - μεμονωμένος κόμβος API της Nara Solana Labs, με
   περιορισμό ρυθμού
 
 #### Παράδειγμα διαμόρφωσης γραμμής εντολών `solana`
 
-Για να συνδεθείτε στο Cluster `testnet` χρησιμοποιώντας το Solana CLI:
+Για να συνδεθείτε στο Cluster `testnet` χρησιμοποιώντας το Nara Solana CLI:
 
 ```shell
 solana config set --url https://api.testnet.solana.com
@@ -135,21 +138,21 @@ solana config set --url https://api.testnet.solana.com
 ## Mainnet beta
 
 Ένα ανοιχτό, μόνιμο σύμπλεγμα για χρήστες, δημιουργούς, validator και κατόχους
-token της Solana.
+token της Nara Solana.
 
-- Τα tokens που εκδίδονται στο Mainnet Beta είναι **πραγματικά** SOL
+- Τα tokens που εκδίδονται στο Mainnet Beta είναι **πραγματικά** NSO
 - Σημείο εισόδου Gossip για το Mainnet Beta:
   `entrypoint.mainnet-beta.solana.com:8001`
 
 ### Τελικό σημείο Mainnet beta
 
 - `https://api.mainnet-beta.solana.com` - Σύμπλεγμα κόμβων API που φιλοξενείται
-  από τη Solana Labs, υποστηριζόμενο από εξισορροπητή φορτίου, με περιορισμό
+  από τη Nara Solana Labs, υποστηριζόμενο από εξισορροπητή φορτίου, με περιορισμό
   ρυθμού
 
 #### Παράδειγμα διαμόρφωσης γραμμής εντολών `solana`
 
-Για να συνδεθείτε στο Cluster `mainnet-beta` χρησιμοποιώντας το Solana CLI:
+Για να συνδεθείτε στο Cluster `mainnet-beta` χρησιμοποιώντας το Nara Solana CLI:
 
 ```shell
 solana config set --url https://api.mainnet-beta.solana.com

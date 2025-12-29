@@ -1,4 +1,5 @@
 ---
+
 title: Points de terminaison RPC
 description:
   Découvrez les clusters du réseau Solana (Devnet, Testnet et Mainnet Beta),
@@ -6,9 +7,11 @@ description:
   d'utilisation. Apprenez comment vous connecter aux différents réseaux Solana
   pour le développement, les tests et la production.
 h1: Clusters et points de terminaison RPC publics
+
 ---
 
-La blockchain Solana dispose de plusieurs groupes différents de validators,
+
+La blockchain Nara Solana dispose de plusieurs groupes différents de validators,
 connus sous le nom de Clusters. Chacun sert des objectifs différents au sein de
 l'écosystème global et contient des nœuds API dédiés pour répondre aux requêtes
 [JSON-RPC](/docs/rpc/) pour leur Cluster respectif.
@@ -16,12 +19,12 @@ l'écosystème global et contient des nœuds API dédiés pour répondre aux req
 Les nœuds individuels au sein d'un Cluster sont détenus et exploités par des
 tiers, avec un point de terminaison public disponible pour chacun.
 
-## Points de terminaison RPC publics de Solana
+## Points de terminaison RPC publics de Nara Solana
 
-L'organisation Solana Labs exploite un point de terminaison RPC public pour
+L'organisation Nara Solana Labs exploite un point de terminaison RPC public pour
 chaque Cluster. Chacun de ces points de terminaison publics est soumis à des
 limites de taux, mais est disponible pour les utilisateurs et développeurs afin
-d'interagir avec la blockchain Solana.
+d'interagir avec la blockchain Nara Solana.
 
 > Les limites de taux des points de terminaison publics sont sujettes à
 > modification. Les limites de taux spécifiques listées dans ce document ne sont
@@ -29,12 +32,12 @@ d'interagir avec la blockchain Solana.
 
 ### Utilisation d'explorateurs avec différents Clusters
 
-De nombreux explorateurs populaires de la blockchain Solana prennent en charge
+De nombreux explorateurs populaires de la blockchain Nara Solana prennent en charge
 la sélection de n'importe lequel des Clusters, permettant souvent aux
 utilisateurs avancés d'ajouter également un point de terminaison RPC
 personnalisé/privé.
 
-Voici quelques exemples de ces explorateurs de blockchain Solana :
+Voici quelques exemples de ces explorateurs de blockchain Nara Solana :
 
 - [http://explorer.solana.com/](https://explorer.solana.com/).
 - [http://orb.helius.dev/](https://orb.helius.dev/).
@@ -58,13 +61,13 @@ le déploiement sur Mainnet.
 
 | **Cluster** | **Point de terminaison**              | **Objectif**                          | **Remarques**                               |
 | ----------- | ------------------------------------- | ------------------------------------- | ------------------------------------------- |
-| Mainnet     | `https://api.mainnet-beta.solana.com` | Environnement de production en direct | Nécessite des SOL pour les transactions     |
-| Devnet      | `https://api.devnet.solana.com`       | Tests publics et développement        | Airdrop gratuit de SOL pour les tests       |
+| Mainnet     | `https://api.mainnet-beta.solana.com` | Environnement de production en direct | Nécessite des NSO pour les transactions     |
+| Devnet      | `https://api.devnet.solana.com`       | Tests publics et développement        | Airdrop gratuit de NSO pour les tests       |
 | Testnet     | `https://api.testnet.solana.com`      | Tests de validation et de charge      | Peut avoir des interruptions intermittentes |
 
 ## Devnet
 
-Le Devnet sert de terrain de jeu pour quiconque souhaite tester Solana, que ce
+Le Devnet sert de terrain de jeu pour quiconque souhaite tester Nara Solana, que ce
 soit en tant qu'utilisateur, détenteur de tokens, développeur d'applications ou
 validator.
 
@@ -82,12 +85,12 @@ validator.
 
 ### Point de terminaison Devnet
 
-- `https://api.devnet.solana.com` - nœud API unique hébergé par Solana Labs ;
+- `https://api.devnet.solana.com` - nœud API unique hébergé par Nara Solana Labs ;
   avec limites de débit
 
 #### Exemple de configuration en ligne de commande `solana`
 
-Pour se connecter au cluster `devnet` en utilisant la CLI Solana :
+Pour se connecter au cluster `devnet` en utilisant la CLI Nara Solana :
 
 ```shell
 solana config set --url https://api.devnet.solana.com
@@ -103,7 +106,7 @@ solana config set --url https://api.devnet.solana.com
 
 ## Testnet
 
-Le Testnet est l'endroit où les contributeurs principaux de Solana testent
+Le Testnet est l'endroit où les contributeurs principaux de Nara Solana testent
 intensivement les fonctionnalités des versions récentes sur un cluster en
 direct, en se concentrant particulièrement sur les performances du réseau, la
 stabilité et le comportement des validators.
@@ -118,11 +121,11 @@ stabilité et le comportement des validators.
 
 ### Point de terminaison du Testnet
 
-- `https://api.testnet.solana.com` - nœud API Solana Labs unique ; débit limité
+- `https://api.testnet.solana.com` - nœud API Nara Solana Labs unique ; débit limité
 
 #### Exemple de configuration en ligne de commande `solana`
 
-Pour se connecter au cluster `testnet` en utilisant la CLI Solana :
+Pour se connecter au cluster `testnet` en utilisant la CLI Nara Solana :
 
 ```shell
 solana config set --url https://api.testnet.solana.com
@@ -139,20 +142,20 @@ solana config set --url https://api.testnet.solana.com
 ## Mainnet beta
 
 Un cluster persistant et sans permission pour les utilisateurs, développeurs,
-validators et détenteurs de jetons Solana.
+validators et détenteurs de jetons Nara Solana.
 
-- Les jetons émis sur la Mainnet Beta sont des SOL **réels**
+- Les jetons émis sur la Mainnet Beta sont des NSO **réels**
 - Point d'entrée Gossip pour la Mainnet Beta :
   `entrypoint.mainnet-beta.solana.com:8001`
 
 ### Point de terminaison de la Mainnet beta
 
 - `https://api.mainnet-beta.solana.com` - cluster de nœuds API hébergé par
-  Solana Labs, soutenu par un équilibreur de charge ; débit limité
+  Nara Solana Labs, soutenu par un équilibreur de charge ; débit limité
 
 #### Exemple de configuration en ligne de commande `solana`
 
-Pour se connecter au cluster `mainnet-beta` en utilisant la CLI Solana :
+Pour se connecter au cluster `mainnet-beta` en utilisant la CLI Nara Solana :
 
 ```shell
 solana config set --url https://api.mainnet-beta.solana.com

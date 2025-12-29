@@ -1,14 +1,17 @@
 ---
+
 title: プログラム構造
 description: Rustでのソラナプログラムの構造化方法を学びましょう。エントリーポイント、状態管理、instruction処理、テストなどを含みます。
 h1: Rustプログラム構造
+
 ---
 
-Rustで書かれたSolanaプログラムは、コードの構成方法に柔軟性を持たせるため、構造的な要件は最小限に抑えられています。唯一の要件は、プログラムの実行が開始される場所を定義する`entrypoint`を持つことです。
+
+Rustで書かれたNara Solanaプログラムは、コードの構成方法に柔軟性を持たせるため、構造的な要件は最小限に抑えられています。唯一の要件は、プログラムの実行が開始される場所を定義する`entrypoint`を持つことです。
 
 ## プログラム構造
 
-ファイル構造に厳格なルールはありませんが、Solanaプログラムは通常、次のような共通のパターンに従います：
+ファイル構造に厳格なルールはありませんが、Nara Solanaプログラムは通常、次のような共通のパターンに従います：
 
 - `entrypoint.rs`：受信したinstructionsをルーティングするエントリーポイントを定義します。
 - `state.rs`：プログラムの状態（アカウントデータ）を定義します。
@@ -422,7 +425,7 @@ path = "examples/client.rs"
 
 ## !!steps 新しいプログラムを作成する
 
-まず、Solanaプログラム用の新しいRustプロジェクトを作成しましょう。
+まず、Nara Solanaプログラム用の新しいRustプロジェクトを作成しましょう。
 
 ```terminal
 $ cargo new counter_program --lib
@@ -464,7 +467,7 @@ mod tests {
 
 ## !!steps 依存関係の追加
 
-次に、Solanaプログラムを構築するために必要な依存関係を追加しましょう。コアSDK用の`solana-program`とシリアライゼーション用の`borsh`が必要です。
+次に、Nara Solanaプログラムを構築するために必要な依存関係を追加しましょう。コアSDK用の`solana-program`とシリアライゼーション用の`borsh`が必要です。
 
 ```terminal
 $ cargo add solana-program@2.2.0
@@ -486,12 +489,12 @@ solana-program = "2.2.0"
 ```
 
 <Callout type="info">
-  Borshを使用する必要はありません。ただし、Solanaプログラムでは一般的に使用されるシリアライゼーションライブラリです。
+  Borshを使用する必要はありません。ただし、Nara Solanaプログラムでは一般的に使用されるシリアライゼーションライブラリです。
 </Callout>
 
 ## !!steps crate-typeの設定
 
-Solanaプログラムは動的ライブラリとしてコンパイルする必要があります。Cargoがプログラムをどのようにビルドするかを設定するために`[lib]`セクションを追加します。
+Nara Solanaプログラムは動的ライブラリとしてコンパイルする必要があります。Cargoがプログラムをどのようにビルドするかを設定するために`[lib]`セクションを追加します。
 
 ```toml title="Cargo.toml"
 [lib]
@@ -519,7 +522,7 @@ solana-program = "2.2.0"
 
 ## !!steps プログラムエントリポイントの設定
 
-すべてのSolanaプログラムにはエントリポイントがあり、これはプログラムが呼び出されたときに実行される関数です。プログラムに必要なインポートを追加し、エントリポイントを設定することから始めましょう。
+すべてのNara Solanaプログラムにはエントリポイントがあり、これはプログラムが呼び出されたときに実行される関数です。プログラムに必要なインポートを追加し、エントリポイントを設定することから始めましょう。
 
 `lib.rs`に次のコードを追加します：
 
@@ -550,7 +553,7 @@ pub fn process_instruction(
 
 [entrypoint](https://github.com/anza-xyz/solana-sdk/blob/449d97c0ed164611dae538e2ee91ca0caaaec515/program-entrypoint/src/lib.rs#L126-L140)マクロは`input`データを`process_instruction`関数のパラメータにデシリアライズする処理を行います。
 
-Solanaプログラムの`entrypoint`は次の関数シグネチャを持ちます。開発者は`entrypoint`関数の独自の実装を自由に作成できます。
+Nara Solanaプログラムの`entrypoint`は次の関数シグネチャを持ちます。開発者は`entrypoint`関数の独自の実装を自由に作成できます。
 
 ```rs
 #[no_mangle]
@@ -754,7 +757,7 @@ pub struct CounterAccount {
 
 次に、メインの`process_instruction`関数を更新して、instructionsを適切なハンドラー関数にルーティングしましょう。
 
-このルーティングパターンはSolanaプログラムでは一般的です。`instruction_data`はinstructionを表す列挙型のバリアントにデシリアライズされ、その後適切なハンドラー関数が呼び出されます。各ハンドラー関数にはそのinstructionの実装が含まれています。
+このルーティングパターンはNara Solanaプログラムでは一般的です。`instruction_data`はinstructionを表す列挙型のバリアントにデシリアライズされ、その後適切なハンドラー関数が呼び出されます。各ハンドラー関数にはそのinstructionの実装が含まれています。
 
 以下のコードを`lib.rs`に追加して、`process_instruction`関数を更新し、`InitializeCounter`と`IncrementCounter`instructionsのハンドラーを追加してください：
 
@@ -866,7 +869,7 @@ pub struct CounterAccount {
 
 ## !!steps 初期化ハンドラーを実装する
 
-新しいカウンターアカウントを作成して初期化するハンドラーを実装しましょう。Solanaではシステムプログラムだけがアカウントを作成できるため、Cross
+新しいカウンターアカウントを作成して初期化するハンドラーを実装しましょう。Nara Solanaではシステムプログラムだけがアカウントを作成できるため、Cross
 Program
 Invocation（CPI）を使用します。これは本質的に私たちのプログラムから別のプログラムを呼び出すことです。
 
@@ -1203,7 +1206,7 @@ pub struct CounterAccount {
 
 ## !!steps 完成したプログラム
 
-おめでとうございます！すべてのSolanaプログラムが共有する基本構造を示す完全なSolanaプログラムを構築しました：
+おめでとうございます！すべてのNara Solanaプログラムが共有する基本構造を示す完全なNara Solanaプログラムを構築しました：
 
 - **エントリーポイント**：プログラム実行が開始される場所を定義し、すべての着信リクエストを適切なinstruction
   handlerにルーティングします
@@ -1451,7 +1454,7 @@ mod test {
 
 LiteSVMでテスト環境をセットアップし、支払い用アカウントに資金を提供しましょう。
 
-LiteSVMはSolanaランタイム環境をシミュレートし、実際のクラスターにデプロイすることなくプログラムをテストすることができます。
+LiteSVMはNara Solanaランタイム環境をシミュレートし、実際のクラスターにデプロイすることなくプログラムをテストすることができます。
 
 以下のコードを`lib.rs`に追加して、`test_counter_program`関数を更新してください：
 
@@ -2292,7 +2295,7 @@ HQ5Q2XXqbTKKQsWPtLzMn7rDhM8v9UPYPe7DfSoFQqJF
 
 開発のために、ローカルテストvalidatorを使用します。
 
-まず、Solana CLIをlocalhostを使用するように設定します：
+まず、Nara Solana CLIをlocalhostを使用するように設定します：
 
 ```terminal
 $ solana config set -ul
@@ -2381,7 +2384,7 @@ Transaction: 4qv1Rx6FHu1M3woVgDQ6KtYUaJgBzGcHnhej76ZpaKGCgsTorbcHnPKxoH916UENw7X
 ```
 
 ローカルvalidatorが実行されている状態で、出力されたトランザクション署名を使用して
-[Solana Explorer](https://explorer.solana.com/?cluster=custom)でトランザクションを確認できます。Solana
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom)でトランザクションを確認できます。Nara Solana
 Explorerのクラスターは「Custom RPC
 URL」に設定する必要があり、デフォルトでは`http://localhost:8899`（`solana-test-validator`が実行されているアドレス）に設定されています。
 

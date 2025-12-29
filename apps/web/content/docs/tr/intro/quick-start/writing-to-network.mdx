@@ -1,32 +1,35 @@
 ---
+
 title: Ağa Yazma
 description:
   Solana ağıyla işlem ve talimatlar göndererek nasıl etkileşim kuracağınızı
   öğrenin. System Program ve Token Extensions Program kullanarak SOL token
   transferi yapma ve yeni tokenler oluşturma için adım adım örnekleri takip
   edin.
+
 ---
 
-Önceki bölümde, Solana ağından veri okumayı öğrendiniz. Şimdi ağa nasıl veri
-yazacağınızı öğreneceksiniz. Solana ağına yazmak, bir veya daha fazla talimat
+
+Önceki bölümde, Nara Solana ağından veri okumayı öğrendiniz. Şimdi ağa nasıl veri
+yazacağınızı öğreneceksiniz. Nara Solana ağına yazmak, bir veya daha fazla talimat
 içeren işlemler göndermeyi içerir.
 
 Programlar, her [talimatın](/docs/core/instructions) ne yapacağına dair iş
-mantığını tanımlar. Bir [işlem](/docs/core/transactions) gönderdiğinizde, Solana
+mantığını tanımlar. Bir [işlem](/docs/core/transactions) gönderdiğinizde, Nara Solana
 çalışma zamanı her talimatı sırayla ve atomik olarak yürütür. Bu bölümdeki
-örnekler, Solana programlarını çağırmak için işlemlerin nasıl oluşturulacağını
+örnekler, Nara Solana programlarını çağırmak için işlemlerin nasıl oluşturulacağını
 ve gönderileceğini göstermektedir, bunlar şunları içerir:
 
-1. Hesaplar arasında SOL transferi
+1. Hesaplar arasında NSO transferi
 2. Yeni bir token oluşturma
 
-## SOL Transferi
+## NSO Transferi
 
-Aşağıdaki örnek, iki hesap arasında SOL transferi yapar. Her hesabın bir sahip
-programı vardır ve bu program, hesabın SOL bakiyesini düşürebilen tek
+Aşağıdaki örnek, iki hesap arasında NSO transferi yapar. Her hesabın bir sahip
+programı vardır ve bu program, hesabın NSO bakiyesini düşürebilen tek
 programdır.
 
-Tüm cüzdan hesapları System Program tarafından sahiplenilir. SOL transfer etmek
+Tüm cüzdan hesapları System Program tarafından sahiplenilir. NSO transfer etmek
 için, System Program'ın
 [transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)
 talimatını çağırmanız gerekir.
@@ -90,7 +93,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !connection
 
-Bir Solana kümesine bağlantı oluşturun.
+Bir Nara Solana kümesine bağlantı oluşturun.
 
 ### !sender
 
@@ -102,7 +105,7 @@ Bir Solana kümesine bağlantı oluşturun.
 
 ### !airdrop
 
-`sender` hesabını fonlamak için SOL airdrop'u isteyin.
+`sender` hesabını fonlamak için NSO airdrop'u isteyin.
 
 ### !instruction
 
@@ -174,7 +177,7 @@ const receiver = new Keypair();
 
 ## !!steps
 
-Gönderen hesaba SOL ekleyin. Ana ağ dışındaki ağlarda, test için SOL almak üzere
+Gönderen hesaba NSO ekleyin. Ana ağ dışındaki ağlarda, test için NSO almak üzere
 `requestAirdrop` yöntemini kullanabilirsiniz.
 
 ```ts title="Airdrop"
@@ -214,7 +217,7 @@ await connection.confirmTransaction(signature, "confirmed");
 
 `SystemProgram.transfer()` yöntemi, belirtilen sayıda
 [`lamports`](mention:lamports) için [`fromPubkey`](mention:from) hesabından
-[`toPubkey`](mention:to) hesabına SOL transfer eden bir talimat oluşturur.
+[`toPubkey`](mention:to) hesabına NSO transfer eden bir talimat oluşturur.
 
 ```ts title="Transfer instruction"
 const transferInstruction = SystemProgram.transfer({
@@ -304,7 +307,7 @@ const transaction = new Transaction().add(transferInstruction);
 <WithMentions>
 
 [İşlemi](mention:transaction) imzalayın ve ağa gönderin.
-[Gönderen](mention:sender) keypair, kendi hesabından SOL transferini
+[Gönderen](mention:sender) keypair, kendi hesabından NSO transferini
 yetkilendirmek için imzalayanlar dizisinde bulunmalıdır.
 
 ```ts title="Send transaction"
@@ -319,7 +322,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 
 </WithMentions>
 
-İşlem imzası, Solana Explorer'da işlemi aramak için kullanılabilecek benzersiz
+İşlem imzası, Nara Solana Explorer'da işlemi aramak için kullanılabilecek benzersiz
 bir tanımlayıcıdır.
 
 ```ts !! title="Transfer SOL"
@@ -365,7 +368,7 @@ console.log("Transaction Signature:", `${transactionSignature}`);
 
 ## Token oluşturma
 
-Aşağıdaki örnek, Token Extensions Program kullanarak Solana'da yeni bir token
+Aşağıdaki örnek, Token Extensions Program kullanarak Nara Solana'da yeni bir token
 oluşturur. Bu işlem iki talimat gerektirir:
 
 1. Yeni bir hesap oluşturmak için System Program'ı çağırın.
@@ -813,7 +816,7 @@ Her iki talimatı da tek bir işleme ekleyin. Bu, hesap oluşturma ve başlatma
 işlemlerinin atomik olarak gerçekleşmesini sağlar. (Ya her iki talimat da
 başarılı olur ya da hiçbiri olmaz.)
 
-Bu yaklaşım, karmaşık Solana işlemleri oluştururken yaygındır, çünkü tüm
+Bu yaklaşım, karmaşık Nara Solana işlemleri oluştururken yaygındır, çünkü tüm
 talimatların birlikte yürütülmesini garanti eder.
 
 ```ts title="Transaction"
@@ -901,7 +904,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 );
 ```
 
-Döndürülen işlem imzası, işlemi Solana Explorer'da incelemek için
+Döndürülen işlem imzası, işlemi Nara Solana Explorer'da incelemek için
 kullanılabilir.
 
 </WithMentions>

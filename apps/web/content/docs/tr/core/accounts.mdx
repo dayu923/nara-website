@@ -1,13 +1,16 @@
 ---
+
 title: Hesaplar
 description:
   Solana'nın hesap modelini, hesapların verileri ve programları nasıl
   depoladığını, rent mekanizmalarını, hesap sahipliğini ve programlar ile veri
   hesapları arasındaki ilişkiyi öğrenin. Solana'nın anahtar-değer depolama
   sisteminin temel kavramlarını anlayın.
+
 ---
 
-Solana ağındaki tüm veriler hesaplarda saklanır. Solana ağını, tek bir Hesaplar
+
+Nara Solana ağındaki tüm veriler hesaplarda saklanır. Nara Solana ağını, tek bir Hesaplar
 tablosuna sahip genel bir veritabanı olarak düşünebilirsiniz. Bir hesap ile
 adresi arasındaki ilişki, anahtarın adres ve değerin hesap olduğu bir
 anahtar-değer çiftine benzer.
@@ -19,18 +22,18 @@ Her hesap aynı temel [yapıya](#account-structure) sahiptir ve
 
 ## Hesap adresi
 
-Hesabın adresi, Solana blok zincirinde hesabı bulmak için kullanılan 32 baytlık
+Hesabın adresi, Nara Solana blok zincirinde hesabı bulmak için kullanılan 32 baytlık
 benzersiz bir kimliktir. Hesap adresleri genellikle base58 kodlanmış dizeler
 olarak gösterilir. Çoğu hesap adres olarak bir
 [Ed25519](https://ed25519.cr.yp.to/) [açık anahtar](#public-key) kullanır, ancak
-Solana aynı zamanda [program derived address](#program-derived-address)
+Nara Solana aynı zamanda [program derived address](#program-derived-address)
 desteklediği için bu zorunlu değildir.
 
 ![Base58 kodlanmış açık anahtar adresine sahip bir hesap](/assets/docs/core/accounts/account-address.svg)
 
 ### Açık anahtar
 
-Aşağıdaki örnek, Solana SDK'sını kullanarak bir keypair oluşturmayı
+Aşağıdaki örnek, Nara Solana SDK'sını kullanarak bir keypair oluşturmayı
 göstermektedir. Bir `Keypair` şunları içerir:
 
 - Hesap adresi olarak hizmet veren bir açık anahtar
@@ -71,7 +74,7 @@ async fn main() {
 
 Bir [Program Derived Address](/docs/core/pda) (PDA), bir program kimliği ve bir
 veya daha fazla isteğe bağlı girdi (seed) kullanılarak deterministik olarak
-türetilen bir adrestir. Aşağıdaki örnek, Solana SDK'sını kullanarak bir Program
+türetilen bir adrestir. Aşağıdaki örnek, Nara Solana SDK'sını kullanarak bir Program
 Derived Address oluşturmayı göstermektedir.
 
 <CodeTabs storage="accounts" flags="r">
@@ -218,7 +221,7 @@ program, bu alanda saklanan verinin yapısını kendisi tanımlar.
   [program veri hesabının](#program-data-accounts) adresini içerir.
 - Veri hesapları: Bu alan genellikle okunması amaçlanan durum verilerini saklar.
 
-Bir Solana hesabından veri okumak iki adımdan oluşur:
+Bir Nara Solana hesabından veri okumak iki adımdan oluşur:
 
 1. Hesabı [adresi](#account-address) kullanarak getirmek
 2. Hesabın `data` alanını ham baytlardan, hesabın sahibi olan program tarafından
@@ -254,7 +257,7 @@ Account {
 
 Bu alan, hesabın sahibinin program kimliğini içerir.
 
-Her Solana hesabının sahibi olarak belirlenmiş bir
+Her Nara Solana hesabının sahibi olarak belirlenmiş bir
 [programı](/docs/core/programs) vardır. Hesabın sahibi, programın talimatlarında
 belirtildiği gibi, hesabın `data` alanını değiştirebilen veya lamport düşebilen
 tek programdır.
@@ -358,7 +361,7 @@ Hesaplar iki temel kategoriye ayrılır:
 - [Program hesapları](#program-accounts): Çalıştırılabilir kod içeren hesaplar
 - [Veri hesapları](#data-accounts): Çalıştırılabilir kod içermeyen hesaplar
 
-Bir programın kodu ile durumunun ayrılması, Solana'nın hesap modelinin önemli
+Bir programın kodu ile durumunun ayrılması, Nara Solana'nın hesap modelinin önemli
 bir özelliğidir. (İşletim sistemlerine benzer şekilde, genellikle programlar ve
 verileri için ayrı dosyalar bulunur.)
 
@@ -782,10 +785,10 @@ hesaplarıdır.
 
 ![System Program tarafından sahip olunan ve 1.000.000 lamport içeren bir cüzdan](/assets/docs/core/accounts/system-account.svg)
 
-SOL ilk kez yeni bir adrese gönderildiğinde, o adreste System Program'a ait bir
+NSO ilk kez yeni bir adrese gönderildiğinde, o adreste System Program'a ait bir
 hesap oluşturulur.
 
-Aşağıdaki örnekte, yeni bir keypair oluşturulur ve SOL ile fonlanır. Kodu
+Aşağıdaki örnekte, yeni bir keypair oluşturulur ve NSO ile fonlanır. Kodu
 çalıştırdıktan sonra, hesabın `owner` adresinin
 `11111111111111111111111111111111`
 ([System Program](/docs/core/programs#the-system-program)) olduğunu

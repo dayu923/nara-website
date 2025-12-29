@@ -1,8 +1,9 @@
 ---
+
 date: 2025-01-22T00:00:00Z
 difficulty: beginner
-title: "How to Authenticate Users with Solana Wallets Using Supabase"
-seoTitle: "How to Authenticate Users with Solana Wallets Using Supabase"
+title: "How to Authenticate Users with Nara Solana Wallets Using Supabase"
+seoTitle: "How to Authenticate Users with Nara Solana Wallets Using Supabase"
 description:
   "Step-by-step guide to implement Solana wallet authentication in your Next.js
   application using Supabase. Learn how to connect Phantom or Solflare wallets,
@@ -21,23 +22,25 @@ keywords:
   - solana wallet
   - next.js
   - protected routes
+
 ---
 
-# How to Authenticate Users with Solana Wallets Using Supabase
+
+# How to Authenticate Users with Nara Solana Wallets Using Supabase
 
 ## 1. Introduction
 
-This guide shows you how to build a Solana app with wallet authentication using
+This guide shows you how to build a Nara Solana app with wallet authentication using
 [Supabase](https://supabase.com). Users sign in with their Phantom or Solflare
 wallet. No email. No passwords. Just a wallet signature.
 
 You'll be working with the
 [Supabase authentication template](https://templates.solana.com/supabase-auth),
-which provides a complete starting point for Solana applications with
+which provides a complete starting point for Nara Solana applications with
 wallet-based authentication.
 
 Traditional authentication means managing user accounts, password resets, and
-email verification. With Solana wallet authentication, users prove they control
+email verification. With Nara Solana wallet authentication, users prove they control
 a wallet address. That's it. It's simpler for them. It's simpler for you.
 
 The template uses Supabase's wallet authentication. Supabase handles the
@@ -52,7 +55,7 @@ something here, you can find it in the template.
 
 What you'll learn:
 
-- How to set up Supabase wallet authentication for Solana wallets
+- How to set up Supabase wallet authentication for Nara Solana wallets
 - How wallet connection works separately from Supabase authentication
 - How to protect routes so only authenticated users can access them
 - How the authentication flow works under the hood
@@ -71,10 +74,10 @@ and a complete authentication system using Supabase.
 
 ## 3. Why This Matters
 
-Building your own Solana authentication system requires handling message
+Building your own Nara Solana authentication system requires handling message
 signing, signature verification, session management, and database storage. This
 template uses Supabase's wallet authentication, so you just call
-`supabase.auth.signInWithWeb3()` and it works. With Solana wallet
+`supabase.auth.signInWithWeb3()` and it works. With Nara Solana wallet
 authentication, users sign in with their wallet, no passwords, no email
 verification, just one click.
 
@@ -117,9 +120,9 @@ You'll need two things from your Supabase project:
 You can find both in your Supabase dashboard under Settings → API. Don't stress
 if you don't have them yet. We'll get them during setup.
 
-**A Solana wallet extension**
+**A Nara Solana wallet extension**
 
-You need a Solana wallet installed in your browser. Phantom, Solflare, or
+You need a Nara Solana wallet installed in your browser. Phantom, Solflare, or
 Backpack all work. Install one from their official websites. Make sure it's the
 browser extension, not a mobile app.
 
@@ -133,7 +136,7 @@ Use VS Code, Cursor, or any editor you prefer. The template uses TypeScript, so
 an editor with [TypeScript](https://www.typescriptlang.org/) support helps. But
 it's not required. You can use any text editor.
 
-That's it. If you have Node.js v24 (LTS) or later, a Supabase account, and a Solana
+That's it. If you have Node.js v24 (LTS) or later, a Supabase account, and a Nara Solana
 wallet, you're ready. If you're missing something, install it now. We'll wait.
 
 ## 5. Setting Up the Project
@@ -320,7 +323,7 @@ screen, you're good to go.
 
 <Callout type="warn">
 
-Make sure you have a Solana wallet extension installed (Phantom, Solflare, or
+Make sure you have a Nara Solana wallet extension installed (Phantom, Solflare, or
 Backpack) before continuing. Without a wallet, you won't be able to connect or
 authenticate.
 
@@ -340,7 +343,7 @@ Look at the header of the page. You'll see a button that says "Select Wallet" or
 
 If you don't see it, check that your wallet extension is installed. The wallet
 dropdown detects installed wallets automatically. If no wallets are detected,
-the dropdown shows a link to get a Solana wallet.
+the dropdown shows a link to get a Nara Solana wallet.
 
 ### Connecting your wallet
 
@@ -366,7 +369,7 @@ internally. When you click a wallet in the dropdown, it manages calling
 The connection state is managed automatically. The `@solana/react-hooks` hooks
 expose it to your components.
 
-## 7. Signing In with Solana
+## 7. Signing In with Nara Solana
 
 Once your wallet is connected, you can authenticate with Supabase. This creates
 a session that persists across page refreshes. You'll be able to access
@@ -378,7 +381,7 @@ other protected pages.
 
 ### Finding the sign-in card
 
-Scroll down on the home page. You'll see a card titled "Sign in with Solana".
+Scroll down on the home page. You'll see a card titled "Sign in with Nara Solana".
 It's in the dashboard section. The component is
 `src/components/auth/wallet-login.tsx`.
 
@@ -386,12 +389,12 @@ If you haven't connected your wallet yet, the card shows "Connect Wallet First"
 and the button is disabled. Connect your wallet first, then come back to this
 card.
 
-![Sign in with Solana card](https://res.cloudinary.com/resourcefulmind-inc/image/upload/v1763205326/Screenshot_2025-11-15_at_8.15.12_AM_crhf6r.png)
+![Sign in with Nara Solana card](https://res.cloudinary.com/resourcefulmind-inc/image/upload/v1763205326/Screenshot_2025-11-15_at_8.15.12_AM_crhf6r.png)
 
 ### The authentication flow
 
 Once your wallet is connected, the card shows "Wallet Connected: [your address]"
-in green text. Click the **Sign in with Solana** button.
+in green text. Click the **Sign in with Nara Solana** button.
 
 Your wallet extension will open a popup. It asks you to sign a message. The
 message says "Please sign this message to authenticate with your wallet." This
@@ -466,9 +469,9 @@ If you see a 422 error, check the browser console. You might see more details
 about what went wrong. The error message from Supabase usually tells you what's
 missing.
 
-**"Solana wallet not detected"**
+**"Nara Solana wallet not detected"**
 
-This means `window.solana` is not available. Make sure you have a Solana wallet
+This means `window.solana` is not available. Make sure you have a Nara Solana wallet
 extension installed and enabled. Make sure you've connected your wallet before
 trying to authenticate. The wallet connection must happen first.
 
@@ -558,7 +561,7 @@ one.
 
 Once authenticated and on `/account/[address]`, you'll see:
 
-- **Account balance** - Shows SOL balance for the address
+- **Account balance** - Shows NSO balance for the address
 - **Account buttons** - Actions like send and receive
 - **Token list** - Shows SPL tokens held by the address
 - **Transaction history** - Shows recent transactions for the address
@@ -566,7 +569,7 @@ Once authenticated and on `/account/[address]`, you'll see:
 ![Account page showing balance, tokens, and transactions](https://res.cloudinary.com/resourcefulmind-inc/image/upload/v1763205913/Screenshot_2025-11-15_at_8.24.57_AM_cfgmwf.png)
 
 The page uses React hooks with `@solana/react-hooks` to fetch data from the
-Solana network.
+Nara Solana network.
 
 The account detail component is in
 `src/features/account/account-feature-detail.tsx`. It extracts the address from
@@ -670,9 +673,9 @@ middleware, but for most cases, this component is enough.
 
 ## 9. Conclusion
 
-You've successfully set up a Solana application with wallet authentication using
+You've successfully set up a Nara Solana application with wallet authentication using
 Supabase. You can now connect wallets, authenticate users, and protect routes.
 
 Start building your features and customize the template to fit your needs. The
-template provides a solid foundation for Solana applications with wallet-based
+template provides a solid foundation for Nara Solana applications with wallet-based
 authentication.

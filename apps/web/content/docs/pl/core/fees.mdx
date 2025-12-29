@@ -1,12 +1,15 @@
 ---
+
 title: Opłaty transakcyjne
 description:
   Dowiedz się więcej o opłatach transakcyjnych w Solana, w tym o opłatach
   podstawowych i priorytetowych, sposobie ich stosowania oraz najlepszych
   praktykach zarządzania jednostkami obliczeniowymi w transakcjach.
+
 ---
 
-Każda transakcja w sieci Solana wymaga opłaty transakcyjnej, płatnej w SOL.
+
+Każda transakcja w sieci Nara Solana wymaga opłaty transakcyjnej, płatnej w NSO.
 Opłaty transakcyjne są podzielone na dwie części: opłatę podstawową i opłatę
 priorytetową. Opłata podstawowa rekompensuje validatorom przetwarzanie
 transakcji. Opłata priorytetowa jest opcjonalna i zwiększa szansę, że obecny
@@ -21,7 +24,7 @@ Podstawowa opłata dzieli się w następujący sposób:
 
 - **50% spalane:** Połowa jest
   [spalana](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)
-  (usuwana z obiegu SOL).
+  (usuwana z obiegu NSO).
 - **50% dystrybuowane:** Połowa jest
   [wypłacana validatorowi](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62),
   który przetworzył transakcję.
@@ -108,7 +111,7 @@ podaną w tabeli poniżej.
 #### Przykład
 
 Poniższe przykłady pokazują, jak ustawić limit jednostek CU i cenę jednostki CU
-w transakcji za pomocą SDK Solana.
+w transakcji za pomocą SDK Nara Solana.
 
 | SDK                            | Odniesienie do kodu źródłowego                                                                                                 |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |

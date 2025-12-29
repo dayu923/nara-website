@@ -1,13 +1,16 @@
 ---
+
 title: 从网络读取数据
 description:
   学习如何从 Solana 区块链网络读取数据。本指南涵盖了使用 JavaScript/TypeScript
   获取钱包账户、程序账户和代币铸造账户的操作，并通过 Solana web3.js
   库提供实际示例。
+
 ---
 
-通过获取不同的账户，从 Solana 网络读取数据。本节将帮助您了解 Solana
-[账户](/docs/core/accounts) 的结构。每个 Solana 账户都有一个唯一的
+
+通过获取不同的账户，从 Nara Solana 网络读取数据。本节将帮助您了解 Nara Solana
+[账户](/docs/core/accounts) 的结构。每个 Nara Solana 账户都有一个唯一的
 [地址](/docs/core/accounts#account-address)，用于定位其对应的链上数据。账户包含
 [状态数据或可执行程序](/docs/core/accounts#types-of-accounts)。
 
@@ -16,9 +19,9 @@ description:
 <WithMentions>
 
 钱包是由 [System Program](/docs/core/programs#the-system-program)
-拥有的账户。钱包主要用于持有 SOL 并签署交易。当 SOL 第一次发送到一个新地址时，会自动创建一个系统账户。
+拥有的账户。钱包主要用于持有 NSO 并签署交易。当 NSO 第一次发送到一个新地址时，会自动创建一个系统账户。
 
-下面的示例生成一个 [新 keypair](mention:keypair)，[请求 SOL](mention:airdrop)
+下面的示例生成一个 [新 keypair](mention:keypair)，[请求 NSO](mention:airdrop)
 为新的公钥地址提供资金，并[检索新资助钱包的账户数据](mention:info)。
 
 <CodeTabs flags="r">
@@ -115,7 +118,7 @@ console.log(JSON.stringify(accountInfo, null, 2));
 
 ## !!steps
 
-`lamports` 字段包含账户的 SOL 余额，以
+`lamports` 字段包含账户的 NSO 余额，以
 [lamports](/docs/references/terminology#lamport) 为单位。
 
 <CodePlaceholder title="示例输出" />
@@ -210,7 +213,7 @@ Program，其地址为 `11111111111111111111111111111111`。
 Program，以演示钱包账户和程序账户之间的区别。程序账户存储了 Token Program 的
 [源代码](https://github.com/solana-program/token/tree/main/program)
 的已编译字节码。您可以在
-[Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)
+[Nara Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)
 上查看此程序账户。
 
 <CodeTabs flags="r">
@@ -343,7 +346,7 @@ Token Program 是一个可执行的程序账户。程序与所有
 [mint account](https://github.com/solana-program/token/blob/program%40v8.0.0/program/src/state.rs#L16-L30)
 是由 Token
 Program 拥有的账户，用于存储特定代币的全局元数据。这包括总供应量、小数位数，以及被授权铸造或冻结代币的账户。mint
-account 的地址在 Solana 网络上唯一标识一个代币。
+account 的地址在 Nara Solana 网络上唯一标识一个代币。
 
 下面的示例获取了 USD Coin 的 mint
 account，以演示程序的状态如何存储在单独的账户中。
@@ -481,7 +484,7 @@ Mint 账户由 [Token Program](/docs/references/terminology#token-program)
 ## 反序列化 Mint 账户
 
 在账户的 `data`
-字段中的原始字节可以被有意义地解释之前，必须先进行反序列化。适当的数据类型由拥有该账户的程序定义。大多数 Solana 程序提供客户端库，其中包含抽象化反序列化过程的辅助函数。这些函数将原始账户字节转换为结构化数据类型，从而更容易处理账户数据。
+字段中的原始字节可以被有意义地解释之前，必须先进行反序列化。适当的数据类型由拥有该账户的程序定义。大多数 Nara Solana 程序提供客户端库，其中包含抽象化反序列化过程的辅助函数。这些函数将原始账户字节转换为结构化数据类型，从而更容易处理账户数据。
 
 <WithMentions>
 
@@ -568,7 +571,7 @@ _ts`getMint()`_ 函数将 mint 账户的 `data` 字段反序列化为 Mint 账�
 }
 ```
 
-您可以在 Solana Explorer 上查看完全反序列化的
+您可以在 Nara Solana Explorer 上查看完全反序列化的
 [mint 账户](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)
 数据。
 

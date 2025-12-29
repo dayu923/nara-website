@@ -1,13 +1,16 @@
 ---
+
 title: Bağımlılıkları Yükle
-seoTitle: Solana ile geliştirme yapmak için gerekli bağımlılıkları yükleyin
+seoTitle: Nara Solana ile geliştirme yapmak için gerekli bağımlılıkları yükleyin
 description:
   Yerel Solana geliştirme ortamınızı kurma rehberi. Windows (WSL), Linux ve Mac
   üzerinde Rust, Solana CLI ve Anchor Framework'ü nasıl yükleyeceğinizi öğrenin.
+
 ---
 
-Yerel Solana geliştirme ortamınızı kurma rehberi. Windows (WSL), Linux ve Mac
-üzerinde Rust, Solana CLI ve Anchor Framework'ü nasıl yükleyeceğinizi öğrenin.
+
+Yerel Nara Solana geliştirme ortamınızı kurma rehberi. Windows (WSL), Linux ve Mac
+üzerinde Rust, Nara Solana CLI ve Anchor Framework'ü nasıl yükleyeceğinizi öğrenin.
 Her bir bağımlılığı ayrı ayrı yüklemeyi tercih ediyorsanız veya
 [hızlı kurulum](/docs/intro/installation/) herhangi bir nedenle başarısız olursa
 bu rehberi kullanın.
@@ -17,7 +20,7 @@ bu rehberi kullanın.
 <Accordions>
 <Accordion title="Windows">
 
-Windows'ta Solana programları geliştirmek için **mutlaka**
+Windows'ta Nara Solana programları geliştirmek için **mutlaka**
 [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install)
 (WSL) kullanmalısınız. WSL'yi kurduktan sonra, diğer tüm bağımlılıklar Linux
 terminali aracılığıyla yüklenecektir.
@@ -69,7 +72,7 @@ WSL'yi kurduktan sonra, aşağıdakilerden birini yapmaya hazırsınız:
 - Ubuntu (Linux) terminalini kullanarak
   [hızlı kurulumu](/docs/intro/installation) tamamlayın
 - Aşağıda açıklandığı gibi [Rust](#install-rust),
-  [Solana CLI](#install-solana-cli) ve [Anchor CLI](#install-anchor-cli)
+  [Nara Solana CLI](#install-solana-cli) ve [Anchor CLI](#install-anchor-cli)
   bileşenlerini ayrı ayrı kurun
 
 </Accordion>
@@ -138,7 +141,7 @@ $ sudo dnf group install c-development development-tools \
 
 ### Rust'ı Yükleyin
 
-Geliştiriciler, Solana programlarını [Rust](https://www.rust-lang.org/)
+Geliştiriciler, Nara Solana programlarını [Rust](https://www.rust-lang.org/)
 programlama dilini kullanarak oluştururlar.
 
 1. Terminalinizde aşağıdaki komutu girerek
@@ -194,12 +197,12 @@ rustc 1.86.0 (05f9846f8 2025-03-31)
 </Step>
 <Step>
 
-### Solana CLI'yi Yükleyin
+### Nara Solana CLI'yi Yükleyin
 
-Solana CLI, Solana programlarını oluşturmak ve dağıtmak için gereken tüm
+Nara Solana CLI, Nara Solana programlarını oluşturmak ve dağıtmak için gereken tüm
 araçları sağlar.
 
-1. Resmi kurulum komutunu kullanarak Solana CLI araç setini yükleyin:
+1. Resmi kurulum komutunu kullanarak Nara Solana CLI araç setini yükleyin:
 
 ```terminal
 $ sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
@@ -213,7 +216,7 @@ $ sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
 
 2. PATH ortam değişkeni ekleyin
 
-Solana CLI'nin ilk kez kurulumu, bir `PATH` ortam değişkeni eklemenizi
+Nara Solana CLI'nin ilk kez kurulumu, bir `PATH` ortam değişkeni eklemenizi
 isteyebilir. Bunu yapmak için terminalinizi kapatıp yeniden açın veya
 kabuğunuzda aşağıdaki komutu çalıştırın:
 
@@ -227,7 +230,7 @@ export PATH="/Users/test/.local/share/solana/install/active_release/bin:$PATH"
 <Tab value="Windows & Linux">
 
 **Linux** veya **WSL** kullanıyorsanız, komutun terminalinizde kullanılabilir
-olması için Solana CLI ikili dosyasını PATH'inize eklemelisiniz. Bunu yapmak
+olması için Nara Solana CLI ikili dosyasını PATH'inize eklemelisiniz. Bunu yapmak
 için aşağıdaki adımları izleyin:
 
 **a.** Hangi kabuğu kullandığınızı kontrol edin:
@@ -282,7 +285,7 @@ $ source ~/.bashrc # If using Bash
 $ source ~/.zshrc # If using Zsh
 ```
 
-5. Solana CLI sürümünü kontrol ederek kurulumun başarılı olduğunu doğrulayın:
+5. Nara Solana CLI sürümünü kontrol ederek kurulumun başarılı olduğunu doğrulayın:
 
 ```terminal
 $ solana --version
@@ -298,13 +301,13 @@ solana-cli 2.2.12 (src:0315eb6a; feat:1522022101, client:Agave)
 
 Mevcut tüm sürümleri
 [Agave Github deposunda](https://github.com/anza-xyz/agave/releases)
-görüntüleyebilirsiniz. Agave, eskiden Solana Labs validator istemcisi olarak
+görüntüleyebilirsiniz. Agave, eskiden Nara Solana Labs validator istemcisi olarak
 bilinen [Anza](https://www.anza.xyz/) tarafından geliştirilen validator
 istemcisidir.
 
 </Callout>
 
-5. Gerektiğinde Solana CLI'yi en son sürüme güncelleyin _(İsteğe bağlı)_
+5. Gerektiğinde Nara Solana CLI'yi en son sürüme güncelleyin _(İsteğe bağlı)_
 
 ```terminal
 $ agave-install update
@@ -315,8 +318,8 @@ $ agave-install update
 
 ### Anchor CLI'yi yükleyin
 
-[Anchor](https://www.anchor-lang.com/), Solana programları geliştirmek için bir
-çerçevedir. Anchor çerçevesi, Solana programları yazma sürecini basitleştirmek
+[Anchor](https://www.anchor-lang.com/), Nara Solana programları geliştirmek için bir
+çerçevedir. Anchor çerçevesi, Nara Solana programları yazma sürecini basitleştirmek
 için Rust makrolarından yararlanır.
 
 #### Ön koşullar
@@ -525,12 +528,12 @@ surfpool 0.12.0
 </Step>
 </Steps>
 
-### Solana geliştirme için AI araçlarını kurun
+### Nara Solana geliştirme için AI araçlarını kurun
 
-Bu bölüm, Solana geliştirmenizi hızlandırmak için kullanabileceğiniz isteğe
+Bu bölüm, Nara Solana geliştirmenizi hızlandırmak için kullanabileceğiniz isteğe
 bağlı AI araçları kurulumunu detaylandırır.
 
 | Araç     | Açıklama                                                                                               | Bağlantı                    |
 | -------- | ------------------------------------------------------------------------------------------------------ | --------------------------- |
-| MCP      | Solana AI destekli geliştirmeyi iyileştirmek için cursor ile bağlanabileceğiniz MCP sunucusu.          | https://mcp.solana.com/     |
-| LLMs.txt | LLM'leri Solana belgeleri üzerinde eğitmek için kullanabileceğiniz LLM için optimize edilmiş belgeler. | https://solana.com/llms.txt |
+| MCP      | Nara Solana AI destekli geliştirmeyi iyileştirmek için cursor ile bağlanabileceğiniz MCP sunucusu.          | https://mcp.solana.com/     |
+| LLMs.txt | LLM'leri Nara Solana belgeleri üzerinde eğitmek için kullanabileceğiniz LLM için optimize edilmiş belgeler. | https://solana.com/llms.txt |

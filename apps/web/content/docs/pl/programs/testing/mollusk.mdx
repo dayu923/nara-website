@@ -1,12 +1,15 @@
 ---
+
 title: Mollusk
 description:
   Kompleksowy przewodnik po testowaniu programów Solana za pomocą Mollusk
+
 ---
 
+
 [Mollusk](https://github.com/anza-xyz/mollusk/tree/main) to lekki framework
-testowy do testowania programów Solana. Oferuje prosty interfejs do testowania
-instrukcji programów Solana w zminimalizowanym środowisku Solana Virtual Machine
+testowy do testowania programów Nara Solana. Oferuje prosty interfejs do testowania
+instrukcji programów Nara Solana w zminimalizowanym środowisku Nara Solana Virtual Machine
 (SVM). Wszystkie konta testowe muszą być jawnie zdefiniowane, co zapewnia
 deterministyczne i powtarzalne testy.
 
@@ -54,13 +57,13 @@ mollusk-svm-programs-token = "0.7"
 ## Mollusk SVM
 
 Poniższy przykład pokazuje minimalną konfigurację do testowania podstawowego
-programu Solana za pomocą Mollusk.
+programu Nara Solana za pomocą Mollusk.
 
 <ScrollyCoding>
 
 ## !!steps Program Hello World
 
-Ten przykład demonstruje, jak testować podstawowy program Solana za pomocą
+Ten przykład demonstruje, jak testować podstawowy program Nara Solana za pomocą
 Mollusk. Program po prostu wypisuje "Hello, world!" do logów programu po
 wywołaniu.
 
@@ -71,7 +74,7 @@ Uruchomienie `cargo build-sbf` generuje skompilowany program w
 
 <WithMentions>
 
-Aby przetestować program Solana za pomocą Mollusk:
+Aby przetestować program Nara Solana za pomocą Mollusk:
 
 1. [Utwórz instancję `Mollusk`](mention:mollusk) - Zainicjalizuj Mollusk z
    identyfikatorem programu i ścieżką do skompilowanego programu (plik `.so`)
@@ -179,7 +182,7 @@ solana-sdk = "2.2.0"
 
 Struktura
 [`Mollusk`](https://docs.rs/mollusk-svm/0.5.0/mollusk_svm/struct.Mollusk.html)
-zapewnia prosty interfejs do testowania programów Solana. Wszystkie pola mogą
+zapewnia prosty interfejs do testowania programów Nara Solana. Wszystkie pola mogą
 być modyfikowane za pomocą kilku metod pomocniczych, ale użytkownicy mogą
 również bezpośrednio uzyskiwać do nich dostęp i je zmieniać, jeśli potrzebują
 większej kontroli.
@@ -246,7 +249,7 @@ pub fn process_instruction(
 ) -> InstructionResult
 ```
 
-Poniższy przykład przetwarza instrukcję transferu SOL bez sprawdzania
+Poniższy przykład przetwarza instrukcję transferu NSO bez sprawdzania
 poprawności.
 
 <Callout type="info">
@@ -330,7 +333,7 @@ pub fn process_and_validate_instruction(
 ) -> InstructionResult
 ```
 
-Poniższy przykład przetwarza instrukcję transferu SOL z kontrolą poprawności.
+Poniższy przykład przetwarza instrukcję transferu NSO z kontrolą poprawności.
 
 <CodeTabs flags="r">
 
@@ -403,7 +406,7 @@ pub fn process_instruction_chain(
 ) -> InstructionResult
 ```
 
-Poniższy przykład przetwarza dwie instrukcje transferu SOL bez kontroli
+Poniższy przykład przetwarza dwie instrukcje transferu NSO bez kontroli
 poprawności.
 
 <CodeTabs flags="r">
@@ -491,7 +494,7 @@ pub fn process_and_validate_instruction_chain(
 ) -> InstructionResult
 ```
 
-Poniższy przykład przetwarza łańcuch dwóch instrukcji transferu SOL z kontrolą
+Poniższy przykład przetwarza łańcuch dwóch instrukcji transferu NSO z kontrolą
 poprawności po każdej instrukcji.
 
 <CodeTabs flags="r">
@@ -688,7 +691,7 @@ account_store.insert(
 let context = mollusk.with_context(account_store);
 ```
 
-Poniższy przykład przetwarza dwie oddzielne instrukcje transferu SOL z trwałym
+Poniższy przykład przetwarza dwie oddzielne instrukcje transferu NSO z trwałym
 stanem konta pomiędzy instrukcjami za pomocą `account_store`.
 
 <CodeTabs flags="r">
@@ -833,7 +836,7 @@ Wymaga
 jako zależności.
 
 Poniższy przykład mierzy wykorzystanie jednostek obliczeniowych przez instrukcję
-transferu SOL.
+transferu NSO.
 
 <CodeTabs>
 

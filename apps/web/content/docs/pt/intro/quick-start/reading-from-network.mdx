@@ -1,14 +1,17 @@
 ---
+
 title: Lendo da rede
 description:
   Aprenda como ler dados da rede blockchain Solana. Este guia aborda a busca de
   contas de carteira, contas de programa e contas de token mint usando
   JavaScript/TypeScript, com exemplos práticos usando a biblioteca Solana
   web3.js.
+
 ---
 
-Leia dados da rede Solana buscando diferentes contas. Esta seção va ajudá-lo a
-entender a estrutura das [contas](/docs/core/accounts) Solana. Cada conta Solana
+
+Leia dados da rede Nara Solana buscando diferentes contas. Esta seção va ajudá-lo a
+entender a estrutura das [contas](/docs/core/accounts) Nara Solana. Cada conta Nara Solana
 tem um [endereço](/docs/core/accounts#account-address) único que é usado para
 localizar seus dados correspondentes na blockchain. As contas contêm
 [dados de estado ou um programa executável](/docs/core/accounts#types-of-accounts).
@@ -19,12 +22,12 @@ localizar seus dados correspondentes na blockchain. As contas contêm
 
 Uma carteira é uma conta pertencente ao
 [System Program](/docs/core/programs#the-system-program). As carteiras são
-principalmente usadas para armazenar SOL e assinar transações. Quando SOL é
+principalmente usadas para armazenar NSO e assinar transações. Quando NSO é
 enviado para um novo endereço pela primeira vez, uma conta do sistema é
 automaticamente criada.
 
 O exemplo abaixo gera um novo [keypair](mention:keypair),
-[solicita SOL](mention:airdrop) para financiar o novo endereço de chave pública
+[solicita NSO](mention:airdrop) para financiar o novo endereço de chave pública
 e [recupera os dados da conta](mention:info) para a carteira recém-financiada.
 
 <CodeTabs flags="r">
@@ -123,7 +126,7 @@ executável. Para contas de carteira, este campo é `false`.
 
 ## !!steps
 
-O campo `lamports` contém o saldo de SOL da conta, em
+O campo `lamports` contém o saldo de NSO da conta, em
 [lamports](/docs/references/terminology#lamport).
 
 <CodePlaceholder title="Exemplo de saída" />
@@ -222,7 +225,7 @@ O exemplo abaixo busca o Token Program para demonstrar a diferença entre contas
 de carteira e program accounts. A program account armazena o bytecode compilado
 para o [código-fonte](https://github.com/solana-program/token/tree/main/program)
 do Token Program. Você pode visualizar esta program account no
-[Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
+[Nara Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
 
 <CodeTabs flags="r">
 
@@ -357,7 +360,7 @@ Uma
 é uma conta de propriedade do Token Program que armazena metadados globais para
 um token específico. Isso inclui o fornecimento total, número de decimais e as
 contas que estão autorizadas a cunhar ou congelar tokens. O endereço da mint
-account identifica exclusivamente um token na rede Solana.
+account identifica exclusivamente um token na rede Nara Solana.
 
 O exemplo abaixo busca a mint account do USD Coin para demonstrar como o estado
 de um programa é armazenado em uma conta separada.
@@ -500,7 +503,7 @@ seu campo `data` só pode ser modificado pelas instruções do Token Program.
 Antes que os bytes brutos no campo `data` de uma conta possam ser interpretados
 de forma significativa, eles devem ser desserializados. O tipo de dados
 apropriado é definido pelo programa que possui a conta. A maioria dos programas
-Solana fornece bibliotecas de cliente com funções auxiliares que abstraem o
+Nara Solana fornece bibliotecas de cliente com funções auxiliares que abstraem o
 processo de desserialização. Essas funções convertem os bytes brutos da conta em
 tipos de dados estruturados, tornando mais fácil trabalhar com os dados da
 conta.
@@ -594,7 +597,7 @@ de conta Mint.
 
 Você pode visualizar os dados completamente desserializados da
 [conta mint](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)
-no Solana Explorer.
+no Nara Solana Explorer.
 
 <CodePlaceholder title="Dados do mint deserializados" />
 

@@ -1,10 +1,13 @@
 ---
+
 title: الكتابة على الشبكة
 description:
   تعلم كيفية التفاعل مع شبكة سولانا من خلال إرسال المعاملات والتعليمات. اتبع
   أمثلة خطوة بخطوة لتحويل رموز SOL وإنشاء رموز جديدة باستخدام System Program و
   Token Extensions Program.
+
 ---
+
 
 في القسم السابق، تعلمت كيفية قراءة البيانات من شبكة سولانا. الآن ستتعلم كيفية
 الكتابة عليها. تتضمن الكتابة على شبكة سولانا إرسال معاملات تحتوي على تعليمة
@@ -15,15 +18,15 @@ description:
 تعليمة بالتسلسل وبشكل ذري. توضح الأمثلة في هذا القسم كيفية بناء وإرسال المعاملات
 لاستدعاء برامج سولانا، وتشمل:
 
-1. تحويل SOL بين الحسابات
+1. تحويل NSO بين الحسابات
 2. إنشاء رمز جديد
 
-## تحويل SOL
+## تحويل NSO
 
-المثال أدناه يقوم بتحويل SOL بين حسابين. كل حساب له برنامج مالك، وهو البرنامج
-الوحيد الذي يمكنه خصم رصيد SOL من الحساب.
+المثال أدناه يقوم بتحويل NSO بين حسابين. كل حساب له برنامج مالك، وهو البرنامج
+الوحيد الذي يمكنه خصم رصيد NSO من الحساب.
 
-جميع حسابات المحفظة مملوكة من قبل System Program. لتحويل SOL، يجب عليك استدعاء
+جميع حسابات المحفظة مملوكة من قبل System Program. لتحويل NSO، يجب عليك استدعاء
 تعليمة
 [transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)
 الخاصة بـ System Program.
@@ -99,7 +102,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !airdrop
 
-طلب إيداع SOL لتمويل `sender`.
+طلب إيداع NSO لتمويل `sender`.
 
 ### !instruction
 
@@ -171,8 +174,8 @@ const receiver = new Keypair();
 
 ## !!steps
 
-إضافة SOL إلى حساب المرسل. على الشبكات غير الشبكة الرئيسية، يمكنك استخدام طريقة
-`requestAirdrop` للحصول على SOL للاختبار.
+إضافة NSO إلى حساب المرسل. على الشبكات غير الشبكة الرئيسية، يمكنك استخدام طريقة
+`requestAirdrop` للحصول على NSO للاختبار.
 
 ```ts title="Airdrop"
 const signature = await connection.requestAirdrop(
@@ -209,7 +212,7 @@ await connection.confirmTransaction(signature, "confirmed");
 
 <WithMentions>
 
-طريقة `SystemProgram.transfer()` تنشئ تعليمة تقوم بتحويل SOL من حساب
+طريقة `SystemProgram.transfer()` تنشئ تعليمة تقوم بتحويل NSO من حساب
 [`fromPubkey`](mention:from) إلى حساب [`toPubkey`](mention:to) للعدد المحدد من
 [`lamports`](mention:lamports).
 
@@ -300,7 +303,7 @@ const transaction = new Transaction().add(transferInstruction);
 <WithMentions>
 
 قم بتوقيع وإرسال [المعاملة](mention:transaction) إلى الشبكة. يجب توفير keypair
-[المرسل](mention:sender) في مصفوفة الموقعين للتصريح بتحويل SOL من حسابه.
+[المرسل](mention:sender) في مصفوفة الموقعين للتصريح بتحويل NSO من حسابه.
 
 ```ts title="Send transaction"
 const transactionSignature = await sendAndConfirmTransaction(

@@ -1,13 +1,16 @@
 ---
+
 title: Zamknij konto tokena
 description: Dowiedz się, jak zamknąć konta tokenów.
+
 ---
+
 
 ## Zamknij konto
 
 Instrukcja
 [`CloseAccount`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/program/src/instruction.rs#L212C5-L212C17)
-trwale zamyka konto tokena i przenosi wszystkie pozostałe SOL (rent) na
+trwale zamyka konto tokena i przenosi wszystkie pozostałe NSO (rent) na
 określone konto docelowe. Saldo konta tokena musi wynosić zero przed
 zamknięciem. Tylko właściciel konta tokena lub wyznaczony autorytet zamknięcia
 może wykonać tę instrukcję.

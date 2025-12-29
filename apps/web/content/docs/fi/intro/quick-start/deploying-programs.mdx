@@ -1,16 +1,19 @@
 ---
+
 title: Ohjelman käyttöönotto
 description:
   Opi rakentamaan, ottamaan käyttöön ja testaamaan ensimmäinen Solana-ohjelmasi
   käyttäen Anchor-kehystä ja Solana Playgroundia. Tämä aloittelijaystävällinen
   opas käy läpi yksinkertaisen ohjelman luomisen, sen käyttöönoton devnetissä,
   testien suorittamisen ja ohjelman sulkemisen.
-h1: Ota käyttöön ensimmäinen Solana-ohjelmasi
+h1: Ota käyttöön ensimmäinen Nara Solana-ohjelmasi
+
 ---
 
+
 Rakenna, ota käyttöön ja testaa ensimmäinen [ohjelmasi](/docs/core/programs)
-Solana-lohkoketjussa käyttäen Anchor-kehystä. Tämä opas auttaa sinua tutustumaan
-paremmin Solana Playgroundiin ja valmistaa sinua käyttämään Program Derived
+Nara Solana-lohkoketjussa käyttäen Anchor-kehystä. Tämä opas auttaa sinua tutustumaan
+paremmin Nara Solana Playgroundiin ja valmistaa sinua käyttämään Program Derived
 Address -osoitteita (PDA) ja Cross Program Invocation -toimintoa (CPI).
 
 <Steps>
@@ -19,7 +22,7 @@ Address -osoitteita (PDA) ja Cross Program Invocation -toimintoa (CPI).
 
 ### Luo Anchor-projekti
 
-1. Avaa [Solana Playground](https://beta.solpg.io) verkkoselaimessasi
+1. Avaa [Nara Solana Playground](https://beta.solpg.io) verkkoselaimessasi
 2. Napsauta vasemmassa paneelissa **+ Create a new project**
 3. Syötä **Project name** (projektin nimi)
 4. Valitse kehykseksi **Anchor (Rust)**
@@ -145,7 +148,7 @@ Tilille varattavien tavujen määrä
 <WithMentions>
 
 - [`declare_id!`](mention:one) makro määrittää ohjelmasi lohkoketjuosoitteen.
-  Solana Playground päivittää tämän osoitteen automaattisesti, kun rakennat
+  Nara Solana Playground päivittää tämän osoitteen automaattisesti, kun rakennat
   ohjelman.
 
 ```rs
@@ -248,11 +251,11 @@ Build successful. Completed in 1.46s.
   määritelty tiedostossa _rs`declare_id!()`_, päivitetään nyt.
 </Callout>
 
-2. Lisää SOL lompakkoosi _(Valinnainen)_
+2. Lisää NSO lompakkoosi _(Valinnainen)_
 
-Ohjelman käyttöönotto vaatii SOL-tokeneita ohjelman lohkoketjutilillä.
+Ohjelman käyttöönotto vaatii NSO-tokeneita ohjelman lohkoketjutilillä.
 Tarvittaessa
-[lisää SOL lompakkoosi](/docs/intro/quick-start#add-sol-to-your-wallet) ennen
+[lisää NSO lompakkoosi](/docs/intro/quick-start#add-sol-to-your-wallet) ennen
 siirtymistä vaiheeseen 3.
 
 3. Ota ohjelma käyttöön verkossa
@@ -394,11 +397,11 @@ Confirmed
 4. Tarkastele transaktion tietoja
 
 Avaa joko [SolanaFM](https://solana.fm/) tai
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) ja hae
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) ja hae
 transaktiotunnisteella.
 
 <Callout type="warn">
-  **Solana Explorer:** Aseta verkkoklusteriksi `devnet`, jotta se vastaa Solana
+  **Nara Solana Explorer:** Aseta verkkoklusteriksi `devnet`, jotta se vastaa Nara Solana
   Playgroundin klusteria.
 </Callout>
 
@@ -408,7 +411,7 @@ transaktiotunnisteella.
 
 ### Sulje ohjelma
 
-Sulje ohjelma saadaksesi takaisin lohkoketjuohjelmalle allokoidun SOL-määrän.
+Sulje ohjelma saadaksesi takaisin lohkoketjuohjelmalle allokoidun NSO-määrän.
 Tee tämä suorittamalla `solana program close [ProgramID]`, käyttäen
 _rs`declare_id!()`_ -makroon tallennettua ohjelman osoitetta.
 
@@ -424,7 +427,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   peruutetaan, ohjelmasta tulee muuttumaton.
 </Callout>
 
-Onnittelut! Rakensit ja otit käyttöön ensimmäisen Solana-ohjelmasi Anchoria
+Onnittelut! Rakensit ja otit käyttöön ensimmäisen Nara Solana-ohjelmasi Anchoria
 käyttäen.
 
 </Step>

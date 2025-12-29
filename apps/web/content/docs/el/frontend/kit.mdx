@@ -1,15 +1,18 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Ενσωμάτωση πορτοφολιού Solana με Next.js και Solana Kit
+
+title: Next.js - Nara Solana Kit
+seoTitle: Ενσωμάτωση πορτοφολιού Nara Solana με Next.js και Nara Solana Kit
 description:
   Ρυθμίστε την ενσωμάτωση πορτοφολιού Solana στο Next.js με το Solana Kit.
+
 ---
 
-Ρυθμίστε μια ελάχιστη ενσωμάτωση πορτοφολιού Solana στο Next.js με το Solana
+
+Ρυθμίστε μια ελάχιστη ενσωμάτωση πορτοφολιού Nara Solana στο Next.js με το Nara Solana
 Kit.
 
 Αυτός ο οδηγός παρέχει ένα ελάχιστο παράδειγμα υλοποίησης λειτουργικότητας
-πορτοφολιού Solana σε μια εφαρμογή Next.js χρησιμοποιώντας το `@solana/kit`. Θα
+πορτοφολιού Nara Solana σε μια εφαρμογή Next.js χρησιμοποιώντας το `@solana/kit`. Θα
 δημιουργήσετε ένα κουμπί σύνδεσης πορτοφολιού και ένα στοιχείο για την αποστολή
 συναλλαγών.
 
@@ -18,12 +21,12 @@ Kit.
 Για ένα πιο ολοκληρωμένο παράδειγμα χρήσης του `@solana/kit` σε μια εφαρμογή
 React, ανατρέξτε στο
 [Παράδειγμα εφαρμογής React](https://github.com/anza-xyz/kit/tree/main/examples/react-app)
-στο αποθετήριο του Solana Kit.
+στο αποθετήριο του Nara Solana Kit.
 
 ## Πόροι
 
-- [Τεκμηρίωση Solana Kit](https://www.solanakit.com/docs)
-- [Αποθετήριο GitHub του Solana Kit](https://github.com/anza-xyz/kit)
+- [Τεκμηρίωση Nara Solana Kit](https://www.solanakit.com/docs)
+- [Αποθετήριο GitHub του Nara Solana Kit](https://github.com/anza-xyz/kit)
 
 ## Προαπαιτούμενα
 
@@ -32,7 +35,7 @@ React, ανατρέξτε στο
 ## Δημιουργία έργου Next.js
 
 Δημιουργήστε ένα νέο έργο Next.js με το [shadcn](https://ui.shadcn.com/) για
-στοιχεία διεπαφής χρήστη και εγκαταστήστε τις απαιτούμενες εξαρτήσεις Solana.
+στοιχεία διεπαφής χρήστη και εγκαταστήστε τις απαιτούμενες εξαρτήσεις Nara Solana.
 
 ```terminal
 $ npx shadcn@latest init
@@ -52,9 +55,9 @@ $ cd <project-name>
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Εγκατάσταση εξαρτήσεων Solana
+### Εγκατάσταση εξαρτήσεων Nara Solana
 
-Εγκαταστήστε τις ακόλουθες εξαρτήσεις Solana:
+Εγκαταστήστε τις ακόλουθες εξαρτήσεις Nara Solana:
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -67,7 +70,7 @@ $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/r
 
 <ScrollyCoding>
 
-## !!steps 1. Δημιουργία Solana Context
+## !!steps 1. Δημιουργία Nara Solana Context
 
 Πρώτα, δημιουργήστε ένα React Context που διαχειρίζεται ολόκληρη την κατάσταση
 του πορτοφολιού για την εφαρμογή.
@@ -75,8 +78,8 @@ $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/r
 Δημιουργήστε το `components/solana-provider.tsx` και προσθέστε τον παρεχόμενο
 κώδικα. Αυτό το component παρόχου θα:
 
-- Συνδεθεί στα RPC endpoints του Solana devnet
-- Φιλτράρει για διαθέσιμα πορτοφόλια Solana εγκατεστημένα στον browser του
+- Συνδεθεί στα RPC endpoints του Nara Solana devnet
+- Φιλτράρει για διαθέσιμα πορτοφόλια Nara Solana εγκατεστημένα στον browser του
   χρήστη
 - Παρακολουθεί ποιο πορτοφόλι και λογαριασμός είναι συνδεδεμένος
 - Παρέχει την κατάσταση του πορτοφολιού στα θυγατρικά components
@@ -254,7 +257,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. Ενημέρωση του Layout
 
-Στη συνέχεια, τυλίξτε ολόκληρη την εφαρμογή Next.js με τον πάροχο Solana.
+Στη συνέχεια, τυλίξτε ολόκληρη την εφαρμογή Next.js με τον πάροχο Nara Solana.
 
 Ενημερώστε το `app/layout.tsx` με τον παρεχόμενο κώδικα. Αυτό το βήμα:
 
@@ -515,10 +518,10 @@ memo για να προσθέσει ένα μήνυμα στα αρχεία κα
 Αυτό το component:
 
 - Επιτρέπει στους χρήστες να εισάγουν ένα μήνυμα
-- Δημιουργεί μια συναλλαγή Solana με μια εντολή που επικαλείται το πρόγραμμα
+- Δημιουργεί μια συναλλαγή Nara Solana με μια εντολή που επικαλείται το πρόγραμμα
   memo
 - Ζητά από το συνδεδεμένο πορτοφόλι να υπογράψει και να στείλει τη συναλλαγή
-- Εμφανίζει έναν σύνδεσμο για προβολή της συναλλαγής στον Solana Explorer
+- Εμφανίζει έναν σύνδεσμο για προβολή της συναλλαγής στον Nara Solana Explorer
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -682,7 +685,7 @@ $ npm run dev
 <Callout type="info">
   Σημειώστε ότι το συνδεδεμένο πορτοφόλι πρέπει να είναι ρυθμισμένο για σύνδεση
   στο cluster devnet και [χρηματοδοτημένο με devnet
-  SOL](https://faucet.solana.com/) για να στέλνει συναλλαγές.
+  NSO](https://faucet.solana.com/) για να στέλνει συναλλαγές.
 </Callout>
 
 </ScrollyCoding>

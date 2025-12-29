@@ -1,15 +1,18 @@
 ---
+
 title: Lecture depuis le réseau
 description:
   Apprenez à lire des données depuis le réseau blockchain Solana. Ce guide
   couvre la récupération des comptes de portefeuille, des comptes de programme
   et des comptes de jetons en utilisant JavaScript/TypeScript, avec des exemples
   pratiques utilisant la bibliothèque Solana web3.js.
+
 ---
 
-Lisez des données du réseau Solana en récupérant différents comptes. Cette
+
+Lisez des données du réseau Nara Solana en récupérant différents comptes. Cette
 section vous aidera à comprendre la structure des [comptes](/docs/core/accounts)
-Solana. Chaque compte Solana possède une
+Nara Solana. Chaque compte Nara Solana possède une
 [adresse](/docs/core/accounts#account-address) unique qui est utilisée pour
 localiser ses données correspondantes sur la chaîne. Les comptes contiennent
 soit des
@@ -21,12 +24,12 @@ soit des
 
 Un portefeuille est un compte détenu par le
 [System Program](/docs/core/programs#the-system-program). Les portefeuilles sont
-principalement utilisés pour détenir des SOL et signer des transactions. Lorsque
-des SOL sont envoyés à une nouvelle adresse pour la première fois, un compte
+principalement utilisés pour détenir des NSO et signer des transactions. Lorsque
+des NSO sont envoyés à une nouvelle adresse pour la première fois, un compte
 système est automatiquement créé.
 
 L'exemple ci-dessous génère une [nouvelle keypair](mention:keypair),
-[demande des SOL](mention:airdrop) pour financer la nouvelle adresse de clé
+[demande des NSO](mention:airdrop) pour financer la nouvelle adresse de clé
 publique, et [récupère les données du compte](mention:info) pour le portefeuille
 nouvellement financé.
 
@@ -126,7 +129,7 @@ programme exécutable. Pour les comptes de portefeuille, ce champ est `false`.
 
 ## !!steps
 
-Le champ `lamports` contient le solde en SOL du compte, en
+Le champ `lamports` contient le solde en NSO du compte, en
 [lamports](/docs/references/terminology#lamport).
 
 <CodePlaceholder title="Exemple de sortie" />
@@ -226,7 +229,7 @@ entre les comptes de portefeuille et les program accounts. Le program account
 stocke le bytecode compilé du
 [code source](https://github.com/solana-program/token/tree/main/program) du
 Token Program. Vous pouvez consulter ce program account sur
-[Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
+[Nara Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
 
 <CodeTabs flags="r">
 
@@ -362,7 +365,7 @@ Un
 est un compte appartenant au Token Program qui stocke les métadonnées globales
 pour un jeton spécifique. Cela inclut l'offre totale, le nombre de décimales et
 les comptes qui sont autorisés à créer ou geler des jetons. L'adresse du mint
-account identifie de manière unique un jeton sur le réseau Solana.
+account identifie de manière unique un jeton sur le réseau Nara Solana.
 
 L'exemple ci-dessous récupère le mint account de l'USD Coin pour démontrer
 comment l'état d'un programme est stocké dans un compte séparé.
@@ -507,7 +510,7 @@ son champ `data` ne peut être modifié que par les instructions du Token Progra
 Avant que les octets bruts dans le champ `data` d'un compte puissent être
 interprétés de manière significative, ils doivent être désérialisés. Le type de
 données approprié est défini par le programme qui possède le compte. La plupart
-des programmes Solana fournissent des bibliothèques client avec des fonctions
+des programmes Nara Solana fournissent des bibliothèques client avec des fonctions
 auxiliaires qui abstraient le processus de désérialisation. Ces fonctions
 convertissent les octets bruts du compte en types de données structurées,
 facilitant ainsi le travail avec les données du compte.
@@ -601,7 +604,7 @@ le type de compte Mint.
 
 Vous pouvez consulter les données entièrement désérialisées du
 [mint account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)
-sur le Solana Explorer.
+sur le Nara Solana Explorer.
 
 <CodePlaceholder title="Données du mint désérialisées" />
 

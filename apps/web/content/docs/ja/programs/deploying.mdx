@@ -1,11 +1,14 @@
 ---
+
 title: プログラムのデプロイ
 description:
   Solana CLIを使用したSolanaプログラムの構築、デプロイ、管理の完全ガイド。
+
 ---
 
-このセクションでは、Solana
-CLIを使用してSolanaプログラムをデプロイする基本的なプロセスについて説明します。
+
+このセクションでは、Nara Solana
+CLIを使用してNara Solanaプログラムをデプロイする基本的なプロセスについて説明します。
 
 ## CLIコマンドリファレンス
 
@@ -40,9 +43,9 @@ CLIを使用してSolanaプログラムをデプロイする基本的なプロ�
 
 <Step>
 
-### Solana CLIのインストール
+### Nara Solana CLIのインストール
 
-まず、[Solana CLIをインストール](/docs/intro/installation)します。
+まず、[Nara Solana CLIをインストール](/docs/intro/installation)します。
 
 </Step>
 
@@ -64,7 +67,7 @@ $ solana-keygen new
 
 ### クラスターの設定
 
-デプロイ先のSolanaクラスターを選択します。`solana config get`コマンドを使用して現在の設定を確認してください：
+デプロイ先のNara Solanaクラスターを選択します。`solana config get`コマンドを使用して現在の設定を確認してください：
 
 ```terminal
 $ solana config get
@@ -91,7 +94,7 @@ $ solana config set --url "https://your-rpc-url.com"
 
 ### ウォレットへの資金提供
 
-プログラムのデプロイには SOL が必要です。必要な量はプログラムのサイズによって異なります。
+プログラムのデプロイには NSO が必要です。必要な量はプログラムのサイズによって異なります。
 
 devnetまたはlocalhostの場合、`solana airdrop`コマンドを使用してウォレットに資金を提供します：
 
@@ -127,7 +130,7 @@ $ cargo build-sbf
 
 ## !!steps サンプルプログラム
 
-これは「Hello, Solana!」をプログラムログに出力する最小限のSolanaプログラムです。
+これは「Hello, Nara Solana!」をプログラムログに出力する最小限のNara Solanaプログラムです。
 
 <CodePlaceholder title="src/lib.rs" />
 
@@ -191,7 +194,7 @@ $ cargo build-sbf
 
 ### プログラムサイズとコストの確認
 
-プログラムをデプロイするには、プログラムのサイズに基づいてプログラムアカウントにSOLを割り当てる必要があります。プログラムが大きいほど、デプロイに必要なSOLも多くなります。
+プログラムをデプロイするには、プログラムのサイズに基づいてプログラムアカウントにNSOを割り当てる必要があります。プログラムが大きいほど、デプロイに必要なNSOも多くなります。
 
 プログラムのサイズを確認します：
 
@@ -200,7 +203,7 @@ $ wc -c < ./target/deploy/hello_world.so
 18504
 ```
 
-このサイズ（バイト）に必要なSOLを計算します：
+このサイズ（バイト）に必要なNSOを計算します：
 
 ```terminal
 $ solana rent 18504
@@ -208,7 +211,7 @@ Rent-exempt minimum: 0.12967872 SOL
 ```
 
 <Callout type="info">
-  デプロイトランザクション手数料をカバーするために、表示されている金額よりも少し多めのSOLが必要です。
+  デプロイトランザクション手数料をカバーするために、表示されている金額よりも少し多めのNSOが必要です。
 </Callout>
 
 ### プログラムのデプロイ
@@ -255,7 +258,7 @@ Signature: 3zKnXDfEm1R8hVcEmTnNFYUaFjVVbLJrKdFj5hBMXoBRfz8xGyDhCYgKr9YY5KxKYPEUQ
 
 <Callout type="info">
 
-更新したプログラムが現在割り当てられているよりも多くのスペース（バイト）を必要とする場合、デプロイメントは自動的にプログラムアカウントを拡張します。これは新しいプログラムが前のバージョンより大きい場合に発生します。プログラムアカウントは新しいプログラムを格納するために追加のバイトが必要です。CLIは必要なSOLを計算し、自動的にあなたのウォレットから差し引きます。
+更新したプログラムが現在割り当てられているよりも多くのスペース（バイト）を必要とする場合、デプロイメントは自動的にプログラムアカウントを拡張します。これは新しいプログラムが前のバージョンより大きい場合に発生します。プログラムアカウントは新しいプログラムを格納するために追加のバイトが必要です。CLIは必要なNSOを計算し、自動的にあなたのウォレットから差し引きます。
 
 手動でプログラムを拡張してより多くのバイトを割り当てることもできます：
 
@@ -314,7 +317,7 @@ Balance: 0.12999192 SOL
 
 ### !authority
 
-Authorityは、このプログラムをアップグレードまたはクローズする権限を持つアカウントです。Authorityのみがプログラムの更新をデプロイしたり、プログラムをクローズしてプログラムに割り当てられたSOLを回収したりできます。
+Authorityは、このプログラムをアップグレードまたはクローズする権限を持つアカウントです。Authorityのみがプログラムの更新をデプロイしたり、プログラムをクローズしてプログラムに割り当てられたNSOを回収したりできます。
 
 ### !last-deployed-in-slot
 
@@ -327,7 +330,7 @@ Lengthは、このプログラムに割り当てられた合計バイト数を�
 
 ### !balance
 
-Balanceは、プログラムアカウントにデータを保存するために割り当てられたSOLを表示します。
+Balanceは、プログラムアカウントにデータを保存するために割り当てられたNSOを表示します。
 
 </WithNotes>
 
@@ -359,7 +362,7 @@ Authority: none
 
 ### プログラムをクローズする
 
-プログラムをクローズしてプログラムアカウントに割り当てられたSOLを回収するには、`solana program close`コマンドを使用します：
+プログラムをクローズしてプログラムアカウントに割り当てられたNSOを回収するには、`solana program close`コマンドを使用します：
 
 ```terminal
 $ solana program close 7NxQjW8H8hVcqBKgXbVDWqGQCovHbqDW9p1SJJwUyTpE --bypass-warning
@@ -403,7 +406,7 @@ Wrote program to ./downloaded_program.so
 
 ### デプロイメントフラグ
 
-Solanaネットワークが混雑している場合、これらのフラグを使用してプログラムのデプロイをサポートします。
+Nara Solanaネットワークが混雑している場合、これらのフラグを使用してプログラムのデプロイをサポートします。
 
 使用例:
 
@@ -417,7 +420,7 @@ $ solana program deploy ./target/deploy/hello_world.so \
 オプションの説明:
 
 - **`--with-compute-unit-price`**: コンピュートユニットあたりのマイクロラムポート（0.000001
-  SOL）で優先手数料を設定します。現在のレートについては[Helius優先手数料API](https://docs.helius.dev/guides/priority-fee-api)を確認してください。優先手数料は、トランザクションを優先するために現在のリーダーに支払われる追加手数料です。
+  NSO）で優先手数料を設定します。現在のレートについては[Helius優先手数料API](https://docs.helius.dev/guides/priority-fee-api)を確認してください。優先手数料は、トランザクションを優先するために現在のリーダーに支払われる追加手数料です。
 - **`--max-sign-attempts`**: トランザクションが期限切れになった場合に新しいブロックハッシュで再試行する回数。（デフォルト:
   5）
 - **`--use-rpc`**: 設定されたRPCにトランザクションを送信します。このフラグには[Triton](https://triton.one/)や[Helius](https://www.helius.dev/)などのプロバイダーからの[ステーク加重](/developers/guides/advanced/stake-weighted-qos)

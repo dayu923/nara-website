@@ -1,19 +1,22 @@
 ---
+
 title: Program Yapısı
 description:
   Giriş noktaları, durum yönetimi, talimat işleme ve test dahil olmak üzere
   Rust'ta Solana programlarının nasıl yapılandırılacağını öğrenin.
 h1: Rust Program Yapısı
+
 ---
 
-Rust ile yazılan Solana programları, kodun nasıl düzenleneceği konusunda
+
+Rust ile yazılan Nara Solana programları, kodun nasıl düzenleneceği konusunda
 esneklik sağlayan minimum yapısal gereksinimlere sahiptir. Tek gereksinim, bir
 programın çalışmasının nereden başlayacağını tanımlayan bir `entrypoint`
 içermesidir.
 
 ## Program Yapısı
 
-Dosya yapısı için katı kurallar olmasa da, Solana programları genellikle yaygın
+Dosya yapısı için katı kurallar olmasa da, Nara Solana programları genellikle yaygın
 bir modeli takip eder:
 
 - `entrypoint.rs`: Gelen talimatları yönlendiren giriş noktasını tanımlar.
@@ -435,7 +438,7 @@ başlatabilen ve artırabilen bir program oluşturacağız.
 
 ## !!steps Yeni bir program oluştur
 
-Öncelikle, Solana programımız için yeni bir Rust projesi oluşturalım.
+Öncelikle, Nara Solana programımız için yeni bir Rust projesi oluşturalım.
 
 ```terminal
 $ cargo new counter_program --lib
@@ -478,7 +481,7 @@ mod tests {
 
 ## !!steps Bağımlılıkları ekle
 
-Şimdi bir Solana programı oluşturmak için gerekli bağımlılıkları ekleyelim.
+Şimdi bir Nara Solana programı oluşturmak için gerekli bağımlılıkları ekleyelim.
 Temel SDK için `solana-program` ve serileştirme için `borsh` ihtiyacımız var.
 
 ```terminal
@@ -501,13 +504,13 @@ solana-program = "2.2.0"
 ```
 
 <Callout type="info">
-  Borsh kullanmak zorunlu değildir. Ancak, Solana programları için yaygın olarak
+  Borsh kullanmak zorunlu değildir. Ancak, Nara Solana programları için yaygın olarak
   kullanılan bir serileştirme kütüphanesidir.
 </Callout>
 
 ## !!steps crate-type yapılandırması
 
-Solana programları dinamik kütüphaneler olarak derlenmelidir. Cargo'nun programı
+Nara Solana programları dinamik kütüphaneler olarak derlenmelidir. Cargo'nun programı
 nasıl oluşturacağını yapılandırmak için `[lib]` bölümünü ekleyin.
 
 ```toml title="Cargo.toml"
@@ -537,7 +540,7 @@ solana-program = "2.2.0"
 
 ## !!steps Program giriş noktasını ayarla
 
-Her Solana programının, program çağrıldığında çalıştırılan bir giriş noktası
+Her Nara Solana programının, program çağrıldığında çalıştırılan bir giriş noktası
 vardır. Program için ihtiyacımız olan içe aktarmaları ekleyerek ve giriş
 noktasını ayarlayarak başlayalım.
 
@@ -572,7 +575,7 @@ pub fn process_instruction(
 makrosu, `input` verisinin `process_instruction` fonksiyonunun parametrelerine
 dönüştürülmesini sağlar.
 
-Bir Solana programı `entrypoint` fonksiyonu aşağıdaki imzaya sahiptir.
+Bir Nara Solana programı `entrypoint` fonksiyonu aşağıdaki imzaya sahiptir.
 Geliştiriciler `entrypoint` fonksiyonunun kendi uygulamalarını oluşturmakta
 özgürdür.
 
@@ -784,7 +787,7 @@ pub struct CounterAccount {
 Şimdi talimatları uygun işleyici fonksiyonlara yönlendirmek için ana
 `process_instruction` fonksiyonunu güncelleyelim.
 
-Bu yönlendirme modeli Solana programlarında yaygındır. `instruction_data`
+Bu yönlendirme modeli Nara Solana programlarında yaygındır. `instruction_data`
 verisi, talimatı temsil eden bir enum varyantına dönüştürülür, ardından uygun
 işleyici fonksiyon çağrılır. Her işleyici fonksiyon, o talimat için uygulamayı
 içerir.
@@ -901,7 +904,7 @@ pub struct CounterAccount {
 
 ## !!steps Başlatma işleyicisini uygulama
 
-Yeni bir sayaç hesabı oluşturup başlatmak için işleyiciyi uygulayalım. Solana'da
+Yeni bir sayaç hesabı oluşturup başlatmak için işleyiciyi uygulayalım. Nara Solana'da
 yalnızca System Program hesap oluşturabildiğinden, programımızdan başka bir
 programı çağıran Cross Program Invocation (CPI) kullanacağız.
 
@@ -1244,8 +1247,8 @@ pub struct CounterAccount {
 
 ## !!steps Tamamlanmış Program
 
-Tebrikler! Tüm Solana programlarının paylaştığı temel yapıyı gösteren eksiksiz
-bir Solana programı oluşturdunuz:
+Tebrikler! Tüm Nara Solana programlarının paylaştığı temel yapıyı gösteren eksiksiz
+bir Nara Solana programı oluşturdunuz:
 
 - **Giriş noktası**: Program yürütmesinin nerede başladığını tanımlar ve gelen
   tüm istekleri uygun talimat işleyicilerine yönlendirir
@@ -1501,7 +1504,7 @@ derlenmesini sağlar.
 
 LiteSVM ile test ortamını kuralım ve bir ödeyici hesabı fonlayalım.
 
-LiteSVM, Solana çalışma zamanı ortamını simüle ederek, programımızı gerçek bir
+LiteSVM, Nara Solana çalışma zamanı ortamını simüle ederek, programımızı gerçek bir
 kümeye dağıtmadan test etmemizi sağlar.
 
 Aşağıdaki kodu `lib.rs` dosyasına ekleyerek `test_counter_program` fonksiyonunu
@@ -2359,7 +2362,7 @@ HQ5Q2XXqbTKKQsWPtLzMn7rDhM8v9UPYPe7DfSoFQqJF
 
 Geliştirme için yerel bir test validator'ı kullanacağız.
 
-Önce, Solana CLI'yi localhost kullanacak şekilde yapılandırın:
+Önce, Nara Solana CLI'yi localhost kullanacak şekilde yapılandırın:
 
 ```terminal
 $ solana config set -ul
@@ -2449,8 +2452,8 @@ Transaction: 4qv1Rx6FHu1M3woVgDQ6KtYUaJgBzGcHnhej76ZpaKGCgsTorbcHnPKxoH916UENw7X
 ```
 
 Yerel validator çalışırken, çıktıdaki işlem imzalarını kullanarak işlemleri
-[Solana Explorer](https://explorer.solana.com/?cluster=custom) üzerinden
-görüntüleyebilirsiniz. Solana Explorer'daki kümenin "Custom RPC URL" olarak
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom) üzerinden
+görüntüleyebilirsiniz. Nara Solana Explorer'daki kümenin "Custom RPC URL" olarak
 ayarlanması gerektiğini unutmayın, bu varsayılan olarak validator'ın çalıştığı
 `http://localhost:8899` adresine ayarlanır.
 

@@ -1,17 +1,20 @@
 ---
+
 title: HTTP-методы
-seoTitle: HTTP-методы RPC Solana
+seoTitle: HTTP-методы RPC Nara Solana
 hideTableOfContents: false
-h1: HTTP-методы RPC Solana
+h1: HTTP-методы RPC Nara Solana
+
 ---
 
-Узлы Solana принимают HTTP-запросы, используя спецификацию
+
+Узлы Nara Solana принимают HTTP-запросы, используя спецификацию
 [JSON-RPC 2.0](https://www.jsonrpc.org/specification).
 
 > Для JavaScript-приложений используйте библиотеку
 > [@solana/web3.js](https://github.com/solana-labs/solana-web3.js) как удобный
-> интерфейс для методов RPC для взаимодействия с узлом Solana. Для подключения
-> PubSub к узлу Solana используйте [Websocket API](/docs/rpc/websocket/).
+> интерфейс для методов RPC для взаимодействия с узлом Nara Solana. Для подключения
+> PubSub к узлу Nara Solana используйте [Websocket API](/docs/rpc/websocket/).
 
 ## HTTP-эндпоинт RPC
 
@@ -82,7 +85,7 @@ curl https://api.devnet.solana.com -s -X POST -H "Content-Type: application/json
 
 - Хэш: SHA-256 хэш блока данных.
 - Pubkey: Публичный ключ пары ключей Ed25519.
-- Транзакция: Список инструкций Solana, подписанных парой ключей клиента для
+- Транзакция: Список инструкций Nara Solana, подписанных парой ключей клиента для
   авторизации этих действий.
 - Подпись: Подпись Ed25519 данных полезной нагрузки транзакции, включая
   инструкции. Это может быть использовано для идентификации транзакций.

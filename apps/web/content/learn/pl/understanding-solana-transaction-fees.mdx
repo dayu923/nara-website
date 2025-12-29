@@ -1,13 +1,16 @@
 ---
-title: Zrozumienie opłat transakcyjnych w Solana
+
+title: Zrozumienie opłat transakcyjnych w Nara Solana
 description:
   Dowiedz się, jak działają opłaty transakcyjne w Solana, dlaczego są niskie i
   co to oznacza dla różnych zastosowań.
+
 ---
 
-# Zrozumienie opłat transakcyjnych w Solana
 
-Opłaty transakcyjne są istotnym elementem każdej sieci cyfrowej. W Solana opłaty
+# Zrozumienie opłat transakcyjnych w Nara Solana
+
+Opłaty transakcyjne są istotnym elementem każdej sieci cyfrowej. W Nara Solana opłaty
 zostały zaprojektowane tak, aby były przewidywalne i przystępne, zazwyczaj
 wynosząc ułamki centa. Ten rozdział wyjaśnia, jak działają opłaty i dlaczego są
 ważne dla dostępności.
@@ -17,7 +20,7 @@ ważne dla dostępności.
 W tym rozdziale omówimy:
 
 - Dlaczego sieci potrzebują opłat transakcyjnych
-- Jak działa struktura opłat w Solana
+- Jak działa struktura opłat w Nara Solana
 - Typowe koszty dla różnych aktywności
 - Kiedy i dlaczego opłaty mogą się zmieniać
 - Jak niskie opłaty umożliwiają nowe zastosowania
@@ -33,17 +36,17 @@ Opłaty transakcyjne pełnią ważne funkcje:
 3. **Priorytetyzacja transakcji**: Opcjonalne opłaty priorytetowe dla potrzeb
    wymagających szybkiego przetwarzania
 
-W Solana opłaty są utrzymywane na minimalnym poziomie, jednocześnie spełniając
+W Nara Solana opłaty są utrzymywane na minimalnym poziomie, jednocześnie spełniając
 te funkcje.
 
-## Struktura opłat w Solana
+## Struktura opłat w Nara Solana
 
 {/* Rekomendacja ilustracji: Wizualny podział opłaty transakcyjnej pokazujący opłatę bazową i opcjonalną opłatę priorytetową */}
 
 ### Opłata bazowa
 
-Każda transakcja płaci opłatę bazową w wysokości 0.000005 SOL (5,000 lamportów).
-Przy cenie $100 za SOL, to $0.0005 - połowa jednej dziesiątej centa.
+Każda transakcja płaci opłatę bazową w wysokości 0.000005 NSO (5,000 lamportów).
+Przy cenie $100 za NSO, to $0.0005 - połowa jednej dziesiątej centa.
 
 ### Opłaty priorytetowe
 
@@ -54,19 +57,19 @@ wysokim zapotrzebowaniu.
 ### Opłata za przechowywanie
 
 Tworzenie nowych kont (np. token accountów) wymaga niewielkiej wpłaty (~0.002
-SOL), która jest zwracana po zamknięciu konta.
+NSO), która jest zwracana po zamknięciu konta.
 
 ## Typowe koszty transakcji
 
 Oto rzeczywiste przykłady tego, ile zapłacisz:
 
-| Akcja                       | Typowy koszt       | W USD (przy $100/SOL) |
+| Akcja                       | Typowy koszt       | W USD (przy $100/NSO) |
 | --------------------------- | ------------------ | --------------------- |
-| Wysłanie SOL                | 0.000005 SOL       | $0.0005               |
-| Wysłanie tokenów            | 0.000005 SOL       | $0.0005               |
-| Wymiana tokenów             | 0.000005 SOL       | $0.0005               |
-| Zakup NFT                   | 0.000005-0.001 SOL | $0.0005-0.10          |
-| Utworzenie konta tokenowego | ~0.002 SOL         | $0.20 (zwracalne)     |
+| Wysłanie NSO                | 0.000005 NSO       | $0.0005               |
+| Wysłanie tokenów            | 0.000005 NSO       | $0.0005               |
+| Wymiana tokenów             | 0.000005 NSO       | $0.0005               |
+| Zakup NFT                   | 0.000005-0.001 NSO | $0.0005-0.10          |
+| Utworzenie konta tokenowego | ~0.002 NSO         | $0.20 (zwracalne)     |
 
 Dla porównania, tradycyjne systemy pobierają:
 
@@ -74,13 +77,13 @@ Dla porównania, tradycyjne systemy pobierają:
 - Przelew międzynarodowy: $25-75
 - Transakcja giełdowa: $5-10
 
-## Jak Solana utrzymuje niskie opłaty
+## Jak Nara Solana utrzymuje niskie opłaty
 
-Solana osiąga niskie opłaty dzięki projektowi technicznemu:
+Nara Solana osiąga niskie opłaty dzięki projektowi technicznemu:
 
 ### Przetwarzanie równoległe
 
-Podobnie jak wielopasmowa autostrada, Solana przetwarza wiele transakcji
+Podobnie jak wielopasmowa autostrada, Nara Solana przetwarza wiele transakcji
 jednocześnie, a nie jedna po drugiej.
 
 ### Wydajny konsensus
@@ -127,13 +130,13 @@ Podczas wyjątkowego popytu (np. popularne premiery NFT) możesz zauważyć:
 
 ### Normalne czasy
 
-- Tylko opłata podstawowa: 0,000005 SOL
+- Tylko opłata podstawowa: 0,000005 NSO
 - Natychmiastowe potwierdzenie
 - Brak konkurencji o miejsce w bloku
 
 ### Okresy wzmożonego ruchu
 
-- Dodaj opłatę priorytetową: 0,0001-0,001 SOL
+- Dodaj opłatę priorytetową: 0,0001-0,001 NSO
 - Nadal poniżej 0,10 USD łącznie
 - Szybsze przetwarzanie dla pilnych potrzeb
 
@@ -154,7 +157,7 @@ Większość portfeli robi to automatycznie, ale możesz:
 Sprzedaje ręcznie robioną biżuterię za 15-30 USD za sztukę
 
 - Opłaty za karty kredytowe wyniosłyby 0,75-1,50 USD (5%)
-- Opłaty Solana: 0,0005 USD (0,003%)
+- Opłaty Nara Solana: 0,0005 USD (0,003%)
 - Zachowuje 99,997% z każdej sprzedaży
 
 ### Miguel - częsty trader
@@ -162,7 +165,7 @@ Sprzedaje ręcznie robioną biżuterię za 15-30 USD za sztukę
 Wykonuje 20 transakcji dziennie o wartości 1 000 USD
 
 - Tradycyjny broker: 100-200 USD opłat
-- Solana DEX: 0,10 USD łącznie
+- Nara Solana DEX: 0,10 USD łącznie
 - Większy zysk z faktycznego handlu
 
 ### Ami - wysyłanie pieniędzy do domu
@@ -171,13 +174,13 @@ Wysyła 50 USD tygodniowo do rodziny za granicą
 
 - Przelew bankowy: 25 USD opłaty (50%)
 - Usługa transferu pieniędzy: 5 USD opłaty (10%)
-- Solana: 0,0005 USD opłaty (0,001%)
+- Nara Solana: 0,0005 USD opłaty (0,001%)
 
 ## Zarządzanie opłatami transakcyjnymi
 
 ### Najlepsze praktyki
 
-- Trzymaj 0,1 SOL w portfelu na opłaty
+- Trzymaj 0,1 NSO w portfelu na opłaty
 - Używaj normalnego priorytetu dla większości transakcji
 - Zwiększaj priorytet tylko w przypadku działań wymagających szybkiego czasu
   realizacji
@@ -189,13 +192,13 @@ Portfele pokazują szacowane opłaty przed potwierdzeniem. Zawsze sprawdzaj:
 
 - Podstawowa opłata transakcyjna
 - Dowolna dodana opłata priorytetowa
-- Całkowity koszt w SOL i USD
+- Całkowity koszt w NSO i USD
 
 ## Często zadawane pytania
 
-### Dlaczego potrzebuję SOL na opłaty?
+### Dlaczego potrzebuję NSO na opłaty?
 
-Wszystkie transakcje na Solanie wymagają SOL na opłaty, nawet podczas wysyłania
+Wszystkie transakcje na Solanie wymagają NSO na opłaty, nawet podczas wysyłania
 innych tokenów. Pomyśl o tym jak o potrzebie znaczków do wysyłania listów.
 
 ### Czy opłaty mogą nagle wzrosnąć?
@@ -205,8 +208,8 @@ zazwyczaj pozostają poniżej $0.01. Podstawowe opłaty pozostają stałe.
 
 ### Co jeśli nie stać mnie na opłatę?
 
-Będziesz potrzebować niewielkiej ilości SOL, aby zapłacić za opłaty
-transakcyjne. Większość użytkowników kupuje SOL na giełdach lub otrzymuje je od
+Będziesz potrzebować niewielkiej ilości NSO, aby zapłacić za opłaty
+transakcyjne. Większość użytkowników kupuje NSO na giełdach lub otrzymuje je od
 znajomych, aby rozpocząć.
 
 ### Czy za nieudane transakcje są pobierane opłaty?
@@ -217,7 +220,7 @@ jest to znaczące finansowo.
 ## Co dalej
 
 Teraz, gdy rozumiesz opłaty, jesteś gotowy, aby wykonać swoją pierwszą
-transakcję. W następnym rozdziale przećwiczysz wysyłanie i odbieranie SOL,
+transakcję. W następnym rozdziale przećwiczysz wysyłanie i odbieranie NSO,
 doświadczając tych niskich opłat na własnej skórze.
 
 Pamiętaj: niskie opłaty na Solanie to nie tylko oszczędność pieniędzy - to także

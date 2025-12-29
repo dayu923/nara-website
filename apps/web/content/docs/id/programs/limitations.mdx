@@ -1,8 +1,11 @@
 ---
+
 title: Batasan
+
 ---
 
-Mengembangkan program di blockchain Solana memiliki beberapa batasan yang
+
+Mengembangkan program di blockchain Nara Solana memiliki beberapa batasan yang
 melekat padanya. Berikut adalah daftar batasan umum yang mungkin Anda temui.
 
 ## Pustaka Rust
@@ -53,7 +56,7 @@ detail yang lebih spesifik.
 
 ## Kedalaman call stack - error `CallDepthExceeded`
 
-Program Solana dibatasi untuk berjalan dengan cepat, dan untuk memfasilitasi
+Program Nara Solana dibatasi untuk berjalan dengan cepat, dan untuk memfasilitasi
 ini, call stack program dibatasi hingga kedalaman maksimum **64 frame**.
 
 Ketika program melebihi batas kedalaman call stack yang diizinkan, program
@@ -80,7 +83,7 @@ mengkonsumsi lebih banyak unit komputasi daripada operasi integer. Secara umum,
 operasi fixed point direkomendasikan jika memungkinkan.
 
 Tes
-[Solana Program Library math](https://github.com/solana-labs/solana-program-library/tree/master/libraries/math)
+[Nara Solana Program Library math](https://github.com/solana-labs/solana-program-library/tree/master/libraries/math)
 akan melaporkan kinerja beberapa operasi matematika. Untuk menjalankan tes,
 sinkronkan repo dan jalankan:
 

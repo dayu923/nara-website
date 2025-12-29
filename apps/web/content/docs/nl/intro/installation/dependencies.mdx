@@ -1,14 +1,17 @@
 ---
+
 title: Afhankelijkheden installeren
-seoTitle: Installeer de benodigde afhankelijkheden om te ontwikkelen met Solana
+seoTitle: Installeer de benodigde afhankelijkheden om te ontwikkelen met Nara Solana
 description:
   Een handleiding voor het opzetten van je lokale Solana-ontwikkelomgeving. Leer
   hoe je Rust, de Solana CLI en het Anchor Framework installeert op Windows
   (WSL), Linux en Mac.
+
 ---
 
-Een handleiding voor het opzetten van je lokale Solana-ontwikkelomgeving. Leer
-hoe je Rust, de Solana CLI en het Anchor Framework installeert op Windows (WSL),
+
+Een handleiding voor het opzetten van je lokale Nara Solana-ontwikkelomgeving. Leer
+hoe je Rust, de Nara Solana CLI en het Anchor Framework installeert op Windows (WSL),
 Linux en Mac. Gebruik deze handleiding als je de voorkeur geeft aan het
 individueel installeren van elke afhankelijkheid, of als de
 [snelle installatie](/docs/intro/installation/) om welke reden dan ook mislukt.
@@ -18,7 +21,7 @@ individueel installeren van elke afhankelijkheid, of als de
 <Accordions>
 <Accordion title="Windows">
 
-Om Solana-programma's op Windows te ontwikkelen **moet** je
+Om Nara Solana-programma's op Windows te ontwikkelen **moet** je
 [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install)
 (WSL) gebruiken. Na het installeren van WSL worden alle andere afhankelijkheden
 geïnstalleerd via de Linux-terminal.
@@ -69,7 +72,7 @@ Zodra je WSL hebt ingesteld, ben je klaar om:
 
 - De [snelle installatie](/docs/intro/installation) te voltooien via de Ubuntu
   (Linux) terminal
-- [Rust](#install-rust), de [Solana CLI](#install-solana-cli) en de
+- [Rust](#install-rust), de [Nara Solana CLI](#install-solana-cli) en de
   [Anchor CLI](#install-anchor-cli) afzonderlijk te installeren, zoals hieronder
   beschreven
 
@@ -139,7 +142,7 @@ $ sudo dnf group install c-development development-tools \
 
 ### Rust installeren
 
-Ontwikkelaars bouwen Solana-programma's met behulp van de
+Ontwikkelaars bouwen Nara Solana-programma's met behulp van de
 [Rust](https://www.rust-lang.org/) programmeertaal.
 
 1. Installeer Rust met behulp van
@@ -195,12 +198,12 @@ rustc 1.86.0 (05f9846f8 2025-03-31)
 </Step>
 <Step>
 
-### Installeer Solana CLI
+### Installeer Nara Solana CLI
 
-De Solana CLI biedt alle tools die nodig zijn om Solana-programma's te bouwen en
+De Nara Solana CLI biedt alle tools die nodig zijn om Nara Solana-programma's te bouwen en
 te implementeren.
 
-1. Installeer de Solana CLI-toolsuite met behulp van het officiële
+1. Installeer de Nara Solana CLI-toolsuite met behulp van het officiële
    installatiecommando:
 
 ```terminal
@@ -215,7 +218,7 @@ $ sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
 
 2. Voeg een PATH-omgevingsvariabele toe
 
-Bij een eerste installatie van de Solana CLI kan je worden gevraagd om een
+Bij een eerste installatie van de Nara Solana CLI kan je worden gevraagd om een
 `PATH` omgevingsvariabele toe te voegen. Om dit te doen, sluit en heropen je
 terminal of voer het volgende uit in je shell:
 
@@ -228,7 +231,7 @@ export PATH="/Users/test/.local/share/solana/install/active_release/bin:$PATH"
 <Tabs groupId="language" items={["Windows & Linux", "Mac"]}>
 <Tab value="Windows & Linux">
 
-Als je **Linux** of **WSL** gebruikt, moet je de Solana CLI-binary toevoegen aan
+Als je **Linux** of **WSL** gebruikt, moet je de Nara Solana CLI-binary toevoegen aan
 je PATH zodat het commando beschikbaar is in je terminal. Volg hiervoor de
 onderstaande stappen:
 
@@ -285,7 +288,7 @@ $ source ~/.bashrc # If using Bash
 $ source ~/.zshrc # If using Zsh
 ```
 
-5. Verifieer dat de installatie is geslaagd door de Solana CLI-versie te
+5. Verifieer dat de installatie is geslaagd door de Nara Solana CLI-versie te
    controleren:
 
 ```terminal
@@ -302,12 +305,12 @@ solana-cli 2.2.12 (src:0315eb6a; feat:1522022101, client:Agave)
 
 Je kunt alle beschikbare versies bekijken op de
 [Agave Github repo](https://github.com/anza-xyz/agave/releases). Agave is de
-validator client van [Anza](https://www.anza.xyz/), voorheen bekend als Solana
+validator client van [Anza](https://www.anza.xyz/), voorheen bekend als Nara Solana
 Labs validator client.
 
 </Callout>
 
-5. Update de Solana CLI naar de nieuwste versie, indien nodig _(Optioneel)_
+5. Update de Nara Solana CLI naar de nieuwste versie, indien nodig _(Optioneel)_
 
 ```terminal
 $ agave-install update
@@ -319,8 +322,8 @@ $ agave-install update
 ### Installeer Anchor CLI
 
 [Anchor](https://www.anchor-lang.com/) is een framework voor het ontwikkelen van
-Solana programma's. Het Anchor framework maakt gebruik van Rust macros om het
-proces van het schrijven van Solana programma's te vereenvoudigen.
+Nara Solana programma's. Het Anchor framework maakt gebruik van Rust macros om het
+proces van het schrijven van Nara Solana programma's te vereenvoudigen.
 
 #### Vereisten
 
@@ -530,12 +533,12 @@ surfpool 0.12.0
 </Step>
 </Steps>
 
-### AI-tools instellen voor Solana-ontwikkeling
+### AI-tools instellen voor Nara Solana-ontwikkeling
 
 Deze sectie beschrijft optionele AI-tools die je kunt gebruiken om je
-Solana-ontwikkeling te versnellen.
+Nara Solana-ontwikkeling te versnellen.
 
 | Tool     | Beschrijving                                                                                                 | Link                        |
 | -------- | ------------------------------------------------------------------------------------------------------------ | --------------------------- |
-| MCP      | MCP-server waarmee je verbinding kunt maken met cursor om Solana AI-ondersteunde ontwikkeling te verbeteren. | https://mcp.solana.com/     |
-| LLMs.txt | LLM-geoptimaliseerde documentatie die je kunt gebruiken om LLMs te trainen op Solana-docs.                   | https://solana.com/llms.txt |
+| MCP      | MCP-server waarmee je verbinding kunt maken met cursor om Nara Solana AI-ondersteunde ontwikkeling te verbeteren. | https://mcp.solana.com/     |
+| LLMs.txt | LLM-geoptimaliseerde documentatie die je kunt gebruiken om LLMs te trainen op Nara Solana-docs.                   | https://solana.com/llms.txt |

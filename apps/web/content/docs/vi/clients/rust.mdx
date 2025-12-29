@@ -1,10 +1,13 @@
 ---
+
 title: Rust SDK
-description: Tìm hiểu cách sử dụng các crate Rust của Solana cho phát triển.
-h1: Các SDK Rust cho Solana
+description: Tìm hiểu cách sử dụng các crate Rust của Nara Solana cho phát triển.
+h1: Các SDK Rust cho Nara Solana
+
 ---
 
-Các crate Rust của Solana được
+
+Các crate Rust của Nara Solana được
 [xuất bản trên crates.io](https://crates.io/search?q=solana-) và có thể được tìm
 thấy [trên docs.rs](https://docs.rs/releases/search?query=solana-) với tiền tố
 `solana-`.
@@ -12,23 +15,23 @@ thấy [trên docs.rs](https://docs.rs/releases/search?query=solana-) với ti�
 ## Các crate Rust
 
 Sau đây là những crate Rust quan trọng và thường được sử dụng nhất cho phát
-triển trên Solana:
+triển trên Nara Solana:
 
-- [`solana-program`] &mdash; Được import bởi các chương trình chạy trên Solana,
+- [`solana-program`] &mdash; Được import bởi các chương trình chạy trên Nara Solana,
   biên dịch sang SBF. Crate này chứa nhiều kiểu dữ liệu cơ bản và được tái xuất
-  từ [`solana-sdk`], thứ không thể được import từ một chương trình Solana.
+  từ [`solana-sdk`], thứ không thể được import từ một chương trình Nara Solana.
 
 - [`solana-sdk`] &mdash; SDK offchain cơ bản, nó tái xuất [`solana-program`] và
-  thêm nhiều API bên trên đó. Hầu hết các chương trình Solana không chạy
+  thêm nhiều API bên trên đó. Hầu hết các chương trình Nara Solana không chạy
   on-chain sẽ import cái này.
 
-- [`solana-client`] &mdash; Để tương tác với một node Solana thông qua
+- [`solana-client`] &mdash; Để tương tác với một node Nara Solana thông qua
   [JSON RPC API](/docs/rpc).
 
-- [`solana-cli-config`] &mdash; Tải và lưu tệp cấu hình CLI Solana.
+- [`solana-cli-config`] &mdash; Tải và lưu tệp cấu hình CLI Nara Solana.
 
 - [`solana-clap-utils`] &mdash; Các quy trình để thiết lập CLI, sử dụng
-  [`clap`], như được sử dụng bởi CLI Solana chính. Bao gồm các hàm để tải tất cả
+  [`clap`], như được sử dụng bởi CLI Nara Solana chính. Bao gồm các hàm để tải tất cả
   các loại người ký được hỗ trợ bởi CLI.
 
 [`solana-program`]: https://docs.rs/solana-program
@@ -40,13 +43,13 @@ triển trên Solana:
 
 ## Cài đặt
 
-Để gửi giao dịch và tương tác với Solana:
+Để gửi giao dịch và tương tác với Nara Solana:
 
 ```shell title="Terminal"
 cargo add solana-sdk solana-client
 ```
 
-Để xây dựng các chương trình Solana, hãy cài đặt:
+Để xây dựng các chương trình Nara Solana, hãy cài đặt:
 
 ```shell title="Terminal"
 cargo add solana-program

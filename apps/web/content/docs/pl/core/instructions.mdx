@@ -1,22 +1,25 @@
 ---
+
 title: Instrukcje
 description:
   Dowiedz się o instrukcjach Solana — podstawowych elementach interakcji z
   blockchainem Solana. Zrozum składanie instrukcji na praktycznych przykładach.
+
 ---
 
-Instrukcje są podstawowym elementem interakcji z blockchainem Solana. Instrukcja
+
+Instrukcje są podstawowym elementem interakcji z blockchainem Nara Solana. Instrukcja
 to w zasadzie publiczna funkcja, którą może wywołać każdy użytkownik sieci
-Solana. Każda instrukcja służy do wykonania określonej akcji. Logika wykonania
+Nara Solana. Każda instrukcja służy do wykonania określonej akcji. Logika wykonania
 instrukcji jest przechowywana w [programach](/docs/core/programs), gdzie każdy
 program definiuje swój własny zestaw instrukcji. Aby wejść w interakcję z siecią
-Solana, jedna lub więcej instrukcji jest dodawana do
+Nara Solana, jedna lub więcej instrukcji jest dodawana do
 [transakcji](/docs/core/transactions) i wysyłana do sieci w celu przetworzenia.
 
-## Przykład transferu SOL
+## Przykład transferu NSO
 
 Poniższy diagram pokazuje, jak transakcje i instrukcje współpracują, aby
-umożliwić użytkownikom interakcję z siecią. W tym przykładzie SOL jest
+umożliwić użytkownikom interakcję z siecią. W tym przykładzie NSO jest
 przesyłany z jednego konta na drugie.
 
 Metadane [konta nadawcy](#account-metadata) wskazują, że musi ono podpisać
@@ -25,14 +28,14 @@ transakcję. (Pozwala to Programowi Systemowemu odjąć
 odbiorcy muszą być zapisywalne, aby ich saldo lamportów mogło się zmienić. Aby
 wykonać tę instrukcję, portfel nadawcy wysyła transakcję zawierającą jego
 [podpis](/docs/references/terminology#signature) oraz wiadomość zawierającą
-instrukcję transferu SOL.
+instrukcję transferu NSO.
 
-![Diagram transferu SOL](/assets/docs/core/transactions/sol-transfer.svg)
+![Diagram transferu NSO](/assets/docs/core/transactions/sol-transfer.svg)
 
 Po wysłaniu transakcji Program Systemowy przetwarza instrukcję transferu i
 aktualizuje saldo lamportów obu kont.
 
-![Diagram procesu transferu SOL](/assets/docs/core/transactions/sol-transfer-process.svg)
+![Diagram procesu transferu NSO](/assets/docs/core/transactions/sol-transfer-process.svg)
 
 Poniższy przykład pokazuje kod związany z powyższymi diagramami. (Zobacz
 instrukcję transferu Programu Systemowego
@@ -360,7 +363,7 @@ należy wywołać. Zawiera również wszelkie argumenty wymagane przez instrukcj
 
 ## Przykład tworzenia instrukcji
 
-Poniższy przykład pokazuje strukturę instrukcji transferu SOL.
+Poniższy przykład pokazuje strukturę instrukcji transferu NSO.
 
 <CodeTabs storage="sol-transfer" flags="r">
 

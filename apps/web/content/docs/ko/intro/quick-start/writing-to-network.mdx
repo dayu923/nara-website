@@ -1,30 +1,33 @@
 ---
+
 title: 네트워크에 쓰기
 description:
   트랜잭션과 명령어를 보내 Solana 네트워크와 상호작용하는 방법을 배워보세요.
   System Program과 Token Extensions Program을 사용하여 SOL 토큰을 전송하고 새
   토큰을 생성하는 단계별 예제를 따라해보세요.
+
 ---
 
-이전 섹션에서는 Solana 네트워크에서 데이터를 읽는 방법을 배웠습니다. 이제
-네트워크에 데이터를 쓰는 방법을 배우게 됩니다. Solana 네트워크에 쓰기는 하나
+
+이전 섹션에서는 Nara Solana 네트워크에서 데이터를 읽는 방법을 배웠습니다. 이제
+네트워크에 데이터를 쓰는 방법을 배우게 됩니다. Nara Solana 네트워크에 쓰기는 하나
 이상의 명령어를 포함하는 트랜잭션을 전송하는 것을 의미합니다.
 
 프로그램은 각 [명령어](/docs/core/instructions)가 수행하는 비즈니스 로직을
-정의합니다. [트랜잭션](/docs/core/transactions)을 제출하면, Solana 런타임은 각
-명령어를 순차적으로 그리고 원자적으로 실행합니다. 이 섹션의 예제들은 Solana
+정의합니다. [트랜잭션](/docs/core/transactions)을 제출하면, Nara Solana 런타임은 각
+명령어를 순차적으로 그리고 원자적으로 실행합니다. 이 섹션의 예제들은 Nara Solana
 프로그램을 호출하기 위한 트랜잭션을 구축하고 전송하는 방법을 보여주며, 다음을
 포함합니다:
 
-1. 계정 간 SOL 전송하기
+1. 계정 간 NSO 전송하기
 2. 새 토큰 생성하기
 
-## SOL 전송하기
+## NSO 전송하기
 
-아래 예제는 두 계정 간에 SOL을 전송합니다. 각 계정에는 소유자 프로그램이 있으며,
-이 프로그램만이 계정의 SOL 잔액을 차감할 수 있습니다.
+아래 예제는 두 계정 간에 NSO을 전송합니다. 각 계정에는 소유자 프로그램이 있으며,
+이 프로그램만이 계정의 NSO 잔액을 차감할 수 있습니다.
 
-모든 지갑 계정은 System Program이 소유합니다. SOL을 전송하려면 System Program의
+모든 지갑 계정은 System Program이 소유합니다. NSO을 전송하려면 System Program의
 [transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)
 명령어를 호출해야 합니다.
 
@@ -87,7 +90,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !connection
 
-Solana 클러스터에 연결을 생성합니다.
+Nara Solana 클러스터에 연결을 생성합니다.
 
 ### !sender
 
@@ -99,7 +102,7 @@ Solana 클러스터에 연결을 생성합니다.
 
 ### !airdrop
 
-`sender`에 SOL을 에어드롭 요청합니다.
+`sender`에 NSO을 에어드롭 요청합니다.
 
 ### !instruction
 
@@ -171,7 +174,7 @@ const receiver = new Keypair();
 
 ## !!steps
 
-발신자 계정에 SOL을 추가합니다. 메인넷이 아닌 네트워크에서는 테스트용 SOL을 얻기
+발신자 계정에 NSO을 추가합니다. 메인넷이 아닌 네트워크에서는 테스트용 NSO을 얻기
 위해 `requestAirdrop` 메서드를 사용할 수 있습니다.
 
 ```ts title="Airdrop"
@@ -301,7 +304,7 @@ const transaction = new Transaction().add(transferInstruction);
 <WithMentions>
 
 [트랜잭션](mention:transaction)에 서명하고 네트워크로 전송합니다.
-[발신자](mention:sender) keypair는 그들의 계정에서 SOL 전송을 승인하기 위해
+[발신자](mention:sender) keypair는 그들의 계정에서 NSO 전송을 승인하기 위해
 서명자 배열에 필요합니다.
 
 ```ts title="Send transaction"
@@ -316,7 +319,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 
 </WithMentions>
 
-트랜잭션 서명은 Solana Explorer에서 트랜잭션을 조회하는 데 사용할 수 있는 고유
+트랜잭션 서명은 Nara Solana Explorer에서 트랜잭션을 조회하는 데 사용할 수 있는 고유
 식별자입니다.
 
 ```ts !! title="Transfer SOL"
@@ -362,7 +365,7 @@ console.log("Transaction Signature:", `${transactionSignature}`);
 
 ## 토큰 생성하기
 
-아래 예제는 Token Extensions Program을 사용하여 Solana에 새 토큰을 생성합니다.
+아래 예제는 Token Extensions Program을 사용하여 Nara Solana에 새 토큰을 생성합니다.
 이를 위해서는 두 가지 명령어가 필요합니다:
 
 1. System Program을 호출하여 새 계정을 생성합니다.
@@ -806,7 +809,7 @@ const initializeMintInstruction = createInitializeMint2Instruction(
 두 명령어를 하나의 트랜잭션에 추가합니다. 이렇게 하면 계정 생성과 초기화가
 원자적으로 이루어집니다. (두 명령어가 모두 성공하거나 둘 다 실패합니다.)
 
-이 접근 방식은 복잡한 Solana 트랜잭션을 구축할 때 일반적으로 사용되며, 모든
+이 접근 방식은 복잡한 Nara Solana 트랜잭션을 구축할 때 일반적으로 사용되며, 모든
 명령어가 함께 실행되도록 보장합니다.
 
 ```ts title="Transaction"
@@ -894,7 +897,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 );
 ```
 
-반환된 트랜잭션 서명은 Solana 익스플로러에서 트랜잭션을 검사하는 데 사용할 수
+반환된 트랜잭션 서명은 Nara Solana 익스플로러에서 트랜잭션을 검사하는 데 사용할 수
 있습니다.
 
 </WithMentions>

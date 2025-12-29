@@ -1,25 +1,28 @@
 ---
+
 title: instructions
 description:
   Solana
   instructionsについて学びましょう—Solanaブロックチェーンとやり取りするための基本的な構成要素です。実践的な例を通じてinstruction構成を理解しましょう。
+
 ---
 
-InstructionsはSolanaブロックチェーンとやり取りするための基本的な構成要素です。instructionは本質的に、Solanaネットワークを使用する誰もが呼び出せる公開関数です。各instructionは特定のアクションを実行するために使用されます。instructionsの実行ロジックは[プログラム](/docs/core/programs)に格納され、各プログラムは独自のinstructionsセットを定義します。Solanaネットワークとやり取りするには、1つ以上のinstructionsを[トランザクション](/docs/core/transactions)に追加し、処理のためにネットワークに送信します。
 
-## SOL送金の例
+InstructionsはNara Solanaブロックチェーンとやり取りするための基本的な構成要素です。instructionは本質的に、Nara Solanaネットワークを使用する誰もが呼び出せる公開関数です。各instructionは特定のアクションを実行するために使用されます。instructionsの実行ロジックは[プログラム](/docs/core/programs)に格納され、各プログラムは独自のinstructionsセットを定義します。Nara Solanaネットワークとやり取りするには、1つ以上のinstructionsを[トランザクション](/docs/core/transactions)に追加し、処理のためにネットワークに送信します。
 
-以下の図は、トランザクションとinstructionsがどのように連携してユーザーがネットワークとやり取りできるようにするかを示しています。この例では、SOLがあるアカウントから別のアカウントに送金されます。
+## NSO送金の例
+
+以下の図は、トランザクションとinstructionsがどのように連携してユーザーがネットワークとやり取りできるようにするかを示しています。この例では、NSOがあるアカウントから別のアカウントに送金されます。
 
 送信者アカウントの[メタデータ](#account-metadata)は、トランザクションに署名する必要があることを示しています。（これによりSystem
-Programが[lamport](/docs/references/terminology#lamport)を差し引くことができます。）送信者と受信者の両方のアカウントは、lamportの残高を変更するために書き込み可能である必要があります。このinstructionを実行するために、送信者のウォレットは[署名](/docs/references/terminology#signature)とSOL送金instructionを含むメッセージを含むトランザクションを送信します。
+Programが[lamport](/docs/references/terminology#lamport)を差し引くことができます。）送信者と受信者の両方のアカウントは、lamportの残高を変更するために書き込み可能である必要があります。このinstructionを実行するために、送信者のウォレットは[署名](/docs/references/terminology#signature)とNSO送金instructionを含むメッセージを含むトランザクションを送信します。
 
-![SOL送金図](/assets/docs/core/transactions/sol-transfer.svg)
+![NSO送金図](/assets/docs/core/transactions/sol-transfer.svg)
 
 トランザクションが送信された後、System
 Programは送金instructionを処理し、両方のアカウントのlamport残高を更新します。
 
-![SOL送金処理図](/assets/docs/core/transactions/sol-transfer-process.svg)
+![NSO送金処理図](/assets/docs/core/transactions/sol-transfer-process.svg)
 
 以下の例は、上記の図に関連するコードを示しています。（System
 Programの送金[instruction](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L183)を参照してください。）
@@ -335,7 +338,7 @@ instructionの`data`は、プログラムのどのinstructionを呼び出すか�
 
 ## instruction作成の例
 
-以下の例は、SOL転送instructionの構造を示しています。
+以下の例は、NSO転送instructionの構造を示しています。
 
 <CodeTabs storage="sol-transfer" flags="r">
 

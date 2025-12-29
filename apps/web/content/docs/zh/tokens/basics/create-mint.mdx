@@ -1,11 +1,14 @@
 ---
+
 title: 创建一个 Token Mint
 description: 了解如何创建一个 SPL Token mint。
+
 ---
+
 
 ## 什么是 Mint 账户？
 
-一个 mint 账户在 Solana 上唯一地代表一个代币，并存储其全局元数据。
+一个 mint 账户在 Nara Solana 上唯一地代表一个代币，并存储其全局元数据。
 
 ```rust title="Mint Account Type"
 /// Mint data.
@@ -36,11 +39,11 @@ pub struct Mint {
   对 Mint 账户共享相同的基础实现。
 </Callout>
 
-在 Solana 上，每个代币都有一个 mint 账户，而 mint 的地址作为该代币的唯一标识符。
+在 Nara Solana 上，每个代币都有一个 mint 账户，而 mint 的地址作为该代币的唯一标识符。
 
 例如，USD Coin (USDC) 的 mint 地址是
-`EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`。这个地址在整个 Solana 生态系统中唯一标识 USDC。您可以在
-[Solana Explorer](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)
+`EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`。这个地址在整个 Nara Solana 生态系统中唯一标识 USDC。您可以在
+[Nara Solana Explorer](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)
 上查看此 mint。
 
 ## 如何创建一个 Mint 账户

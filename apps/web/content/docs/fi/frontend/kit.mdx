@@ -1,14 +1,17 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Solana-lompakon integrointi Next.js:n ja Solana Kitin avulla
+
+title: Next.js - Nara Solana Kit
+seoTitle: Nara Solana-lompakon integrointi Next.js:n ja Nara Solana Kitin avulla
 description:
   Määritä Solana-lompakon integrointi Next.js:ssä Solana Kitin avulla.
+
 ---
 
-Määritä minimaalinen Solana-lompakon integrointi Next.js:ssä Solana Kitin
+
+Määritä minimaalinen Nara Solana-lompakon integrointi Next.js:ssä Nara Solana Kitin
 avulla.
 
-Tämä opas tarjoaa minimaalisen esimerkin Solana-lompakon toiminnallisuuden
+Tämä opas tarjoaa minimaalisen esimerkin Nara Solana-lompakon toiminnallisuuden
 toteuttamisesta Next.js-sovelluksessa käyttäen `@solana/kit`. Luot lompakon
 yhdistämispainikkeen ja komponentin transaktioiden lähettämiseen.
 
@@ -16,12 +19,12 @@ yhdistämispainikkeen ja komponentin transaktioiden lähettämiseen.
 
 Kattavamman esimerkin `@solana/kit`:n käytöstä React-sovelluksessa löydät
 [React App -esimerkistä](https://github.com/anza-xyz/kit/tree/main/examples/react-app)
-Solana Kit -repositoriossa.
+Nara Solana Kit -repositoriossa.
 
 ## Resurssit
 
-- [Solana Kit -dokumentaatio](https://www.solanakit.com/docs)
-- [Solana Kit GitHub -repositorio](https://github.com/anza-xyz/kit)
+- [Nara Solana Kit -dokumentaatio](https://www.solanakit.com/docs)
+- [Nara Solana Kit GitHub -repositorio](https://github.com/anza-xyz/kit)
 
 ## Edellytykset
 
@@ -30,7 +33,7 @@ Solana Kit -repositoriossa.
 ## Luo Next.js-projekti
 
 Luo uusi Next.js-projekti [shadcn](https://ui.shadcn.com/):n avulla
-käyttöliittymäkomponentteja varten ja asenna tarvittavat Solana-riippuvuudet.
+käyttöliittymäkomponentteja varten ja asenna tarvittavat Nara Solana-riippuvuudet.
 
 ```terminal
 $ npx shadcn@latest init
@@ -50,9 +53,9 @@ Asenna seuraavat shadcn-käyttöliittymäkomponentit:
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Asenna Solana-riippuvuudet
+### Asenna Nara Solana-riippuvuudet
 
-Asenna seuraavat Solana-riippuvuudet:
+Asenna seuraavat Nara Solana-riippuvuudet:
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -64,7 +67,7 @@ Seuraa alla olevia vaiheita ja kopioi annettu koodi projektiisi.
 
 <ScrollyCoding>
 
-## !!steps 1. Luo Solana-konteksti
+## !!steps 1. Luo Nara Solana-konteksti
 
 Luo ensin React-konteksti, joka hallinnoi koko lompakon tilaa sovelluksessa.
 
@@ -72,7 +75,7 @@ Luo `components/solana-provider.tsx` ja lisää annettu koodi. Tämä
 tarjoajakomponentti:
 
 - Yhdistää Solanan devnet RPC -päätepisteisiin
-- Suodattaa käyttäjän selaimeen asennetut saatavilla olevat Solana-lompakot
+- Suodattaa käyttäjän selaimeen asennetut saatavilla olevat Nara Solana-lompakot
 - Seuraa, mikä lompakko ja tili on tällä hetkellä yhdistettynä
 - Tarjoaa lompakon tilan lapsikomponenteille
 
@@ -249,7 +252,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. Päivitä Layout
 
-Seuraavaksi kääri koko Next.js-sovellus Solana-tarjoajalla.
+Seuraavaksi kääri koko Next.js-sovellus Nara Solana-tarjoajalla.
 
 Päivitä `app/layout.tsx` annetulla koodilla. Tämä vaihe:
 
@@ -508,9 +511,9 @@ yhdistetyn lompakon avulla.
 Luo `components/memo-card.tsx` ja lisää annettu koodi. Tämä komponentti:
 
 - Mahdollistaa käyttäjien syöttää viesti
-- Luo Solana-tapahtuman ohjeella, joka kutsuu memo-ohjelmaa
+- Luo Nara Solana-tapahtuman ohjeella, joka kutsuu memo-ohjelmaa
 - Pyytää yhdistettyä lompakkoa allekirjoittamaan ja lähettämään tapahtuman
-- Näyttää linkin tapahtuman tarkasteluun Solana Explorerissa
+- Näyttää linkin tapahtuman tarkasteluun Nara Solana Explorerissa
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -673,7 +676,7 @@ $ npm run dev
 
 <Callout type="info">
   Huomaa, että yhdistetty lompakko täytyy määrittää yhdistämään
-  devnet-klusteriin ja [rahoittaa devnet SOL:lla](https://faucet.solana.com/)
+  devnet-klusteriin ja [rahoittaa devnet NSO:lla](https://faucet.solana.com/)
   tapahtumien lähettämistä varten.
 </Callout>
 

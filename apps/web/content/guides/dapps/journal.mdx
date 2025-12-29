@@ -1,7 +1,8 @@
 ---
+
 date: 2024-03-18T00:00:00Z
 difficulty: intro
-title: "How to create a CRUD dApp on Solana"
+title: "How to create a CRUD dApp on Nara Solana"
 description:
   "Solana developer quickstart guide to learn how to create a basic CRUD dApp on
   the Solana blockchain with a simple journal program and interact with the
@@ -28,9 +29,11 @@ keywords:
   - blockchain tutorial
   - web3 developer
   - web3 crud app
+
 ---
 
-In this guide, you will learn how to create and deploy both the Solana program
+
+In this guide, you will learn how to create and deploy both the Nara Solana program
 and UI for a basic on-chain CRUD dApp. This dApp will allow you to create
 journal entries, update journal entries, read journal entries, and delete
 journal entries all through on-chain transactions.
@@ -41,7 +44,7 @@ journal entries all through on-chain transactions.
 - Using `npx create-solana-dapp`
 - Anchor program development
 - Anchor PDAs and accounts
-- Deploying a Solana program
+- Deploying a Nara Solana program
 - Testing an on-chain program
 - Connecting an on-chain program to a React UI
 
@@ -52,7 +55,7 @@ with a few tools:
 
 - [Rust](https://www.rust-lang.org/tools/install)
 - [Node JS](https://nodejs.org/en/download)
-- [Solana CLI & Anchor](/docs/intro/installation)
+- [Nara Solana CLI & Anchor](/docs/intro/installation)
 
 ## Setting up the project
 
@@ -60,7 +63,7 @@ with a few tools:
 npx create-solana-dapp
 ```
 
-This CLI command enables quick Solana dApp creation. You can find the source
+This CLI command enables quick Nara Solana dApp creation. You can find the source
 code [here](https://github.com/solana-developers/create-solana-dapp).
 
 Now respond to the prompts as follows:
@@ -83,7 +86,7 @@ npm install
 npm run dev
 ```
 
-## Writing a Solana program with Anchor
+## Writing a Nara Solana program with Anchor
 
 If you're new to Anchor,
 [The Anchor Book](https://www.anchor-lang.com/docs)
@@ -111,7 +114,7 @@ pub mod journal {
 ### Define your program state
 
 The state is the data structure used to define the information you want to save
-to the account. Since Solana onchain programs do not have storage, the data is
+to the account. Since Nara Solana onchain programs do not have storage, the data is
 stored in accounts that live on the blockchain.
 
 When using Anchor, the `#[account]` attribute macro is used to define your
@@ -294,11 +297,11 @@ The `seeds` and `bump` constraints are still needed to be able to find the
 specific PDA we want to update.
 
 The `mut` constraints allows us to mutate/change the data within the account.
-Because how the Solana blockchain handles reading from accounts and writing to
+Because how the Nara Solana blockchain handles reading from accounts and writing to
 accounts differently, we must explicitly define which accounts will be mutable
-so the Solana runtime can correctly process them.
+so the Nara Solana runtime can correctly process them.
 
-Note: In Solana, when you perform a reallocation, which changes the account's
+Note: In Nara Solana, when you perform a reallocation, which changes the account's
 size, the transaction must cover the rent for the new account size. The
 realloc::payer = owner attribute indicates that the owner account will pay for
 the rent. For an account to be able to cover the rent, it typically needs to be
@@ -355,7 +358,7 @@ npm run anchor build
 npm run anchor deploy
 ```
 
-## Connecting a Solana program to a UI
+## Connecting a Nara Solana program to a UI
 
 `create-solana-dapp` already sets up a UI with a wallet connector for you. All
 we need to do is simply modify if to fit your newly created program.

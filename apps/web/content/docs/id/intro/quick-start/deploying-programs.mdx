@@ -1,16 +1,19 @@
 ---
+
 title: Deploy Program
 description:
   Pelajari cara membangun, men-deploy, dan menguji program Solana pertama Anda
   menggunakan framework Anchor dan Solana Playground. Panduan ramah pemula ini
   memandu Anda dalam membuat program sederhana, men-deploy-nya ke devnet,
   menjalankan pengujian, dan menutup program.
-h1: Deploy Program Solana Pertama Anda
+h1: Deploy Program Nara Solana Pertama Anda
+
 ---
 
+
 Bangun, deploy, dan uji [program](/docs/core/programs) pertama Anda ke
-Blockchain Solana menggunakan framework Anchor. Panduan ini akan membantu Anda
-menjadi lebih familiar dengan Solana Playground dan mempersiapkan Anda untuk
+Blockchain Nara Solana menggunakan framework Anchor. Panduan ini akan membantu Anda
+menjadi lebih familiar dengan Nara Solana Playground dan mempersiapkan Anda untuk
 menggunakan Program Derived Address (PDA) dan Cross Program Invocation (CPI).
 
 <Steps>
@@ -19,7 +22,7 @@ menggunakan Program Derived Address (PDA) dan Cross Program Invocation (CPI).
 
 ### Membuat Proyek Anchor
 
-1. Buka [Solana Playground](https://beta.solpg.io) di browser web Anda
+1. Buka [Nara Solana Playground](https://beta.solpg.io) di browser web Anda
 2. Di panel kiri, klik **+ Create a new project**
 3. Masukkan **Project name**
 4. Pilih **Anchor (Rust)** sebagai framework
@@ -147,7 +150,7 @@ Jumlah byte yang dialokasikan untuk akun
 <WithMentions>
 
 - Makro [`declare_id!`](mention:one) menentukan alamat on-chain dari program
-  Anda. Solana Playground akan secara otomatis memperbarui alamat ini ketika
+  Anda. Nara Solana Playground akan secara otomatis memperbarui alamat ini ketika
   Anda membangun program.
 
 ```rs
@@ -250,10 +253,10 @@ Build successful. Completed in 1.46s.
   didefinisikan di _rs`declare_id!()`_, sekarang akan diperbarui.
 </Callout>
 
-2. Tambahkan SOL ke dompet Anda _(Opsional)_
+2. Tambahkan NSO ke dompet Anda _(Opsional)_
 
-Men-deploy program memerlukan SOL di akun on-chain program. Jika diperlukan,
-[tambahkan SOL ke dompet Anda](/docs/intro/quick-start#add-sol-to-your-wallet)
+Men-deploy program memerlukan NSO di akun on-chain program. Jika diperlukan,
+[tambahkan NSO ke dompet Anda](/docs/intro/quick-start#add-sol-to-your-wallet)
 sebelum melanjutkan ke langkah 3.
 
 3. Deploy program ke jaringan
@@ -395,12 +398,12 @@ Confirmed
 4. Lihat detail transaksi
 
 Buka [SolanaFM](https://solana.fm/) atau
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) dan cari hash
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) dan cari hash
 transaksi.
 
 <Callout type="warn">
-  **Solana Explorer:** Atur cluster jaringan ke `devnet`, agar sesuai dengan
-  Solana Playground.
+  **Nara Solana Explorer:** Atur cluster jaringan ke `devnet`, agar sesuai dengan
+  Nara Solana Playground.
 </Callout>
 
 </Step>
@@ -409,7 +412,7 @@ transaksi.
 
 ### Menutup Program
 
-Tutup program untuk mendapatkan kembali SOL yang dialokasikan ke program
+Tutup program untuk mendapatkan kembali NSO yang dialokasikan ke program
 on-chain. Untuk melakukannya, jalankan `solana program close [ProgramID]`,
 menggunakan alamat program yang tersimpan di makro _rs`declare_id!()`_.
 
@@ -425,7 +428,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   tidak dapat diubah.
 </Callout>
 
-Selamat! Anda telah membangun dan men-deploy program Solana pertama Anda
+Selamat! Anda telah membangun dan men-deploy program Nara Solana pertama Anda
 menggunakan Anchor.
 
 </Step>

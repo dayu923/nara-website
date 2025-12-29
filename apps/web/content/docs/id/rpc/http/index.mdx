@@ -1,17 +1,20 @@
 ---
+
 title: Metode HTTP
-seoTitle: Metode HTTP RPC Solana
+seoTitle: Metode HTTP RPC Nara Solana
 hideTableOfContents: false
-h1: Metode HTTP RPC Solana
+h1: Metode HTTP RPC Nara Solana
+
 ---
 
-Node Solana menerima permintaan HTTP menggunakan spesifikasi
+
+Node Nara Solana menerima permintaan HTTP menggunakan spesifikasi
 [JSON-RPC 2.0](https://www.jsonrpc.org/specification).
 
 > Untuk aplikasi JavaScript, gunakan library
 > [@solana/web3.js](https://github.com/solana-labs/solana-web3.js) sebagai
-> antarmuka yang nyaman untuk metode RPC dalam berinteraksi dengan node Solana.
-> Untuk koneksi PubSub ke node Solana, gunakan
+> antarmuka yang nyaman untuk metode RPC dalam berinteraksi dengan node Nara Solana.
+> Untuk koneksi PubSub ke node Nara Solana, gunakan
 > [API Websocket](/docs/rpc/websocket/).
 
 ## Endpoint HTTP RPC
@@ -83,7 +86,7 @@ curl https://api.devnet.solana.com -s -X POST -H "Content-Type: application/json
 
 - Hash: Hash SHA-256 dari sekumpulan data.
 - Pubkey: Kunci publik dari pasangan kunci Ed25519.
-- Transaction: Daftar instruksi Solana yang ditandatangani oleh keypair klien
+- Transaction: Daftar instruksi Nara Solana yang ditandatangani oleh keypair klien
   untuk mengotorisasi tindakan tersebut.
 - Signature: Tanda tangan Ed25519 dari data payload transaksi termasuk
   instruksi. Ini dapat digunakan untuk mengidentifikasi transaksi.

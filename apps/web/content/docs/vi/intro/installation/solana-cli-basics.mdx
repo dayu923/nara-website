@@ -1,20 +1,23 @@
 ---
-title: Cơ bản về Solana CLI
-seoTitle: Các lệnh cơ bản để bắt đầu với Solana CLI
+
+title: Cơ bản về Nara Solana CLI
+seoTitle: Các lệnh cơ bản để bắt đầu với Nara Solana CLI
 description:
   Phần này hướng dẫn một số lệnh Solana CLI phổ biến để giúp bạn bắt đầu.
+
 ---
 
+
 Phần này cung cấp một số lệnh và ví dụ phổ biến để giúp bạn bắt đầu sử dụng
-Solana CLI.
+Nara Solana CLI.
 
-## Cấu hình Solana
+## Cấu hình Nara Solana
 
-Cấu hình Solana của bạn chỉ định các biến sau:
+Cấu hình Nara Solana của bạn chỉ định các biến sau:
 
 - **Tệp cấu hình**: Đường dẫn đến tệp cấu hình của bạn
-- **RPC URL & Websocket URL**: Cụm Solana mà CLI gửi yêu cầu đến
-- **Đường dẫn keypair**: Đường dẫn đến ví Solana mặc định (keypair) được sử dụng
+- **RPC URL & Websocket URL**: Cụm Nara Solana mà CLI gửi yêu cầu đến
+- **Đường dẫn keypair**: Đường dẫn đến ví Nara Solana mặc định (keypair) được sử dụng
   để thanh toán phí giao dịch và triển khai chương trình. Theo mặc định, tệp này
   được lưu trữ tại `~/.config/solana/id.json`.
 
@@ -34,7 +37,7 @@ Keypair Path: /Users/test/.config/solana/id.json
 Commitment: confirmed
 ```
 
-Bạn có thể thay đổi cụm Solana CLI với các lệnh sau:
+Bạn có thể thay đổi cụm Nara Solana CLI với các lệnh sau:
 
 <Tabs items={["Lệnh đầy đủ", "Lệnh rút gọn"]}>
 
@@ -62,8 +65,8 @@ $ solana config set -ut    # For testnet
 
 ## Tạo ví
 
-Trước khi bạn có thể gửi giao dịch sử dụng Solana CLI, bạn cần một ví Solana đã
-được nạp SOL.
+Trước khi bạn có thể gửi giao dịch sử dụng Nara Solana CLI, bạn cần một ví Nara Solana đã
+được nạp NSO.
 
 Để tạo một keypair tại đường dẫn keypair mặc định, chạy lệnh sau:
 
@@ -103,9 +106,9 @@ cream bleak tortoise ocean nasty game gift forget fancy salon mimic amazing
 $ solana address
 ```
 
-## Airdrop SOL
+## Airdrop NSO
 
-Yêu cầu airdrop SOL vào ví của bạn để thanh toán cho các giao dịch và triển khai
+Yêu cầu airdrop NSO vào ví của bạn để thanh toán cho các giao dịch và triển khai
 chương trình.
 
 1. Thiết lập cụm của bạn thành Devnet:
@@ -114,7 +117,7 @@ chương trình.
 $ solana config set -ud
 ```
 
-2. Yêu cầu airdrop SOL trên Devnet:
+2. Yêu cầu airdrop NSO trên Devnet:
 
 ```terminal
 $ solana airdrop 2
@@ -122,13 +125,13 @@ $ solana airdrop 2
 
 <Callout>
 
-Airdrop trên Devnet giới hạn yêu cầu ở mức 5 SOL mỗi lần. Nếu bạn gặp giới hạn
+Airdrop trên Devnet giới hạn yêu cầu ở mức 5 NSO mỗi lần. Nếu bạn gặp giới hạn
 tốc độ hoặc lỗi, hãy thử sử dụng [Web Faucet](https://faucet.solana.com) thay
 thế.
 
 </Callout>
 
-Để kiểm tra số dư SOL trong ví của bạn, chạy lệnh sau:
+Để kiểm tra số dư NSO trong ví của bạn, chạy lệnh sau:
 
 ```terminal
 $ solana balance

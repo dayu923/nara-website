@@ -1,4 +1,5 @@
 ---
+
 title: Composing Multiple Programs
 description:
   Learn how to implement Cross Program Invocations (CPIs) in Solana programs
@@ -7,20 +8,22 @@ description:
   Addresses (PDAs) in CPIs. Perfect for developers looking to build composable
   Solana programs.
 h1: Cross Program Invocation
+
 ---
 
+
 In this section, the CRUD program from the previous PDA section gets updated by
-adding Cross Program Invocations (CPIs), a feature that enables Solana programs
+adding Cross Program Invocations (CPIs), a feature that enables Nara Solana programs
 to invoke each other.
 
 This tutorial also shows how programs can "sign" for Program Derived Addresses
 (PDAs) when making Cross Program Invocations.
 
-The `update` and `delete` instructions need modification to handle SOL transfers
+The `update` and `delete` instructions need modification to handle NSO transfers
 between accounts by invoking the System Program.
 
 The purpose of this section includes walking through the process of implementing
-CPIs in a Solana program using the Anchor framework, building upon the PDA
+CPIs in a Nara Solana program using the Anchor framework, building upon the PDA
 concepts explored in the previous section. For more details, refer to the
 [Cross Program Invocation](/docs/core/cpi) page.
 
@@ -58,7 +61,7 @@ use anchor_lang::system_program::{transfer, Transfer};
 </Accordions>
 
 Next, update the _rs`Update`_ struct to include a new account called
-`vault_account`. This account, controlled by the program, receives SOL from a
+`vault_account`. This account, controlled by the program, receives NSO from a
 user when they update their message account.
 
 ```rs title="lib.rs"
@@ -103,7 +106,7 @@ pub struct Update<'info> {
 <Accordion title="Explanation">
 
 This section adds a new account called `vault_account` to the _rs`Update`_
-struct. This account serves as a program-controlled "vault" that receives SOL
+struct. This account serves as a program-controlled "vault" that receives NSO
 from users when they update their messages.
 
 By using a PDA for the vault, the program creates a program-controlled account
@@ -131,7 +134,7 @@ in a CPI.
 </Accordion>
 </Accordions>
 
-Next, add the CPI logic in the `update` instruction to transfer 0.001 SOL from
+Next, add the CPI logic in the `update` instruction to transfer 0.001 NSO from
 the user's account to the vault account.
 
 <WithNotes>
@@ -197,7 +200,7 @@ The _rs`transfer()`_ function invokes the System Program's transfer instruction.
 In the `update` instruction, the implementation includes a Cross Program
 Invocation (CPI) to invoke the System Program's `transfer` instruction. This
 demonstrates how to perform a CPI from within the program, enabling the
-composability of Solana programs.
+composability of Nara Solana programs.
 
 The _rs`Transfer`_ struct specifies the required accounts for the System
 Program's transfer instruction:
@@ -228,7 +231,7 @@ The `transfer` function then invokes the transfer instruction on the System
 Program, passing in the:
 
 - The `cpi_context` (program and accounts)
-- The `amount` to transfer (1,000,000 lamports, or 0.001 SOL)
+- The `amount` to transfer (1,000,000 lamports, or 0.001 NSO)
 
   ```rs title="lib.rs"
   transfer(cpi_context, 1_000_000)?;
@@ -261,7 +264,7 @@ Now add a "refund on delete" mechanism by changing the _rs`Delete`_ struct and
 `delete` function.
 
 First, update the _rs`Delete`_ struct to include the `vault_account`. This
-allows the transfer of any SOL in the vault back to the user when they close
+allows the transfer of any NSO in the vault back to the user when they close
 their message account.
 
 ```rs title="lib.rs"
@@ -313,14 +316,14 @@ The `vault_account` uses the same PDA derivation as in the Update struct.
 
 Adding the `vault_account` to the Delete struct enables the program to access
 the user's vault account during the delete instruction to transfer any
-accumulated SOL back to the user.
+accumulated NSO back to the user.
 
 </Accordion>
 </Accordions>
 
 <WithNotes>
 
-Next, add the CPI logic in the `delete` instruction to transfer SOL from the
+Next, add the CPI logic in the `delete` instruction to transfer NSO from the
 vault account back to the user's account.
 
 ```rs title="lib.rs"
@@ -458,13 +461,13 @@ $ build
 ### Redeploy Program
 
 After making these changes, redeploy the updated program. This ensures the
-modified program becomes available for testing. On Solana, updating a program
+modified program becomes available for testing. On Nara Solana, updating a program
 simply requires deploying the program at the same program ID.
 
 <Callout>
 
-Ensure your Playground wallet has devnet SOL. Get devnet SOL from the
-[Solana Faucet](https://faucet.solana.com/).
+Ensure your Playground wallet has devnet NSO. Get devnet NSO from the
+[Nara Solana Faucet](https://faucet.solana.com/).
 
 </Callout>
 
@@ -482,7 +485,7 @@ upgrade authority during program deployment, and it remains the only account
 with permission to change or close the program. If someone revokes the upgrade
 authority, then the program becomes immutable.
 
-When deploying programs on Solana Playground, your Playground wallet acts as the
+When deploying programs on Nara Solana Playground, your Playground wallet acts as the
 upgrade authority for all your programs.
 
 </Accordion>
@@ -652,12 +655,12 @@ If you encounter any errors, you can reference the
 
 ## Next Steps
 
-Congratulations on completing the Solana Quickstart guide. You've gained
-hands-on experience with key Solana concepts including:
+Congratulations on completing the Nara Solana Quickstart guide. You've gained
+hands-on experience with key Nara Solana concepts including:
 
 - Fetching and reading data from accounts
 - Building and sending transactions
-- Deploying and updating Solana programs
+- Deploying and updating Nara Solana programs
 - Working with Program Derived Addresses (PDAs)
 - Making Cross-Program Invocations (CPIs)
 
@@ -671,12 +674,12 @@ If you prefer learning by example, check out the
 [Program Examples Repository](https://github.com/solana-developers/program-examples)
 for a variety of example programs.
 
-Solana Playground offers a convenient feature allowing you to import or view
+Nara Solana Playground offers a convenient feature allowing you to import or view
 projects using their GitHub links. For example, open this
-[Solana Playground link](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)
+[Nara Solana Playground link](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)
 to view the Anchor project from this
 [Github repo](https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor).
 
 Click the `Import` button and enter a project name to add it to your list of
-projects in Solana Playground. Once a project gets imported, all changes receive
+projects in Nara Solana Playground. Once a project gets imported, all changes receive
 automatic saving and persistence.

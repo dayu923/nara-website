@@ -1,13 +1,16 @@
 ---
+
 title: Điểm cuối RPC
 description:
   Tìm hiểu về các cụm mạng của Solana (Devnet, Testnet và Mainnet Beta), các
   điểm cuối RPC công khai, giới hạn tốc độ và trường hợp sử dụng. Học cách kết
   nối với các mạng Solana khác nhau để phát triển, kiểm thử và sản xuất.
 h1: Các cụm và điểm cuối RPC công khai
+
 ---
 
-Blockchain Solana có một số nhóm validator khác nhau, được gọi là Các cụm
+
+Blockchain Nara Solana có một số nhóm validator khác nhau, được gọi là Các cụm
 (Clusters). Mỗi cụm phục vụ các mục đích khác nhau trong hệ sinh thái tổng thể
 và chứa các nút API chuyên dụng để đáp ứng các yêu cầu [JSON-RPC](/docs/rpc/)
 cho Cụm tương ứng của họ.
@@ -15,22 +18,22 @@ cho Cụm tương ứng của họ.
 Các nút riêng lẻ trong một Cụm được sở hữu và vận hành bởi các bên thứ ba, với
 một điểm cuối công khai có sẵn cho mỗi cụm.
 
-## Các điểm cuối RPC công khai của Solana
+## Các điểm cuối RPC công khai của Nara Solana
 
-Tổ chức Solana Labs vận hành một điểm cuối RPC công khai cho mỗi Cụm. Mỗi điểm
+Tổ chức Nara Solana Labs vận hành một điểm cuối RPC công khai cho mỗi Cụm. Mỗi điểm
 cuối công khai này đều có giới hạn tốc độ, nhưng có sẵn cho người dùng và nhà
-phát triển tương tác với blockchain Solana.
+phát triển tương tác với blockchain Nara Solana.
 
 > Giới hạn tốc độ của điểm cuối công khai có thể thay đổi. Các giới hạn tốc độ
 > cụ thể được liệt kê trong tài liệu này không đảm bảo là cập nhật nhất.
 
 ### Sử dụng trình khám phá với các Cụm khác nhau
 
-Nhiều trình khám phá blockchain Solana phổ biến hỗ trợ việc lựa chọn bất kỳ Cụm
+Nhiều trình khám phá blockchain Nara Solana phổ biến hỗ trợ việc lựa chọn bất kỳ Cụm
 nào, thường cho phép người dùng nâng cao thêm điểm cuối RPC tùy chỉnh/riêng tư
 cũng như vậy.
 
-Một số ví dụ về các trình khám phá blockchain Solana bao gồm:
+Một số ví dụ về các trình khám phá blockchain Nara Solana bao gồm:
 
 - [http://explorer.solana.com/](https://explorer.solana.com/).
 - [http://orb.helius.dev/](https://orb.helius.dev/).
@@ -52,13 +55,13 @@ lên Mainnet.
 
 | **Cluster** | **Endpoint**                          | **Mục đích**                      | **Ghi chú**                                            |
 | ----------- | ------------------------------------- | --------------------------------- | ------------------------------------------------------ |
-| Mainnet     | `https://api.mainnet-beta.solana.com` | Môi trường sản xuất trực tiếp     | Yêu cầu SOL cho các giao dịch                          |
-| Devnet      | `https://api.devnet.solana.com`       | Kiểm thử và phát triển công khai  | Airdrop SOL miễn phí để kiểm thử                       |
+| Mainnet     | `https://api.mainnet-beta.solana.com` | Môi trường sản xuất trực tiếp     | Yêu cầu NSO cho các giao dịch                          |
+| Devnet      | `https://api.devnet.solana.com`       | Kiểm thử và phát triển công khai  | Airdrop NSO miễn phí để kiểm thử                       |
 | Testnet     | `https://api.testnet.solana.com`      | Kiểm thử validator và stress test | Có thể có thời gian ngừng hoạt động không thường xuyên |
 
 ## Devnet
 
-Devnet đóng vai trò như một sân chơi cho bất kỳ ai muốn dùng thử Solana, với tư
+Devnet đóng vai trò như một sân chơi cho bất kỳ ai muốn dùng thử Nara Solana, với tư
 cách là người dùng, người nắm giữ token, nhà phát triển ứng dụng hoặc validator.
 
 - Các nhà phát triển ứng dụng nên nhắm đến Devnet.
@@ -73,12 +76,12 @@ cách là người dùng, người nắm giữ token, nhà phát triển ứng d
 
 ### Endpoint Devnet
 
-- `https://api.devnet.solana.com` - node API đơn do Solana Labs lưu trữ; giới
+- `https://api.devnet.solana.com` - node API đơn do Nara Solana Labs lưu trữ; giới
   hạn tốc độ
 
 #### Ví dụ cấu hình dòng lệnh `solana`
 
-Để kết nối với Cluster `devnet` sử dụng Solana CLI:
+Để kết nối với Cluster `devnet` sử dụng Nara Solana CLI:
 
 ```shell
 solana config set --url https://api.devnet.solana.com
@@ -94,7 +97,7 @@ solana config set --url https://api.devnet.solana.com
 
 ## Testnet
 
-Testnet là nơi các nhà đóng góp chính của Solana kiểm tra áp lực các tính năng
+Testnet là nơi các nhà đóng góp chính của Nara Solana kiểm tra áp lực các tính năng
 phát hành gần đây trên một cụm mạng trực tiếp, đặc biệt tập trung vào hiệu suất
 mạng, tính ổn định và hành vi của validator.
 
@@ -107,12 +110,12 @@ mạng, tính ổn định và hành vi của validator.
 
 ### Endpoint của Testnet
 
-- `https://api.testnet.solana.com` - node API đơn của Solana Labs; có giới hạn
+- `https://api.testnet.solana.com` - node API đơn của Nara Solana Labs; có giới hạn
   tốc độ
 
 #### Ví dụ cấu hình dòng lệnh `solana`
 
-Để kết nối với Cụm `testnet` sử dụng Solana CLI:
+Để kết nối với Cụm `testnet` sử dụng Nara Solana CLI:
 
 ```shell
 solana config set --url https://api.testnet.solana.com
@@ -129,19 +132,19 @@ solana config set --url https://api.testnet.solana.com
 ## Mainnet beta
 
 Một cụm mạng liên tục, không cần cấp phép dành cho người dùng, nhà phát triển,
-validator và người nắm giữ token Solana.
+validator và người nắm giữ token Nara Solana.
 
-- Token được phát hành trên Mainnet Beta là SOL **thật**
+- Token được phát hành trên Mainnet Beta là NSO **thật**
 - Điểm vào gossip cho Mainnet Beta: `entrypoint.mainnet-beta.solana.com:8001`
 
 ### Endpoint của Mainnet beta
 
-- `https://api.mainnet-beta.solana.com` - Cụm node API do Solana Labs lưu trữ,
+- `https://api.mainnet-beta.solana.com` - Cụm node API do Nara Solana Labs lưu trữ,
   được hỗ trợ bởi bộ cân bằng tải; có giới hạn tốc độ
 
 #### Ví dụ cấu hình dòng lệnh `solana`
 
-Để kết nối với Cụm `mainnet-beta` sử dụng Solana CLI:
+Để kết nối với Cụm `mainnet-beta` sử dụng Nara Solana CLI:
 
 ```shell
 solana config set --url https://api.mainnet-beta.solana.com

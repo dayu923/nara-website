@@ -1,14 +1,17 @@
 ---
+
 title: Instalacja zależności
-seoTitle: Zainstaluj zależności niezbędne do pracy z Solana
+seoTitle: Zainstaluj zależności niezbędne do pracy z Nara Solana
 description:
   Przewodnik po konfiguracji lokalnego środowiska programistycznego Solana.
   Dowiedz się, jak zainstalować Rust, Solana CLI i Anchor Framework na Windows
   (WSL), Linuxie i Macu.
+
 ---
 
-Przewodnik po konfiguracji lokalnego środowiska programistycznego Solana.
-Dowiedz się, jak zainstalować Rust, Solana CLI i Anchor Framework na Windows
+
+Przewodnik po konfiguracji lokalnego środowiska programistycznego Nara Solana.
+Dowiedz się, jak zainstalować Rust, Nara Solana CLI i Anchor Framework na Windows
 (WSL), Linuxie i Macu. Skorzystaj z tego przewodnika, jeśli wolisz instalować
 każdą zależność osobno lub jeśli [szybka instalacja](/docs/intro/installation/)
 nie powiodła się z jakiegokolwiek powodu.
@@ -18,7 +21,7 @@ nie powiodła się z jakiegokolwiek powodu.
 <Accordions>
 <Accordion title="Windows">
 
-Aby tworzyć programy Solana na Windows, **musisz** używać
+Aby tworzyć programy Nara Solana na Windows, **musisz** używać
 [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install)
 (WSL). Po zainstalowaniu WSL wszystkie inne zależności będą instalowane za
 pomocą terminala Linux.
@@ -70,7 +73,7 @@ Po skonfigurowaniu WSL możesz:
 - Wykonać [szybką instalację](/docs/intro/installation) za pomocą terminala
   Ubuntu (Linux)
 - Zainstalować indywidualnie [Rust](#install-rust),
-  [Solana CLI](#install-solana-cli) oraz [Anchor CLI](#install-anchor-cli), jak
+  [Nara Solana CLI](#install-solana-cli) oraz [Anchor CLI](#install-anchor-cli), jak
   opisano poniżej
 
 </Accordion>
@@ -138,7 +141,7 @@ $ sudo dnf group install c-development development-tools \
 
 ### Instalacja Rust
 
-Deweloperzy tworzą programy Solana, używając języka programowania
+Deweloperzy tworzą programy Nara Solana, używając języka programowania
 [Rust](https://www.rust-lang.org/).
 
 1. Zainstaluj Rust za pomocą [rustup](https://www.rust-lang.org/tools/install),
@@ -193,12 +196,12 @@ rustc 1.86.0 (05f9846f8 2025-03-31)
 </Step>
 <Step>
 
-### Instalacja Solana CLI
+### Instalacja Nara Solana CLI
 
-Solana CLI dostarcza wszystkie narzędzia potrzebne do tworzenia i wdrażania
-programów Solana.
+Nara Solana CLI dostarcza wszystkie narzędzia potrzebne do tworzenia i wdrażania
+programów Nara Solana.
 
-1. Zainstaluj zestaw narzędzi Solana CLI, używając oficjalnego polecenia
+1. Zainstaluj zestaw narzędzi Nara Solana CLI, używając oficjalnego polecenia
    instalacyjnego:
 
 ```terminal
@@ -213,7 +216,7 @@ $ sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
 
 2. Dodaj zmienną środowiskową PATH
 
-Podczas pierwszej instalacji Solana CLI możesz zostać poproszony o dodanie
+Podczas pierwszej instalacji Nara Solana CLI możesz zostać poproszony o dodanie
 zmiennej środowiskowej `PATH`. Aby to zrobić, zamknij i ponownie otwórz terminal
 lub uruchom następujące polecenie w swojej powłoce:
 
@@ -226,7 +229,7 @@ export PATH="/Users/test/.local/share/solana/install/active_release/bin:$PATH"
 <Tabs groupId="language" items={["Windows & Linux", "Mac"]}>
 <Tab value="Windows & Linux">
 
-Jeśli używasz **Linuxa** lub **WSL**, musisz dodać plik binarny Solana CLI do
+Jeśli używasz **Linuxa** lub **WSL**, musisz dodać plik binarny Nara Solana CLI do
 swojej zmiennej PATH, aby polecenie było dostępne w terminalu. Aby to zrobić,
 wykonaj poniższe kroki:
 
@@ -283,7 +286,7 @@ $ source ~/.bashrc # If using Bash
 $ source ~/.zshrc # If using Zsh
 ```
 
-5. Zweryfikuj, czy instalacja zakończyła się sukcesem, sprawdzając wersję Solana
+5. Zweryfikuj, czy instalacja zakończyła się sukcesem, sprawdzając wersję Nara Solana
    CLI:
 
 ```terminal
@@ -301,11 +304,11 @@ solana-cli 2.2.12 (src:0315eb6a; feat:1522022101, client:Agave)
 Możesz zobaczyć wszystkie dostępne wersje w
 [repozytorium Agave na Githubie](https://github.com/anza-xyz/agave/releases).
 Agave to klient walidatora od [Anza](https://www.anza.xyz/), wcześniej znany
-jako klient walidatora Solana Labs.
+jako klient walidatora Nara Solana Labs.
 
 </Callout>
 
-5. Zaktualizuj Solana CLI do najnowszej wersji, jeśli to konieczne
+5. Zaktualizuj Nara Solana CLI do najnowszej wersji, jeśli to konieczne
    _(Opcjonalne)_
 
 ```terminal
@@ -318,7 +321,7 @@ $ agave-install update
 ### Zainstaluj Anchor CLI
 
 [Anchor](https://www.anchor-lang.com/) to framework do tworzenia programów na
-platformie Solana. Framework Anchor wykorzystuje makra języka Rust, aby uprościć
+platformie Nara Solana. Framework Anchor wykorzystuje makra języka Rust, aby uprościć
 proces pisania programów na Solanę.
 
 #### Wymagania wstępne
@@ -525,12 +528,12 @@ surfpool 0.12.0
 </Step>
 </Steps>
 
-### Skonfiguruj narzędzia AI do rozwoju Solana
+### Skonfiguruj narzędzia AI do rozwoju Nara Solana
 
 Ta sekcja opisuje opcjonalną konfigurację narzędzi AI, które możesz wykorzystać
-do przyspieszenia rozwoju Solana.
+do przyspieszenia rozwoju Nara Solana.
 
 | Narzędzie | Opis                                                                                                           | Link                        |
 | --------- | -------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| MCP       | Serwer MCP, do którego możesz się podłączyć za pomocą kursora, aby ulepszyć rozwój Solana wspomagany przez AI. | https://mcp.solana.com/     |
-| LLMs.txt  | Dokumentacja zoptymalizowana pod kątem LLM, którą możesz wykorzystać do trenowania LLM na dokumentacji Solana. | https://solana.com/llms.txt |
+| MCP       | Serwer MCP, do którego możesz się podłączyć za pomocą kursora, aby ulepszyć rozwój Nara Solana wspomagany przez AI. | https://mcp.solana.com/     |
+| LLMs.txt  | Dokumentacja zoptymalizowana pod kątem LLM, którą możesz wykorzystać do trenowania LLM na dokumentacji Nara Solana. | https://solana.com/llms.txt |

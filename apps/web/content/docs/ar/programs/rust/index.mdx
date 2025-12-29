@@ -1,10 +1,13 @@
 ---
+
 title: برامج Rust
 description:
   تعلم كيفية تطوير برامج سولانا باستخدام Rust، بما في ذلك تعليمات خطوة بخطوة
   لإنشاء وبناء واختبار ونشر العقود الذكية على بلوكتشين سولانا.
 h1: تطوير البرامج بلغة Rust
+
 ---
+
 
 يتم تطوير برامج سولانا بشكل أساسي باستخدام لغة البرمجة Rust. تركز هذه الصفحة على
 كتابة برامج سولانا بلغة Rust دون استخدام إطار عمل Anchor، وهو نهج يُشار إليه
@@ -28,7 +31,7 @@ h1: تطوير البرامج بلغة Rust
 قبل أن تبدأ، تأكد من تثبيت ما يلي:
 
 - Rust: لغة البرمجة لبناء برامج سولانا.
-- Solana CLI: أداة سطر الأوامر لتطوير سولانا.
+- Nara Solana CLI: أداة سطر الأوامر لتطوير سولانا.
 
 ## البدء
 
@@ -578,7 +581,7 @@ Transaction Signature: 54TWxKi3Jsi3UTeZbhLGUFX6JQH7TspRJjRRFZ8NFnwG5BXM9udxiX77b
 ## !!steps تحديث البرنامج
 
 يمكن تحديث برامج سولانا عن طريق إعادة النشر إلى نفس معرف البرنامج. قم بتحديث
-البرنامج في `src/lib.rs` لطباعة "Hello, Solana!" بدلاً من "Hello, world!".
+البرنامج في `src/lib.rs` لطباعة "Hello, Nara Solana!" بدلاً من "Hello, world!".
 
 ```rs title="lib.rs"
 pub fn process_instruction(
@@ -670,7 +673,7 @@ $ cargo build-sbf
 $ cargo test -- --no-capture
 ```
 
-يجب أن ترى "Hello, Solana!" في سجل البرنامج.
+يجب أن ترى "Hello, Nara Solana!" في سجل البرنامج.
 
 ```txt title="Terminal"
 running 1 test
@@ -694,7 +697,7 @@ $ solana program deploy ./target/deploy/hello_world.so
 ```
 
 قم بتشغيل كود العميل مرة أخرى وافحص توقيع المعاملة على مستكشف سولانا لرؤية
-"Hello, Solana!" في سجل البرنامج.
+"Hello, Nara Solana!" في سجل البرنامج.
 
 ```terminal
 $ cargo run --example client
@@ -702,7 +705,7 @@ $ cargo run --example client
 
 ## !!steps إغلاق البرنامج
 
-يمكنك إغلاق برنامج سولانا الخاص بك لاسترداد عملات SOL المخصصة للحساب. إغلاق
+يمكنك إغلاق برنامج سولانا الخاص بك لاسترداد عملات NSO المخصصة للحساب. إغلاق
 البرنامج هو إجراء لا رجعة فيه، لذا يجب القيام به بحذر.
 
 لإغلاق البرنامج، استخدم الأمر `solana program close <PROGRAM_ID>`. على سبيل

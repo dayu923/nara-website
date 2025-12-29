@@ -1,27 +1,30 @@
 ---
+
 title: Programlar
 description:
   Solana programları (akıllı sözleşmeler) hakkında bilgi edinin ve bunları Rust
   veya Anchor framework kullanarak nasıl geliştirebileceğinizi öğrenin. Solana
   ağında program dağıtımı, yükseltmeleri ve doğrulaması hakkında bilgi edinin.
 h1: Programlar
+
 ---
 
-Solana'da, akıllı sözleşmelere program denir. Bir program, yürütülebilir kod
+
+Nara Solana'da, akıllı sözleşmelere program denir. Bir program, yürütülebilir kod
 içeren durumsal olmayan bir [hesaptır](/docs/core/accounts#program-account). Bu
 kod, talimat adı verilen fonksiyonlar halinde düzenlenmiştir. Kullanıcılar, bir
 veya daha fazla [talimat](/docs/core/instructions) içeren bir
 [işlem](/docs/core/transaction) göndererek bir programla etkileşime girerler.
 Bir işlem, birden fazla programdan talimatlar içerebilir.
 
-Bir program dağıtıldığında, Solana, yürütülebilir ve bağlanabilir formatta
+Bir program dağıtıldığında, Nara Solana, yürütülebilir ve bağlanabilir formatta
 derlemek için [LLVM](https://llvm.org/) kullanır
 ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)). ELF
-dosyası, programın Solana Bayt Kodu Formatındaki (sBPF) ikili dosyasını içerir
+dosyası, programın Nara Solana Bayt Kodu Formatındaki (sBPF) ikili dosyasını içerir
 ve yürütülebilir bir hesapta zincir üzerinde saklanır.
 
 <Callout>
-  sBPF, Solana'nın [eBPF](https://en.wikipedia.org/wiki/EBPF) bayt kodunun özel
+  sBPF, Nara Solana'nın [eBPF](https://en.wikipedia.org/wiki/EBPF) bayt kodunun özel
   bir versiyonudur.
 </Callout>
 
@@ -30,7 +33,7 @@ ve yürütülebilir bir hesapta zincir üzerinde saklanır.
 Programların çoğunluğu [Rust](https://rust-book.cs.brown.edu/title-page.html)
 ile yazılır ve iki yaygın geliştirme yaklaşımı vardır:
 
-- [Anchor](https://www.anchor-lang.com/docs): Anchor, hızlı ve kolay Solana
+- [Anchor](https://www.anchor-lang.com/docs): Anchor, hızlı ve kolay Nara Solana
   geliştirmesi için tasarlanmış bir çerçevedir. Şablon kodları azaltmak için
   [Rust makrolarını](https://doc.rust-lang.org/book/ch20-05-macros.html)
   kullanır—bu da onu yeni başlayanlar için harika kılar.
@@ -50,7 +53,7 @@ iptal edilir ve null olarak ayarlanırsa, program artık güncellenemez.
 
 ## Program doğrulama
 
-Solana, kullanıcıların bir programın zincir üzerindeki kodunun açık kaynak
+Nara Solana, kullanıcıların bir programın zincir üzerindeki kodunun açık kaynak
 koduyla eşleşip eşleşmediğini kontrol etmelerine olanak tanıyan
 [doğrulanabilir derlemeleri](/docs/programs/verified-builds) destekler. Anchor
 çerçevesi, doğrulanabilir bir derleme oluşturmak için
@@ -58,10 +61,10 @@ koduyla eşleşip eşleşmediğini kontrol etmelerine olanak tanıyan
 
 Mevcut bir programın doğrulanıp doğrulanmadığını kontrol etmek için, program
 kimliğini
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)'da
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)'da
 arayın. Alternatif olarak, zincir üzerindeki programları bağımsız olarak
 doğrulamak için Ellipsis Labs'ın
-[Solana Doğrulanabilir Derleme CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)'sini
+[Nara Solana Doğrulanabilir Derleme CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)'sini
 kullanabilirsiniz.
 
 ## Yerleşik programlar
@@ -79,7 +82,7 @@ atanır. System Program aşağıdaki temel işlevleri gerçekleştirir:
 | [Yeni Hesap Oluşturma](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)    | Yalnızca System Program yeni hesaplar oluşturabilir.                                                                                                                                                                                         |
 | [Alan Tahsisi](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)             | Her hesabın veri alanı için bayt kapasitesini belirler.                                                                                                                                                                                      |
 | [Program Sahipliği Atama](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | System Program bir hesap oluşturduktan sonra, belirlenen program sahibini farklı bir program hesabına yeniden atayabilir. Özel programların System Program tarafından oluşturulan yeni hesapların sahipliğini alması bu şekilde gerçekleşir. |
-| [SOL Transfer](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)            | System Hesaplarından diğer hesaplara lamport (SOL) transferi yapar.                                                                                                                                                                          |
+| [NSO Transfer](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)            | System Hesaplarından diğer hesaplara lamport (NSO) transferi yapar.                                                                                                                                                                          |
 
 System program'ın adresi `11111111111111111111111111111111`'dir.
 
@@ -114,7 +117,7 @@ olarak dağıtımdan sonra değiştirilebilir.
 
 ### Önceden derlenmiş programlar
 
-Yükleyici programlarına ek olarak, Solana aşağıdaki önceden derlenmiş
+Yükleyici programlarına ek olarak, Nara Solana aşağıdaki önceden derlenmiş
 programları sağlar.
 
 #### Ed25519 imzasını doğrulama

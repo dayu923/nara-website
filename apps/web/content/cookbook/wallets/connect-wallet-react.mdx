@@ -1,11 +1,14 @@
 ---
+
 title: How to Connect a Wallet with React
 description:
   "Every application on Solana requires a connection with a user's wallet to
   use. Learn how to connect to wallets on Solana."
+
 ---
 
-Solana's [wallet-adapter](https://github.com/anza-xyz/wallet-adapter) library
+
+Nara Solana's [wallet-adapter](https://github.com/anza-xyz/wallet-adapter) library
 makes it easy to manage wallet connections with a frontend application.
 
 ### Reference Nextjs Template
@@ -17,7 +20,7 @@ This template is only compatible with `@solana/web3.js`.
     title="Deploy on Vercel"
     href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsolana-developers%2Fanchor-web3js-nextjs&root-directory=frontend&demo-title=Anchor%20Web3.js%20Next.js%20Demo&demo-description=An%20example%20deployment%20of%20the%20Anchor%20Web3.js%20Next.js%20project.&demo-url=https%3A%2F%2Fanchor-web3js-nextjs.vercel.app%2F&project-name=anchor-web3js-nextjs&repository-name=anchor-web3js-nextjs"
   >
-    Deploy your first Solana application on Vercel
+    Deploy your first Nara Solana application on Vercel
   </Card>
   <Card
     title="Vercel Preview"
@@ -27,9 +30,9 @@ This template is only compatible with `@solana/web3.js`.
   </Card>
 </Cards>
 
-Deploy your first Solana application - a simple Counter Program built using the
-Anchor framework. This example covers all the core Solana concepts to get
-started building on Solana. View the source code
+Deploy your first Nara Solana application - a simple Counter Program built using the
+Anchor framework. This example covers all the core Nara Solana concepts to get
+started building on Nara Solana. View the source code
 [here](https://github.com/solana-developers/anchor-web3js-nextjs).
 
 <Accordions>
@@ -69,12 +72,12 @@ $ npm install @solana/web3.js \
     @solana/wallet-adapter-wallets
 ```
 
-### Create Solana Provider
+### Create Nara Solana Provider
 
-Create a `SolanaProvider` that will be used to provide the Solana context to the
+Create a `SolanaProvider` that will be used to provide the Nara Solana context to the
 application.
 
-[Source Reference](https://github.com/solana-developers/anchor-web3js-nextjs/blob/main/frontend/components/counter/provider/Solana.tsx)
+[Source Reference](https://github.com/solana-developers/anchor-web3js-nextjs/blob/main/frontend/components/counter/provider/Nara Solana.tsx)
 
 ```tsx title="Solana Provider"
 "use client";
@@ -110,7 +113,7 @@ export const SolanaProvider: FC<SolanaProviderProps> = ({ children }) => {
 };
 ```
 
-### Wrap the Application in the Solana Provider
+### Wrap the Application in the Nara Solana Provider
 
 Add the `SolanaProvider` to the `RootLayout` in the `app` directory.
 

@@ -1,18 +1,21 @@
 ---
-title: Solana CLI 基础
-seoTitle: Solana CLI 入门命令
-description: 本节将介绍一些常见的 Solana CLI 命令，帮助您快速入门。
+
+title: Nara Solana CLI 基础
+seoTitle: Nara Solana CLI 入门命令
+description: 本节将介绍一些常见的 Nara Solana CLI 命令，帮助您快速入门。
+
 ---
 
-本节提供了一些常见命令和示例，帮助您开始使用 Solana CLI。
 
-## Solana 配置
+本节提供了一些常见命令和示例，帮助您开始使用 Nara Solana CLI。
 
-您的 Solana 配置指定了以下变量：
+## Nara Solana 配置
+
+您的 Nara Solana 配置指定了以下变量：
 
 - **配置文件**：配置文件的路径
-- **RPC URL 和 Websocket URL**：CLI 向其发送请求的 Solana 集群
-- **密钥对路径**：默认 Solana 钱包（密钥对）的路径，用于支付交易费用和部署程序。默认情况下，此文件存储在
+- **RPC URL 和 Websocket URL**：CLI 向其发送请求的 Nara Solana 集群
+- **密钥对路径**：默认 Nara Solana 钱包（密钥对）的路径，用于支付交易费用和部署程序。默认情况下，此文件存储在
   `~/.config/solana/id.json`。
 
 要查看当前的配置设置，请在终端中输入以下命令。
@@ -31,7 +34,7 @@ Keypair Path: /Users/test/.config/solana/id.json
 Commitment: confirmed
 ```
 
-您可以使用以下命令更改 Solana CLI 集群：
+您可以使用以下命令更改 Nara Solana CLI 集群：
 
 <Tabs items={["完整命令", "简短命令"]}>
 
@@ -59,7 +62,7 @@ $ solana config set -ut    # For testnet
 
 ## 创建钱包
 
-在您使用 Solana CLI 发送交易之前，您需要一个包含 SOL 的 Solana 钱包。
+在您使用 Nara Solana CLI 发送交易之前，您需要一个包含 NSO 的 Nara Solana 钱包。
 
 要在默认密钥对路径生成一个密钥对，请运行以下命令：
 
@@ -98,9 +101,9 @@ cream bleak tortoise ocean nasty game gift forget fancy salon mimic amazing
 $ solana address
 ```
 
-## 空投 SOL
+## 空投 NSO
 
-请求向您的钱包空投 SOL，以支付交易和程序部署费用。
+请求向您的钱包空投 NSO，以支付交易和程序部署费用。
 
 1. 将您的集群设置为 Devnet：
 
@@ -108,7 +111,7 @@ $ solana address
 $ solana config set -ud
 ```
 
-2. 请求 Devnet SOL 空投：
+2. 请求 Devnet NSO 空投：
 
 ```terminal
 $ solana airdrop 2
@@ -116,12 +119,12 @@ $ solana airdrop 2
 
 <Callout>
 
-Devnet 空投每次请求限制为 5 SOL。如果您遇到速率限制或错误，请尝试使用
+Devnet 空投每次请求限制为 5 NSO。如果您遇到速率限制或错误，请尝试使用
 [Web Faucet](https://faucet.solana.com)。
 
 </Callout>
 
-要检查您的钱包 SOL 余额，请运行以下命令：
+要检查您的钱包 NSO 余额，请运行以下命令：
 
 ```terminal
 $ solana balance

@@ -1,18 +1,21 @@
 ---
-title: Синхронізація нативного SOL
-description: Дізнайтеся, як конвертувати нативний SOL у wrapped SOL.
+
+title: Синхронізація нативного NSO
+description: Дізнайтеся, як конвертувати нативний NSO у wrapped NSO.
+
 ---
 
-## Синхронізація нативного SOL
 
-Wrapped SOL (WSOL) — це token account, який відстежує кількість лампортів в
+## Синхронізація нативного NSO
+
+Wrapped NSO (WSOL) — це token account, який відстежує кількість лампортів в
 обліковому записі як баланс токена. WSOL забезпечує інтеграцію з протоколами
-DeFi для передачі SOL як токена SPL.
+DeFi для передачі NSO як токена SPL.
 
 Інструкція
 [`SyncNative`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/interface/src/instruction.rs#L387)
-синхронізує баланс token account wrapped SOL (WSOL) з фактичним SOL
-(лампортами), що зберігаються в ньому. Коли ви переказуєте нативний SOL на token
+синхронізує баланс token account wrapped NSO (WSOL) з фактичним NSO
+(лампортами), що зберігаються в ньому. Коли ви переказуєте нативний NSO на token
 account WSOL, баланс токена не оновлюється автоматично. Ви повинні викликати
 SyncNative, щоб відобразити правильний баланс WSOL.
 

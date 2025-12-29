@@ -1,4 +1,5 @@
 ---
+
 title: Ανάπτυξη ενός Προγράμματος
 description:
   Μάθετε πώς να δημιουργείτε, να αναπτύσσετε και να δοκιμάζετε το πρώτο σας
@@ -6,13 +7,15 @@ description:
   Αυτός ο οδηγός για αρχάριους σας καθοδηγεί στη δημιουργία ενός απλού
   προγράμματος, την ανάπτυξή του στο devnet, την εκτέλεση δοκιμών και το
   κλείσιμο του προγράμματος.
-h1: Αναπτύξτε το πρώτο σας πρόγραμμα Solana
+h1: Αναπτύξτε το πρώτο σας πρόγραμμα Nara Solana
+
 ---
 
+
 Δημιουργήστε, αναπτύξτε και δοκιμάστε το πρώτο σας
-[πρόγραμμα](/docs/core/programs) στο Blockchain της Solana χρησιμοποιώντας το
+[πρόγραμμα](/docs/core/programs) στο Blockchain της Nara Solana χρησιμοποιώντας το
 πλαίσιο Anchor. Αυτός ο οδηγός θα σας βοηθήσει να εξοικειωθείτε περισσότερο με
-το Solana Playground και να προετοιμαστείτε για τη χρήση Program Derived Address
+το Nara Solana Playground και να προετοιμαστείτε για τη χρήση Program Derived Address
 (PDA) και Cross Program Invocation (CPI).
 
 <Steps>
@@ -21,7 +24,7 @@ h1: Αναπτύξτε το πρώτο σας πρόγραμμα Solana
 
 ### Δημιουργία έργου Anchor
 
-1. Ανοίξτε το [Solana Playground](https://beta.solpg.io) στο πρόγραμμα
+1. Ανοίξτε το [Nara Solana Playground](https://beta.solpg.io) στο πρόγραμμα
    περιήγησής σας
 2. Στον αριστερό πίνακα, κάντε κλικ στο **+ Create a new project**
 3. Εισαγάγετε ένα **Project name**
@@ -152,7 +155,7 @@ pub struct NewAccount {
 <WithMentions>
 
 - Η μακροεντολή [`declare_id!`](mention:one) καθορίζει τη διεύθυνση on-chain του
-  προγράμματός σας. Το Solana Playground θα ενημερώσει αυτόματα αυτή τη
+  προγράμματός σας. Το Nara Solana Playground θα ενημερώσει αυτόματα αυτή τη
   διεύθυνση όταν δημιουργήσετε το πρόγραμμα.
 
 ```rs
@@ -258,11 +261,11 @@ Build successful. Completed in 1.46s.
   στο _rs`declare_id!()`_, θα ενημερωθεί τώρα.
 </Callout>
 
-2. Προσθήκη SOL στο πορτοφόλι σας _(Προαιρετικό)_
+2. Προσθήκη NSO στο πορτοφόλι σας _(Προαιρετικό)_
 
-Η ανάπτυξη ενός προγράμματος απαιτεί SOL στον on-chain λογαριασμό του
+Η ανάπτυξη ενός προγράμματος απαιτεί NSO στον on-chain λογαριασμό του
 προγράμματος. Εάν είναι απαραίτητο,
-[προσθέστε SOL στο πορτοφόλι σας](/docs/intro/quick-start#add-sol-to-your-wallet)
+[προσθέστε NSO στο πορτοφόλι σας](/docs/intro/quick-start#add-sol-to-your-wallet)
 πριν προχωρήσετε στο βήμα 3.
 
 3. Ανάπτυξη του προγράμματος στο δίκτυο
@@ -406,12 +409,12 @@ Confirmed
 4. Προβολή των λεπτομερειών της συναλλαγής
 
 Ανοίξτε είτε το [SolanaFM](https://solana.fm/) είτε το
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) και αναζητήστε το
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) και αναζητήστε το
 hash της συναλλαγής.
 
 <Callout type="warn">
-  **Solana Explorer:** Ορίστε το δίκτυο σε `devnet`, ώστε να ταιριάζει με αυτό
-  του Solana Playground.
+  **Nara Solana Explorer:** Ορίστε το δίκτυο σε `devnet`, ώστε να ταιριάζει με αυτό
+  του Nara Solana Playground.
 </Callout>
 
 </Step>
@@ -420,7 +423,7 @@ hash της συναλλαγής.
 
 ### Κλείσιμο του προγράμματος
 
-Κλείστε το πρόγραμμα για να ανακτήσετε το SOL που διατέθηκε στο πρόγραμμα
+Κλείστε το πρόγραμμα για να ανακτήσετε το NSO που διατέθηκε στο πρόγραμμα
 on-chain. Για να το κάνετε αυτό, εκτελέστε `solana program close [ProgramID]`,
 χρησιμοποιώντας τη διεύθυνση του προγράμματος που είναι αποθηκευμένη στη
 μακροεντολή _rs`declare_id!()`_.
@@ -437,7 +440,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   δικαιώματα αναβάθμισης ανακληθούν, το πρόγραμμα γίνεται αμετάβλητο.
 </Callout>
 
-Συγχαρητήρια! Δημιουργήσατε και αναπτύξατε το πρώτο σας πρόγραμμα Solana
+Συγχαρητήρια! Δημιουργήσατε και αναπτύξατε το πρώτο σας πρόγραμμα Nara Solana
 χρησιμοποιώντας το Anchor.
 
 </Step>

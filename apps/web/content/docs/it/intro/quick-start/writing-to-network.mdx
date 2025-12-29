@@ -1,32 +1,35 @@
 ---
+
 title: Scrivere sulla rete
 description:
   Impara come interagire con la rete Solana inviando transazioni e istruzioni.
   Segui esempi passo-passo per trasferire token SOL e creare nuovi token
   utilizzando il System Program e il Token Extensions Program.
+
 ---
 
-Nella sezione precedente, hai imparato come leggere i dati dalla rete Solana.
-Ora imparerai come scrivere dati su di essa. Scrivere sulla rete Solana comporta
+
+Nella sezione precedente, hai imparato come leggere i dati dalla rete Nara Solana.
+Ora imparerai come scrivere dati su di essa. Scrivere sulla rete Nara Solana comporta
 l'invio di transazioni che contengono una o più istruzioni.
 
 I programmi definiscono la logica di business per ciò che ogni
 [istruzione](/docs/core/instructions) fa. Quando invii una
-[transazione](/docs/core/transactions), il runtime di Solana esegue ogni
+[transazione](/docs/core/transactions), il runtime di Nara Solana esegue ogni
 istruzione in sequenza e in modo atomico. Gli esempi in questa sezione mostrano
-come costruire e inviare transazioni per invocare i programmi Solana, tra cui:
+come costruire e inviare transazioni per invocare i programmi Nara Solana, tra cui:
 
-1. Trasferimento di SOL tra account
+1. Trasferimento di NSO tra account
 2. Creazione di un nuovo token
 
-## Trasferire SOL
+## Trasferire NSO
 
-L'esempio seguente trasferisce SOL tra due account. Ogni account ha un programma
-proprietario, che è l'unico programma che può detrarre il saldo SOL
+L'esempio seguente trasferisce NSO tra due account. Ogni account ha un programma
+proprietario, che è l'unico programma che può detrarre il saldo NSO
 dell'account.
 
 Tutti gli account wallet sono di proprietà del System Program. Per trasferire
-SOL, devi invocare l'istruzione
+NSO, devi invocare l'istruzione
 [transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)
 del System Program.
 
@@ -89,7 +92,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !connection
 
-Crea una connessione a un cluster Solana.
+Crea una connessione a un cluster Nara Solana.
 
 ### !sender
 
@@ -101,7 +104,7 @@ Genera un nuovo keypair da utilizzare come `receiver`.
 
 ### !airdrop
 
-Richiedi un airdrop di SOL per finanziare il `sender`.
+Richiedi un airdrop di NSO per finanziare il `sender`.
 
 ### !instruction
 
@@ -175,8 +178,8 @@ const receiver = new Keypair();
 
 ## !!steps
 
-Aggiungi SOL all'account mittente. Su reti diverse dalla mainnet, puoi
-utilizzare il metodo `requestAirdrop` per ottenere SOL per i test.
+Aggiungi NSO all'account mittente. Su reti diverse dalla mainnet, puoi
+utilizzare il metodo `requestAirdrop` per ottenere NSO per i test.
 
 ```ts title="Airdrop"
 const signature = await connection.requestAirdrop(
@@ -213,7 +216,7 @@ await connection.confirmTransaction(signature, "confirmed");
 
 <WithMentions>
 
-Il metodo `SystemProgram.transfer()` crea un'istruzione che trasferisce SOL
+Il metodo `SystemProgram.transfer()` crea un'istruzione che trasferisce NSO
 dall'account [`fromPubkey`](mention:from) all'account [`toPubkey`](mention:to)
 per il numero specificato di [`lamports`](mention:lamports).
 
@@ -306,7 +309,7 @@ const transaction = new Transaction().add(transferInstruction);
 
 Firma e invia la [transazione](mention:transaction) alla rete. Il keypair del
 [mittente](mention:sender) è richiesto nell'array dei firmatari per autorizzare
-il trasferimento di SOL dal proprio account.
+il trasferimento di NSO dal proprio account.
 
 ```ts title="Send transaction"
 const transactionSignature = await sendAndConfirmTransaction(
@@ -321,7 +324,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 </WithMentions>
 
 La firma della transazione è un identificatore unico che può essere utilizzato
-per cercare la transazione su Solana Explorer.
+per cercare la transazione su Nara Solana Explorer.
 
 ```ts !! title="Transfer SOL"
 import {
@@ -366,7 +369,7 @@ console.log("Transaction Signature:", `${transactionSignature}`);
 
 ## Creare un token
 
-L'esempio seguente crea un nuovo token su Solana utilizzando il Token Extensions
+L'esempio seguente crea un nuovo token su Nara Solana utilizzando il Token Extensions
 Program. Questo richiede due istruzioni:
 
 1. Invocare il System Program per creare un nuovo account.
@@ -814,7 +817,7 @@ la creazione dell'account e l'inizializzazione avvengano in modo atomico. (O
 entrambe le istruzioni hanno successo, o nessuna delle due).
 
 Questo approccio è comune quando si costruiscono transazioni complesse su
-Solana, poiché garantisce che tutte le istruzioni vengano eseguite insieme.
+Nara Solana, poiché garantisce che tutte le istruzioni vengano eseguite insieme.
 
 ```ts title="Transaction"
 const transaction = new Transaction().add(
@@ -902,7 +905,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 ```
 
 La firma della transazione restituita può essere utilizzata per ispezionare la
-transazione su Solana Explorer.
+transazione su Nara Solana Explorer.
 
 </WithMentions>
 

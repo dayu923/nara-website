@@ -1,13 +1,16 @@
 ---
+
 title: Program
 description:
   Pelajari tentang program Solana (smart contract) dan cara mengembangkannya
   menggunakan Rust atau framework Anchor. Pahami deployment program, upgrade,
   dan verifikasi di jaringan Solana.
 h1: Program
+
 ---
 
-Di Solana, smart contract disebut sebagai program. Program adalah sebuah
+
+Di Nara Solana, smart contract disebut sebagai program. Program adalah sebuah
 [akun](/docs/core/accounts#program-account) stateless yang berisi kode yang
 dapat dieksekusi. Kode ini diorganisir ke dalam fungsi yang disebut instruksi.
 Pengguna berinteraksi dengan program dengan mengirimkan
@@ -15,14 +18,14 @@ Pengguna berinteraksi dengan program dengan mengirimkan
 [instruksi](/docs/core/instructions). Sebuah transaksi dapat mencakup instruksi
 dari beberapa program.
 
-Ketika program di-deploy, Solana menggunakan [LLVM](https://llvm.org/) untuk
+Ketika program di-deploy, Nara Solana menggunakan [LLVM](https://llvm.org/) untuk
 mengompilasi program tersebut ke dalam format executable and linkable
 ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)). File ELF
-berisi binary program dalam format Solana Bytecode Format (sBPF) dan disimpan
+berisi binary program dalam format Nara Solana Bytecode Format (sBPF) dan disimpan
 on-chain dalam akun yang dapat dieksekusi.
 
 <Callout>
-  sBPF adalah versi kustom Solana dari bytecode
+  sBPF adalah versi kustom Nara Solana dari bytecode
   [eBPF](https://en.wikipedia.org/wiki/EBPF).
 </Callout>
 
@@ -33,7 +36,7 @@ Mayoritas program ditulis dalam
 pengembangan yang umum:
 
 - [Anchor](https://www.anchor-lang.com/docs): Anchor adalah framework yang
-  dirancang untuk pengembangan Solana yang cepat dan mudah. Framework ini
+  dirancang untuk pengembangan Nara Solana yang cepat dan mudah. Framework ini
   menggunakan [Rust macros](https://doc.rust-lang.org/book/ch20-05-macros.html)
   untuk mengurangi kode boilerplate—menjadikannya pilihan yang bagus untuk
   pemula.
@@ -53,7 +56,7 @@ dicabut dan diatur ke null, program tersebut tidak dapat lagi diperbarui.
 
 ## Memverifikasi program
 
-Solana mendukung [verifiable builds](/docs/programs/verified-builds), yang
+Nara Solana mendukung [verifiable builds](/docs/programs/verified-builds), yang
 memungkinkan pengguna untuk memeriksa apakah kode on-chain program cocok dengan
 kode sumber publiknya. Framework Anchor menyediakan
 [dukungan bawaan](https://www.anchor-lang.com/docs/verifiable-builds) untuk
@@ -61,9 +64,9 @@ membuat build yang dapat diverifikasi.
 
 Untuk memeriksa apakah program yang ada sudah diverifikasi, cari ID programnya
 di
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
 Alternatifnya, Anda dapat menggunakan Ellipsis Labs
-[Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build),
+[Nara Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build),
 untuk memverifikasi program on-chain secara independen.
 
 ## Program bawaan
@@ -81,7 +84,7 @@ melakukan fungsi-fungsi utama berikut:
 | [Pembuatan Akun Baru](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)            | Hanya System Program yang dapat membuat akun baru.                                                                                                                                                                             |
 | [Alokasi Ruang](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)                   | Menetapkan kapasitas byte untuk bidang data setiap akun.                                                                                                                                                                       |
 | [Menetapkan Kepemilikan Program](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | Setelah System Program membuat akun, ia dapat menetapkan kembali pemilik program yang ditunjuk ke program account yang berbeda. Begitulah cara program kustom mengambil kepemilikan akun baru yang dibuat oleh System Program. |
-| [Transfer SOL](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                   | Mentransfer lamports (SOL) dari System Accounts ke akun lain.                                                                                                                                                                  |
+| [Transfer NSO](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                   | Mentransfer lamports (NSO) dari System Accounts ke akun lain.                                                                                                                                                                  |
 
 Alamat system program adalah `11111111111111111111111111111111`.
 
@@ -114,7 +117,7 @@ setelah deployment, sebagaimana ditentukan oleh otoritas upgrade-nya.
 
 ### Program terprakompilasi
 
-Selain program loader, Solana menyediakan program terprakompilasi berikut.
+Selain program loader, Nara Solana menyediakan program terprakompilasi berikut.
 
 #### Verifikasi tanda tangan ed25519
 

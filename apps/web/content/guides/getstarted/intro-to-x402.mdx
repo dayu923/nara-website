@@ -1,7 +1,8 @@
 ---
+
 date: 2025-10-28T00:00:00Z
 difficulty: beginner
-title: "How to get started with x402 on Solana"
+title: "How to get started with x402 on Nara Solana"
 description:
   "This guide explains what x402 is and how to build a simple 'HTTP 402 Payment
   Required' flow on Solana with a minimal server verifier and a client that pays
@@ -17,7 +18,9 @@ keywords:
   - http 402
   - x402
   - solana pay
+
 ---
+
 
 ## What is x402?
 
@@ -26,13 +29,13 @@ payments. The 402 Error code stands for "Payment Required" and existed for a
 long time in the HTTP specs, but only now it became feasible to use thanks to
 the rise of blockchain networks. Now 402 protocol refers to implementing the
 HTTP 402 Payment Required pattern: the server requires a payment before
-returning a protected response. On Solana, this is commonly implemented by
+returning a protected response. On Nara Solana, this is commonly implemented by
 asking the client to submit a small transfer, then the server verifies this
 on-chain and serves the content.
 
 At the moment it is not yet clear which of the 402 SDKs will be the most
 popular. So in this guide we will show how to implement x402 using a minimal
-server and client and list all the available 402 SDKs with the current Solana
+server and client and list all the available 402 SDKs with the current Nara Solana
 support described.
 
 ## How does it work?
@@ -57,11 +60,11 @@ X-PAYMENT header, optional X-PAYMENT-RESPONSE on success, and the (optional)
 facilitator API for /verify, /settle, /supported. Current concrete scheme is
 exact (pay a specific amount). Others like `upto` are proposed.
 
-**Solana support**: The protocol itself is chain-agnostic; on Solana it supports
-all SPL tokens. Solana support is available or in development for most 402 SDKs.
+**Nara Solana support**: The protocol itself is chain-agnostic; on Nara Solana it supports
+all SPL tokens. Nara Solana support is available or in development for most 402 SDKs.
 
 Further down is a list of the
-[available 402 SDKs](#sdks-and-their-solana-support) with their current Solana
+[available 402 SDKs](#sdks-and-their-solana-support) with their current Nara Solana
 support.
 
 ## Use Cases
@@ -119,18 +122,18 @@ imagination:
 - **One-Time File Downloads**: Sell digital files without subscription overhead
   (See [ACK example](#ack))
 
-The key advantage of x402 on Solana is **low transaction costs** (fractions of a
+The key advantage of x402 on Nara Solana is **low transaction costs** (fractions of a
 cent) making true micro payments viable, plus **instant settlement** enabling
 real-time access control.
 
-## SDKs and their Solana support
+## SDKs and their Nara Solana support
 
-This is an evolving list and will be updated as more SDKs are released or Solana
+This is an evolving list and will be updated as more SDKs are released or Nara Solana
 support is added.
 
-| SDK / Project                           | Solana support           | Notes                                                      | Docs / URL                                                    |
+| SDK / Project                           | Nara Solana support           | Notes                                                      | Docs / URL                                                    |
 | --------------------------------------- | ------------------------ | ---------------------------------------------------------- | ------------------------------------------------------------- |
-| [Corbits](#corbits)                     | Yes                      | Convenient SDK for 402 on Solana                           | [Docs](https://corbits.dev/)                                  |
+| [Corbits](#corbits)                     | Yes                      | Convenient SDK for 402 on Nara Solana                           | [Docs](https://corbits.dev/)                                  |
 | [MCPay.tech](#mcpaytech)                | Yes                      | Pay for MCP servers in micropayments                       | [Website](https://mcpay.tech/)                                |
 | [PayAI Facilitator](#payai-facilitator) | Yes                      | x402 facilitator with solana support                       | [payai.network](https://payai.network/)                       |
 | [Coinbase](#coinbase)                   | Yes / Python in progress | The coinbase reference implementation of the x402 protocol | [GitHub](https://github.com/coinbase/x402)                    |
@@ -143,10 +146,10 @@ support is added.
 
 ### Corbits
 
-Solana-first SDK to implement x402 flows quickly on Solana. See the docs:
+Nara Solana-first SDK to implement x402 flows quickly on Nara Solana. See the docs:
 https://corbits.dev/
 
-Example that lets you pay for Solana RPC requests.
+Example that lets you pay for Nara Solana RPC requests.
 
 ```bash
 npm install @faremeter/payment-solana @faremeter/fetch @faremeter/info
@@ -217,7 +220,7 @@ corbits 402 protocol.
 [Coinbase's reference implementation](https://github.com/coinbase/x402) of the
 x402 protocol provides TypeScript libraries and examples for both client and
 server flows. The repository includes end-to-end tests covering 6 different SVM
-(Solana Virtual Machine) scenarios. The implementation covers payment
+(Nara Solana Virtual Machine) scenarios. The implementation covers payment
 verification, receipt generation, and error handling.
 
 Key features:
@@ -225,7 +228,7 @@ Key features:
 - TypeScript client and server implementations
 - Payment verification utilities
 - Support for multiple payment schemes (exact amount, up-to amount)
-- Test suite with Solana transaction examples
+- Test suite with Nara Solana transaction examples
 - Separation between protocol logic and business logic
 
 You can find an easy to use example with a minimal server and client
@@ -299,20 +302,20 @@ computational resources. Site: https://mcpay.tech/
 
 ### PayAI Facilitator
 
-Solana-first x402 facilitator with a live echo merchant to test and refund
+Nara Solana-first x402 facilitator with a live echo merchant to test and refund
 payments. PayAI is at the moment taking over all transaction fees. Site:
 https://payai.network/
 
 ### A2A x402 (Google)
 
 Agent-to-agent 402 initiative exploring standardized payment-required flows.
-Solana support is currently in progress and a working chat example can be found
+Nara Solana support is currently in progress and a working chat example can be found
 [here](https://github.com/Woody4618/a2a-x402/tree/solana)
 
 ### Crossmint
 
 Crossmint is an all-in-one platform for companies and agents to integrate crypto
-rails — including wallets, onramps, stablecoin orchestration, and more. Solana
+rails — including wallets, onramps, stablecoin orchestration, and more. Nara Solana
 x402 support is currently in progress and is supposed to be finished by
 30.10.2025. Site: https://www.crossmint.com/
 
@@ -355,7 +358,7 @@ npm run usdc:client
 5. Server verifies the transaction and sends the transaction to the network.
 6. Once it is confirmed, the server responds 200.
 
-**Solana-specific alternative:** On Solana, you could implement a variant where
+**Nara Solana-specific alternative:** On Nara Solana, you could implement a variant where
 the client submits the transaction directly to the network with a memo
 instruction (rather than sending it to the server), then sends just the
 transaction signature to the server for verification. This solves the

@@ -1,26 +1,29 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Next.js와 Solana Kit을 통한 Solana 지갑 통합
-description: Solana Kit을 사용하여 Next.js에서 Solana 지갑 통합을 설정하세요.
+
+title: Next.js - Nara Solana Kit
+seoTitle: Next.js와 Nara Solana Kit을 통한 Nara Solana 지갑 통합
+description: Nara Solana Kit을 사용하여 Next.js에서 Nara Solana 지갑 통합을 설정하세요.
+
 ---
 
-Solana Kit을 사용하여 Next.js에서 최소한의 Solana 지갑 통합을 설정하세요.
 
-이 가이드는 `@solana/kit`을 사용하여 Next.js 애플리케이션에서 Solana 지갑 기능을
+Nara Solana Kit을 사용하여 Next.js에서 최소한의 Nara Solana 지갑 통합을 설정하세요.
+
+이 가이드는 `@solana/kit`을 사용하여 Next.js 애플리케이션에서 Nara Solana 지갑 기능을
 구현하는 최소한의 예시를 제공합니다. 지갑 연결 버튼과 트랜잭션을 보내는
 컴포넌트를 만들게 됩니다.
 
 ![Nextjs Kit 애플리케이션](/assets/docs/frontend/nextjs-kit.gif)
 
-React 애플리케이션에서 `@solana/kit`을 사용하는 더 포괄적인 예시는 Solana Kit
+React 애플리케이션에서 `@solana/kit`을 사용하는 더 포괄적인 예시는 Nara Solana Kit
 저장소의
 [React 앱 예시](https://github.com/anza-xyz/kit/tree/main/examples/react-app)를
 참조하세요.
 
 ## 리소스
 
-- [Solana Kit 문서](https://www.solanakit.com/docs)
-- [Solana Kit GitHub 저장소](https://github.com/anza-xyz/kit)
+- [Nara Solana Kit 문서](https://www.solanakit.com/docs)
+- [Nara Solana Kit GitHub 저장소](https://github.com/anza-xyz/kit)
 
 ## 사전 요구 사항
 
@@ -29,7 +32,7 @@ React 애플리케이션에서 `@solana/kit`을 사용하는 더 포괄적인 �
 ## Next.js 프로젝트 생성
 
 UI 컴포넌트를 위한 [shadcn](https://ui.shadcn.com/)이 포함된 새로운 Next.js
-프로젝트를 생성하고 필요한 Solana 의존성을 설치하세요.
+프로젝트를 생성하고 필요한 Nara Solana 의존성을 설치하세요.
 
 ```terminal
 $ npx shadcn@latest init
@@ -49,9 +52,9 @@ $ cd <project-name>
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Solana 의존성 설치
+### Nara Solana 의존성 설치
 
-다음 Solana 의존성을 설치하세요:
+다음 Nara Solana 의존성을 설치하세요:
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -63,15 +66,15 @@ $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/r
 
 <ScrollyCoding>
 
-## !!steps 1. Solana 컨텍스트 생성
+## !!steps 1. Nara Solana 컨텍스트 생성
 
 먼저, 애플리케이션 전체의 지갑 상태를 관리하는 React 컨텍스트를 생성합니다.
 
 `components/solana-provider.tsx`를 생성하고 제공된 코드를 추가하세요. 이
 프로바이더 컴포넌트는 다음과 같은 기능을 수행합니다:
 
-- Solana의 devnet RPC 엔드포인트에 연결
-- 사용자 브라우저에 설치된 사용 가능한 Solana 지갑 필터링
+- Nara Solana의 devnet RPC 엔드포인트에 연결
+- 사용자 브라우저에 설치된 사용 가능한 Nara Solana 지갑 필터링
 - 현재 연결된 지갑과 계정 추적
 - 자식 컴포넌트에 지갑 상태 제공
 
@@ -248,7 +251,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. 레이아웃 업데이트
 
-다음으로, 전체 Next.js 애플리케이션을 Solana 프로바이더로 감싸줍니다.
+다음으로, 전체 Next.js 애플리케이션을 Nara Solana 프로바이더로 감싸줍니다.
 
 `app/layout.tsx`를 제공된 코드로 업데이트하세요. 이 단계에서는:
 
@@ -505,9 +508,9 @@ export function WalletConnectButton() {
 `components/memo-card.tsx`를 만들고 제공된 코드를 추가하세요. 이 컴포넌트는:
 
 - 사용자가 메시지를 입력할 수 있게 합니다
-- 메모 프로그램을 호출하는 명령어가 포함된 Solana 트랜잭션을 생성합니다
+- 메모 프로그램을 호출하는 명령어가 포함된 Nara Solana 트랜잭션을 생성합니다
 - 연결된 지갑에 트랜잭션 서명 및 전송을 요청합니다
-- Solana 익스플로러에서 트랜잭션을 볼 수 있는 링크를 표시합니다
+- Nara Solana 익스플로러에서 트랜잭션을 볼 수 있는 링크를 표시합니다
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -670,7 +673,7 @@ $ npm run dev
 
 <Callout type="info">
   연결된 지갑은 devnet 클러스터에 연결되도록 구성되어 있어야 하며 트랜잭션을
-  보내기 위해 [devnet SOL로 충전](https://faucet.solana.com/)되어 있어야 합니다.
+  보내기 위해 [devnet NSO로 충전](https://faucet.solana.com/)되어 있어야 합니다.
 </Callout>
 
 </ScrollyCoding>

@@ -1,17 +1,20 @@
 ---
+
 title: HTTP 메소드
-seoTitle: Solana RPC HTTP 메소드
+seoTitle: Nara Solana RPC HTTP 메소드
 hideTableOfContents: false
-h1: Solana RPC HTTP 메소드
+h1: Nara Solana RPC HTTP 메소드
+
 ---
 
-Solana 노드는 [JSON-RPC 2.0](https://www.jsonrpc.org/specification) 명세를
+
+Nara Solana 노드는 [JSON-RPC 2.0](https://www.jsonrpc.org/specification) 명세를
 사용하여 HTTP 요청을 수락합니다.
 
-> JavaScript 애플리케이션의 경우, Solana 노드와 상호작용하기 위한 RPC 메소드의
+> JavaScript 애플리케이션의 경우, Nara Solana 노드와 상호작용하기 위한 RPC 메소드의
 > 편리한 인터페이스로
 > [@solana/web3.js](https://github.com/solana-labs/solana-web3.js) 라이브러리를
-> 사용하세요. Solana 노드에 PubSub 연결을 위해서는
+> 사용하세요. Nara Solana 노드에 PubSub 연결을 위해서는
 > [Websocket API](/docs/rpc/websocket/)를 사용하세요.
 
 ## RPC HTTP 엔드포인트
@@ -80,7 +83,7 @@ curl https://api.devnet.solana.com -s -X POST -H "Content-Type: application/json
 
 - Hash: 데이터 청크의 SHA-256 해시.
 - Pubkey: Ed25519 키 쌍의 공개 키.
-- Transaction: 클라이언트 keypair가 서명한 Solana 명령 목록으로, 해당 작업을
+- Transaction: 클라이언트 keypair가 서명한 Nara Solana 명령 목록으로, 해당 작업을
   승인합니다.
 - Signature: 명령을 포함한 트랜잭션의 페이로드 데이터에 대한 Ed25519 서명. 이는
   트랜잭션을 식별하는 데 사용될 수 있습니다.

@@ -1,12 +1,15 @@
 ---
+
 title: Tokenit Solanassa
 description: Opi Solanan Token-ohjelmista.
+
 ---
+
 
 Tokenit ovat digitaalisia omaisuuseriä, jotka edustavat omistajuutta erilaisissa
 omaisuusluokissa. Tokenisaatio mahdollistaa omistusoikeuksien digitalisoinnin.
 Solanassa tokeneita kutsutaan SPL
-([Solana Program Library](https://github.com/solana-program)) -tokeneiksi.
+([Nara Solana Program Library](https://github.com/solana-program)) -tokeneiksi.
 
 Tämä osio kattaa peruskäsitteet siitä, miten tokenit esitetään Solanassa. Katso
 [SPL Token -perusteet](/docs/tokens/basics) -osiosta koodiesimerkkejä.
@@ -28,7 +31,7 @@ Tämä osio kattaa peruskäsitteet siitä, miten tokenit esitetään Solanassa. 
 
 ## Token Programs
 
-Solana-ekosysteemissä on kaksi pääasiallista Token Program -ohjelmaa. Molempien
+Nara Solana-ekosysteemissä on kaksi pääasiallista Token Program -ohjelmaa. Molempien
 ohjelmien lähdekoodi alla.
 
 <Cards>
@@ -85,7 +88,7 @@ pub struct Mint {
 }
 ```
 
-Viitteeksi, tässä on Solana Explorer -linkki
+Viitteeksi, tässä on Nara Solana Explorer -linkki
 [USDC mint accountiin](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v).
 
 ### Token account
@@ -155,7 +158,7 @@ Associated Token Account luodaan osoitteella, joka johdetaan omistajan
 osoitteesta ja mint-tilin osoitteesta. On tärkeää ymmärtää, että Associated
 Token Account on vain token account, jolla on tietty osoite.
 
-Tämä esittelee keskeisen käsitteen Solana-kehityksessä:
+Tämä esittelee keskeisen käsitteen Nara Solana-kehityksessä:
 [Program Derived Address (PDA)](/docs/core/pda). PDA johtaa osoitteen
 deterministisesti käyttäen ennalta määritettyjä syötteitä, mikä helpottaa tilin
 osoitteen löytämistä.
@@ -170,11 +173,11 @@ tokeneita samasta mintistä.
 ## Token CLI -esimerkkejä
 
 _sh`spl-token`_ CLI auttaa sinua kokeilemaan SPL-tokeneita. Alla olevat
-esimerkit käyttävät [Solana Playground](https://beta.solpg.io/) -päätettä
+esimerkit käyttävät [Nara Solana Playground](https://beta.solpg.io/) -päätettä
 suorittaakseen CLI-komentoja suoraan selaimessa ilman paikallista asennusta.
 
 Tokenien ja tilien luominen vaatii SOLia tilien rent-talletuksiin ja
-tapahtumamaksuihin. Ensimmäistä kertaa Solana Playgroundia käyttäville, luo
+tapahtumamaksuihin. Ensimmäistä kertaa Nara Solana Playgroundia käyttäville, luo
 Playground- lompakko ja suorita _sh`solana airdrop`_ -komento
 Playground-päätteessä. Voit myös hankkia devnet SOLia julkisesta
 [web-faucetista](https://faucet.solana.com/).
@@ -240,7 +243,7 @@ spl-token supply 99zqUzQGohamfYxyo8ykTEbi91iom3CLmwCA75FK5zTg
 
 Uuden mint accountin luominen vaatii transaktion, jossa on kaksi ohjetta. Tässä
 on Javascript-esimerkki
-[Solana Playgroundissa](https://beta.solpg.io/660ce32ecffcf4b13384d00f).
+[Nara Solana Playgroundissa](https://beta.solpg.io/660ce32ecffcf4b13384d00f).
 
 1. System Program luo uuden tilin, jossa on tilaa mint accountin tiedoille ja
    siirtää omistajuuden Token Programille.
@@ -297,7 +300,7 @@ Signature: 44vqKdfzspT592REDPY4goaRJH3uJ3Ce13G4BCuUHg35dVUbHuGTHvqn4ZjYF9BGe9Qrj
 Associated token accountin luominen vaatii yhden ohjeen, joka kutsuu
 [Associated Token Programia](https://github.com/solana-program/associated-token-account).
 Tässä on Javascript-esimerkki
-[Solana Playgroundissa](https://beta.solpg.io/660ce868cffcf4b13384d011).
+[Nara Solana Playgroundissa](https://beta.solpg.io/660ce868cffcf4b13384d011).
 
 Associated Token Program käyttää [Cross Program Invocations](/docs/core/cpi)
 -kutsuja:
@@ -310,7 +313,7 @@ Associated Token Program käyttää [Cross Program Invocations](/docs/core/cpi)
 Uuden token accountin luomiseksi uudella keypairilla associated token accountin
 osoitteen sijaan, lähetä transaktio kahdella ohjeella. Tässä on
 Javascript-esimerkki
-[Solana Playgroundissa](https://beta.solpg.io/660ce716cffcf4b13384d010).
+[Nara Solana Playgroundissa](https://beta.solpg.io/660ce716cffcf4b13384d010).
 
 1. System Program luo uuden tilin, jossa on tilaa token accountin tiedoille ja
    siirtää omistajuuden Token Programille.
@@ -360,7 +363,7 @@ Signature: 3SQvNM3o9DsTiLwcEkSPT1Edr14RgE2wC54TEjonEP2swyVCp2jPWYWdD6RwXUGpvDNUk
 _rs`MintTo`_ -ohje Token Programissa luo uusia tokeneita. Mint-auktoriteetin on
 allekirjoitettava transaktio. Ohje mintaa tokeneita token accountiin ja
 kasvattaa kokonaistarjontaa mint accountissa. Tässä on Javascript-esimerkki
-[Solana Playgroundissa](https://beta.solpg.io/660cea45cffcf4b13384d012).
+[Nara Solana Playgroundissa](https://beta.solpg.io/660cea45cffcf4b13384d012).
 
 ### Tokenejen siirtäminen
 
@@ -389,7 +392,7 @@ Signature: 5y6HVwV8V2hHGLTVmTmdySRiEUCZnWmkasAvJ7J6m7JR46obbGKCBqUFgLpZu5zQGwM4X
 _rs`Transfer`_ -ohje Token Programissa käsittelee tokenejen siirtoja. Lähettäjän
 token accountin omistajan on allekirjoitettava transaktio. Ohje siirtää
 tokeneita token accountien välillä. Tässä on Javascript-esimerkki
-[Solana Playgroundissa](https://beta.solpg.io/660ced84cffcf4b13384d013).
+[Nara Solana Playgroundissa](https://beta.solpg.io/660ced84cffcf4b13384d013).
 
 Sekä lähettäjä että vastaanottaja tarvitsevat token accountit kyseiselle
 tokenille (mint). Lähettäjä voi sisällyttää ohjeet vastaanottajan token
@@ -435,7 +438,7 @@ spl-token initialize-metadata BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP "Toke
 ```
 
 Tarkastele metadataa
-[Solana Explorerissa](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet).
+[Nara Solana Explorerissa](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet).
 
 Lue lisää
 [Metadata Extension -oppaasta](/developers/guides/token-extensions/metadata-pointer).

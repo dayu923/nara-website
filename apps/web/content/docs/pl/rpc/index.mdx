@@ -1,16 +1,19 @@
 ---
-title: Metody RPC Solana
-seoTitle: "Metody RPC Solana: HTTP i Websockets"
+
+title: Metody RPC Nara Solana
+seoTitle: "Metody RPC Nara Solana: HTTP i Websockets"
 hideTableOfContents: false
-h1: Metody RPC Solana i dokumentacja
+h1: Metody RPC Nara Solana i dokumentacja
+
 ---
 
-Interakcja z węzłami Solana bezpośrednio za pomocą JSON RPC API poprzez metody
+
+Interakcja z węzłami Nara Solana bezpośrednio za pomocą JSON RPC API poprzez metody
 HTTP i Websocket.
 
 ## Konfigurowanie zaangażowania stanu
 
-Podczas kontroli wstępnych i przetwarzania transakcji węzły Solana wybierają,
+Podczas kontroli wstępnych i przetwarzania transakcji węzły Nara Solana wybierają,
 który stan banku zapytać, na podstawie wymogu zaangażowania określonego przez
 klienta. Zaangażowanie opisuje, jak bardzo blok jest sfinalizowany w danym
 momencie. Podczas zapytań o stan księgi zaleca się używanie niższych poziomów
@@ -59,7 +62,7 @@ RpcResponse składający się z dwóch części:
 Niektóre metody obsługują parametr `encoding` i mogą zwracać dane konta lub
 instrukcji w parsowanym formacie JSON, jeśli zostanie zażądane
 `"encoding":"jsonParsed"` i węzeł posiada parser dla programu właściciela. Węzły
-Solana obecnie obsługują parsowanie JSON dla następujących natywnych i SPL
+Nara Solana obecnie obsługują parsowanie JSON dla następujących natywnych i SPL
 programów:
 
 | Program                      | Stan konta | Instrukcje |

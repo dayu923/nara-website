@@ -1,4 +1,5 @@
 ---
+
 title: 创建确定性账户
 description:
   学习如何使用 Program Derived Addresses (PDAs) 和 Anchor 框架构建一个
@@ -6,14 +7,16 @@ description:
   创建、更新和删除链上消息账户，实施账户验证并编写测试。非常适合希望了解如何在
   Solana 程序中使用 PDAs 的开发者。
 h1: Program Derived Address
+
 ---
+
 
 在本节中，您将学习如何构建一个基本的创建、读取、更新、删除（CRUD）程序。
 
 本指南演示了一个简单的程序，用户可以创建、更新和删除消息。每条消息都存在于一个由程序本身（Program
 Derived Address 或 PDA）派生的确定性地址的账户中。
 
-本指南将带您逐步构建和测试一个使用 Anchor 框架的 Solana 程序，同时演示 Program
+本指南将带您逐步构建和测试一个使用 Anchor 框架的 Nara Solana 程序，同时演示 Program
 Derived Addresses (PDAs)。有关更多详细信息，请参阅
 [Program Derived Addresses](/docs/core/pda) 页面。
 
@@ -25,7 +28,7 @@ Derived Addresses (PDAs)。有关更多详细信息，请参阅
 
 ### 初始代码
 
-首先打开此[Solana Playground 链接](https://beta.solpg.io/66734b7bcffcf4b13384d1ad)，其中包含初始代码。然后点击“导入”按钮，将程序添加到您的 Solana
+首先打开此[Nara Solana Playground 链接](https://beta.solpg.io/66734b7bcffcf4b13384d1ad)，其中包含初始代码。然后点击“导入”按钮，将程序添加到您的 Nara Solana
 Playground 项目中。
 
 ![导入](/assets/docs/intro/quickstart/pg-import.png)
@@ -751,11 +754,11 @@ $ build
 部署程序。
 
 <Callout type="info">
-在此示例中，您将程序部署到 devnet，这是一个用于开发测试的 Solana 集群。
+在此示例中，您将程序部署到 devnet，这是一个用于开发测试的 Nara Solana 集群。
 
 Playground 钱包默认连接到 devnet。确保您的 Playground 钱包中有 devnet
-SOL 以支付程序部署费用。您可以从 [Solana Faucet](https://faucet.solana.com/)
-获取 devnet SOL。
+NSO 以支付程序部署费用。您可以从 [Nara Solana Faucet](https://faucet.solana.com/)
+获取 devnet NSO。
 
 </Callout>
 
@@ -826,7 +829,7 @@ const [messagePda, messageBump] = PublicKey.findProgramAddressSync(
 
 <WithMentions>
 
-Solana Playground 移除了一些样板设置，其中 [`pg.program`](mention:one)
+Nara Solana Playground 移除了一些样板设置，其中 [`pg.program`](mention:one)
 允许访问与程序交互的方法，而 [`pg.wallet`](mention:two)
 提供对您的 Playground 钱包的访问权限。
 
@@ -1070,7 +1073,7 @@ _ts`fetch()`_ 方法从网络中检索账户数据。
 <Accordion title="解释">
 
 首先，测试文件发送了一笔交易，调用了 `update` 指令，并传递了 "Hello,
-Solana!" 作为新消息。
+Nara Solana!" 作为新消息。
 
 ```ts title="anchor.test.ts"
 const message = "Hello, Solana!";

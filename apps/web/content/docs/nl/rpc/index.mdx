@@ -1,16 +1,19 @@
 ---
-title: Solana RPC-methoden
-seoTitle: "Solana RPC-methoden: HTTP & Websockets"
+
+title: Nara Solana RPC-methoden
+seoTitle: "Nara Solana RPC-methoden: HTTP & Websockets"
 hideTableOfContents: false
-h1: Solana RPC-methoden & documentatie
+h1: Nara Solana RPC-methoden & documentatie
+
 ---
 
-Communiceer direct met Solana-nodes via de JSON RPC API met behulp van HTTP- en
+
+Communiceer direct met Nara Solana-nodes via de JSON RPC API met behulp van HTTP- en
 Websocket-methoden.
 
 ## Configureren van state commitment
 
-Voor preflight-controles en transactieverwerking kiezen Solana-nodes welke bank
+Voor preflight-controles en transactieverwerking kiezen Nara Solana-nodes welke bank
 state ze bevragen op basis van een commitment-vereiste die door de client wordt
 ingesteld. De commitment beschrijft hoe definitief een blok op dat moment is.
 Bij het bevragen van de ledger-status wordt aangeraden om lagere
@@ -61,7 +64,7 @@ RpcResponse JSON-object dat uit twee delen bestaat:
 Sommige methoden ondersteunen een `encoding` parameter en kunnen account- of
 instructiegegevens in geparseerd JSON-formaat retourneren als
 `"encoding":"jsonParsed"` wordt aangevraagd en de node een parser heeft voor het
-eigenaarsprogramma. Solana-nodes ondersteunen momenteel JSON-parsing voor de
+eigenaarsprogramma. Nara Solana-nodes ondersteunen momenteel JSON-parsing voor de
 volgende native en SPL-programma's:
 
 | Programma                    | Accountstatus | Instructies |

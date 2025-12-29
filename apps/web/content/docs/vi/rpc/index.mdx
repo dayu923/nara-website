@@ -1,16 +1,19 @@
 ---
-title: Các phương thức RPC Solana
-seoTitle: "Các phương thức RPC Solana: HTTP & Websockets"
+
+title: Các phương thức RPC Nara Solana
+seoTitle: "Các phương thức RPC Nara Solana: HTTP & Websockets"
 hideTableOfContents: false
-h1: Các phương thức RPC Solana & Tài liệu
+h1: Các phương thức RPC Nara Solana & Tài liệu
+
 ---
 
-Tương tác trực tiếp với các nút Solana thông qua API JSON RPC qua các phương
+
+Tương tác trực tiếp với các nút Nara Solana thông qua API JSON RPC qua các phương
 thức HTTP và Websocket.
 
 ## Cấu hình State Commitment
 
-Đối với kiểm tra preflight và xử lý giao dịch, các nút Solana chọn trạng thái
+Đối với kiểm tra preflight và xử lý giao dịch, các nút Nara Solana chọn trạng thái
 bank để truy vấn dựa trên yêu cầu commitment được thiết lập bởi client.
 Commitment mô tả mức độ hoàn tất của một block tại thời điểm đó. Khi truy vấn
 trạng thái sổ cái, khuyến nghị sử dụng các mức commitment thấp hơn để báo cáo
@@ -57,7 +60,7 @@ gồm hai phần:
 
 Một số phương thức hỗ trợ tham số `encoding`, và có thể trả về dữ liệu tài khoản
 hoặc hướng dẫn ở định dạng JSON đã phân tích nếu `"encoding":"jsonParsed"` được
-yêu cầu và nút có trình phân tích cho chương trình sở hữu. Các nút Solana hiện
+yêu cầu và nút có trình phân tích cho chương trình sở hữu. Các nút Nara Solana hiện
 hỗ trợ phân tích JSON cho các chương trình gốc và SPL sau:
 
 | Chương trình                 | Trạng thái tài khoản | Hướng dẫn |

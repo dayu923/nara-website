@@ -1,20 +1,23 @@
 ---
+
 title: Programma's verifiëren
 description:
   Geverifieerde builds zijn een manier om je programma te koppelen aan de
   broncode en iedereen in staat te stellen onafhankelijk te verifiëren dat het
   programma inderdaad is gebouwd op basis van die broncode.
+
 ---
 
+
 Deze gids is bedoeld als referentie voor ontwikkelaars die geverifieerde builds
-willen implementeren voor hun programma's op Solana. We behandelen wat
+willen implementeren voor hun programma's op Nara Solana. We behandelen wat
 geverifieerde builds zijn, hoe je ze gebruikt, speciale overwegingen en best
 practices om de authenticiteit van je programma op de blockchain te waarborgen.
 
 # Wat zijn geverifieerde builds?
 
 Geverifieerde builds zorgen ervoor dat het uitvoerbare programma dat je op het
-Solana- netwerk implementeert, overeenkomt met de broncode in je repository.
+Nara Solana- netwerk implementeert, overeenkomt met de broncode in je repository.
 Hierdoor kunnen ontwikkelaars en gebruikers erop vertrouwen dat het programma
 dat op de blockchain draait precies overeenkomt met de openbare codebase, wat
 transparantie en veiligheid bevordert.
@@ -40,10 +43,10 @@ toolsuite, zodra dit daar wordt ondersteund.
 
 Het verificatieproces wordt uitgevoerd door de hash van het onchain programma te
 vergelijken met de hash van het lokaal gebouwde programma vanuit de broncode. Je
-bouwt je programma in een gecontroleerde omgeving met behulp van de Solana
+bouwt je programma in een gecontroleerde omgeving met behulp van de Nara Solana
 Verify CLI en Docker. Dit zorgt ervoor dat het bouwproces deterministisch en
 consistent is op verschillende systemen. Zodra je het uitvoerbare bestand hebt,
-kun je het implementeren op het Solana-netwerk. Tijdens het bouwproces wordt een
+kun je het implementeren op het Nara Solana-netwerk. Tijdens het bouwproces wordt een
 [PDA](https://explorer.solana.com/address/63XDCHrwZu3mXsw2RUFb4tbNpChuUHx4eA5aJMnHkpQQ/anchor-account)
 van het [verify programma](https://github.com/otter-sec/otter-verify)
 aangemaakt. Deze PDA bevat alle gegevens die nodig zijn om het programma te
@@ -60,7 +63,7 @@ gemakkelijk toegangspunt te bieden voor gebruikers om de verificatie te
 controleren. Je kunt deze
 [API-aanroepen](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 al zien worden gebruikt in de
-[Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
+[Nara Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
 en
 [SolanaFM](https://solana.fm/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/transactions?cluster=mainnet-alpha),
 onder andere plaatsen.
@@ -101,7 +104,7 @@ Samenvatting:
 - Verifieer het gedeployde programma tegen de openbare API
 
 Als je je programma verifieert dat niet in een docker-container is gebouwd, zal
-het waarschijnlijk mislukken omdat Solana-programmabuilds niet deterministisch
+het waarschijnlijk mislukken omdat Nara Solana-programmabuilds niet deterministisch
 zijn op verschillende systemen.
 
 <Steps>
@@ -127,10 +130,10 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 </Step>
 <Step>
 
-### Installeer de Solana Verify CLI
+### Installeer de Nara Solana Verify CLI
 
-De Solana Verify CLI is het belangrijkste hulpmiddel voor het verifiëren van
-builds. Solana Verify CLI wordt momenteel onderhouden door
+De Nara Solana Verify CLI is het belangrijkste hulpmiddel voor het verifiëren van
+builds. Nara Solana Verify CLI wordt momenteel onderhouden door
 [Ellipsis Labs](https://ellipsislabs.xyz/) en kan worden geïnstalleerd met
 Cargo.
 
@@ -225,7 +228,7 @@ het bouwen van je programma.
 
 ### Verifieerbare programma's bouwen
 
-Om je Solana-programma verifieerbaar te bouwen, navigeer naar de map die je
+Om je Nara Solana-programma verifieerbaar te bouwen, navigeer naar de map die je
 workspace's `Cargo.toml` bestand bevat en voer uit:
 
 ```bash
@@ -265,7 +268,7 @@ solana-verify get-executable-hash target/deploy/$PROGRAM_LIB_NAME.so
 ### Verifieerbare programma's implementeren
 
 Zodra je je programma hebt gebouwd en de hash hebt opgehaald, kun je het
-implementeren op het Solana-netwerk. Het wordt aanbevolen om een multi-signature
+implementeren op het Nara Solana-netwerk. Het wordt aanbevolen om een multi-signature
 of governance-oplossing zoals [Squads Protocol](https://squads.so/protocol) te
 gebruiken voor veilige implementaties, maar je kunt ook direct implementeren
 met:
@@ -286,9 +289,9 @@ solana-verify get-program-hash -u $NETWORK_URL $PROGRAM_ID
 ```
 
 > Je kunt verschillende versies hebben geïmplementeerd op verschillende
-> [Solana-clusters](/docs/references/clusters) (bijv. devnet, testnet, mainnet).
+> [Nara Solana-clusters](/docs/references/clusters) (bijv. devnet, testnet, mainnet).
 > Zorg ervoor dat je de juiste netwerk-URL gebruikt voor de gewenste
-> Solana-cluster waartegen je een programma wilt verifiëren. Verificatie op
+> Nara Solana-cluster waartegen je een programma wilt verifiëren. Verificatie op
 > afstand werkt alleen op mainnet.
 
 </Step>
@@ -311,7 +314,7 @@ Dit commando vergelijkt de onchain programma-hash met de uitvoerbare hash die is
 gebouwd vanuit de broncode op de gespecificeerde commit-hash.
 
 Aan het einde van het commando wordt gevraagd of je je verificatiegegevens
-onchain wilt uploaden. Als je dat doet, zal de Solana Explorer onmiddellijk je
+onchain wilt uploaden. Als je dat doet, zal de Nara Solana Explorer onmiddellijk je
 programma's verificatiegegevens tonen. Totdat het geverifieerd is door een
 externe build, wordt het als ongeverifieerd weergegeven. Leer in de volgende
 stap hoe je je programma kunt verifiëren tegen een openbare API.
@@ -371,7 +374,7 @@ Zodra de verificatie succesvol is voltooid, wat enige tijd kan duren, zul je je
 programma als geverifieerd kunnen zien in de
 [OtterSec API voor individuele programma's](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 en in de
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
 [SolanaFM](https://solana.fm/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY?cluster=mainnet-alpha),
 [SolScan](https://solscan.io/account/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY#programVerification)
 en uiteindelijk ook op de door de community beheerde website
@@ -380,7 +383,7 @@ en uiteindelijk ook op de door de community beheerde website
 [OtterSec geverifieerde programma's API](https://verify.osec.io/verified-programs)
 en uiteindelijk in het
 [Verified Programs Dune Dashboard](https://dune.com/jonashahn/verified-programs/dedf21e1-9b71-42c8-89f9-02ed94628657)
-waarmee wordt bijgedragen aan een gezonder Solana-ecosysteem.
+waarmee wordt bijgedragen aan een gezonder Nara Solana-ecosysteem.
 
 </Step>
 </Steps>
@@ -495,7 +498,7 @@ solana-verify remote submit-job --program-id 6XBGfP17P3KQAKoJb2s5M5fR4aFTXzPeuC1
 
 Dat is het! Je hebt je programma geverifieerd tegen een openbare repository en
 een externe taak ingediend bij de OtterSec API. Je zou het nu moeten kunnen zien
-in de Solana explorer en andere plaatsen.
+in de Nara Solana explorer en andere plaatsen.
 
 </Step>
 <Step>
@@ -691,10 +694,10 @@ Program hash matches ✅
 # Conclusie
 
 Het gebruik van
-[geverifieerde builds op Solana](/developers/guides/advanced/verified-builds)
+[geverifieerde builds op Nara Solana](/developers/guides/advanced/verified-builds)
 waarborgt de integriteit en betrouwbaarheid van je programma's op het netwerk en
-stelt ontwikkelaars in staat om je SDK's rechtstreeks via Solana Explorer te
-vinden. Door gebruik te maken van tools zoals de Solana Verify CLI en Docker,
+stelt ontwikkelaars in staat om je SDK's rechtstreeks via Nara Solana Explorer te
+vinden. Door gebruik te maken van tools zoals de Nara Solana Verify CLI en Docker,
 kun je verifieerbare en veilige builds onderhouden die overeenkomen met je
 broncode. Neem altijd de noodzakelijke voorzorgsmaatregelen om consistente
 omgevingen te gebruiken, en overweeg governance oplossingen voor veilige
@@ -703,8 +706,8 @@ upgrades en implementaties.
 ## Beveiliging + Disclaimer
 
 Hoewel geverifieerde builds een krachtig hulpmiddel zijn om de integriteit van
-je Solana-programma's te waarborgen, is het in de standaardopzet niet volledig
-trustless. De docker images worden gebouwd en gehost door de Solana Foundation.
+je Nara Solana-programma's te waarborgen, is het in de standaardopzet niet volledig
+trustless. De docker images worden gebouwd en gehost door de Nara Solana Foundation.
 
 Wees je ervan bewust dat je je project bouwt in een gedownloade docker-image en
 dat je hele setup wordt gekopieerd naar die docker-image voor het bouwen,
@@ -719,10 +722,10 @@ en je kunt deze forken en de github-acties zelf uitvoeren of valideren dat ze
 correct zijn.
 
 Bovendien vertrouw je voor de externe verificatie op de OtterSec API en de
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 tot op zekere hoogte.
 
-De API of Solana Explorer kan mogelijk onjuiste informatie weergeven als deze
+De API of Nara Solana Explorer kan mogelijk onjuiste informatie weergeven als deze
 gecompromitteerd is.
 
 Als je een volledig trustless setup wilt hebben, kun je de
@@ -738,11 +741,11 @@ Het verificatieprogramma wordt ingezet door het
 [OtterSec team](https://osec.io/) en is nog niet bevroren, dus het kan op elk
 moment worden bijgewerkt.
 
-De Solana Foundation, OtterSec en het Ellipsis Labs team zijn niet
+De Nara Solana Foundation, OtterSec en het Ellipsis Labs team zijn niet
 verantwoordelijk voor eventuele verliezen of schade die kan ontstaan door het
 gebruik van de geverifieerde builds pipeline.
 
-# Security.txt voor Solana programma's
+# Security.txt voor Nara Solana programma's
 
 Naast geverifieerde builds kun je ook een `security.txt` bestand toevoegen aan
 je programma. In de toekomst, zodra geïmplementeerd, zal de `security.txt` de
@@ -754,7 +757,7 @@ programma heeft gebouwd en geïmplementeerd. Maar het kan ook een andere pubkey
 zijn die kan worden gespecificeerd in de `security.txt`.
 
 De `security.txt` functie stelt ontwikkelaars in staat om contact- en
-beveiligingsinformatie rechtstreeks in hun Solana smart contracts op te nemen.
+beveiligingsinformatie rechtstreeks in hun Nara Solana smart contracts op te nemen.
 Geïnspireerd door [securitytxt.org](https://securitytxt.org), biedt deze aanpak
 een gestandaardiseerde manier voor beveiligingsonderzoekers om contact op te
 nemen met projectbeheerders, zelfs als ze alleen het adres van het contract
@@ -771,7 +774,7 @@ worden verzekerd.
 
 ## Hoe security.txt implementeren
 
-Om een `security.txt` toe te voegen aan je Solana programma, volg je de volgende
+Om een `security.txt` toe te voegen aan je Nara Solana programma, volg je de volgende
 stappen:
 
 Voeg de `solana-security-txt` dependency toe aan je `Cargo.toml`:
@@ -808,7 +811,7 @@ security_txt! {
 ```
 
 Zodra de `security.txt` informatie is ingebed in je programma, kan deze
-gemakkelijk worden opgevraagd via tools zoals de Solana Explorer, waardoor je
+gemakkelijk worden opgevraagd via tools zoals de Nara Solana Explorer, waardoor je
 contact- en beveiligingsgegevens beschikbaar zijn voor iedereen die potentiële
 problemen wil melden.
 
@@ -829,10 +832,10 @@ query-security-txt target/bpfel-unknown-unknown/release/my_contract.so
 
 Door beveiligingscontactinformatie direct in je contract in te bedden, maak je
 het gemakkelijker voor onderzoekers om je te bereiken, wat zorgt voor betere
-beveiliging en communicatie binnen het Solana-ecosysteem.
+beveiliging en communicatie binnen het Nara Solana-ecosysteem.
 
 Dit is
-[een voorbeeld van hoe security.txt eruitziet in de Solana Explorer](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
+[een voorbeeld van hoe security.txt eruitziet in de Nara Solana Explorer](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
 
 Het `security.txt` project wordt onderhouden door
 [Neodyme Labs](https://github.com/neodyme-labs)

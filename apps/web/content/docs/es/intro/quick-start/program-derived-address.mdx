@@ -1,4 +1,5 @@
 ---
+
 title: Creando cuentas deterministas
 description:
   Aprende a construir un programa Solana CRUD (Crear, Leer, Actualizar,
@@ -8,7 +9,9 @@ description:
   escribir pruebas. Perfecto para desarrolladores que buscan entender cómo usar
   PDAs en programas Solana.
 h1: Program Derived Address
+
 ---
+
 
 En esta sección, aprenderás a construir un programa básico de Crear, Leer,
 Actualizar, Eliminar (CRUD).
@@ -18,7 +21,7 @@ actualizar y eliminar un mensaje. Cada mensaje existe en una cuenta con una
 dirección determinista derivada del propio programa (Program Derived Address o
 PDA).
 
-Esta guía te lleva a través de la construcción y prueba de un programa Solana
+Esta guía te lleva a través de la construcción y prueba de un programa Nara Solana
 utilizando el framework Anchor mientras demuestra Program Derived Addresses
 (PDAs). Para más detalles, consulta la página
 [Program Derived Addresses](/docs/core/pda).
@@ -33,9 +36,9 @@ completar ambas secciones de PDA y Cross Program Invocation (CPI).
 ### Código inicial
 
 Comienza abriendo este
-[enlace de Solana Playground](https://beta.solpg.io/66734b7bcffcf4b13384d1ad)
+[enlace de Nara Solana Playground](https://beta.solpg.io/66734b7bcffcf4b13384d1ad)
 con el código inicial. Luego haz clic en el botón "Import" para añadir el
-programa a tus proyectos de Solana Playground.
+programa a tus proyectos de Nara Solana Playground.
 
 ![Importar](/assets/docs/intro/quickstart/pg-import.png)
 
@@ -822,13 +825,13 @@ Has completado el programa CRUD básico. Despliega el programa ejecutando
 `deploy` en la terminal del Playground.
 
 <Callout type="info">
-En este ejemplo, desplegarás el programa en la devnet, un clúster de Solana
+En este ejemplo, desplegarás el programa en la devnet, un clúster de Nara Solana
 para pruebas de desarrollo.
 
 La cartera del Playground se conecta a la devnet por defecto. Asegúrate de que
-tu cartera del Playground tenga SOL de devnet para pagar por el despliegue del
-programa. Obtén SOL de devnet desde el
-[Solana Faucet](https://faucet.solana.com/).
+tu cartera del Playground tenga NSO de devnet para pagar por el despliegue del
+programa. Obtén NSO de devnet desde el
+[Nara Solana Faucet](https://faucet.solana.com/).
 
 </Callout>
 
@@ -900,7 +903,7 @@ En esta sección, este código simplemente configura el archivo de prueba.
 
 <WithMentions>
 
-Solana Playground elimina parte de la configuración inicial donde
+Nara Solana Playground elimina parte de la configuración inicial donde
 [`pg.program`](mention:one) permite acceder a métodos para interactuar con el
 programa, mientras que [`pg.wallet`](mention:two) da acceso a tu cartera de
 playground.
@@ -1152,7 +1155,7 @@ El método _ts`fetch()`_ recupera los datos de la cuenta desde la red.
 <Accordion title="Explanation">
 
 Primero, el archivo de prueba envía una transacción invocando la instrucción
-`update`, pasando "Hello, Solana!" como el nuevo mensaje.
+`update`, pasando "Hello, Nara Solana!" como el nuevo mensaje.
 
 ```ts title="anchor.test.ts"
 const message = "Hello, Solana!";

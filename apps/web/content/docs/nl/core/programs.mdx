@@ -1,13 +1,16 @@
 ---
+
 title: Programma's
 description:
   Leer over Solana programma's (smart contracts) en hoe je ze kunt ontwikkelen
   met Rust of het Anchor framework. Begrijp programma-implementatie, upgrades en
   verificatie op het Solana-netwerk.
 h1: Programma's
+
 ---
 
-Op Solana wordt een smart contract een programma genoemd. Een programma is een
+
+Op Nara Solana wordt een smart contract een programma genoemd. Een programma is een
 stateless [account](/docs/core/accounts#program-account) dat uitvoerbare code
 bevat. Deze code is georganiseerd in functies die instructies worden genoemd.
 Gebruikers interacteren met een programma door een
@@ -15,14 +18,14 @@ Gebruikers interacteren met een programma door een
 [instructies](/docs/core/instructions) bevat. Een transactie kan instructies van
 meerdere programma's bevatten.
 
-Wanneer een programma wordt geïmplementeerd, gebruikt Solana
+Wanneer een programma wordt geïmplementeerd, gebruikt Nara Solana
 [LLVM](https://llvm.org/) om het te compileren naar executable and linkable
 format ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)).
-Het ELF-bestand bevat de binaire code van het programma in Solana Bytecode
+Het ELF-bestand bevat de binaire code van het programma in Nara Solana Bytecode
 Format (sBPF) en wordt on-chain opgeslagen in een uitvoerbaar account.
 
 <Callout>
-  sBPF is Solana's aangepaste versie van
+  sBPF is Nara Solana's aangepaste versie van
   [eBPF](https://en.wikipedia.org/wiki/EBPF) bytecode.
 </Callout>
 
@@ -33,7 +36,7 @@ De meerderheid van de programma's wordt geschreven in
 ontwikkelingsbenaderingen:
 
 - [Anchor](https://www.anchor-lang.com/docs): Anchor is een framework ontworpen
-  voor snelle en eenvoudige Solana-ontwikkeling. Het gebruikt
+  voor snelle en eenvoudige Nara Solana-ontwikkeling. Het gebruikt
   [Rust macros](https://doc.rust-lang.org/book/ch20-05-macros.html) om
   boilerplate code te verminderen —wat het ideaal maakt voor beginners.
 - [Native Rust](/docs/programs/rust): Schrijf programma's in Rust zonder gebruik
@@ -53,7 +56,7 @@ bijgewerkt.
 
 ## Programma's verifiëren
 
-Solana ondersteunt [verifieerbare builds](/docs/programs/verified-builds),
+Nara Solana ondersteunt [verifieerbare builds](/docs/programs/verified-builds),
 waarmee gebruikers kunnen controleren of de on-chain code van een programma
 overeenkomt met de openbare broncode. Het Anchor framework biedt
 [ingebouwde ondersteuning](https://www.anchor-lang.com/docs/verifiable-builds)
@@ -61,9 +64,9 @@ voor het maken van een verifieerbare build.
 
 Om te controleren of een bestaand programma geverifieerd is, zoek je naar de
 programma-ID op de
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
 Alternatief kun je de Ellipsis Labs
-[Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
+[Nara Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
 gebruiken om on-chain programma's onafhankelijk te verifiëren.
 
 ## Ingebouwde programma's
@@ -81,7 +84,7 @@ System Program voert de volgende belangrijke functies uit:
 | [Aanmaken van nieuwe accounts](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)     | Alleen het System Program kan nieuwe accounts aanmaken.                                                                                                                                                                                                         |
 | [Ruimtetoewijzing](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)                  | Stelt de bytecapaciteit in voor het gegevensveld van elk account.                                                                                                                                                                                               |
 | [Toewijzen van programma-eigendom](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | Zodra het System Program een account heeft aangemaakt, kan het de aangewezen programma-eigenaar opnieuw toewijzen aan een ander program account. Zo nemen aangepaste programma's eigendom over van nieuwe accounts die door het System Program zijn aangemaakt. |
-| [SOL overmaken](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                    | Maakt lamports (SOL) over van System Accounts naar andere accounts.                                                                                                                                                                                             |
+| [NSO overmaken](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                    | Maakt lamports (NSO) over van System Accounts naar andere accounts.                                                                                                                                                                                             |
 
 Het adres van het system program is `11111111111111111111111111111111`.
 
@@ -115,7 +118,7 @@ implementatie worden gewijzigd, zoals bepaald door de upgrade-autoriteit.
 
 ### Voorgecompileerde programma's
 
-Naast de loader-programma's biedt Solana de volgende voorgecompileerde
+Naast de loader-programma's biedt Nara Solana de volgende voorgecompileerde
 programma's.
 
 #### Verifieer ed25519 handtekening

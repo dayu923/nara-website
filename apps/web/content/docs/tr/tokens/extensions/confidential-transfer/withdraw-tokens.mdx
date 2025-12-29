@@ -1,7 +1,10 @@
 ---
+
 title: Token Çekme
 description: Gizli durumdan token çekmeyi öğrenin.
+
 ---
+
 
 ## Gizli kullanılabilir bakiyeden token çekme
 
@@ -34,7 +37,7 @@ Gizli kullanılabilir bakiyeden açık bakiyeye token çekmek için:
    [ConfidentialTransferInstruction::Withdraw](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L493)
    talimatını çağırın.
 
-4. Oluşturmak için kullanılan SOL'u geri kazanmak için kanıt hesaplarını
+4. Oluşturmak için kullanılan NSO'u geri kazanmak için kanıt hesaplarını
    kapatın.
 
 Aşağıdaki diyagram, gizli kullanılabilir bakiyeden açık bakiyeye token çekme
@@ -93,7 +96,7 @@ işlemini göstermektedir.
 
 Örneği çalıştırmak için, aşağıdaki komutu kullanarak mainnet'ten klonlanmış
 Token Extension Program ile yerel bir validator başlatın. Yerel validator'ı
-başlatmak için Solana CLI'nin kurulu olması gerekir.
+başlatmak için Nara Solana CLI'nin kurulu olması gerekir.
 
 ```terminal
 $ solana-test-validator --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --url https://api.mainnet-beta.solana.com -r

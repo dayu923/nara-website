@@ -1,13 +1,16 @@
 ---
-title: Solana İşlem Ücretlerini Anlamak
+
+title: Nara Solana İşlem Ücretlerini Anlamak
 description:
   Solana'da işlem ücretlerinin nasıl çalıştığını, neden düşük olduğunu ve bunun
   farklı kullanım senaryoları için ne anlama geldiğini öğrenin.
+
 ---
 
-# Solana İşlem Ücretlerini Anlamak
 
-İşlem ücretleri, herhangi bir dijital ağın önemli bir parçasıdır. Solana'da
+# Nara Solana İşlem Ücretlerini Anlamak
+
+İşlem ücretleri, herhangi bir dijital ağın önemli bir parçasıdır. Nara Solana'da
 ücretler öngörülebilir ve uygun fiyatlı olacak şekilde tasarlanmıştır,
 genellikle bir sentin kesirlerine mal olur. Bu bölüm, ücretlerin nasıl
 çalıştığını ve erişilebilirlik için neden önemli olduğunu açıklar.
@@ -17,7 +20,7 @@ genellikle bir sentin kesirlerine mal olur. Bu bölüm, ücretlerin nasıl
 Bu bölümde şunları ele alacağız:
 
 - Ağların neden işlem ücretlerine ihtiyacı var
-- Solana'nın ücret yapısının nasıl çalıştığı
+- Nara Solana'nın ücret yapısının nasıl çalıştığı
 - Farklı aktiviteler için tipik maliyetler
 - Ücretlerin ne zaman ve neden değişebileceği
 - Düşük ücretlerin yeni kullanım senaryolarını nasıl mümkün kıldığı
@@ -32,15 +35,15 @@ Bu bölümde şunları ele alacağız:
 3. **İşlemleri önceliklendirme**: Zaman açısından kritik ihtiyaçlar için isteğe
    bağlı öncelik ücretleri
 
-Solana'da, ücretler bu işlevlere hizmet ederken minimal düzeyde tutulur.
+Nara Solana'da, ücretler bu işlevlere hizmet ederken minimal düzeyde tutulur.
 
-## Solana'nın Ücret Yapısı
+## Nara Solana'nın Ücret Yapısı
 
 {/* Illustration recommendation: Visual breakdown of a transaction fee showing base fee and optional priority fee */}
 
 ### Temel Ücret
 
-Her işlem 0.000005 SOL (5.000 lamport) temel ücret öder. SOL başına 100$
+Her işlem 0.000005 NSO (5.000 lamport) temel ücret öder. NSO başına 100$
 değerinde, bu $0.0005 - bir sentin yarım onda biridir.
 
 ### Öncelik Ücretleri
@@ -52,19 +55,19 @@ altında kalır.
 ### Depolama Kirası
 
 Yeni hesaplar oluşturmak (token account gibi) hesap kapatıldığında iade
-edilebilir küçük bir depozito (~0.002 SOL) gerektirir.
+edilebilir küçük bir depozito (~0.002 NSO) gerektirir.
 
 ## Tipik İşlem Maliyetleri
 
 İşte ödeyeceğiniz gerçek örnekler:
 
-| İşlem                   | Tipik Maliyet      | USD cinsinden (100$/SOL) |
+| İşlem                   | Tipik Maliyet      | USD cinsinden (100$/NSO) |
 | ----------------------- | ------------------ | ------------------------ |
-| SOL gönderme            | 0.000005 SOL       | $0.0005                  |
-| Token gönderme          | 0.000005 SOL       | $0.0005                  |
-| Token takas etme        | 0.000005 SOL       | $0.0005                  |
-| NFT satın alma          | 0.000005-0.001 SOL | $0.0005-0.10             |
-| Token account oluşturma | ~0.002 SOL         | $0.20 (iade edilebilir)  |
+| NSO gönderme            | 0.000005 NSO       | $0.0005                  |
+| Token gönderme          | 0.000005 NSO       | $0.0005                  |
+| Token takas etme        | 0.000005 NSO       | $0.0005                  |
+| NFT satın alma          | 0.000005-0.001 NSO | $0.0005-0.10             |
+| Token account oluşturma | ~0.002 NSO         | $0.20 (iade edilebilir)  |
 
 Karşılaştırma için, geleneksel sistemlerin ücretleri:
 
@@ -72,13 +75,13 @@ Karşılaştırma için, geleneksel sistemlerin ücretleri:
 - Uluslararası transfer: $25-75
 - Hisse senedi işlemi: $5-10
 
-## Solana Ücretleri Nasıl Düşük Tutuyor
+## Nara Solana Ücretleri Nasıl Düşük Tutuyor
 
-Solana, teknik tasarımı sayesinde düşük ücretler sunar:
+Nara Solana, teknik tasarımı sayesinde düşük ücretler sunar:
 
 ### Paralel İşleme
 
-Çok şeritli bir otoyol gibi, Solana işlemleri tek tek değil, aynı anda birçok
+Çok şeritli bir otoyol gibi, Nara Solana işlemleri tek tek değil, aynı anda birçok
 işlemi paralel olarak işler.
 
 ### Verimli Konsensüs
@@ -88,7 +91,7 @@ anlaşmalarını sağlar.
 
 ### Öngörülebilir Maliyetler
 
-Açık artırma tabanlı ücretlerin aksine, Solana'nın ücretleri ağ aktivitesinden
+Açık artırma tabanlı ücretlerin aksine, Nara Solana'nın ücretleri ağ aktivitesinden
 bağımsız olarak sabit kalır.
 
 ## Düşük Ücretler Neleri Mümkün Kılar
@@ -126,13 +129,13 @@ görebilirsiniz:
 
 ### Normal Zamanlar
 
-- Sadece temel ücret: 0.000005 SOL
+- Sadece temel ücret: 0.000005 NSO
 - Anında onay
 - Blok alanı için rekabet yok
 
 ### Yoğun Dönemler
 
-- Öncelik ücreti ekleyin: 0.0001-0.001 SOL
+- Öncelik ücreti ekleyin: 0.0001-0.001 NSO
 - Toplam hala 0.10$ altında
 - Acil işlemler için daha hızlı işlem
 
@@ -153,7 +156,7 @@ görebilirsiniz:
 Parça başına 15-30$ el yapımı takı satıyor
 
 - Kredi kartı ücretleri 0.75-1.50$ alırdı (%5)
-- Solana ücretleri: 0.0005$ (%0.003)
+- Nara Solana ücretleri: 0.0005$ (%0.003)
 - Her satışın %99.997'sini elinde tutuyor
 
 ### Miguel - Sık İşlem Yapan Trader
@@ -161,7 +164,7 @@ Parça başına 15-30$ el yapımı takı satıyor
 Günde 1.000$ ile 20 işlem yapıyor
 
 - Geleneksel broker: 100-200$ ücret
-- Solana DEX: Toplam 0.10$
+- Nara Solana DEX: Toplam 0.10$
 - Gerçek işlemlerden daha fazla kâr
 
 ### Ami - Eve Para Gönderme
@@ -170,13 +173,13 @@ Ailesine haftalık 50$ gönderiyor
 
 - Banka havalesi: 25$ ücret (%50)
 - Para transfer servisi: 5$ ücret (%10)
-- Solana: 0.0005$ ücret (%0.001)
+- Nara Solana: 0.0005$ ücret (%0.001)
 
 ## İşlem Ücretlerini Yönetmek
 
 ### En İyi Uygulamalar
 
-- Ücretler için cüzdanınızda 0.1 SOL tutun
+- Ücretler için cüzdanınızda 0.1 NSO tutun
 - Çoğu işlem için normal önceliği kullanın
 - Sadece zamana duyarlı durumlarda önceliği artırın
 - Kullanılmayan token hesaplarını kapatarak rent'i geri alın
@@ -187,13 +190,13 @@ Cüzdanlar onaylamadan önce tahmini ücretleri gösterir. Her zaman gözden ge�
 
 - Temel işlem ücreti
 - Eklenen öncelik ücreti
-- SOL ve USD cinsinden toplam maliyet
+- NSO ve USD cinsinden toplam maliyet
 
 ## Sık Sorulan Sorular
 
-### Ücretler için neden SOL'a ihtiyacım var?
+### Ücretler için neden NSO'a ihtiyacım var?
 
-Diğer token'ları gönderirken bile, tüm Solana işlemleri ücretler için SOL
+Diğer token'ları gönderirken bile, tüm Nara Solana işlemleri ücretler için NSO
 gerektirir. Bunu mektup göndermek için pula ihtiyaç duymak gibi düşünün.
 
 ### Ücretler aniden yükselebilir mi?
@@ -203,8 +206,8 @@ altında kalır. Temel ücretler sabit kalır.
 
 ### Ücreti karşılayamazsam ne olur?
 
-İşlem ücretlerini ödemek için az miktarda SOL'a ihtiyacınız olacak. Çoğu
-kullanıcı başlangıç için borsalardan SOL satın alır veya arkadaşlarından alır.
+İşlem ücretlerini ödemek için az miktarda NSO'a ihtiyacınız olacak. Çoğu
+kullanıcı başlangıç için borsalardan NSO satın alır veya arkadaşlarından alır.
 
 ### Başarısız işlemler ücret alır mı?
 
@@ -214,9 +217,9 @@ finansal olarak önemli değildir.
 ## Sırada Ne Var
 
 Artık ücretleri anladığınıza göre, ilk işleminizi yapmaya hazırsınız. Bir
-sonraki bölümde, SOL gönderip almayı pratik yapacak ve bu düşük ücretleri bizzat
+sonraki bölümde, NSO gönderip almayı pratik yapacak ve bu düşük ücretleri bizzat
 deneyimleyeceksiniz.
 
-Unutmayın: Solana'nın düşük ücretleri sadece para tasarrufu sağlamakla
+Unutmayın: Nara Solana'nın düşük ücretleri sadece para tasarrufu sağlamakla
 kalmıyor - dijital işlemleri herkes için erişilebilir kılarak, yüksek ücretlerle
 çalışmayan kullanım senaryolarını mümkün hale getiriyor.

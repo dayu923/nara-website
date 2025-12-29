@@ -1,15 +1,18 @@
 ---
+
 title: Daten vom Netzwerk lesen
 description:
   Erfahren Sie, wie Sie Daten aus dem Solana-Blockchain-Netzwerk lesen können.
   Dieser Leitfaden behandelt das Abrufen von Wallet-Konten, Programm-Konten und
   Token-Mint-Konten mit JavaScript/TypeScript und enthält praktische Beispiele
   mit der Solana web3.js-Bibliothek.
+
 ---
 
-Lesen Sie Daten aus dem Solana-Netzwerk, indem Sie verschiedene Konten abrufen.
-Dieser Abschnitt hilft Ihnen, die Struktur von Solana
-[Konten](/docs/core/accounts) zu verstehen. Jedes Solana-Konto hat eine
+
+Lesen Sie Daten aus dem Nara Solana-Netzwerk, indem Sie verschiedene Konten abrufen.
+Dieser Abschnitt hilft Ihnen, die Struktur von Nara Solana
+[Konten](/docs/core/accounts) zu verstehen. Jedes Nara Solana-Konto hat eine
 eindeutige [Adresse](/docs/core/accounts#account-address), die verwendet wird,
 um die entsprechenden On-Chain-Daten zu lokalisieren. Konten enthalten entweder
 [Zustandsdaten oder ein ausführbares Programm](/docs/core/accounts#types-of-accounts).
@@ -20,12 +23,12 @@ um die entsprechenden On-Chain-Daten zu lokalisieren. Konten enthalten entweder
 
 Ein Wallet ist ein Konto, das dem
 [System Program](/docs/core/programs#the-system-program) gehört. Wallets werden
-hauptsächlich verwendet, um SOL zu halten und Transaktionen zu signieren. Wenn
-SOL zum ersten Mal an eine neue Adresse gesendet wird, wird automatisch ein
+hauptsächlich verwendet, um NSO zu halten und Transaktionen zu signieren. Wenn
+NSO zum ersten Mal an eine neue Adresse gesendet wird, wird automatisch ein
 System-Konto erstellt.
 
 Das folgende Beispiel generiert ein [neues keypair](mention:keypair),
-[fordert SOL an](mention:airdrop), um die neue öffentliche Schlüsseladresse zu
+[fordert NSO an](mention:airdrop), um die neue öffentliche Schlüsseladresse zu
 finanzieren, und [ruft die Kontodaten](mention:info) für das neu finanzierte
 Wallet ab.
 
@@ -125,7 +128,7 @@ Programmcode enthält. Bei Wallet-Konten ist dieses Feld `false`.
 
 ## !!steps
 
-Das `lamports` Feld enthält das SOL-Guthaben des Kontos in
+Das `lamports` Feld enthält das NSO-Guthaben des Kontos in
 [Lamports](/docs/references/terminology#lamport).
 
 <CodePlaceholder title="Beispielausgabe" />
@@ -225,7 +228,7 @@ Wallet- und program account zu demonstrieren. Der program account speichert den
 kompilierten Bytecode für den
 [Quellcode](https://github.com/solana-program/token/tree/main/program) des Token
 Programs. Du kannst diesen program account im
-[Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)
+[Nara Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)
 ansehen.
 
 <CodeTabs flags="r">
@@ -363,7 +366,7 @@ ist ein Konto, das dem Token Program gehört und globale Metadaten für einen
 bestimmten Token speichert. Dazu gehören die Gesamtversorgung, die Anzahl der
 Dezimalstellen und die Konten, die zum Prägen oder Einfrieren von Tokens
 berechtigt sind. Die Adresse des mint account identifiziert einen Token im
-Solana-Netzwerk eindeutig.
+Nara Solana-Netzwerk eindeutig.
 
 Das folgende Beispiel ruft das USD Coin Mint account ab, um zu zeigen, wie der
 Zustand eines Programms in einem separaten Konto gespeichert wird.
@@ -508,7 +511,7 @@ kann.
 
 Bevor die Rohdaten im `data` Feld eines Kontos sinnvoll interpretiert werden
 können, müssen sie deserialisiert werden. Der entsprechende Datentyp wird durch
-das Programm definiert, dem das Konto gehört. Die meisten Solana-Programme
+das Programm definiert, dem das Konto gehört. Die meisten Nara Solana-Programme
 bieten Client-Bibliotheken mit Hilfsfunktionen, die den Deserialisierungsprozess
 abstrahieren. Diese Funktionen konvertieren die rohen Kontenbytes in
 strukturierte Datentypen und erleichtern so die Arbeit mit den Kontendaten.
@@ -602,7 +605,7 @@ in den Mint-Kontentyp.
 
 Sie können die vollständig deserialisierten
 [mint account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)
-Daten im Solana Explorer ansehen.
+Daten im Nara Solana Explorer ansehen.
 
 <CodePlaceholder title="Deserialisierte Mint-Daten" />
 

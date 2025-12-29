@@ -1,13 +1,16 @@
 ---
+
 title: 安装依赖项
-seoTitle: 安装开发 Solana 所需的依赖项
+seoTitle: 安装开发 Nara Solana 所需的依赖项
 description:
   本指南将帮助您设置本地 Solana 开发环境。了解如何在 Windows (WSL)、Linux 和 Mac
   上安装 Rust、Solana CLI 和 Anchor Framework。
+
 ---
 
-本指南将帮助您设置本地 Solana 开发环境。了解如何在 Windows
-(WSL)、Linux 和 Mac 上安装 Rust、Solana CLI 和 Anchor
+
+本指南将帮助您设置本地 Nara Solana 开发环境。了解如何在 Windows
+(WSL)、Linux 和 Mac 上安装 Rust、Nara Solana CLI 和 Anchor
 Framework。如果您希望单独安装每个依赖项，或者[快速安装](/docs/intro/installation/)因某些原因失败，请使用本指南。
 
 ### 前置条件
@@ -15,7 +18,7 @@ Framework。如果您希望单独安装每个依赖项，或者[快速安装](/d
 <Accordions>
 <Accordion title="Windows">
 
-要在 Windows 上开发 Solana 程序，您**必须**使用
+要在 Windows 上开发 Nara Solana 程序，您**必须**使用
 [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install)
 (WSL)。安装 WSL 后，所有其他依赖项将通过 Linux 终端安装。
 
@@ -60,7 +63,7 @@ Code，[WSL 扩展](https://code.visualstudio.com/docs/remote/wsl-tutorial)
 设置好 WSL 后，您可以选择以下操作：
 
 - 使用 Ubuntu（Linux）终端完成[快速安装](/docs/intro/installation)
-- 按以下说明分别安装 [Rust](#install-rust)、[Solana CLI](#install-solana-cli) 和
+- 按以下说明分别安装 [Rust](#install-rust)、[Nara Solana CLI](#install-solana-cli) 和
   [Anchor CLI](#install-anchor-cli)
 
 </Accordion>
@@ -126,7 +129,7 @@ $ sudo dnf group install c-development development-tools \
 
 ### 安装 Rust
 
-开发者使用 [Rust](https://www.rust-lang.org/) 编程语言构建 Solana 程序。
+开发者使用 [Rust](https://www.rust-lang.org/) 编程语言构建 Nara Solana 程序。
 
 1. 使用 [rustup](https://www.rust-lang.org/tools/install)
    安装 Rust，在终端中输入以下命令：
@@ -180,11 +183,11 @@ rustc 1.86.0 (05f9846f8 2025-03-31)
 </Step>
 <Step>
 
-### 安装 Solana CLI
+### 安装 Nara Solana CLI
 
-Solana CLI 提供了构建和部署 Solana 程序所需的所有工具。
+Nara Solana CLI 提供了构建和部署 Nara Solana 程序所需的所有工具。
 
-1. 使用官方安装命令安装 Solana CLI 工具套件：
+1. 使用官方安装命令安装 Nara Solana CLI 工具套件：
 
 ```terminal
 $ sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
@@ -197,7 +200,7 @@ $ sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
 
 2. 添加 PATH 环境变量
 
-首次安装 Solana CLI 时，可能会提示您添加一个 `PATH`
+首次安装 Nara Solana CLI 时，可能会提示您添加一个 `PATH`
 环境变量。为此，请关闭并重新打开终端，或在 shell 中运行以下命令：
 
 ```
@@ -209,7 +212,7 @@ export PATH="/Users/test/.local/share/solana/install/active_release/bin:$PATH"
 <Tabs groupId="language" items={["Windows & Linux", "Mac"]}>
 <Tab value="Windows & Linux">
 
-如果您使用的是 **Linux** 或 **WSL**，则必须将 Solana
+如果您使用的是 **Linux** 或 **WSL**，则必须将 Nara Solana
 CLI 二进制文件添加到您的 PATH 中，以便在终端中可以使用该命令。请按照以下步骤操作：
 
 **a.** 检查您正在使用的 shell 类型：
@@ -261,7 +264,7 @@ $ source ~/.bashrc # If using Bash
 $ source ~/.zshrc # If using Zsh
 ```
 
-5. 通过检查 Solana CLI 版本来验证安装是否成功：
+5. 通过检查 Nara Solana CLI 版本来验证安装是否成功：
 
 ```terminal
 $ solana --version
@@ -277,11 +280,11 @@ solana-cli 2.2.12 (src:0315eb6a; feat:1522022101, client:Agave)
 
 您可以在 [Agave Github 仓库](https://github.com/anza-xyz/agave/releases)
 查看所有可用版本。Agave 是 [Anza](https://www.anza.xyz/)
-的验证器客户端，前身为 Solana Labs 验证器客户端。
+的验证器客户端，前身为 Nara Solana Labs 验证器客户端。
 
 </Callout>
 
-5. 根据需要将 Solana CLI 更新到最新版本 _(可选)_
+5. 根据需要将 Nara Solana CLI 更新到最新版本 _(可选)_
 
 ```terminal
 $ agave-install update
@@ -293,7 +296,7 @@ $ agave-install update
 ### 安装 Anchor CLI
 
 [Anchor](https://www.anchor-lang.com/)
-是一个用于开发 Solana 程序的框架。Anchor 框架利用 Rust 宏简化了编写 Solana 程序的过程。
+是一个用于开发 Nara Solana 程序的框架。Anchor 框架利用 Rust 宏简化了编写 Nara Solana 程序的过程。
 
 #### 前置条件
 
@@ -491,11 +494,11 @@ surfpool 0.12.0
 </Step>
 </Steps>
 
-### 为 Solana 开发设置 AI 工具
+### 为 Nara Solana 开发设置 AI 工具
 
-本节详细介绍了可选的 AI 工具设置，您可以使用这些工具加速 Solana 开发。
+本节详细介绍了可选的 AI 工具设置，您可以使用这些工具加速 Nara Solana 开发。
 
 | 工具     | 描述                                                         | 链接                        |
 | -------- | ------------------------------------------------------------ | --------------------------- |
-| MCP      | MCP 服务器，您可以通过光标连接以改进 Solana 的 AI 辅助开发。 | https://mcp.solana.com/     |
-| LLMs.txt | 优化的 LLM 文档，您可以使用它来训练 Solana 文档上的 LLM。    | https://solana.com/llms.txt |
+| MCP      | MCP 服务器，您可以通过光标连接以改进 Nara Solana 的 AI 辅助开发。 | https://mcp.solana.com/     |
+| LLMs.txt | 优化的 LLM 文档，您可以使用它来训练 Nara Solana 文档上的 LLM。    | https://solana.com/llms.txt |

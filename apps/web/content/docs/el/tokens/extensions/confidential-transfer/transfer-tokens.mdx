@@ -1,8 +1,11 @@
 ---
+
 title: Μεταφορά Tokens
 description:
   Μάθετε πώς να μεταφέρετε tokens ιδιωτικά από έναν λογαριασμό token σε άλλον.
+
 ---
+
 
 <Callout type="warn">
   Το πρόγραμμα ZK ElGamal είναι προσωρινά απενεργοποιημένο στο mainnet και
@@ -55,7 +58,7 @@ description:
    [ConfidentialTransferInstruction::Transfer](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L604),
    παρέχοντας τους λογαριασμούς context state απόδειξης.
 
-4. Κλείστε τους λογαριασμούς context state απόδειξης για να ανακτήσετε το SOL
+4. Κλείστε τους λογαριασμούς context state απόδειξης για να ανακτήσετε το NSO
    που χρησιμοποιήθηκε για τη δημιουργία τους.
 
 Το παρακάτω διάγραμμα δείχνει τα βήματα που εμπλέκονται στη μεταφορά tokens από
@@ -116,7 +119,7 @@ sequenceDiagram
 
 Για να εκτελέσετε το παράδειγμα, ξεκινήστε έναν τοπικό validator με το Token
 Extensions Program κλωνοποιημένο από το mainnet χρησιμοποιώντας την ακόλουθη
-εντολή. Πρέπει να έχετε εγκατεστημένο το Solana CLI για να ξεκινήσετε τον τοπικό
+εντολή. Πρέπει να έχετε εγκατεστημένο το Nara Solana CLI για να ξεκινήσετε τον τοπικό
 validator.
 
 ```terminal

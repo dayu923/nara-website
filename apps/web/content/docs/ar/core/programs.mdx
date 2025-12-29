@@ -1,10 +1,13 @@
 ---
+
 title: البرامج
 description:
   تعرف على برامج سولانا (العقود الذكية) وكيفية تطويرها باستخدام Rust أو إطار عمل
   Anchor. افهم نشر البرامج وترقياتها والتحقق منها على شبكة سولانا.
 h1: البرامج
+
 ---
+
 
 في سولانا، يُطلق على العقد الذكي اسم برنامج. البرنامج هو
 [حساب](/docs/core/accounts#program-account) بدون حالة يحتوي على رمز قابل
@@ -75,7 +78,7 @@ Program بأداء الوظائف الرئيسية التالية:
 | [إنشاء حساب جديد](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)      | فقط System Program يمكنه إنشاء حسابات جديدة.                                                                                                                                               |
 | [تخصيص المساحة](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)         | يحدد السعة بالبايت لحقل البيانات لكل حساب.                                                                                                                                                 |
 | [تعيين ملكية البرنامج](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | بمجرد أن ينشئ System Program حسابًا، يمكنه إعادة تعيين مالك البرنامج المحدد إلى حساب برنامج مختلف. هكذا تأخذ البرامج المخصصة ملكية الحسابات الجديدة التي تم إنشاؤها بواسطة System Program. |
-| [تحويل SOL](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)            | ينقل لامبورتس (SOL) من حسابات النظام إلى حسابات أخرى.                                                                                                                                      |
+| [تحويل NSO](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)            | ينقل لامبورتس (NSO) من حسابات النظام إلى حسابات أخرى.                                                                                                                                      |
 
 عنوان System Program هو `11111111111111111111111111111111`.
 

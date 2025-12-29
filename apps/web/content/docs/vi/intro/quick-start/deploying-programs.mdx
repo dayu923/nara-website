@@ -1,16 +1,19 @@
 ---
+
 title: Triển khai một Program
 description:
   Học cách xây dựng, triển khai và kiểm thử chương trình Solana đầu tiên của bạn
   bằng framework Anchor và Solana Playground. Hướng dẫn thân thiện với người mới
   này sẽ hướng dẫn tạo một chương trình đơn giản, triển khai lên devnet, chạy
   kiểm thử và đóng chương trình.
-h1: Triển khai chương trình Solana đầu tiên của bạn
+h1: Triển khai chương trình Nara Solana đầu tiên của bạn
+
 ---
 
+
 Xây dựng, triển khai và kiểm thử [program](/docs/core/programs) đầu tiên của bạn
-lên Blockchain Solana bằng framework Anchor. Hướng dẫn này sẽ giúp bạn làm quen
-với Solana Playground và chuẩn bị cho bạn sử dụng Program Derived Address (PDA)
+lên Blockchain Nara Solana bằng framework Anchor. Hướng dẫn này sẽ giúp bạn làm quen
+với Nara Solana Playground và chuẩn bị cho bạn sử dụng Program Derived Address (PDA)
 và Cross Program Invocation (CPI).
 
 <Steps>
@@ -19,7 +22,7 @@ và Cross Program Invocation (CPI).
 
 ### Tạo dự án Anchor
 
-1. Mở [Solana Playground](https://beta.solpg.io) trong trình duyệt web của bạn
+1. Mở [Nara Solana Playground](https://beta.solpg.io) trong trình duyệt web của bạn
 2. Ở bảng điều khiển bên trái, nhấp vào **+ Create a new project**
 3. Nhập **Project name**
 4. Chọn **Anchor (Rust)** làm framework
@@ -148,7 +151,7 @@ Số byte cần cấp phát cho tài khoản
 <WithMentions>
 
 - Macro [`declare_id!`](mention:one) chỉ định địa chỉ on-chain của chương trình
-  của bạn. Solana Playground sẽ tự động cập nhật địa chỉ này khi bạn xây dựng
+  của bạn. Nara Solana Playground sẽ tự động cập nhật địa chỉ này khi bạn xây dựng
   chương trình.
 
 ```rs
@@ -250,11 +253,11 @@ Build successful. Completed in 1.46s.
   định nghĩa trong _rs`declare_id!()`_, sẽ được cập nhật.
 </Callout>
 
-2. Thêm SOL vào ví của bạn _(Tùy chọn)_
+2. Thêm NSO vào ví của bạn _(Tùy chọn)_
 
-Việc triển khai chương trình đòi hỏi SOL trong tài khoản on-chain của chương
+Việc triển khai chương trình đòi hỏi NSO trong tài khoản on-chain của chương
 trình. Nếu cần thiết,
-[thêm SOL vào ví của bạn](/docs/intro/quick-start#add-sol-to-your-wallet) trước
+[thêm NSO vào ví của bạn](/docs/intro/quick-start#add-sol-to-your-wallet) trước
 khi tiếp tục bước 3.
 
 3. Triển khai chương trình lên mạng
@@ -395,12 +398,12 @@ Confirmed
 4. Xem chi tiết giao dịch
 
 Mở [SolanaFM](https://solana.fm/) hoặc
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) và tìm kiếm mã
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) và tìm kiếm mã
 băm giao dịch.
 
 <Callout type="warn">
-  **Solana Explorer:** Đặt cụm mạng thành `devnet`, để khớp với cài đặt của
-  Solana Playground.
+  **Nara Solana Explorer:** Đặt cụm mạng thành `devnet`, để khớp với cài đặt của
+  Nara Solana Playground.
 </Callout>
 
 </Step>
@@ -409,7 +412,7 @@ băm giao dịch.
 
 ### Đóng chương trình
 
-Đóng chương trình để thu hồi SOL đã cấp phát cho chương trình trên chuỗi. Để
+Đóng chương trình để thu hồi NSO đã cấp phát cho chương trình trên chuỗi. Để
 thực hiện, chạy `solana program close [ProgramID]`, sử dụng địa chỉ chương trình
 được lưu trong macro _rs`declare_id!()`_.
 
@@ -425,7 +428,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   trình sẽ trở nên bất biến.
 </Callout>
 
-Chúc mừng! Bạn đã xây dựng và triển khai chương trình Solana đầu tiên của mình
+Chúc mừng! Bạn đã xây dựng và triển khai chương trình Nara Solana đầu tiên của mình
 bằng Anchor.
 
 </Step>

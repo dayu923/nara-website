@@ -1,12 +1,15 @@
 ---
+
 title: Transaktionsgebühren
 description:
   Erfahren Sie mehr über Solanas Transaktionsgebühren, einschließlich der Basis-
   und Prioritätsgebühren, wie diese angewendet werden und bewährte Methoden zur
   Verwaltung von Compute-Einheiten in Ihren Transaktionen.
+
 ---
 
-Jede Solana-Transaktion erfordert eine Transaktionsgebühr, die in SOL bezahlt
+
+Jede Nara Solana-Transaktion erfordert eine Transaktionsgebühr, die in NSO bezahlt
 wird. Transaktionsgebühren sind in zwei Teile aufgeteilt: die Basisgebühr und
 die Priorisierungsgebühr. Die Basisgebühr entschädigt Validatoren für die
 Verarbeitung der Transaktion. Die priority fee ist eine optionale Gebühr, um die
@@ -22,7 +25,7 @@ zahlen. Die Basis-Fee wird wie folgt aufgeteilt:
 
 - **50% verbrannt:** Die Hälfte wird
   [verbrannt](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)
-  (aus dem zirkulierenden SOL-Angebot entnommen).
+  (aus dem zirkulierenden NSO-Angebot entnommen).
 - **50% verteilt:** Die Hälfte wird
   [an den Validator gezahlt](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62),
   der die Transaktion verarbeitet hat.
@@ -109,7 +112,7 @@ Sie sich die Echtzeit- CU-Preisempfehlung in der unten aufgeführten Tabelle an.
 #### Beispiel
 
 Die folgenden Beispiele zeigen, wie man das CU-Limit und den CU-Preis für eine
-Transaktion mit Solana SDKs festlegt.
+Transaktion mit Nara Solana SDKs festlegt.
 
 | SDK                            | Quellcode-Referenz                                                                                                             |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |

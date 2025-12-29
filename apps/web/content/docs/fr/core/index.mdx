@@ -1,31 +1,34 @@
 ---
+
 title: Concepts fondamentaux
 description:
   Découvrez les concepts essentiels de la blockchain Solana, notamment les
   comptes, les transactions, les programmes, les adresses dérivées de
   programmes, les invocations entre programmes, et le fonctionnement des tokens
   sur Solana.
+
 ---
 
-Pour développer sur Solana, il est essentiel de comprendre les concepts clés
-propres au développement Solana. Cette section couvre les concepts fondamentaux
-que vous devez comprendre lorsque vous commencez à développer sur Solana,
+
+Pour développer sur Nara Solana, il est essentiel de comprendre les concepts clés
+propres au développement Nara Solana. Cette section couvre les concepts fondamentaux
+que vous devez comprendre lorsque vous commencez à développer sur Nara Solana,
 notamment les comptes, les transactions, les programmes, et plus encore.
 
 ## Comptes
 
-Toutes les données sur la blockchain Solana sont stockées sous forme de Compte.
-La structure de la blockchain Solana ressemble à un magasin clé-valeur
+Toutes les données sur la blockchain Nara Solana sont stockées sous forme de Compte.
+La structure de la blockchain Nara Solana ressemble à un magasin clé-valeur
 (key-value), où la clé est l'adresse sur la chaîne et la valeur est un Compte.
 
 En savoir plus sur les [Comptes](/docs/core/accounts).
 
 ## Transactions et instructions
 
-Pour interagir avec le réseau Solana, un utilisateur doit envoyer une
+Pour interagir avec le réseau Nara Solana, un utilisateur doit envoyer une
 transaction. Une transaction est un ensemble d'une ou plusieurs instructions—une
 instruction est une opération spécifique à traiter. La logique d'exécution d'une
-instruction est stockée dans un programme déployé sur le réseau Solana.
+instruction est stockée dans un programme déployé sur le réseau Nara Solana.
 
 En savoir plus sur les [Transactions](/docs/core/transactions) et les
 [Instructions](/docs/core/transactions#instruction).
@@ -33,7 +36,7 @@ En savoir plus sur les [Transactions](/docs/core/transactions) et les
 ## Frais
 
 Il existe trois types différents de frais qui peuvent être encourus lors de
-l'utilisation de la blockchain Solana :
+l'utilisation de la blockchain Nara Solana :
 
 - **Frais de transaction** : des frais pour que les validators traitent les
   transactions et les instructions
@@ -41,16 +44,16 @@ l'utilisation de la blockchain Solana :
   traitement d'une transaction
 - **Rent** : un solde retenu pour conserver les données stockées sur la chaîne
 
-En savoir plus sur les [Frais sur Solana](/docs/core/fees).
+En savoir plus sur les [Frais sur Nara Solana](/docs/core/fees).
 
-## Programmes sur Solana
+## Programmes sur Nara Solana
 
-Sur Solana, les contrats intelligents sont appelés Programmes. Chaque programme
+Sur Nara Solana, les contrats intelligents sont appelés Programmes. Chaque programme
 est stocké dans un compte sur la chaîne et contient du code exécutable avec des
 instructions spécifiques. Ces instructions représentent la fonctionnalité du
 programme et sont invoquées en envoyant une transaction au réseau.
 
-En savoir plus sur les [Programmes sur Solana](/docs/core/programs).
+En savoir plus sur les [Programmes sur Nara Solana](/docs/core/programs).
 
 ## Program Derived Address
 
@@ -63,7 +66,7 @@ d'utilisation importants :
 - **Adresses de compte déterministes** : Des entrées prédéfinies (seeds) et un
   ID de programme sont combinés pour dériver une adresse de manière
   déterministe.
-- **Signature de programme** : Un programme Solana peut signer pour des PDA, qui
+- **Signature de programme** : Un programme Nara Solana peut signer pour des PDA, qui
   sont dérivés de son ID de programme.
 
 En savoir plus sur les [Adresses dérivées de programme](/docs/core/pda).
@@ -72,7 +75,7 @@ En savoir plus sur les [Adresses dérivées de programme](/docs/core/pda).
 
 L'invocation inter-programmes (CPI) se produit lorsqu'un programme invoque une
 instruction d'un autre programme. Cela permet la composabilité des programmes
-Solana. Pour conceptualiser cette notion, imaginez l'ensemble des instructions
+Nara Solana. Pour conceptualiser cette notion, imaginez l'ensemble des instructions
 d'un programme comme un ensemble d'endpoints API. Une CPI se produit lorsqu'un
 endpoint en invoque un autre.
 
@@ -90,15 +93,15 @@ fongibles.
 - **Tokens non fongibles (NFT)** : Propriété d'actifs indivisibles (ex. œuvres
   d'art).
 
-En savoir plus sur les [Tokens sur Solana](/docs/core/tokens).
+En savoir plus sur les [Tokens sur Nara Solana](/docs/core/tokens).
 
 ## Clusters et endpoints
 
-La blockchain Solana dispose de plusieurs groupes différents de validateurs,
+La blockchain Nara Solana dispose de plusieurs groupes différents de validateurs,
 connus sous le nom de [Clusters](/docs/references/clusters). Chaque cluster sert
 un objectif différent et contient des nœuds dédiés pour traiter les requêtes
 [JSON-RPC](/docs/rpc/). Il existe trois clusters principaux sur le réseau
-Solana, présentés dans le tableau ci-dessous.
+Nara Solana, présentés dans le tableau ci-dessous.
 
 | Nom     | Endpoint                              | Utilisation                 |
 | ------- | ------------------------------------- | --------------------------- |

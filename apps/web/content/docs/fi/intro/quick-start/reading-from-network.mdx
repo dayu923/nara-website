@@ -1,14 +1,17 @@
 ---
+
 title: Lukeminen verkosta
 description:
   Opi lukemaan dataa Solana-lohkoketjuverkosta. Tämä opas kattaa lompakkotilien,
   ohjelmatilien ja token-tilien hakemisen JavaScript/TypeScript-kielillä, ja
   sisältää käytännön esimerkkejä Solana web3.js-kirjaston käytöstä.
+
 ---
 
-Lue dataa Solana-verkosta hakemalla erilaisia tilejä. Tämä osio auttaa sinua
+
+Lue dataa Nara Solana-verkosta hakemalla erilaisia tilejä. Tämä osio auttaa sinua
 ymmärtämään Solanan [tilien](/docs/core/accounts) rakennetta. Jokaisella
-Solana-tilillä on yksilöllinen [osoite](/docs/core/accounts#account-address),
+Nara Solana-tilillä on yksilöllinen [osoite](/docs/core/accounts#account-address),
 jota käytetään sen vastaavan lohkoketjudatan paikantamiseen. Tilit sisältävät
 joko
 [tiladataa tai suoritettavan ohjelman](/docs/core/accounts#types-of-accounts).
@@ -19,12 +22,12 @@ joko
 
 Lompakko on tili, jonka omistaa
 [System Program](/docs/core/programs#the-system-program). Lompakoita käytetään
-pääasiassa SOL-tokenien säilyttämiseen ja transaktioiden allekirjoittamiseen.
-Kun SOL-tokeneita lähetetään uuteen osoitteeseen ensimmäistä kertaa,
+pääasiassa NSO-tokenien säilyttämiseen ja transaktioiden allekirjoittamiseen.
+Kun NSO-tokeneita lähetetään uuteen osoitteeseen ensimmäistä kertaa,
 järjestelmätili luodaan automaattisesti.
 
 Alla oleva esimerkki luo [uuden avainparin](mention:keypair),
-[pyytää SOL-tokeneita](mention:airdrop) rahoittaakseen uuden julkisen avaimen
+[pyytää NSO-tokeneita](mention:airdrop) rahoittaakseen uuden julkisen avaimen
 osoitteen ja [hakee tilidatan](mention:info) juuri rahoitetulle lompakolle.
 
 <CodeTabs flags="r">
@@ -123,7 +126,7 @@ ohjelmakoodia. Lompakkotileillä tämän kentän arvo on `false`.
 
 ## !!steps
 
-`lamports` -kenttä sisältää tilin SOL-saldon
+`lamports` -kenttä sisältää tilin NSO-saldon
 [lamporteina](/docs/references/terminology#lamport).
 
 <CodePlaceholder title="Example output" />
@@ -223,7 +226,7 @@ program account -tilien välillä. Program account tallentaa käännetyn tavukoo
 Token Programin
 [lähdekoodista](https://github.com/solana-program/token/tree/main/program). Voit
 tarkastella tätä program accountia
-[Solana Explorerissa](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
+[Nara Solana Explorerissa](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
 
 <CodeTabs flags="r">
 
@@ -357,7 +360,7 @@ Jokaisen program account -tilin omistaa sen
 on Token Program -ohjelman omistama tili, joka tallentaa tietyn tokenin
 globaalit metatiedot. Näihin kuuluvat kokonaistarjonta, desimaalien määrä ja
 tilit, joilla on valtuudet luoda tai jäädyttää tokeneita. Mint account -tilin
-osoite yksilöi tokenin Solana-verkossa.
+osoite yksilöi tokenin Nara Solana-verkossa.
 
 Alla oleva esimerkki hakee USD Coin Mint -tilin havainnollistaakseen, miten
 ohjelman tila tallennetaan erilliseen tiliin.
@@ -501,7 +504,7 @@ että sen `data` -kenttää voi muokata vain Token Program -ohjelman ohjeilla.
 
 Ennen kuin tilin `data` -kentän raakadataa voidaan tulkita mielekkäästi, se
 täytyy deserialisoida. Asianmukaisen datatyypin määrittelee ohjelma, joka
-omistaa tilin. Useimmat Solana-ohjelmat tarjoavat asiakaskirjastoja
+omistaa tilin. Useimmat Nara Solana-ohjelmat tarjoavat asiakaskirjastoja
 apufunktioilla, jotka abstrahoivat deserialisointiprosessin. Nämä funktiot
 muuntavat tilin raakatavut jäsennellyiksi datatyypeiksi, mikä helpottaa
 tilidatan käsittelyä.
@@ -595,7 +598,7 @@ _ts`getMint()`_ -funktio purkaa mint account -tilin `data` -kentän Mint account
 
 Voit tarkastella täysin purettua
 [mint account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)
--dataa Solana Explorerissa.
+-dataa Nara Solana Explorerissa.
 
 <CodePlaceholder title="Purettu Mint-data" />
 

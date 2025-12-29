@@ -1,13 +1,16 @@
 ---
+
 title: Programme verifizieren
 description:
   Verifizierte Builds sind eine Möglichkeit, dein Programm mit seinem Quellcode
   zu verknüpfen und allen zu ermöglichen, unabhängig zu überprüfen, ob das
   Programm tatsächlich aus diesem bereitgestellten Quellcode erstellt wurde.
+
 ---
 
+
 Dieser Leitfaden dient als Referenz für Entwickler, die verifizierte Builds für
-ihre Programme auf Solana implementieren möchten. Wir werden behandeln, was
+ihre Programme auf Nara Solana implementieren möchten. Wir werden behandeln, was
 verifizierte Builds sind, wie man sie verwendet, besondere Überlegungen und
 bewährte Praktiken, um die Authentizität deines Programms in der Blockchain zu
 gewährleisten.
@@ -15,7 +18,7 @@ gewährleisten.
 # Was sind verifizierte Builds?
 
 Verifizierte Builds stellen sicher, dass das ausführbare Programm, das du im
-Solana-Netzwerk bereitstellst, mit dem Quellcode in deinem Repository
+Nara Solana-Netzwerk bereitstellst, mit dem Quellcode in deinem Repository
 übereinstimmt. Dadurch können Entwickler und Nutzer darauf vertrauen, dass das
 in der Blockchain laufende Programm genau dem öffentlichen Codebase entspricht,
 was Transparenz und Sicherheit fördert.
@@ -43,10 +46,10 @@ Tool-Suite, sobald diese dort unterstützt wird.
 
 Der Verifizierungsprozess erfolgt durch den Vergleich des Hashs des
 Onchain-Programms mit dem Hash des lokal erstellten Programms aus dem Quellcode.
-Du erstellst dein Programm in einer kontrollierten Umgebung mit der Solana
+Du erstellst dein Programm in einer kontrollierten Umgebung mit der Nara Solana
 Verify CLI und Docker. Dies stellt sicher, dass der Build-Prozess
 deterministisch und konsistent über verschiedene Systeme hinweg ist. Sobald du
-die ausführbare Datei hast, kannst du sie im Solana-Netzwerk bereitstellen.
+die ausführbare Datei hast, kannst du sie im Nara Solana-Netzwerk bereitstellen.
 Während des Build-Prozesses wird ein
 [PDA](https://explorer.solana.com/address/63XDCHrwZu3mXsw2RUFb4tbNpChuUHx4eA5aJMnHkpQQ/anchor-account)
 des [Verify-Programms](https://github.com/otter-sec/otter-verify) erstellt.
@@ -63,7 +66,7 @@ einen einfachen Zugriffspunkt für Benutzer zur Überprüfung der Verifizierung
 bereitzustellen. Du kannst diese
 [API-Aufrufe](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 bereits im
-[Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
+[Nara Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
 und
 [SolanaFM](https://solana.fm/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/transactions?cluster=mainnet-alpha)
 unter anderem sehen.
@@ -105,7 +108,7 @@ Zusammenfassung:
 - Verifizieren Sie das bereitgestellte Programm über die öffentliche API
 
 Wenn Sie Ihr Programm verifizieren, das nicht in einem Docker-Container gebaut
-wurde, wird es höchstwahrscheinlich fehlschlagen, da Solana-Programm-Builds
+wurde, wird es höchstwahrscheinlich fehlschlagen, da Nara Solana-Programm-Builds
 nicht deterministisch über verschiedene Systeme hinweg sind.
 
 <Steps>
@@ -132,10 +135,10 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 </Step>
 <Step>
 
-### Die Solana Verify CLI installieren
+### Die Nara Solana Verify CLI installieren
 
-Die Solana Verify CLI ist das Hauptwerkzeug zur Verifizierung von Builds. Die
-Solana Verify CLI wird derzeit von [Ellipsis Labs](https://ellipsislabs.xyz/)
+Die Nara Solana Verify CLI ist das Hauptwerkzeug zur Verifizierung von Builds. Die
+Nara Solana Verify CLI wird derzeit von [Ellipsis Labs](https://ellipsislabs.xyz/)
 gepflegt und kann mit Cargo installiert werden.
 
 Sie können sie installieren, indem Sie Folgendes ausführen:
@@ -231,7 +234,7 @@ fortzufahren.
 
 ### Verifizierbare Programme bauen
 
-Um dein Solana-Programm verifizierbar zu bauen, navigiere zum Verzeichnis, das
+Um dein Nara Solana-Programm verifizierbar zu bauen, navigiere zum Verzeichnis, das
 die `Cargo.toml` Datei deines Workspaces enthält, und führe aus:
 
 ```bash
@@ -271,7 +274,7 @@ solana-verify get-executable-hash target/deploy/$PROGRAM_LIB_NAME.so
 ### Deployment verifizierbarer Programme
 
 Sobald Sie Ihr Programm erstellt und dessen Hash abgerufen haben, können Sie es
-im Solana-Netzwerk deployen. Es wird empfohlen, eine Multi-Signatur- oder
+im Nara Solana-Netzwerk deployen. Es wird empfohlen, eine Multi-Signatur- oder
 Governance- Lösung wie [Squads Protocol](https://squads.so/protocol) für sichere
 Deployments zu verwenden, aber Sie können auch direkt deployen mit:
 
@@ -291,9 +294,9 @@ solana-verify get-program-hash -u $NETWORK_URL $PROGRAM_ID
 ```
 
 > Sie können verschiedene Versionen auf verschiedenen
-> [Solana-Clustern](/docs/references/clusters) (d.h. devnet, testnet, mainnet)
+> [Nara Solana-Clustern](/docs/references/clusters) (d.h. devnet, testnet, mainnet)
 > deployen. Stellen Sie sicher, dass Sie die korrekte Netzwerk-URL für den
-> gewünschten Solana-Cluster verwenden, gegen den Sie ein Programm verifizieren
+> gewünschten Nara Solana-Cluster verwenden, gegen den Sie ein Programm verifizieren
 > möchten. Die Remote-Verifizierung funktioniert nur im Mainnet.
 
 </Step>
@@ -317,7 +320,7 @@ Dieser Befehl vergleicht den Onchain-Programm-Hash mit dem ausführbaren Hash,
 der aus dem Quellcode am angegebenen Commit-Hash erstellt wurde.
 
 Am Ende fragt der Befehl, ob du deine Verifizierungsdaten onchain hochladen
-möchtest. Wenn du das tust, wird der Solana Explorer sofort die
+möchtest. Wenn du das tust, wird der Nara Solana Explorer sofort die
 Verifizierungsdaten deines Programms anzeigen. Bis es durch einen Remote-Build
 verifiziert wurde, wird es als unverifiziert angezeigt. Im nächsten Schritt
 erfährst du, wie du dein Programm gegen eine öffentliche API verifizieren
@@ -378,7 +381,7 @@ Sobald die Verifizierung erfolgreich abgeschlossen ist, was einige Zeit dauern
 kann, wird Ihr Programm als verifiziert angezeigt in der
 [OtterSec API für einzelne Programme](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 und im
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
 [SolanaFM](https://solana.fm/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY?cluster=mainnet-alpha),
 [SolScan](https://solscan.io/account/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY#programVerification)
 und schließlich auch auf der von der Community betriebenen Website
@@ -387,7 +390,7 @@ und schließlich auch auf der von der Community betriebenen Website
 [OtterSec verified programs API](https://verify.osec.io/verified-programs) und
 zuletzt im
 [Verified Programs Dune Dashboard](https://dune.com/jonashahn/verified-programs/dedf21e1-9b71-42c8-89f9-02ed94628657),
-was zu einem gesünderen Solana-Ökosystem beiträgt.
+was zu einem gesünderen Nara Solana-Ökosystem beiträgt.
 
 </Step>
 </Steps>
@@ -413,7 +416,7 @@ solana-verify build
 ```
 
 Dies erstellt einen verifizierbaren Build mit einem Docker-Container unter
-Verwendung der Solana-Version, die in der `Cargo.lock` Datei angegeben ist.
+Verwendung der Nara Solana-Version, die in der `Cargo.lock` Datei angegeben ist.
 
 </Step>
 <Step>
@@ -505,7 +508,7 @@ solana-verify remote submit-job --program-id 6XBGfP17P3KQAKoJb2s5M5fR4aFTXzPeuC1
 
 Das war's! Sie haben Ihr Programm gegen ein öffentliches Repository verifiziert
 und einen Remote-Auftrag an die OtterSec-API gesendet. Sie sollten es jetzt im
-Solana Explorer und an anderen Stellen sehen können.
+Nara Solana Explorer und an anderen Stellen sehen können.
 
 </Step>
 <Step>
@@ -702,10 +705,10 @@ Program hash matches ✅
 # Fazit
 
 Die Verwendung von
-[verifizierten Builds auf Solana](/developers/guides/advanced/verified-builds)
+[verifizierten Builds auf Nara Solana](/developers/guides/advanced/verified-builds)
 gewährleistet die Integrität und Vertrauenswürdigkeit Ihrer Programme im
-Netzwerk und ermöglicht Entwicklern, Ihre SDKs direkt über den Solana Explorer
-zu finden. Durch den Einsatz von Tools wie Solana Verify CLI und Docker können
+Netzwerk und ermöglicht Entwicklern, Ihre SDKs direkt über den Nara Solana Explorer
+zu finden. Durch den Einsatz von Tools wie Nara Solana Verify CLI und Docker können
 Sie überprüfbare und sichere Builds erstellen, die mit Ihrem Quellcode
 übereinstimmen. Treffen Sie stets die notwendigen Vorkehrungen, um konsistente
 Umgebungen zu nutzen, und erwägen Sie Governance- Lösungen für sichere Upgrades
@@ -714,8 +717,8 @@ und Deployments.
 ## Sicherheit + Haftungsausschluss
 
 Obwohl verifizierte Builds ein leistungsstarkes Werkzeug zur Gewährleistung der
-Integrität Ihrer Solana-Programme sind, ist die Standardeinrichtung nicht
-vollständig vertrauenslos. Die Docker- Images werden von der Solana Foundation
+Integrität Ihrer Nara Solana-Programme sind, ist die Standardeinrichtung nicht
+vollständig vertrauenslos. Die Docker- Images werden von der Nara Solana Foundation
 erstellt und gehostet.
 
 Beachten Sie, dass Sie Ihr Projekt in einem heruntergeladenen Docker-Image bauen
@@ -732,10 +735,10 @@ sie korrekt sind.
 
 Darüber hinaus vertrauen Sie bei der Remote-Verifizierung der OtterSec API und
 dem
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 bis zu einem gewissen Grad.
 
-Die API oder der Solana Explorer könnten möglicherweise falsche Informationen
+Die API oder der Nara Solana Explorer könnten möglicherweise falsche Informationen
 anzeigen, wenn sie kompromittiert werden.
 
 Wenn Sie eine vollständig vertrauenslose Einrichtung wünschen, können Sie die
@@ -752,11 +755,11 @@ Das Verifizierungsprogramm wird vom [OtterSec-Team](https://osec.io/)
 bereitgestellt und ist noch nicht eingefroren, sodass es jederzeit aktualisiert
 werden kann.
 
-Die Solana Foundation, OtterSec und das Ellipsis Labs-Team sind nicht
+Die Nara Solana Foundation, OtterSec und das Ellipsis Labs-Team sind nicht
 verantwortlich für Verluste oder Schäden, die durch die Nutzung der Pipeline für
 verifizierte Builds entstehen können.
 
-# Security.txt für Solana-Programme
+# Security.txt für Nara Solana-Programme
 
 Zusätzlich zu verifizierten Builds können Sie auch eine `security.txt`Datei zu
 Ihrem Programm hinzufügen. In Zukunft wird die `security.txt`, sobald
@@ -769,7 +772,7 @@ Programm erstellt und bereitgestellt hat. Es kann aber auch ein anderer pubkey
 sein, der in der `security.txt` angegeben werden kann.
 
 Die `security.txt`Funktion ermöglicht es Entwicklern, Kontakt- und
-Sicherheitsinformationen direkt in ihre Solana-Smart-Contracts einzubetten.
+Sicherheitsinformationen direkt in ihre Nara Solana-Smart-Contracts einzubetten.
 Inspiriert von [securitytxt.org](https://securitytxt.org) bietet dieser Ansatz
 einen standardisierten Weg für Sicherheitsforscher, um Projektbetreuer zu
 kontaktieren, selbst wenn sie nur die Adresse des Vertrags kennen.
@@ -784,7 +787,7 @@ potenzielle Exploits verhindern und zeitnahe Fehlerberichte gewährleisten kann.
 
 ## Wie man security.txt implementiert
 
-Um eine `security.txt` zu Ihrem Solana-Programm hinzuzufügen, führen Sie die
+Um eine `security.txt` zu Ihrem Nara Solana-Programm hinzuzufügen, führen Sie die
 folgenden Schritte aus:
 
 Fügen Sie die `solana-security-txt` Abhängigkeit zu Ihrer `Cargo.toml` hinzu:
@@ -821,7 +824,7 @@ security_txt! {
 ```
 
 Sobald die `security.txt` Informationen in Ihrem Programm eingebettet sind,
-können sie leicht über Tools wie den Solana Explorer abgefragt werden, wodurch
+können sie leicht über Tools wie den Nara Solana Explorer abgefragt werden, wodurch
 sichergestellt wird, dass Ihre Kontakt- und Sicherheitsdetails für jeden
 verfügbar sind, der potenzielle Probleme melden möchte.
 
@@ -842,10 +845,10 @@ query-security-txt target/bpfel-unknown-unknown/release/my_contract.so
 
 Durch das Einbetten von Sicherheitskontaktinformationen direkt in Ihren Vertrag
 erleichtern Sie es Forschern, Sie zu erreichen, was eine bessere Sicherheit und
-Kommunikation innerhalb des Solana-Ökosystems fördert.
+Kommunikation innerhalb des Nara Solana-Ökosystems fördert.
 
 Dies ist
-[ein Beispiel dafür, wie security.txt im Solana Explorer aussieht](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
+[ein Beispiel dafür, wie security.txt im Nara Solana Explorer aussieht](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
 
 Das `security.txt` Projekt wird von
 [Neodyme Labs](https://github.com/neodyme-labs) gepflegt

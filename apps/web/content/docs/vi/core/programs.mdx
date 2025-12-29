@@ -1,27 +1,30 @@
 ---
+
 title: Các chương trình
 description:
   Tìm hiểu về các chương trình Solana (hợp đồng thông minh) và cách phát triển
   chúng bằng Rust hoặc framework Anchor. Hiểu về triển khai, nâng cấp và xác
   minh chương trình trên mạng Solana.
 h1: Các chương trình
+
 ---
 
-Trên Solana, một hợp đồng thông minh được gọi là chương trình. Một chương trình
+
+Trên Nara Solana, một hợp đồng thông minh được gọi là chương trình. Một chương trình
 là một [tài khoản](/docs/core/accounts#program-account) phi trạng thái chứa mã
 thực thi. Mã này được tổ chức thành các hàm gọi là các chỉ thị. Người dùng tương
 tác với một chương trình bằng cách gửi một [giao dịch](/docs/core/transaction)
 chứa một hoặc nhiều [chỉ thị](/docs/core/instructions). Một giao dịch có thể bao
 gồm chỉ thị từ nhiều chương trình.
 
-Khi một chương trình được triển khai, Solana sử dụng [LLVM](https://llvm.org/)
+Khi một chương trình được triển khai, Nara Solana sử dụng [LLVM](https://llvm.org/)
 để biên dịch nó thành định dạng thực thi và liên kết
 ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)). Tệp ELF
-chứa mã nhị phân của chương trình ở Định dạng Bytecode Solana (sBPF) và được lưu
+chứa mã nhị phân của chương trình ở Định dạng Bytecode Nara Solana (sBPF) và được lưu
 trên chuỗi trong một tài khoản thực thi.
 
 <Callout>
-  sBPF là phiên bản tùy chỉnh của Solana cho mã bytecode
+  sBPF là phiên bản tùy chỉnh của Nara Solana cho mã bytecode
   [eBPF](https://en.wikipedia.org/wiki/EBPF).
 </Callout>
 
@@ -32,7 +35,7 @@ Phần lớn các chương trình được viết bằng
 triển phổ biến:
 
 - [Anchor](https://www.anchor-lang.com/docs): Anchor là một framework được thiết
-  kế để phát triển Solana nhanh chóng và dễ dàng. Nó sử dụng
+  kế để phát triển Nara Solana nhanh chóng và dễ dàng. Nó sử dụng
   [Rust macros](https://doc.rust-lang.org/book/ch20-05-macros.html) để giảm mã
   soạn sẵn—làm cho nó trở nên tuyệt vời cho người mới bắt đầu.
 - [Native Rust](/docs/programs/rust): Viết chương trình bằng Rust mà không sử
@@ -51,7 +54,7 @@ lại và đặt thành null, chương trình không thể được cập nhật
 
 ## Xác minh chương trình
 
-Solana hỗ trợ [bản dựng có thể xác minh](/docs/programs/verified-builds), cho
+Nara Solana hỗ trợ [bản dựng có thể xác minh](/docs/programs/verified-builds), cho
 phép người dùng kiểm tra xem mã trên chuỗi của một chương trình có khớp với mã
 nguồn công khai của nó hay không. Framework Anchor cung cấp
 [hỗ trợ tích hợp](https://www.anchor-lang.com/docs/verifiable-builds) để tạo một
@@ -59,9 +62,9 @@ bản dựng có thể xác minh.
 
 Để kiểm tra xem một chương trình hiện có đã được xác minh hay chưa, tìm kiếm ID
 chương trình của nó trên
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
 Ngoài ra, bạn có thể sử dụng
-[Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
+[Nara Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
 của Ellipsis Labs, để độc lập xác minh các chương trình trên chuỗi.
 
 ## Các chương trình tích hợp sẵn
@@ -79,7 +82,7 @@ hiện các chức năng chính sau đây:
 | [Tạo tài khoản mới](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)             | Chỉ System Program mới có thể tạo tài khoản mới.                                                                                                                                                                                      |
 | [Phân bổ không gian](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)             | Thiết lập dung lượng byte cho trường dữ liệu của mỗi tài khoản.                                                                                                                                                                       |
 | [Gán quyền sở hữu chương trình](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | Sau khi System Program tạo một tài khoản, nó có thể gán lại chủ sở hữu chương trình được chỉ định cho một program account khác. Đó là cách các chương trình tùy chỉnh nắm quyền sở hữu các tài khoản mới được tạo bởi System Program. |
-| [Chuyển SOL](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                    | Chuyển lamports (SOL) từ các tài khoản hệ thống sang các tài khoản khác.                                                                                                                                                              |
+| [Chuyển NSO](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                    | Chuyển lamports (NSO) từ các tài khoản hệ thống sang các tài khoản khác.                                                                                                                                                              |
 
 Địa chỉ của System Program là `11111111111111111111111111111111`.
 
@@ -112,7 +115,7 @@ Các chương trình được triển khai với loader-v3 hoặc loader-v4 có 
 
 ### Các chương trình được biên dịch sẵn
 
-Ngoài các chương trình loader, Solana cung cấp các chương trình được biên dịch
+Ngoài các chương trình loader, Nara Solana cung cấp các chương trình được biên dịch
 sẵn sau đây.
 
 #### Xác minh chữ ký ed25519

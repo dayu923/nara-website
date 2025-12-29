@@ -1,8 +1,11 @@
 ---
+
 title: プログラムをデプロイする
 description: Anchorフレームワークとソラナプレイグラウンドを使用して、最初のソラナプログラムを構築、デプロイ、テストする方法を学びましょう。この初心者向けガイドでは、シンプルなプログラムの作成、devnetへのデプロイ、テストの実行、プログラムの終了までの手順を説明します。
 h1: 初めてのソラナプログラムをデプロイする
+
 ---
+
 
 Anchorフレームワークを使用して、最初の[プログラム](/docs/core/programs)をソラナブロックチェーンに構築、デプロイ、テストしましょう。このガイドは、ソラナプレイグラウンドに慣れるのに役立ち、Program
 Derived Address（PDA）やCross Program
@@ -137,7 +140,7 @@ Programを呼び出して新しいアカウントを作成し、このプログ�
 
 <WithMentions>
 
-- [`declare_id!`](mention:one)マクロはプログラムのオンチェーンアドレスを指定します。Solana
+- [`declare_id!`](mention:one)マクロはプログラムのオンチェーンアドレスを指定します。Nara Solana
   Playgroundはプログラムをビルドする際に自動的にこのアドレスを更新します。
 
 ```rs
@@ -234,9 +237,9 @@ Build successful. Completed in 1.46s.
   で定義された[プログラムID](/docs/intro/quick-start/deploying-programs)が更新されます。
 </Callout>
 
-2. ウォレットにSOLを追加する（任意）
+2. ウォレットにNSOを追加する（任意）
 
-プログラムをデプロイするには、プログラムのオンチェーンアカウントにSOLが必要です。必要に応じて、ステップ3に進む前に[ウォレットにSOLを追加](/docs/intro/quick-start#add-sol-to-your-wallet)してください。
+プログラムをデプロイするには、プログラムのオンチェーンアカウントにNSOが必要です。必要に応じて、ステップ3に進む前に[ウォレットにNSOを追加](/docs/intro/quick-start#add-sol-to-your-wallet)してください。
 
 3. プログラムをネットワークにデプロイする
 
@@ -372,10 +375,10 @@ Confirmed
 
 4. トランザクションの詳細を表示します
 
-[SolanaFM](https://solana.fm/)または[Solana Explorer](https://explorer.solana.com/?cluster=devnet)を開き、トランザクションハッシュを検索します。
+[SolanaFM](https://solana.fm/)または[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet)を開き、トランザクションハッシュを検索します。
 
 <Callout type="warn">
-  **Solana Explorer:** ネットワーククラスターをSolana
+  **Nara Solana Explorer:** ネットワーククラスターをNara Solana
   Playgroundと一致させるために`devnet`に設定してください。
 </Callout>
 
@@ -385,7 +388,7 @@ Confirmed
 
 ### プログラムを閉じる
 
-オンチェーンプログラムに割り当てられたSOLを回収するためにプログラムを閉じます。そのためには、*rs`declare_id!()`*マクロに保存されているプログラムアドレスを使用して`solana program close [ProgramID]`を実行します。
+オンチェーンプログラムに割り当てられたNSOを回収するためにプログラムを閉じます。そのためには、*rs`declare_id!()`*マクロに保存されているプログラムアドレスを使用して`solana program close [ProgramID]`を実行します。
 
 ```terminal
 $ solana program close 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r
@@ -396,7 +399,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   プログラムは、アップグレード権限を持つアカウントによって**のみ**閉じたり更新したりすることができます。Playgroundウォレットは、プログラムがデプロイされるとき、自動的に各プログラムのアップグレード権限を持ちます。アップグレード権限が取り消されると、プログラムは不変になります。
 </Callout>
 
-おめでとうございます！Anchorを使用して最初のSolanaプログラムをビルドしてデプロイしました。
+おめでとうございます！Anchorを使用して最初のNara Solanaプログラムをビルドしてデプロイしました。
 
 </Step>
 

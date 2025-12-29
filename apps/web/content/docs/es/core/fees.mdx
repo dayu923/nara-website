@@ -1,12 +1,15 @@
 ---
+
 title: Tarifas de transacción
 description:
   Aprende sobre las tarifas de transacción de Solana, incluyendo las tarifas
   base y de priorización, cómo se aplica cada una, y las mejores prácticas para
   gestionar unidades de cómputo en tus transacciones.
+
 ---
 
-Cada transacción de Solana requiere una tarifa de transacción, pagada en SOL.
+
+Cada transacción de Nara Solana requiere una tarifa de transacción, pagada en NSO.
 Las tarifas de transacción se dividen en dos partes: la tarifa base y la tarifa
 de priorización. La tarifa base compensa a los validadores por procesar la
 transacción. La tarifa de priorización es opcional, para aumentar la
@@ -21,7 +24,7 @@ tarifas de transacción. La tarifa base se divide de la siguiente manera:
 
 - **50% quemado:** La mitad es
   [quemada](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)
-  (retirada de la oferta circulante de SOL).
+  (retirada de la oferta circulante de NSO).
 - **50% distribuido:** La mitad es
   [pagada al validator](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62)
   que procesó la transacción.
@@ -107,7 +110,7 @@ continuación.
 #### Ejemplo
 
 Los ejemplos a continuación muestran cómo establecer el límite de CU y el precio
-de CU en una transacción usando los SDK de Solana.
+de CU en una transacción usando los SDK de Nara Solana.
 
 | SDK                            | Referencia del código fuente                                                                                                   |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |

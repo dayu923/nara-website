@@ -1,12 +1,15 @@
 ---
+
 title: Commissioni di transazione
 description:
   Scopri le commissioni di transazione di Solana, incluse le commissioni base e
   prioritarie, come vengono applicate e le migliori pratiche per gestire le
   unità di calcolo nelle tue transazioni.
+
 ---
 
-Ogni transazione Solana richiede una commissione di transazione, pagata in SOL.
+
+Ogni transazione Nara Solana richiede una commissione di transazione, pagata in NSO.
 Le commissioni di transazione sono suddivise in due parti: la commissione base e
 la commissione di prioritizzazione. La commissione base compensa i validator per
 l'elaborazione della transazione. La commissione di prioritizzazione è una
@@ -22,7 +25,7 @@ commissioni di transazione. La commissione base è suddivisa come segue:
 
 - **50% bruciato:** Metà viene
   [bruciata](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)
-  (rimossa dalla fornitura circolante di SOL).
+  (rimossa dalla fornitura circolante di NSO).
 - **50% distribuito:** Metà viene
   [pagata al validator](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62)
   che ha elaborato la transazione.
@@ -109,7 +112,7 @@ raccomandazione sul prezzo CU in tempo reale elencata nella tabella seguente.
 #### Esempio
 
 Gli esempi seguenti mostrano come impostare il limite CU e il prezzo CU su una
-transazione utilizzando gli SDK di Solana.
+transazione utilizzando gli SDK di Nara Solana.
 
 | SDK                            | Riferimento al codice sorgente                                                                                                 |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |

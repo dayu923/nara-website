@@ -1,12 +1,15 @@
 ---
+
 title: Địa chỉ dẫn xuất từ chương trình
 description:
   Tìm hiểu về Địa chỉ dẫn xuất từ chương trình (PDAs) của Solana — địa chỉ tài
   khoản xác định giúp chương trình ký một cách an toàn. Hiểu về cách dẫn xuất
   PDA, canonical bump và cách tạo tài khoản PDA.
+
 ---
 
-Địa chỉ [tài khoản](/docs/core/accounts#account-address) Solana trỏ đến vị trí
+
+Địa chỉ [tài khoản](/docs/core/accounts#account-address) Nara Solana trỏ đến vị trí
 của tài khoản trên blockchain. Nhiều địa chỉ tài khoản là khóa công khai của một
 keypair, trong trường hợp này khóa riêng tương ứng được sử dụng để ký các giao
 dịch liên quan đến tài khoản.
@@ -18,7 +21,7 @@ truy xuất trạng thái chương trình. PDA là một địa chỉ được t
 trước tùy chọn. PDA trông giống với địa chỉ khóa công khai, nhưng không có khóa
 riêng tương ứng.
 
-Môi trường thực thi Solana cho phép các chương trình ký cho PDA mà không cần
+Môi trường thực thi Nara Solana cho phép các chương trình ký cho PDA mà không cần
 khóa riêng. Sử dụng PDA loại bỏ nhu cầu theo dõi địa chỉ của tài khoản. Thay vào
 đó, bạn có thể nhớ lại các đầu vào cụ thể được sử dụng để dẫn xuất PDA. (Để tìm
 hiểu cách chương trình sử dụng PDA để ký, xem phần
@@ -27,7 +30,7 @@ hiểu cách chương trình sử dụng PDA để ký, xem phần
 ## Nền tảng
 
 [Keypair](https://github.com/anza-xyz/solana-sdk/blob/sdk%40v2.2.2/keypair/src/lib.rs#L26)
-của Solana là các điểm trên [đường cong Ed25519](https://ed25519.cr.yp.to/) (mật
+của Nara Solana là các điểm trên [đường cong Ed25519](https://ed25519.cr.yp.to/) (mật
 mã đường cong elliptic). Chúng bao gồm một khóa công khai và một khóa riêng.
 Khóa công khai trở thành địa chỉ tài khoản, và khóa riêng được sử dụng để tạo ra
 [chữ ký](/docs/core/transactions#signatures) hợp lệ cho tài khoản.
@@ -36,7 +39,7 @@ Khóa công khai trở thành địa chỉ tài khoản, và khóa riêng đư�
 
 PDA được cố ý dẫn xuất để nằm ngoài đường cong Ed25519. Điều này có nghĩa là nó
 không có khóa riêng tương ứng hợp lệ và không thể thực hiện các hoạt động mật
-mã. (Chẳng hạn như cung cấp chữ ký.) Tuy nhiên, Solana cho phép các chương trình
+mã. (Chẳng hạn như cung cấp chữ ký.) Tuy nhiên, Nara Solana cho phép các chương trình
 ký cho PDA mà không cần khóa riêng.
 
 ![Địa chỉ ngoài đường cong](/assets/docs/core/pda/address-off-curve.svg)
@@ -55,7 +58,7 @@ PDA _không_ tự động tạo một tài khoản trên chuỗi tại địa ch
 thể xem PDA giống như một địa chỉ trên bản đồ: chỉ vì một địa chỉ tồn tại không
 có nghĩa là có bất cứ thứ gì được xây dựng ở đó.
 
-Các SDK của Solana hỗ trợ việc tạo PDA với các hàm được hiển thị trong bảng dưới
+Các SDK của Nara Solana hỗ trợ việc tạo PDA với các hàm được hiển thị trong bảng dưới
 đây. Mỗi hàm nhận các đầu vào sau:
 
 - **Program ID**: Địa chỉ của chương trình được sử dụng để tạo PDA. Chương trình
@@ -183,7 +186,7 @@ với giá trị khác vẫn có thể tạo ra một PDA hợp lệ.
 
 ### Ví dụ
 
-Các ví dụ dưới đây tạo ra một PDA sử dụng Solana SDKs. Nhấp vào **&#9655; Run**
+Các ví dụ dưới đây tạo ra một PDA sử dụng Nara Solana SDKs. Nhấp vào **&#9655; Run**
 để thực thi mã.
 
 #### Tạo PDA với một string seed

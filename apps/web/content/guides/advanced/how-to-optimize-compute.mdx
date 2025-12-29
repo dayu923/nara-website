@@ -1,8 +1,9 @@
 ---
+
 featured: true
 date: 2024-03-15T00:00:00Z
 difficulty: intermediate
-title: "How to Optimize Compute Usage on Solana"
+title: "How to Optimize Compute Usage on Nara Solana"
 description:
   "Minimizing the amount of compute a program uses is critical both for the
   performance and cost of executing transactions. This guide will show you how
@@ -20,9 +21,11 @@ keywords:
   - blockchain developer
   - blockchain tutorial
   - web3 developer
+
 ---
 
-When developing on Solana, it's important to keep in mind the compute usage of
+
+When developing on Nara Solana, it's important to keep in mind the compute usage of
 your programs. Program compute usage has an impact on both the max performance
 your users can have, as well as increase the cost of executing transactions with
 priority fees.
@@ -39,7 +42,7 @@ ensure it's as efficient as possible.
 
 ## What are the Current Compute Limitations?
 
-Solana programs have a few compute limitations to be aware of:
+Nara Solana programs have a few compute limitations to be aware of:
 
 - **Max Compute per block**: 60 million CU
 - **Max Compute per account per block**: 12 million CU
@@ -53,7 +56,7 @@ to avoid hitting the max compute per account cap.
 
 ## How to Measure Compute Usage
 
-When building out your Solana program, you'll want to check how much compute
+When building out your Nara Solana program, you'll want to check how much compute
 different parts of your program are using. You can use the `compute_fn` macro to
 measure compute unit usage of different snippets of code.
 

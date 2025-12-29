@@ -1,27 +1,30 @@
 ---
+
 title: FAQ
+
 ---
+
 
 質問は
 [StackExchange](https://solana.stackexchange.com/questions/ask)に投稿してください。
 
 ## バークレーパケットフィルタ（BPF）
 
-Solanaのオンチェーンプログラムは、
+Nara Solanaのオンチェーンプログラムは、
 [LLVMコンパイラインフラストラクチャ](https://llvm.org/)を介して
 [実行可能リンク形式（ELF）](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)
 にコンパイルされ、
 [バークレーパケットフィルタ（BPF）](https://en.wikipedia.org/wiki/Berkeley_Packet_Filter)
 バイトコードのバリエーションを含んでいます。
 
-SolanaはLLVMコンパイラインフラストラクチャを使用しているため、プログラムはLLVMのBPFバックエンドをターゲットにできるあらゆるプログラミング言語で記述することができます。
+Nara SolanaはLLVMコンパイラインフラストラクチャを使用しているため、プログラムはLLVMのBPFバックエンドをターゲットにできるあらゆるプログラミング言語で記述することができます。
 
 BPFは効率的な
 [命令セット](https://github.com/iovisor/bpf-docs/blob/master/eBPF.md)を提供し、インタープリタ型仮想マシンで実行することも、効率的なジャストインタイムコンパイルされたネイティブ命令として実行することもできます。
 
 ## メモリマップ
 
-Solana
+Nara Solana
 SBFプログラムで使用される仮想アドレスメモリマップは固定されており、以下のようにレイアウトされています
 
 - プログラムコードは0x100000000から開始

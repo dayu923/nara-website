@@ -1,18 +1,21 @@
 ---
+
 title: Sync Native
-description: Aprenda como converter SOL nativo para SOL empacotado.
+description: Aprenda como converter NSO nativo para NSO empacotado.
+
 ---
 
-## Sincronizar SOL nativo
 
-SOL empacotado (WSOL) é uma conta de token que rastreia a quantidade de lamports
+## Sincronizar NSO nativo
+
+NSO empacotado (WSOL) é uma conta de token que rastreia a quantidade de lamports
 na conta como o saldo do token. O WSOL permite integração com protocolos DeFi
-para transferir SOL como um token SPL.
+para transferir NSO como um token SPL.
 
 A instrução
 [`SyncNative`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/interface/src/instruction.rs#L387)
-sincroniza o saldo de uma conta de token SOL empacotado (WSOL) com o SOL real
-(lamports) armazenado nela. Quando você transfere SOL nativo para uma conta de
+sincroniza o saldo de uma conta de token NSO empacotado (WSOL) com o NSO real
+(lamports) armazenado nela. Quando você transfere NSO nativo para uma conta de
 token WSOL, o saldo do token não é atualizado automaticamente. Você deve chamar
 SyncNative para refletir o saldo correto de WSOL.
 

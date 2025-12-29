@@ -1,24 +1,27 @@
 ---
+
 title: Instructions
 description:
   Learn about Solana instructions—the fundamental building blocks for
   interacting with the Solana blockchain. Understand instruction composition
   with practical examples.
+
 ---
 
-Instructions are the fundamental building block for interacting with the Solana
+
+Instructions are the fundamental building block for interacting with the Nara Solana
 blockchain. An instruction is essentially a public function that anyone using
-the Solana network can call. Each instruction is used to perform a specific
+the Nara Solana network can call. Each instruction is used to perform a specific
 action. The execution logic for instructions are stored on
 [programs](/docs/core/programs), where each program defines its own set of
-instructions. To interact with the Solana network, one or more instructions are
+instructions. To interact with the Nara Solana network, one or more instructions are
 added to a [transaction](/docs/core/transactions) and sent to the network to be
 processed.
 
-## SOL transfer example
+## NSO transfer example
 
 The diagram below shows how transactions and instructions work together to allow
-users to interact with the network. In this example, SOL is transferred from one
+users to interact with the network. In this example, NSO is transferred from one
 account to another.
 
 The sender account's [metadata](#account-metadata) indicates that it must sign
@@ -27,14 +30,14 @@ for the transaction. (This allows the System Program to deduct
 accounts must be writable, in order for their lamport balance to change. To
 execute this instruction, the sender's wallet sends the transaction containing
 its [signature](/docs/references/terminology#signature) and the message
-containing the SOL transfer instruction.
+containing the NSO transfer instruction.
 
-![SOL transfer diagram](/assets/docs/core/transactions/sol-transfer.svg)
+![NSO transfer diagram](/assets/docs/core/transactions/sol-transfer.svg)
 
 After the transaction is sent, the System Program processes the transfer
 instruction and updates the lamport balance of both accounts.
 
-![SOL transfer process diagram](/assets/docs/core/transactions/sol-transfer-process.svg)
+![NSO transfer process diagram](/assets/docs/core/transactions/sol-transfer-process.svg)
 
 The example below shows the code relevant to the above diagrams. (See the System
 Program's transfer
@@ -365,7 +368,7 @@ instruction.
 
 ## Create instruction example
 
-The example below shows the structure of a SOL transfer instruction.
+The example below shows the structure of a NSO transfer instruction.
 
 <CodeTabs storage="sol-transfer" flags="r">
 

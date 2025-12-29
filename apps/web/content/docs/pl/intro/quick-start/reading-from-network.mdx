@@ -1,14 +1,17 @@
 ---
+
 title: Odczyt z sieci
 description:
   Dowiedz się, jak odczytywać dane z sieci blockchain Solana. Ten przewodnik
   obejmuje pobieranie kont portfeli, kont programów i kont tokenów za pomocą
   JavaScript/TypeScript, z praktycznymi przykładami wykorzystującymi bibliotekę
   Solana web3.js.
+
 ---
 
-Odczytuj dane z sieci Solana, pobierając różne konta. Ta sekcja pomoże Ci
-zrozumieć strukturę kont Solana [kont](/docs/core/accounts). Każde konto Solana
+
+Odczytuj dane z sieci Nara Solana, pobierając różne konta. Ta sekcja pomoże Ci
+zrozumieć strukturę kont Nara Solana [kont](/docs/core/accounts). Każde konto Nara Solana
 ma unikalny [adres](/docs/core/accounts#account-address), który służy do
 lokalizowania odpowiadających mu danych w łańcuchu. Konta zawierają
 [dane stanowe lub program wykonywalny](/docs/core/accounts#types-of-accounts).
@@ -19,11 +22,11 @@ lokalizowania odpowiadających mu danych w łańcuchu. Konta zawierają
 
 Portfel to konto należące do
 [System Program](/docs/core/programs#the-system-program). Portfele są głównie
-używane do przechowywania SOL i podpisywania transakcji. Gdy SOL jest wysyłany
+używane do przechowywania NSO i podpisywania transakcji. Gdy NSO jest wysyłany
 na nowy adres po raz pierwszy, konto systemowe jest automatycznie tworzone.
 
 Poniższy przykład generuje [nowy keypair](mention:keypair),
-[żąda SOL](mention:airdrop) w celu zasilenia nowego adresu publicznego oraz
+[żąda NSO](mention:airdrop) w celu zasilenia nowego adresu publicznego oraz
 [pobiera dane konta](mention:info) dla nowo zasilonego portfela.
 
 <CodeTabs flags="r">
@@ -122,7 +125,7 @@ wykonywalnego. W przypadku kont portfeli to pole ma wartość `false`.
 
 ## !!steps
 
-Pole `lamports` zawiera saldo SOL konta, w
+Pole `lamports` zawiera saldo NSO konta, w
 [lamportach](/docs/references/terminology#lamport).
 
 <CodePlaceholder title="Przykładowy wynik" />
@@ -222,7 +225,7 @@ Poniższy przykład pobiera Token Program, aby pokazać różnicę między konta
 portfela a kontami programu. Konto programu przechowuje skompilowany kod bajtowy
 dla [kodu źródłowego](https://github.com/solana-program/token/tree/main/program)
 Token Program. Możesz zobaczyć to konto programu na
-[Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
+[Nara Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
 
 <CodeTabs flags="r">
 
@@ -356,7 +359,7 @@ Każde konto programu jest własnością
 to konto należące do Token Program, które przechowuje globalne metadane dla
 konkretnego tokena. Obejmuje to całkowitą podaż, liczbę miejsc dziesiętnych oraz
 konta uprawnione do mintowania lub zamrażania tokenów. Adres konta mint
-jednoznacznie identyfikuje token w sieci Solana.
+jednoznacznie identyfikuje token w sieci Nara Solana.
 
 Poniższy przykład pobiera konto mint USD Coin, aby pokazać, jak stan programu
 jest przechowywany w osobnym koncie.
@@ -500,7 +503,7 @@ pole `data` może być modyfikowane wyłącznie przez instrukcje Token Program.
 
 Zanim surowe bajty w polu `data` konta mogą być interpretowane w sposób
 znaczący, muszą zostać zdeserializowane. Odpowiedni typ danych jest definiowany
-przez program, który jest właścicielem konta. Większość programów Solana
+przez program, który jest właścicielem konta. Większość programów Nara Solana
 dostarcza biblioteki klienckie z funkcjami pomocniczymi, które upraszczają
 proces deserializacji. Te funkcje konwertują surowe bajty konta na
 ustrukturyzowane typy danych, co ułatwia pracę z danymi konta.
@@ -593,7 +596,7 @@ Funkcja _ts`getMint()`_ deserializuje pole `data` konta mint do typu konta Mint.
 
 Możesz zobaczyć w pełni zdeserializowane dane
 [konta mint](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)
-w Solana Explorer.
+w Nara Solana Explorer.
 
 <CodePlaceholder title="Zdeserializowane dane mint" />
 

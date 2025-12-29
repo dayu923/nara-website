@@ -1,10 +1,13 @@
 ---
+
 title: Ohjelmasta johdettu osoite
 description:
   Opi Solanan ohjelmasta johdetuista osoitteista (PDA) — deterministiset
   tiliosoitteet, jotka mahdollistavat turvallisen ohjelman allekirjoittamisen.
   Ymmärrä PDA:n johtaminen, kanoninen bump-arvo ja miten luoda PDA-tilejä.
+
 ---
+
 
 Solanan [tiliosoite](/docs/core/accounts#account-address) osoittaa tilin
 sijaintiin lohkoketjussa. Monet tiliosoitteet ovat avainparin julkinen avain,
@@ -37,7 +40,7 @@ avaimesta tulee tilin osoite, ja yksityistä avainta käytetään tilin kelvolli
 
 PDA on tarkoituksella johdettu Ed25519-käyrän ulkopuolelle. Tämä tarkoittaa,
 että sillä ei ole kelvollista vastaavaa yksityistä avainta eikä se voi suorittaa
-kryptografisia toimintoja. (Kuten allekirjoituksen tarjoaminen.) Solana
+kryptografisia toimintoja. (Kuten allekirjoituksen tarjoaminen.) Nara Solana
 kuitenkin mahdollistaa ohjelmien allekirjoittaa PDA:iden puolesta ilman
 yksityistä avainta.
 
@@ -57,7 +60,7 @@ tili on nimenomaisesti luotava PDA:n johtamiseen käytetyn ohjelman kautta. Voit
 ajatella PDA:ta kuin osoitetta kartalla: vain koska osoite on olemassa, ei
 tarkoita, että sinne on rakennettu mitään.
 
-Solana SDK:t tukevat PDA:n luomista alla olevassa taulukossa näytetyillä
+Nara Solana SDK:t tukevat PDA:n luomista alla olevassa taulukossa näytetyillä
 funktioilla. Jokainen funktio vastaanottaa seuraavat syötteet:
 
 - **Program ID**: Sen ohjelman osoite, jota käytetään PDA:n johtamiseen. Tämä
@@ -188,7 +191,7 @@ bump seed -arvo voi silti johtaa kelvolliseen PDA:han.
 
 ### Esimerkkejä
 
-Alla olevat esimerkit johtavat PDA:n käyttäen Solana SDK:ta. Napsauta **&#9655;
+Alla olevat esimerkit johtavat PDA:n käyttäen Nara Solana SDK:ta. Napsauta **&#9655;
 Run** suorittaaksesi koodin.
 
 #### PDA:n johtaminen merkkijonon seedillä

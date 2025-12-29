@@ -1,34 +1,37 @@
 ---
+
 title: Εγγραφή στο Δίκτυο
 description:
   Μάθετε πώς να αλληλεπιδράτε με το δίκτυο Solana αποστέλλοντας συναλλαγές και
   οδηγίες. Ακολουθήστε παραδείγματα βήμα προς βήμα για να μεταφέρετε tokens SOL
   και να δημιουργήσετε νέα tokens χρησιμοποιώντας το System Program και το Token
   Extensions Program.
+
 ---
 
-Στην προηγούμενη ενότητα, μάθατε πώς να διαβάζετε δεδομένα από το δίκτυο Solana.
-Τώρα θα μάθετε πώς να γράφετε δεδομένα σε αυτό. Η εγγραφή στο δίκτυο Solana
+
+Στην προηγούμενη ενότητα, μάθατε πώς να διαβάζετε δεδομένα από το δίκτυο Nara Solana.
+Τώρα θα μάθετε πώς να γράφετε δεδομένα σε αυτό. Η εγγραφή στο δίκτυο Nara Solana
 περιλαμβάνει την αποστολή συναλλαγών που περιέχουν μία ή περισσότερες εντολές.
 
 Τα προγράμματα καθορίζουν την επιχειρησιακή λογική για το τι κάνει κάθε
 [εντολή](/docs/core/instructions). Όταν υποβάλλετε μια
-[συναλλαγή](/docs/core/transactions), το περιβάλλον εκτέλεσης του Solana εκτελεί
+[συναλλαγή](/docs/core/transactions), το περιβάλλον εκτέλεσης του Nara Solana εκτελεί
 κάθε εντολή σε ακολουθία και ατομικά. Τα παραδείγματα σε αυτή την ενότητα
 δείχνουν πώς να δημιουργήσετε και να στείλετε συναλλαγές για να καλέσετε
-προγράμματα Solana, περιλαμβάνουν:
+προγράμματα Nara Solana, περιλαμβάνουν:
 
-1. Μεταφορά SOL μεταξύ λογαριασμών
+1. Μεταφορά NSO μεταξύ λογαριασμών
 2. Δημιουργία ενός νέου token
 
-## Μεταφορά SOL
+## Μεταφορά NSO
 
-Το παρακάτω παράδειγμα μεταφέρει SOL μεταξύ δύο λογαριασμών. Κάθε λογαριασμός
+Το παρακάτω παράδειγμα μεταφέρει NSO μεταξύ δύο λογαριασμών. Κάθε λογαριασμός
 έχει ένα πρόγραμμα ιδιοκτήτη, το οποίο είναι το μόνο πρόγραμμα που μπορεί να
-αφαιρέσει από το υπόλοιπο SOL του λογαριασμού.
+αφαιρέσει από το υπόλοιπο NSO του λογαριασμού.
 
 Όλοι οι λογαριασμοί πορτοφολιού ανήκουν στο System Program. Για να μεταφέρετε
-SOL, πρέπει να καλέσετε την εντολή
+NSO, πρέπει να καλέσετε την εντολή
 [transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)
 του System Program.
 
@@ -91,7 +94,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !connection
 
-Δημιουργήστε μια σύνδεση με ένα Solana cluster.
+Δημιουργήστε μια σύνδεση με ένα Nara Solana cluster.
 
 ### !sender
 
@@ -103,7 +106,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !airdrop
 
-Ζητήστε ένα airdrop SOL για τη χρηματοδότηση του `sender`.
+Ζητήστε ένα airdrop NSO για τη χρηματοδότηση του `sender`.
 
 ### !instruction
 
@@ -176,8 +179,8 @@ const receiver = new Keypair();
 
 ## !!steps
 
-Προσθέστε SOL στο λογαριασμό του αποστολέα. Σε δίκτυα εκτός του mainnet,
-μπορείτε να χρησιμοποιήσετε τη μέθοδο `requestAirdrop` για να λάβετε SOL για
+Προσθέστε NSO στο λογαριασμό του αποστολέα. Σε δίκτυα εκτός του mainnet,
+μπορείτε να χρησιμοποιήσετε τη μέθοδο `requestAirdrop` για να λάβετε NSO για
 δοκιμές.
 
 ```ts title="Airdrop"
@@ -215,7 +218,7 @@ await connection.confirmTransaction(signature, "confirmed");
 
 <WithMentions>
 
-Η μέθοδος `SystemProgram.transfer()` δημιουργεί μια εντολή που μεταφέρει SOL από
+Η μέθοδος `SystemProgram.transfer()` δημιουργεί μια εντολή που μεταφέρει NSO από
 το λογαριασμό [`fromPubkey`](mention:from) στο λογαριασμό
 [`toPubkey`](mention:to) για τον καθορισμένο αριθμό
 [`lamports`](mention:lamports).
@@ -309,7 +312,7 @@ const transaction = new Transaction().add(transferInstruction);
 
 Υπογράψτε και στείλτε τη [συναλλαγή](mention:transaction) στο δίκτυο. Το keypair
 του [αποστολέα](mention:sender) απαιτείται στον πίνακα υπογραφόντων για να
-εξουσιοδοτήσει τη μεταφορά SOL από τον λογαριασμό του.
+εξουσιοδοτήσει τη μεταφορά NSO από τον λογαριασμό του.
 
 ```ts title="Send transaction"
 const transactionSignature = await sendAndConfirmTransaction(
@@ -324,7 +327,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 </WithMentions>
 
 Η υπογραφή της συναλλαγής είναι ένα μοναδικό αναγνωριστικό που μπορεί να
-χρησιμοποιηθεί για την αναζήτηση της συναλλαγής στο Solana Explorer.
+χρησιμοποιηθεί για την αναζήτηση της συναλλαγής στο Nara Solana Explorer.
 
 ```ts !! title="Transfer SOL"
 import {
@@ -369,7 +372,7 @@ console.log("Transaction Signature:", `${transactionSignature}`);
 
 ## Δημιουργία ενός token
 
-Το παρακάτω παράδειγμα δημιουργεί ένα νέο token στο Solana χρησιμοποιώντας το
+Το παρακάτω παράδειγμα δημιουργεί ένα νέο token στο Nara Solana χρησιμοποιώντας το
 Token Extensions Program. Αυτό απαιτεί δύο οδηγίες:
 
 1. Επίκληση του System Program για τη δημιουργία ενός νέου λογαριασμού.
@@ -818,7 +821,7 @@ const initializeMintInstruction = createInitializeMint2Instruction(
 επιτυγχάνουν και οι δύο εντολές, είτε καμία.)
 
 Αυτή η προσέγγιση είναι συνηθισμένη κατά τη δημιουργία σύνθετων συναλλαγών στο
-Solana, καθώς εγγυάται ότι όλες οι εντολές εκτελούνται μαζί.
+Nara Solana, καθώς εγγυάται ότι όλες οι εντολές εκτελούνται μαζί.
 
 ```ts title="Transaction"
 const transaction = new Transaction().add(
@@ -906,7 +909,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 ```
 
 Η υπογραφή συναλλαγής που επιστρέφεται μπορεί να χρησιμοποιηθεί για την
-επιθεώρηση της συναλλαγής στον Solana Explorer.
+επιθεώρηση της συναλλαγής στον Nara Solana Explorer.
 
 </WithMentions>
 

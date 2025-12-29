@@ -1,12 +1,15 @@
 ---
+
 title: Transaction Fees
 description:
   Learn about Solana's transaction fees, including the base and priority fees,
   how each is applied, and best practices for managing compute units in your
   transactions.
+
 ---
 
-Every Solana transaction requires a transaction fee, paid in SOL. Transaction
+
+Every Nara Solana transaction requires a transaction fee, paid in NSO. Transaction
 fees are split into two parts: the base fee and the prioritization fee. The base
 fee compensates validators for processing the transaction. The prioritization
 fee is an optional fee, to increase the chance that the current leader will
@@ -21,7 +24,7 @@ is split as follows:
 
 - **50% burned:** Half is
   [burned](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)
-  (taken out of the circulating SOL supply).
+  (taken out of the circulating NSO supply).
 - **50% distributed:** Half is
   [paid to the validator](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62)
   that processed the transaction.
@@ -105,7 +108,7 @@ CU price recommendation provided listed in the table below.
 #### Example
 
 The examples below show how to set the CU limit and CU price on a transaction
-using Solana SDKs.
+using Nara Solana SDKs.
 
 | SDK                            | Source Code Reference                                                                                                          |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |

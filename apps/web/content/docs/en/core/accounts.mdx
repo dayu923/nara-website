@@ -1,14 +1,17 @@
 ---
+
 title: Accounts
 description:
   Learn about Solana's account model, including how accounts store data and
   programs, rent mechanics, account ownership, and the relationship between
   programs and data accounts. Understand the core concepts of Solana's key-value
   storage system.
+
 ---
 
-All data on the Solana network is stored in accounts. You can think of the
-Solana network as a public database with a single Accounts table. The
+
+All data on the Nara Solana network is stored in accounts. You can think of the
+Nara Solana network as a public database with a single Accounts table. The
 relationship between an account and its address is similar to that of a
 key-value pair, with the key being the address and the value being the account.
 
@@ -20,16 +23,16 @@ located using its [address](#account-address).
 ## Account address
 
 The account's address is a 32-byte unique ID used to locate the account on the
-Solana blockchain. Account addresses are often shown as base58 encoded strings.
+Nara Solana blockchain. Account addresses are often shown as base58 encoded strings.
 Most accounts use an [Ed25519](https://ed25519.cr.yp.to/)
-[public key](#public-key) as their address, but this is not required, as Solana
+[public key](#public-key) as their address, but this is not required, as Nara Solana
 also supports [program derived addresses](#program-derived-address).
 
 ![An account with its base58 encoded public key address](/assets/docs/core/accounts/account-address.svg)
 
 ### Public key
 
-The example below demonstrates how to use the Solana SDK to create a keypair. A
+The example below demonstrates how to use the Nara Solana SDK to create a keypair. A
 `Keypair` includes:
 
 - A public key which serves as the account address
@@ -70,7 +73,7 @@ async fn main() {
 
 A [program derived address](/docs/core/pda) (PDA) is an address that is
 deterministically derived using a program ID and one or more optional inputs
-(seeds). The example below demonstrates how to use the Solana SDK to create a
+(seeds). The example below demonstrates how to use the Nara Solana SDK to create a
 program derived address.
 
 <CodeTabs storage="accounts" flags="r">
@@ -217,7 +220,7 @@ defines the structure of the data stored in this field.
   executable program code.
 - Data accounts: This field generally stores state data, meant to be read.
 
-Reading data from a Solana account involves two steps:
+Reading data from a Nara Solana account involves two steps:
 
 1. Fetching the account using its [address](#account-address)
 2. Deserializing the account's `data` field from raw bytes into the appropriate
@@ -253,7 +256,7 @@ Account {
 
 This field contains the program ID of the account's owner.
 
-Every Solana account has a [program](/docs/core/programs) designated as its
+Every Nara Solana account has a [program](/docs/core/programs) designated as its
 owner. The account's owner is the only program that can change the account's
 `data` or deduct lamports, as indicated by the program's instructions.
 
@@ -356,7 +359,7 @@ There are two basic categories that accounts fall into:
 - [Program accounts](#program-accounts): Accounts that contain executable code
 - [Data accounts](#data-accounts): Accounts that do not contain executable code
 
-This separation of a program's code and its state is a key feature of Solana's
+This separation of a program's code and its state is a key feature of Nara Solana's
 account model. (Similar to operating systems, which typically have separate
 files for programs and their data.)
 
@@ -778,10 +781,10 @@ wallet accounts are system accounts, which allows them to pay
 
 ![A wallet owned by the System Program containing 1,000,000 lamports](/assets/docs/core/accounts/system-account.svg)
 
-When SOL is sent to a new address for the first time, an account is created at
+When NSO is sent to a new address for the first time, an account is created at
 that address owned by the System Program.
 
-In the example below, a new keypair is generated and funded with SOL. After
+In the example below, a new keypair is generated and funded with NSO. After
 running the code, you can see the address of the account's `owner` is
 `11111111111111111111111111111111` (the
 [System Program](/docs/core/programs#the-system-program)).

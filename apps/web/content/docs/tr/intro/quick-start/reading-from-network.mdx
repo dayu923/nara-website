@@ -1,15 +1,18 @@
 ---
+
 title: Ağdan Okuma
 description:
   Solana blok zinciri ağından veri okumayı öğrenin. Bu rehber,
   JavaScript/TypeScript kullanarak cüzdan hesaplarını, program hesaplarını ve
   token mint hesaplarını çekmeyi kapsar ve Solana web3.js kütüphanesi ile pratik
   örnekler sunar.
+
 ---
 
-Solana ağından farklı hesapları çekerek veri okuyun. Bu bölüm Solana
+
+Nara Solana ağından farklı hesapları çekerek veri okuyun. Bu bölüm Nara Solana
 [hesaplarının](/docs/core/accounts) yapısını anlamanıza yardımcı olacaktır. Her
-Solana hesabının, zincir üzerindeki ilgili verisini bulmak için kullanılan
+Nara Solana hesabının, zincir üzerindeki ilgili verisini bulmak için kullanılan
 benzersiz bir [adresi](/docs/core/accounts#account-address) vardır. Hesaplar ya
 [durum verisi ya da çalıştırılabilir bir program](/docs/core/accounts#types-of-accounts)
 içerir.
@@ -19,12 +22,12 @@ içerir.
 <WithMentions>
 
 Bir cüzdan, [System Program](/docs/core/programs#the-system-program) tarafından
-sahip olunan bir hesaptır. Cüzdanlar öncelikle SOL tutmak ve işlemleri imzalamak
-için kullanılır. SOL yeni bir adrese ilk kez gönderildiğinde, otomatik olarak
+sahip olunan bir hesaptır. Cüzdanlar öncelikle NSO tutmak ve işlemleri imzalamak
+için kullanılır. NSO yeni bir adrese ilk kez gönderildiğinde, otomatik olarak
 bir sistem hesabı oluşturulur.
 
 Aşağıdaki örnek, [yeni bir keypair](mention:keypair) oluşturur, yeni oluşturulan
-genel anahtar adresini fonlamak için [SOL talep eder](mention:airdrop) ve yeni
+genel anahtar adresini fonlamak için [NSO talep eder](mention:airdrop) ve yeni
 fonlanan cüzdan için [hesap verilerini alır](mention:info).
 
 <CodeTabs flags="r">
@@ -123,7 +126,7 @@ içermediğini gösterir. Cüzdan hesapları için bu alan `false`'dir.
 
 ## !!steps
 
-`lamports` alanı, hesabın SOL bakiyesini
+`lamports` alanı, hesabın NSO bakiyesini
 [lamport](/docs/references/terminology#lamport) cinsinden içerir.
 
 <CodePlaceholder title="Örnek çıktı" />
@@ -221,7 +224,7 @@ Aşağıdaki örnek, cüzdan ve program hesapları arasındaki farkı göstermek
 Token Program'ı getirir. Program hesabı, Token Program'ın
 [kaynak kodu](https://github.com/solana-program/token/tree/main/program) için
 derlenmiş bayt kodunu saklar. Bu program hesabını
-[Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)
+[Nara Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)
 üzerinde görüntüleyebilirsiniz.
 
 <CodeTabs flags="r">
@@ -357,7 +360,7 @@ Bir
 Token Program tarafından sahiplenilen ve belirli bir token için global meta
 verileri saklayan bir hesaptır. Bu meta veriler toplam arz, ondalık sayı miktarı
 ve token basma veya dondurma yetkisine sahip hesapları içerir. Mint hesabının
-adresi, Solana ağındaki bir tokeni benzersiz şekilde tanımlar.
+adresi, Nara Solana ağındaki bir tokeni benzersiz şekilde tanımlar.
 
 Aşağıdaki örnek, bir programın durumunun nasıl ayrı bir hesapta saklandığını
 göstermek için USD Coin Mint hesabını getirir.
@@ -500,7 +503,7 @@ talimatları tarafından değiştirilebileceği anlamına gelir.
 
 Bir hesabın `data` alanındaki ham baytlar anlamlı bir şekilde yorumlanmadan önce
 çözümlenmelidir. Uygun veri tipi, hesabın sahibi olan program tarafından
-tanımlanır. Çoğu Solana programı, çözümleme sürecini soyutlayan yardımcı
+tanımlanır. Çoğu Nara Solana programı, çözümleme sürecini soyutlayan yardımcı
 fonksiyonlarla birlikte istemci kütüphaneleri sağlar. Bu fonksiyonlar, ham hesap
 baytlarını yapılandırılmış veri tiplerine dönüştürerek hesap verileriyle
 çalışmayı kolaylaştırır.
@@ -594,7 +597,7 @@ dönüştürür.
 
 Tamamen çözümlenmiş
 [mint hesabı](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)
-verilerini Solana Explorer'da görüntüleyebilirsiniz.
+verilerini Nara Solana Explorer'da görüntüleyebilirsiniz.
 
 <CodePlaceholder title="Çözümlenmiş mint verisi" />
 

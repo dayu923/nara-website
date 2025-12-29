@@ -1,19 +1,22 @@
 ---
+
 title: 複数のプログラムの組み合わせ
 description:
   Anchorフレームワークを使用してSolanaプログラムでクロスプログラム呼び出し（CPI）を実装する方法を学びます。このチュートリアルでは、アカウント間でSOLを転送する方法、System
   Programとやり取りする方法、およびCPIでプログラム派生アドレス（PDA）を処理する方法を示します。複合可能なSolanaプログラムを構築したい開発者に最適です。
 h1: クロスプログラム呼び出し
+
 ---
 
-このセクションでは、前のPDAセクションのCRUDプログラムを、Solanaプログラムが互いに呼び出すことを可能にする機能であるクロスプログラム呼び出し（CPI）を追加することで更新します。
+
+このセクションでは、前のPDAセクションのCRUDプログラムを、Nara Solanaプログラムが互いに呼び出すことを可能にする機能であるクロスプログラム呼び出し（CPI）を追加することで更新します。
 
 このチュートリアルでは、プログラムがクロスプログラム呼び出しを行う際にプログラム派生アドレス（PDA）に対して「署名」する方法も示します。
 
 `update`と`delete`のinstructionsは、System
-Programを呼び出してアカウント間のSOL転送を処理するように修正する必要があります。
+Programを呼び出してアカウント間のNSO転送を処理するように修正する必要があります。
 
-このセクションの目的には、Anchorフレームワークを使用してSolanaプログラムでCPIを実装するプロセスを説明し、前のセクションで探求したPDAの概念を基に構築することが含まれます。詳細については、[クロスプログラム呼び出し](/docs/core/cpi)ページを参照してください。
+このセクションの目的には、Anchorフレームワークを使用してNara SolanaプログラムでCPIを実装するプロセスを説明し、前のセクションで探求したPDAの概念を基に構築することが含まれます。詳細については、[クロスプログラム呼び出し](/docs/core/cpi)ページを参照してください。
 
 参考として、このリンクにはPDAとCPIの両方のセクションを完了した後の[最終コード](https://beta.solpg.io/668304cfcffcf4b13384d20a)が含まれています。
 
@@ -43,7 +46,7 @@ use anchor_lang::system_program::{transfer, Transfer};
 </Accordion>
 </Accordions>
 
-次に、*rs`Update`*構造体を更新して、`vault_account`という新しいアカウントを含めます。このアカウントはプログラムによって制御され、ユーザーがメッセージアカウントを更新するときにユーザーからSOLを受け取ります。
+次に、*rs`Update`*構造体を更新して、`vault_account`という新しいアカウントを含めます。このアカウントはプログラムによって制御され、ユーザーがメッセージアカウントを更新するときにユーザーからNSOを受け取ります。
 
 ```rs title="lib.rs"
 #[account(
@@ -86,7 +89,7 @@ pub struct Update<'info> {
 </Accordion>
 <Accordion title="説明">
 
-このセクションでは、*rs`Update`*構造体に`vault_account`という新しいアカウントを追加します。このアカウントは、ユーザーがメッセージを更新する際にSOLを受け取るプログラム制御の「ボールト」として機能します。
+このセクションでは、*rs`Update`*構造体に`vault_account`という新しいアカウントを追加します。このアカウントは、ユーザーがメッセージを更新する際にNSOを受け取るプログラム制御の「ボールト」として機能します。
 
 ボールトにPDAを使用することで、プログラムは各ユーザーに固有のプログラム制御アカウントを作成し、プログラムのロジック内での資金管理を可能にします。
 
@@ -110,7 +113,7 @@ pub struct Update<'info> {
 </Accordions>
 
 次に、`update`命令にCPIロジックを追加して、ユーザーのアカウントからボールトアカウントに0.001
-SOLを転送します。
+NSOを転送します。
 
 <WithNotes>
 
@@ -172,7 +175,7 @@ transfer(cpi_context, 1_000_000)?;
 
 `update` instructionの実装には、System Programの`transfer`
 instructionを呼び出すためのCross Program
-Invocation（CPI）が含まれています。これはプログラム内からCPIを実行する方法を示し、Solanaプログラムの組み合わせ可能性を可能にします。
+Invocation（CPI）が含まれています。これはプログラム内からCPIを実行する方法を示し、Nara Solanaプログラムの組み合わせ可能性を可能にします。
 
 *rs`Transfer`*構造体は、System
 Programの転送instructionに必要なアカウントを指定します：
@@ -202,7 +205,7 @@ Programの転送instructionに必要なアカウントを指定します：
 `transfer`関数は、System Programの転送instructionを呼び出し、以下を渡します：
 
 - `cpi_context`（プログラムとアカウント）
-- 転送する`amount`（1,000,000 lamport、つまり0.001 SOL）
+- 転送する`amount`（1,000,000 lamport、つまり0.001 NSO）
 
   ```rs title="lib.rs"
   transfer(cpi_context, 1_000_000)?;
@@ -233,7 +236,7 @@ $ build
 
 次に、*rs`Delete`*構造体と`delete`関数を変更して、「削除時の返金」メカニズムを追加します。
 
-まず、*rs`Delete`*構造体を更新して`vault_account`を含めます。これにより、ユーザーがメッセージアカウントを閉じるときにボールト内のSOLをユーザーに返金することができます。
+まず、*rs`Delete`*構造体を更新して`vault_account`を含めます。これにより、ユーザーがメッセージアカウントを閉じるときにボールト内のNSOをユーザーに返金することができます。
 
 ```rs title="lib.rs"
 #[account(
@@ -282,14 +285,14 @@ pub struct Delete<'info> {
 
 `vault_account`はUpdate構造体と同じPDA導出を使用します。
 
-Delete構造体に`vault_account`を追加することで、プログラムは削除命令の実行中にユーザーのボールトアカウントにアクセスし、蓄積されたSOLをユーザーに返還することができます。
+Delete構造体に`vault_account`を追加することで、プログラムは削除命令の実行中にユーザーのボールトアカウントにアクセスし、蓄積されたNSOをユーザーに返還することができます。
 
 </Accordion>
 </Accordions>
 
 <WithNotes>
 
-次に、`delete`命令にCPIロジックを追加して、ボールトアカウントからユーザーアカウントにSOLを転送します。
+次に、`delete`命令にCPIロジックを追加して、ボールトアカウントからユーザーアカウントにNSOを転送します。
 
 ```rs title="lib.rs"
 let user_key = ctx.accounts.user.key();
@@ -419,13 +422,13 @@ $ build
 
 ### プログラムの再デプロイ
 
-これらの変更を行った後、更新されたプログラムを再デプロイします。これにより、変更されたプログラムがテスト可能になります。Solanaでは、プログラムの更新は単に同じプログラムIDでプログラムをデプロイするだけです。
+これらの変更を行った後、更新されたプログラムを再デプロイします。これにより、変更されたプログラムがテスト可能になります。Nara Solanaでは、プログラムの更新は単に同じプログラムIDでプログラムをデプロイするだけです。
 
 <Callout>
 
 Playgroundウォレットにdevnet
-SOLがあることを確認してください。[Solana Faucet](https://faucet.solana.com/)からdevnet
-SOLを取得できます。
+NSOがあることを確認してください。[Nara Solana Faucet](https://faucet.solana.com/)からdevnet
+NSOを取得できます。
 
 </Callout>
 
@@ -440,7 +443,7 @@ Deployment successful. Completed in 17s.
 
 プログラムのアップグレード権限を持つアカウントのみがプログラムを更新できます。開発者はプログラムのデプロイ時にアップグレード権限を設定し、それがプログラムを変更または閉じる権限を持つ唯一のアカウントとなります。アップグレード権限が取り消された場合、プログラムは不変となります。
 
-Solana
+Nara Solana
 Playgroundでプログラムをデプロイする際、あなたのPlaygroundウォレットがすべてのプログラムのアップグレード権限を持ちます。
 
 </Accordion>
@@ -604,11 +607,11 @@ Running tests...
 
 ## 次のステップ
 
-Solanaクイックスタートガイドを完了おめでとうございます。以下のSolanaの重要な概念について実践的な経験を得ることができました：
+Nara Solanaクイックスタートガイドを完了おめでとうございます。以下のNara Solanaの重要な概念について実践的な経験を得ることができました：
 
 - アカウントからのデータの取得と読み取り
 - トランザクションの構築と送信
-- Solanaプログラムのデプロイと更新
+- Nara Solanaプログラムのデプロイと更新
 - Program Derived Addresses (PDAs)の操作
 - Cross-Program Invocations (CPIs)の実行
 
@@ -618,8 +621,8 @@ Solanaクイックスタートガイドを完了おめでとうございます�
 
 例から学ぶことを好む場合は、様々なサンプルプログラムがある[プログラム例リポジトリ](https://github.com/solana-developers/program-examples)をチェックしてください。
 
-Solana
-Playgroundには、GitHubリンクを使用してプロジェクトをインポートまたは表示できる便利な機能があります。例えば、この[Solana Playgroundリンク](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)を開くと、この[Githubリポジトリ](https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)からAnchorプロジェクトを表示できます。
+Nara Solana
+Playgroundには、GitHubリンクを使用してプロジェクトをインポートまたは表示できる便利な機能があります。例えば、この[Nara Solana Playgroundリンク](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)を開くと、この[Githubリポジトリ](https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)からAnchorプロジェクトを表示できます。
 
-`Import`ボタンをクリックし、プロジェクト名を入力してSolana
+`Import`ボタンをクリックし、プロジェクト名を入力してNara Solana
 Playgroundのプロジェクトリストに追加します。プロジェクトがインポートされると、すべての変更は自動的に保存され、永続化されます。

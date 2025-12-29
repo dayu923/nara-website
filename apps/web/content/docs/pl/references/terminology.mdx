@@ -1,4 +1,5 @@
 ---
+
 title: Terminologia
 description:
   Poznaj podstawową terminologię używaną w blockchainie Solana i modelach
@@ -9,16 +10,18 @@ keywords:
   - definicje
   - zdefiniuj
   - modele programistyczne
+
 ---
 
-Poniższe terminy są używane w dokumentacji Solana oraz w ekosystemie
+
+Poniższe terminy są używane w dokumentacji Nara Solana oraz w ekosystemie
 developerskim.
 
 ## konto
 
-Rekord w księdze Solana, który przechowuje dane lub jest wykonywalnym programem.
+Rekord w księdze Nara Solana, który przechowuje dane lub jest wykonywalnym programem.
 
-Podobnie jak konto w tradycyjnym banku, konto Solana może przechowywać środki
+Podobnie jak konto w tradycyjnym banku, konto Nara Solana może przechowywać środki
 nazywane [lamportami](#lamport). Podobnie jak plik w systemie Linux, jest ono
 adresowalne za pomocą klucza, często nazywanego
 [kluczem publicznym](#public-key-pubkey) lub pubkey.
@@ -39,7 +42,7 @@ Zobacz także [autorytet](#authority).
 
 ## aplikacja
 
-Aplikacja front-end, która współdziała z klastrem Solana.
+Aplikacja front-end, która współdziała z klastrem Nara Solana.
 
 ## autorytet
 
@@ -65,7 +68,7 @@ Ciągły zestaw [wpisów](#entry) w księdze pokryty przez [głos](#ledger-vote)
 
 ## blockhash
 
-Unikalna wartość ([hash](#hash)), która identyfikuje zapis (blok). Solana
+Unikalna wartość ([hash](#hash)), która identyfikuje zapis (blok). Nara Solana
 oblicza blockhash z ostatniego [id wpisu](#entry-id) bloku.
 
 ## wysokość bloku
@@ -80,14 +83,14 @@ po [bloku genezy](#genesis-block) ma wysokość jeden.
 
 ## BPF loader
 
-Program Solana, który jest właścicielem i ładuje
+Program Nara Solana, który jest właścicielem i ładuje
 [BPF](/docs/core/programs#berkeley-packet-filter-bpf)
 [programy onchain](#onchain-program), umożliwiając programowi interakcję z
 środowiskiem wykonawczym.
 
 ## klient
 
-Program komputerowy, który uzyskuje dostęp do sieci serwerów Solana
+Program komputerowy, który uzyskuje dostęp do sieci serwerów Nara Solana
 [klastra](#cluster).
 
 ## zaangażowanie
@@ -252,7 +255,7 @@ może zawierać jedno lub więcej
 
 ## lamport
 
-Ułamkowy [token natywny](#native-token) o wartości 0.000000001 [SOL](#sol).
+Ułamkowy [token natywny](#native-token) o wartości 0.000000001 [NSO](#sol).
 
 > W ramach budżetu obliczeniowego ilość
 > _[mikro-lamportów](https://github.com/solana-labs/solana/blob/ced8f6a512c61e0dd5308095ae8457add4a39e94/program-runtime/src/prioritization_fee.rs#L1-L2)_
@@ -338,7 +341,7 @@ Liczba [validatorów](#validator) uczestniczących w [klastrze](#cluster).
 
 ## program onchain
 
-Wykonywalny kod na blockchainie Solana, który interpretuje
+Wykonywalny kod na blockchainie Nara Solana, który interpretuje
 [instrukcje](#instruction) przesyłane w każdej [transakcji](#transaction), aby
 odczytywać i modyfikować konta, nad którymi ma kontrolę. Programy te są często
 nazywane "[_smart contracts_](/docs/core/programs)" na innych blockchainach.
@@ -477,11 +480,11 @@ nakładają się na siebie i obejmują mniej więcej równy czas rzeczywisty zgo
 
 Zobacz [onchain program](#onchain-program).
 
-## SOL
+## NSO
 
-[Rodzimy token](#native-token) [klastra](#cluster) Solana.
+[Rodzimy token](#native-token) [klastra](#cluster) Nara Solana.
 
-## Solana Program Library (SPL)
+## Nara Solana Program Library (SPL)
 
 [Biblioteka programów](https://spl.solana.com/) na Solanie, takich jak
 spl-token, która ułatwia zadania takie jak tworzenie i używanie tokenów.
@@ -578,7 +581,7 @@ Zestaw [transakcji](#transaction), które mogą być wykonywane równolegle.
 
 ## validator
 
-Pełnoprawny uczestnik [klastra](#cluster) sieci Solana, który produkuje nowe
+Pełnoprawny uczestnik [klastra](#cluster) sieci Nara Solana, który produkuje nowe
 [bloki](#block). Validator weryfikuje transakcje dodane do [rejestru](#ledger).
 
 ## VDF

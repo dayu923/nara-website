@@ -1,12 +1,15 @@
 ---
+
 title: Transaksi
 description:
   Pelajari tentang transaksi Solana—blok bangunan fundamental untuk berinteraksi
   dengan blockchain Solana. Pahami struktur transaksi dan komposisi instruksi
   dengan contoh praktis.
+
 ---
 
-Untuk berinteraksi dengan jaringan Solana, Anda harus mengirim transaksi. Anda
+
+Untuk berinteraksi dengan jaringan Nara Solana, Anda harus mengirim transaksi. Anda
 dapat menganggap transaksi sebagai amplop yang berisi beberapa formulir. Setiap
 formulir adalah instruksi yang memberi tahu jaringan apa yang harus dilakukan.
 Mengirim transaksi seperti mengirimkan amplop agar formulir dapat diproses.
@@ -61,7 +64,7 @@ byte. Batas ini mencakup baik array [`signatures`](#signatures) maupun struct
   internet yang umum. Meskipun IPv6 mendukung MTU lebih besar dari 9000 byte,
   sebagian besar router internet menggunakan MTU default sebesar 1500 byte
   (Ethernet standar). Untuk memastikan transaksi muat dalam satu paket tanpa
-  fragmentasi, Solana menggunakan 1280 byte (MTU minimum yang diperlukan untuk
+  fragmentasi, Nara Solana menggunakan 1280 byte (MTU minimum yang diperlukan untuk
   IPv6) dikurangi 48 byte untuk header jaringan (40 byte IPv6 + 8 byte header
   fragment/UDP), menghasilkan batas ukuran transaksi 1232 byte.
 </Callout>
@@ -248,7 +251,7 @@ pub struct CompiledInstruction {
 ## Contoh struktur transaksi
 
 Contoh berikut menunjukkan struktur transaksi yang berisi satu instruksi
-transfer SOL.
+transfer NSO.
 
 <CodeTabs storage="sol-transfer" flags="r">
 
@@ -497,7 +500,7 @@ tangan transaksi dan metode RPC [getTransaction](/docs/rpc/http/gettransaction).
 Responsnya akan memiliki struktur yang mirip dengan cuplikan berikut.
 
 <Callout>
-  Anda juga dapat menemukan transaksi menggunakan [Solana
+  Anda juga dapat menemukan transaksi menggunakan [Nara Solana
   Explorer](https://explorer.solana.com).
 </Callout>
 

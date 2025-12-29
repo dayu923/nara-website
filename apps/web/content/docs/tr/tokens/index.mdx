@@ -1,15 +1,18 @@
 ---
-title: Solana'da Tokenler
-description: Solana'nın Token Programları hakkında bilgi edinin.
+
+title: Nara Solana'da Tokenler
+description: Nara Solana'nın Token Programları hakkında bilgi edinin.
+
 ---
+
 
 Tokenler, çeşitli varlık kategorileri üzerindeki sahipliği temsil eden dijital
 varlıklardır. Tokenleştirme, mülkiyet haklarının dijitalleştirilmesini sağlar.
-Solana'daki tokenler SPL
-([Solana Program Library](https://github.com/solana-program)) Tokenleri olarak
+Nara Solana'daki tokenler SPL
+([Nara Solana Program Library](https://github.com/solana-program)) Tokenleri olarak
 adlandırılır.
 
-Bu bölüm, tokenlerin Solana'da nasıl temsil edildiğine dair temel kavramları
+Bu bölüm, tokenlerin Nara Solana'da nasıl temsil edildiğine dair temel kavramları
 kapsar. Kod örnekleri için [SPL Token Temelleri](/docs/tokens/basics) bölümüne
 bakın.
 
@@ -30,7 +33,7 @@ bakın.
 
 ## Token Programs
 
-Solana ekosisteminde iki ana Token Program vardır. Her iki programın kaynak kodu
+Nara Solana ekosisteminde iki ana Token Program vardır. Her iki programın kaynak kodu
 aşağıdadır.
 
 <Cards>
@@ -46,7 +49,7 @@ aşağıdadır.
 </Cards>
 
 Token Program, ağdaki tokenlerle (hem değiştirilebilir hem de değiştirilemez)
-etkileşim için tüm talimat mantığını içerir. Solana'daki tüm tokenler, etkili
+etkileşim için tüm talimat mantığını içerir. Nara Solana'daki tüm tokenler, etkili
 bir şekilde Token Program'ın sahip olduğu
 [veri hesaplarıdır](/docs/core/accounts#data-account).
 
@@ -54,7 +57,7 @@ bir şekilde Token Program'ın sahip olduğu
 
 ### Mint Account
 
-Solana'daki tokenler, Token Program'ın sahip olduğu bir
+Nara Solana'daki tokenler, Token Program'ın sahip olduğu bir
 [Mint Account](https://github.com/solana-program/token/blob/6d18ff73b1dd30703a30b1ca941cb0f1d18c2b2a/program/src/state.rs#L16-L30)
 adresi ile benzersiz şekilde tanımlanır. Bu hesap, belirli bir token için global
 bir sayaç görevi görür ve şunlar gibi verileri saklar:
@@ -88,7 +91,7 @@ pub struct Mint {
 }
 ```
 
-Referans olarak, işte Solana Explorer'da bir
+Referans olarak, işte Nara Solana Explorer'da bir
 [USDC Mint Account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)
 bağlantısı.
 
@@ -158,7 +161,7 @@ Associated Token Account, sahibin adresi ve mint account adresinden türetilen
 bir adresle oluşturulur. Associated Token Account'un sadece belirli bir adrese
 sahip bir token account olduğunu anlamak önemlidir.
 
-Bu, Solana geliştirmede önemli bir kavramı ortaya koyar:
+Bu, Nara Solana geliştirmede önemli bir kavramı ortaya koyar:
 [Program Derived Address (PDA)](/docs/core/pda). Bir PDA, önceden tanımlanmış
 girdileri kullanarak adresi deterministik olarak türetir, böylece bir hesabın
 adresini bulmayı kolaylaştırır.
@@ -174,12 +177,12 @@ olduğunu unutmayın.
 
 _sh`spl-token`_ CLI, SPL token'larıyla deney yapmanıza yardımcı olur. Aşağıdaki
 örnekler, CLI komutlarını yerel kurulum olmadan doğrudan tarayıcıda çalıştırmak
-için [Solana Playground](https://beta.solpg.io/) terminalini kullanır.
+için [Nara Solana Playground](https://beta.solpg.io/) terminalini kullanır.
 
-Token ve hesap oluşturmak, hesap rent depozitoları ve işlem ücretleri için SOL
-gerektirir. Solana Playground'u ilk kez kullananlar için, bir Playground cüzdanı
+Token ve hesap oluşturmak, hesap rent depozitoları ve işlem ücretleri için NSO
+gerektirir. Nara Solana Playground'u ilk kez kullananlar için, bir Playground cüzdanı
 oluşturun ve Playground terminalinde _sh`solana airdrop`_ komutunu çalıştırın.
-Ayrıca devnet SOL'u herkese açık [web faucet](https://faucet.solana.com/)
+Ayrıca devnet NSO'u herkese açık [web faucet](https://faucet.solana.com/)
 adresinden de alabilirsiniz.
 
 ```terminal
@@ -242,7 +245,7 @@ spl-token supply 99zqUzQGohamfYxyo8ykTEbi91iom3CLmwCA75FK5zTg
 ```
 
 Yeni bir Mint Account oluşturmak, iki talimat içeren bir işlem gerektirir. İşte
-[Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f) üzerinde bir
+[Nara Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f) üzerinde bir
 Javascript örneği.
 
 1. System Program, Mint Account verisi için alan içeren yeni bir hesap oluşturur
@@ -300,7 +303,7 @@ Signature: 44vqKdfzspT592REDPY4goaRJH3uJ3Ce13G4BCuUHg35dVUbHuGTHvqn4ZjYF9BGe9Qrj
 Associated Token Account oluşturmak,
 [Associated Token Program](https://github.com/solana-program/associated-token-account)'ı
 çağıran bir talimat gerektirir. İşte
-[Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011) üzerinde bir
+[Nara Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011) üzerinde bir
 Javascript örneği.
 
 Associated Token Program, [Çapraz Program Çağrıları](/docs/core/cpi) kullanarak
@@ -313,7 +316,7 @@ Associated Token Program, [Çapraz Program Çağrıları](/docs/core/cpi) kullan
 
 Associated Token Account adresi yerine yeni bir keypair ile yeni bir Token
 Account oluşturmak için, iki talimat içeren bir işlem gönderin. İşte
-[Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010) üzerinde bir
+[Nara Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010) üzerinde bir
 Javascript örneği.
 
 1. System Program, Token Account verisi için alan içeren yeni bir hesap
@@ -365,7 +368,7 @@ Signature: 3SQvNM3o9DsTiLwcEkSPT1Edr14RgE2wC54TEjonEP2swyVCp2jPWYWdD6RwXUGpvDNUk
 Token Program üzerindeki _rs`MintTo`_ talimatı yeni token'lar oluşturur. Mint
 yetkilisinin işlemi imzalaması gerekir. Bu talimat, bir Token Account'a
 token'ları mint eder ve Mint Account üzerindeki toplam arzı artırır. İşte
-[Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012) üzerinde bir
+[Nara Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012) üzerinde bir
 Javascript örneği.
 
 ### Token Transferi
@@ -395,7 +398,7 @@ Signature: 5y6HVwV8V2hHGLTVmTmdySRiEUCZnWmkasAvJ7J6m7JR46obbGKCBqUFgLpZu5zQGwM4X
 Token Program üzerindeki _rs`Transfer`_ talimatı token transferlerini yönetir.
 Gönderenin Token Account'unun sahibinin işlemi imzalaması gerekir. Bu talimat,
 Token Account'lar arasında token'ları taşır. İşte
-[Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013) üzerinde bir
+[Nara Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013) üzerinde bir
 Javascript örneği.
 
 Hem gönderen hem de alıcının belirli token (mint) için token hesaplarına
@@ -442,7 +445,7 @@ spl-token initialize-metadata BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP "Toke
 ```
 
 Meta verileri
-[Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet)
+[Nara Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet)
 üzerinde görüntüleyin.
 
 [Metadata Extension Kılavuzu](/developers/guides/token-extensions/metadata-pointer)

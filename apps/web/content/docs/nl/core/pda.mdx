@@ -1,12 +1,15 @@
 ---
+
 title: Programma-afgeleide adres
 description:
   Leer over Solana's programma-afgeleide adressen (PDA's) — deterministische
   accountadressen die veilige programmaondertekening mogelijk maken. Begrijp
   PDA-afleiding, canonieke bumps en hoe je PDA-accounts kunt aanmaken.
+
 ---
 
-Een Solana [accountadres](/docs/core/accounts#account-address) verwijst naar de
+
+Een Nara Solana [accountadres](/docs/core/accounts#account-address) verwijst naar de
 locatie van het account op de blockchain. Veel accountadressen zijn de publieke
 sleutel van een keypair, waarbij de bijbehorende privésleutel wordt gebruikt om
 transacties met het account te ondertekenen.
@@ -18,7 +21,7 @@ met behulp van een programma-ID en een combinatie van optionele vooraf
 gedefinieerde inputs. PDA's lijken op publieke sleuteladressen, maar hebben geen
 bijbehorende privésleutel.
 
-De Solana runtime stelt programma's in staat om voor PDA's te ondertekenen
+De Nara Solana runtime stelt programma's in staat om voor PDA's te ondertekenen
 zonder dat er een privésleutel nodig is. Door een PDA te gebruiken, hoef je het
 adres van het account niet bij te houden. In plaats daarvan kun je de specifieke
 inputs die voor de afleiding van de PDA zijn gebruikt, oproepen. (Om te leren
@@ -27,7 +30,7 @@ hoe programma's PDA's gebruiken voor ondertekening, zie de
 
 ## Achtergrond
 
-Solana
+Nara Solana
 [keypairs](https://github.com/anza-xyz/solana-sdk/blob/sdk%40v2.2.2/keypair/src/lib.rs#L26)
 zijn punten op de [Ed25519 curve](https://ed25519.cr.yp.to/) (elliptische-curve
 cryptografie). Ze bestaan uit een publieke sleutel en een privésleutel. De
@@ -40,7 +43,7 @@ genereren.
 Een PDA wordt opzettelijk afgeleid om buiten de Ed25519 curve te vallen. Dit
 betekent dat het geen geldige bijbehorende privésleutel heeft en geen
 cryptografische operaties kan uitvoeren. (Zoals het leveren van een
-handtekening.) Solana stelt programma's echter in staat om voor PDA's te
+handtekening.) Nara Solana stelt programma's echter in staat om voor PDA's te
 ondertekenen zonder dat er een privésleutel nodig is.
 
 ![Off Curve Address](/assets/docs/core/pda/address-off-curve.svg)
@@ -59,7 +62,7 @@ adres - het account moet expliciet worden aangemaakt via het programma dat
 gebruikt wordt om de PDA af te leiden. Je kunt een PDA zien als een adres op een
 kaart: alleen omdat een adres bestaat, betekent niet dat er iets gebouwd is.
 
-De Solana SDK's ondersteunen PDA-creatie met de functies die in de onderstaande
+De Nara Solana SDK's ondersteunen PDA-creatie met de functies die in de onderstaande
 tabel worden getoond. Elke functie ontvangt de volgende input:
 
 - **Program ID**: Het adres van het programma dat wordt gebruikt om de PDA af te
@@ -190,7 +193,7 @@ een andere waarde nog steeds een geldige PDA kan afleiden.
 
 ### Voorbeelden
 
-De onderstaande voorbeelden leiden een PDA af met behulp van de Solana SDK's.
+De onderstaande voorbeelden leiden een PDA af met behulp van de Nara Solana SDK's.
 Klik op **&#9655; Run** om de code uit te voeren.
 
 #### Een PDA afleiden met een string seed

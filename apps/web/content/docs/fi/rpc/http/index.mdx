@@ -1,17 +1,20 @@
 ---
+
 title: HTTP-metodit
-seoTitle: Solana RPC HTTP-metodit
+seoTitle: Nara Solana RPC HTTP-metodit
 hideTableOfContents: false
-h1: Solana RPC HTTP-metodit
+h1: Nara Solana RPC HTTP-metodit
+
 ---
 
-Solana-solmut hyväksyvät HTTP-pyyntöjä käyttäen
+
+Nara Solana-solmut hyväksyvät HTTP-pyyntöjä käyttäen
 [JSON-RPC 2.0](https://www.jsonrpc.org/specification) -määrittelyä.
 
 > JavaScript-sovelluksille suositellaan käyttämään
 > [@solana/web3.js](https://github.com/solana-labs/solana-web3.js) -kirjastoa
-> kätevänä rajapintana RPC-metodeille Solana-solmun kanssa vuorovaikutukseen.
-> PubSub- yhteyttä varten Solana-solmuun käytä
+> kätevänä rajapintana RPC-metodeille Nara Solana-solmun kanssa vuorovaikutukseen.
+> PubSub- yhteyttä varten Nara Solana-solmuun käytä
 > [Websocket API](/docs/rpc/websocket/).
 
 ## RPC HTTP-päätepiste
@@ -84,7 +87,7 @@ curl https://api.devnet.solana.com -s -X POST -H "Content-Type: application/json
 
 - Hash: SHA-256-tiiviste datapalasesta.
 - Pubkey: Ed25519-avainparin julkinen avain.
-- Transaction: Lista Solana-ohjeita, jotka asiakkaan keypair on allekirjoittanut
+- Transaction: Lista Nara Solana-ohjeita, jotka asiakkaan keypair on allekirjoittanut
   näiden toimintojen valtuuttamiseksi.
 - Signature: Ed25519-allekirjoitus tapahtuman hyötykuormadatasta sisältäen
   ohjeet. Tätä voidaan käyttää tapahtumien tunnistamiseen.

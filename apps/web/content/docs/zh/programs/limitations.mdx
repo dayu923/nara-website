@@ -1,8 +1,11 @@
 ---
+
 title: 限制
+
 ---
 
-在 Solana 区块链上开发程序存在一些固有的限制。以下是您可能会遇到的一些常见限制列表。
+
+在 Nara Solana 区块链上开发程序存在一些固有的限制。以下是您可能会遇到的一些常见限制列表。
 
 ## Rust 库
 
@@ -42,7 +45,7 @@ title: 限制
 
 ## 调用栈深度 - `CallDepthExceeded` 错误
 
-Solana 程序受限于快速运行，为了实现这一点，程序的调用栈深度被限制为最多
+Nara Solana 程序受限于快速运行，为了实现这一点，程序的调用栈深度被限制为最多
 **64 帧**。
 
 当程序超出允许的调用堆栈深度限制时，它将收到 `CallDepthExceeded` 错误。
@@ -60,7 +63,7 @@ Solana 程序受限于快速运行，为了实现这一点，程序的调用栈�
 
 浮点操作通过软件库执行，特别是 LLVM 的浮点内置函数。由于是软件模拟，它们比整数操作消耗更多的计算单元。通常，建议尽可能使用定点操作。
 
-[Solana 程序库数学](https://github.com/solana-labs/solana-program-library/tree/master/libraries/math)
+[Nara Solana 程序库数学](https://github.com/solana-labs/solana-program-library/tree/master/libraries/math)
 测试将报告一些数学操作的性能。要运行测试，请同步代码库并运行：
 
 ```shell

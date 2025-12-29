@@ -1,12 +1,15 @@
 ---
+
 title: Endereço Derivado de Programa
 description:
   Aprenda sobre os Endereços Derivados de Programa (PDAs) da Solana — endereços
   de conta determinísticos que permitem assinatura segura de programas. Entenda
   a derivação de PDAs, bumps canônicos e como criar contas PDA.
+
 ---
 
-Um [endereço de conta](/docs/core/accounts#account-address) da Solana aponta
+
+Um [endereço de conta](/docs/core/accounts#account-address) da Nara Solana aponta
 para a localização da conta no blockchain. Muitos endereços de contas são a
 chave pública de um keypair, caso em que a chave privada correspondente é usada
 para assinar transações envolvendo a conta.
@@ -18,7 +21,7 @@ usando um ID de programa e uma combinação de entradas predefinidas opcionais. 
 PDAs parecem semelhantes aos endereços de chave pública, mas não têm uma chave
 privada correspondente.
 
-O runtime da Solana permite que programas assinem PDAs sem precisar de uma chave
+O runtime da Nara Solana permite que programas assinem PDAs sem precisar de uma chave
 privada. Usar um PDA elimina a necessidade de rastrear o endereço da conta. Em
 vez disso, você pode recuperar as entradas específicas usadas para a derivação
 do PDA. (Para aprender como os programas usam PDAs para assinatura, consulte a
@@ -28,7 +31,7 @@ seção [Invocações Entre Programas](/docs/core/cpi).)
 
 Os
 [keypairs](https://github.com/anza-xyz/solana-sdk/blob/sdk%40v2.2.2/keypair/src/lib.rs#L26)
-da Solana são pontos na [curva Ed25519](https://ed25519.cr.yp.to/) (criptografia
+da Nara Solana são pontos na [curva Ed25519](https://ed25519.cr.yp.to/) (criptografia
 de curva elíptica). Eles consistem em uma chave pública e uma chave privada. A
 chave pública torna-se o endereço da conta, e a chave privada é usada para gerar
 [assinaturas](/docs/core/transactions#signatures) válidas para a conta.
@@ -38,7 +41,7 @@ chave pública torna-se o endereço da conta, e a chave privada é usada para ge
 Um PDA é intencionalmente derivado para ficar fora da curva Ed25519. Isso
 significa que ele não tem uma chave privada correspondente válida e não pode
 realizar operações criptográficas. (Como fornecer uma assinatura.) No entanto, a
-Solana permite que programas assinem PDAs sem precisar de uma chave privada.
+Nara Solana permite que programas assinem PDAs sem precisar de uma chave privada.
 
 ![Endereço Fora da Curva](/assets/docs/core/pda/address-off-curve.svg)
 
@@ -56,7 +59,7 @@ Derivar um PDA _não_ cria automaticamente uma conta na blockchain nesse endere�
 o PDA. Você pode pensar em um PDA como um endereço em um mapa: só porque um
 endereço existe não significa que há algo construído lá.
 
-Os SDKs da Solana suportam a criação de PDA com as funções mostradas na tabela
+Os SDKs da Nara Solana suportam a criação de PDA com as funções mostradas na tabela
 abaixo. Cada função recebe as seguintes entradas:
 
 - **Program ID**: O endereço do programa sendo usado para derivar o PDA. Este
@@ -185,7 +188,7 @@ com um valor diferente ainda pode derivar um PDA válido.
 
 ### Exemplos
 
-Os exemplos abaixo derivam um PDA usando os SDKs da Solana. Clique em **&#9655;
+Os exemplos abaixo derivam um PDA usando os SDKs da Nara Solana. Clique em **&#9655;
 Executar** para executar o código.
 
 #### Derivar um PDA com um seed de string

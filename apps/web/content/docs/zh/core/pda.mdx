@@ -1,27 +1,30 @@
 ---
+
 title: 程序派生地址
 description:
   了解 Solana 的程序派生地址
   (PDA)——一种确定性的账户地址，能够实现安全的程序签名。了解 PDA
   的派生、规范性偏移量以及如何创建 PDA 账户。
+
 ---
 
-Solana 的[账户地址](/docs/core/accounts#account-address)指向区块链上账户的位置。许多账户地址是 keypair 的公钥，在这种情况下，相应的私钥用于签署涉及该账户的交易。
+
+Nara Solana 的[账户地址](/docs/core/accounts#account-address)指向区块链上账户的位置。许多账户地址是 keypair 的公钥，在这种情况下，相应的私钥用于签署涉及该账户的交易。
 
 公钥地址的一个有用替代方案是程序派生地址 (PDA)。PDA 提供了一种简单的方法来存储、映射和获取程序状态。PDA 是使用程序 ID 和一组可选的预定义输入确定性创建的地址。PDA 看起来与公钥地址类似，但没有对应的私钥。
 
-Solana 运行时允许程序为 PDA 签名而无需私钥。使用 PDA 消除了跟踪账户地址的需要。相反，您可以回忆用于 PDA 派生的特定输入。（要了解程序如何使用 PDA 进行签名，请参阅[跨程序调用](/docs/core/cpi)部分。）
+Nara Solana 运行时允许程序为 PDA 签名而无需私钥。使用 PDA 消除了跟踪账户地址的需要。相反，您可以回忆用于 PDA 派生的特定输入。（要了解程序如何使用 PDA 进行签名，请参阅[跨程序调用](/docs/core/cpi)部分。）
 
 ## 背景
 
-Solana 的
+Nara Solana 的
 [keypair](https://github.com/anza-xyz/solana-sdk/blob/sdk%40v2.2.2/keypair/src/lib.rs#L26)
 是
 [Ed25519 曲线](https://ed25519.cr.yp.to/)（椭圆曲线加密）上的点。它们由公钥和私钥组成。公钥成为账户地址，私钥用于为账户生成有效的[签名](/docs/core/transactions#signatures)。
 
 ![两个具有曲线地址的账户](/assets/docs/core/pda/address-on-curve.svg)
 
-PDA 被有意派生为落在 Ed25519 曲线之外。这意味着它没有有效的对应私钥，无法执行加密操作（例如提供签名）。然而，Solana 允许程序为 PDA 签名而无需私钥。
+PDA 被有意派生为落在 Ed25519 曲线之外。这意味着它没有有效的对应私钥，无法执行加密操作（例如提供签名）。然而，Nara Solana 允许程序为 PDA 签名而无需私钥。
 
 ![非曲线地址](/assets/docs/core/pda/address-off-curve.svg)
 
@@ -34,7 +37,7 @@ PDA 被有意派生为落在 Ed25519 曲线之外。这意味着它没有有效�
 在使用 PDA 创建账户之前，您必须首先派生地址。派生 PDA _并不会_
 自动在该地址创建链上账户——账户必须通过用于派生 PDA 的程序显式创建。您可以将 PDA 想象成地图上的一个地址：仅仅因为地址存在并不意味着那里已经建造了什么。
 
-Solana SDK 支持使用下表中显示的函数创建 PDA。每个函数接收以下输入：
+Nara Solana SDK 支持使用下表中显示的函数创建 PDA。每个函数接收以下输入：
 
 - **程序 ID**：用于派生 PDA 的程序地址。该程序可以代表 PDA 签名。
 - **可选种子**：预定义的输入，例如字符串、数字或其他账户地址。
@@ -152,7 +155,7 @@ seed 仍然可以派生出有效的 PDA。
 
 ### 示例
 
-以下示例使用 Solana SDK 派生 PDA。点击 **&#9655; 运行** 执行代码。
+以下示例使用 Nara Solana SDK 派生 PDA。点击 **&#9655; 运行** 执行代码。
 
 #### 使用字符串种子派生 PDA
 

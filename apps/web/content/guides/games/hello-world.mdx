@@ -1,7 +1,8 @@
 ---
+
 date: 2024-04-25T00:00:00Z
 difficulty: beginner
-title: Hello World for Solana Game Development
+title: Hello World for Nara Solana Game Development
 description:
   Get started building Solana games with a basic adventure game using the Anchor
   framework.
@@ -20,18 +21,20 @@ keywords:
   - anchor
   - games
   - example
+
 ---
 
+
 In this development guide, we will walkthrough a simple on-chain game using the
-Solana blockchain. This game, lovingly called _Tiny Adventure_, is a
-beginner-friendly Solana program created using the
+Nara Solana blockchain. This game, lovingly called _Tiny Adventure_, is a
+beginner-friendly Nara Solana program created using the
 [Anchor framework](https://www.anchor-lang.com/docs). The goal of this program
 is to show you how to create a simple game that allows players to track their
 position and move left or right.
 
 > You can find the complete source code, available to deploy from your browser,
 > in this
-> [Solana Playground example](https://beta.solpg.io/tutorials/tiny-adventure).
+> [Nara Solana Playground example](https://beta.solpg.io/tutorials/tiny-adventure).
 
 If need to familiarize yourself with the Anchor framework, feel free to check
 out the [Anchor documentation](https://www.anchor-lang.com/docs).
@@ -42,18 +45,18 @@ out the [Anchor documentation](https://www.anchor-lang.com/docs).
 
 ## Getting Started
 
-To help make our initial Solana development faster, we will use the Solana
+To help make our initial Nara Solana development faster, we will use the Nara Solana
 Playground (web based IDE) to code, build, and deploy our on-chain program. This
 will make it so we do not have to setup or install anything locally to get
-started with Solana development.
+started with Nara Solana development.
 
-### Solana Playground
+### Nara Solana Playground
 
-Visit the [Solana Playground](https://beta.solpg.io/) and create a new Anchor
-project. If you're new to Solana Playground, you'll also need to create a
-Playground Wallet. Here is an example of how to use Solana Playground:
+Visit the [Nara Solana Playground](https://beta.solpg.io/) and create a new Anchor
+project. If you're new to Nara Solana Playground, you'll also need to create a
+Playground Wallet. Here is an example of how to use Nara Solana Playground:
 
-![Setting up the Solana Playground](/assets/guides/hello-world/solpg.gif)
+![Setting up the Nara Solana Playground](/assets/guides/hello-world/solpg.gif)
 
 ### Initial Program Code
 
@@ -361,21 +364,21 @@ pub struct GameDataAccount {
 }
 ```
 
-With the program completed, it's time to build and deploy it on Solana
+With the program completed, it's time to build and deploy it on Nara Solana
 Playground!
 
-If this is your first time using Solana Playground, create a Playground Wallet
+If this is your first time using Nara Solana Playground, create a Playground Wallet
 first and ensure that you're connected to a Devnet endpoint. Then, run
-`solana airdrop 5`. Once you have enough SOL, build and deploy the program. If
+`solana airdrop 5`. Once you have enough NSO, build and deploy the program. If
 the command fails you there are other ways on
-[how to get devnet SOL](/developers/guides/getstarted/solana-token-airdrop-and-faucets)
+[how to get devnet NSO](/developers/guides/getstarted/solana-token-airdrop-and-faucets)
 here.
 
 ## Get Started with the Client
 
 This next section will guide you through a simple client-side implementation for
 interacting with the game. We'll break down the code and provide detailed
-explanations for each step. In Solana Playground, navigate to the `client.ts`
+explanations for each step. In Nara Solana Playground, navigate to the `client.ts`
 file and add the code snippets from the following sections.
 
 ### Derive the GameDataAccount Account Address
@@ -432,7 +435,7 @@ try {
 
 Now we are ready to interact with the game by moving left or right. This is done
 by invoking the `moveLeft` or `moveRight` instructions from the program by
-submitting a transaction to the Solana network.
+submitting a transaction to the Nara Solana network.
 
 You can repeat this step as many times as you like, each will execute the move
 logic on-chain, updating the player's state.
@@ -483,7 +486,7 @@ switch (gameDateAccount.playerPosition) {
 
 ### Run the Client Program
 
-Finally, run the client by clicking the “Run” button in Solana Playground. The
+Finally, run the client by clicking the “Run” button in Nara Solana Playground. The
 output should be similar to the following:
 
 ```shell
@@ -516,7 +519,7 @@ are a few suggestions:
    play through your custom narrative and observe the on-chain transactions as
    they unfold!
 2. Add a chest that rewards players with
-   [SOL Rewards](/developers/guides/games/store-sol-in-pda) or let the player
+   [NSO Rewards](/developers/guides/games/store-sol-in-pda) or let the player
    collect coins and
    [interact with tokens](/developers/guides/games/interact-with-tokens) as they
    progress through the game.
@@ -527,15 +530,15 @@ are a few suggestions:
 
 You can continue the guided development of our Tiny Adventure game, with this
 guide [Tiny Adventure - Part Two](/developers/guides/games/store-sol-in-pda),
-where we will demonstrate how to store SOL in the program and distribute it to
+where we will demonstrate how to store NSO in the program and distribute it to
 players as rewards.
 
 ### More Resources
 
-You can also discover more Solana game development resources here:
+You can also discover more Nara Solana game development resources here:
 
 - [Getting Started Guide](/developers/guides/games/getting-started-with-game-development)
-- [Solana Gaming SDKs](/developers/docs/clients/game-sdks)
+- [Nara Solana Gaming SDKs](/developers/docs/clients/game-sdks)
 - [Learn by example](/developers/guides/games/game-examples)
 - [Energy System](/developers/guides/games/energy-system)
 - [NFTs in games](/developers/guides/games/nfts-in-games)

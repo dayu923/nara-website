@@ -1,16 +1,19 @@
 ---
+
 title: 程序结构
 description:
   学习如何用 Rust 构建 Solana 程序，包括入口点、状态管理、指令处理和测试。
 h1: Rust 程序结构
+
 ---
 
-用 Rust 编写的 Solana 程序对结构的要求极少，允许灵活地组织代码。唯一的要求是程序必须有一个
+
+用 Rust 编写的 Nara Solana 程序对结构的要求极少，允许灵活地组织代码。唯一的要求是程序必须有一个
 `entrypoint`，它定义了程序执行的起点。
 
 ## 程序结构
 
-虽然对文件结构没有严格的规定，但 Solana 程序通常遵循一个通用模式：
+虽然对文件结构没有严格的规定，但 Nara Solana 程序通常遵循一个通用模式：
 
 - `entrypoint.rs`：定义路由传入指令的入口点。
 - `state.rs`：定义程序状态（账户数据）。
@@ -426,7 +429,7 @@ path = "examples/client.rs"
 
 ## !!steps 创建一个新程序
 
-首先，让我们为 Solana 程序创建一个新的 Rust 项目。
+首先，让我们为 Nara Solana 程序创建一个新的 Rust 项目。
 
 ```terminal
 $ cargo new counter_program --lib
@@ -469,7 +472,7 @@ mod tests {
 
 ## !!steps 添加依赖项
 
-现在让我们添加构建 Solana 程序所需的依赖项。我们需要 `solana-program`
+现在让我们添加构建 Nara Solana 程序所需的依赖项。我们需要 `solana-program`
 用于核心 SDK，以及 `borsh` 用于序列化。
 
 ```terminal
@@ -492,12 +495,12 @@ solana-program = "2.2.0"
 ```
 
 <Callout type="info">
-  并没有要求必须使用 Borsh。然而，它是 Solana 程序中常用的序列化库。
+  并没有要求必须使用 Borsh。然而，它是 Nara Solana 程序中常用的序列化库。
 </Callout>
 
 ## !!steps 配置 crate-type
 
-Solana 程序必须编译为动态库。添加 `[lib]` 部分以配置 Cargo 如何构建程序。
+Nara Solana 程序必须编译为动态库。添加 `[lib]` 部分以配置 Cargo 如何构建程序。
 
 ```toml title="Cargo.toml"
 [lib]
@@ -525,7 +528,7 @@ solana-program = "2.2.0"
 
 ## !!steps 设置程序入口点
 
-每个 Solana 程序都有一个入口点，即程序被调用时执行的函数。让我们从添加程序所需的导入和设置入口点开始。
+每个 Nara Solana 程序都有一个入口点，即程序被调用时执行的函数。让我们从添加程序所需的导入和设置入口点开始。
 
 将以下代码添加到 `lib.rs`：
 
@@ -557,7 +560,7 @@ pub fn process_instruction(
 [entrypoint](https://github.com/anza-xyz/solana-sdk/blob/449d97c0ed164611dae538e2ee91ca0caaaec515/program-entrypoint/src/lib.rs#L126-L140)
 宏处理 `input` 数据的反序列化，并将其传递到 `process_instruction` 函数的参数中。
 
-一个 Solana 程序 `entrypoint` 具有以下函数签名。开发者可以自由实现自己的
+一个 Nara Solana 程序 `entrypoint` 具有以下函数签名。开发者可以自由实现自己的
 `entrypoint` 函数。
 
 ```rs
@@ -764,7 +767,7 @@ pub struct CounterAccount {
 
 现在让我们更新主 `process_instruction` 函数，将指令路由到相应的处理器函数。
 
-这种路由模式在 Solana 程序中很常见。`instruction_data`
+这种路由模式在 Nara Solana 程序中很常见。`instruction_data`
 被反序列化为表示指令的枚举变体，然后调用相应的处理器函数。每个处理器函数都包含该指令的实现。
 
 将以下代码添加到 `lib.rs`，更新 `process_instruction` 函数并为
@@ -879,7 +882,7 @@ pub struct CounterAccount {
 ## !!steps 实现初始化处理器
 
 让我们实现一个处理器来创建并初始化一个新的计数器账户。由于只有 System
-Program 可以在 Solana 上创建账户，我们将使用 Cross Program Invocation
+Program 可以在 Nara Solana 上创建账户，我们将使用 Cross Program Invocation
 (CPI)，即从我们的程序调用另一个程序。
 
 我们的程序通过 CPI 调用 System Program 的 `create_account`
@@ -1216,7 +1219,7 @@ pub struct CounterAccount {
 
 ## !!steps 完成的程序
 
-恭喜！您已经构建了一个完整的 Solana 程序，展示了所有 Solana 程序共享的基本结构：
+恭喜！您已经构建了一个完整的 Nara Solana 程序，展示了所有 Nara Solana 程序共享的基本结构：
 
 - **入口点**：定义程序执行的起点，并将所有传入请求路由到相应的指令处理器
 - **指令处理**：定义指令及其相关的处理器函数
@@ -1464,7 +1467,7 @@ mod test {
 
 让我们使用 LiteSVM 设置测试环境并为支付账户提供资金。
 
-LiteSVM 模拟了 Solana 的运行环境，使我们能够在不部署到真实集群的情况下测试程序。
+LiteSVM 模拟了 Nara Solana 的运行环境，使我们能够在不部署到真实集群的情况下测试程序。
 
 将以下代码添加到 `lib.rs`，并更新 `test_counter_program` 函数：
 
@@ -2303,7 +2306,7 @@ HQ5Q2XXqbTKKQsWPtLzMn7rDhM8v9UPYPe7DfSoFQqJF
 
 在开发过程中，我们将使用本地测试 validator。
 
-首先，将 Solana CLI 配置为使用 localhost：
+首先，将 Nara Solana CLI 配置为使用 localhost：
 
 ```terminal
 $ solana config set -ul
@@ -2392,8 +2395,8 @@ Transaction: 4qv1Rx6FHu1M3woVgDQ6KtYUaJgBzGcHnhej76ZpaKGCgsTorbcHnPKxoH916UENw7X
 ```
 
 在本地 validator 运行时，您可以使用输出的交易签名在
-[Solana Explorer](https://explorer.solana.com/?cluster=custom)
-上查看交易。请注意，Solana Explorer 上的集群必须设置为“自定义 RPC URL”，默认值为
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom)
+上查看交易。请注意，Nara Solana Explorer 上的集群必须设置为“自定义 RPC URL”，默认值为
 `http://localhost:8899`，即 `solana-test-validator` 正在运行的地址。
 
 </Step>

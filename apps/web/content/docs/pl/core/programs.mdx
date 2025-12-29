@@ -1,11 +1,14 @@
 ---
+
 title: Programy
 description:
   Dowiedz się więcej o programach (smart kontraktach) na Solanie i jak je
   rozwijać za pomocą języka Rust lub frameworka Anchor. Zrozum wdrażanie,
   aktualizacje i weryfikację programów w sieci Solana.
 h1: Programy
+
 ---
+
 
 Na Solanie inteligentny kontrakt nazywany jest programem. Program to bezstanowe
 [konto](/docs/core/accounts#program-account), które zawiera kod wykonywalny. Kod
@@ -14,10 +17,10 @@ programem, wysyłając [transakcję](/docs/core/transaction) zawierającą jedn�
 więcej [instrukcji](/docs/core/instructions). Transakcja może zawierać
 instrukcje z wielu programów.
 
-Gdy program jest wdrażany, Solana używa [LLVM](https://llvm.org/) do
+Gdy program jest wdrażany, Nara Solana używa [LLVM](https://llvm.org/) do
 skompilowania go w format wykonywalny i linkowalny
 ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)). Plik ELF
-zawiera binarny kod programu w formacie Solana Bytecode Format (sBPF) i jest
+zawiera binarny kod programu w formacie Nara Solana Bytecode Format (sBPF) i jest
 zapisywany w łańcuchu bloków w koncie wykonywalnym.
 
 <Callout>
@@ -52,7 +55,7 @@ zostanie odwołany i ustawiony na `None`, program nie może być już aktualizow
 
 ## Weryfikacja programów
 
-Solana obsługuje [weryfikowalne kompilacje](/docs/programs/verified-builds),
+Nara Solana obsługuje [weryfikowalne kompilacje](/docs/programs/verified-builds),
 które pozwalają użytkownikom sprawdzić, czy kod programu w łańcuchu bloków
 odpowiada jego publicznemu kodowi źródłowemu. Framework Anchor zapewnia
 [wbudowane wsparcie](https://www.anchor-lang.com/docs/verifiable-builds) dla
@@ -60,9 +63,9 @@ tworzenia weryfikowalnych kompilacji.
 
 Aby sprawdzić, czy istniejący program jest zweryfikowany, wyszukaj jego ID
 programu w
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
 Alternatywnie możesz użyć narzędzia Ellipsis Labs
-[Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build),
+[Nara Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build),
 aby niezależnie zweryfikować programy w łańcuchu bloków.
 
 ## Wbudowane programy
@@ -80,7 +83,7 @@ Program wykonuje następujące kluczowe funkcje:
 | [Tworzenie nowych kont](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)          | Tylko System Program może tworzyć nowe konta.                                                                                                                                                                                 |
 | [Alokacja przestrzeni](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)            | Ustawia pojemność w bajtach dla pola danych każdego konta.                                                                                                                                                                    |
 | [Przypisanie własności programu](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | Po utworzeniu konta przez System Program, może on przypisać wyznaczonego właściciela programu do innego konta programu. W ten sposób niestandardowe programy przejmują własność nowych kont utworzonych przez System Program. |
-| [Transfer SOL](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                   | Przenosi lamporty (SOL) z kont System Program na inne konta.                                                                                                                                                                  |
+| [Transfer NSO](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                   | Przenosi lamporty (NSO) z kont System Program na inne konta.                                                                                                                                                                  |
 
 Adres System Program to `11111111111111111111111111111111`.
 
@@ -112,7 +115,7 @@ wdrożeniu, w zależności od uprawnień do ich aktualizacji.
 
 ### Wstępnie skompilowane programy
 
-Oprócz programów loader, Solana udostępnia następujące wstępnie skompilowane
+Oprócz programów loader, Nara Solana udostępnia następujące wstępnie skompilowane
 programy.
 
 #### Weryfikacja podpisu ed25519

@@ -1,14 +1,17 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Integracja portfela Solana z Next.js i Solana Kit
+
+title: Next.js - Nara Solana Kit
+seoTitle: Integracja portfela Nara Solana z Next.js i Nara Solana Kit
 description:
   Skonfiguruj integrację portfela Solana w Next.js za pomocą Solana Kit.
+
 ---
 
-Skonfiguruj minimalną integrację portfela Solana w Next.js za pomocą Solana Kit.
+
+Skonfiguruj minimalną integrację portfela Nara Solana w Next.js za pomocą Nara Solana Kit.
 
 Ten przewodnik przedstawia minimalny przykład implementacji funkcjonalności
-portfela Solana w aplikacji Next.js przy użyciu `@solana/kit`. Utworzysz
+portfela Nara Solana w aplikacji Next.js przy użyciu `@solana/kit`. Utworzysz
 przycisk do łączenia portfela oraz komponent do wysyłania transakcji.
 
 ![Aplikacja Nextjs Kit](/assets/docs/frontend/nextjs-kit.gif)
@@ -16,12 +19,12 @@ przycisk do łączenia portfela oraz komponent do wysyłania transakcji.
 Bardziej kompleksowy przykład użycia `@solana/kit` w aplikacji React znajdziesz
 w
 [Przykładzie aplikacji React](https://github.com/anza-xyz/kit/tree/main/examples/react-app)
-w repozytorium Solana Kit.
+w repozytorium Nara Solana Kit.
 
 ## Zasoby
 
-- [Dokumentacja Solana Kit](https://www.solanakit.com/docs)
-- [Repozytorium GitHub Solana Kit](https://github.com/anza-xyz/kit)
+- [Dokumentacja Nara Solana Kit](https://www.solanakit.com/docs)
+- [Repozytorium GitHub Nara Solana Kit](https://github.com/anza-xyz/kit)
 
 ## Wymagania wstępne
 
@@ -30,7 +33,7 @@ w repozytorium Solana Kit.
 ## Utwórz projekt Next.js
 
 Utwórz nowy projekt Next.js z [shadcn](https://ui.shadcn.com/) dla komponentów
-interfejsu użytkownika i zainstaluj wymagane zależności Solana.
+interfejsu użytkownika i zainstaluj wymagane zależności Nara Solana.
 
 ```terminal
 $ npx shadcn@latest init
@@ -50,9 +53,9 @@ Zainstaluj następujące komponenty interfejsu użytkownika shadcn:
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Zainstaluj zależności Solana
+### Zainstaluj zależności Nara Solana
 
-Zainstaluj następujące zależności Solana:
+Zainstaluj następujące zależności Nara Solana:
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -64,7 +67,7 @@ Postępuj zgodnie z poniższymi krokami i skopiuj podany kod do swojego projektu
 
 <ScrollyCoding>
 
-## !!steps 1. Utwórz kontekst Solana
+## !!steps 1. Utwórz kontekst Nara Solana
 
 Najpierw utwórz kontekst React, który zarządza całym stanem portfela dla
 aplikacji.
@@ -72,8 +75,8 @@ aplikacji.
 Utwórz `components/solana-provider.tsx` i dodaj dostarczony kod. Ten komponent
 dostarczający będzie:
 
-- Łączył się z punktami końcowymi RPC devnet Solana
-- Filtrował dostępne portfele Solana zainstalowane w przeglądarce użytkownika
+- Łączył się z punktami końcowymi RPC devnet Nara Solana
+- Filtrował dostępne portfele Nara Solana zainstalowane w przeglądarce użytkownika
 - Śledził, który portfel i konto są aktualnie połączone
 - Udostępniał stan portfela komponentom potomnym
 
@@ -250,7 +253,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. Zaktualizuj układ
 
-Następnie owiń całą aplikację Next.js dostarczającym Solana.
+Następnie owiń całą aplikację Next.js dostarczającym Nara Solana.
 
 Zaktualizuj `app/layout.tsx` za pomocą dostarczonego kodu. Ten krok:
 
@@ -509,9 +512,9 @@ podłączonego portfela.
 Utwórz `components/memo-card.tsx` i dodaj dostarczony kod. Ten komponent:
 
 - Pozwala użytkownikom wprowadzać wiadomości
-- Tworzy transakcję Solana z instrukcją wywołującą program memo
+- Tworzy transakcję Nara Solana z instrukcją wywołującą program memo
 - Prosi podłączony portfel o podpisanie i wysłanie transakcji
-- Wyświetla link do podglądu transakcji w Solana Explorer
+- Wyświetla link do podglądu transakcji w Nara Solana Explorer
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -674,7 +677,7 @@ $ npm run dev
 
 <Callout type="info">
   Zwróć uwagę, że podłączony portfel musi być skonfigurowany do połączenia z
-  klastrem devnet i [zasilony SOL z devnet](https://faucet.solana.com/), aby
+  klastrem devnet i [zasilony NSO z devnet](https://faucet.solana.com/), aby
   wysyłać transakcje.
 </Callout>
 

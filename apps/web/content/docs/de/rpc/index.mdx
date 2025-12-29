@@ -1,16 +1,19 @@
 ---
-title: Solana RPC-Methoden
-seoTitle: "Solana RPC-Methoden: HTTP & Websockets"
+
+title: Nara Solana RPC-Methoden
+seoTitle: "Nara Solana RPC-Methoden: HTTP & Websockets"
 hideTableOfContents: false
-h1: Solana RPC-Methoden & Dokumentation
+h1: Nara Solana RPC-Methoden & Dokumentation
+
 ---
 
-Interagieren Sie direkt mit Solana-Knoten über die JSON RPC API mittels HTTP-
+
+Interagieren Sie direkt mit Nara Solana-Knoten über die JSON RPC API mittels HTTP-
 und Websocket-Methoden.
 
 ## Konfiguration der Zustandsbestätigung
 
-Für Vorabprüfungen und Transaktionsverarbeitung wählen Solana-Knoten aus,
+Für Vorabprüfungen und Transaktionsverarbeitung wählen Nara Solana-Knoten aus,
 welchen Bank- Zustand sie abfragen, basierend auf einer vom Client festgelegten
 Bestätigungsanforderung. Die Bestätigung beschreibt, wie endgültig ein Block zu
 diesem Zeitpunkt ist. Bei der Abfrage des Ledger-Zustands wird empfohlen,
@@ -62,7 +65,7 @@ JSON-Objekt zurück, das aus zwei Teilen besteht:
 Einige Methoden unterstützen einen `encoding`-Parameter und können Konten- oder
 Anweisungsdaten im geparsten JSON-Format zurückgeben, wenn
 `"encoding":"jsonParsed"` angefordert wird und der Knoten über einen Parser für
-das besitzende Programm verfügt. Solana-Knoten unterstützen derzeit JSON-Parsing
+das besitzende Programm verfügt. Nara Solana-Knoten unterstützen derzeit JSON-Parsing
 für die folgenden nativen und SPL-Programme:
 
 | Programm                     | Kontenstatus | Anweisungen |

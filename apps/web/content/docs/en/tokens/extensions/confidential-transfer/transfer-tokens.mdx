@@ -1,8 +1,11 @@
 ---
+
 title: Transfer Tokens
 description:
   Learn how to transfer tokens privately from one token account to another.
+
 ---
+
 
 <Callout type="warn">
   The ZK ElGamal Program is temporarily disabled on the mainnet and devnet as it
@@ -53,7 +56,7 @@ To transfer tokens confidentially:
    [ConfidentialTransferInstruction::Transfer](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L604)
    instruction, providing the proof context state accounts.
 
-4. Close the proof context state accounts to recover the SOL used to create
+4. Close the proof context state accounts to recover the NSO used to create
    them.
 
 The following diagram shows the steps involved in transferring tokens from a
@@ -113,7 +116,7 @@ The following example demonstrates how to confidentially transfer tokens between
 token accounts.
 
 To run the example, start a local validator with the Token Extension Program
-cloned from mainnet using the following command. You must have the Solana CLI
+cloned from mainnet using the following command. You must have the Nara Solana CLI
 installed to start the local validator.
 
 ```terminal

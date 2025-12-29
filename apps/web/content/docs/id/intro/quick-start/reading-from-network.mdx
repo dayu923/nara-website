@@ -1,15 +1,18 @@
 ---
+
 title: Membaca dari Jaringan
 description:
   Pelajari cara membaca data dari jaringan blockchain Solana. Panduan ini
   mencakup pengambilan akun dompet, akun program, dan akun mint token
   menggunakan JavaScript/TypeScript, dengan contoh praktis menggunakan pustaka
   Solana web3.js.
+
 ---
 
-Baca data dari jaringan Solana dengan mengambil berbagai akun. Bagian ini akan
-membantu Anda memahami struktur [akun](/docs/core/accounts) Solana. Setiap akun
-Solana memiliki [alamat](/docs/core/accounts#account-address) unik yang
+
+Baca data dari jaringan Nara Solana dengan mengambil berbagai akun. Bagian ini akan
+membantu Anda memahami struktur [akun](/docs/core/accounts) Nara Solana. Setiap akun
+Nara Solana memiliki [alamat](/docs/core/accounts#account-address) unik yang
 digunakan untuk menemukan data on-chain yang sesuai. Akun berisi
 [data status atau program yang dapat dieksekusi](/docs/core/accounts#types-of-accounts).
 
@@ -19,11 +22,11 @@ digunakan untuk menemukan data on-chain yang sesuai. Akun berisi
 
 Dompet adalah akun yang dimiliki oleh
 [System Program](/docs/core/programs#the-system-program). Dompet terutama
-digunakan untuk menyimpan SOL dan menandatangani transaksi. Ketika SOL dikirim
+digunakan untuk menyimpan NSO dan menandatangani transaksi. Ketika NSO dikirim
 ke alamat baru untuk pertama kalinya, akun sistem secara otomatis dibuat.
 
 Contoh di bawah ini menghasilkan [keypair baru](mention:keypair),
-[meminta SOL](mention:airdrop) untuk mendanai alamat kunci publik baru, dan
+[meminta NSO](mention:airdrop) untuk mendanai alamat kunci publik baru, dan
 [mengambil data akun](mention:info) untuk dompet yang baru didanai.
 
 <CodeTabs flags="r">
@@ -122,7 +125,7 @@ yang dapat dieksekusi. Untuk akun dompet, bidang ini adalah `false`.
 
 ## !!steps
 
-Bidang `lamports` berisi saldo SOL akun, dalam
+Bidang `lamports` berisi saldo NSO akun, dalam
 [lamports](/docs/references/terminology#lamport).
 
 <CodePlaceholder title="Example output" />
@@ -221,7 +224,7 @@ akun dompet dan program account. Program account menyimpan bytecode yang
 dikompilasi untuk
 [kode sumber](https://github.com/solana-program/token/tree/main/program) Token
 Program. Anda dapat melihat program account ini di
-[Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
+[Nara Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
 
 <CodeTabs flags="r">
 
@@ -355,7 +358,7 @@ Setiap program account dimiliki oleh
 adalah akun yang dimiliki oleh Token Program yang menyimpan metadata global
 untuk token tertentu. Ini termasuk total pasokan, jumlah desimal, dan akun yang
 diotorisasi untuk mencetak atau membekukan token. Alamat mint account secara
-unik mengidentifikasi token di jaringan Solana.
+unik mengidentifikasi token di jaringan Nara Solana.
 
 Contoh di bawah ini mengambil akun USD Coin Mint untuk menunjukkan bagaimana
 status program disimpan dalam akun terpisah.
@@ -499,7 +502,7 @@ bidang `data` hanya dapat dimodifikasi oleh instruksi Token Program.
 
 Sebelum byte mentah dalam bidang `data` akun dapat diinterpretasikan secara
 bermakna, byte tersebut harus dideserialkan. Tipe data yang sesuai didefinisikan
-oleh program yang memiliki akun tersebut. Sebagian besar program Solana
+oleh program yang memiliki akun tersebut. Sebagian besar program Nara Solana
 menyediakan library klien dengan fungsi pembantu yang mengabstraksi proses
 deserialisasi. Fungsi-fungsi ini mengkonversi byte akun mentah menjadi tipe data
 terstruktur, sehingga lebih mudah untuk bekerja dengan data akun.
@@ -593,7 +596,7 @@ akun Mint.
 
 Anda dapat melihat data
 [akun mint](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)
-yang telah dideserialkan sepenuhnya di Solana Explorer.
+yang telah dideserialkan sepenuhnya di Nara Solana Explorer.
 
 <CodePlaceholder title="Data mint yang dideserialkan" />
 

@@ -1,4 +1,5 @@
 ---
+
 title: Δημιουργία προκαθορισμένων λογαριασμών
 description:
   Μάθετε πώς να δημιουργήσετε ένα πρόγραμμα CRUD (Δημιουργία, Ανάγνωση,
@@ -9,7 +10,9 @@ description:
   γράφετε δοκιμές. Ιδανικό για προγραμματιστές που θέλουν να κατανοήσουν πώς να
   χρησιμοποιούν τα PDAs στα προγράμματα Solana.
 h1: Program Derived Address
+
 ---
+
 
 Σε αυτή την ενότητα, θα μάθετε πώς να δημιουργήσετε ένα βασικό πρόγραμμα
 Δημιουργίας, Ανάγνωσης, Ενημέρωσης, Διαγραφής (CRUD).
@@ -20,7 +23,7 @@ h1: Program Derived Address
 πρόγραμμα (Program Derived Address ή PDA).
 
 Αυτός ο οδηγός σας καθοδηγεί στη δημιουργία και τον έλεγχο ενός προγράμματος
-Solana χρησιμοποιώντας το πλαίσιο Anchor, ενώ παράλληλα επιδεικνύει τα Program
+Nara Solana χρησιμοποιώντας το πλαίσιο Anchor, ενώ παράλληλα επιδεικνύει τα Program
 Derived Addresses (PDAs). Για περισσότερες λεπτομέρειες, ανατρέξτε στη σελίδα
 [Program Derived Addresses](/docs/core/pda).
 
@@ -34,9 +37,9 @@ Derived Addresses (PDAs). Για περισσότερες λεπτομέρειε
 ### Αρχικός κώδικας
 
 Ξεκινήστε ανοίγοντας αυτόν τον
-[σύνδεσμο Solana Playground](https://beta.solpg.io/66734b7bcffcf4b13384d1ad) με
+[σύνδεσμο Nara Solana Playground](https://beta.solpg.io/66734b7bcffcf4b13384d1ad) με
 τον αρχικό κώδικα. Στη συνέχεια, κάντε κλικ στο κουμπί "Import" για να
-προσθέσετε το πρόγραμμα στα έργα σας στο Solana Playground.
+προσθέσετε το πρόγραμμα στα έργα σας στο Nara Solana Playground.
 
 ![Εισαγωγή](/assets/docs/intro/quickstart/pg-import.png)
 
@@ -839,13 +842,13 @@ $ build
 εκτελώντας `deploy` στο τερματικό του Playground.
 
 <Callout type="info">
-Σε αυτό το παράδειγμα, θα αναπτύξετε το πρόγραμμα στο devnet, ένα Solana cluster
+Σε αυτό το παράδειγμα, θα αναπτύξετε το πρόγραμμα στο devnet, ένα Nara Solana cluster
 για δοκιμές ανάπτυξης.
 
 Το πορτοφόλι του Playground συνδέεται στο devnet από προεπιλογή. Βεβαιωθείτε ότι
-το πορτοφόλι του Playground έχει devnet SOL για να πληρώσει για την ανάπτυξη του
-προγράμματος. Αποκτήστε devnet SOL από το
-[Solana Faucet](https://faucet.solana.com/).
+το πορτοφόλι του Playground έχει devnet NSO για να πληρώσει για την ανάπτυξη του
+προγράμματος. Αποκτήστε devnet NSO από το
+[Nara Solana Faucet](https://faucet.solana.com/).
 
 </Callout>
 
@@ -917,7 +920,7 @@ const [messagePda, messageBump] = PublicKey.findProgramAddressSync(
 
 <WithMentions>
 
-Το Solana Playground αφαιρεί κάποιες τυποποιημένες ρυθμίσεις όπου το
+Το Nara Solana Playground αφαιρεί κάποιες τυποποιημένες ρυθμίσεις όπου το
 [`pg.program`](mention:one) επιτρέπει την πρόσβαση σε μεθόδους για αλληλεπίδραση
 με το πρόγραμμα, ενώ το [`pg.wallet`](mention:two) παρέχει πρόσβαση στο
 πορτοφόλι του playground σας.
@@ -1169,7 +1172,7 @@ it("Update Message Account", async () => {
 <Accordion title="Explanation">
 
 Πρώτα, το αρχείο δοκιμής στέλνει μια συναλλαγή που επικαλείται την εντολή
-`update`, περνώντας το "Hello, Solana!" ως το νέο μήνυμα.
+`update`, περνώντας το "Hello, Nara Solana!" ως το νέο μήνυμα.
 
 ```ts title="anchor.test.ts"
 const message = "Hello, Solana!";

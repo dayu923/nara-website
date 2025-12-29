@@ -1,34 +1,37 @@
 ---
+
 title: Menulis ke Jaringan
 description:
   Pelajari cara berinteraksi dengan jaringan Solana dengan mengirim transaksi
   dan instruksi. Ikuti contoh langkah demi langkah untuk mentransfer token SOL
   dan membuat token baru menggunakan System Program dan Token Extensions
   Program.
+
 ---
 
+
 Pada bagian sebelumnya, Anda telah mempelajari cara membaca data dari jaringan
-Solana. Sekarang Anda akan belajar cara menulis data ke jaringan tersebut.
-Menulis ke jaringan Solana melibatkan pengiriman transaksi yang berisi satu atau
+Nara Solana. Sekarang Anda akan belajar cara menulis data ke jaringan tersebut.
+Menulis ke jaringan Nara Solana melibatkan pengiriman transaksi yang berisi satu atau
 lebih instruksi.
 
 Program mendefinisikan logika bisnis untuk apa yang dilakukan oleh setiap
 [instruksi](/docs/core/instructions). Ketika Anda mengirimkan
-[transaksi](/docs/core/transactions), runtime Solana mengeksekusi setiap
+[transaksi](/docs/core/transactions), runtime Nara Solana mengeksekusi setiap
 instruksi secara berurutan dan atomik. Contoh-contoh dalam bagian ini
 menunjukkan cara membangun dan mengirim transaksi untuk memanggil program
-Solana, termasuk:
+Nara Solana, termasuk:
 
-1. Mentransfer SOL antar akun
+1. Mentransfer NSO antar akun
 2. Membuat token baru
 
-## Transfer SOL
+## Transfer NSO
 
-Contoh di bawah ini mentransfer SOL antara dua akun. Setiap akun memiliki
+Contoh di bawah ini mentransfer NSO antara dua akun. Setiap akun memiliki
 program pemilik, yang merupakan satu-satunya program yang dapat mengurangi saldo
-SOL akun.
+NSO akun.
 
-Semua akun dompet dimiliki oleh System Program. Untuk mentransfer SOL, Anda
+Semua akun dompet dimiliki oleh System Program. Untuk mentransfer NSO, Anda
 harus memanggil instruksi
 [transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)
 dari System Program.
@@ -92,7 +95,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !connection
 
-Buat koneksi ke cluster Solana.
+Buat koneksi ke cluster Nara Solana.
 
 ### !sender
 
@@ -104,7 +107,7 @@ Buat keypair baru untuk digunakan sebagai `receiver`.
 
 ### !airdrop
 
-Minta airdrop SOL untuk mendanai `sender`.
+Minta airdrop NSO untuk mendanai `sender`.
 
 ### !instruction
 
@@ -177,8 +180,8 @@ const receiver = new Keypair();
 
 ## !!steps
 
-Tambahkan SOL ke akun pengirim. Pada jaringan selain mainnet, Anda dapat
-menggunakan metode `requestAirdrop` untuk mendapatkan SOL untuk pengujian.
+Tambahkan NSO ke akun pengirim. Pada jaringan selain mainnet, Anda dapat
+menggunakan metode `requestAirdrop` untuk mendapatkan NSO untuk pengujian.
 
 ```ts title="Airdrop"
 const signature = await connection.requestAirdrop(
@@ -215,7 +218,7 @@ await connection.confirmTransaction(signature, "confirmed");
 
 <WithMentions>
 
-Metode `SystemProgram.transfer()` membuat instruksi yang mentransfer SOL dari
+Metode `SystemProgram.transfer()` membuat instruksi yang mentransfer NSO dari
 akun [`fromPubkey`](mention:from) ke akun [`toPubkey`](mention:to) sejumlah
 [`lamports`](mention:lamports) yang ditentukan.
 
@@ -308,7 +311,7 @@ const transaction = new Transaction().add(transferInstruction);
 
 Tandatangani dan kirim [transaksi](mention:transaction) ke jaringan. Keypair
 [pengirim](mention:sender) diperlukan dalam array penandatangan untuk
-mengotorisasi transfer SOL dari akun mereka.
+mengotorisasi transfer NSO dari akun mereka.
 
 ```ts title="Send transaction"
 const transactionSignature = await sendAndConfirmTransaction(
@@ -323,7 +326,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 </WithMentions>
 
 Tanda tangan transaksi adalah pengidentifikasi unik yang dapat digunakan untuk
-mencari transaksi di Solana Explorer.
+mencari transaksi di Nara Solana Explorer.
 
 ```ts !! title="Transfer SOL"
 import {
@@ -368,7 +371,7 @@ console.log("Transaction Signature:", `${transactionSignature}`);
 
 ## Membuat token
 
-Contoh di bawah ini membuat token baru di Solana menggunakan Token Extensions
+Contoh di bawah ini membuat token baru di Nara Solana menggunakan Token Extensions
 Program. Ini memerlukan dua instruksi:
 
 1. Memanggil System Program untuk membuat akun baru.
@@ -813,7 +816,7 @@ Tambahkan kedua instruksi ke dalam satu transaksi. Ini memastikan bahwa
 pembuatan akun dan inisialisasi terjadi secara atomik. (Baik kedua instruksi
 berhasil, atau tidak ada yang berhasil.)
 
-Pendekatan ini umum digunakan saat membangun transaksi Solana yang kompleks,
+Pendekatan ini umum digunakan saat membangun transaksi Nara Solana yang kompleks,
 karena menjamin bahwa semua instruksi dieksekusi bersama.
 
 ```ts title="Transaction"
@@ -902,7 +905,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 ```
 
 Tanda tangan transaksi yang dikembalikan dapat digunakan untuk memeriksa
-transaksi di Solana Explorer.
+transaksi di Nara Solana Explorer.
 
 </WithMentions>
 

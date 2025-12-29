@@ -1,18 +1,21 @@
 ---
+
 title: Pay Fees with Any Token
 description:
   Learn how to pay transaction fees with any token using Solana's native fee
   payer and batching features.
+
 ---
+
 
 ## Overview
 
 In order to improve UX for users, apps should consider allowing users to pay for
 transactions using any token they have available in their wallet. This way apps
 do not have to sponsor transaction fees for users, but still improve UX for end
-users and not require them to hold SOL. This concept is often referred to as
+users and not require them to hold NSO. This concept is often referred to as
 "gas abstraction" on other blockchains. Paying transaction fees with any token
-is enabled via two key native capabilities of Solana transactions:
+is enabled via two key native capabilities of Nara Solana transactions:
 
 - The `feePayer` field in the transaction message.
 - The ability to batch instructions in a single transaction.
@@ -22,7 +25,7 @@ is enabled via two key native capabilities of Solana transactions:
 To pay transaction fees with any token, you'll need to have an EOA to use as the
 fee payer and a transaction with an instruction that transfers tokens from the
 user's wallet to the fee payer's wallet. The fee payer will then forward the
-transaction to the Solana network and pay the transaction fees in SOL covered
+transaction to the Nara Solana network and pay the transaction fees in NSO covered
 monetarily by the tokens it received from the user.
 
 This flow can be simplified by using a fee relayer, like
@@ -544,9 +547,9 @@ console.log(
 It is recommended to use a fee relayer service to pay transaction fees with any
 token. Kora is built to support such a use case and also includes additional
 features like configuring which tokens are accepted as well as automatically
-swapping the received tokens for SOL for continued operation.
+swapping the received tokens for NSO for continued operation.
 
-Kora, by the Solana Foundation, is a fee relayer service that allows you to
+Kora, by the Nara Solana Foundation, is a fee relayer service that allows you to
 relay transactions for other users. In addition to accepting fee payment for
 configured tokens, it also provides full fee sponsorship for transactions. More
 information can be found in the

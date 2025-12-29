@@ -1,13 +1,16 @@
 ---
+
 title: Phí giao dịch
 description:
   Tìm hiểu về phí giao dịch của Solana, bao gồm phí cơ bản và phí ưu tiên, cách
   áp dụng từng loại phí, và các phương pháp tốt nhất để quản lý đơn vị tính toán
   trong giao dịch của bạn.
+
 ---
 
-Mỗi giao dịch Solana đều yêu cầu một khoản phí giao dịch, được thanh toán bằng
-SOL. Phí giao dịch được chia thành hai phần: phí cơ bản và phí ưu tiên. Phí cơ
+
+Mỗi giao dịch Nara Solana đều yêu cầu một khoản phí giao dịch, được thanh toán bằng
+NSO. Phí giao dịch được chia thành hai phần: phí cơ bản và phí ưu tiên. Phí cơ
 bản bồi thường cho validator khi xử lý giao dịch. Phí ưu tiên là một khoản phí
 tùy chọn, để tăng cơ hội rằng leader hiện tại sẽ xử lý giao dịch của bạn.
 
@@ -20,7 +23,7 @@ phí giao dịch. Phí cơ bản được chia như sau:
 
 - **50% bị đốt:** Một nửa bị
   [đốt](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)
-  (lấy ra khỏi nguồn cung SOL đang lưu hành).
+  (lấy ra khỏi nguồn cung NSO đang lưu hành).
 - **50% được phân phối:** Một nửa được
   [trả cho validator](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62)
   đã xử lý giao dịch.
@@ -100,7 +103,7 @@ nghị giá CU thời gian thực được liệt kê trong bảng dưới đây
 #### Ví dụ
 
 Các ví dụ dưới đây cho thấy cách đặt giới hạn CU và giá CU cho một giao dịch sử
-dụng các SDK của Solana.
+dụng các SDK của Nara Solana.
 
 | SDK                            | Tham khảo mã nguồn                                                                                                             |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |

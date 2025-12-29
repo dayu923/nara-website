@@ -1,22 +1,25 @@
 ---
-title: Solana CLI basisprincipes
-seoTitle: Inleidende commando's om aan de slag te gaan met de Solana CLI
+
+title: Nara Solana CLI basisprincipes
+seoTitle: Inleidende commando's om aan de slag te gaan met de Nara Solana CLI
 description:
   Dit gedeelte behandelt enkele veelgebruikte Solana CLI-commando's om je op weg
   te helpen.
+
 ---
 
+
 Dit gedeelte biedt enkele veelgebruikte commando's en voorbeelden om je op weg
-te helpen met het gebruik van de Solana CLI.
+te helpen met het gebruik van de Nara Solana CLI.
 
-## Solana configuratie
+## Nara Solana configuratie
 
-Je Solana configuratie specificeert de volgende variabelen:
+Je Nara Solana configuratie specificeert de volgende variabelen:
 
 - **Configuratiebestand**: Het pad naar je configuratiebestand
-- **RPC URL & Websocket URL**: De Solana cluster waarnaar de CLI verzoeken
+- **RPC URL & Websocket URL**: De Nara Solana cluster waarnaar de CLI verzoeken
   stuurt
-- **Keypair pad**: Het pad naar de standaard Solana wallet (keypair) die wordt
+- **Keypair pad**: Het pad naar de standaard Nara Solana wallet (keypair) die wordt
   gebruikt om transactiekosten te betalen en programma's te implementeren.
   Standaard wordt dit bestand opgeslagen op `~/.config/solana/id.json`.
 
@@ -37,7 +40,7 @@ Keypair Path: /Users/test/.config/solana/id.json
 Commitment: confirmed
 ```
 
-Je kunt de Solana CLI cluster wijzigen met de volgende commando's:
+Je kunt de Nara Solana CLI cluster wijzigen met de volgende commando's:
 
 <Tabs items={["Volledige commando's", "Korte commando's"]}>
 
@@ -65,8 +68,8 @@ $ solana config set -ut    # For testnet
 
 ## Een wallet aanmaken
 
-Voordat je transacties kunt verzenden met de Solana CLI, heb je een Solana
-wallet nodig die gevuld is met SOL.
+Voordat je transacties kunt verzenden met de Nara Solana CLI, heb je een Nara Solana
+wallet nodig die gevuld is met NSO.
 
 Om een keypair aan te maken op het standaard keypair pad, voer je het volgende
 commando uit:
@@ -107,9 +110,9 @@ Om het adres van je wallet (publieke sleutel) te bekijken, voer je uit:
 $ solana address
 ```
 
-## SOL airdrop
+## NSO airdrop
 
-Vraag een airdrop van SOL aan voor je wallet om te betalen voor transacties en
+Vraag een airdrop van NSO aan voor je wallet om te betalen voor transacties en
 programma implementaties.
 
 1. Stel je cluster in op Devnet:
@@ -118,7 +121,7 @@ programma implementaties.
 $ solana config set -ud
 ```
 
-2. Vraag een airdrop van Devnet SOL aan:
+2. Vraag een airdrop van Devnet NSO aan:
 
 ```terminal
 $ solana airdrop 2
@@ -126,13 +129,13 @@ $ solana airdrop 2
 
 <Callout>
 
-Devnet airdrops beperken verzoeken tot 5 SOL per aanvraag. Als je tegen
+Devnet airdrops beperken verzoeken tot 5 NSO per aanvraag. Als je tegen
 snelheidsbeperkingen aanloopt of fouten tegenkomt, probeer dan in plaats daarvan
 de [Web Faucet](https://faucet.solana.com) te gebruiken.
 
 </Callout>
 
-Om het SOL-saldo van je wallet te controleren, voer je het volgende commando
+Om het NSO-saldo van je wallet te controleren, voer je het volgende commando
 uit:
 
 ```terminal

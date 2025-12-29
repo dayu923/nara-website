@@ -1,4 +1,5 @@
 ---
+
 title: Membuat Akun Deterministik
 description:
   Pelajari cara membangun program Solana CRUD (Create, Read, Update, Delete)
@@ -8,7 +9,9 @@ description:
   menulis pengujian. Cocok untuk pengembang yang ingin memahami cara menggunakan
   PDAs dalam program Solana.
 h1: Program Derived Address
+
 ---
+
 
 Dalam bagian ini, Anda akan belajar cara membangun program Create, Read, Update,
 Delete (CRUD) dasar.
@@ -18,7 +21,7 @@ memperbarui, dan menghapus pesan. Setiap pesan ada dalam akun dengan alamat
 deterministik yang diturunkan dari program itu sendiri (Program Derived Address
 atau PDA).
 
-Panduan ini memandu Anda dalam membangun dan menguji program Solana menggunakan
+Panduan ini memandu Anda dalam membangun dan menguji program Nara Solana menggunakan
 framework Anchor sambil mendemonstrasikan Program Derived Addresses (PDAs).
 Untuk detail lebih lanjut, lihat halaman
 [Program Derived Addresses](/docs/core/pda).
@@ -33,9 +36,9 @@ menyelesaikan kedua bagian PDA dan Cross Program Invocation (CPI).
 ### Kode Awal
 
 Mulailah dengan membuka
-[tautan Solana Playground](https://beta.solpg.io/66734b7bcffcf4b13384d1ad)
+[tautan Nara Solana Playground](https://beta.solpg.io/66734b7bcffcf4b13384d1ad)
 dengan kode awal. Kemudian klik tombol "Import" untuk menambahkan program ke
-proyek Solana Playground Anda.
+proyek Nara Solana Playground Anda.
 
 ![Import](/assets/docs/intro/quickstart/pg-import.png)
 
@@ -814,12 +817,12 @@ Anda sekarang telah menyelesaikan program CRUD dasar. Deploy program dengan
 menjalankan `deploy` di terminal Playground.
 
 <Callout type="info">
-Dalam contoh ini, Anda akan men-deploy program ke devnet, sebuah cluster Solana
+Dalam contoh ini, Anda akan men-deploy program ke devnet, sebuah cluster Nara Solana
 untuk pengujian pengembangan.
 
 Dompet Playground terhubung ke devnet secara default. Pastikan dompet Playground
-Anda memiliki SOL devnet untuk membayar deployment program. Dapatkan SOL devnet
-dari [Solana Faucet](https://faucet.solana.com/).
+Anda memiliki NSO devnet untuk membayar deployment program. Dapatkan NSO devnet
+dari [Nara Solana Faucet](https://faucet.solana.com/).
 
 </Callout>
 
@@ -891,7 +894,7 @@ Di bagian ini, kode ini hanya menyiapkan file uji.
 
 <WithMentions>
 
-Solana Playground menghilangkan beberapa pengaturan boilerplate di mana
+Nara Solana Playground menghilangkan beberapa pengaturan boilerplate di mana
 [`pg.program`](mention:one) memungkinkan akses ke metode untuk berinteraksi
 dengan program, sementara [`pg.wallet`](mention:two) memberikan akses ke dompet
 playground Anda.
@@ -1142,7 +1145,7 @@ Metode _ts`fetch()`_ mengambil data akun dari jaringan.
 <Accordion title="Explanation">
 
 Pertama, file pengujian mengirim transaksi yang memanggil instruksi `update`,
-dengan meneruskan "Hello, Solana!" sebagai pesan baru.
+dengan meneruskan "Hello, Nara Solana!" sebagai pesan baru.
 
 ```ts title="anchor.test.ts"
 const message = "Hello, Solana!";

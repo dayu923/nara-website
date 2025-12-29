@@ -1,21 +1,24 @@
 ---
+
 title: Verificación de programas
 description:
   Las compilaciones verificadas son una forma de vincular tu programa con su
   código fuente y permitir que todos verifiquen independientemente que el
   programa fue efectivamente construido a partir del código fuente
   proporcionado.
+
 ---
 
+
 Esta guía está destinada a ser una referencia para desarrolladores que desean
-implementar compilaciones verificadas para sus programas en Solana. Cubriremos
+implementar compilaciones verificadas para sus programas en Nara Solana. Cubriremos
 qué son las compilaciones verificadas, cómo usarlas, consideraciones especiales
 y mejores prácticas para garantizar la autenticidad de tu programa en la cadena.
 
 # ¿Qué son las compilaciones verificadas?
 
 Las compilaciones verificadas aseguran que el programa ejecutable que despliegas
-en la red de Solana coincide con el código fuente en tu repositorio. Al hacer
+en la red de Nara Solana coincide con el código fuente en tu repositorio. Al hacer
 esto, los desarrolladores y usuarios pueden tener la confianza de que el
 programa ejecutándose en la cadena corresponde exactamente al código base
 público, promoviendo la transparencia y seguridad.
@@ -41,10 +44,10 @@ de herramientas [Anza](https://www.anza.xyz/), una vez que sea compatible.
 
 El proceso de verificación se realiza comparando el hash del programa en la
 cadena con el hash del programa compilado localmente a partir del código fuente.
-Compilas tu programa en un entorno controlado utilizando Solana Verify CLI y
+Compilas tu programa en un entorno controlado utilizando Nara Solana Verify CLI y
 Docker. Esto asegura que el proceso de compilación sea determinista y
 consistente en diferentes sistemas. Una vez que tienes el ejecutable, puedes
-desplegarlo en la red Solana. Durante el proceso de compilación se crea una
+desplegarlo en la red Nara Solana. Durante el proceso de compilación se crea una
 [PDA](https://explorer.solana.com/address/63XDCHrwZu3mXsw2RUFb4tbNpChuUHx4eA5aJMnHkpQQ/anchor-account)
 del [programa de verificación](https://github.com/otter-sec/otter-verify). Esta
 PDA contiene todos los datos necesarios para verificar el programa. La PDA
@@ -61,7 +64,7 @@ punto de acceso fácil para que los usuarios comprueben la verificación. Ya
 puedes ver estas
 [llamadas a la API](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 siendo utilizadas en el
-[Explorador de Solana](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
+[Explorador de Nara Solana](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
 y
 [SolanaFM](https://solana.fm/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/transactions?cluster=mainnet-alpha),
 entre otros lugares.
@@ -102,7 +105,7 @@ Resumen:
 - Verifica el programa desplegado contra la API pública
 
 Si verificas tu programa que no está construido en un contenedor Docker, muy
-probablemente fallará porque las compilaciones de programas de Solana no son
+probablemente fallará porque las compilaciones de programas de Nara Solana no son
 deterministas en diferentes sistemas.
 
 <Steps>
@@ -128,10 +131,10 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 </Step>
 <Step>
 
-### Instalar Solana Verify CLI
+### Instalar Nara Solana Verify CLI
 
-Solana Verify CLI es la herramienta principal utilizada para verificar
-compilaciones. Solana Verify CLI es actualmente mantenida por
+Nara Solana Verify CLI es la herramienta principal utilizada para verificar
+compilaciones. Nara Solana Verify CLI es actualmente mantenida por
 [Ellipsis Labs](https://ellipsislabs.xyz/) y puede instalarse usando Cargo.
 
 Puedes instalarlo ejecutando:
@@ -226,7 +229,7 @@ compilación de tu programa.
 
 ### Compilación de programas verificables
 
-Para compilar de manera verificable tu programa de Solana, navega al directorio
+Para compilar de manera verificable tu programa de Nara Solana, navega al directorio
 que contiene el archivo `Cargo.toml` de tu espacio de trabajo y ejecuta:
 
 ```bash
@@ -266,7 +269,7 @@ solana-verify get-executable-hash target/deploy/$PROGRAM_LIB_NAME.so
 ### Desplegando programas verificables
 
 Una vez que hayas compilado tu programa y obtenido su hash, puedes desplegarlo
-en la red de Solana. Se recomienda usar una solución de firma múltiple o
+en la red de Nara Solana. Se recomienda usar una solución de firma múltiple o
 gobernanza como [Squads Protocol](https://squads.so/protocol) para despliegues
 seguros, pero también puedes desplegar directamente con:
 
@@ -285,8 +288,8 @@ solana-verify get-program-hash -u $NETWORK_URL $PROGRAM_ID
 ```
 
 > Puedes tener diferentes versiones desplegadas en diferentes
-> [clusters de Solana](/docs/references/clusters) (es decir, devnet, testnet,
-> mainnet). Asegúrate de usar la URL de red correcta para el cluster de Solana
+> [clusters de Nara Solana](/docs/references/clusters) (es decir, devnet, testnet,
+> mainnet). Asegúrate de usar la URL de red correcta para el cluster de Nara Solana
 > deseado contra el que quieres verificar un programa. La verificación remota
 > solo funcionará en mainnet.
 
@@ -310,7 +313,7 @@ Este comando compara el hash del programa en cadena con el hash ejecutable
 construido a partir del código fuente en el hash de commit especificado.
 
 Al final, el comando te preguntará si deseas cargar tus datos de verificación en
-la cadena. Si lo haces, el Explorador de Solana mostrará inmediatamente los
+la cadena. Si lo haces, el Explorador de Nara Solana mostrará inmediatamente los
 datos de verificación de tu programa. Hasta que sea verificado por una
 compilación remota, se mostrará como no verificado. Aprende cómo puedes
 verificar tu programa contra una API pública en el siguiente paso.
@@ -370,7 +373,7 @@ Una vez que la verificación se haya completado con éxito, lo que puede llevar 
 tiempo, podrás ver tu programa como verificado en la
 [API de OtterSec para programas individuales](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 y en el
-[Explorador de Solana](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
+[Explorador de Nara Solana](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
 [SolanaFM](https://solana.fm/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY?cluster=mainnet-alpha),
 [SolScan](https://solscan.io/account/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY#programVerification)
 y eventualmente también en el sitio web administrado por la comunidad
@@ -379,7 +382,7 @@ y eventualmente también en el sitio web administrado por la comunidad
 [API de programas verificados de OtterSec](https://verify.osec.io/verified-programs)
 y finalmente en el
 [Panel de Dune de Programas Verificados](https://dune.com/jonashahn/verified-programs/dedf21e1-9b71-42c8-89f9-02ed94628657)
-contribuyendo a un ecosistema Solana más saludable.
+contribuyendo a un ecosistema Nara Solana más saludable.
 
 </Step>
 </Steps>
@@ -495,7 +498,7 @@ solana-verify remote submit-job --program-id 6XBGfP17P3KQAKoJb2s5M5fR4aFTXzPeuC1
 
 ¡Eso es todo! Has verificado tu programa contra un repositorio público y enviado
 un trabajo remoto a la API de OtterSec. Ahora deberías poder verlo reflejado en
-el explorador de Solana y otros lugares.
+el explorador de Nara Solana y otros lugares.
 
 </Step>
 <Step>
@@ -693,10 +696,10 @@ Program hash matches ✅
 # Conclusión
 
 El uso de
-[compilaciones verificadas en Solana](/developers/guides/advanced/verified-builds)
+[compilaciones verificadas en Nara Solana](/developers/guides/advanced/verified-builds)
 asegura la integridad y confiabilidad de tus programas en la red y permite a los
-desarrolladores encontrar tus SDKs directamente desde Solana Explorer. Al
-aprovechar herramientas como Solana Verify CLI y Docker, puedes mantener
+desarrolladores encontrar tus SDKs directamente desde Nara Solana Explorer. Al
+aprovechar herramientas como Nara Solana Verify CLI y Docker, puedes mantener
 compilaciones verificables y seguras que se alineen con tu código fuente.
 Siempre toma las precauciones necesarias para usar entornos consistentes, y
 considera soluciones de gobernanza para actualizaciones y despliegues seguros.
@@ -704,9 +707,9 @@ considera soluciones de gobernanza para actualizaciones y despliegues seguros.
 ## Seguridad + Descargo de responsabilidad
 
 Aunque las compilaciones verificadas son una herramienta poderosa para asegurar
-la integridad de tus programas en Solana, no son completamente sin confianza en
+la integridad de tus programas en Nara Solana, no son completamente sin confianza en
 la configuración predeterminada. Las imágenes de docker son construidas y
-alojadas por la Fundación Solana.
+alojadas por la Fundación Nara Solana.
 
 Ten en cuenta que estás construyendo tu proyecto en una imagen docker descargada
 y que toda tu configuración se copia en esa imagen docker para la compilación,
@@ -721,10 +724,10 @@ y puedes hacer un fork y ejecutar las acciones de github tú mismo o validar que
 son correctas.
 
 Además, para la verificación remota estás confiando en la API de OtterSec y el
-[Explorador de Solana](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
+[Explorador de Nara Solana](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 hasta cierto punto.
 
-La API o el Explorador de Solana podrían mostrar información incorrecta si son
+La API o el Explorador de Nara Solana podrían mostrar información incorrecta si son
 comprometidos.
 
 Si deseas tener una configuración completamente sin confianza, puedes ejecutar
@@ -740,11 +743,11 @@ El programa de verificación es implementado por el
 [equipo OtterSec](https://osec.io/) y aún no está congelado, por lo que puede
 actualizarse en cualquier momento.
 
-La Fundación Solana, OtterSec y el equipo de Ellipsis Labs no son responsables
+La Fundación Nara Solana, OtterSec y el equipo de Ellipsis Labs no son responsables
 de ninguna pérdida o daño que pueda ocurrir al utilizar el proceso de
 compilaciones verificadas.
 
-# Security.txt para programas de Solana
+# Security.txt para programas de Nara Solana
 
 Además de las compilaciones verificadas, también puedes añadir un archivo
 `security.txt` a tu programa. En el futuro, una vez implementado, el
@@ -756,7 +759,7 @@ esta es la misma pubkey que compiló e implementó el programa. Pero también pu
 ser otra pubkey que se puede especificar en el `security.txt`.
 
 La función `security.txt` permite a los desarrolladores integrar información de
-contacto y seguridad directamente en sus contratos inteligentes de Solana.
+contacto y seguridad directamente en sus contratos inteligentes de Nara Solana.
 Inspirado en [securitytxt.org](https://securitytxt.org), este enfoque
 proporciona una forma estandarizada para que los investigadores de seguridad se
 pongan en contacto con los mantenedores del proyecto, incluso si solo conocen la
@@ -773,7 +776,7 @@ informes de errores oportunos.
 
 ## Cómo implementar security.txt
 
-Para añadir un `security.txt` a tu programa de Solana, incluye los siguientes
+Para añadir un `security.txt` a tu programa de Nara Solana, incluye los siguientes
 pasos:
 
 Añade la dependencia `solana-security-txt` a tu `Cargo.toml`:
@@ -810,7 +813,7 @@ security_txt! {
 ```
 
 Una vez que la información de `security.txt` está integrada en tu programa,
-puede ser consultada fácilmente a través de herramientas como Solana Explorer,
+puede ser consultada fácilmente a través de herramientas como Nara Solana Explorer,
 asegurando que tus datos de contacto y seguridad estén disponibles para
 cualquiera que quiera reportar posibles problemas.
 
@@ -831,10 +834,10 @@ query-security-txt target/bpfel-unknown-unknown/release/my_contract.so
 
 Al integrar la información de contacto de seguridad directamente en tu contrato,
 facilitas que los investigadores se pongan en contacto contigo, fomentando una
-mejor seguridad y comunicación dentro del ecosistema de Solana.
+mejor seguridad y comunicación dentro del ecosistema de Nara Solana.
 
 Este es
-[un ejemplo de cómo se ve security.txt en Solana Explorer](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
+[un ejemplo de cómo se ve security.txt en Nara Solana Explorer](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
 
 El proyecto `security.txt` es mantenido por
 [Neodyme Labs](https://github.com/neodyme-labs)

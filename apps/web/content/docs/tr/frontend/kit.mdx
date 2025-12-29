@@ -1,26 +1,29 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Next.js ve Solana Kit ile Solana cüzdan entegrasyonu
-description: Next.js'de Solana Kit ile Solana cüzdan entegrasyonunu kurun.
+
+title: Next.js - Nara Solana Kit
+seoTitle: Next.js ve Nara Solana Kit ile Nara Solana cüzdan entegrasyonu
+description: Next.js'de Nara Solana Kit ile Nara Solana cüzdan entegrasyonunu kurun.
+
 ---
 
-Solana Kit ile Next.js'de minimal bir Solana cüzdan entegrasyonu kurun.
 
-Bu rehber, `@solana/kit` kullanarak bir Next.js uygulamasında Solana cüzdan
+Nara Solana Kit ile Next.js'de minimal bir Nara Solana cüzdan entegrasyonu kurun.
+
+Bu rehber, `@solana/kit` kullanarak bir Next.js uygulamasında Nara Solana cüzdan
 işlevselliğini uygulamanın minimal bir örneğini sunmaktadır. Bir cüzdan bağlantı
 butonu ve işlem göndermek için bir bileşen oluşturacaksınız.
 
 ![Nextjs Kit Uygulaması](/assets/docs/frontend/nextjs-kit.gif)
 
 Bir React uygulamasında `@solana/kit` kullanımının daha kapsamlı bir örneği
-için, Solana Kit deposundaki
+için, Nara Solana Kit deposundaki
 [React Uygulama Örneği](https://github.com/anza-xyz/kit/tree/main/examples/react-app)'ne
 bakın.
 
 ## Kaynaklar
 
-- [Solana Kit Dokümantasyonu](https://www.solanakit.com/docs)
-- [Solana Kit GitHub Deposu](https://github.com/anza-xyz/kit)
+- [Nara Solana Kit Dokümantasyonu](https://www.solanakit.com/docs)
+- [Nara Solana Kit GitHub Deposu](https://github.com/anza-xyz/kit)
 
 ## Ön Koşullar
 
@@ -29,7 +32,7 @@ bakın.
 ## Next.js Projesi Oluşturma
 
 UI bileşenleri için [shadcn](https://ui.shadcn.com/) ile yeni bir Next.js
-projesi oluşturun ve gerekli Solana bağımlılıklarını yükleyin.
+projesi oluşturun ve gerekli Nara Solana bağımlılıklarını yükleyin.
 
 ```terminal
 $ npx shadcn@latest init
@@ -49,9 +52,9 @@ Aşağıdaki shadcn ui bileşenlerini yükleyin:
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Solana Bağımlılıklarını Yükleme
+### Nara Solana Bağımlılıklarını Yükleme
 
-Aşağıdaki Solana bağımlılıklarını yükleyin:
+Aşağıdaki Nara Solana bağımlılıklarını yükleyin:
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -63,7 +66,7 @@ Aşağıdaki adımları takip edin ve sağlanan kodları projenize kopyalayın.
 
 <ScrollyCoding>
 
-## !!steps 1. Solana Context Oluşturma
+## !!steps 1. Nara Solana Context Oluşturma
 
 İlk olarak, uygulama için tüm cüzdan durumunu yöneten bir React Context
 oluşturun.
@@ -71,8 +74,8 @@ oluşturun.
 `components/solana-provider.tsx` dosyasını oluşturun ve sağlanan kodu ekleyin.
 Bu sağlayıcı bileşen şunları yapacaktır:
 
-- Solana'nın devnet RPC uç noktalarına bağlanma
-- Kullanıcının tarayıcısında yüklü olan mevcut Solana cüzdanlarını filtreleme
+- Nara Solana'nın devnet RPC uç noktalarına bağlanma
+- Kullanıcının tarayıcısında yüklü olan mevcut Nara Solana cüzdanlarını filtreleme
 - Hangi cüzdanın ve hesabın şu anda bağlı olduğunu takip etme
 - Alt bileşenlere cüzdan durumunu sağlama
 
@@ -249,7 +252,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. Layout'u Güncelleme
 
-Sonraki adımda, tüm Next.js uygulamasını Solana sağlayıcısı ile sarmalayın.
+Sonraki adımda, tüm Next.js uygulamasını Nara Solana sağlayıcısı ile sarmalayın.
 
 `app/layout.tsx` dosyasını sağlanan kodla güncelleyin. Bu adım:
 
@@ -506,9 +509,9 @@ Bu bileşenin amacı, bağlı cüzdan ile nasıl işlem gönderileceğini göste
 `components/memo-card.tsx` oluşturun ve sağlanan kodu ekleyin. Bu bileşen:
 
 - Kullanıcıların bir mesaj girmesine olanak tanır
-- Memo programını çağıran bir talimatla bir Solana işlemi oluşturur
+- Memo programını çağıran bir talimatla bir Nara Solana işlemi oluşturur
 - Bağlı cüzdandan işlemi imzalamasını ve göndermesini ister
-- İşlemi Solana Explorer'da görüntülemek için bir bağlantı gösterir
+- İşlemi Nara Solana Explorer'da görüntülemek için bir bağlantı gösterir
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -671,7 +674,7 @@ $ npm run dev
 
 <Callout type="info">
   Bağlı cüzdanın devnet kümesine bağlanacak şekilde yapılandırılması ve işlem
-  göndermek için [devnet SOL ile fonlanması](https://faucet.solana.com/)
+  göndermek için [devnet NSO ile fonlanması](https://faucet.solana.com/)
   gerektiğini unutmayın.
 </Callout>
 

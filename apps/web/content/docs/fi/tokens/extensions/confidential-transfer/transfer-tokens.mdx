@@ -1,8 +1,11 @@
 ---
+
 title: Tokenien siirtäminen
 description:
   Opi miten siirtää tokeneita yksityisesti yhdeltä token-tililtä toiselle.
+
 ---
+
 
 <Callout type="warn">
   ZK ElGamal -ohjelma on väliaikaisesti poistettu käytöstä mainnetissä ja
@@ -53,7 +56,7 @@ Tokenien siirtäminen luottamuksellisesti:
    [ConfidentialTransferInstruction::Transfer](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L604)
    -ohjetta tarjoamalla todistuksen kontekstitilatilit.
 
-4. Sulje todistuksen kontekstitilatilit SOL:n palauttamiseksi, jota käytettiin
+4. Sulje todistuksen kontekstitilatilit NSO:n palauttamiseksi, jota käytettiin
    niiden luomiseen.
 
 Seuraava kaavio näyttää vaiheet, jotka liittyvät tokenien siirtämiseen
@@ -114,7 +117,7 @@ token-tilien välillä.
 
 Suorittaaksesi esimerkin, käynnistä paikallinen validator Token Extensions
 Program -ohjelmalla, joka on kloonattu mainnetistä käyttäen seuraavaa komentoa.
-Sinulla täytyy olla Solana CLI asennettuna käynnistääksesi paikallisen
+Sinulla täytyy olla Nara Solana CLI asennettuna käynnistääksesi paikallisen
 validatorin.
 
 ```terminal

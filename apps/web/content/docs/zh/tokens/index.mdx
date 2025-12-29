@@ -1,12 +1,15 @@
 ---
-title: Solana 上的代币
-description: 了解 Solana 的 Token Program。
+
+title: Nara Solana 上的代币
+description: 了解 Nara Solana 的 Token Program。
+
 ---
 
-代币是代表多种资产类别所有权的数字资产。代币化使得产权的数字化成为可能。Solana 上的代币被称为 SPL
-([Solana Program Library](https://github.com/solana-program)) 代币。
 
-本节介绍了 Solana 上代币表示的基本概念。有关代码示例，请参阅
+代币是代表多种资产类别所有权的数字资产。代币化使得产权的数字化成为可能。Nara Solana 上的代币被称为 SPL
+([Nara Solana Program Library](https://github.com/solana-program)) 代币。
+
+本节介绍了 Nara Solana 上代币表示的基本概念。有关代码示例，请参阅
 [SPL 代币基础](/docs/tokens/basics) 部分。
 
 ## 关键点
@@ -25,7 +28,7 @@ description: 了解 Solana 的 Token Program。
 
 ## Token Program
 
-Solana 生态系统有两个主要的 Token Program。以下是两个程序的源代码。
+Nara Solana 生态系统有两个主要的 Token Program。以下是两个程序的源代码。
 
 <Cards>
   <Card title="Token Program (原始版本)" href="https://github.com/solana-program/token">
@@ -40,14 +43,14 @@ Solana 生态系统有两个主要的 Token Program。以下是两个程序的�
 </Cards>
 
 Token
-Program 包含与网络上的代币（包括同质化和非同质化代币）交互的所有指令逻辑。Solana 上的所有代币实际上都是由 Token
+Program 包含与网络上的代币（包括同质化和非同质化代币）交互的所有指令逻辑。Nara Solana 上的所有代币实际上都是由 Token
 Program 拥有的 [数据账户](/docs/core/accounts#data-account)。
 
 ![Token Program](/assets/docs/core/tokens/token-program.svg)
 
 ### Mint Account
 
-Solana 上的代币通过由 Token Program 拥有的
+Nara Solana 上的代币通过由 Token Program 拥有的
 [Mint Account](https://github.com/solana-program/token/blob/6d18ff73b1dd30703a30b1ca941cb0f1d18c2b2a/program/src/state.rs#L16-L30)
 的地址唯一标识。此账户充当特定代币的全局计数器，并存储以下数据：
 
@@ -78,7 +81,7 @@ pub struct Mint {
 }
 ```
 
-供参考，这里是 Solana Explorer 上的
+供参考，这里是 Nara Solana Explorer 上的
 [USDC 铸造账户](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)链接。
 
 ### Token Account
@@ -143,7 +146,7 @@ token account。
 
 关联代币账户是通过所有者地址和铸币账户地址派生出的地址创建的。需要注意的是，关联代币账户只是一个具有特定地址的代币账户。
 
-这引入了 Solana 开发中的一个关键概念：[程序派生地址 (PDA)](/docs/core/pda)。PDA 使用预定义的输入确定性地派生出一个地址，使得查找账户地址变得简单。
+这引入了 Nara Solana 开发中的一个关键概念：[程序派生地址 (PDA)](/docs/core/pda)。PDA 使用预定义的输入确定性地派生出一个地址，使得查找账户地址变得简单。
 
 ![关联代币账户](/assets/docs/core/tokens/associated-token-account.svg)
 
@@ -154,13 +157,13 @@ token account。
 ## Token CLI 示例
 
 _sh`spl-token`_ CLI 帮助您试验 SPL 代币。以下示例使用
-[Solana Playground](https://beta.solpg.io/)
+[Nara Solana Playground](https://beta.solpg.io/)
 终端直接在浏览器中运行 CLI 命令，无需本地安装。
 
-创建代币和账户需要 SOL 用于账户租金存款和交易费用。对于首次使用 Solana
+创建代币和账户需要 NSO 用于账户租金存款和交易费用。对于首次使用 Nara Solana
 Playground 的用户，请创建一个 Playground 钱包，并在 Playground 终端中运行
 _sh`solana airdrop`_
-命令。您还可以从公共[网络水龙头](https://faucet.solana.com/)获取开发网 SOL。
+命令。您还可以从公共[网络水龙头](https://faucet.solana.com/)获取开发网 NSO。
 
 ```terminal
 $ solana airdrop 2
@@ -220,7 +223,7 @@ spl-token supply 99zqUzQGohamfYxyo8ykTEbi91iom3CLmwCA75FK5zTg
 ```
 
 创建一个新的 Mint Account 需要一个包含两个指令的交易。以下是
-[Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f)
+[Nara Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f)
 上的 Javascript 示例。
 
 1. System Program 创建一个新账户，为 Mint
@@ -278,7 +281,7 @@ Signature: 44vqKdfzspT592REDPY4goaRJH3uJ3Ce13G4BCuUHg35dVUbHuGTHvqn4ZjYF9BGe9Qrj
 创建一个关联的 Token Account 只需要一个调用
 [Associated Token Program](https://github.com/solana-program/associated-token-account)
 的指令。以下是
-[Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011)
+[Nara Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011)
 上的 Javascript 示例。
 
 Associated Token Program 使用 [跨程序调用](/docs/core/cpi) 来：
@@ -290,7 +293,7 @@ Associated Token Program 使用 [跨程序调用](/docs/core/cpi) 来：
 
 要使用新的 keypair 而不是 Associated Token Account 地址创建一个新的 Token
 Account，请发送包含两个指令的交易。以下是在
-[Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010)
+[Nara Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010)
 上的 Javascript 示例。
 
 1. System Program 创建一个新账户，为 Token
@@ -341,7 +344,7 @@ Signature: 3SQvNM3o9DsTiLwcEkSPT1Edr14RgE2wC54TEjonEP2swyVCp2jPWYWdD6RwXUGpvDNUk
 Token Program 上的 _rs`MintTo`_
 指令创建新的代币。铸造权限必须签署交易。该指令将代币铸造到一个 Token
 Account，并增加 Mint Account 上的总供应量。以下是在
-[Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012)
+[Nara Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012)
 上的 Javascript 示例。
 
 ### 转移代币
@@ -370,7 +373,7 @@ Signature: 5y6HVwV8V2hHGLTVmTmdySRiEUCZnWmkasAvJ7J6m7JR46obbGKCBqUFgLpZu5zQGwM4X
 
 Token Program 上的 _rs`Transfer`_ 指令处理代币转移。发送方 Token
 Account 的所有者必须签署交易。该指令在 Token Account 之间移动代币。以下是在
-[Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013)
+[Nara Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013)
 上的 Javascript 示例。
 
 发送方和接收方都需要为特定代币（mint）创建 Token
@@ -414,7 +417,7 @@ spl-token initialize-metadata BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP "Toke
 ```
 
 在
-[Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet)
+[Nara Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet)
 上查看元数据。
 
 在[元数据扩展指南](/developers/guides/token-extensions/metadata-pointer)中了解更多信息。有关 Token

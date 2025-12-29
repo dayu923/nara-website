@@ -1,12 +1,15 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Tích hợp ví Solana với Next.js và Solana Kit
-description: Thiết lập tích hợp ví Solana trong Next.js với Solana Kit.
+
+title: Next.js - Nara Solana Kit
+seoTitle: Tích hợp ví Nara Solana với Next.js và Nara Solana Kit
+description: Thiết lập tích hợp ví Nara Solana trong Next.js với Nara Solana Kit.
+
 ---
 
-Thiết lập tích hợp ví Solana tối giản trong Next.js với Solana Kit.
 
-Hướng dẫn này cung cấp một ví dụ tối giản về việc triển khai chức năng ví Solana
+Thiết lập tích hợp ví Nara Solana tối giản trong Next.js với Nara Solana Kit.
+
+Hướng dẫn này cung cấp một ví dụ tối giản về việc triển khai chức năng ví Nara Solana
 trong ứng dụng Next.js sử dụng `@solana/kit`. Bạn sẽ tạo một nút kết nối ví và
 một component để gửi giao dịch.
 
@@ -15,12 +18,12 @@ một component để gửi giao dịch.
 Để xem ví dụ toàn diện hơn về việc sử dụng `@solana/kit` trong ứng dụng React,
 hãy tham khảo
 [Ví dụ ứng dụng React](https://github.com/anza-xyz/kit/tree/main/examples/react-app)
-trong kho lưu trữ Solana Kit.
+trong kho lưu trữ Nara Solana Kit.
 
 ## Tài nguyên
 
-- [Tài liệu Solana Kit](https://www.solanakit.com/docs)
-- [Kho lưu trữ GitHub Solana Kit](https://github.com/anza-xyz/kit)
+- [Tài liệu Nara Solana Kit](https://www.solanakit.com/docs)
+- [Kho lưu trữ GitHub Nara Solana Kit](https://github.com/anza-xyz/kit)
 
 ## Điều kiện tiên quyết
 
@@ -29,7 +32,7 @@ trong kho lưu trữ Solana Kit.
 ## Tạo dự án Next.js
 
 Tạo một dự án Next.js mới với [shadcn](https://ui.shadcn.com/) cho các component
-giao diện người dùng và cài đặt các phụ thuộc Solana cần thiết.
+giao diện người dùng và cài đặt các phụ thuộc Nara Solana cần thiết.
 
 ```terminal
 $ npx shadcn@latest init
@@ -49,9 +52,9 @@ Cài đặt các component UI shadcn sau đây:
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Cài đặt các phụ thuộc Solana
+### Cài đặt các phụ thuộc Nara Solana
 
-Cài đặt các phụ thuộc Solana sau đây:
+Cài đặt các phụ thuộc Nara Solana sau đây:
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -63,15 +66,15 @@ Làm theo các bước dưới đây và sao chép mã được cung cấp vào 
 
 <ScrollyCoding>
 
-## !!steps 1. Tạo Context Solana
+## !!steps 1. Tạo Context Nara Solana
 
 Đầu tiên, tạo một React Context để quản lý toàn bộ trạng thái ví cho ứng dụng.
 
 Tạo `components/solana-provider.tsx` và thêm mã được cung cấp. Component
 provider này sẽ:
 
-- Kết nối với các điểm cuối RPC devnet của Solana
-- Lọc các ví Solana khả dụng đã được cài đặt trong trình duyệt của người dùng
+- Kết nối với các điểm cuối RPC devnet của Nara Solana
+- Lọc các ví Nara Solana khả dụng đã được cài đặt trong trình duyệt của người dùng
 - Theo dõi ví và tài khoản nào đang được kết nối
 - Cung cấp trạng thái ví cho các component con
 
@@ -248,7 +251,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. Cập nhật Layout
 
-Tiếp theo, bọc toàn bộ ứng dụng Next.js với Solana provider.
+Tiếp theo, bọc toàn bộ ứng dụng Next.js với Nara Solana provider.
 
 Cập nhật `app/layout.tsx` với mã được cung cấp. Bước này:
 
@@ -506,9 +509,9 @@ nối.
 Tạo `components/memo-card.tsx` và thêm mã đã cung cấp. Component này:
 
 - Cho phép người dùng nhập một thông điệp
-- Tạo một giao dịch Solana với chỉ thị gọi chương trình memo
+- Tạo một giao dịch Nara Solana với chỉ thị gọi chương trình memo
 - Yêu cầu ví đã kết nối ký và gửi giao dịch
-- Hiển thị một liên kết để xem giao dịch trên Solana Explorer
+- Hiển thị một liên kết để xem giao dịch trên Nara Solana Explorer
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -671,7 +674,7 @@ $ npm run dev
 
 <Callout type="info">
   Lưu ý rằng ví đã kết nối phải được cấu hình để kết nối với cụm devnet và [được
-  nạp SOL devnet](https://faucet.solana.com/) để gửi giao dịch.
+  nạp NSO devnet](https://faucet.solana.com/) để gửi giao dịch.
 </Callout>
 
 </ScrollyCoding>

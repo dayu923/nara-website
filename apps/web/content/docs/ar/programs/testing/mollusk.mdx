@@ -1,7 +1,10 @@
 ---
+
 title: Mollusk
 description: دليل شامل لاختبار برامج سولانا باستخدام Mollusk
+
 ---
+
 
 [Mollusk](https://github.com/anza-xyz/mollusk/tree/main) هو إطار اختبار خفيف
 لاختبار برامج سولانا. يوفر واجهة بسيطة لاختبار تعليمات برنامج سولانا في بيئة
@@ -240,7 +243,7 @@ pub fn process_instruction(
 ) -> InstructionResult
 ```
 
-المثال التالي يعالج تعليمة تحويل SOL بدون فحوصات التحقق.
+المثال التالي يعالج تعليمة تحويل NSO بدون فحوصات التحقق.
 
 <Callout type="info">
 
@@ -322,7 +325,7 @@ pub fn process_and_validate_instruction(
 ) -> InstructionResult
 ```
 
-يعالج المثال التالي تعليمة تحويل SOL مع فحوصات التحقق.
+يعالج المثال التالي تعليمة تحويل NSO مع فحوصات التحقق.
 
 <CodeTabs flags="r">
 
@@ -395,7 +398,7 @@ pub fn process_instruction_chain(
 ) -> InstructionResult
 ```
 
-يعالج المثال التالي تعليمتي تحويل SOL بدون فحوصات التحقق.
+يعالج المثال التالي تعليمتي تحويل NSO بدون فحوصات التحقق.
 
 <CodeTabs flags="r">
 
@@ -482,7 +485,7 @@ pub fn process_and_validate_instruction_chain(
 ) -> InstructionResult
 ```
 
-يعالج المثال التالي سلسلة من تعليمتي تحويل SOL مع فحوصات التحقق بعد كل تعليمة.
+يعالج المثال التالي سلسلة من تعليمتي تحويل NSO مع فحوصات التحقق بعد كل تعليمة.
 
 <CodeTabs flags="r">
 
@@ -677,7 +680,7 @@ account_store.insert(
 let context = mollusk.with_context(account_store);
 ```
 
-يعالج المثال التالي تعليمتين منفصلتين لتحويل SOL مع حالة حساب مستمرة بين
+يعالج المثال التالي تعليمتين منفصلتين لتحويل NSO مع حالة حساب مستمرة بين
 التعليمات من خلال `account_store`.
 
 <CodeTabs flags="r">
@@ -821,7 +824,7 @@ fn main() {
 [`mollusk-svm-bencher`](https://docs.rs/mollusk-svm-bencher/0.5.0/mollusk_svm_bencher/index.html)
 كتبعية.
 
-المثال التالي يقيس أداء استخدام وحدة الحوسبة لتعليمات تحويل SOL.
+المثال التالي يقيس أداء استخدام وحدة الحوسبة لتعليمات تحويل NSO.
 
 <CodeTabs>
 

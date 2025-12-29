@@ -1,12 +1,15 @@
 ---
+
 title: Program-Derived Address
 description:
   Learn about Solana's Program-Derived Addresses (PDAs) — deterministic account
   addresses that enable secure program signing. Understand PDA derivation,
   canonical bumps, and how to create PDA accounts.
+
 ---
 
-A Solana [account address](/docs/core/accounts#account-address) points to the
+
+A Nara Solana [account address](/docs/core/accounts#account-address) points to the
 account's location on the blockchain. Many account addresses are the public key
 of a keypair, in which case the corresponding private key is used to sign
 transactions involving the account.
@@ -17,7 +20,7 @@ address that is created deterministically using a program ID and a combination
 of optional predefined inputs. PDAs look similar to public key addresses, but do
 not have a corresponding private key.
 
-The Solana runtime enables programs to sign for PDAs without needing a private
+The Nara Solana runtime enables programs to sign for PDAs without needing a private
 key. Using a PDA eliminates the need to keep track of the account's address.
 Instead, you can recall the specific inputs used for the PDA's derivation. (To
 learn how programs use PDAs for signing, see the
@@ -25,7 +28,7 @@ learn how programs use PDAs for signing, see the
 
 ## Background
 
-Solana
+Nara Solana
 [keypairs](https://github.com/anza-xyz/solana-sdk/blob/sdk%40v2.2.2/keypair/src/lib.rs#L26)
 are points on the [Ed25519 curve](https://ed25519.cr.yp.to/) (elliptic-curve
 cryptography). They consist of a public key and a private key. The public key
@@ -36,7 +39,7 @@ becomes the account address, and the private key is used to generate valid
 
 A PDA is intentionally derived to fall off the Ed25519 curve. This means it does
 not have a valid corresponding private key and can't perform cryptographic
-operations. (Such as providing a signature.) However, Solana enables programs to
+operations. (Such as providing a signature.) However, Nara Solana enables programs to
 sign for PDAs without needing a private key.
 
 ![Off Curve Address](/assets/docs/core/pda/address-off-curve.svg)
@@ -55,7 +58,7 @@ address— the account must be explicitly created through the program used to
 derive the PDA. You can think of a PDA like an address on a map: just because an
 address exists doesn't mean there is anything built there.
 
-The Solana SDKs support PDA creation with the functions shown in the table
+The Nara Solana SDKs support PDA creation with the functions shown in the table
 below. Each function receives the following input:
 
 - **Program ID**: The address of the program being used to derive the PDA. This
@@ -184,7 +187,7 @@ a different value can still derive a valid PDA.
 
 ### Examples
 
-The examples below derive a PDA using the Solana SDKs. Click **&#9655; Run** to
+The examples below derive a PDA using the Nara Solana SDKs. Click **&#9655; Run** to
 execute the code.
 
 #### Derive a PDA with a string seed

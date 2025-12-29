@@ -1,14 +1,17 @@
 ---
+
 title: HTTPメソッド
-seoTitle: Solana RPC HTTPメソッド
+seoTitle: Nara Solana RPC HTTPメソッド
 hideTableOfContents: false
-h1: Solana RPC HTTPメソッド
+h1: Nara Solana RPC HTTPメソッド
+
 ---
 
-Solanaノードは[JSON-RPC 2.0](https://www.jsonrpc.org/specification)仕様を使用したHTTPリクエストを受け付けます。
 
-> JavaScriptアプリケーションの場合、Solanaノードと対話するためのRPCメソッドの便利なインターフェースとして
-> [@solana/web3.js](https://github.com/solana-labs/solana-web3.js)ライブラリを使用してください。SolanaノードへのPubSub接続には、
+Nara Solanaノードは[JSON-RPC 2.0](https://www.jsonrpc.org/specification)仕様を使用したHTTPリクエストを受け付けます。
+
+> JavaScriptアプリケーションの場合、Nara Solanaノードと対話するためのRPCメソッドの便利なインターフェースとして
+> [@solana/web3.js](https://github.com/solana-labs/solana-web3.js)ライブラリを使用してください。Nara SolanaノードへのPubSub接続には、
 > [Websocket API](/docs/rpc/websocket/)を使用してください。
 
 ## RPC HTTPエンドポイント
@@ -69,7 +72,7 @@ commitmentパラメータは`params`配列の最後の要素として含める�
 
 - ハッシュ: データのチャンクのSHA-256ハッシュ。
 - pubkey: Ed25519キーペアの公開鍵。
-- トランザクション: クライアントのkeypairによって署名されたSolana
+- トランザクション: クライアントのkeypairによって署名されたNara Solana
   instructionsのリストで、これらのアクションを承認します。
 - 署名:
   instructionsを含むトランザクションのペイロードデータのEd25519署名。これを使用してトランザクションを識別できます。

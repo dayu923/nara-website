@@ -1,12 +1,15 @@
 ---
+
 title: 트랜잭션 수수료
 description:
   Solana의 트랜잭션 수수료에 대해 알아보세요. 기본 수수료와 우선순위 수수료,
   각각의 적용 방법, 그리고 트랜잭션에서 컴퓨트 유닛을 관리하는 모범 사례를
   포함합니다.
+
 ---
 
-모든 Solana 트랜잭션은 SOL로 지불하는 트랜잭션 수수료가 필요합니다. 트랜잭션
+
+모든 Nara Solana 트랜잭션은 NSO로 지불하는 트랜잭션 수수료가 필요합니다. 트랜잭션
 수수료는 기본 수수료와 우선순위 수수료 두 부분으로 나뉩니다. 기본 수수료는
 트랜잭션 처리에 대해 validator에게 보상합니다. 우선순위 수수료는 현재 리더가
 귀하의 트랜잭션을 처리할 가능성을 높이기 위한 선택적 수수료입니다.
@@ -20,7 +23,7 @@ description:
 
 - **50% 소각:** 절반은
   [소각](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)됩니다
-  (유통 중인 SOL 공급량에서 제외).
+  (유통 중인 NSO 공급량에서 제외).
 - **50% 분배:** 절반은
   [트랜잭션을 처리한 validator에게 지급](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62)됩니다.
 
@@ -98,7 +101,7 @@ Priority = (Prioritization fee + Base fee) / (1 + CU limit + Signature CUs + Wri
 
 #### 예시
 
-아래 예시는 Solana SDK를 사용하여 트랜잭션에 CU 한도와 CU 가격을 설정하는 방법을
+아래 예시는 Nara Solana SDK를 사용하여 트랜잭션에 CU 한도와 CU 가격을 설정하는 방법을
 보여줍니다.
 
 | SDK                          | 소스 코드 참조                                                                                                               |

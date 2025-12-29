@@ -1,8 +1,11 @@
 ---
+
 title: Przelew tokenów
 description:
   Dowiedz się, jak prywatnie przesyłać tokeny z jednego konta tokenów na inne.
+
 ---
+
 
 <Callout type="warn">
   Program ZK ElGamal jest tymczasowo wyłączony na mainnecie i devnecie, ponieważ
@@ -52,7 +55,7 @@ Aby poufnie przesłać tokeny:
    [ConfidentialTransferInstruction::Transfer](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L604),
    dostarczając konta stanu kontekstu dowodów.
 
-4. Zamknij konta stanu kontekstu dowodu, aby odzyskać SOL użyte do ich
+4. Zamknij konta stanu kontekstu dowodu, aby odzyskać NSO użyte do ich
    utworzenia.
 
 Poniższy diagram przedstawia kroki związane z transferem tokenów z konta tokenów
@@ -112,7 +115,7 @@ tokenów.
 
 Aby uruchomić przykład, uruchom lokalny walidator z Token Extension Program
 sklonowanym z mainnet za pomocą następującego polecenia. Musisz mieć
-zainstalowane Solana CLI, aby uruchomić lokalny walidator.
+zainstalowane Nara Solana CLI, aby uruchomić lokalny walidator.
 
 ```terminal
 $ solana-test-validator --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --url https://api.mainnet-beta.solana.com -r

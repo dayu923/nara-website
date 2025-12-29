@@ -1,11 +1,14 @@
 ---
+
 title: Mollusk
-description: Mollusk를 사용한 Solana 프로그램 테스팅 종합 가이드
+description: Mollusk를 사용한 Nara Solana 프로그램 테스팅 종합 가이드
+
 ---
 
-[Mollusk](https://github.com/anza-xyz/mollusk/tree/main)는 Solana 프로그램을
-테스트하기 위한 경량 테스트 하네스입니다. 간소화된 Solana 가상 머신(SVM)
-환경에서 Solana 프로그램 명령어를 테스트하기 위한 간단한 인터페이스를
+
+[Mollusk](https://github.com/anza-xyz/mollusk/tree/main)는 Nara Solana 프로그램을
+테스트하기 위한 경량 테스트 하네스입니다. 간소화된 Nara Solana 가상 머신(SVM)
+환경에서 Nara Solana 프로그램 명령어를 테스트하기 위한 간단한 인터페이스를
 제공합니다. 모든 테스트 계정은 명시적으로 정의되어야 하므로 결정적이고 반복
 가능한 테스트를 보장합니다.
 
@@ -52,14 +55,14 @@ mollusk-svm-programs-token = "0.7"
 
 ## Mollusk SVM
 
-다음 예제는 Mollusk를 사용하여 기본 Solana 프로그램을 테스트하기 위한 최소한의
+다음 예제는 Mollusk를 사용하여 기본 Nara Solana 프로그램을 테스트하기 위한 최소한의
 설정을 보여줍니다.
 
 <ScrollyCoding>
 
 ## !!steps Hello World 프로그램
 
-이 예제는 Mollusk를 사용하여 기본 Solana 프로그램을 테스트하는 방법을
+이 예제는 Mollusk를 사용하여 기본 Nara Solana 프로그램을 테스트하는 방법을
 보여줍니다. 이 프로그램은 호출될 때 프로그램 로그에 "Hello, world!"를
 출력합니다.
 
@@ -70,7 +73,7 @@ mollusk-svm-programs-token = "0.7"
 
 <WithMentions>
 
-Mollusk로 Solana 프로그램을 테스트하려면:
+Mollusk로 Nara Solana 프로그램을 테스트하려면:
 
 1. [`Mollusk` 인스턴스 생성](mention:mollusk) - 프로그램 ID와 컴파일된 프로그램
    경로(`.so` 파일)로 Mollusk 초기화
@@ -176,7 +179,7 @@ solana-sdk = "2.2.0"
 </ScrollyCoding>
 
 [`Mollusk`](https://docs.rs/mollusk-svm/0.5.0/mollusk_svm/struct.Mollusk.html)
-구조체는 Solana 프로그램을 테스트하기 위한 간단한 인터페이스를 제공합니다. 모든
+구조체는 Nara Solana 프로그램을 테스트하기 위한 간단한 인터페이스를 제공합니다. 모든
 필드는 몇 가지 헬퍼 메서드를 통해 조작할 수 있지만, 사용자가 더 많은 제어를 원할
 경우 직접 접근하고 수정할 수도 있습니다.
 
@@ -242,7 +245,7 @@ pub fn process_instruction(
 ) -> InstructionResult
 ```
 
-다음 예제는 검증 검사 없이 SOL 전송 명령어를 처리합니다.
+다음 예제는 검증 검사 없이 NSO 전송 명령어를 처리합니다.
 
 <Callout type="info">
 
@@ -324,7 +327,7 @@ pub fn process_and_validate_instruction(
 ) -> InstructionResult
 ```
 
-다음 예제는 검증 확인이 포함된 SOL 전송 명령어를 처리합니다.
+다음 예제는 검증 확인이 포함된 NSO 전송 명령어를 처리합니다.
 
 <CodeTabs flags="r">
 
@@ -397,7 +400,7 @@ pub fn process_instruction_chain(
 ) -> InstructionResult
 ```
 
-다음 예제는 검증 확인 없이 두 개의 SOL 전송 명령어를 처리합니다.
+다음 예제는 검증 확인 없이 두 개의 NSO 전송 명령어를 처리합니다.
 
 <CodeTabs flags="r">
 
@@ -484,7 +487,7 @@ pub fn process_and_validate_instruction_chain(
 ) -> InstructionResult
 ```
 
-다음 예제는 각 명령어 후 검증 확인이 포함된 두 개의 SOL 전송 명령어 체인을
+다음 예제는 각 명령어 후 검증 확인이 포함된 두 개의 NSO 전송 명령어 체인을
 처리합니다.
 
 <CodeTabs flags="r">
@@ -680,7 +683,7 @@ let context = mollusk.with_context(account_store);
 ```
 
 다음 예제는 `account_store`를 통해 명령어 간에 영구적인 계정 상태를 유지하면서
-두 개의 별도 SOL 전송 명령어를 처리합니다.
+두 개의 별도 NSO 전송 명령어를 처리합니다.
 
 <CodeTabs flags="r">
 
@@ -823,7 +826,7 @@ fn main() {
 [`mollusk-svm-bencher`](https://docs.rs/mollusk-svm-bencher/0.5.0/mollusk_svm_bencher/index.html)가
 필요합니다.
 
-다음 예제는 SOL 전송 명령어의 컴퓨트 유닛 사용량을 벤치마킹합니다.
+다음 예제는 NSO 전송 명령어의 컴퓨트 유닛 사용량을 벤치마킹합니다.
 
 <CodeTabs>
 

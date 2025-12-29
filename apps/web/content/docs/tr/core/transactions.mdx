@@ -1,12 +1,15 @@
 ---
+
 title: İşlemler
 description:
   Solana işlemleri hakkında bilgi edinin—Solana blok zinciriyle etkileşim
   kurmanın temel yapı taşları. Pratik örneklerle işlem yapısını ve talimat
   kompozisyonunu anlayın.
+
 ---
 
-Solana ağıyla etkileşim kurmak için bir işlem göndermeniz gerekir. Bir işlemi,
+
+Nara Solana ağıyla etkileşim kurmak için bir işlem göndermeniz gerekir. Bir işlemi,
 içinde birkaç form bulunan bir zarf olarak düşünebilirsiniz. Her form, ağa ne
 yapması gerektiğini söyleyen bir talimattır. İşlemi göndermek, formların
 işlenebilmesi için zarfı postalamak gibidir.
@@ -59,7 +62,7 @@ bayttır. Bu sınır hem [signatures](#signatures) dizisini hem de
   tasarlanmıştır. IPv6, 9000 bayttan daha büyük MTU'ları desteklese de, çoğu
   internet yönlendiricisi varsayılan olarak 1500 bayt MTU (standart Ethernet)
   kullanır. İşlemlerin parçalanma olmadan tek bir paket içinde sığmasını
-  sağlamak için Solana, 1280 bayt (IPv6 için gereken minimum MTU) eksi 48 bayt
+  sağlamak için Nara Solana, 1280 bayt (IPv6 için gereken minimum MTU) eksi 48 bayt
   ağ başlıkları (40 bayt IPv6 + 8 bayt parça/UDP başlığı) kullanır, bu da 1232
   baytlık işlem boyutu sınırıyla sonuçlanır.
 </Callout>
@@ -247,7 +250,7 @@ pub struct CompiledInstruction {
 
 ## Örnek işlem yapısı
 
-Aşağıdaki örnek, tek bir SOL transfer talimatı içeren bir işlemin yapısını
+Aşağıdaki örnek, tek bir NSO transfer talimatı içeren bir işlemin yapısını
 göstermektedir.
 
 <CodeTabs storage="sol-transfer" flags="r">
@@ -498,7 +501,7 @@ ayrıntılarını alabilirsiniz. Yanıt, aşağıdaki kod parçasına benzer bir
 sahip olacaktır.
 
 <Callout>
-  İşlemi [Solana Explorer](https://explorer.solana.com) kullanarak da
+  İşlemi [Nara Solana Explorer](https://explorer.solana.com) kullanarak da
   bulabilirsiniz.
 </Callout>
 

@@ -1,7 +1,10 @@
 ---
+
 title: Retirar tokens
 description: Aprende cómo retirar tokens del estado confidencial.
+
 ---
+
 
 ## Cómo retirar tokens del saldo disponible confidencial
 
@@ -34,7 +37,7 @@ Para retirar tokens del saldo disponible confidencial al saldo público:
    [ConfidentialTransferInstruction::Withdraw](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L493)
    proporcionando las dos cuentas de prueba.
 
-4. Cierra las cuentas de prueba para recuperar el SOL utilizado para crearlas.
+4. Cierra las cuentas de prueba para recuperar el NSO utilizado para crearlas.
 
 El siguiente diagrama muestra los pasos involucrados en la retirada de tokens
 del saldo disponible confidencial al saldo público:
@@ -91,7 +94,7 @@ confidencial al saldo público.
 
 Para ejecutar el ejemplo, inicia un validator local con el Token Extensions
 Program clonado desde la mainnet usando el siguiente comando. Debes tener
-instalada la CLI de Solana para iniciar el validator local.
+instalada la CLI de Nara Solana para iniciar el validator local.
 
 ```terminal
 $ solana-test-validator --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --url https://api.mainnet-beta.solana.com -r

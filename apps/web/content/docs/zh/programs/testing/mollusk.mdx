@@ -1,10 +1,13 @@
 ---
+
 title: Mollusk
-description: 使用 Mollusk 测试 Solana 程序的综合指南
+description: 使用 Mollusk 测试 Nara Solana 程序的综合指南
+
 ---
 
+
 [Mollusk](https://github.com/anza-xyz/mollusk/tree/main)
-是一个轻量级的测试工具，用于测试 Solana 程序。它为在精简的 Solana 虚拟机 (SVM) 环境中测试 Solana 程序指令提供了一个简单的接口。所有测试账户都必须明确定义，以确保测试的确定性和可重复性。
+是一个轻量级的测试工具，用于测试 Nara Solana 程序。它为在精简的 Nara Solana 虚拟机 (SVM) 环境中测试 Nara Solana 程序指令提供了一个简单的接口。所有测试账户都必须明确定义，以确保测试的确定性和可重复性。
 
 - [Mollusk SVM 文档](https://docs.rs/mollusk-svm/latest/mollusk_svm/)
 - [Mollusk 测试使用示例](https://github.com/anza-xyz/mollusk/tree/0.5.0/harness/tests)
@@ -49,13 +52,13 @@ mollusk-svm-programs-token = "0.7"
 
 ## Mollusk SVM
 
-以下示例展示了使用 Mollusk 测试一个基本 Solana 程序的最小设置。
+以下示例展示了使用 Mollusk 测试一个基本 Nara Solana 程序的最小设置。
 
 <ScrollyCoding>
 
 ## !!steps Hello World 程序
 
-此示例演示了如何使用 Mollusk 测试一个基本的 Solana 程序。该程序在被调用时会将 "Hello,
+此示例演示了如何使用 Mollusk 测试一个基本的 Nara Solana 程序。该程序在被调用时会将 "Hello,
 world!" 打印到程序日志中。
 
 运行 `cargo build-sbf` 会在 `/target/deploy/<program_name>.so`
@@ -65,7 +68,7 @@ world!" 打印到程序日志中。
 
 <WithMentions>
 
-使用 Mollusk 测试 Solana 程序的步骤：
+使用 Mollusk 测试 Nara Solana 程序的步骤：
 
 1. [创建一个 `Mollusk` 实例](mention:mollusk) - 使用程序 ID 和已编译程序的路径（`.so`
    文件）初始化 Mollusk
@@ -170,7 +173,7 @@ solana-sdk = "2.2.0"
 </ScrollyCoding>
 
 [`Mollusk`](https://docs.rs/mollusk-svm/0.5.0/mollusk_svm/struct.Mollusk.html)
-结构体为测试 Solana 程序提供了一个简单的接口。所有字段都可以通过一些辅助方法进行操作，但如果用户需要更多控制，也可以直接访问和修改它们。
+结构体为测试 Nara Solana 程序提供了一个简单的接口。所有字段都可以通过一些辅助方法进行操作，但如果用户需要更多控制，也可以直接访问和修改它们。
 
 要使用默认实例初始化 Mollusk，请使用 `Mollusk::default` 方法。
 
@@ -233,7 +236,7 @@ pub fn process_instruction(
 ) -> InstructionResult
 ```
 
-以下示例处理了一条 SOL 转账指令，而未进行验证检查。
+以下示例处理了一条 NSO 转账指令，而未进行验证检查。
 
 <Callout type="info">
 
@@ -314,7 +317,7 @@ pub fn process_and_validate_instruction(
 ) -> InstructionResult
 ```
 
-以下示例处理一条带有验证检查的 SOL 转账指令。
+以下示例处理一条带有验证检查的 NSO 转账指令。
 
 <CodeTabs flags="r">
 
@@ -386,7 +389,7 @@ pub fn process_instruction_chain(
 ) -> InstructionResult
 ```
 
-以下示例处理两条不带验证检查的 SOL 转账指令。
+以下示例处理两条不带验证检查的 NSO 转账指令。
 
 <CodeTabs flags="r">
 
@@ -472,7 +475,7 @@ pub fn process_and_validate_instruction_chain(
 ) -> InstructionResult
 ```
 
-以下示例处理一系列两条带有验证检查的 SOL 转账指令，每条指令后都会进行验证检查。
+以下示例处理一系列两条带有验证检查的 NSO 转账指令，每条指令后都会进行验证检查。
 
 <CodeTabs flags="r">
 
@@ -667,7 +670,7 @@ let context = mollusk.with_context(account_store);
 ```
 
 以下示例通过 `account_store`
-在指令之间保持持久化账户状态，处理了两个单独的 SOL 转账指令。
+在指令之间保持持久化账户状态，处理了两个单独的 NSO 转账指令。
 
 <CodeTabs flags="r">
 
@@ -807,7 +810,7 @@ fn main() {
 [`mollusk-svm-bencher`](https://docs.rs/mollusk-svm-bencher/0.5.0/mollusk_svm_bencher/index.html)
 作为依赖项。
 
-以下示例对 SOL 转账指令的计算单元使用情况进行了基准测试。
+以下示例对 NSO 转账指令的计算单元使用情况进行了基准测试。
 
 <CodeTabs>
 

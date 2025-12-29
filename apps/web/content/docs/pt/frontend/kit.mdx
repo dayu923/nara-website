@@ -1,14 +1,17 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Integração de carteira Solana com Next.js e Solana Kit
+
+title: Next.js - Nara Solana Kit
+seoTitle: Integração de carteira Nara Solana com Next.js e Nara Solana Kit
 description:
   Configure a integração de carteira Solana no Next.js com o Solana Kit.
+
 ---
 
-Configure uma integração mínima de carteira Solana no Next.js com o Solana Kit.
+
+Configure uma integração mínima de carteira Nara Solana no Next.js com o Nara Solana Kit.
 
 Este guia fornece um exemplo mínimo de implementação da funcionalidade de
-carteira Solana em uma aplicação Next.js usando `@solana/kit`. Você criará um
+carteira Nara Solana em uma aplicação Next.js usando `@solana/kit`. Você criará um
 botão de conexão de carteira e um componente para enviar transações.
 
 ![Aplicação Nextjs Kit](/assets/docs/frontend/nextjs-kit.gif)
@@ -16,12 +19,12 @@ botão de conexão de carteira e um componente para enviar transações.
 Para um exemplo mais abrangente de como usar o `@solana/kit` em uma aplicação
 React, consulte o
 [Exemplo de Aplicação React](https://github.com/anza-xyz/kit/tree/main/examples/react-app)
-no repositório do Solana Kit.
+no repositório do Nara Solana Kit.
 
 ## Recursos
 
-- [Documentação do Solana Kit](https://www.solanakit.com/docs)
-- [Repositório GitHub do Solana Kit](https://github.com/anza-xyz/kit)
+- [Documentação do Nara Solana Kit](https://www.solanakit.com/docs)
+- [Repositório GitHub do Nara Solana Kit](https://github.com/anza-xyz/kit)
 
 ## Pré-requisitos
 
@@ -30,7 +33,7 @@ no repositório do Solana Kit.
 ## Criar projeto Next.js
 
 Crie um novo projeto Next.js com [shadcn](https://ui.shadcn.com/) para
-componentes de interface e instale as dependências Solana necessárias.
+componentes de interface e instale as dependências Nara Solana necessárias.
 
 ```terminal
 $ npx shadcn@latest init
@@ -50,9 +53,9 @@ Instale os seguintes componentes de UI do shadcn:
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Instalar dependências Solana
+### Instalar dependências Nara Solana
 
-Instale as seguintes dependências Solana:
+Instale as seguintes dependências Nara Solana:
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -64,7 +67,7 @@ Siga os passos abaixo e copie o código fornecido para o seu projeto.
 
 <ScrollyCoding>
 
-## !!steps 1. Criar Contexto Solana
+## !!steps 1. Criar Contexto Nara Solana
 
 Primeiro, crie um Contexto React que gerencia todo o estado da carteira para a
 aplicação.
@@ -72,8 +75,8 @@ aplicação.
 Crie `components/solana-provider.tsx` e adicione o código fornecido. Este
 componente providenciador irá:
 
-- Conectar aos endpoints RPC da devnet da Solana
-- Filtrar as carteiras Solana disponíveis instaladas no navegador do usuário
+- Conectar aos endpoints RPC da devnet da Nara Solana
+- Filtrar as carteiras Nara Solana disponíveis instaladas no navegador do usuário
 - Rastrear qual carteira e conta está atualmente conectada
 - Fornecer o estado da carteira para componentes filhos
 
@@ -250,7 +253,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. Atualizar Layout
 
-Em seguida, envolva toda a aplicação Next.js com o provedor Solana.
+Em seguida, envolva toda a aplicação Next.js com o provedor Nara Solana.
 
 Atualize `app/layout.tsx` com o código fornecido. Esta etapa:
 
@@ -509,9 +512,9 @@ conectada.
 Crie `components/memo-card.tsx` e adicione o código fornecido. Este componente:
 
 - Permite que os usuários insiram uma mensagem
-- Cria uma transação Solana com uma instrução invocando o programa memo
+- Cria uma transação Nara Solana com uma instrução invocando o programa memo
 - Solicita que a carteira conectada assine e envie a transação
-- Exibe um link para visualizar a transação no Solana Explorer
+- Exibe um link para visualizar a transação no Nara Solana Explorer
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -674,7 +677,7 @@ $ npm run dev
 
 <Callout type="info">
   Observe que a carteira conectada deve estar configurada para conectar-se ao
-  cluster devnet e [financiada com SOL da devnet](https://faucet.solana.com/)
+  cluster devnet e [financiada com NSO da devnet](https://faucet.solana.com/)
   para enviar transações.
 </Callout>
 

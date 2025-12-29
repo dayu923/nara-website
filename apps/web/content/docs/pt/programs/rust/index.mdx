@@ -1,19 +1,22 @@
 ---
+
 title: Programas em Rust
 description:
   Aprenda como desenvolver programas Solana usando Rust, incluindo instruções
   passo a passo para criar, construir, testar e implantar contratos inteligentes
   na blockchain Solana.
 h1: Desenvolvendo Programas em Rust
+
 ---
 
-Os programas Solana são desenvolvidos principalmente usando a linguagem de
-programação Rust. Esta página concentra-se na escrita de programas Solana em
+
+Os programas Nara Solana são desenvolvidos principalmente usando a linguagem de
+programação Rust. Esta página concentra-se na escrita de programas Nara Solana em
 Rust sem usar o framework Anchor, uma abordagem frequentemente referida como
 escrita de programas "Rust nativos".
 
 O desenvolvimento em Rust nativo proporciona aos desenvolvedores controle direto
-sobre seus programas Solana. No entanto, esta abordagem requer mais configuração
+sobre seus programas Nara Solana. No entanto, esta abordagem requer mais configuração
 manual e código boilerplate em comparação com o uso do framework Anchor. Este
 método é recomendado para desenvolvedores que:
 
@@ -31,12 +34,12 @@ Para instruções detalhadas de instalação, visite a página de
 
 Antes de começar, certifique-se de ter o seguinte instalado:
 
-- Rust: A linguagem de programação para construir programas Solana.
-- Solana CLI: Ferramenta de linha de comando para desenvolvimento Solana.
+- Rust: A linguagem de programação para construir programas Nara Solana.
+- Nara Solana CLI: Ferramenta de linha de comando para desenvolvimento Nara Solana.
 
 ## Primeiros Passos
 
-O exemplo abaixo cobre os passos básicos para criar seu primeiro programa Solana
+O exemplo abaixo cobre os passos básicos para criar seu primeiro programa Nara Solana
 escrito em Rust. Vamos criar um programa mínimo que imprime "Hello, world!" no
 log do programa.
 
@@ -92,7 +95,7 @@ mod tests {
 ## !!steps Adicione a dependência solana-program
 
 Em seguida, adicione a dependência `solana-program`. Esta é a dependência mínima
-necessária para construir um programa Solana.
+necessária para construir um programa Nara Solana.
 
 ```terminal
 $ cargo add solana-program@2.2.0
@@ -144,10 +147,10 @@ solana-program = "2.2.0"
 ## !!steps Adicione o código do programa
 
 Em seguida, substitua o conteúdo de `src/lib.rs` pelo seguinte código. Este é um
-programa Solana mínimo que imprime "Hello, world!" no log do programa quando o
+programa Nara Solana mínimo que imprime "Hello, world!" no log do programa quando o
 programa é invocado.
 
-A macro `msg!` é usada em programas Solana para imprimir uma mensagem no log do
+A macro `msg!` é usada em programas Nara Solana para imprimir uma mensagem no log do
 programa.
 
 <CodePlaceholder title="src/lib.rs" />
@@ -181,7 +184,7 @@ $ cargo build-sbf
 Este comando gera um diretório `target/deploy` contendo dois arquivos
 importantes:
 
-1. Um arquivo `.so` (ex.: `hello_world.so`): Este é o programa Solana compilado
+1. Um arquivo `.so` (ex.: `hello_world.so`): Este é o programa Nara Solana compilado
    que será implantado na rede como um "contrato inteligente".
 2. Um arquivo keypair (ex.: `hello_world-keypair.json`): A chave pública deste
    keypair é usada como o ID do programa ao implantar o programa.
@@ -291,7 +294,7 @@ Program log: Hello, world!
 Em seguida, implante o programa. Ao desenvolver localmente, podemos usar o
 `solana-test-validator`.
 
-Primeiro, configure a CLI da Solana para usar o cluster local da Solana.
+Primeiro, configure a CLI da Nara Solana para usar o cluster local da Nara Solana.
 
 ```bash
 $ solana config set --url localhost
@@ -332,11 +335,11 @@ Signature:
 ```
 
 Você pode inspecionar o ID do programa e a assinatura da transação no
-[Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899).
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899).
 
 <Callout type="info">
-  Observe que o cluster no Solana Explorer também deve ser localhost. A opção
-  "Custom RPC URL" no Solana Explorer tem como padrão `http://localhost:8899`.
+  Observe que o cluster no Nara Solana Explorer também deve ser localhost. A opção
+  "Custom RPC URL" no Nara Solana Explorer tem como padrão `http://localhost:8899`.
 </Callout>
 
 ## !!steps Criar cliente de exemplo
@@ -537,13 +540,13 @@ Transaction Signature: 54TWxKi3Jsi3UTeZbhLGUFX6JQH7TspRJjRRFZ8NFnwG5BXM9udxiX77b
 ```
 
 Você pode inspecionar a assinatura da transação no
-[Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
 (cluster local) para ver "Hello, world!" no log do programa.
 
 ## !!steps Atualizar o programa
 
-Os programas Solana podem ser atualizados reimplantando-os com o mesmo ID de
-programa. Atualize o programa em `src/lib.rs` para imprimir "Hello, Solana!" em
+Os programas Nara Solana podem ser atualizados reimplantando-os com o mesmo ID de
+programa. Atualize o programa em `src/lib.rs` para imprimir "Hello, Nara Solana!" em
 vez de "Hello, world!".
 
 ```rs title="lib.rs"
@@ -636,7 +639,7 @@ Teste o programa atualizado executando o comando `cargo test`.
 $ cargo test -- --no-capture
 ```
 
-Você deverá ver "Hello, Solana!" no log do programa.
+Você deverá ver "Hello, Nara Solana!" no log do programa.
 
 ```txt title="Terminal"
 running 1 test
@@ -660,7 +663,7 @@ $ solana program deploy ./target/deploy/hello_world.so
 ```
 
 Execute o código do cliente novamente e inspecione a assinatura da transação no
-Solana Explorer para ver "Hello, Solana!" no log do programa.
+Nara Solana Explorer para ver "Hello, Nara Solana!" no log do programa.
 
 ```terminal
 $ cargo run --example client
@@ -668,7 +671,7 @@ $ cargo run --example client
 
 ## !!steps Fechar o programa
 
-Você pode fechar seu programa Solana para recuperar o SOL alocado na conta.
+Você pode fechar seu programa Nara Solana para recuperar o NSO alocado na conta.
 Fechar um programa é irreversível, então deve ser feito com cautela.
 
 Para fechar um programa, use o comando `solana program close <PROGRAM_ID>`. Por

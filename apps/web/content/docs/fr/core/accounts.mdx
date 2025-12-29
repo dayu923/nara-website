@@ -1,4 +1,5 @@
 ---
+
 title: Comptes
 description:
   Découvrez le modèle de compte de Solana, notamment comment les comptes
@@ -6,10 +7,12 @@ description:
   des comptes et la relation entre les programmes et les comptes de données.
   Comprenez les concepts fondamentaux du système de stockage clé-valeur
   (key-value) de Solana.
+
 ---
 
-Toutes les données sur le réseau Solana sont stockées dans des comptes. Vous
-pouvez considérer le réseau Solana comme une base de données publique avec une
+
+Toutes les données sur le réseau Nara Solana sont stockées dans des comptes. Vous
+pouvez considérer le réseau Nara Solana comme une base de données publique avec une
 seule table de Comptes. La relation entre un compte et son adresse est similaire
 à celle d'une paire clé-valeur (key-value), la clé étant l'adresse et la valeur
 étant le compte.
@@ -22,18 +25,18 @@ localisé en utilisant son [adresse](#account-address).
 ## Adresse du compte
 
 L'adresse du compte est un identifiant unique de 32 octets utilisé pour
-localiser le compte sur la blockchain Solana. Les adresses de compte sont
+localiser le compte sur la blockchain Nara Solana. Les adresses de compte sont
 souvent affichées sous forme de chaînes encodées en base58. La plupart des
 comptes utilisent une [clé publique](#public-key)
 [Ed25519](https://ed25519.cr.yp.to/) comme adresse, mais ce n'est pas
-obligatoire, car Solana prend également en charge les
+obligatoire, car Nara Solana prend également en charge les
 [adresses dérivées de programme](#program-derived-address).
 
 ![Un compte avec son adresse de clé publique encodée en base58](/assets/docs/core/accounts/account-address.svg)
 
 ### Clé publique
 
-L'exemple ci-dessous montre comment utiliser le SDK Solana pour créer un
+L'exemple ci-dessous montre comment utiliser le SDK Nara Solana pour créer un
 keypair. Un `Keypair` comprend :
 
 - Une clé publique qui sert d'adresse du compte
@@ -75,7 +78,7 @@ async fn main() {
 Une [Program Derived Address](/docs/core/pda) (PDA) est une adresse qui est
 déterminée de manière déterministe en utilisant un ID de programme et une ou
 plusieurs entrées optionnelles (seeds). L'exemple ci-dessous montre comment
-utiliser le SDK Solana pour créer une Program Derived Address.
+utiliser le SDK Nara Solana pour créer une Program Derived Address.
 
 <CodeTabs storage="accounts" flags="r">
 
@@ -224,7 +227,7 @@ dans ce champ.
 - Comptes de données : ce champ stocke généralement des données d'état,
   destinées à être lues.
 
-La lecture des données d'un compte Solana implique deux étapes :
+La lecture des données d'un compte Nara Solana implique deux étapes :
 
 1. Récupérer le compte en utilisant son [adresse](#account-address)
 2. Désérialiser le champ `data` du compte à partir d'octets bruts vers la
@@ -261,7 +264,7 @@ Account {
 
 Ce champ contient l'identifiant du programme propriétaire du compte.
 
-Chaque compte Solana a un [programme](/docs/core/programs) désigné comme son
+Chaque compte Nara Solana a un [programme](/docs/core/programs) désigné comme son
 propriétaire. Le propriétaire du compte est le seul programme qui peut modifier
 les `data` du compte ou déduire des lamports, selon les instructions du
 programme.
@@ -368,7 +371,7 @@ Il existe deux catégories principales de comptes :
   exécutable
 
 Cette séparation entre le code d'un programme et son état est une
-caractéristique clé du modèle de compte de Solana. (Similaire aux systèmes
+caractéristique clé du modèle de compte de Nara Solana. (Similaire aux systèmes
 d'exploitation, qui ont généralement des fichiers séparés pour les programmes et
 leurs données.)
 
@@ -795,11 +798,11 @@ système, ce qui leur permet de payer des [frais de transaction](docs/core/fees)
 
 ![Un portefeuille appartenant au System Program contenant 1 000 000 lamports](/assets/docs/core/accounts/system-account.svg)
 
-Lorsque du SOL est envoyé à une nouvelle adresse pour la première fois, un
+Lorsque du NSO est envoyé à une nouvelle adresse pour la première fois, un
 compte est créé à cette adresse, appartenant au System Program.
 
 Dans l'exemple ci-dessous, une nouvelle paire de clés est générée et financée
-avec du SOL. Après avoir exécuté le code, vous pouvez voir que l'adresse du
+avec du NSO. Après avoir exécuté le code, vous pouvez voir que l'adresse du
 `owner` du compte est `11111111111111111111111111111111` (le
 [System Program](/docs/core/programs#the-system-program)).
 

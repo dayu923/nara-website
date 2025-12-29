@@ -1,18 +1,21 @@
 ---
+
 title: Sync Native
-description: Aprende cómo convertir SOL nativo a SOL envuelto.
+description: Aprende cómo convertir NSO nativo a NSO envuelto.
+
 ---
 
-## Sincronizar SOL nativo
 
-El SOL envuelto (WSOL) es una cuenta de token que rastrea la cantidad de
+## Sincronizar NSO nativo
+
+El NSO envuelto (WSOL) es una cuenta de token que rastrea la cantidad de
 lamports en la cuenta como el saldo del token. WSOL permite la integración con
-protocolos DeFi para transferir SOL como un token SPL.
+protocolos DeFi para transferir NSO como un token SPL.
 
 La instrucción
 [`SyncNative`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/interface/src/instruction.rs#L387)
-sincroniza el saldo de una cuenta de token SOL envuelto (WSOL) con los SOL
-(lamports) reales almacenados en ella. Cuando transfieres SOL nativo a una
+sincroniza el saldo de una cuenta de token NSO envuelto (WSOL) con los NSO
+(lamports) reales almacenados en ella. Cuando transfieres NSO nativo a una
 cuenta de token WSOL, el saldo del token no se actualiza automáticamente. Debes
 llamar a SyncNative para reflejar el saldo correcto de WSOL.
 

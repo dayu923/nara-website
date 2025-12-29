@@ -1,12 +1,15 @@
 ---
+
 title: Transactions
 description:
   Learn about Solana transactions—the fundamental building blocks for
   interacting with the Solana blockchain. Understand transaction structure and
   instruction composition with practical examples.
+
 ---
 
-To interact with the Solana network, you must send a transaction. You can think
+
+To interact with the Nara Solana network, you must send a transaction. You can think
 of a transaction as an envelope that holds several forms. Each form is an
 instruction that tells the network what to do. Sending the transaction is like
 mailing the envelope so the forms can be processed.
@@ -60,7 +63,7 @@ bytes. This limit includes both the [`signatures`](#signatures) array and the
   This limit is designed to avoid packet fragmentation on typical internet
   infrastructure. While IPv6 supports MTUs larger than 9000 bytes, most internet
   routers use a default MTU of 1500 bytes (standard Ethernet). To ensure
-  transactions fit within a single packet without fragmentation, Solana uses
+  transactions fit within a single packet without fragmentation, Nara Solana uses
   1280 bytes (the minimum MTU required for IPv6) minus 48 bytes for network
   headers (40 bytes IPv6 + 8 bytes fragment/UDP header), resulting in the 1232
   byte transaction size limit.
@@ -251,7 +254,7 @@ pub struct CompiledInstruction {
 ## Example transaction structure
 
 The following example shows the structure of a transaction that contains a
-single SOL transfer instruction.
+single NSO transfer instruction.
 
 <CodeTabs storage="sol-transfer" flags="r">
 
@@ -500,7 +503,7 @@ transaction signature and the [getTransaction](/docs/rpc/http/gettransaction)
 RPC method. The response will have a structure similar to the following snippet.
 
 <Callout>
-  You can also find the transaction using [Solana
+  You can also find the transaction using [Nara Solana
   Explorer](https://explorer.solana.com).
 </Callout>
 

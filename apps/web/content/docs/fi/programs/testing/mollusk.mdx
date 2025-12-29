@@ -1,11 +1,14 @@
 ---
+
 title: Mollusk
-description: Kattava opas Solana-ohjelmien testaamiseen Molluskin avulla
+description: Kattava opas Nara Solana-ohjelmien testaamiseen Molluskin avulla
+
 ---
 
+
 [Mollusk](https://github.com/anza-xyz/mollusk/tree/main) on kevyt testaustyökalu
-Solana-ohjelmien testaamiseen. Se tarjoaa yksinkertaisen käyttöliittymän
-Solana-ohjelmien käskyjen testaamiseen minimoidussa Solana Virtual Machine (SVM)
+Nara Solana-ohjelmien testaamiseen. Se tarjoaa yksinkertaisen käyttöliittymän
+Nara Solana-ohjelmien käskyjen testaamiseen minimoidussa Nara Solana Virtual Machine (SVM)
 -ympäristössä. Kaikki testitilit on määriteltävä erikseen, mikä varmistaa
 deterministiset ja toistettavat testit.
 
@@ -52,14 +55,14 @@ mollusk-svm-programs-token = "0.7"
 
 ## Mollusk SVM
 
-Seuraava esimerkki näyttää minimaalisen asetuksen perus-Solana-ohjelman
+Seuraava esimerkki näyttää minimaalisen asetuksen perus-Nara Solana-ohjelman
 testaamiseen Molluskin avulla.
 
 <ScrollyCoding>
 
 ## !!steps Hello World -ohjelma
 
-Tämä esimerkki havainnollistaa, miten testataan perus-Solana-ohjelmaa Molluskin
+Tämä esimerkki havainnollistaa, miten testataan perus-Nara Solana-ohjelmaa Molluskin
 avulla. Ohjelma yksinkertaisesti tulostaa "Hello, world!" ohjelman lokeihin, kun
 sitä kutsutaan.
 
@@ -70,7 +73,7 @@ Komennon `cargo build-sbf` suorittaminen luo käännetyn ohjelman sijaintiin
 
 <WithMentions>
 
-Solana-ohjelman testaamiseksi Molluskilla:
+Nara Solana-ohjelman testaamiseksi Molluskilla:
 
 1. [Luo `Mollusk` instanssi](mention:mollusk) - Alusta Mollusk
    ohjelmatunnuksella ja käännetyn ohjelman polulla (`.so` tiedosto)
@@ -176,7 +179,7 @@ solana-sdk = "2.2.0"
 </ScrollyCoding>
 
 [`Mollusk`](https://docs.rs/mollusk-svm/0.5.0/mollusk_svm/struct.Mollusk.html)
--rakenne tarjoaa yksinkertaisen rajapinnan Solana-ohjelmien testaamiseen.
+-rakenne tarjoaa yksinkertaisen rajapinnan Nara Solana-ohjelmien testaamiseen.
 Kaikkia kenttiä voidaan muokata muutaman apumetodin avulla, mutta käyttäjät
 voivat myös suoraan käyttää ja muokata niitä, jos he haluavat enemmän hallintaa.
 
@@ -242,7 +245,7 @@ pub fn process_instruction(
 ) -> InstructionResult
 ```
 
-Seuraava esimerkki käsittelee SOL-siirto-ohjeen ilman validointitarkistuksia.
+Seuraava esimerkki käsittelee NSO-siirto-ohjeen ilman validointitarkistuksia.
 
 <Callout type="info">
 
@@ -325,7 +328,7 @@ pub fn process_and_validate_instruction(
 ) -> InstructionResult
 ```
 
-Seuraava esimerkki käsittelee SOL-siirto-ohjeen validointitarkistuksilla.
+Seuraava esimerkki käsittelee NSO-siirto-ohjeen validointitarkistuksilla.
 
 <CodeTabs flags="r">
 
@@ -398,7 +401,7 @@ pub fn process_instruction_chain(
 ) -> InstructionResult
 ```
 
-Seuraava esimerkki käsittelee kaksi SOL-siirto-ohjetta ilman
+Seuraava esimerkki käsittelee kaksi NSO-siirto-ohjetta ilman
 validointitarkistuksia.
 
 <CodeTabs flags="r">
@@ -486,7 +489,7 @@ pub fn process_and_validate_instruction_chain(
 ) -> InstructionResult
 ```
 
-Seuraava esimerkki käsittelee ketjun, jossa on kaksi SOL-siirto-ohjetta
+Seuraava esimerkki käsittelee ketjun, jossa on kaksi NSO-siirto-ohjetta
 validointitarkistuksilla jokaisen ohjeen jälkeen.
 
 <CodeTabs flags="r">
@@ -683,7 +686,7 @@ account_store.insert(
 let context = mollusk.with_context(account_store);
 ```
 
-Seuraava esimerkki käsittelee kaksi erillistä SOL-siirto-ohjetta, joiden välillä
+Seuraava esimerkki käsittelee kaksi erillistä NSO-siirto-ohjetta, joiden välillä
 tilin tila säilyy `account_store`:n kautta.
 
 <CodeTabs flags="r">
@@ -827,7 +830,7 @@ Vaatii
 [`mollusk-svm-bencher`](https://docs.rs/mollusk-svm-bencher/0.5.0/mollusk_svm_bencher/index.html)
 riippuvuutena.
 
-Seuraava esimerkki mittaa SOL-siirtokäskyn laskentayksikköjen käyttöä.
+Seuraava esimerkki mittaa NSO-siirtokäskyn laskentayksikköjen käyttöä.
 
 <CodeTabs>
 

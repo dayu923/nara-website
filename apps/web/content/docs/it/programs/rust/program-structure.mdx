@@ -1,19 +1,22 @@
 ---
+
 title: Struttura del programma
 description:
   Impara come strutturare i programmi Solana in Rust, inclusi entrypoint,
   gestione dello stato, gestione delle istruzioni e testing.
 h1: Struttura del programma Rust
+
 ---
 
-I programmi Solana scritti in Rust hanno requisiti strutturali minimi,
+
+I programmi Nara Solana scritti in Rust hanno requisiti strutturali minimi,
 permettendo flessibilità nell'organizzazione del codice. L'unico requisito è che
 un programma deve avere un `entrypoint`, che definisce dove inizia l'esecuzione
 di un programma.
 
 ## Struttura del programma
 
-Sebbene non ci siano regole rigide per la struttura dei file, i programmi Solana
+Sebbene non ci siano regole rigide per la struttura dei file, i programmi Nara Solana
 tipicamente seguono uno schema comune:
 
 - `entrypoint.rs`: Definisce l'entrypoint che indirizza le istruzioni in arrivo.
@@ -436,7 +439,7 @@ inizializzare un contatore con un valore iniziale e incrementarlo.
 
 ## !!steps Crea un nuovo programma
 
-Prima di tutto, creiamo un nuovo progetto Rust per il nostro programma Solana.
+Prima di tutto, creiamo un nuovo progetto Rust per il nostro programma Nara Solana.
 
 ```terminal
 $ cargo new counter_program --lib
@@ -479,7 +482,7 @@ mod tests {
 
 ## !!steps Aggiungere le dipendenze
 
-Ora aggiungiamo le dipendenze necessarie per costruire un programma Solana.
+Ora aggiungiamo le dipendenze necessarie per costruire un programma Nara Solana.
 Abbiamo bisogno di `solana-program` per l'SDK principale e `borsh` per la
 serializzazione.
 
@@ -504,12 +507,12 @@ solana-program = "2.2.0"
 
 <Callout type="info">
   Non è obbligatorio utilizzare Borsh. Tuttavia, è una libreria di
-  serializzazione comunemente utilizzata per i programmi Solana.
+  serializzazione comunemente utilizzata per i programmi Nara Solana.
 </Callout>
 
 ## !!steps Configurare crate-type
 
-I programmi Solana devono essere compilati come librerie dinamiche. Aggiungi la
+I programmi Nara Solana devono essere compilati come librerie dinamiche. Aggiungi la
 sezione `[lib]` per configurare come Cargo compila il programma.
 
 ```toml title="Cargo.toml"
@@ -539,7 +542,7 @@ solana-program = "2.2.0"
 
 ## !!steps Configurare il punto di ingresso del programma
 
-Ogni programma Solana ha un punto di ingresso, che è la funzione che viene
+Ogni programma Nara Solana ha un punto di ingresso, che è la funzione che viene
 chiamata quando il programma viene invocato. Iniziamo aggiungendo le
 importazioni necessarie per il programma e configurando il punto di ingresso.
 
@@ -575,7 +578,7 @@ La macro
 gestisce la deserializzazione dei dati `input` nei parametri della funzione
 `process_instruction`.
 
-Un `entrypoint` di un programma Solana ha la seguente firma di funzione. Gli
+Un `entrypoint` di un programma Nara Solana ha la seguente firma di funzione. Gli
 sviluppatori sono liberi di creare la propria implementazione della funzione
 `entrypoint`.
 
@@ -788,7 +791,7 @@ pub struct CounterAccount {
 Ora aggiorniamo la funzione principale `process_instruction` per instradare le
 istruzioni ai loro gestori appropriati.
 
-Questo modello di instradamento è comune nei programmi Solana. Il
+Questo modello di instradamento è comune nei programmi Nara Solana. Il
 `instruction_data` viene deserializzato in una variante di un enum che
 rappresenta l'istruzione, quindi viene chiamata la funzione gestore appropriata.
 Ogni funzione gestore include l'implementazione per quella istruzione.
@@ -906,7 +909,7 @@ pub struct CounterAccount {
 ## !!steps Implementare il gestore di inizializzazione
 
 Implementiamo il gestore per creare e inizializzare un nuovo account contatore.
-Poiché solo il System Program può creare account su Solana, useremo una Cross
+Poiché solo il System Program può creare account su Nara Solana, useremo una Cross
 Program Invocation (CPI), essenzialmente chiamando un altro programma dal nostro
 programma.
 
@@ -1252,8 +1255,8 @@ pub struct CounterAccount {
 
 ## !!steps Programma completato
 
-Congratulazioni! Hai creato un programma Solana completo che dimostra la
-struttura di base condivisa da tutti i programmi Solana:
+Congratulazioni! Hai creato un programma Nara Solana completo che dimostra la
+struttura di base condivisa da tutti i programmi Nara Solana:
 
 - **Entrypoint**: Definisce dove inizia l'esecuzione del programma e indirizza
   tutte le richieste in arrivo ai gestori di istruzioni appropriati
@@ -1510,7 +1513,7 @@ durante l'esecuzione dei test.
 
 Configuriamo l'ambiente di test con LiteSVM e finanziamo un account pagante.
 
-LiteSVM simula l'ambiente di runtime di Solana, permettendoci di testare il
+LiteSVM simula l'ambiente di runtime di Nara Solana, permettendoci di testare il
 nostro programma senza doverlo distribuire su un cluster reale.
 
 Aggiungi il seguente codice a `lib.rs` aggiornando la funzione
@@ -2367,7 +2370,7 @@ HQ5Q2XXqbTKKQsWPtLzMn7rDhM8v9UPYPe7DfSoFQqJF
 
 Per lo sviluppo, utilizzeremo un validator di test locale.
 
-Prima, configura la CLI di Solana per utilizzare localhost:
+Prima, configura la CLI di Nara Solana per utilizzare localhost:
 
 ```terminal
 $ solana config set -ul
@@ -2458,8 +2461,8 @@ Transaction: 4qv1Rx6FHu1M3woVgDQ6KtYUaJgBzGcHnhej76ZpaKGCgsTorbcHnPKxoH916UENw7X
 ```
 
 Con il validator locale in esecuzione, puoi visualizzare le transazioni su
-[Solana Explorer](https://explorer.solana.com/?cluster=custom) utilizzando le
-firme delle transazioni nell'output. Nota che il cluster su Solana Explorer deve
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom) utilizzando le
+firme delle transazioni nell'output. Nota che il cluster su Nara Solana Explorer deve
 essere impostato su "Custom RPC URL", che per impostazione predefinita è
 `http://localhost:8899` su cui il `solana-test-validator` è in esecuzione.
 

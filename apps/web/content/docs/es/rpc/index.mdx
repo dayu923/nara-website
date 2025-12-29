@@ -1,17 +1,20 @@
 ---
-title: Métodos RPC de Solana
-seoTitle: "Métodos RPC de Solana: HTTP y Websockets"
+
+title: Métodos RPC de Nara Solana
+seoTitle: "Métodos RPC de Nara Solana: HTTP y Websockets"
 hideTableOfContents: false
-h1: Métodos RPC de Solana y documentación
+h1: Métodos RPC de Nara Solana y documentación
+
 ---
 
-Interactúa directamente con los nodos de Solana mediante la API JSON RPC a
+
+Interactúa directamente con los nodos de Nara Solana mediante la API JSON RPC a
 través de los métodos HTTP y Websocket.
 
 ## Configuración del compromiso de estado
 
 Para las comprobaciones previas al vuelo y el procesamiento de transacciones,
-los nodos de Solana eligen qué estado del banco consultar basándose en un
+los nodos de Nara Solana eligen qué estado del banco consultar basándose en un
 requisito de compromiso establecido por el cliente. El compromiso describe cuán
 finalizado está un bloque en ese momento. Al consultar el estado del libro
 mayor, se recomienda usar niveles más bajos de compromiso para informar sobre el
@@ -60,7 +63,7 @@ RpcResponse compuesto de dos partes:
 Algunos métodos admiten un parámetro `encoding`, y pueden devolver datos de
 cuenta o instrucción en formato JSON analizado si se solicita
 `"encoding":"jsonParsed"` y el nodo tiene un analizador para el programa
-propietario. Los nodos de Solana actualmente admiten análisis JSON para los
+propietario. Los nodos de Nara Solana actualmente admiten análisis JSON para los
 siguientes programas nativos y SPL:
 
 | Programa                     | Estado de cuenta | Instrucciones |

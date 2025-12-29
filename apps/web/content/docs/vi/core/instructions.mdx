@@ -1,22 +1,25 @@
 ---
+
 title: Hướng dẫn
 description:
   Tìm hiểu về các lệnh Solana—những khối xây dựng cơ bản để tương tác với
   blockchain Solana. Hiểu cách cấu trúc lệnh với các ví dụ thực tế.
+
 ---
 
-Các lệnh là khối xây dựng cơ bản để tương tác với blockchain Solana. Một lệnh về
-cơ bản là một hàm công khai mà bất kỳ ai sử dụng mạng Solana đều có thể gọi. Mỗi
+
+Các lệnh là khối xây dựng cơ bản để tương tác với blockchain Nara Solana. Một lệnh về
+cơ bản là một hàm công khai mà bất kỳ ai sử dụng mạng Nara Solana đều có thể gọi. Mỗi
 lệnh được sử dụng để thực hiện một hành động cụ thể. Logic thực thi cho các lệnh
 được lưu trữ trên [chương trình](/docs/core/programs), trong đó mỗi chương trình
-định nghĩa tập hợp các lệnh riêng của nó. Để tương tác với mạng Solana, một hoặc
+định nghĩa tập hợp các lệnh riêng của nó. Để tương tác với mạng Nara Solana, một hoặc
 nhiều lệnh được thêm vào một [giao dịch](/docs/core/transactions) và gửi đến
 mạng để được xử lý.
 
-## Ví dụ chuyển SOL
+## Ví dụ chuyển NSO
 
 Sơ đồ dưới đây cho thấy cách các giao dịch và lệnh hoạt động cùng nhau để cho
-phép người dùng tương tác với mạng. Trong ví dụ này, SOL được chuyển từ tài
+phép người dùng tương tác với mạng. Trong ví dụ này, NSO được chuyển từ tài
 khoản này sang tài khoản khác.
 
 [Metadata](#account-metadata) của tài khoản người gửi chỉ ra rằng nó phải ký cho
@@ -25,14 +28,14 @@ giao dịch. (Điều này cho phép System Program khấu trừ
 người nhận đều phải có khả năng ghi, để số dư lamport của họ có thể thay đổi. Để
 thực thi lệnh này, ví của người gửi gửi giao dịch chứa
 [chữ ký](/docs/references/terminology#signature) của nó và thông điệp chứa lệnh
-chuyển SOL.
+chuyển NSO.
 
-![Sơ đồ chuyển SOL](/assets/docs/core/transactions/sol-transfer.svg)
+![Sơ đồ chuyển NSO](/assets/docs/core/transactions/sol-transfer.svg)
 
 Sau khi giao dịch được gửi, System Program xử lý lệnh chuyển và cập nhật số dư
 lamport của cả hai tài khoản.
 
-![Sơ đồ quy trình chuyển SOL](/assets/docs/core/transactions/sol-transfer-process.svg)
+![Sơ đồ quy trình chuyển NSO](/assets/docs/core/transactions/sol-transfer-process.svg)
 
 Ví dụ dưới đây hiển thị mã liên quan đến các sơ đồ trên. (Xem
 [lệnh](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L183)
@@ -361,7 +364,7 @@ Nó cũng bao gồm bất kỳ đối số nào được yêu cầu bởi lệnh
 
 ## Ví dụ tạo lệnh
 
-Ví dụ dưới đây cho thấy cấu trúc của một lệnh chuyển SOL.
+Ví dụ dưới đây cho thấy cấu trúc của một lệnh chuyển NSO.
 
 <CodeTabs storage="sol-transfer" flags="r">
 

@@ -1,15 +1,18 @@
 ---
+
 title: Rust SDK
-description: Solana üzerinde geliştirme yapmak için resmi Rust paketleri.
-h1: Solana için Rust SDK
+description: Nara Solana üzerinde geliştirme yapmak için resmi Rust paketleri.
+h1: Nara Solana için Rust SDK
+
 ---
+
 
 ## İstemci Paketleri
 
 | Paket                    | Açıklama                              | Dokümanlar                                             | GitHub                                                                         |
 | ------------------------ | ------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | solana-sdk               | Çekirdek SDK                          | [Görüntüle](https://docs.rs/solana-sdk/)               | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/sdk)               |
-| solana-client            | RPC aracılığıyla Solana ile etkileşim | [Görüntüle](https://docs.rs/solana-client/)            | [Kaynak](https://github.com/anza-xyz/agave/tree/master/client)                 |
+| solana-client            | RPC aracılığıyla Nara Solana ile etkileşim | [Görüntüle](https://docs.rs/solana-client/)            | [Kaynak](https://github.com/anza-xyz/agave/tree/master/client)                 |
 | solana-commitment-config | İşlem taahhüt seviyesi yapılandırması | [Görüntüle](https://docs.rs/solana-commitment-config/) | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/commitment-config) |
 
 `solana-sdk` paketi, bağımsız olarak kullanılabilen aşağıdaki bileşen
@@ -17,44 +20,44 @@ paketlerinden oluşmaktadır:
 
 | Paket                       | Açıklama                                                                           | Dokümanlar                                                | GitHub                                                                            |
 | --------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| solana-account              | Solana Hesap tipi                                                                  | [Görüntüle](https://docs.rs/solana-account/)              | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/account)              |
-| solana-epoch-info           | Bir Solana epoch hakkında bilgi                                                    | [Görüntüle](https://docs.rs/solana-epoch-info/)           | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-info)           |
-| solana-epoch-rewards-hasher | Solana epoch ödülleri hasher'ı                                                     | [Görüntüle](https://docs.rs/solana-epoch-rewards-hasher/) | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-rewards-hasher) |
-| solana-fee-structure        | Solana ücret yapıları                                                              | [Görüntüle](https://docs.rs/solana-fee-structure/)        | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/fee-structure)        |
-| solana-inflation            | Solana ağ enflasyonu için yapılandırma                                             | [Görüntüle](https://docs.rs/solana-inflation/)            | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/inflation)            |
-| solana-message              | Solana işlem mesaj tipleri                                                         | [Görüntüle](https://docs.rs/solana-message/)              | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/message)              |
-| solana-program              | Solana Program                                                                     | [Görüntüle](https://docs.rs/solana-program/)              | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/program)              |
-| solana-program-memory       | Solana için temel düşük seviyeli bellek işlemleri                                  | [Görüntüle](https://docs.rs/solana-program-memory/)       | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/program-memory)       |
-| solana-pubkey               | Solana hesap adresleri                                                             | [Görüntüle](https://docs.rs/solana-pubkey/)               | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/pubkey)               |
-| solana-sanitize             | Solana Mesaj Sanitizasyonu                                                         | [Görüntüle](https://docs.rs/solana-sanitize/)             | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/sanitize)             |
-| solana-sdk-ids              | Solana SDK ID'leri                                                                 | [Görüntüle](https://docs.rs/solana-sdk-ids/)              | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-ids)              |
-| solana-sdk-macro            | Solana SDK Makro                                                                   | [Görüntüle](https://docs.rs/solana-sdk-macro/)            | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-macro)            |
-| solana-serde                | Solana serde yardımcıları                                                          | [Görüntüle](https://docs.rs/solana-serde/)                | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/serde)                |
-| solana-serde-varint         | Değişken boyutta serileştirilen tamsayılar için Solana tanımları                   | [Görüntüle](https://docs.rs/solana-serde-varint/)         | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/serde-varint)         |
-| solana-short-vec            | Küçük uzunluktaki vektörlerin kompakt serde-kodlaması için Solana                  | [Görüntüle](https://docs.rs/solana-short-vec/)            | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/short-vec)            |
-| solana-time-utils           | Solana için std::time yardımcı programları                                         | [Görüntüle](https://docs.rs/solana-time-utils/)           | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/time-utils)           |
-| solana-keypair              | Bir Solana İmzalayıcının somut uygulaması                                          | [Görüntüle](https://docs.rs/solana-keypair/)              | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/keypair)              |
-| solana-offchain-message     | Solana zincir dışı mesaj imzalama                                                  | [Görüntüle](https://docs.rs/solana-offchain-message/)     | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/offchain-message)     |
-| solana-presigner            | Harici olarak oluşturulmuş bir İmzayı temsil eden bir Solana İmzalayıcı uygulaması | [Görüntüle](https://docs.rs/solana-presigner/)            | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/presigner)            |
-| solana-seed-derivable       | Anahtarların türetildiği arayüzü tanımlayan Solana özelliği                        | [Görüntüle](https://docs.rs/solana-seed-derivable/)       | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/seed-derivable)       |
-| solana-seed-phrase          | Anahtar çiftlerini seed ifadelerinden oluşturmak için Solana fonksiyonları         | [Görüntüle](https://docs.rs/solana-seed-phrase/)          | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/seed-phrase)          |
+| solana-account              | Nara Solana Hesap tipi                                                                  | [Görüntüle](https://docs.rs/solana-account/)              | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/account)              |
+| solana-epoch-info           | Bir Nara Solana epoch hakkında bilgi                                                    | [Görüntüle](https://docs.rs/solana-epoch-info/)           | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-info)           |
+| solana-epoch-rewards-hasher | Nara Solana epoch ödülleri hasher'ı                                                     | [Görüntüle](https://docs.rs/solana-epoch-rewards-hasher/) | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-rewards-hasher) |
+| solana-fee-structure        | Nara Solana ücret yapıları                                                              | [Görüntüle](https://docs.rs/solana-fee-structure/)        | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/fee-structure)        |
+| solana-inflation            | Nara Solana ağ enflasyonu için yapılandırma                                             | [Görüntüle](https://docs.rs/solana-inflation/)            | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/inflation)            |
+| solana-message              | Nara Solana işlem mesaj tipleri                                                         | [Görüntüle](https://docs.rs/solana-message/)              | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/message)              |
+| solana-program              | Nara Solana Program                                                                     | [Görüntüle](https://docs.rs/solana-program/)              | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/program)              |
+| solana-program-memory       | Nara Solana için temel düşük seviyeli bellek işlemleri                                  | [Görüntüle](https://docs.rs/solana-program-memory/)       | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/program-memory)       |
+| solana-pubkey               | Nara Solana hesap adresleri                                                             | [Görüntüle](https://docs.rs/solana-pubkey/)               | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/pubkey)               |
+| solana-sanitize             | Nara Solana Mesaj Sanitizasyonu                                                         | [Görüntüle](https://docs.rs/solana-sanitize/)             | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/sanitize)             |
+| solana-sdk-ids              | Nara Solana SDK ID'leri                                                                 | [Görüntüle](https://docs.rs/solana-sdk-ids/)              | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-ids)              |
+| solana-sdk-macro            | Nara Solana SDK Makro                                                                   | [Görüntüle](https://docs.rs/solana-sdk-macro/)            | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-macro)            |
+| solana-serde                | Nara Solana serde yardımcıları                                                          | [Görüntüle](https://docs.rs/solana-serde/)                | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/serde)                |
+| solana-serde-varint         | Değişken boyutta serileştirilen tamsayılar için Nara Solana tanımları                   | [Görüntüle](https://docs.rs/solana-serde-varint/)         | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/serde-varint)         |
+| solana-short-vec            | Küçük uzunluktaki vektörlerin kompakt serde-kodlaması için Nara Solana                  | [Görüntüle](https://docs.rs/solana-short-vec/)            | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/short-vec)            |
+| solana-time-utils           | Nara Solana için std::time yardımcı programları                                         | [Görüntüle](https://docs.rs/solana-time-utils/)           | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/time-utils)           |
+| solana-keypair              | Bir Nara Solana İmzalayıcının somut uygulaması                                          | [Görüntüle](https://docs.rs/solana-keypair/)              | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/keypair)              |
+| solana-offchain-message     | Nara Solana zincir dışı mesaj imzalama                                                  | [Görüntüle](https://docs.rs/solana-offchain-message/)     | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/offchain-message)     |
+| solana-presigner            | Harici olarak oluşturulmuş bir İmzayı temsil eden bir Nara Solana İmzalayıcı uygulaması | [Görüntüle](https://docs.rs/solana-presigner/)            | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/presigner)            |
+| solana-seed-derivable       | Anahtarların türetildiği arayüzü tanımlayan Nara Solana özelliği                        | [Görüntüle](https://docs.rs/solana-seed-derivable/)       | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/seed-derivable)       |
+| solana-seed-phrase          | Anahtar çiftlerini seed ifadelerinden oluşturmak için Nara Solana fonksiyonları         | [Görüntüle](https://docs.rs/solana-seed-phrase/)          | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/seed-phrase)          |
 | solana-shred-version        | Shred versiyonlarının hesaplanması                                                 | [Görüntüle](https://docs.rs/solana-shred-version/)        | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/shred-version)        |
-| solana-signature            | Solana 64-byte imza tipi                                                           | [Görüntüle](https://docs.rs/solana-signature/)            | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/signature)            |
-| solana-signer               | Solana işlem imzalayıcıları için soyutlamalar                                      | [Görüntüle](https://docs.rs/solana-signer/)               | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/signer)               |
-| solana-transaction          | Solana işlem tipleri                                                               | [Görüntüle](https://docs.rs/solana-transaction/)          | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/transaction)          |
-| solana-transaction-error    | Solana TransactionError tipi                                                       | [Görüntüle](https://docs.rs/solana-transaction-error/)    | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/transaction-error)    |
+| solana-signature            | Nara Solana 64-byte imza tipi                                                           | [Görüntüle](https://docs.rs/solana-signature/)            | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/signature)            |
+| solana-signer               | Nara Solana işlem imzalayıcıları için soyutlamalar                                      | [Görüntüle](https://docs.rs/solana-signer/)               | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/signer)               |
+| solana-transaction          | Nara Solana işlem tipleri                                                               | [Görüntüle](https://docs.rs/solana-transaction/)          | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/transaction)          |
+| solana-transaction-error    | Nara Solana TransactionError tipi                                                       | [Görüntüle](https://docs.rs/solana-transaction-error/)    | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/transaction-error)    |
 
 ## Program Crate'leri
 
 Zincir üzerindeki programları oluşturmak için `solana-program` kullanın.
 
-- [Örnek: Bir Solana programı oluşturun](/docs/programs/rust)
+- [Örnek: Bir Nara Solana programı oluşturun](/docs/programs/rust)
 
 | Crate          | Açıklama                          | Dokümanlar                                  | GitHub                                                               |
 | -------------- | --------------------------------- | ------------------------------------------- | -------------------------------------------------------------------- |
 | solana-program | Zincir üzerinde program oluşturun | [Görüntüle](https://docs.rs/solana-program) | [Kaynak](https://github.com/anza-xyz/solana-sdk/tree/master/program) |
 
-Pinocchio, Rust'ta Solana programları oluşturmak için bağımlılık içermeyen bir
+Pinocchio, Rust'ta Nara Solana programları oluşturmak için bağımlılık içermeyen bir
 kütüphanedir ve zincir üzerindeki programları yazmak için `solana-program`
 yerine kullanılabilir.
 
@@ -67,7 +70,7 @@ yerine kullanılabilir.
   değişiklikler içerebilir.
 </Callout>
 
-Pinocchio, Solana programlarıyla etkileşim için program özelinde crate'ler
+Pinocchio, Nara Solana programlarıyla etkileşim için program özelinde crate'ler
 içerir:
 
 | Crate                              | Açıklama                                     | Dokümanlar                                                       | GitHub                                                                                      |

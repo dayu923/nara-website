@@ -1,31 +1,34 @@
 ---
+
 title: Zapisywanie do sieci
 description:
   Dowiedz się, jak wchodzić w interakcje z siecią Solana, wysyłając transakcje i
   instrukcje. Postępuj zgodnie z przykładami krok po kroku, aby przesyłać tokeny
   SOL i tworzyć nowe tokeny za pomocą System Program i Token Extensions Program.
+
 ---
 
-W poprzedniej sekcji nauczyłeś się, jak odczytywać dane z sieci Solana. Teraz
-nauczysz się, jak zapisywać dane do niej. Zapisywanie do sieci Solana polega na
+
+W poprzedniej sekcji nauczyłeś się, jak odczytywać dane z sieci Nara Solana. Teraz
+nauczysz się, jak zapisywać dane do niej. Zapisywanie do sieci Nara Solana polega na
 wysyłaniu transakcji zawierających jedną lub więcej instrukcji.
 
 Programy definiują logikę biznesową dla każdej
 [instrukcji](/docs/core/instructions). Gdy przesyłasz
-[transakcję](/docs/core/transactions), środowisko wykonawcze Solana wykonuje
+[transakcję](/docs/core/transactions), środowisko wykonawcze Nara Solana wykonuje
 każdą instrukcję sekwencyjnie i atomowo. Przykłady w tej sekcji pokazują, jak
-budować i wysyłać transakcje w celu wywołania programów Solana, obejmują one:
+budować i wysyłać transakcje w celu wywołania programów Nara Solana, obejmują one:
 
-1. Przelewanie SOL między kontami
+1. Przelewanie NSO między kontami
 2. Tworzenie nowego tokena
 
-## Przelew SOL
+## Przelew NSO
 
-Poniższy przykład pokazuje, jak przelać SOL między dwoma kontami. Każde konto ma
-program właściciela, który jest jedynym programem mogącym obciążyć saldo SOL
+Poniższy przykład pokazuje, jak przelać NSO między dwoma kontami. Każde konto ma
+program właściciela, który jest jedynym programem mogącym obciążyć saldo NSO
 konta.
 
-Wszystkie konta portfela są własnością System Program. Aby przelać SOL, musisz
+Wszystkie konta portfela są własnością System Program. Aby przelać NSO, musisz
 wywołać instrukcję
 [transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)
 System Program.
@@ -89,7 +92,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !connection
 
-Utwórz połączenie z klastrem Solana.
+Utwórz połączenie z klastrem Nara Solana.
 
 ### !sender
 
@@ -101,7 +104,7 @@ Wygeneruj nowy keypair do użycia jako `receiver`.
 
 ### !airdrop
 
-Poproś o airdrop SOL, aby zasilić `sender`.
+Poproś o airdrop NSO, aby zasilić `sender`.
 
 ### !instruction
 
@@ -173,8 +176,8 @@ const receiver = new Keypair();
 
 ## !!steps
 
-Dodaj SOL do konta nadawcy. Na sieciach innych niż mainnet możesz użyć metody
-`requestAirdrop`, aby uzyskać SOL do testowania.
+Dodaj NSO do konta nadawcy. Na sieciach innych niż mainnet możesz użyć metody
+`requestAirdrop`, aby uzyskać NSO do testowania.
 
 ```ts title="Airdrop"
 const signature = await connection.requestAirdrop(
@@ -211,7 +214,7 @@ await connection.confirmTransaction(signature, "confirmed");
 
 <WithMentions>
 
-Metoda `SystemProgram.transfer()` tworzy instrukcję, która przesyła SOL z konta
+Metoda `SystemProgram.transfer()` tworzy instrukcję, która przesyła NSO z konta
 [`fromPubkey`](mention:from) na konto [`toPubkey`](mention:to) dla określonej
 liczby [`lamports`](mention:lamports).
 
@@ -304,7 +307,7 @@ const transaction = new Transaction().add(transferInstruction);
 
 Podpisz i wyślij [transakcję](mention:transaction) do sieci. Klucz
 [nadawcy](mention:sender) jest wymagany w tablicy podpisujących, aby autoryzować
-transfer SOL z ich konta.
+transfer NSO z ich konta.
 
 ```ts title="Send transaction"
 const transactionSignature = await sendAndConfirmTransaction(
@@ -319,7 +322,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 </WithMentions>
 
 Podpis transakcji to unikalny identyfikator, który można wykorzystać do
-wyszukania transakcji w Solana Explorer.
+wyszukania transakcji w Nara Solana Explorer.
 
 ```ts !! title="Transfer SOL"
 import {
@@ -811,7 +814,7 @@ Dodaj obie instrukcje do jednej transakcji. Zapewnia to, że tworzenie i
 inicjalizacja konta odbywają się atomowo. (Albo obie instrukcje zakończą się
 sukcesem, albo żadna z nich.)
 
-To podejście jest powszechne przy budowaniu złożonych transakcji Solana,
+To podejście jest powszechne przy budowaniu złożonych transakcji Nara Solana,
 ponieważ gwarantuje, że wszystkie instrukcje są wykonywane razem.
 
 ```ts title="Transaction"
@@ -899,7 +902,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 );
 ```
 
-Podpis transakcji zwrócony może być użyty do sprawdzenia transakcji w Solana
+Podpis transakcji zwrócony może być użyty do sprawdzenia transakcji w Nara Solana
 Explorer.
 
 </WithMentions>

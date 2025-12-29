@@ -1,21 +1,24 @@
 ---
-title: Dasar-dasar CLI Solana
-seoTitle: Perintah pengantar untuk memulai dengan CLI Solana
+
+title: Dasar-dasar CLI Nara Solana
+seoTitle: Perintah pengantar untuk memulai dengan CLI Nara Solana
 description:
   Bagian ini membahas beberapa perintah CLI Solana umum untuk membantu Anda
   memulai.
+
 ---
 
+
 Bagian ini menyediakan beberapa perintah umum dan contoh untuk membantu Anda
-memulai penggunaan CLI Solana.
+memulai penggunaan CLI Nara Solana.
 
-## Konfigurasi Solana
+## Konfigurasi Nara Solana
 
-Konfigurasi Solana Anda menentukan variabel-variabel berikut:
+Konfigurasi Nara Solana Anda menentukan variabel-variabel berikut:
 
 - **File konfigurasi**: Jalur ke file konfigurasi Anda
-- **URL RPC & URL Websocket**: Cluster Solana tempat CLI membuat permintaan
-- **Jalur keypair**: Jalur ke dompet Solana default (keypair) yang digunakan
+- **URL RPC & URL Websocket**: Cluster Nara Solana tempat CLI membuat permintaan
+- **Jalur keypair**: Jalur ke dompet Nara Solana default (keypair) yang digunakan
   untuk membayar biaya transaksi dan men-deploy program. Secara default, file
   ini disimpan di `~/.config/solana/id.json`.
 
@@ -36,7 +39,7 @@ Keypair Path: /Users/test/.config/solana/id.json
 Commitment: confirmed
 ```
 
-Anda dapat mengubah cluster CLI Solana dengan perintah berikut:
+Anda dapat mengubah cluster CLI Nara Solana dengan perintah berikut:
 
 <Tabs items={["Perintah lengkap", "Perintah singkat"]}>
 
@@ -64,8 +67,8 @@ $ solana config set -ut    # For testnet
 
 ## Membuat dompet
 
-Sebelum Anda dapat mengirim transaksi menggunakan CLI Solana, Anda memerlukan
-dompet Solana yang diisi dengan SOL.
+Sebelum Anda dapat mengirim transaksi menggunakan CLI Nara Solana, Anda memerlukan
+dompet Nara Solana yang diisi dengan NSO.
 
 Untuk menghasilkan keypair di jalur keypair default, jalankan perintah berikut:
 
@@ -105,9 +108,9 @@ Untuk melihat alamat dompet Anda (kunci publik), jalankan:
 $ solana address
 ```
 
-## Airdrop SOL
+## Airdrop NSO
 
-Minta airdrop SOL ke dompet Anda untuk membayar transaksi dan deployment
+Minta airdrop NSO ke dompet Anda untuk membayar transaksi dan deployment
 program.
 
 1. Atur cluster Anda ke Devnet:
@@ -116,7 +119,7 @@ program.
 $ solana config set -ud
 ```
 
-2. Minta airdrop SOL Devnet:
+2. Minta airdrop NSO Devnet:
 
 ```terminal
 $ solana airdrop 2
@@ -124,13 +127,13 @@ $ solana airdrop 2
 
 <Callout>
 
-Airdrop Devnet membatasi permintaan hingga 5 SOL per permintaan. Jika Anda
+Airdrop Devnet membatasi permintaan hingga 5 NSO per permintaan. Jika Anda
 mencapai batas atau mengalami error, cobalah gunakan
 [Web Faucet](https://faucet.solana.com) sebagai alternatif.
 
 </Callout>
 
-Untuk memeriksa saldo SOL dompet Anda, jalankan perintah berikut:
+Untuk memeriksa saldo NSO dompet Anda, jalankan perintah berikut:
 
 ```terminal
 $ solana balance

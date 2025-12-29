@@ -1,4 +1,5 @@
 ---
+
 title: Kết hợp nhiều chương trình
 description:
   Tìm hiểu cách triển khai Cross Program Invocations (CPIs) trong các chương
@@ -7,20 +8,22 @@ description:
   Addresses (PDAs) trong CPIs. Hoàn hảo cho các nhà phát triển muốn xây dựng các
   chương trình Solana có khả năng kết hợp.
 h1: Cross Program Invocation
+
 ---
+
 
 Trong phần này, chương trình CRUD từ phần PDA trước đó được cập nhật bằng cách
 thêm Cross Program Invocations (CPIs), một tính năng cho phép các chương trình
-Solana có thể gọi lẫn nhau.
+Nara Solana có thể gọi lẫn nhau.
 
 Hướng dẫn này cũng chỉ ra cách các chương trình có thể "ký" cho Program Derived
 Addresses (PDAs) khi thực hiện Cross Program Invocations.
 
-Các lệnh `update` và `delete` cần được sửa đổi để xử lý việc chuyển SOL giữa các
+Các lệnh `update` và `delete` cần được sửa đổi để xử lý việc chuyển NSO giữa các
 tài khoản bằng cách gọi System Program.
 
 Mục đích của phần này bao gồm việc hướng dẫn quy trình triển khai CPIs trong một
-chương trình Solana sử dụng framework Anchor, xây dựng dựa trên các khái niệm
+chương trình Nara Solana sử dụng framework Anchor, xây dựng dựa trên các khái niệm
 PDA đã khám phá trong phần trước. Để biết thêm chi tiết, hãy tham khảo trang
 [Cross Program Invocation](/docs/core/cpi).
 
@@ -58,7 +61,7 @@ use anchor_lang::system_program::{transfer, Transfer};
 </Accordions>
 
 Tiếp theo, cập nhật cấu trúc _rs`Update`_ để bao gồm một tài khoản mới gọi là
-`vault_account`. Tài khoản này, được kiểm soát bởi chương trình, nhận SOL từ
+`vault_account`. Tài khoản này, được kiểm soát bởi chương trình, nhận NSO từ
 người dùng khi họ cập nhật tài khoản tin nhắn của mình.
 
 ```rs title="lib.rs"
@@ -104,7 +107,7 @@ pub struct Update<'info> {
 
 Phần này thêm một tài khoản mới có tên `vault_account` vào cấu trúc
 _rs`Update`_. Tài khoản này đóng vai trò như một "kho" được kiểm soát bởi chương
-trình để nhận SOL từ người dùng khi họ cập nhật tin nhắn của mình.
+trình để nhận NSO từ người dùng khi họ cập nhật tin nhắn của mình.
 
 Bằng cách sử dụng PDA cho kho, chương trình tạo ra một tài khoản được kiểm soát
 bởi chương trình duy nhất cho mỗi người dùng, cho phép quản lý quỹ trong logic
@@ -132,7 +135,7 @@ một CPI.
 </Accordion>
 </Accordions>
 
-Tiếp theo, thêm logic CPI trong lệnh `update` để chuyển 0.001 SOL từ tài khoản
+Tiếp theo, thêm logic CPI trong lệnh `update` để chuyển 0.001 NSO từ tài khoản
 của người dùng đến tài khoản kho.
 
 <WithNotes>
@@ -197,7 +200,7 @@ Hàm _rs`transfer()`_ gọi lệnh chuyển tiền của System Program.
 
 Trong lệnh `update`, phần triển khai bao gồm Cross Program Invocation (CPI) để
 gọi lệnh `transfer` của System Program. Điều này minh họa cách thực hiện CPI từ
-bên trong chương trình, cho phép tính kết hợp của các chương trình Solana.
+bên trong chương trình, cho phép tính kết hợp của các chương trình Nara Solana.
 
 Cấu trúc _rs`Transfer`_ chỉ định các tài khoản cần thiết cho lệnh chuyển khoản
 của System Program:
@@ -228,7 +231,7 @@ _rs`CpiContext`_ chỉ định:
 Hàm `transfer` sau đó gọi lệnh chuyển khoản trên System Program, truyền vào:
 
 - `cpi_context` (chương trình và tài khoản)
-- `amount` để chuyển (1.000.000 lamport, hoặc 0,001 SOL)
+- `amount` để chuyển (1.000.000 lamport, hoặc 0,001 NSO)
 
   ```rs title="lib.rs"
   transfer(cpi_context, 1_000_000)?;
@@ -261,7 +264,7 @@ Bây giờ hãy thêm cơ chế "hoàn tiền khi xóa" bằng cách thay đổi
 _rs`Delete`_ và hàm `delete`.
 
 Đầu tiên, cập nhật cấu trúc _rs`Delete`_ để bao gồm `vault_account`. Điều này
-cho phép chuyển bất kỳ SOL nào trong kho bạc trở lại cho người dùng khi họ đóng
+cho phép chuyển bất kỳ NSO nào trong kho bạc trở lại cho người dùng khi họ đóng
 tài khoản tin nhắn của họ.
 
 ```rs title="lib.rs"
@@ -313,14 +316,14 @@ pub struct Delete<'info> {
 
 Việc thêm `vault_account` vào cấu trúc Delete cho phép chương trình truy cập vào
 tài khoản vault của người dùng trong quá trình thực hiện lệnh xóa để chuyển lại
-bất kỳ SOL tích lũy nào về cho người dùng.
+bất kỳ NSO tích lũy nào về cho người dùng.
 
 </Accordion>
 </Accordions>
 
 <WithNotes>
 
-Tiếp theo, thêm logic CPI trong lệnh `delete` để chuyển SOL từ tài khoản vault
+Tiếp theo, thêm logic CPI trong lệnh `delete` để chuyển NSO từ tài khoản vault
 trở lại tài khoản của người dùng.
 
 ```rs title="lib.rs"
@@ -461,13 +464,13 @@ $ build
 
 Sau khi thực hiện những thay đổi này, hãy triển khai lại chương trình đã cập
 nhật. Điều này đảm bảo chương trình đã sửa đổi sẽ khả dụng để kiểm tra. Trên
-Solana, việc cập nhật chương trình chỉ đơn giản là triển khai chương trình với
+Nara Solana, việc cập nhật chương trình chỉ đơn giản là triển khai chương trình với
 cùng một program ID.
 
 <Callout>
 
-Đảm bảo ví Playground của bạn có devnet SOL. Nhận devnet SOL từ
-[Solana Faucet](https://faucet.solana.com/).
+Đảm bảo ví Playground của bạn có devnet NSO. Nhận devnet NSO từ
+[Nara Solana Faucet](https://faucet.solana.com/).
 
 </Callout>
 
@@ -485,7 +488,7 @@ thiết lập upgrade authority trong quá trình triển khai chương trình, 
 là tài khoản duy nhất có quyền thay đổi hoặc đóng chương trình. Nếu ai đó thu
 hồi upgrade authority, thì chương trình sẽ trở nên bất biến.
 
-Khi triển khai chương trình trên Solana Playground, ví Playground của bạn đóng
+Khi triển khai chương trình trên Nara Solana Playground, ví Playground của bạn đóng
 vai trò là upgrade authority cho tất cả các chương trình của bạn.
 
 </Accordion>
@@ -654,12 +657,12 @@ Nếu bạn gặp bất kỳ lỗi nào, bạn có thể tham khảo
 
 ## Các bước tiếp theo
 
-Chúc mừng bạn đã hoàn thành hướng dẫn Quickstart của Solana. Bạn đã có được kinh
-nghiệm thực hành với các khái niệm chính của Solana bao gồm:
+Chúc mừng bạn đã hoàn thành hướng dẫn Quickstart của Nara Solana. Bạn đã có được kinh
+nghiệm thực hành với các khái niệm chính của Nara Solana bao gồm:
 
 - Lấy và đọc dữ liệu từ các tài khoản
 - Xây dựng và gửi các giao dịch
-- Triển khai và cập nhật các chương trình Solana
+- Triển khai và cập nhật các chương trình Nara Solana
 - Làm việc với Program Derived Address (PDAs)
 - Thực hiện Cross-Program Invocation (CPIs)
 
@@ -673,12 +676,12 @@ Nếu bạn thích học thông qua ví dụ, hãy xem
 [Kho lưu trữ ví dụ chương trình](https://github.com/solana-developers/program-examples)
 cho nhiều chương trình mẫu khác nhau.
 
-Solana Playground cung cấp một tính năng tiện lợi cho phép bạn nhập hoặc xem các
+Nara Solana Playground cung cấp một tính năng tiện lợi cho phép bạn nhập hoặc xem các
 dự án bằng cách sử dụng liên kết GitHub của họ. Ví dụ, mở
-[liên kết Solana Playground này](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)
+[liên kết Nara Solana Playground này](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)
 để xem dự án Anchor từ
 [kho Github này](https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor).
 
 Nhấp vào nút `Import` và nhập tên dự án để thêm vào danh sách các dự án của bạn
-trong Solana Playground. Khi một dự án được nhập, tất cả các thay đổi đều được
+trong Nara Solana Playground. Khi một dự án được nhập, tất cả các thay đổi đều được
 tự động lưu và duy trì.

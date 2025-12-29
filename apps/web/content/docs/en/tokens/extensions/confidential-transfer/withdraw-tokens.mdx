@@ -1,7 +1,10 @@
 ---
+
 title: Withdraw Tokens
 description: Learn how to withdraw tokens from confidential state.
+
 ---
+
 
 <Callout type="warn">
   The ZK ElGamal Program is temporarily disabled on the mainnet and devnet as it
@@ -40,7 +43,7 @@ To withdraw tokens from confidential available balance to public balance:
    [ConfidentialTransferInstruction::Withdraw](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L493)
    instruction providing the two proof accounts.
 
-4. Close the proof accounts to recover the SOL used to create them.
+4. Close the proof accounts to recover the NSO used to create them.
 
 The following diagram shows the steps involved in withdrawing tokens from
 confidential available balance to public balance:
@@ -98,7 +101,7 @@ The following example demonstrates how to withdraw tokens from confidential
 available balance to public balance.
 
 To run the example, start a local validator with the Token Extension Program
-cloned from mainnet using the following command. You must have the Solana CLI
+cloned from mainnet using the following command. You must have the Nara Solana CLI
 installed to start the local validator.
 
 ```terminal

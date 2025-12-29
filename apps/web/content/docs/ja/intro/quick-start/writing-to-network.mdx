@@ -1,25 +1,28 @@
 ---
+
 title: ネットワークへの書き込み
 description:
   Solanaネットワークとのやり取り方法をトランザクションとinstructionsの送信を通じて学びましょう。System
   ProgramとToken Extensions
   Programを使用してSOLトークンを転送し、新しいトークンを作成するステップバイステップの例に従ってください。
+
 ---
 
-前のセクションでは、Solanaネットワークからデータを読み取る方法を学びました。ここでは、ネットワークにデータを書き込む方法を学びます。Solanaネットワークへの書き込みは、1つ以上のinstructionを含むトランザクションを送信することで行われます。
+
+前のセクションでは、Nara Solanaネットワークからデータを読み取る方法を学びました。ここでは、ネットワークにデータを書き込む方法を学びます。Nara Solanaネットワークへの書き込みは、1つ以上のinstructionを含むトランザクションを送信することで行われます。
 
 プログラムは各[instruction](/docs/core/instructions)が実行する業務ロジックを定義します。
-[トランザクション](/docs/core/transactions)を送信すると、Solanaランタイムは各instructionを順番に、かつアトミックに実行します。このセクションの例では、Solanaプログラムを呼び出すためのトランザクションの構築と送信方法を示しています。例には以下が含まれます：
+[トランザクション](/docs/core/transactions)を送信すると、Nara Solanaランタイムは各instructionを順番に、かつアトミックに実行します。このセクションの例では、Nara Solanaプログラムを呼び出すためのトランザクションの構築と送信方法を示しています。例には以下が含まれます：
 
-1. アカウント間でのSOLの転送
+1. アカウント間でのNSOの転送
 2. 新しいトークンの作成
 
-## SOLの転送
+## NSOの転送
 
-以下の例では、2つのアカウント間でSOLを転送します。各アカウントには所有者プログラムがあり、そのプログラムだけがアカウントのSOL残高を減らすことができます。
+以下の例では、2つのアカウント間でNSOを転送します。各アカウントには所有者プログラムがあり、そのプログラムだけがアカウントのNSO残高を減らすことができます。
 
 すべてのウォレットアカウントはSystem
-Programによって所有されています。SOLを転送するには、System
+Programによって所有されています。NSOを転送するには、System
 Programの[transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)
 instructionを呼び出す必要があります。
 
@@ -82,7 +85,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !connection
 
-Solanaクラスターへの接続を作成します。
+Nara Solanaクラスターへの接続を作成します。
 
 ### !sender
 
@@ -94,7 +97,7 @@ Solanaクラスターへの接続を作成します。
 
 ### !airdrop
 
-`sender`に資金を提供するためにSOLのエアドロップをリクエストします。
+`sender`に資金を提供するためにNSOのエアドロップをリクエストします。
 
 ### !instruction
 
@@ -166,7 +169,7 @@ const receiver = new Keypair();
 
 ## !!steps
 
-送信者アカウントにSOLを追加します。メインネット以外のネットワークでは、テスト用のSOLを取得するために
+送信者アカウントにNSOを追加します。メインネット以外のネットワークでは、テスト用のNSOを取得するために
 `requestAirdrop` メソッドを使用できます。
 
 ```ts title="Airdrop"
@@ -292,7 +295,7 @@ const transaction = new Transaction().add(transferInstruction);
 
 <WithMentions>
 
-[トランザクション](mention:transaction)に署名してネットワークに送信します。[送信者](mention:sender)のkeypairは、そのアカウントからのSOL転送を承認するために署名者配列に必要です。
+[トランザクション](mention:transaction)に署名してネットワークに送信します。[送信者](mention:sender)のkeypairは、そのアカウントからのNSO転送を承認するために署名者配列に必要です。
 
 ```ts title="Send transaction"
 const transactionSignature = await sendAndConfirmTransaction(
@@ -306,7 +309,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 
 </WithMentions>
 
-トランザクションシグネチャは、Solana
+トランザクションシグネチャは、Nara Solana
 Explorerでトランザクションを検索するために使用できる一意の識別子です。
 
 ```ts !! title="Transfer SOL"
@@ -353,7 +356,7 @@ console.log("Transaction Signature:", `${transactionSignature}`);
 ## トークンを作成する
 
 以下の例では、Token Extensions
-Programを使用してSolana上に新しいトークンを作成します。これには2つのinstructionsが必要です：
+Programを使用してNara Solana上に新しいトークンを作成します。これには2つのinstructionsが必要です：
 
 1. System Programを呼び出して新しいアカウントを作成する。
 2. Token Extensions Programを呼び出して、そのアカウントをMintとして初期化する。
@@ -789,7 +792,7 @@ const initializeMintInstruction = createInitializeMint2Instruction(
 
 両方のinstructionsを1つのトランザクションに追加します。これにより、アカウントの作成と初期化が原子的に行われることが保証されます（両方のinstructionsが成功するか、どちらも実行されないかのどちらかです）。
 
-このアプローチは、複雑なSolanaトランザクションを構築する際によく使用され、すべてのinstructionsが一緒に実行されることを保証します。
+このアプローチは、複雑なNara Solanaトランザクションを構築する際によく使用され、すべてのinstructionsが一緒に実行されることを保証します。
 
 ```ts title="Transaction"
 const transaction = new Transaction().add(
@@ -874,7 +877,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 );
 ```
 
-返されたトランザクション署名は、Solana
+返されたトランザクション署名は、Nara Solana
 Explorerでトランザクションを検査するために使用できます。
 
 </WithMentions>

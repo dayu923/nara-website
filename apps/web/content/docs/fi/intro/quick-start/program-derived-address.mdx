@@ -1,4 +1,5 @@
 ---
+
 title: Determinististen tilien luominen
 description:
   Opi rakentamaan CRUD (Create, Read, Update, Delete) Solana-ohjelma käyttäen
@@ -8,7 +9,9 @@ description:
   kirjoitetaan testejä. Täydellinen kehittäjille, jotka haluavat ymmärtää, miten
   PDA-osoitteita käytetään Solana-ohjelmissa.
 h1: Program Derived Address
+
 ---
+
 
 Tässä osiossa opit rakentamaan perus Create, Read, Update, Delete (CRUD)
 -ohjelman.
@@ -18,7 +21,7 @@ päivittää ja poistaa viestin. Jokainen viesti on tallennettu tiliin, jonka
 osoite on deterministisesti johdettu ohjelmasta itsestään (Program Derived
 Address eli PDA).
 
-Tämä opas käy läpi Solana-ohjelman rakentamisen ja testaamisen käyttäen
+Tämä opas käy läpi Nara Solana-ohjelman rakentamisen ja testaamisen käyttäen
 Anchor-kehystä ja havainnollistaa Program Derived Addresses (PDA) -osoitteita.
 Lisätietoja löydät [Program Derived Addresses](/docs/core/pda) -sivulta.
 
@@ -32,9 +35,9 @@ suorittanut sekä PDA- että Cross-Program Invocation (CPI) -osiot.
 ### Aloituskoodi
 
 Aloita avaamalla tämä
-[Solana Playground -linkki](https://beta.solpg.io/66734b7bcffcf4b13384d1ad),
+[Nara Solana Playground -linkki](https://beta.solpg.io/66734b7bcffcf4b13384d1ad),
 joka sisältää aloituskoodin. Napsauta sitten "Import"-painiketta lisätäksesi
-ohjelman Solana Playground -projekteihisi.
+ohjelman Nara Solana Playground -projekteihisi.
 
 ![Import](/assets/docs/intro/quickstart/pg-import.png)
 
@@ -811,7 +814,7 @@ Tässä esimerkissä otat ohjelman käyttöön devnetissä, joka on Solanan kehi
 
 Playground-lompakko yhdistyy oletusarvoisesti devnetiin. Varmista, että
 Playground-lompakossasi on devnet SOLia ohjelman käyttöönoton maksamiseen. Hanki
-devnet SOLia [Solana Faucetista](https://faucet.solana.com/).
+devnet SOLia [Nara Solana Faucetista](https://faucet.solana.com/).
 
 </Callout>
 
@@ -883,7 +886,7 @@ Tässä osiossa koodi yksinkertaisesti valmistelee testitiedoston.
 
 <WithMentions>
 
-Solana Playground poistaa joitakin perusasetuksia, joissa
+Nara Solana Playground poistaa joitakin perusasetuksia, joissa
 [`pg.program`](mention:one) mahdollistaa pääsyn metodeihin ohjelman kanssa
 vuorovaikuttamiseen, kun taas [`pg.wallet`](mention:two) antaa pääsyn
 playground-lompakkoosi.
@@ -1132,7 +1135,7 @@ _ts`fetch()`_ -metodi hakee tilin tiedot verkosta.
 <Accordion title="Explanation">
 
 Ensin testitiedosto lähettää transaktion, joka kutsuu `update` -ohjetta,
-välittäen "Hello, Solana!" uutena viestinä.
+välittäen "Hello, Nara Solana!" uutena viestinä.
 
 ```ts title="anchor.test.ts"
 const message = "Hello, Solana!";

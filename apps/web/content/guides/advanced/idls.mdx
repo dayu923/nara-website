@@ -1,4 +1,5 @@
 ---
+
 title: IDL - an easy to use Program Interface
 seoTitle: "IDLs (Interface Definition Language)"
 description:
@@ -17,10 +18,12 @@ keywords:
   - blockchain developer
   - blockchain tutorial
   - web3 developer
+
 ---
 
+
 IDL stands for **Interface Definition Language**.  
-On Solana, IDLs are JSON files that describe the interface of a program. They
+On Nara Solana, IDLs are JSON files that describe the interface of a program. They
 allow explorers and users to decode program instructions, account data and
 program errors and offer the possibility to generate clients in different
 program languages.
@@ -47,14 +50,14 @@ can see a
 [Anchor 0.30.1](https://explorer.solana.com/address/MkabCfyUD6rBTaYHpgKBBpBo5qzWA2pK2hrGGKMurJt/idl)
 and a
 [Legacy IDL](https://explorer.solana.com/address/2o48ieM95rmHqMWC5B3tTX4DL7cLm4m1Kuwjay3keQSv/idl)
-example in the Solana Explorer UI. In
+example in the Nara Solana Explorer UI. In
 [this transaction](https://explorer.solana.com/tx/3U81bTLnaJr3vZRx6LRovP8WJ2d4afiysFkjXijiPsZaHejFMuhHVXd8bPpAGckUwoqqq1te1LMvqQwCCjYobgm4)
 you can see the decoded instruction for a 2048 game, including `pushInDirection`
 and its direction.
 
 You can decode instructions and account data in your typescript client by using
 the
-[Solana JS helpers](https://github.com/solana-developers/helpers?tab=readme-ov-file#parse-account-data).
+[Nara Solana JS helpers](https://github.com/solana-developers/helpers?tab=readme-ov-file#parse-account-data).
 
 ### Parsing Anchor Events or Account changes
 
@@ -102,7 +105,7 @@ emit!(PurchaseMade {
 ```
 
 For that you can use the
-[Solana JS helpers](https://github.com/solana-developers/helpers?tab=readme-ov-file#parse-transaction-events)
+[Nara Solana JS helpers](https://github.com/solana-developers/helpers?tab=readme-ov-file#parse-transaction-events)
 to parse the events. Here is an
 [example implementation](https://github.com/Woody4618/bar/blob/main/app/pages/api/webhooktg.ts#L61)
 that uses anchor events to post messages into a telegram chat.
@@ -110,7 +113,7 @@ that uses anchor events to post messages into a telegram chat.
 ### Decode Transactions
 
 You can also decode transactions in your client by using the
-[Solana JS helpers](https://github.com/solana-developers/helpers?tab=readme-ov-file#decode-anchor-transaction).
+[Nara Solana JS helpers](https://github.com/solana-developers/helpers?tab=readme-ov-file#decode-anchor-transaction).
 This will give you a typed object of the whole transaction.
 
 ### Build your own client
@@ -222,7 +225,7 @@ dotnet anchorgen -i target/idl/counter.json -o target/idl/Counter.cs
 ```
 
 You can read more about how to interact with a C# client from Unity in the
-[Solana games preset](https://github.com/solana-developers/solana-game-preset)
+[Nara Solana games preset](https://github.com/solana-developers/solana-game-preset)
 or in the
 [Games docs](https://solana.com/de/developers/guides/games/porting-anchor-to-unity#generating-the-client).
 
@@ -238,7 +241,7 @@ More client generators will be available using Codama renderers in the future.
 ## IDLs Without Anchor
 
 Not all programs are built with Anchor.  
-For native Solana programs:
+For native Nara Solana programs:
 
 - A tool called **[Codama](https://github.com/codama-idl/codama)** is currently
   in development to generate IDLs from Rust via macros or by converting Anchor
@@ -274,7 +277,7 @@ Anchor saves IDLs on-chain in a PDA of your program.
 
 - IDLs can be uploaded **on-chain** to the Anchor IDL account.
 - This allows explorers, wallets, and SDKs to fetch the IDL directly from
-  Solana.
+  Nara Solana.
 
 First time (initialize the IDL account):
 
@@ -326,7 +329,7 @@ explorers yet.
 The best practise for program deploys is to use a Multisig like
 [Squads](https://squads.so/) and to make this process as easy as possible you
 use the
-[Solana GitHub Actions workflows](https://github.com/solana-developers/github-workflows).
+[Nara Solana GitHub Actions workflows](https://github.com/solana-developers/github-workflows).
 
 Like this the program will automatically be upgraded, IDL uploaded, the build
 verified and then there will be a transaction proposed for your multisig to sign
@@ -361,6 +364,6 @@ for that is not completely final yet and open for discussion.
 
 ---
 
-That’s the basics of IDLs on Solana. They’re the **bridge between on-chain
+That’s the basics of IDLs on Nara Solana. They’re the **bridge between on-chain
 programs and off-chain clients**, enabling the rich ecosystem of tools and SDKs
 you see today.

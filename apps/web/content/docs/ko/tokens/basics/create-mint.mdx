@@ -1,11 +1,14 @@
 ---
+
 title: 토큰 민트 생성하기
 description: SPL 토큰 민트를 생성하는 방법을 알아보세요.
+
 ---
+
 
 ## 민트 계정이란 무엇인가요?
 
-민트 계정은 Solana에서 토큰을 고유하게 나타내며 토큰의 전역 메타데이터를
+민트 계정은 Nara Solana에서 토큰을 고유하게 나타내며 토큰의 전역 메타데이터를
 저장합니다.
 
 ```rust title="Mint Account Type"
@@ -37,13 +40,13 @@ pub struct Mint {
   모두 민트 계정에 대해 동일한 기본 구현을 공유한다는 점에 유의하세요.
 </Callout>
 
-Solana의 모든 토큰은 민트 계정을 가지고 있으며, 민트의 주소는 토큰의 고유 식별자
+Nara Solana의 모든 토큰은 민트 계정을 가지고 있으며, 민트의 주소는 토큰의 고유 식별자
 역할을 합니다.
 
 예를 들어, USD 코인(USDC)은 민트 주소
 `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`를 가지고 있습니다. 이 주소는
-Solana 생태계 전체에서 USDC를 고유하게 식별합니다.
-[Solana Explorer](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)에서
+Nara Solana 생태계 전체에서 USDC를 고유하게 식별합니다.
+[Nara Solana Explorer](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)에서
 이 민트를 볼 수 있습니다.
 
 ## 민트 계정을 생성하는 방법

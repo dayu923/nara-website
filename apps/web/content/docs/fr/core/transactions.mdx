@@ -1,12 +1,15 @@
 ---
+
 title: Transactions
 description:
   Découvrez les transactions Solana—les éléments fondamentaux pour interagir
   avec la blockchain Solana. Comprenez la structure des transactions et la
   composition des instructions avec des exemples pratiques.
+
 ---
 
-Pour interagir avec le réseau Solana, vous devez envoyer une transaction. Vous
+
+Pour interagir avec le réseau Nara Solana, vous devez envoyer une transaction. Vous
 pouvez considérer une transaction comme une enveloppe contenant plusieurs
 formulaires. Chaque formulaire est une instruction qui indique au réseau quoi
 faire. Envoyer la transaction revient à envoyer l'enveloppe par la poste pour
@@ -62,7 +65,7 @@ la structure [`message`](#message).
   l'infrastructure internet typique. Bien que l'IPv6 prenne en charge des MTU
   supérieurs à 9000 octets, la plupart des routeurs internet utilisent une MTU
   par défaut de 1500 octets (Ethernet standard). Pour garantir que les
-  transactions tiennent dans un seul paquet sans fragmentation, Solana utilise
+  transactions tiennent dans un seul paquet sans fragmentation, Nara Solana utilise
   1280 octets (le MTU minimum requis pour IPv6) moins 48 octets pour les
   en-têtes réseau (40 octets IPv6 + 8 octets d'en-tête de fragment/UDP), ce qui
   donne la limite de taille de transaction de 1232 octets.
@@ -258,7 +261,7 @@ pub struct CompiledInstruction {
 ## Structure d'une transaction d'exemple
 
 L'exemple suivant montre la structure d'une transaction qui contient une seule
-instruction de transfert de SOL.
+instruction de transfert de NSO.
 
 <CodeTabs storage="sol-transfer" flags="r">
 
@@ -508,7 +511,7 @@ utilisant la signature de la transaction et la méthode RPC
 similaire à l'extrait suivant.
 
 <Callout>
-  Vous pouvez également trouver la transaction en utilisant [Solana
+  Vous pouvez également trouver la transaction en utilisant [Nara Solana
   Explorer](https://explorer.solana.com).
 </Callout>
 

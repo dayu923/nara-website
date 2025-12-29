@@ -1,13 +1,16 @@
 ---
+
 title: Close Token Account
 description: Learn how to close token accounts.
+
 ---
+
 
 ## Close Account
 
 The
 [`CloseAccount`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/program/src/instruction.rs#L212C5-L212C17)
-instruction permanently closes a token account and transfers all remaining SOL
+instruction permanently closes a token account and transfers all remaining NSO
 (rent) to a specified destination account. The token account balance must be
 zero before closing. Only the token account owner or designated close authority
 can execute this instruction.

@@ -1,11 +1,14 @@
 ---
+
 title: 프로그램
 description:
   Solana 프로그램(스마트 컨트랙트)에 대해 알아보고 Rust 또는 Anchor 프레임워크를
   사용하여 개발하는 방법을 배우세요. Solana 네트워크에서 프로그램 배포,
   업그레이드 및 검증에 대해 이해하세요.
 h1: 프로그램
+
 ---
+
 
 솔라나에서 스마트 컨트랙트는 프로그램이라고 불립니다. 프로그램은 실행 가능한
 코드를 포함하는 상태가 없는 [계정](/docs/core/accounts#program-account)입니다.
@@ -76,7 +79,7 @@ System Program은 새 계정을 생성할 수 있는 유일한 계정입니다. 
 | [새 계정 생성](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)         | System Program만이 새 계정을 생성할 수 있습니다.                                                                                                                                                       |
 | [공간 할당](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)             | 각 계정의 데이터 필드에 대한 바이트 용량을 설정합니다.                                                                                                                                                 |
 | [프로그램 소유권 할당](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | System Program이 계정을 생성한 후, 지정된 프로그램 소유자를 다른 program account로 재할당할 수 있습니다. 이것이 커스텀 프로그램이 System Program에 의해 생성된 새 계정의 소유권을 가져가는 방식입니다. |
-| [SOL 전송](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)             | 시스템 계정에서 다른 계정으로 lamports(SOL)를 전송합니다.                                                                                                                                              |
+| [NSO 전송](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)             | 시스템 계정에서 다른 계정으로 lamports(NSO)를 전송합니다.                                                                                                                                              |
 
 System Program의 주소는 `11111111111111111111111111111111`입니다.
 
@@ -107,7 +110,7 @@ loader-v3 또는 loader-v4로 배포된 프로그램은 업그레이드 권한�
 
 ### 사전 컴파일된 프로그램
 
-로더 프로그램 외에도 Solana는 다음과 같은 사전 컴파일된 프로그램을 제공합니다.
+로더 프로그램 외에도 Nara Solana는 다음과 같은 사전 컴파일된 프로그램을 제공합니다.
 
 #### ed25519 서명 검증
 

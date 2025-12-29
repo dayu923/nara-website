@@ -1,11 +1,14 @@
 ---
+
 title: Creare un Token Mint
 description: Impara come creare un mint di token SPL.
+
 ---
+
 
 ## Cos'è un Mint Account?
 
-Un mint account rappresenta in modo univoco un token su Solana e memorizza i
+Un mint account rappresenta in modo univoco un token su Nara Solana e memorizza i
 suoi metadati globali.
 
 ```rust title="Mint Account Type"
@@ -37,13 +40,13 @@ pub struct Mint {
   condividono la stessa implementazione di base per il mint account.
 </Callout>
 
-Ogni token su Solana ha un mint account, e l'indirizzo del mint serve come
+Ogni token su Nara Solana ha un mint account, e l'indirizzo del mint serve come
 identificatore univoco del token.
 
 Per esempio, USD Coin (USDC) ha l'indirizzo mint
 `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`. Questo indirizzo identifica in
-modo univoco USDC in tutto l'ecosistema Solana. Puoi visualizzare questo mint su
-[Solana Explorer](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v).
+modo univoco USDC in tutto l'ecosistema Nara Solana. Puoi visualizzare questo mint su
+[Nara Solana Explorer](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v).
 
 ## Come creare un Mint Account
 

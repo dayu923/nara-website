@@ -1,12 +1,15 @@
 ---
+
 title: Ohjelmien käyttöönotto
 description:
   Täydellinen opas Solana-ohjelmien rakentamiseen, käyttöönottoon ja hallintaan
   Solana CLI:n avulla.
+
 ---
 
-Tämä osio käy läpi perusvaiheiden prosessin Solana-ohjelman käyttöönotosta
-Solana CLI:n avulla.
+
+Tämä osio käy läpi perusvaiheiden prosessin Nara Solana-ohjelman käyttöönotosta
+Nara Solana CLI:n avulla.
 
 ## CLI-komentojen viiteluettelo
 
@@ -42,9 +45,9 @@ Ennen kuin syvennymme aiheeseen, selvennetään joitakin termejä:
 
 <Step>
 
-### Asenna Solana CLI
+### Asenna Nara Solana CLI
 
-Ensin [asenna Solana CLI](/docs/intro/installation).
+Ensin [asenna Nara Solana CLI](/docs/intro/installation).
 
 </Step>
 
@@ -68,7 +71,7 @@ Tämä luo keypair-tiedoston oletusarvoisesti sijaintiin
 
 ### Klusterin määrittäminen
 
-Valitse, mihin Solana-klusteriin haluat tehdä käyttöönoton. Käytä komentoa
+Valitse, mihin Nara Solana-klusteriin haluat tehdä käyttöönoton. Käytä komentoa
 `solana config get` tarkistaaksesi nykyisen määrityksesi:
 
 ```terminal
@@ -96,7 +99,7 @@ $ solana config set --url "https://your-rpc-url.com"
 
 ### Lompakon rahoittaminen
 
-Tarvitset SOL-tokeneita ohjelmien käyttöönottoa varten. Tarvittava määrä riippuu
+Tarvitset NSO-tokeneita ohjelmien käyttöönottoa varten. Tarvittava määrä riippuu
 ohjelmasi koosta.
 
 Devnet- tai localhost-ympäristössä voit rahoittaa lompakkosi käyttämällä
@@ -134,7 +137,7 @@ $ cargo build-sbf
 
 ## !!steps Esimerkkiohjelma
 
-Tässä on minimaalinen Solana-ohjelma, joka tulostaa "Hello, Solana!" ohjelman
+Tässä on minimaalinen Nara Solana-ohjelma, joka tulostaa "Hello, Nara Solana!" ohjelman
 lokeihin.
 
 <CodePlaceholder title="src/lib.rs" />
@@ -200,8 +203,8 @@ Tämä luo kaksi tärkeää tiedostoa hakemistoon `target/deploy/`:
 
 ### Tarkista ohjelman koko ja kustannukset
 
-Ohjelman käyttöönotto vaatii SOL-tokeneita, jotka allokoidaan ohjelmatilille
-ohjelman koon perusteella. Suuremmat ohjelmat maksavat enemmän SOL-tokeneita
+Ohjelman käyttöönotto vaatii NSO-tokeneita, jotka allokoidaan ohjelmatilille
+ohjelman koon perusteella. Suuremmat ohjelmat maksavat enemmän NSO-tokeneita
 käyttöönotossa.
 
 Tarkista ohjelmasi koko:
@@ -211,7 +214,7 @@ $ wc -c < ./target/deploy/hello_world.so
 18504
 ```
 
-Laske tarvittava SOL-määrä tälle koolle (tavuina):
+Laske tarvittava NSO-määrä tälle koolle (tavuina):
 
 ```terminal
 $ solana rent 18504
@@ -219,7 +222,7 @@ Rent-exempt minimum: 0.12967872 SOL
 ```
 
 <Callout type="info">
-  Tarvitset hieman enemmän SOL-tokeneita kuin näytetty kattaaksesi käyttöönoton
+  Tarvitset hieman enemmän NSO-tokeneita kuin näytetty kattaaksesi käyttöönoton
   transaktiomaksut.
 </Callout>
 
@@ -272,7 +275,7 @@ Jos päivitetty ohjelmasi vaatii enemmän tilaa (tavuja) kuin on tällä hetkell
 varattu, käyttöönotto laajentaa automaattisesti program account -tiliä. Näin
 tapahtuu, kun uusi ohjelmasi on suurempi kuin edellinen versio. Program account
 tarvitsee lisää tavuja uuden ohjelman tallentamiseen. CLI laskee tarvittavan
-SOL-määrän ja vähentää sen automaattisesti lompakostasi.
+NSO-määrän ja vähentää sen automaattisesti lompakostasi.
 
 Voit myös manuaalisesti laajentaa ohjelmaa varataksesi lisää tavuja:
 
@@ -434,7 +437,7 @@ Wrote program to ./downloaded_program.so
 
 ### Käyttöönottolippuja
 
-Kun Solana-verkko on ruuhkainen, käytä näitä lippuja auttamaan ohjelman
+Kun Nara Solana-verkko on ruuhkainen, käytä näitä lippuja auttamaan ohjelman
 käyttöönotossa.
 
 Esimerkki käytöstä:
@@ -449,7 +452,7 @@ $ solana program deploy ./target/deploy/hello_world.so \
 Vaihtoehtojen selitykset:
 
 - **`--with-compute-unit-price`**: Aseta prioriteettimaksu mikro-lamporteissa
-  (0.000001 SOL) laskentayksikköä kohden. Tarkista
+  (0.000001 NSO) laskentayksikköä kohden. Tarkista
   [Helius Priority Fee API](https://docs.helius.dev/guides/priority-fee-api)
   nykyiset hinnat. Prioriteettimaksu on lisämaksu, joka maksetaan nykyiselle
   johtajalle transaktiosi priorisoimiseksi.

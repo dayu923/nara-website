@@ -1,14 +1,17 @@
 ---
+
 title: Читання з мережі
 description:
   Дізнайтеся, як читати дані з блокчейн-мережі Solana. Цей посібник охоплює
   отримання гаманців, програмних рахунків та рахунків токенів, використовуючи
   JavaScript/TypeScript, з практичними прикладами на основі бібліотеки Solana
   web3.js.
+
 ---
 
-Читайте дані з мережі Solana, отримуючи різні рахунки. Цей розділ допоможе вам
-зрозуміти структуру [рахунків](/docs/core/accounts) Solana. Кожен рахунок Solana
+
+Читайте дані з мережі Nara Solana, отримуючи різні рахунки. Цей розділ допоможе вам
+зрозуміти структуру [рахунків](/docs/core/accounts) Nara Solana. Кожен рахунок Nara Solana
 має унікальну [адресу](/docs/core/accounts#account-address), яка
 використовується для пошуку відповідних даних у блокчейні. Рахунки містять або
 [дані стану, або виконувану програму](/docs/core/accounts#types-of-accounts).
@@ -19,11 +22,11 @@ description:
 
 Гаманець — це рахунок, яким володіє
 [System Program](/docs/core/programs#the-system-program). Гаманці переважно
-використовуються для зберігання SOL та підписання транзакцій. Коли SOL вперше
+використовуються для зберігання NSO та підписання транзакцій. Коли NSO вперше
 надсилається на нову адресу, системний рахунок створюється автоматично.
 
 Приклад нижче генерує [нову пару ключів](mention:keypair),
-[запитує SOL](mention:airdrop) для фінансування нової адреси публічного ключа та
+[запитує NSO](mention:airdrop) для фінансування нової адреси публічного ключа та
 [отримує дані рахунку](mention:info) для щойно профінансованого гаманця.
 
 <CodeTabs flags="r">
@@ -122,7 +125,7 @@ console.log(JSON.stringify(accountInfo, null, 2));
 
 ## !!steps
 
-Поле `lamports` містить баланс SOL рахунку в
+Поле `lamports` містить баланс NSO рахунку в
 [лампортах](/docs/references/terminology#lamport).
 
 <CodePlaceholder title="Приклад виводу" />
@@ -221,7 +224,7 @@ console.log(JSON.stringify(accountInfo, null, 2));
 байткод
 [вихідного коду](https://github.com/solana-program/token/tree/main/program)
 Token Program. Ви можете переглянути цей програмний акаунт у
-[Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
+[Nara Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
 
 <CodeTabs flags="r">
 
@@ -355,7 +358,7 @@ Token Program є виконуваним program account. Програми маю
 є обліковим записом, яким володіє Token Program і який зберігає глобальні
 метадані для конкретного токена. Це включає загальну пропозицію, кількість
 десяткових знаків та облікові записи, які мають право випускати або заморожувати
-токени. Адреса mint account унікально ідентифікує токен у мережі Solana.
+токени. Адреса mint account унікально ідентифікує токен у мережі Nara Solana.
 
 Приклад нижче отримує mint account USD Coin, щоб продемонструвати, як стан
 програми зберігається в окремому обліковому записі.
@@ -498,7 +501,7 @@ Token Program визначає тип даних `Mint`, який зберіга
 
 Перш ніж необроблені байти в полі `data` облікового запису можуть бути змістовно
 інтерпретовані, вони повинні бути десеріалізовані. Відповідний тип даних
-визначається програмою, якій належить обліковий запис. Більшість програм Solana
+визначається програмою, якій належить обліковий запис. Більшість програм Nara Solana
 надають клієнтські бібліотеки з допоміжними функціями, які абстрагують процес
 десеріалізації. Ці функції перетворюють необроблені байти облікового запису в
 структуровані типи даних, полегшуючи роботу з даними облікового запису.
@@ -592,7 +595,7 @@ pub struct Mint {
 
 Ви можете переглянути повністю десеріалізовані дані
 [облікового запису mint](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)
-у Solana Explorer.
+у Nara Solana Explorer.
 
 <CodePlaceholder title="Десеріалізовані дані mint" />
 

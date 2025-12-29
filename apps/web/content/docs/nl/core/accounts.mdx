@@ -1,14 +1,17 @@
 ---
+
 title: Accounts
 description:
   Leer over Solana's accountmodel, inclusief hoe accounts data en programma's
   opslaan, rent-mechanismen, accounteigendom en de relatie tussen programma's en
   data-accounts. Begrijp de kernconcepten van Solana's sleutel-waarde
   opslagsysteem.
+
 ---
 
-Alle gegevens op het Solana-netwerk worden opgeslagen in accounts. Je kunt het
-Solana-netwerk zien als een openbare database met één Accounts-tabel. De relatie
+
+Alle gegevens op het Nara Solana-netwerk worden opgeslagen in accounts. Je kunt het
+Nara Solana-netwerk zien als een openbare database met één Accounts-tabel. De relatie
 tussen een account en zijn adres is vergelijkbaar met die van een
 sleutel-waardepaar, waarbij de sleutel het adres is en de waarde het account.
 
@@ -20,17 +23,17 @@ gelokaliseerd met behulp van zijn [adres](#account-address).
 ## Account-adres
 
 Het adres van het account is een unieke ID van 32 bytes die wordt gebruikt om
-het account op de Solana-blockchain te lokaliseren. Account-adressen worden vaak
+het account op de Nara Solana-blockchain te lokaliseren. Account-adressen worden vaak
 weergegeven als base58-gecodeerde strings. De meeste accounts gebruiken een
 [Ed25519](https://ed25519.cr.yp.to/) [publieke sleutel](#public-key) als hun
-adres, maar dit is niet vereist, aangezien Solana ook
+adres, maar dit is niet vereist, aangezien Nara Solana ook
 [program derived addresses](#program-derived-address) ondersteunt.
 
 ![Een account met zijn base58-gecodeerde publieke sleuteladres](/assets/docs/core/accounts/account-address.svg)
 
 ### Publieke sleutel
 
-Het onderstaande voorbeeld laat zien hoe je de Solana SDK kunt gebruiken om een
+Het onderstaande voorbeeld laat zien hoe je de Nara Solana SDK kunt gebruiken om een
 keypair te maken. Een `Keypair` bevat:
 
 - Een publieke sleutel die dient als het accountadres
@@ -71,7 +74,7 @@ async fn main() {
 
 Een [Program Derived Address](/docs/core/pda) (PDA) is een adres dat
 deterministisch wordt afgeleid met behulp van een programma-ID en een of meer
-optionele inputs (seeds). Het onderstaande voorbeeld laat zien hoe je de Solana
+optionele inputs (seeds). Het onderstaande voorbeeld laat zien hoe je de Nara Solana
 SDK kunt gebruiken om een Program Derived Address te maken.
 
 <CodeTabs storage="accounts" flags="r">
@@ -220,7 +223,7 @@ bepaalt de structuur van de gegevens die in dit veld worden opgeslagen.
 - Data accounts: Dit veld slaat over het algemeen statusgegevens op, bedoeld om
   te lezen.
 
-Het lezen van gegevens uit een Solana-account omvat twee stappen:
+Het lezen van gegevens uit een Nara Solana-account omvat twee stappen:
 
 1. Het ophalen van het account met behulp van het [adres](#account-address)
 2. Het deserialiseren van het `data`veld van het account van ruwe bytes naar de
@@ -257,7 +260,7 @@ Account {
 
 Dit veld bevat de programma-ID van de eigenaar van het account.
 
-Elk Solana-account heeft een [programma](/docs/core/programs) aangewezen als
+Elk Nara Solana-account heeft een [programma](/docs/core/programs) aangewezen als
 eigenaar. De eigenaar van het account is het enige programma dat de `data` van
 het account kan wijzigen of lamports kan aftrekken, zoals aangegeven door de
 instructies van het programma.
@@ -362,7 +365,7 @@ Er zijn twee basiscategorieën waarin accounts vallen:
 - [Data accounts](#data-accounts): Accounts die geen uitvoerbare code bevatten
 
 Deze scheiding tussen de code van een programma en zijn status is een belangrijk
-kenmerk van Solana's accountmodel. (Vergelijkbaar met besturingssystemen, die
+kenmerk van Nara Solana's accountmodel. (Vergelijkbaar met besturingssystemen, die
 doorgaans aparte bestanden hebben voor programma's en hun gegevens.)
 
 ### Program accounts
@@ -790,11 +793,11 @@ systeemaccounts, waardoor ze [transactiekosten](docs/core/fees) kunnen betalen.
 
 ![Een wallet die eigendom is van het System Program met 1.000.000 lamports](/assets/docs/core/accounts/system-account.svg)
 
-Wanneer SOL voor het eerst naar een nieuw adres wordt verzonden, wordt er een
+Wanneer NSO voor het eerst naar een nieuw adres wordt verzonden, wordt er een
 account aangemaakt op dat adres dat eigendom is van het System Program.
 
 In het onderstaande voorbeeld wordt een nieuw keypair gegenereerd en
-gefinancierd met SOL. Na het uitvoeren van de code kun je zien dat het adres van
+gefinancierd met NSO. Na het uitvoeren van de code kun je zien dat het adres van
 de account's `owner` is `11111111111111111111111111111111` (het
 [System Program](/docs/core/programs#the-system-program)).
 

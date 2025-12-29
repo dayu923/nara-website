@@ -1,4 +1,5 @@
 ---
+
 title: 여러 프로그램 구성하기
 description:
   Anchor 프레임워크를 사용하여 Solana 프로그램에서 교차 프로그램 호출(CPI)을
@@ -6,18 +7,20 @@ description:
   상호작용, CPI에서 프로그램 파생 주소(PDA) 처리 방법을 보여줍니다. 구성 가능한
   Solana 프로그램을 구축하려는 개발자에게 완벽한 가이드입니다.
 h1: 교차 프로그램 호출
+
 ---
 
-이 섹션에서는 이전 PDA 섹션의 CRUD 프로그램이 Solana 프로그램이 서로를 호출할 수
+
+이 섹션에서는 이전 PDA 섹션의 CRUD 프로그램이 Nara Solana 프로그램이 서로를 호출할 수
 있게 해주는 기능인 교차 프로그램 호출(CPI)을 추가하여 업데이트됩니다.
 
 이 튜토리얼은 또한 프로그램이 교차 프로그램 호출을 할 때 프로그램 파생
 주소(PDA)에 대해 어떻게 "서명"할 수 있는지 보여줍니다.
 
-`update` 및 `delete` 명령어는 System Program을 호출하여 계정 간 SOL 전송을
+`update` 및 `delete` 명령어는 System Program을 호출하여 계정 간 NSO 전송을
 처리하도록 수정이 필요합니다.
 
-이 섹션의 목적은 Anchor 프레임워크를 사용하여 Solana 프로그램에서 CPI를 구현하는
+이 섹션의 목적은 Anchor 프레임워크를 사용하여 Nara Solana 프로그램에서 CPI를 구현하는
 과정을 안내하고, 이전 섹션에서 살펴본 PDA 개념을 기반으로 합니다. 자세한 내용은
 [교차 프로그램 호출](/docs/core/cpi) 페이지를 참조하세요.
 
@@ -55,7 +58,7 @@ use anchor_lang::system_program::{transfer, Transfer};
 
 다음으로, _rs`Update`_ 구조체를 업데이트하여 `vault_account`라는 새 계정을
 포함시킵니다. 이 계정은 프로그램에 의해 제어되며, 사용자가 메시지 계정을
-업데이트할 때 SOL을 받습니다.
+업데이트할 때 NSO을 받습니다.
 
 ```rs title="lib.rs"
 #[account(
@@ -99,7 +102,7 @@ pub struct Update<'info> {
 <Accordion title="설명">
 
 이 섹션에서는 _rs`Update`_ 구조체에 `vault_account`라는 새 계정을 추가합니다. 이
-계정은 사용자가 메시지를 업데이트할 때 SOL을 받는 프로그램 제어 "금고" 역할을
+계정은 사용자가 메시지를 업데이트할 때 NSO을 받는 프로그램 제어 "금고" 역할을
 합니다.
 
 금고에 PDA를 사용함으로써 프로그램은 각 사용자에게 고유한 프로그램 제어 계정을
@@ -127,7 +130,7 @@ pub struct Update<'info> {
 </Accordions>
 
 다음으로, `update` 명령어에 CPI 로직을 추가하여 사용자 계정에서 금고 계정으로
-0.001 SOL을 전송합니다.
+0.001 NSO을 전송합니다.
 
 <WithNotes>
 
@@ -190,7 +193,7 @@ _rs`transfer()`_ 함수는 System Program의 전송 명령어를 호출합니다
 
 `update` 명령에서, 구현에는 System Program의 `transfer` 명령을 호출하기 위한
 Cross Program Invocation(CPI)이 포함됩니다. 이는 프로그램 내에서 CPI를 수행하는
-방법을 보여주며, Solana 프로그램의 조합 가능성을 가능하게 합니다.
+방법을 보여주며, Nara Solana 프로그램의 조합 가능성을 가능하게 합니다.
 
 _rs`Transfer`_ 구조체는 System Program의 전송 명령에 필요한 계정을 지정합니다:
 
@@ -219,7 +222,7 @@ _rs`Transfer`_ 구조체는 System Program의 전송 명령에 필요한 계정�
 `transfer` 함수는 다음을 전달하여 System Program에서 전송 명령을 호출합니다:
 
 - `cpi_context`(프로그램 및 계정)
-- 전송할 `amount`(1,000,000 lamport 또는 0.001 SOL)
+- 전송할 `amount`(1,000,000 lamport 또는 0.001 NSO)
 
   ```rs title="lib.rs"
   transfer(cpi_context, 1_000_000)?;
@@ -251,7 +254,7 @@ $ build
 추가하세요.
 
 먼저 _rs`Delete`_ 구조체를 업데이트하여 `vault_account`를 포함시키세요. 이를
-통해 사용자가 메시지 계정을 닫을 때 금고에 있는 SOL을 사용자에게 다시 전송할 수
+통해 사용자가 메시지 계정을 닫을 때 금고에 있는 NSO을 사용자에게 다시 전송할 수
 있습니다.
 
 ```rs title="lib.rs"
@@ -302,7 +305,7 @@ pub struct Delete<'info> {
 `vault_account`는 Update 구조체와 동일한 PDA 파생 방식을 사용합니다.
 
 Delete 구조체에 `vault_account`를 추가하면 프로그램이 삭제 명령어 실행 중에
-사용자의 볼트 계정에 접근하여 축적된 SOL을 사용자에게 다시 전송할 수 있습니다.
+사용자의 볼트 계정에 접근하여 축적된 NSO을 사용자에게 다시 전송할 수 있습니다.
 
 </Accordion>
 </Accordions>
@@ -310,7 +313,7 @@ Delete 구조체에 `vault_account`를 추가하면 프로그램이 삭제 명�
 <WithNotes>
 
 다음으로, `delete` 명령어에 CPI 로직을 추가하여 볼트 계정에서 사용자 계정으로
-SOL을 전송합니다.
+NSO을 전송합니다.
 
 ```rs title="lib.rs"
 let user_key = ctx.accounts.user.key();
@@ -446,13 +449,13 @@ $ build
 ### 프로그램 재배포
 
 이러한 변경 사항을 적용한 후, 업데이트된 프로그램을 재배포하세요. 이렇게 하면
-수정된 프로그램을 테스트할 수 있게 됩니다. Solana에서는 동일한 프로그램 ID에
+수정된 프로그램을 테스트할 수 있게 됩니다. Nara Solana에서는 동일한 프로그램 ID에
 프로그램을 배포하는 것만으로 프로그램을 업데이트할 수 있습니다.
 
 <Callout>
 
-Playground 지갑에 devnet SOL이 있는지 확인하세요.
-[Solana Faucet](https://faucet.solana.com/)에서 devnet SOL을 받을 수 있습니다.
+Playground 지갑에 devnet NSO이 있는지 확인하세요.
+[Nara Solana Faucet](https://faucet.solana.com/)에서 devnet NSO을 받을 수 있습니다.
 
 </Callout>
 
@@ -470,7 +473,7 @@ Deployment successful. Completed in 17s.
 변경하거나 닫을 수 있는 권한을 가집니다. 만약 누군가 업그레이드 권한을 취소하면
 프로그램은 불변 상태가 됩니다.
 
-Solana Playground에서 프로그램을 배포할 때, 사용자의 Playground 지갑이 모든
+Nara Solana Playground에서 프로그램을 배포할 때, 사용자의 Playground 지갑이 모든
 프로그램의 업그레이드 권한을 갖게 됩니다.
 
 </Accordion>

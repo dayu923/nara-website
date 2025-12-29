@@ -1,16 +1,19 @@
 ---
-title: Solana RPC-metodit
-seoTitle: "Solana RPC-metodit: HTTP & Websockets"
+
+title: Nara Solana RPC-metodit
+seoTitle: "Nara Solana RPC-metodit: HTTP & Websockets"
 hideTableOfContents: false
-h1: Solana RPC-metodit & dokumentaatio
+h1: Nara Solana RPC-metodit & dokumentaatio
+
 ---
 
-Ole vuorovaikutuksessa Solana-solmujen kanssa suoraan JSON RPC API:n kautta
+
+Ole vuorovaikutuksessa Nara Solana-solmujen kanssa suoraan JSON RPC API:n kautta
 HTTP- ja Websocket-metodien avulla.
 
 ## Tilan sitoutumisen määrittäminen
 
-Ennakkotarkistuksia ja transaktioiden käsittelyä varten Solana-solmut
+Ennakkotarkistuksia ja transaktioiden käsittelyä varten Nara Solana-solmut
 valitsevat, mitä pankin tilaa kysellään asiakkaan asettaman
 sitoutumisvaatimuksen perusteella. Sitoutuminen kuvaa, kuinka viimeistelty lohko
 on tietyllä hetkellä. Kun kyselee kirjanpidon tilaa, on suositeltavaa käyttää
@@ -59,7 +62,7 @@ JSON-objektin, joka koostuu kahdesta osasta:
 
 Jotkin metodit tukevat `encoding` -parametria ja voivat palauttaa tilin tai
 ohjeistuksen tiedot jäsennetyssä JSON-muodossa, jos `"encoding":"jsonParsed"` on
-pyydetty ja solmulla on jäsennin omistavalle ohjelmalle. Solana-solmut tukevat
+pyydetty ja solmulla on jäsennin omistavalle ohjelmalle. Nara Solana-solmut tukevat
 tällä hetkellä JSON-jäsennystä seuraaville natiivi- ja SPL-ohjelmille:
 
 | Ohjelma                      | Tilin tila | Ohjeet  |

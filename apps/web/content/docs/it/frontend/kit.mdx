@@ -1,14 +1,17 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Integrazione del wallet Solana con Next.js e Solana Kit
+
+title: Next.js - Nara Solana Kit
+seoTitle: Integrazione del wallet Nara Solana con Next.js e Nara Solana Kit
 description:
   Configura l'integrazione del wallet Solana in Next.js con Solana Kit.
+
 ---
 
-Configura un'integrazione minima del wallet Solana in Next.js con Solana Kit.
+
+Configura un'integrazione minima del wallet Nara Solana in Next.js con Nara Solana Kit.
 
 Questa guida fornisce un esempio minimale di implementazione della funzionalità
-del wallet Solana in un'applicazione Next.js utilizzando `@solana/kit`. Creerai
+del wallet Nara Solana in un'applicazione Next.js utilizzando `@solana/kit`. Creerai
 un pulsante per connettere il wallet e un componente per inviare transazioni.
 
 ![Applicazione Nextjs Kit](/assets/docs/frontend/nextjs-kit.gif)
@@ -16,12 +19,12 @@ un pulsante per connettere il wallet e un componente per inviare transazioni.
 Per un esempio più completo sull'utilizzo di `@solana/kit` in un'applicazione
 React, consulta
 l'[Esempio di App React](https://github.com/anza-xyz/kit/tree/main/examples/react-app)
-nel repository di Solana Kit.
+nel repository di Nara Solana Kit.
 
 ## Risorse
 
-- [Documentazione di Solana Kit](https://www.solanakit.com/docs)
-- [Repository GitHub di Solana Kit](https://github.com/anza-xyz/kit)
+- [Documentazione di Nara Solana Kit](https://www.solanakit.com/docs)
+- [Repository GitHub di Nara Solana Kit](https://github.com/anza-xyz/kit)
 
 ## Prerequisiti
 
@@ -30,7 +33,7 @@ nel repository di Solana Kit.
 ## Crea un progetto Next.js
 
 Crea un nuovo progetto Next.js con [shadcn](https://ui.shadcn.com/) per i
-componenti dell'interfaccia utente e installa le dipendenze Solana necessarie.
+componenti dell'interfaccia utente e installa le dipendenze Nara Solana necessarie.
 
 ```terminal
 $ npx shadcn@latest init
@@ -50,9 +53,9 @@ Installa i seguenti componenti UI di shadcn:
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Installa le dipendenze Solana
+### Installa le dipendenze Nara Solana
 
-Installa le seguenti dipendenze Solana:
+Installa le seguenti dipendenze Nara Solana:
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -64,7 +67,7 @@ Segui i passaggi seguenti e copia il codice fornito nel tuo progetto.
 
 <ScrollyCoding>
 
-## !!steps 1. Crea il contesto Solana
+## !!steps 1. Crea il contesto Nara Solana
 
 Prima, crea un contesto React che gestisca l'intero stato del wallet per
 l'applicazione.
@@ -72,8 +75,8 @@ l'applicazione.
 Crea `components/solana-provider.tsx` e aggiungi il codice fornito. Questo
 componente provider:
 
-- Si connette agli endpoint RPC della devnet di Solana
-- Filtra i wallet Solana disponibili installati nel browser dell'utente
+- Si connette agli endpoint RPC della devnet di Nara Solana
+- Filtra i wallet Nara Solana disponibili installati nel browser dell'utente
 - Tiene traccia di quale wallet e account è attualmente connesso
 - Fornisce lo stato del wallet ai componenti figli
 
@@ -250,7 +253,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. Aggiorna il Layout
 
-Successivamente, avvolgi l'intera applicazione Next.js con il provider Solana.
+Successivamente, avvolgi l'intera applicazione Next.js con il provider Nara Solana.
 
 Aggiorna `app/layout.tsx` con il codice fornito. Questo passaggio:
 
@@ -509,9 +512,9 @@ wallet connesso.
 Crea `components/memo-card.tsx` e aggiungi il codice fornito. Questo componente:
 
 - Consente agli utenti di inserire un messaggio
-- Crea una transazione Solana con un'istruzione che invoca il programma memo
+- Crea una transazione Nara Solana con un'istruzione che invoca il programma memo
 - Richiede al wallet connesso di firmare e inviare la transazione
-- Mostra un link per visualizzare la transazione su Solana Explorer
+- Mostra un link per visualizzare la transazione su Nara Solana Explorer
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -674,7 +677,7 @@ $ npm run dev
 
 <Callout type="info">
   Nota che il wallet connesso deve essere configurato per connettersi al cluster
-  devnet e [finanziato con SOL devnet](https://faucet.solana.com/) per inviare
+  devnet e [finanziato con NSO devnet](https://faucet.solana.com/) per inviare
   transazioni.
 </Callout>
 

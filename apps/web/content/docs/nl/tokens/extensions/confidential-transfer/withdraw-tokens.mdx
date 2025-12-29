@@ -1,7 +1,10 @@
 ---
+
 title: Tokens opnemen
 description: Leer hoe je tokens kunt opnemen uit de vertrouwelijke status.
+
 ---
+
 
 ## Hoe tokens opnemen uit het vertrouwelijke beschikbare saldo
 
@@ -34,7 +37,7 @@ saldo:
    [ConfidentialTransferInstruction::Withdraw](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L493)
    instructie aan en geef de twee bewijsaccounts door.
 
-4. Sluit de bewijsaccounts om de SOL terug te krijgen die gebruikt is om ze te
+4. Sluit de bewijsaccounts om de NSO terug te krijgen die gebruikt is om ze te
    creëren.
 
 Het volgende diagram toont de stappen die betrokken zijn bij het opnemen van
@@ -94,7 +97,7 @@ vertrouwelijke beschikbare saldo naar het openbare saldo.
 
 Om het voorbeeld uit te voeren, start een lokale validator met het Token
 Extension Program gekloond van het mainnet met behulp van het volgende commando.
-Je moet de Solana CLI geïnstalleerd hebben om de lokale validator te starten.
+Je moet de Nara Solana CLI geïnstalleerd hebben om de lokale validator te starten.
 
 ```terminal
 $ solana-test-validator --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --url https://api.mainnet-beta.solana.com -r

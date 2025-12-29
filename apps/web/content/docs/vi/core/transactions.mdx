@@ -1,12 +1,15 @@
 ---
+
 title: Giao dịch
 description:
   Tìm hiểu về giao dịch Solana—các khối xây dựng cơ bản để tương tác với
   blockchain Solana. Hiểu cấu trúc giao dịch và cách tạo chỉ thị với các ví dụ
   thực tế.
+
 ---
 
-Để tương tác với mạng Solana, bạn phải gửi một giao dịch. Bạn có thể coi giao
+
+Để tương tác với mạng Nara Solana, bạn phải gửi một giao dịch. Bạn có thể coi giao
 dịch như một phong bì chứa nhiều biểu mẫu. Mỗi biểu mẫu là một chỉ thị báo cho
 mạng biết phải làm gì. Việc gửi giao dịch giống như gửi phong bì qua đường bưu
 điện để các biểu mẫu có thể được xử lý.
@@ -60,7 +63,7 @@ byte. Giới hạn này bao gồm cả mảng [`signatures`](#signatures) và c�
   internet thông thường. Mặc dù IPv6 hỗ trợ MTU lớn hơn 9000 byte, hầu hết các
   bộ định tuyến internet sử dụng MTU mặc định là 1500 byte (Ethernet tiêu
   chuẩn). Để đảm bảo các giao dịch vừa với một gói tin mà không bị phân mảnh,
-  Solana sử dụng 1280 byte (MTU tối thiểu yêu cầu cho IPv6) trừ đi 48 byte cho
+  Nara Solana sử dụng 1280 byte (MTU tối thiểu yêu cầu cho IPv6) trừ đi 48 byte cho
   các tiêu đề mạng (40 byte IPv6 + 8 byte tiêu đề phân mảnh/UDP), dẫn đến giới
   hạn kích thước giao dịch là 1232 byte.
 </Callout>
@@ -245,7 +248,7 @@ pub struct CompiledInstruction {
 
 ## Cấu trúc giao dịch mẫu
 
-Ví dụ sau đây cho thấy cấu trúc của một giao dịch chứa một chỉ thị chuyển SOL
+Ví dụ sau đây cho thấy cấu trúc của một giao dịch chứa một chỉ thị chuyển NSO
 duy nhất.
 
 <CodeTabs storage="sol-transfer" flags="r">
@@ -496,7 +499,7 @@ cách sử dụng chữ ký giao dịch và phương thức RPC
 tự như đoạn mã dưới đây.
 
 <Callout>
-  Bạn cũng có thể tìm giao dịch bằng cách sử dụng [Solana
+  Bạn cũng có thể tìm giao dịch bằng cách sử dụng [Nara Solana
   Explorer](https://explorer.solana.com).
 </Callout>
 

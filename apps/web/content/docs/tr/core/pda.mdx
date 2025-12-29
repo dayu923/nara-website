@@ -1,12 +1,15 @@
 ---
+
 title: Program-Derived Address
 description:
   Solana'nın Program-Derived Address'lerini (PDA'lar) öğrenin — güvenli program
   imzalamayı sağlayan deterministik hesap adresleri. PDA türetimini, kanonik
   bump'ları ve PDA hesaplarının nasıl oluşturulacağını anlayın.
+
 ---
 
-Bir Solana [hesap adresi](/docs/core/accounts#account-address), hesabın blok
+
+Bir Nara Solana [hesap adresi](/docs/core/accounts#account-address), hesabın blok
 zincirindeki konumunu gösterir. Birçok hesap adresi bir keypair'in açık
 anahtarıdır; bu durumda, ilgili özel anahtar hesabı içeren işlemleri imzalamak
 için kullanılır.
@@ -18,7 +21,7 @@ tanımlanmış girdilerin bir kombinasyonu kullanılarak deterministik olarak
 oluşturulan bir adrestir. PDA'lar açık anahtar adreslerine benzer, ancak
 karşılık gelen bir özel anahtarları yoktur.
 
-Solana çalışma zamanı, programların özel bir anahtar gerektirmeden PDA'lar için
+Nara Solana çalışma zamanı, programların özel bir anahtar gerektirmeden PDA'lar için
 imza atmasını sağlar. Bir PDA kullanmak, hesabın adresini takip etme ihtiyacını
 ortadan kaldırır. Bunun yerine, PDA'nın türetilmesi için kullanılan belirli
 girdileri hatırlayabilirsiniz. (Programların imzalama için PDA'ları nasıl
@@ -27,7 +30,7 @@ bakın.)
 
 ## Arka plan
 
-Solana
+Nara Solana
 [keypair'leri](https://github.com/anza-xyz/solana-sdk/blob/sdk%40v2.2.2/keypair/src/lib.rs#L26),
 [Ed25519 eğrisi](https://ed25519.cr.yp.to/) (eliptik eğri kriptografisi)
 üzerindeki noktalardır. Bunlar bir açık anahtar ve bir özel anahtardan oluşur.
@@ -38,7 +41,7 @@ Açık anahtar hesap adresi olur ve özel anahtar hesap için geçerli bir
 
 Bir PDA, kasıtlı olarak Ed25519 eğrisinin dışına düşecek şekilde türetilir. Bu,
 geçerli bir karşılık gelen özel anahtarı olmadığı ve kriptografik işlemler
-gerçekleştiremeyeceği anlamına gelir. (İmza sağlamak gibi.) Ancak, Solana,
+gerçekleştiremeyeceği anlamına gelir. (İmza sağlamak gibi.) Ancak, Nara Solana,
 programların özel bir anahtar gerektirmeden PDA'lar için imza atmasını sağlar.
 
 ![Eğri Dışı Adres](/assets/docs/core/pda/address-off-curve.svg)
@@ -57,7 +60,7 @@ hesap, PDA'yı türetmek için kullanılan program aracılığıyla açıkça
 oluşturulmalıdır. Bir PDA'yı haritadaki bir adres gibi düşünebilirsiniz: bir
 adresin var olması, orada bir şeyin inşa edildiği anlamına gelmez.
 
-Solana SDK'ları, aşağıdaki tabloda gösterilen fonksiyonlarla PDA oluşturulmasını
+Nara Solana SDK'ları, aşağıdaki tabloda gösterilen fonksiyonlarla PDA oluşturulmasını
 destekler. Her fonksiyon şu girdileri alır:
 
 - **Program ID**: PDA'yı türetmek için kullanılan programın adresi. Bu program,
@@ -187,7 +190,7 @@ sahip bir bump seed'in hala geçerli bir PDA türetebileceği anlamına gelir.
 
 ### Örnekler
 
-Aşağıdaki örnekler, Solana SDK'larını kullanarak bir PDA türetmektedir. Kodu
+Aşağıdaki örnekler, Nara Solana SDK'larını kullanarak bir PDA türetmektedir. Kodu
 çalıştırmak için **&#9655; Çalıştır**'a tıklayın.
 
 #### Bir string seed ile PDA türetme

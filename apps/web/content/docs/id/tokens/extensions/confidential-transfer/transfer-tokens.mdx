@@ -1,9 +1,12 @@
 ---
+
 title: Transfer Token
 description:
   Pelajari cara mentransfer token secara privat dari satu token account ke token
   account lainnya.
+
 ---
+
 
 <Callout type="warn">
   Program ZK ElGamal sementara dinonaktifkan di mainnet dan devnet karena sedang
@@ -55,7 +58,7 @@ Untuk mentransfer token secara konfidensial:
    [ConfidentialTransferInstruction::Transfer](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L604),
    dengan menyediakan akun context state bukti.
 
-4. Tutup akun status konteks bukti untuk mendapatkan kembali SOL yang digunakan
+4. Tutup akun status konteks bukti untuk mendapatkan kembali NSO yang digunakan
    untuk membuatnya.
 
 Diagram berikut menunjukkan langkah-langkah yang terlibat dalam mentransfer
@@ -116,7 +119,7 @@ token.
 
 Untuk menjalankan contoh ini, mulai validator lokal dengan Token Extensions
 Program yang dikloning dari mainnet menggunakan perintah berikut. Anda harus
-memiliki Solana CLI yang terinstal untuk memulai validator lokal.
+memiliki Nara Solana CLI yang terinstal untuk memulai validator lokal.
 
 ```terminal
 $ solana-test-validator --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --url https://api.mainnet-beta.solana.com -r

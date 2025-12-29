@@ -1,7 +1,10 @@
 ---
+
 title: トークンの転送
 description: あるトークンアカウントから別のトークンアカウントへプライベートにトークンを転送する方法を学びましょう。
+
 ---
+
 
 <Callout type="warn">
   ZK
@@ -29,7 +32,7 @@ description: あるトークンアカウントから別のトークンアカウ�
 3. [ConfidentialTransferInstruction::Transfer](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L604)
    instructionを呼び出し、証明コンテキスト状態アカウントを提供します。
 
-4. プルーフコンテキスト状態アカウントを閉じて、作成に使用したSOLを回収します。
+4. プルーフコンテキスト状態アカウントを閉じて、作成に使用したNSOを回収します。
 
 次の図は、送信者のトークンアカウントから受信者のトークンアカウントへトークンを転送する際の手順を示しています。
 
@@ -85,7 +88,7 @@ sequenceDiagram
 
 この例を実行するには、以下のコマンドを使用してメインネットからクローンしたToken
 Extensions
-Programでローカルバリデータを起動します。ローカルバリデータを起動するにはSolana
+Programでローカルバリデータを起動します。ローカルバリデータを起動するにはNara Solana
 CLIがインストールされている必要があります。
 
 ```terminal

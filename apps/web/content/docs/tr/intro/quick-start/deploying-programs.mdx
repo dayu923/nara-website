@@ -1,15 +1,18 @@
 ---
+
 title: Program Dağıtma
 description:
   Anchor framework ve Solana Playground kullanarak ilk Solana programınızı nasıl
   oluşturacağınızı, dağıtacağınızı ve test edeceğinizi öğrenin. Bu başlangıç
   seviyesindeki rehber, basit bir program oluşturma, devnet'e dağıtma, testleri
   çalıştırma ve programı kapatma adımlarını anlatır.
-h1: İlk Solana Programınızı Dağıtın
+h1: İlk Nara Solana Programınızı Dağıtın
+
 ---
 
-Anchor framework kullanarak ilk [programınızı](/docs/core/programs) Solana
-Blockchain'e oluşturun, dağıtın ve test edin. Bu rehber, Solana Playground'u
+
+Anchor framework kullanarak ilk [programınızı](/docs/core/programs) Nara Solana
+Blockchain'e oluşturun, dağıtın ve test edin. Bu rehber, Nara Solana Playground'u
 daha iyi tanımanıza ve program derived address (PDA) ve cross program invocation
 (CPI) kullanmaya hazırlanmanıza yardımcı olacak.
 
@@ -19,7 +22,7 @@ daha iyi tanımanıza ve program derived address (PDA) ve cross program invocati
 
 ### Anchor Projesi Oluşturma
 
-1. Web tarayıcınızda [Solana Playground](https://beta.solpg.io) adresini açın
+1. Web tarayıcınızda [Nara Solana Playground](https://beta.solpg.io) adresini açın
 2. Sol panelde **+ Create a new project** (Yeni proje oluştur) seçeneğine
    tıklayın
 3. Bir **Project name** (Proje adı) girin
@@ -148,7 +151,7 @@ Hesap için ayrılacak bayt sayısı
 <WithMentions>
 
 - [`declare_id!`](mention:one) makrosu, programınızın zincir üzerindeki adresini
-  belirtir. Solana Playground, programı oluşturduğunuzda bu adresi otomatik
+  belirtir. Nara Solana Playground, programı oluşturduğunuzda bu adresi otomatik
   olarak güncelleyecektir.
 
 ```rs
@@ -252,11 +255,11 @@ Build successful. Completed in 1.46s.
   güncellenecektir.
 </Callout>
 
-2. Cüzdanınıza SOL ekleyin _(İsteğe bağlı)_
+2. Cüzdanınıza NSO ekleyin _(İsteğe bağlı)_
 
-Bir programı dağıtmak, programın zincir üzerindeki hesabında SOL gerektirir.
+Bir programı dağıtmak, programın zincir üzerindeki hesabında NSO gerektirir.
 Gerekirse, 3. adıma geçmeden önce
-[cüzdanınıza SOL ekleyin](/docs/intro/quick-start#add-sol-to-your-wallet).
+[cüzdanınıza NSO ekleyin](/docs/intro/quick-start#add-sol-to-your-wallet).
 
 3. Programı ağa dağıtın
 
@@ -399,11 +402,11 @@ Confirmed
 4. İşlem detaylarını görüntüleyin
 
 [SolanaFM](https://solana.fm/) veya
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) sayfalarından
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) sayfalarından
 birini açın ve işlem hash'ini aratın.
 
 <Callout type="warn">
-  **Solana Explorer:** Ağ kümesini Solana Playground ile eşleşecek şekilde
+  **Nara Solana Explorer:** Ağ kümesini Nara Solana Playground ile eşleşecek şekilde
   `devnet` olarak ayarlayın.
 </Callout>
 
@@ -413,7 +416,7 @@ birini açın ve işlem hash'ini aratın.
 
 ### Programı kapatma
 
-Zincir üzerindeki programa tahsis edilen SOL'u geri almak için programı kapatın.
+Zincir üzerindeki programa tahsis edilen NSO'u geri almak için programı kapatın.
 Bunu yapmak için, _rs`declare_id!()`_ makrosunda saklanan program adresini
 kullanarak `solana program close [ProgramID]` komutunu çalıştırın.
 
@@ -429,7 +432,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   Yükseltme yetkisi iptal edilirse, program değiştirilemez hale gelir.
 </Callout>
 
-Tebrikler! Anchor kullanarak ilk Solana programınızı oluşturdunuz ve dağıttınız.
+Tebrikler! Anchor kullanarak ilk Nara Solana programınızı oluşturdunuz ve dağıttınız.
 
 </Step>
 

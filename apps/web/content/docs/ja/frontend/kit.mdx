@@ -1,22 +1,25 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Next.jsとSolana Kitを使用したSolanaウォレット連携
-description: Next.jsでSolana Kitを使用してSolanaウォレット連携を設定します。
+
+title: Next.js - Nara Solana Kit
+seoTitle: Next.jsとNara Solana Kitを使用したNara Solanaウォレット連携
+description: Next.jsでNara Solana Kitを使用してNara Solanaウォレット連携を設定します。
+
 ---
 
-Next.jsでSolana Kitを使用して最小限のSolanaウォレット連携を設定します。
 
-このガイドでは、Next.jsアプリケーションで`@solana/kit`を使用してSolanaウォレット機能を実装する最小限の例を提供します。ウォレット接続ボタンとトランザクション送信用のコンポーネントを作成します。
+Next.jsでNara Solana Kitを使用して最小限のNara Solanaウォレット連携を設定します。
+
+このガイドでは、Next.jsアプリケーションで`@solana/kit`を使用してNara Solanaウォレット機能を実装する最小限の例を提供します。ウォレット接続ボタンとトランザクション送信用のコンポーネントを作成します。
 
 ![Nextjs Kitアプリケーション](/assets/docs/frontend/nextjs-kit.gif)
 
-Reactアプリケーションで`@solana/kit`を使用するより包括的な例については、Solana
+Reactアプリケーションで`@solana/kit`を使用するより包括的な例については、Nara Solana
 Kitリポジトリの[Reactアプリの例](https://github.com/anza-xyz/kit/tree/main/examples/react-app)を参照してください。
 
 ## リソース
 
-- [Solana Kit ドキュメント](https://www.solanakit.com/docs)
-- [Solana Kit GitHubリポジトリ](https://github.com/anza-xyz/kit)
+- [Nara Solana Kit ドキュメント](https://www.solanakit.com/docs)
+- [Nara Solana Kit GitHubリポジトリ](https://github.com/anza-xyz/kit)
 
 ## 前提条件
 
@@ -24,7 +27,7 @@ Kitリポジトリの[Reactアプリの例](https://github.com/anza-xyz/kit/tree
 
 ## Next.jsプロジェクトの作成
 
-UIコンポーネント用の[shadcn](https://ui.shadcn.com/)を使用して新しいNext.jsプロジェクトを作成し、必要なSolana依存関係をインストールします。
+UIコンポーネント用の[shadcn](https://ui.shadcn.com/)を使用して新しいNext.jsプロジェクトを作成し、必要なNara Solana依存関係をインストールします。
 
 ```terminal
 $ npx shadcn@latest init
@@ -44,9 +47,9 @@ $ cd <project-name>
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Solana依存関係のインストール
+### Nara Solana依存関係のインストール
 
-以下のSolana依存関係をインストールします：
+以下のNara Solana依存関係をインストールします：
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -58,14 +61,14 @@ $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/r
 
 <ScrollyCoding>
 
-## !!steps 1. Solanaコンテキストを作成する
+## !!steps 1. Nara Solanaコンテキストを作成する
 
 まず、アプリケーション全体のウォレット状態を管理するReactコンテキストを作成します。
 
 `components/solana-provider.tsx`を作成し、提供されたコードを追加します。このプロバイダーコンポーネントは以下を行います：
 
-- SolanaのdevnetのRPCエンドポイントに接続する
-- ユーザーのブラウザにインストールされている利用可能なSolanaウォレットをフィルタリングする
+- Nara SolanaのdevnetのRPCエンドポイントに接続する
+- ユーザーのブラウザにインストールされている利用可能なNara Solanaウォレットをフィルタリングする
 - 現在接続されているウォレットとアカウントを追跡する
 - 子コンポーネントにウォレットの状態を提供する
 
@@ -242,7 +245,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. レイアウトを更新する
 
-次に、Next.jsアプリケーション全体をSolanaプロバイダーでラップします。
+次に、Next.jsアプリケーション全体をNara Solanaプロバイダーでラップします。
 
 `app/layout.tsx`を提供されたコードで更新します。このステップでは：
 
@@ -497,9 +500,9 @@ export function WalletConnectButton() {
 `components/memo-card.tsx`を作成し、提供されたコードを追加します。このコンポーネントは：
 
 - ユーザーがメッセージを入力できるようにします
-- メモプログラムを呼び出すinstructionsを含むSolanaトランザクションを作成します
+- メモプログラムを呼び出すinstructionsを含むNara Solanaトランザクションを作成します
 - 接続されたウォレットにトランザクションの署名と送信を要求します
-- Solana Explorerでトランザクションを表示するためのリンクを表示します
+- Nara Solana Explorerでトランザクションを表示するためのリンクを表示します
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -662,7 +665,7 @@ $ npm run dev
 
 <Callout type="info">
   接続されたウォレットはdevnetクラスターに接続するように設定され、トランザクションを送信するために[devnet
-  SOLで資金提供](https://faucet.solana.com/)されている必要があることに注意してください。
+  NSOで資金提供](https://faucet.solana.com/)されている必要があることに注意してください。
 </Callout>
 
 </ScrollyCoding>

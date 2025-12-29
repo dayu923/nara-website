@@ -1,12 +1,15 @@
 ---
+
 title: Frais de transaction
 description:
   Découvrez les frais de transaction de Solana, y compris les frais de base et
   les frais de priorisation, comment chacun est appliqué, et les meilleures
   pratiques pour gérer les unités de calcul dans vos transactions.
+
 ---
 
-Chaque transaction Solana nécessite des frais de transaction, payés en SOL. Les
+
+Chaque transaction Nara Solana nécessite des frais de transaction, payés en NSO. Les
 frais de transaction sont divisés en deux parties : les frais de base et les
 frais de priorisation. Les frais de base compensent les validateurs pour le
 traitement de la transaction. Les frais de priorisation sont des frais
@@ -22,7 +25,7 @@ frais de transaction. Les frais de base sont répartis comme suit:
 
 - **50% brûlés :** La moitié est
   [brûlée](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)
-  (retirée de l'offre circulante de SOL).
+  (retirée de l'offre circulante de NSO).
 - **50% distribués :** L'autre moitié est
   [versée au validateur](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62)
   qui a traité la transaction.
@@ -106,7 +109,7 @@ recommandation de prix CU en temps réel fournie dans le tableau ci-dessous.
 #### Exemple
 
 Les exemples ci-dessous montrent comment définir la limite CU et le prix CU sur
-une transaction en utilisant les SDK Solana.
+une transaction en utilisant les SDK Nara Solana.
 
 | SDK                            | Référence du code source                                                                                                       |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |

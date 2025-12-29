@@ -1,20 +1,23 @@
 ---
-title: Solana CLI perusteet
-seoTitle: Aloituskomennot Solana CLI:n käyttöönottoon
+
+title: Nara Solana CLI perusteet
+seoTitle: Aloituskomennot Nara Solana CLI:n käyttöönottoon
 description:
   Tämä osio käy läpi yleisiä Solana CLI -komentoja, joiden avulla pääset alkuun.
+
 ---
 
+
 Tämä osio tarjoaa yleisiä komentoja ja esimerkkejä, jotka auttavat sinua
-pääsemään alkuun Solana CLI:n käytössä.
+pääsemään alkuun Nara Solana CLI:n käytössä.
 
-## Solana-konfiguraatio
+## Nara Solana-konfiguraatio
 
-Solana-konfiguraatiosi määrittää seuraavat muuttujat:
+Nara Solana-konfiguraatiosi määrittää seuraavat muuttujat:
 
 - **Konfiguraatiotiedosto**: Polku konfiguraatiotiedostoosi
-- **RPC URL & Websocket URL**: Solana-klusteri, johon CLI tekee pyyntöjä
-- **Keypair-polku**: Polku oletusarvoiseen Solana-lompakkoon (keypair), jota
+- **RPC URL & Websocket URL**: Nara Solana-klusteri, johon CLI tekee pyyntöjä
+- **Keypair-polku**: Polku oletusarvoiseen Nara Solana-lompakkoon (keypair), jota
   käytetään transaktiomaksujen maksamiseen ja ohjelmien käyttöönottoon.
   Oletusarvoisesti tämä tiedosto tallennetaan `~/.config/solana/id.json`.
 
@@ -35,7 +38,7 @@ Keypair Path: /Users/test/.config/solana/id.json
 Commitment: confirmed
 ```
 
-Voit vaihtaa Solana CLI -klusteria seuraavilla komennoilla:
+Voit vaihtaa Nara Solana CLI -klusteria seuraavilla komennoilla:
 
 <Tabs items={["Täydelliset komennot", "Lyhyet komennot"]}>
 
@@ -63,8 +66,8 @@ $ solana config set -ut    # For testnet
 
 ## Luo lompakko
 
-Ennen kuin voit lähettää transaktioita Solana CLI:n avulla, tarvitset Solana-
-lompakon, jossa on SOL-varoja.
+Ennen kuin voit lähettää transaktioita Nara Solana CLI:n avulla, tarvitset Nara Solana-
+lompakon, jossa on NSO-varoja.
 
 Luodaksesi keypair-avaimen oletuspolkuun, suorita seuraava komento:
 
@@ -104,9 +107,9 @@ Nähdäksesi lompakkosi osoitteen (julkinen avain), suorita:
 $ solana address
 ```
 
-## SOL-pudotus
+## NSO-pudotus
 
-Pyydä SOL-pudotusta lompakkoosi maksaaksesi transaktioita ja ohjelmien
+Pyydä NSO-pudotusta lompakkoosi maksaaksesi transaktioita ja ohjelmien
 käyttöönottoja.
 
 1. Aseta klusterisi Devnetiin:
@@ -115,7 +118,7 @@ käyttöönottoja.
 $ solana config set -ud
 ```
 
-2. Pyydä airdrop Devnet SOL:ia:
+2. Pyydä airdrop Devnet NSO:ia:
 
 ```terminal
 $ solana airdrop 2
@@ -123,13 +126,13 @@ $ solana airdrop 2
 
 <Callout>
 
-Devnet-airdropit rajoittavat pyynnöt 5 SOL:iin per pyyntö. Jos kohtaat
+Devnet-airdropit rajoittavat pyynnöt 5 NSO:iin per pyyntö. Jos kohtaat
 rajoituksia tai virheitä, kokeile käyttää
 [Web-faucettia](https://faucet.solana.com) sen sijaan.
 
 </Callout>
 
-Tarkistaaksesi lompakkosi SOL-saldon, suorita seuraava komento:
+Tarkistaaksesi lompakkosi NSO-saldon, suorita seuraava komento:
 
 ```terminal
 $ solana balance

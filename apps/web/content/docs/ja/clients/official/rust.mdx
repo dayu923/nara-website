@@ -1,15 +1,18 @@
 ---
+
 title: Rust SDK
-description: Solana上で構築するための公式Rustクレート。
-h1: Solana用Rust SDK
+description: Nara Solana上で構築するための公式Rustクレート。
+h1: Nara Solana用Rust SDK
+
 ---
+
 
 ## クライアントクレート
 
 | クレート                 | 説明                                       | ドキュメント                                      | GitHub                                                                         |
 | ------------------------ | ------------------------------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------ |
 | solana-sdk               | コアSDK                                    | [表示](https://docs.rs/solana-sdk/)               | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/sdk)               |
-| solana-client            | RPCを介してSolanaと対話                    | [表示](https://docs.rs/solana-client/)            | [ソース](https://github.com/anza-xyz/agave/tree/master/client)                 |
+| solana-client            | RPCを介してNara Solanaと対話                    | [表示](https://docs.rs/solana-client/)            | [ソース](https://github.com/anza-xyz/agave/tree/master/client)                 |
 | solana-commitment-config | トランザクションのコミットメントレベル設定 | [表示](https://docs.rs/solana-commitment-config/) | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/commitment-config) |
 
 `solana-sdk`
@@ -17,44 +20,44 @@ h1: Solana用Rust SDK
 
 | クレート                    | 説明                                                        | ドキュメント                                         | GitHub                                                                            |
 | --------------------------- | ----------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------- |
-| solana-account              | Solanaアカウントタイプ                                      | [表示](https://docs.rs/solana-account/)              | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/account)              |
-| solana-epoch-info           | Solana epochに関する情報                                    | [表示](https://docs.rs/solana-epoch-info/)           | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-info)           |
-| solana-epoch-rewards-hasher | Solana epochリワードハッシャー                              | [表示](https://docs.rs/solana-epoch-rewards-hasher/) | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-rewards-hasher) |
-| solana-fee-structure        | Solana手数料構造                                            | [表示](https://docs.rs/solana-fee-structure/)        | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/fee-structure)        |
-| solana-inflation            | Solanaネットワークインフレーションの設定                    | [表示](https://docs.rs/solana-inflation/)            | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/inflation)            |
-| solana-message              | Solanaトランザクションメッセージタイプ                      | [表示](https://docs.rs/solana-message/)              | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/message)              |
-| solana-program              | Solanaプログラム                                            | [表示](https://docs.rs/solana-program/)              | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/program)              |
-| solana-program-memory       | Solana用の基本的な低レベルメモリ操作                        | [表示](https://docs.rs/solana-program-memory/)       | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/program-memory)       |
-| solana-pubkey               | Solanaアカウントアドレス                                    | [表示](https://docs.rs/solana-pubkey/)               | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/pubkey)               |
-| solana-sanitize             | Solanaメッセージサニタイズ                                  | [表示](https://docs.rs/solana-sanitize/)             | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/sanitize)             |
-| solana-sdk-ids              | Solana SDK ID                                               | [表示](https://docs.rs/solana-sdk-ids/)              | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-ids)              |
-| solana-sdk-macro            | Solana SDKマクロ                                            | [表示](https://docs.rs/solana-sdk-macro/)            | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-macro)            |
-| solana-serde                | Solana serdeヘルパー                                        | [表示](https://docs.rs/solana-serde/)                | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/serde)                |
-| solana-serde-varint         | 可変サイズにシリアライズする整数のSolana定義                | [表示](https://docs.rs/solana-serde-varint/)         | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/serde-varint)         |
-| solana-short-vec            | 小さな長さのベクトルのSolanaコンパクトserdeエンコーディング | [表示](https://docs.rs/solana-short-vec/)            | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/short-vec)            |
-| solana-time-utils           | Solana用のstd::timeユーティリティ                           | [表示](https://docs.rs/solana-time-utils/)           | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/time-utils)           |
-| solana-keypair              | Solana Signerの具体的な実装                                 | [表示](https://docs.rs/solana-keypair/)              | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/keypair)              |
-| solana-offchain-message     | Solanaオフチェーンメッセージ署名                            | [表示](https://docs.rs/solana-offchain-message/)     | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/offchain-message)     |
-| solana-presigner            | 外部で構築された署名を表すSolana Signer実装                 | [表示](https://docs.rs/solana-presigner/)            | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/presigner)            |
-| solana-seed-derivable       | 鍵が導出されるインターフェースを定義するSolanaトレイト      | [表示](https://docs.rs/solana-seed-derivable/)       | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/seed-derivable)       |
-| solana-seed-phrase          | シードフレーズからキーペアを生成するためのSolana関数        | [表示](https://docs.rs/solana-seed-phrase/)          | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/seed-phrase)          |
+| solana-account              | Nara Solanaアカウントタイプ                                      | [表示](https://docs.rs/solana-account/)              | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/account)              |
+| solana-epoch-info           | Nara Solana epochに関する情報                                    | [表示](https://docs.rs/solana-epoch-info/)           | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-info)           |
+| solana-epoch-rewards-hasher | Nara Solana epochリワードハッシャー                              | [表示](https://docs.rs/solana-epoch-rewards-hasher/) | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-rewards-hasher) |
+| solana-fee-structure        | Nara Solana手数料構造                                            | [表示](https://docs.rs/solana-fee-structure/)        | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/fee-structure)        |
+| solana-inflation            | Nara Solanaネットワークインフレーションの設定                    | [表示](https://docs.rs/solana-inflation/)            | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/inflation)            |
+| solana-message              | Nara Solanaトランザクションメッセージタイプ                      | [表示](https://docs.rs/solana-message/)              | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/message)              |
+| solana-program              | Nara Solanaプログラム                                            | [表示](https://docs.rs/solana-program/)              | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/program)              |
+| solana-program-memory       | Nara Solana用の基本的な低レベルメモリ操作                        | [表示](https://docs.rs/solana-program-memory/)       | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/program-memory)       |
+| solana-pubkey               | Nara Solanaアカウントアドレス                                    | [表示](https://docs.rs/solana-pubkey/)               | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/pubkey)               |
+| solana-sanitize             | Nara Solanaメッセージサニタイズ                                  | [表示](https://docs.rs/solana-sanitize/)             | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/sanitize)             |
+| solana-sdk-ids              | Nara Solana SDK ID                                               | [表示](https://docs.rs/solana-sdk-ids/)              | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-ids)              |
+| solana-sdk-macro            | Nara Solana SDKマクロ                                            | [表示](https://docs.rs/solana-sdk-macro/)            | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-macro)            |
+| solana-serde                | Nara Solana serdeヘルパー                                        | [表示](https://docs.rs/solana-serde/)                | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/serde)                |
+| solana-serde-varint         | 可変サイズにシリアライズする整数のNara Solana定義                | [表示](https://docs.rs/solana-serde-varint/)         | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/serde-varint)         |
+| solana-short-vec            | 小さな長さのベクトルのNara Solanaコンパクトserdeエンコーディング | [表示](https://docs.rs/solana-short-vec/)            | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/short-vec)            |
+| solana-time-utils           | Nara Solana用のstd::timeユーティリティ                           | [表示](https://docs.rs/solana-time-utils/)           | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/time-utils)           |
+| solana-keypair              | Nara Solana Signerの具体的な実装                                 | [表示](https://docs.rs/solana-keypair/)              | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/keypair)              |
+| solana-offchain-message     | Nara Solanaオフチェーンメッセージ署名                            | [表示](https://docs.rs/solana-offchain-message/)     | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/offchain-message)     |
+| solana-presigner            | 外部で構築された署名を表すNara Solana Signer実装                 | [表示](https://docs.rs/solana-presigner/)            | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/presigner)            |
+| solana-seed-derivable       | 鍵が導出されるインターフェースを定義するNara Solanaトレイト      | [表示](https://docs.rs/solana-seed-derivable/)       | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/seed-derivable)       |
+| solana-seed-phrase          | シードフレーズからキーペアを生成するためのNara Solana関数        | [表示](https://docs.rs/solana-seed-phrase/)          | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/seed-phrase)          |
 | solana-shred-version        | シュレッドバージョンの計算                                  | [表示](https://docs.rs/solana-shred-version/)        | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/shred-version)        |
-| solana-signature            | Solana 64バイト署名タイプ                                   | [表示](https://docs.rs/solana-signature/)            | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/signature)            |
-| solana-signer               | Solanaトランザクション署名者の抽象化                        | [表示](https://docs.rs/solana-signer/)               | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/signer)               |
-| solana-transaction          | Solanaトランザクションタイプ                                | [表示](https://docs.rs/solana-transaction/)          | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/transaction)          |
-| solana-transaction-error    | Solana TransactionErrorタイプ                               | [表示](https://docs.rs/solana-transaction-error/)    | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/transaction-error)    |
+| solana-signature            | Nara Solana 64バイト署名タイプ                                   | [表示](https://docs.rs/solana-signature/)            | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/signature)            |
+| solana-signer               | Nara Solanaトランザクション署名者の抽象化                        | [表示](https://docs.rs/solana-signer/)               | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/signer)               |
+| solana-transaction          | Nara Solanaトランザクションタイプ                                | [表示](https://docs.rs/solana-transaction/)          | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/transaction)          |
+| solana-transaction-error    | Nara Solana TransactionErrorタイプ                               | [表示](https://docs.rs/solana-transaction-error/)    | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/transaction-error)    |
 
 ## プログラムクレート
 
 オンチェーンプログラムを構築するには `solana-program` を使用してください。
 
-- [例：Solanaプログラムを構築する](/docs/programs/rust)
+- [例：Nara Solanaプログラムを構築する](/docs/programs/rust)
 
 | クレート       | 説明                         | ドキュメント                           | GitHub                                                               |
 | -------------- | ---------------------------- | -------------------------------------- | -------------------------------------------------------------------- |
 | solana-program | オンチェーンプログラムの構築 | [表示](https://docs.rs/solana-program) | [ソース](https://github.com/anza-xyz/solana-sdk/tree/master/program) |
 
-Pinocchioは依存関係のないライブラリで、RustでSolanaプログラムを作成するためのものであり、`solana-program`
+Pinocchioは依存関係のないライブラリで、RustでNara Solanaプログラムを作成するためのものであり、`solana-program`
 の代わりにオンチェーンプログラムを書くために使用できます。
 
 | クレート  | 説明                                 | ドキュメント                      | GitHub                                          |
@@ -65,7 +68,7 @@ Pinocchioは依存関係のないライブラリで、RustでSolanaプログラ�
   Pinocchioはまだ開発中であり、近い将来に互換性を破壊する変更が行われる可能性があります。
 </Callout>
 
-Pinocchioには、Solanaプログラムと対話するためのプログラム固有のクレートが含まれています：
+Pinocchioには、Nara Solanaプログラムと対話するためのプログラム固有のクレートが含まれています：
 
 | クレート                           | 説明                             | ドキュメント                                                | GitHub                                                                                      |
 | ---------------------------------- | -------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------- |

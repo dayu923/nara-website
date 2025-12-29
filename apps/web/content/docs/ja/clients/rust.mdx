@@ -1,31 +1,34 @@
 ---
+
 title: Rust SDK
-description: Solanaの開発に使用するRustクレートの使い方を学びましょう。
-h1: Solana用Rust SDK
+description: Nara Solanaの開発に使用するRustクレートの使い方を学びましょう。
+h1: Nara Solana用Rust SDK
+
 ---
 
-SolanaのRustクレートは
+
+Nara SolanaのRustクレートは
 [crates.ioに公開されており](https://crates.io/search?q=solana-)、
 [docs.rs](https://docs.rs/releases/search?query=solana-)で`solana-`
 プレフィックスで見つけることができます。
 
 ## Rustクレート
 
-以下はSolana開発において最も重要で一般的に使用されるRustクレートです：
+以下はNara Solana開発において最も重要で一般的に使用されるRustクレートです：
 
 - [`solana-program`] &mdash;
-  SBFにコンパイルされ、Solana上で実行されるプログラムによってインポートされます。このクレートには多くの基本的なデータ型が含まれており、Solanaプログラムからインポートできない[`solana-sdk`]から再エクスポートされています。
+  SBFにコンパイルされ、Nara Solana上で実行されるプログラムによってインポートされます。このクレートには多くの基本的なデータ型が含まれており、Nara Solanaプログラムからインポートできない[`solana-sdk`]から再エクスポートされています。
 
 - [`solana-sdk`]
-  &mdash; 基本的なオフチェーンSDKで、[`solana-program`]を再エクスポートし、その上に多くのAPIを追加しています。オンチェーンで実行されない多くのSolanaプログラムはこれをインポートします。
+  &mdash; 基本的なオフチェーンSDKで、[`solana-program`]を再エクスポートし、その上に多くのAPIを追加しています。オンチェーンで実行されない多くのNara Solanaプログラムはこれをインポートします。
 
 - [`solana-client`] &mdash;
-  [JSON RPC API](/docs/rpc)を介してSolanaノードと対話するためのクレートです。
+  [JSON RPC API](/docs/rpc)を介してNara Solanaノードと対話するためのクレートです。
 
-- [`solana-cli-config`] &mdash; Solana
+- [`solana-cli-config`] &mdash; Nara Solana
   CLI設定ファイルの読み込みと保存を行います。
 
-- [`solana-clap-utils`] &mdash; メインのSolana
+- [`solana-clap-utils`] &mdash; メインのNara Solana
   CLIで使用されている[`clap`]を使用してCLIをセットアップするためのルーチンです。CLIでサポートされているすべてのタイプの署名者を読み込むための関数が含まれています。
 
 [`solana-program`]: https://docs.rs/solana-program
@@ -37,13 +40,13 @@ SolanaのRustクレートは
 
 ## インストール
 
-トランザクションの送信とSolanaとの対話のために：
+トランザクションの送信とNara Solanaとの対話のために：
 
 ```shell title="Terminal"
 cargo add solana-sdk solana-client
 ```
 
-Solanaプログラムをビルドするには、以下をインストールしてください：
+Nara Solanaプログラムをビルドするには、以下をインストールしてください：
 
 ```shell title="Terminal"
 cargo add solana-program

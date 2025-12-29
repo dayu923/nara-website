@@ -1,17 +1,20 @@
 ---
+
 title: Rust-ohjelmat
 description:
   Opi kehittämään Solana-ohjelmia Rustin avulla, mukaan lukien vaiheittaiset
   ohjeet älysopimusten luomiseen, rakentamiseen, testaamiseen ja käyttöönottoon
   Solana-lohkoketjussa.
 h1: Ohjelmien kehittäminen Rustilla
+
 ---
 
-Solana-ohjelmat kehitetään pääasiassa Rust-ohjelmointikielellä. Tämä sivu
-keskittyy Solana-ohjelmien kirjoittamiseen Rustilla ilman Anchor- viitekehystä,
+
+Nara Solana-ohjelmat kehitetään pääasiassa Rust-ohjelmointikielellä. Tämä sivu
+keskittyy Nara Solana-ohjelmien kirjoittamiseen Rustilla ilman Anchor- viitekehystä,
 lähestymistapaa jota usein kutsutaan "natiivi Rust" -ohjelmien kirjoittamiseksi.
 
-Natiivi Rust-kehitys tarjoaa kehittäjille suoran hallinnan Solana- ohjelmiinsa.
+Natiivi Rust-kehitys tarjoaa kehittäjille suoran hallinnan Nara Solana- ohjelmiinsa.
 Tämä lähestymistapa vaatii kuitenkin enemmän manuaalista asetusta ja
 perusrakenteen koodia verrattuna Anchor-viitekehyksen käyttöön. Tätä menetelmää
 suositellaan kehittäjille, jotka:
@@ -30,13 +33,13 @@ Yksityiskohtaiset asennusohjeet löytyvät [asennus](/docs/intro/installation)
 
 Ennen kuin aloitat, varmista että sinulla on seuraavat asennettuna:
 
-- Rust: Ohjelmointikieli Solana-ohjelmien rakentamiseen.
-- Solana CLI: Komentorivityökalu Solana-kehitykseen.
+- Rust: Ohjelmointikieli Nara Solana-ohjelmien rakentamiseen.
+- Nara Solana CLI: Komentorivityökalu Nara Solana-kehitykseen.
 
 ## Aloittaminen
 
 Alla oleva esimerkki kattaa perusvaiheet ensimmäisen Rustilla kirjoitetun
-Solana-ohjelman luomiseen. Luomme minimaalisen ohjelman, joka tulostaa "Hello,
+Nara Solana-ohjelman luomiseen. Luomme minimaalisen ohjelman, joka tulostaa "Hello,
 world!" ohjelman lokiin.
 
 <ScrollyCoding>
@@ -91,7 +94,7 @@ mod tests {
 ## !!steps Lisää solana-program riippuvuus
 
 Seuraavaksi lisää `solana-program` riippuvuus. Tämä on vähimmäisriippuvuus, joka
-vaaditaan Solana-ohjelman rakentamiseen.
+vaaditaan Nara Solana-ohjelman rakentamiseen.
 
 ```terminal
 $ cargo add solana-program@2.2.0
@@ -143,10 +146,10 @@ solana-program = "2.2.0"
 ## !!steps Lisää ohjelmakoodi
 
 Seuraavaksi korvaa tiedoston `src/lib.rs` sisältö seuraavalla koodilla. Tämä on
-minimaalinen Solana-ohjelma, joka tulostaa "Hello, world!" ohjelman lokiin, kun
+minimaalinen Nara Solana-ohjelma, joka tulostaa "Hello, world!" ohjelman lokiin, kun
 ohjelma suoritetaan.
 
-`msg!` makroa käytetään Solana-ohjelmissa viestin tulostamiseen ohjelman lokiin.
+`msg!` makroa käytetään Nara Solana-ohjelmissa viestin tulostamiseen ohjelman lokiin.
 
 <CodePlaceholder title="src/lib.rs" />
 
@@ -179,7 +182,7 @@ $ cargo build-sbf
 Tämä komento luo `target/deploy` hakemiston, joka sisältää kaksi tärkeää
 tiedostoa:
 
-1. `.so` tiedosto (esim. `hello_world.so`): Tämä on käännetty Solana-ohjelma,
+1. `.so` tiedosto (esim. `hello_world.so`): Tämä on käännetty Nara Solana-ohjelma,
    joka tullaan ottamaan käyttöön verkossa "älysopimuksena".
 2. Keypair-tiedosto (esim. `hello_world-keypair.json`): Tämän keypair:in
    julkista avainta käytetään ohjelmatunnuksena (program ID) ohjelmaa
@@ -194,7 +197,7 @@ $ solana address -k ./target/deploy/hello_world-keypair.json
 
 Esimerkki tulostuksesta:
 
-Tämä on yksinkertainen "Hello, world!" -ohjelma Solana-lohkoketjulle. Ohjelma
+Tämä on yksinkertainen "Hello, world!" -ohjelma Nara Solana-lohkoketjulle. Ohjelma
 kirjoittaa viestin "Hello, world!" ohjelman lokiin, kun se suoritetaan.
 
 Tässä on ohjelman koodi:
@@ -212,7 +215,7 @@ $ cargo add litesvm@0.6.1 --dev
 $ cargo add solana-sdk@2.2.0 --dev
 ```
 
-Tämä määrittää testiriippuvuudet, jotka tarvitaan Solana-ohjelman testaamiseen.
+Tämä määrittää testiriippuvuudet, jotka tarvitaan Nara Solana-ohjelman testaamiseen.
 
 ## !!steps Testaa ohjelma
 
@@ -240,7 +243,7 @@ Testi suoritetaan onnistuneesti ja ohjelman lokissa näkyy "Hello, world!".
 Seuraavaksi, ota ohjelma käyttöön. Kun kehitämme paikallisesti, voimme käyttää
 `solana-test-validator`.
 
-Ensin, määritä Solana CLI käyttämään paikallista Solana-klusteria.
+Ensin, määritä Nara Solana CLI käyttämään paikallista Nara Solana-klusteria.
 
 ```terminal
 $ solana config set -ul
@@ -248,7 +251,7 @@ $ solana config set -ul
 
 Esimerkki tulostuksesta:
 
-Solana CLI on nyt määritetty käyttämään paikallista Solana-klusteria.
+Nara Solana CLI on nyt määritetty käyttämään paikallista Nara Solana-klusteria.
 
 Avaa uusi terminaali ja suorita `solana-test-validators` -komento
 käynnistääksesi paikallisen validaattorin.
@@ -274,11 +277,11 @@ Signature:
 ```
 
 Voit tarkastella ohjelmatunnusta ja tapahtuman allekirjoitusta
-[Solana Explorerissa](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899).
+[Nara Solana Explorerissa](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899).
 
 <Callout type="info">
-  Huomaa, että Solana Explorerissa klusterin on oltava myös localhost. "Custom
-  RPC URL" -vaihtoehto Solana Explorerissa on oletuksena
+  Huomaa, että Nara Solana Explorerissa klusterin on oltava myös localhost. "Custom
+  RPC URL" -vaihtoehto Nara Solana Explorerissa on oletuksena
   `http://localhost:8899`.
 </Callout>
 
@@ -480,14 +483,14 @@ Transaction Signature: 54TWxKi3Jsi3UTeZbhLGUFX6JQH7TspRJjRRFZ8NFnwG5BXM9udxiX77b
 ```
 
 Voit tarkastella transaktiosignatuuria
-[Solana Explorerissa](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
+[Nara Solana Explorerissa](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
 (paikallinen klusteri) nähdäksesi "Hello, world!" ohjelman lokissa.
 
 ## !!steps Päivitä ohjelma
 
-Solana-ohjelmia voidaan päivittää ottamalla ne uudelleen käyttöön samalla
+Nara Solana-ohjelmia voidaan päivittää ottamalla ne uudelleen käyttöön samalla
 ohjelmatunnuksella. Päivitä ohjelma tiedostossa `src/lib.rs` tulostamaan "Hello,
-Solana!" "Hello, world!" sijaan.
+Nara Solana!" "Hello, world!" sijaan.
 
 ```rs title="lib.rs"
 pub fn process_instruction(
@@ -579,7 +582,7 @@ Testaa päivitettyä ohjelmaa suorittamalla komento `cargo test`.
 $ cargo test -- --no-capture
 ```
 
-Ohjelman lokissa pitäisi näkyä "Hello, Solana!".
+Ohjelman lokissa pitäisi näkyä "Hello, Nara Solana!".
 
 ```txt title="Terminal"
 running 1 test
@@ -602,8 +605,8 @@ Ota ohjelma uudelleen käyttöön samalla `solana program deploy` komennolla.
 $ solana program deploy ./target/deploy/hello_world.so
 ```
 
-Suorita asiakaskoodi uudelleen ja tarkastele transaktiosignatuuria Solana
-Explorerissa nähdäksesi "Hello, Solana!" ohjelman lokissa.
+Suorita asiakaskoodi uudelleen ja tarkastele transaktiosignatuuria Nara Solana
+Explorerissa nähdäksesi "Hello, Nara Solana!" ohjelman lokissa.
 
 ```terminal
 $ cargo run --example client
@@ -611,7 +614,7 @@ $ cargo run --example client
 
 ## !!steps Sulje ohjelma
 
-Voit sulkea Solana-ohjelmasi saadaksesi takaisin tilille allokoidun SOL:n.
+Voit sulkea Nara Solana-ohjelmasi saadaksesi takaisin tilille allokoidun NSO:n.
 Ohjelman sulkeminen on peruuttamatonta, joten se tulisi tehdä varoen.
 
 Sulkeaksesi ohjelman käytä komentoa `solana program close <PROGRAM_ID>`.

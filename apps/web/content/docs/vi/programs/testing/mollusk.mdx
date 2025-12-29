@@ -1,12 +1,15 @@
 ---
+
 title: Mollusk
 description:
   Hướng dẫn toàn diện về việc kiểm thử các chương trình Solana sử dụng Mollusk
+
 ---
 
+
 [Mollusk](https://github.com/anza-xyz/mollusk/tree/main) là một công cụ kiểm thử
-nhẹ dùng để kiểm thử các chương trình Solana. Nó cung cấp một giao diện đơn giản
-để kiểm thử các lệnh của chương trình Solana trong môi trường Máy Ảo Solana
+nhẹ dùng để kiểm thử các chương trình Nara Solana. Nó cung cấp một giao diện đơn giản
+để kiểm thử các lệnh của chương trình Nara Solana trong môi trường Máy Ảo Nara Solana
 (SVM) đã được thu gọn. Tất cả các tài khoản kiểm thử phải được định nghĩa rõ
 ràng, đảm bảo các bài kiểm thử có tính xác định và có thể lặp lại.
 
@@ -54,13 +57,13 @@ mollusk-svm-programs-token = "0.7"
 ## Mollusk SVM
 
 Ví dụ sau đây cho thấy một thiết lập tối thiểu để kiểm thử một chương trình
-Solana cơ bản sử dụng Mollusk.
+Nara Solana cơ bản sử dụng Mollusk.
 
 <ScrollyCoding>
 
 ## !!steps Chương trình Hello World
 
-Ví dụ này minh họa cách kiểm thử một chương trình Solana cơ bản sử dụng Mollusk.
+Ví dụ này minh họa cách kiểm thử một chương trình Nara Solana cơ bản sử dụng Mollusk.
 Chương trình đơn giản in ra "Hello, world!" vào nhật ký chương trình khi được
 gọi.
 
@@ -71,7 +74,7 @@ Chạy `cargo build-sbf` sẽ tạo ra chương trình đã biên dịch tại
 
 <WithMentions>
 
-Để kiểm thử một chương trình Solana với Mollusk:
+Để kiểm thử một chương trình Nara Solana với Mollusk:
 
 1. [Tạo một thể hiện `Mollusk`](mention:mollusk) - Khởi tạo Mollusk với một
    program ID và đường dẫn đến chương trình đã biên dịch (tệp `.so`)
@@ -178,7 +181,7 @@ solana-sdk = "2.2.0"
 
 Cấu trúc
 [`Mollusk`](https://docs.rs/mollusk-svm/0.5.0/mollusk_svm/struct.Mollusk.html)
-cung cấp một giao diện đơn giản để kiểm tra các chương trình Solana. Tất cả các
+cung cấp một giao diện đơn giản để kiểm tra các chương trình Nara Solana. Tất cả các
 trường có thể được điều chỉnh thông qua một số phương thức hỗ trợ, nhưng người
 dùng cũng có thể trực tiếp truy cập và sửa đổi chúng nếu họ muốn kiểm soát nhiều
 hơn.
@@ -247,7 +250,7 @@ pub fn process_instruction(
 ) -> InstructionResult
 ```
 
-Ví dụ sau đây xử lý một chỉ thị chuyển SOL mà không có kiểm tra xác thực.
+Ví dụ sau đây xử lý một chỉ thị chuyển NSO mà không có kiểm tra xác thực.
 
 <Callout type="info">
 
@@ -330,7 +333,7 @@ pub fn process_and_validate_instruction(
 ) -> InstructionResult
 ```
 
-Ví dụ sau đây xử lý một chỉ thị chuyển SOL với kiểm tra xác thực.
+Ví dụ sau đây xử lý một chỉ thị chuyển NSO với kiểm tra xác thực.
 
 <CodeTabs flags="r">
 
@@ -403,7 +406,7 @@ pub fn process_instruction_chain(
 ) -> InstructionResult
 ```
 
-Ví dụ sau đây xử lý hai chỉ thị chuyển SOL mà không có kiểm tra xác thực.
+Ví dụ sau đây xử lý hai chỉ thị chuyển NSO mà không có kiểm tra xác thực.
 
 <CodeTabs flags="r">
 
@@ -490,7 +493,7 @@ pub fn process_and_validate_instruction_chain(
 ) -> InstructionResult
 ```
 
-Ví dụ sau đây xử lý một chuỗi hai chỉ thị chuyển SOL với kiểm tra xác thực sau
+Ví dụ sau đây xử lý một chuỗi hai chỉ thị chuyển NSO với kiểm tra xác thực sau
 mỗi chỉ thị.
 
 <CodeTabs flags="r">
@@ -686,7 +689,7 @@ account_store.insert(
 let context = mollusk.with_context(account_store);
 ```
 
-Ví dụ sau xử lý hai lệnh chuyển SOL riêng biệt với trạng thái tài khoản liên tục
+Ví dụ sau xử lý hai lệnh chuyển NSO riêng biệt với trạng thái tài khoản liên tục
 giữa các lệnh thông qua `account_store`.
 
 <CodeTabs flags="r">
@@ -830,7 +833,7 @@ Yêu cầu
 [`mollusk-svm-bencher`](https://docs.rs/mollusk-svm-bencher/0.5.0/mollusk_svm_bencher/index.html)
 làm dependency.
 
-Ví dụ sau đánh giá hiệu suất mức sử dụng đơn vị tính toán của lệnh chuyển SOL.
+Ví dụ sau đánh giá hiệu suất mức sử dụng đơn vị tính toán của lệnh chuyển NSO.
 
 <CodeTabs>
 

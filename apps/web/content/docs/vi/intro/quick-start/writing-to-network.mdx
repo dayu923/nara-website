@@ -1,30 +1,33 @@
 ---
+
 title: Ghi dữ liệu lên Mạng
 description:
   Tìm hiểu cách tương tác với mạng Solana bằng cách gửi giao dịch và hướng dẫn.
   Theo dõi các ví dụ từng bước để chuyển token SOL và tạo token mới bằng System
   Program và Token Extensions Program.
+
 ---
 
-Trong phần trước, bạn đã học cách đọc dữ liệu từ mạng Solana. Bây giờ bạn sẽ học
-cách ghi dữ liệu vào mạng. Việc ghi dữ liệu vào mạng Solana liên quan đến việc
+
+Trong phần trước, bạn đã học cách đọc dữ liệu từ mạng Nara Solana. Bây giờ bạn sẽ học
+cách ghi dữ liệu vào mạng. Việc ghi dữ liệu vào mạng Nara Solana liên quan đến việc
 gửi các giao dịch chứa một hoặc nhiều chỉ thị.
 
 Các chương trình định nghĩa logic nghiệp vụ cho những gì mỗi
 [chỉ thị](/docs/core/instructions) thực hiện. Khi bạn gửi một
-[giao dịch](/docs/core/transactions), thời gian chạy Solana thực thi từng chỉ
+[giao dịch](/docs/core/transactions), thời gian chạy Nara Solana thực thi từng chỉ
 thị theo trình tự và một cách nguyên tử. Các ví dụ trong phần này cho thấy cách
-xây dựng và gửi giao dịch để gọi các chương trình Solana, bao gồm:
+xây dựng và gửi giao dịch để gọi các chương trình Nara Solana, bao gồm:
 
-1. Chuyển SOL giữa các tài khoản
+1. Chuyển NSO giữa các tài khoản
 2. Tạo một token mới
 
-## Chuyển SOL
+## Chuyển NSO
 
-Ví dụ dưới đây chuyển SOL giữa hai tài khoản. Mỗi tài khoản có một chương trình
-sở hữu, đây là chương trình duy nhất có thể trừ số dư SOL của tài khoản.
+Ví dụ dưới đây chuyển NSO giữa hai tài khoản. Mỗi tài khoản có một chương trình
+sở hữu, đây là chương trình duy nhất có thể trừ số dư NSO của tài khoản.
 
-Tất cả các tài khoản ví đều thuộc sở hữu của System Program. Để chuyển SOL, bạn
+Tất cả các tài khoản ví đều thuộc sở hữu của System Program. Để chuyển NSO, bạn
 phải gọi chỉ thị
 [transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)
 của System Program.
@@ -88,7 +91,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !connection
 
-Tạo kết nối đến một cụm Solana.
+Tạo kết nối đến một cụm Nara Solana.
 
 ### !sender
 
@@ -100,7 +103,7 @@ Tạo một cặp khóa mới để sử dụng làm `receiver`.
 
 ### !airdrop
 
-Yêu cầu airdrop SOL để cấp vốn cho `sender`.
+Yêu cầu airdrop NSO để cấp vốn cho `sender`.
 
 ### !instruction
 
@@ -172,8 +175,8 @@ const receiver = new Keypair();
 
 ## !!steps
 
-Thêm SOL vào tài khoản người gửi. Trên các mạng khác ngoài mainnet, bạn có thể
-sử dụng phương thức `requestAirdrop` để nhận SOL cho việc kiểm thử.
+Thêm NSO vào tài khoản người gửi. Trên các mạng khác ngoài mainnet, bạn có thể
+sử dụng phương thức `requestAirdrop` để nhận NSO cho việc kiểm thử.
 
 ```ts title="Airdrop"
 const signature = await connection.requestAirdrop(
@@ -210,7 +213,7 @@ await connection.confirmTransaction(signature, "confirmed");
 
 <WithMentions>
 
-Phương thức `SystemProgram.transfer()` tạo một chỉ thị chuyển SOL từ tài khoản
+Phương thức `SystemProgram.transfer()` tạo một chỉ thị chuyển NSO từ tài khoản
 [`fromPubkey`](mention:from) đến tài khoản [`toPubkey`](mention:to) với số lượng
 [`lamports`](mention:lamports) được chỉ định.
 
@@ -303,7 +306,7 @@ const transaction = new Transaction().add(transferInstruction);
 
 Ký và gửi [giao dịch](mention:transaction) đến mạng lưới. Keypair của
 [người gửi](mention:sender) cần phải có trong mảng người ký để ủy quyền cho việc
-chuyển SOL từ tài khoản của họ.
+chuyển NSO từ tài khoản của họ.
 
 ```ts title="Send transaction"
 const transactionSignature = await sendAndConfirmTransaction(
@@ -318,7 +321,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 </WithMentions>
 
 Chữ ký giao dịch là một định danh duy nhất có thể được sử dụng để tra cứu giao
-dịch trên Solana Explorer.
+dịch trên Nara Solana Explorer.
 
 ```ts !! title="Transfer SOL"
 import {
@@ -363,7 +366,7 @@ console.log("Transaction Signature:", `${transactionSignature}`);
 
 ## Tạo một token
 
-Ví dụ dưới đây tạo một token mới trên Solana sử dụng Token Extensions Program.
+Ví dụ dưới đây tạo một token mới trên Nara Solana sử dụng Token Extensions Program.
 Điều này yêu cầu hai chỉ thị:
 
 1. Gọi System Program để tạo một tài khoản mới.
@@ -807,7 +810,7 @@ Thêm cả hai chỉ thị vào một giao dịch duy nhất. Điều này đả
 tài khoản và khởi tạo xảy ra một cách nguyên tử. (Hoặc cả hai chỉ thị thành
 công, hoặc không có chỉ thị nào thành công.)
 
-Cách tiếp cận này phổ biến khi xây dựng các giao dịch Solana phức tạp, vì nó đảm
+Cách tiếp cận này phổ biến khi xây dựng các giao dịch Nara Solana phức tạp, vì nó đảm
 bảo rằng tất cả các chỉ thị được thực thi cùng nhau.
 
 ```ts title="Transaction"
@@ -896,7 +899,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 ```
 
 Chữ ký giao dịch được trả về có thể được sử dụng để kiểm tra giao dịch trên
-Solana Explorer.
+Nara Solana Explorer.
 
 </WithMentions>
 

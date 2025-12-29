@@ -1,16 +1,19 @@
 ---
+
 title: HTTP 方法
-seoTitle: Solana RPC HTTP 方法
+seoTitle: Nara Solana RPC HTTP 方法
 hideTableOfContents: false
-h1: Solana RPC HTTP 方法
+h1: Nara Solana RPC HTTP 方法
+
 ---
 
-Solana 节点使用 [JSON-RPC 2.0](https://www.jsonrpc.org/specification)
+
+Nara Solana 节点使用 [JSON-RPC 2.0](https://www.jsonrpc.org/specification)
 规范接受 HTTP 请求。
 
 > 对于 JavaScript 应用程序，请使用
 > [@solana/web3.js](https://github.com/solana-labs/solana-web3.js)
-> 库作为与 Solana 节点交互的 RPC 方法的便捷接口。对于与 Solana 节点的 PubSub 连接，请使用
+> 库作为与 Nara Solana 节点交互的 RPC 方法的便捷接口。对于与 Nara Solana 节点的 PubSub 连接，请使用
 > [Websocket API](/docs/rpc/websocket/)。
 
 ## RPC HTTP 端点
@@ -77,7 +80,7 @@ curl https://api.devnet.solana.com -s -X POST -H "Content-Type: application/json
 
 - 哈希：一段数据的 SHA-256 哈希值。
 - Pubkey：Ed25519 密钥对的公钥。
-- 交易：由客户端密钥对签名的 Solana 指令列表，用于授权这些操作。
+- 交易：由客户端密钥对签名的 Nara Solana 指令列表，用于授权这些操作。
 - 签名：交易有效负载数据（包括指令）的 Ed25519 签名。这可以用来标识交易。
 
 ## 健康检查

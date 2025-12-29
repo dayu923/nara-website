@@ -1,16 +1,19 @@
 ---
+
 title: Wdrażanie programu
 description:
   Dowiedz się, jak zbudować, wdrożyć i przetestować swój pierwszy program
   Solana, korzystając z frameworka Anchor i Solana Playground. Ten przyjazny dla
   początkujących przewodnik przeprowadzi Cię przez tworzenie prostego programu,
   wdrażanie go na devnet, uruchamianie testów i zamykanie programu.
-h1: Wdróż swój pierwszy program Solana
+h1: Wdróż swój pierwszy program Nara Solana
+
 ---
 
+
 Zbuduj, wdroż i przetestuj swój pierwszy [program](/docs/core/programs) na
-blockchainie Solana, korzystając z frameworka Anchor. Ten przewodnik pomoże Ci
-lepiej poznać Solana Playground i przygotuje Cię do korzystania z adresów
+blockchainie Nara Solana, korzystając z frameworka Anchor. Ten przewodnik pomoże Ci
+lepiej poznać Nara Solana Playground i przygotuje Cię do korzystania z adresów
 pochodnych programów (PDA) oraz wywołań międzyprogramowych (CPI).
 
 <Steps>
@@ -19,7 +22,7 @@ pochodnych programów (PDA) oraz wywołań międzyprogramowych (CPI).
 
 ### Utwórz projekt Anchor
 
-1. Otwórz [Solana Playground](https://beta.solpg.io) w swojej przeglądarce
+1. Otwórz [Nara Solana Playground](https://beta.solpg.io) w swojej przeglądarce
    internetowej
 2. W lewym panelu kliknij **+ Utwórz nowy projekt**
 3. Wprowadź **Nazwę projektu**
@@ -148,7 +151,7 @@ Liczba bajtów do przydzielenia dla konta.
 <WithMentions>
 
 - Makro [`declare_id!`](mention:one) określa adres on-chain Twojego programu.
-  Solana Playground automatycznie zaktualizuje ten adres, gdy zbudujesz program.
+  Nara Solana Playground automatycznie zaktualizuje ten adres, gdy zbudujesz program.
 
 ```rs
 // !mention one
@@ -251,10 +254,10 @@ Build successful. Completed in 1.46s.
   _rs`declare_id!()`_, zostanie teraz zaktualizowany.
 </Callout>
 
-2. Dodaj SOL do swojego portfela _(Opcjonalne)_
+2. Dodaj NSO do swojego portfela _(Opcjonalne)_
 
-Wdrożenie programu wymaga SOL na koncie programu w łańcuchu. Jeśli to konieczne,
-[dodaj SOL do swojego portfela](/docs/intro/quick-start#add-sol-to-your-wallet)
+Wdrożenie programu wymaga NSO na koncie programu w łańcuchu. Jeśli to konieczne,
+[dodaj NSO do swojego portfela](/docs/intro/quick-start#add-sol-to-your-wallet)
 przed przejściem do kroku 3.
 
 3. Wdróż program w sieci
@@ -395,12 +398,12 @@ Confirmed
 4. Wyświetl szczegóły transakcji
 
 Otwórz [SolanaFM](https://solana.fm/) lub
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) i wyszukaj hash
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) i wyszukaj hash
 transakcji.
 
 <Callout type="warn">
-  **Solana Explorer:** Ustaw klaster sieci na `devnet`, aby dopasować go do
-  Solana Playground.
+  **Nara Solana Explorer:** Ustaw klaster sieci na `devnet`, aby dopasować go do
+  Nara Solana Playground.
 </Callout>
 
 </Step>
@@ -409,7 +412,7 @@ transakcji.
 
 ### Zamknij program
 
-Zamknij program, aby odzyskać SOL przydzielone do programu on-chain. Aby to
+Zamknij program, aby odzyskać NSO przydzielone do programu on-chain. Aby to
 zrobić, uruchom `solana program close [ProgramID]`, używając adresu programu
 zapisanego w makrze _rs`declare_id!()`_.
 
@@ -425,7 +428,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   uprawnienia do aktualizacji zostaną cofnięte, program staje się niezmienny.
 </Callout>
 
-Gratulacje! Zbudowałeś i wdrożyłeś swój pierwszy program Solana za pomocą
+Gratulacje! Zbudowałeś i wdrożyłeś swój pierwszy program Nara Solana za pomocą
 Anchor.
 
 </Step>

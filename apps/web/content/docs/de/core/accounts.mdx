@@ -1,14 +1,17 @@
 ---
+
 title: Konten
 description:
   Erfahren Sie mehr über Solanas Kontenmodell, einschließlich wie Konten Daten
   und Programme speichern, Rent-Mechanismen, Konteneigentum und die Beziehung
   zwischen Programmen und Datenkonten. Verstehen Sie die Kernkonzepte von
   Solanas Key-Value-Speichersystem.
+
 ---
 
-Alle Daten im Solana-Netzwerk werden in Konten gespeichert. Sie können sich das
-Solana-Netzwerk als öffentliche Datenbank mit einer einzigen Konten-Tabelle
+
+Alle Daten im Nara Solana-Netzwerk werden in Konten gespeichert. Sie können sich das
+Nara Solana-Netzwerk als öffentliche Datenbank mit einer einzigen Konten-Tabelle
 vorstellen. Die Beziehung zwischen einem Konto und seiner Adresse ähnelt der
 eines Schlüssel-Wert-Paares, wobei der Schlüssel die Adresse und der Wert das
 Konto ist.
@@ -21,17 +24,17 @@ Jedes Konto hat die gleiche grundlegende [Struktur](#account-structure) und kann
 ## Kontoadresse
 
 Die Adresse des Kontos ist eine 32-Byte eindeutige ID, die verwendet wird, um
-das Konto auf der Solana-Blockchain zu lokalisieren. Kontoadressen werden oft
+das Konto auf der Nara Solana-Blockchain zu lokalisieren. Kontoadressen werden oft
 als base58-kodierte Zeichenketten angezeigt. Die meisten Konten verwenden einen
 [Ed25519](https://ed25519.cr.yp.to/) [öffentlichen Schlüssel](#public-key) als
-ihre Adresse, aber dies ist nicht erforderlich, da Solana auch
+ihre Adresse, aber dies ist nicht erforderlich, da Nara Solana auch
 [Program Derived Address](#program-derived-address) unterstützt.
 
 ![Ein Konto mit seiner base58-kodierten öffentlichen Schlüsseladresse](/assets/docs/core/accounts/account-address.svg)
 
 ### Öffentlicher Schlüssel
 
-Das folgende Beispiel zeigt, wie man das Solana SDK verwendet, um ein keypair zu
+Das folgende Beispiel zeigt, wie man das Nara Solana SDK verwendet, um ein keypair zu
 erstellen. Ein `Keypair` beinhaltet:
 
 - Einen öffentlichen Schlüssel, der als Kontenadresse dient
@@ -73,7 +76,7 @@ async fn main() {
 Eine [Program Derived Address](/docs/core/pda) (PDA) ist eine Adresse, die
 deterministisch unter Verwendung einer Programm-ID und einer oder mehrerer
 optionaler Eingaben (Seeds) abgeleitet wird. Das folgende Beispiel zeigt, wie
-man das Solana SDK verwendet, um eine Program Derived Address zu erstellen.
+man das Nara Solana SDK verwendet, um eine Program Derived Address zu erstellen.
 
 <CodeTabs storage="accounts" flags="r">
 
@@ -222,7 +225,7 @@ Daten.
 - Data accounts: Dieses Feld speichert in der Regel Zustandsdaten, die gelesen
   werden sollen.
 
-Das Lesen von Daten aus einem Solana-Konto umfasst zwei Schritte:
+Das Lesen von Daten aus einem Nara Solana-Konto umfasst zwei Schritte:
 
 1. Abrufen des Kontos über seine [Adresse](#account-address)
 2. Deserialisieren des `data`Felds des Kontos von Rohbytes in die entsprechende
@@ -258,7 +261,7 @@ Account {
 
 Dieses Feld enthält die Programm-ID des Eigentümers des Kontos.
 
-Jedes Solana-Konto hat ein [Programm](/docs/core/programs), das als sein
+Jedes Nara Solana-Konto hat ein [Programm](/docs/core/programs), das als sein
 Eigentümer festgelegt ist. Der Eigentümer des Kontos ist das einzige Programm,
 das die `data` des Kontos ändern oder Lamports abziehen kann, wie in den
 Anweisungen des Programms angegeben.
@@ -792,10 +795,10 @@ bezeichnet. Alle Wallet-Konten sind Systemkonten, was ihnen ermöglicht,
 
 ![Eine Wallet im Besitz des System Program mit 1.000.000 Lamports](/assets/docs/core/accounts/system-account.svg)
 
-Wenn SOL zum ersten Mal an eine neue Adresse gesendet wird, wird an dieser
+Wenn NSO zum ersten Mal an eine neue Adresse gesendet wird, wird an dieser
 Adresse ein Konto erstellt, das dem System Program gehört.
 
-Im folgenden Beispiel wird ein neues keypair generiert und mit SOL finanziert.
+Im folgenden Beispiel wird ein neues keypair generiert und mit NSO finanziert.
 Nach der Ausführung des Codes sehen Sie, dass die Adresse des `owner` des Kontos
 `11111111111111111111111111111111` ist (das
 [System Program](/docs/core/programs#the-system-program)).

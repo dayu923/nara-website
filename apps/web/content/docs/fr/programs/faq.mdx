@@ -1,19 +1,22 @@
 ---
+
 title: FAQ
+
 ---
+
 
 Postez vos questions sur
 [StackExchange](https://solana.stackexchange.com/questions/ask).
 
 ## Berkeley Packet Filter (BPF)
 
-Les programmes on-chain de Solana sont compilés via
+Les programmes on-chain de Nara Solana sont compilés via
 [l'infrastructure du compilateur LLVM](https://llvm.org/) vers un
 [format exécutable et linkable (ELF)](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)
 contenant une variante du bytecode
 [Berkeley Packet Filter (BPF)](https://en.wikipedia.org/wiki/Berkeley_Packet_Filter).
 
-Comme Solana utilise l'infrastructure du compilateur LLVM, un programme peut
+Comme Nara Solana utilise l'infrastructure du compilateur LLVM, un programme peut
 être écrit dans n'importe quel langage de programmation capable de cibler le
 backend BPF de LLVM.
 
@@ -24,7 +27,7 @@ instructions natives compilées à la volée de manière efficace.
 
 ## Carte mémoire
 
-La carte mémoire d'adresses virtuelles utilisée par les programmes SBF de Solana
+La carte mémoire d'adresses virtuelles utilisée par les programmes SBF de Nara Solana
 est fixe et organisée comme suit
 
 - Le code du programme commence à 0x100000000

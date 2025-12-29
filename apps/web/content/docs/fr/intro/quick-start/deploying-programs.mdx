@@ -1,16 +1,19 @@
 ---
+
 title: Déployer un programme
 description:
   Apprenez à construire, déployer et tester votre premier programme Solana en
   utilisant le framework Anchor et Solana Playground. Ce guide pour débutants
   vous accompagne dans la création d'un programme simple, son déploiement sur
   devnet, l'exécution de tests et la fermeture du programme.
-h1: Déployez votre premier programme Solana
+h1: Déployez votre premier programme Nara Solana
+
 ---
 
+
 Construisez, déployez et testez votre premier [programme](/docs/core/programs)
-sur la blockchain Solana en utilisant le framework Anchor. Ce guide vous aidera
-à vous familiariser avec Solana Playground et vous préparera à utiliser les
+sur la blockchain Nara Solana en utilisant le framework Anchor. Ce guide vous aidera
+à vous familiariser avec Nara Solana Playground et vous préparera à utiliser les
 Program Derived Addresses (PDA) et le Cross Program Invocation (CPI).
 
 <Steps>
@@ -19,7 +22,7 @@ Program Derived Addresses (PDA) et le Cross Program Invocation (CPI).
 
 ### Créer un projet Anchor
 
-1. Ouvrez [Solana Playground](https://beta.solpg.io) dans votre navigateur web
+1. Ouvrez [Nara Solana Playground](https://beta.solpg.io) dans votre navigateur web
 2. Dans le panneau de gauche, cliquez sur **+ Créer un nouveau projet**
 3. Saisissez un **Nom de projet**
 4. Sélectionnez **Anchor (Rust)** comme framework
@@ -149,7 +152,7 @@ Le nombre d'octets à allouer pour le compte
 <WithMentions>
 
 - La macro [`declare_id!`](mention:one) spécifie l'adresse on-chain de votre
-  programme. Solana Playground mettra automatiquement à jour cette adresse
+  programme. Nara Solana Playground mettra automatiquement à jour cette adresse
   lorsque vous compilerez le programme.
 
 ```rs
@@ -254,11 +257,11 @@ Build successful. Completed in 1.46s.
   défini dans _rs`declare_id!()`_, sera maintenant mis à jour.
 </Callout>
 
-2. Ajouter du SOL à votre portefeuille _(Facultatif)_
+2. Ajouter du NSO à votre portefeuille _(Facultatif)_
 
-Le déploiement d'un programme nécessite du SOL dans le compte on-chain du
+Le déploiement d'un programme nécessite du NSO dans le compte on-chain du
 programme. Si nécessaire,
-[ajoutez du SOL à votre portefeuille](/docs/intro/quick-start#add-sol-to-your-wallet)
+[ajoutez du NSO à votre portefeuille](/docs/intro/quick-start#add-sol-to-your-wallet)
 avant de passer à l'étape 3.
 
 3. Déployer le programme sur le réseau
@@ -401,12 +404,12 @@ Confirmed
 4. Consultez les détails de la transaction
 
 Ouvrez soit [SolanaFM](https://solana.fm/) soit
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) et recherchez le
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) et recherchez le
 hash de transaction.
 
 <Callout type="warn">
-  **Solana Explorer :** Définissez le cluster réseau sur `devnet`, pour
-  correspondre à celui du Solana Playground.
+  **Nara Solana Explorer :** Définissez le cluster réseau sur `devnet`, pour
+  correspondre à celui du Nara Solana Playground.
 </Callout>
 
 </Step>
@@ -415,7 +418,7 @@ hash de transaction.
 
 ### Fermer le programme
 
-Fermez le programme pour récupérer le SOL alloué au programme on-chain. Pour ce
+Fermez le programme pour récupérer le NSO alloué au programme on-chain. Pour ce
 faire, exécutez `solana program close [ProgramID]`, en utilisant l'adresse du
 programme stockée dans la macro _rs`declare_id!()`_.
 
@@ -432,7 +435,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   immuable.
 </Callout>
 
-Félicitations ! Vous avez créé et déployé votre premier programme Solana en
+Félicitations ! Vous avez créé et déployé votre premier programme Nara Solana en
 utilisant Anchor.
 
 </Step>

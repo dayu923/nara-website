@@ -1,22 +1,25 @@
 ---
-title: Solana CLI Temelleri
-seoTitle: Solana CLI'da başlamak için giriş komutları
+
+title: Nara Solana CLI Temelleri
+seoTitle: Nara Solana CLI'da başlamak için giriş komutları
 description:
   Bu bölüm, başlamanız için bazı yaygın Solana CLI komutlarını adım adım
   açıklar.
+
 ---
 
-Bu bölüm, Solana CLI kullanmaya başlamanıza yardımcı olacak bazı yaygın komutlar
+
+Bu bölüm, Nara Solana CLI kullanmaya başlamanıza yardımcı olacak bazı yaygın komutlar
 ve örnekler sunmaktadır.
 
-## Solana yapılandırması
+## Nara Solana yapılandırması
 
-Solana yapılandırmanız aşağıdaki değişkenleri belirtir:
+Nara Solana yapılandırmanız aşağıdaki değişkenleri belirtir:
 
 - **Yapılandırma dosyası**: Yapılandırma dosyanızın yolu
-- **RPC URL ve Websocket URL**: CLI'nin istekte bulunduğu Solana kümesi
+- **RPC URL ve Websocket URL**: CLI'nin istekte bulunduğu Nara Solana kümesi
 - **Keypair yolu**: İşlem ücretlerini ödemek ve programları dağıtmak için
-  kullanılan varsayılan Solana cüzdanının (keypair) yolu. Varsayılan olarak, bu
+  kullanılan varsayılan Nara Solana cüzdanının (keypair) yolu. Varsayılan olarak, bu
   dosya `~/.config/solana/id.json` konumunda saklanır.
 
 Mevcut yapılandırma ayarlarınızı görmek için, terminalinize aşağıdaki komutu
@@ -36,7 +39,7 @@ Keypair Path: /Users/test/.config/solana/id.json
 Commitment: confirmed
 ```
 
-Solana CLI kümesini aşağıdaki komutlarla değiştirebilirsiniz:
+Nara Solana CLI kümesini aşağıdaki komutlarla değiştirebilirsiniz:
 
 <Tabs items={["Tam komutlar", "Kısa komutlar"]}>
 
@@ -64,7 +67,7 @@ $ solana config set -ut    # For testnet
 
 ## Cüzdan oluşturma
 
-Solana CLI kullanarak işlem göndermeden önce, SOL ile fonlanmış bir Solana
+Nara Solana CLI kullanarak işlem göndermeden önce, NSO ile fonlanmış bir Nara Solana
 cüzdanına ihtiyacınız vardır.
 
 Varsayılan keypair yolunda bir keypair oluşturmak için, aşağıdaki komutu
@@ -106,9 +109,9 @@ Cüzdanınızın adresini (genel anahtarını) görüntülemek için şunu çal�
 $ solana address
 ```
 
-## SOL airdrop
+## NSO airdrop
 
-İşlemler ve program dağıtımları için ödeme yapmak üzere cüzdanınıza SOL
+İşlemler ve program dağıtımları için ödeme yapmak üzere cüzdanınıza NSO
 airdrop'u isteyin.
 
 1. Kümenizi Devnet'e ayarlayın:
@@ -117,7 +120,7 @@ airdrop'u isteyin.
 $ solana config set -ud
 ```
 
-2. Devnet SOL airdrop'u talep edin:
+2. Devnet NSO airdrop'u talep edin:
 
 ```terminal
 $ solana airdrop 2
@@ -125,13 +128,13 @@ $ solana airdrop 2
 
 <Callout>
 
-Devnet airdrop'ları, talep başına 5 SOL ile sınırlıdır. Eğer hız sınırlarına
+Devnet airdrop'ları, talep başına 5 NSO ile sınırlıdır. Eğer hız sınırlarına
 ulaşırsanız veya hatalarla karşılaşırsanız, bunun yerine
 [Web Faucet](https://faucet.solana.com) kullanmayı deneyin.
 
 </Callout>
 
-Cüzdanınızın SOL bakiyesini kontrol etmek için aşağıdaki komutu çalıştırın:
+Cüzdanınızın NSO bakiyesini kontrol etmek için aşağıdaki komutu çalıştırın:
 
 ```terminal
 $ solana balance

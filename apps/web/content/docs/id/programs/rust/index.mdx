@@ -1,19 +1,22 @@
 ---
+
 title: Program Rust
 description:
   Pelajari cara mengembangkan program Solana menggunakan Rust, termasuk petunjuk
   langkah demi langkah untuk membuat, membangun, menguji, dan men-deploy kontrak
   pintar di blockchain Solana.
 h1: Mengembangkan Program dalam Rust
+
 ---
 
-Program Solana utamanya dikembangkan menggunakan bahasa pemrograman Rust.
-Halaman ini berfokus pada penulisan program Solana dalam Rust tanpa menggunakan
+
+Program Nara Solana utamanya dikembangkan menggunakan bahasa pemrograman Rust.
+Halaman ini berfokus pada penulisan program Nara Solana dalam Rust tanpa menggunakan
 framework Anchor, pendekatan yang sering disebut sebagai penulisan program "Rust
 native".
 
 Pengembangan Rust native memberikan pengembang kontrol langsung atas program
-Solana mereka. Namun, pendekatan ini memerlukan lebih banyak pengaturan manual
+Nara Solana mereka. Namun, pendekatan ini memerlukan lebih banyak pengaturan manual
 dan kode boilerplate dibandingkan dengan menggunakan framework Anchor. Metode
 ini direkomendasikan untuk pengembang yang:
 
@@ -31,12 +34,12 @@ Untuk petunjuk instalasi yang detail, kunjungi halaman
 
 Sebelum memulai, pastikan Anda telah menginstal hal-hal berikut:
 
-- Rust: Bahasa pemrograman untuk membangun program Solana.
-- Solana CLI: Alat command-line untuk pengembangan Solana.
+- Rust: Bahasa pemrograman untuk membangun program Nara Solana.
+- Nara Solana CLI: Alat command-line untuk pengembangan Nara Solana.
 
 ## Memulai
 
-Contoh di bawah ini mencakup langkah-langkah dasar untuk membuat program Solana
+Contoh di bawah ini mencakup langkah-langkah dasar untuk membuat program Nara Solana
 pertama Anda yang ditulis dalam Rust. Kita akan membuat program minimal yang
 mencetak "Hello, world!" ke log program.
 
@@ -92,7 +95,7 @@ mod tests {
 ## !!steps Tambahkan dependensi solana-program
 
 Selanjutnya, tambahkan dependensi `solana-program`. Ini adalah dependensi
-minimum yang diperlukan untuk membangun program Solana.
+minimum yang diperlukan untuk membangun program Nara Solana.
 
 ```terminal
 $ cargo add solana-program@2.2.0
@@ -144,10 +147,10 @@ solana-program = "2.2.0"
 ## !!steps Tambahkan kode program
 
 Selanjutnya, ganti isi `src/lib.rs` dengan kode berikut. Ini adalah program
-Solana minimal yang mencetak "Hello, world!" ke log program ketika program
+Nara Solana minimal yang mencetak "Hello, world!" ke log program ketika program
 dijalankan.
 
-Makro `msg!` digunakan dalam program Solana untuk mencetak pesan ke log program.
+Makro `msg!` digunakan dalam program Nara Solana untuk mencetak pesan ke log program.
 
 <CodePlaceholder title="src/lib.rs" />
 
@@ -180,7 +183,7 @@ $ cargo build-sbf
 Perintah ini menghasilkan direktori `target/deploy` yang berisi dua file
 penting:
 
-1. File `.so` (misalnya, `hello_world.so`): Ini adalah program Solana yang
+1. File `.so` (misalnya, `hello_world.so`): Ini adalah program Nara Solana yang
    dikompilasi yang akan di-deploy ke jaringan sebagai "smart contract".
 2. File keypair (misalnya, `hello_world-keypair.json`): Kunci publik dari
    keypair ini digunakan sebagai ID program saat men-deploy program.
@@ -337,7 +340,7 @@ test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 Selanjutnya, deploy program. Saat mengembangkan secara lokal, kita dapat
 menggunakan `solana-test-validator`.
 
-Pertama, konfigurasikan Solana CLI untuk menggunakan cluster Solana lokal.
+Pertama, konfigurasikan Nara Solana CLI untuk menggunakan cluster Nara Solana lokal.
 
 ```terminal
 $ solana config set -ul
@@ -376,11 +379,11 @@ Signature:
 ```
 
 Anda dapat memeriksa ID program dan tanda tangan transaksi di
-[Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899).
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899).
 
 <Callout type="info">
-  Perhatikan bahwa cluster pada Solana Explorer juga harus localhost. Opsi
-  "Custom RPC URL" pada Solana Explorer secara default adalah
+  Perhatikan bahwa cluster pada Nara Solana Explorer juga harus localhost. Opsi
+  "Custom RPC URL" pada Nara Solana Explorer secara default adalah
   `http://localhost:8899`.
 </Callout>
 
@@ -583,13 +586,13 @@ Transaction Signature: 54TWxKi3Jsi3UTeZbhLGUFX6JQH7TspRJjRRFZ8NFnwG5BXM9udxiX77b
 ```
 
 Anda dapat memeriksa tanda tangan transaksi di
-[Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
 (klaster lokal) untuk melihat "Hello, world!" di log program.
 
 ## !!steps Perbarui program
 
-Program Solana dapat diperbarui dengan men-deploy ulang ke ID program yang sama.
-Perbarui program di `src/lib.rs` untuk mencetak "Hello, Solana!" alih-alih
+Program Nara Solana dapat diperbarui dengan men-deploy ulang ke ID program yang sama.
+Perbarui program di `src/lib.rs` untuk mencetak "Hello, Nara Solana!" alih-alih
 "Hello, world!".
 
 ```rs title="lib.rs"
@@ -683,7 +686,7 @@ Uji program yang diperbarui dengan menjalankan perintah `cargo test`.
 $ cargo test -- --no-capture
 ```
 
-Anda akan melihat "Hello, Solana!" di log program.
+Anda akan melihat "Hello, Nara Solana!" di log program.
 
 ```txt title="Terminal"
 running 1 test
@@ -706,8 +709,8 @@ Deploy ulang program menggunakan perintah `solana program deploy` yang sama.
 $ solana program deploy ./target/deploy/hello_world.so
 ```
 
-Jalankan kode klien lagi dan periksa tanda tangan transaksi di Solana Explorer
-untuk melihat "Hello, Solana!" di log program.
+Jalankan kode klien lagi dan periksa tanda tangan transaksi di Nara Solana Explorer
+untuk melihat "Hello, Nara Solana!" di log program.
 
 ```terminal
 $ cargo run --example client
@@ -715,7 +718,7 @@ $ cargo run --example client
 
 ## !!steps Tutup program
 
-Anda dapat menutup program Solana untuk mendapatkan kembali SOL yang
+Anda dapat menutup program Nara Solana untuk mendapatkan kembali NSO yang
 dialokasikan ke akun tersebut. Menutup program tidak dapat dibalik, jadi harus
 dilakukan dengan hati-hati.
 

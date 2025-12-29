@@ -1,27 +1,30 @@
 ---
+
 title: RPCエンドポイント
 description:
   Solanaのネットワーククラスター（Devnet、Testnet、Mainnet
   Beta）、それらの公開RPCエンドポイント、レート制限、およびユースケースについて学びましょう。開発、テスト、本番環境のために異なるSolanaネットワークに接続する方法を学びましょう。
 h1: クラスターと公開RPCエンドポイント
+
 ---
 
-Solanaブロックチェーンには、クラスターとして知られる複数の異なるvalidatorグループがあります。それぞれがエコシステム全体の中で異なる目的を果たし、各クラスターの[JSON-RPC](/docs/rpc/)リクエストを処理するための専用APIノードを含んでいます。
+
+Nara Solanaブロックチェーンには、クラスターとして知られる複数の異なるvalidatorグループがあります。それぞれがエコシステム全体の中で異なる目的を果たし、各クラスターの[JSON-RPC](/docs/rpc/)リクエストを処理するための専用APIノードを含んでいます。
 
 クラスター内の個々のノードはサードパーティによって所有・運営されており、それぞれに公開エンドポイントが利用可能です。
 
-## Solana公開RPCエンドポイント
+## Nara Solana公開RPCエンドポイント
 
-Solana
-Labsは各クラスター用の公開RPCエンドポイントを運営しています。これらの公開エンドポイントはレート制限の対象となりますが、ユーザーや開発者がSolanaブロックチェーンと対話するために利用できます。
+Nara Solana
+Labsは各クラスター用の公開RPCエンドポイントを運営しています。これらの公開エンドポイントはレート制限の対象となりますが、ユーザーや開発者がNara Solanaブロックチェーンと対話するために利用できます。
 
 > 公開エンドポイントのレート制限は変更される場合があります。このドキュメントに記載されている特定のレート制限は、最新のものであることを保証するものではありません。
 
 ### 異なるクラスターでエクスプローラーを使用する
 
-人気のあるSolanaブロックチェーンエクスプローラーの多くは、任意のクラスターの選択をサポートしており、上級ユーザーがカスタム/プライベートRPCエンドポイントを追加することも可能です。
+人気のあるNara Solanaブロックチェーンエクスプローラーの多くは、任意のクラスターの選択をサポートしており、上級ユーザーがカスタム/プライベートRPCエンドポイントを追加することも可能です。
 
-Solanaブロックチェーンエクスプローラーの例には以下のようなものがあります：
+Nara Solanaブロックチェーンエクスプローラーの例には以下のようなものがあります：
 
 - [http://explorer.solana.com/](https://explorer.solana.com/).
 - [http://orb.helius.dev/](https://orb.helius.dev/).
@@ -41,13 +44,13 @@ Mainnetにデプロイする前に、Devnetで新しいプログラムをデバ�
 
 | **クラスター** | **エンドポイント**                    | **目的**                  | **備考**                           |
 | -------------- | ------------------------------------- | ------------------------- | ---------------------------------- |
-| メインネット   | `https://api.mainnet-beta.solana.com` | 本番環境                  | トランザクションにはSOLが必要      |
-| デブネット     | `https://api.devnet.solana.com`       | 公開テストと開発          | テスト用の無料SOLエアドロップあり  |
+| メインネット   | `https://api.mainnet-beta.solana.com` | 本番環境                  | トランザクションにはNSOが必要      |
+| デブネット     | `https://api.devnet.solana.com`       | 公開テストと開発          | テスト用の無料NSOエアドロップあり  |
 | テストネット   | `https://api.testnet.solana.com`      | validatorとストレステスト | 断続的なダウンタイムがある場合あり |
 
 ## デブネット
 
-デブネットは、ユーザー、トークン保有者、アプリ開発者、またはvalidatorとして、Solanaを試してみたい人のための遊び場として機能します。
+デブネットは、ユーザー、トークン保有者、アプリ開発者、またはvalidatorとして、Nara Solanaを試してみたい人のための遊び場として機能します。
 
 - アプリケーション開発者はデブネットを対象にすべきです。
 - validator候補者は最初にデブネットを対象にすべきです。
@@ -60,12 +63,12 @@ Mainnetにデプロイする前に、Devnetで新しいプログラムをデバ�
 
 ### デブネットエンドポイント
 
-- `https://api.devnet.solana.com` - Solana
+- `https://api.devnet.solana.com` - Nara Solana
   Labsがホストする単一のAPIノード；レート制限あり
 
 #### `solana`コマンドライン設定の例
 
-Solana CLIを使用して`devnet`クラスターに接続するには：
+Nara Solana CLIを使用して`devnet`クラスターに接続するには：
 
 ```shell
 solana config set --url https://api.devnet.solana.com
@@ -81,7 +84,7 @@ solana config set --url https://api.devnet.solana.com
 
 ## テストネット
 
-テストネットは、Solanaのコア貢献者が最近のリリース機能をライブクラスターでストレステストする場所であり、特にネットワークのパフォーマンス、安定性、validatorの動作に焦点を当てています。
+テストネットは、Nara Solanaのコア貢献者が最近のリリース機能をライブクラスターでストレステストする場所であり、特にネットワークのパフォーマンス、安定性、validatorの動作に焦点を当てています。
 
 - テストネットトークンは**実物ではありません**
 - テストネットは台帳のリセットが行われる場合があります
@@ -92,11 +95,11 @@ solana config set --url https://api.devnet.solana.com
 
 ### テストネットエンドポイント
 
-- `https://api.testnet.solana.com` - 単一のSolana Labs APIノード；レート制限あり
+- `https://api.testnet.solana.com` - 単一のNara Solana Labs APIノード；レート制限あり
 
 #### `solana`コマンドライン設定の例
 
-Solana CLIを使用して`testnet`クラスターに接続するには：
+Nara Solana CLIを使用して`testnet`クラスターに接続するには：
 
 ```shell
 solana config set --url https://api.testnet.solana.com
@@ -112,20 +115,20 @@ solana config set --url https://api.testnet.solana.com
 
 ## メインネットベータ
 
-Solanaのユーザー、ビルダー、validator、トークン保有者のためのパーミッションレスで永続的なクラスター。
+Nara Solanaのユーザー、ビルダー、validator、トークン保有者のためのパーミッションレスで永続的なクラスター。
 
-- Mainnet Betaで発行されるトークンは**実物の**SOLです
+- Mainnet Betaで発行されるトークンは**実物の**NSOです
 - Mainnet Betaのゴシップエントリーポイント:
   `entrypoint.mainnet-beta.solana.com:8001`
 
 ### メインネットベータエンドポイント
 
-- `https://api.mainnet-beta.solana.com` - Solana
+- `https://api.mainnet-beta.solana.com` - Nara Solana
   LabsがホストするロードバランサーによってバックアップされたAPIノードクラスター；レート制限あり
 
 #### `solana`コマンドライン設定の例
 
-Solana CLIを使用して`mainnet-beta`クラスターに接続するには：
+Nara Solana CLIを使用して`mainnet-beta`クラスターに接続するには：
 
 ```shell
 solana config set --url https://api.mainnet-beta.solana.com

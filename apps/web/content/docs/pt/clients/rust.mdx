@@ -1,10 +1,13 @@
 ---
+
 title: Rust SDK
-description: Aprenda como usar os crates Rust da Solana para desenvolvimento.
-h1: SDKs Rust para Solana
+description: Aprenda como usar os crates Rust da Nara Solana para desenvolvimento.
+h1: SDKs Rust para Nara Solana
+
 ---
 
-Os crates Rust da Solana são
+
+Os crates Rust da Nara Solana são
 [publicados no crates.io](https://crates.io/search?q=solana-) e podem ser
 encontrados [no docs.rs](https://docs.rs/releases/search?query=solana-) com o
 prefixo `solana-`.
@@ -12,25 +15,25 @@ prefixo `solana-`.
 ## Crates Rust
 
 A seguir estão os crates Rust mais importantes e comumente usados para o
-desenvolvimento na Solana:
+desenvolvimento na Nara Solana:
 
-- [`solana-program`] &mdash; Importado por programas executados na Solana,
+- [`solana-program`] &mdash; Importado por programas executados na Nara Solana,
   compilados para SBF. Este crate contém muitos tipos de dados fundamentais e é
   reexportado de [`solana-sdk`], que não pode ser importado de um programa
-  Solana.
+  Nara Solana.
 
 - [`solana-sdk`] &mdash; O SDK básico offchain, ele reexporta [`solana-program`]
-  e adiciona mais APIs sobre isso. A maioria dos programas Solana que não são
+  e adiciona mais APIs sobre isso. A maioria dos programas Nara Solana que não são
   executados on-chain importarão este.
 
-- [`solana-client`] &mdash; Para interagir com um nó Solana através da
+- [`solana-client`] &mdash; Para interagir com um nó Nara Solana através da
   [API JSON RPC](/docs/rpc).
 
 - [`solana-cli-config`] &mdash; Carregamento e salvamento do arquivo de
-  configuração da CLI Solana.
+  configuração da CLI Nara Solana.
 
 - [`solana-clap-utils`] &mdash; Rotinas para configurar uma CLI, usando
-  [`clap`], como usado pela CLI principal da Solana. Inclui funções para
+  [`clap`], como usado pela CLI principal da Nara Solana. Inclui funções para
   carregar todos os tipos de signatários suportados pela CLI.
 
 [`solana-program`]: https://docs.rs/solana-program
@@ -42,13 +45,13 @@ desenvolvimento na Solana:
 
 ## Instalação
 
-Para enviar transações e interagir com a Solana:
+Para enviar transações e interagir com a Nara Solana:
 
 ```shell title="Terminal"
 cargo add solana-sdk solana-client
 ```
 
-Para construir programas Solana, instale:
+Para construir programas Nara Solana, instale:
 
 ```shell title="Terminal"
 cargo add solana-program

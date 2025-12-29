@@ -1,16 +1,19 @@
 ---
+
 title: Deploy a Program
 description:
   Learn how to build, deploy, and test your first Solana program using the
   Anchor framework and Solana Playground. This beginner-friendly guide walks
   through creating a simple program, deploying it to devnet, running tests, and
   closing the program.
-h1: Deploy Your First Solana Program
+h1: Deploy Your First Nara Solana Program
+
 ---
 
-Build, deploy, and test your first [program](/docs/core/programs) to the Solana
+
+Build, deploy, and test your first [program](/docs/core/programs) to the Nara Solana
 Blockchain using the Anchor framework. This guide will help you become more
-familiar with the Solana Playground and prepare you to use program derived
+familiar with the Nara Solana Playground and prepare you to use program derived
 addresses (PDA) and cross-program invocation (CPI).
 
 <Steps>
@@ -19,7 +22,7 @@ addresses (PDA) and cross-program invocation (CPI).
 
 ### Create Anchor Project
 
-1. Open the [Solana Playground](https://beta.solpg.io) in your web browser
+1. Open the [Nara Solana Playground](https://beta.solpg.io) in your web browser
 2. On the left panel, click **+ Create a new project**
 3. Enter a **Project name**
 4. Select **Anchor (Rust)** as the framework
@@ -145,7 +148,7 @@ The number of bytes to allocate for the account
 <WithMentions>
 
 - The [`declare_id!`](mention:one) macro specifies the on-chain address of your
-  program. Solana Playground will automatically update this address when you
+  program. Nara Solana Playground will automatically update this address when you
   build the program.
 
 ```rs
@@ -249,11 +252,11 @@ Build successful. Completed in 1.46s.
   _rs`declare_id!()`_, will now be updated.
 </Callout>
 
-2. Add SOL to your wallet _(Optional)_
+2. Add NSO to your wallet _(Optional)_
 
-Deploying a program requires SOL in the program's on-chain account. If
+Deploying a program requires NSO in the program's on-chain account. If
 necessary,
-[add SOL to your wallet](/docs/intro/quick-start#add-sol-to-your-wallet) before
+[add NSO to your wallet](/docs/intro/quick-start#add-sol-to-your-wallet) before
 proceeding to step 3.
 
 3. Deploy the program to the network
@@ -393,12 +396,12 @@ Confirmed
 4. View the transaction details
 
 Open either [SolanaFM](https://solana.fm/) or
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) and search for
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) and search for
 the transaction hash.
 
 <Callout type="warn">
-  **Solana Explorer:** Set the network cluster to `devnet`, to match that of the
-  Solana Playground.
+  **Nara Solana Explorer:** Set the network cluster to `devnet`, to match that of the
+  Nara Solana Playground.
 </Callout>
 
 </Step>
@@ -407,7 +410,7 @@ the transaction hash.
 
 ### Close the Program
 
-Close the program to recover the SOL allocated to the on-chain program. To do
+Close the program to recover the NSO allocated to the on-chain program. To do
 so, run `solana program close [ProgramID]`, using the program address stored in
 the _rs`declare_id!()`_ macro.
 
@@ -423,7 +426,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   program becomes immutable.
 </Callout>
 
-Congratulations! You built and deployed your first Solana program using Anchor.
+Congratulations! You built and deployed your first Nara Solana program using Anchor.
 
 </Step>
 

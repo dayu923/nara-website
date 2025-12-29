@@ -1,4 +1,5 @@
 ---
+
 title: Deterministik Hesaplar Oluşturma
 description:
   Program Derived Address (PDA) ve Anchor framework kullanarak bir CRUD
@@ -9,7 +10,9 @@ description:
   Solana programlarında PDA'ları nasıl kullanacağını anlamak isteyen
   geliştiriciler için mükemmeldir.
 h1: Program Derived Address
+
 ---
+
 
 Bu bölümde, temel bir Oluştur, Oku, Güncelle, Sil (CRUD) programı oluşturmayı
 öğreneceksiniz.
@@ -19,7 +22,7 @@ silebileceği basit bir programı göstermektedir. Her mesaj, programın kendisi
 türetilen deterministik bir adrese sahip bir hesapta (Program Derived Address
 veya PDA) bulunur.
 
-Bu rehber, Anchor framework kullanarak bir Solana programı oluşturma ve test
+Bu rehber, Anchor framework kullanarak bir Nara Solana programı oluşturma ve test
 etme sürecini, Program Derived Address (PDA) kavramını göstererek anlatmaktadır.
 Daha fazla ayrıntı için [Program Derived Addresses](/docs/core/pda) sayfasına
 bakın.
@@ -34,8 +37,8 @@ görüntüleyebilirsiniz.
 ### Başlangıç Kodu
 
 Başlangıç koduyla birlikte bu
-[Solana Playground bağlantısını](https://beta.solpg.io/66734b7bcffcf4b13384d1ad)
-açarak başlayın. Ardından programı Solana Playground projelerinize eklemek için
+[Nara Solana Playground bağlantısını](https://beta.solpg.io/66734b7bcffcf4b13384d1ad)
+açarak başlayın. Ardından programı Nara Solana Playground projelerinize eklemek için
 "Import" düğmesine tıklayın.
 
 ![İçe Aktar](/assets/docs/intro/quickstart/pg-import.png)
@@ -812,11 +815,11 @@ Artık temel CRUD programını tamamladınız. Playground terminalinde `deploy`
 komutunu çalıştırarak programı dağıtın.
 
 <Callout type="info">
-Bu örnekte, programı geliştirme testi için bir Solana kümesi olan devnet'e dağıtacaksınız.
+Bu örnekte, programı geliştirme testi için bir Nara Solana kümesi olan devnet'e dağıtacaksınız.
 
 Playground cüzdanı varsayılan olarak devnet'e bağlanır. Program dağıtımı için
-ödeme yapmak üzere Playground cüzdanınızda devnet SOL olduğundan emin olun.
-[Solana Faucet](https://faucet.solana.com/) adresinden devnet SOL alabilirsiniz.
+ödeme yapmak üzere Playground cüzdanınızda devnet NSO olduğundan emin olun.
+[Nara Solana Faucet](https://faucet.solana.com/) adresinden devnet NSO alabilirsiniz.
 
 </Callout>
 
@@ -888,7 +891,7 @@ Bu bölümde, bu kod basitçe test dosyasını ayarlar.
 
 <WithMentions>
 
-Solana Playground, bazı hazır kurulum işlemlerini kaldırır; burada
+Nara Solana Playground, bazı hazır kurulum işlemlerini kaldırır; burada
 [`pg.program`](mention:one) programla etkileşim için yöntemlere erişim
 sağlarken, [`pg.wallet`](mention:two) playground cüzdanınıza erişim sağlar.
 
@@ -1139,7 +1142,7 @@ _ts`fetch()`_ metodu hesap verilerini ağdan alır.
 <Accordion title="Explanation">
 
 İlk olarak, test dosyası `update` talimatını çağıran bir işlem gönderiyor ve
-yeni mesaj olarak "Hello, Solana!" iletiyor.
+yeni mesaj olarak "Hello, Nara Solana!" iletiyor.
 
 ```ts title="anchor.test.ts"
 const message = "Hello, Solana!";

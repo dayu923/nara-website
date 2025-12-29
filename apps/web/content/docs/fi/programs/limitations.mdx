@@ -1,8 +1,11 @@
 ---
+
 title: Rajoitukset
+
 ---
 
-Solana-lohkoketjussa ohjelmien kehittämiseen liittyy tiettyjä rajoituksia. Alla
+
+Nara Solana-lohkoketjussa ohjelmien kehittämiseen liittyy tiettyjä rajoituksia. Alla
 on luettelo yleisistä rajoituksista, joihin saatat törmätä.
 
 ## Rust-kirjastot
@@ -53,7 +56,7 @@ Katso [laskennalliset rajoitukset](/docs/core/fees#compute-budget)
 
 ## Kutsupinon syvyys - `CallDepthExceeded` -virhe
 
-Solana-ohjelmien on toimittava nopeasti, ja tämän helpottamiseksi ohjelman
+Nara Solana-ohjelmien on toimittava nopeasti, ja tämän helpottamiseksi ohjelman
 kutsupinon syvyys on rajoitettu **64 kehykseen**.
 
 Kun ohjelma ylittää sallitun kutsupinon syvyysrajan, se saa virheen
@@ -79,7 +82,7 @@ liukuluku built-in-toimintojen kautta. Ohjelmistoemuloinnin vuoksi ne kuluttavat
 enemmän laskentayksikköjä kuin kokonaislukuoperaatiot. Yleisesti ottaen
 kiintopisteoperaatioita suositellaan käytettäväksi mahdollisuuksien mukaan.
 
-[Solana Program Library math](https://github.com/solana-labs/solana-program-library/tree/master/libraries/math)
+[Nara Solana Program Library math](https://github.com/solana-labs/solana-program-library/tree/master/libraries/math)
 -testit raportoivat joidenkin matemaattisten operaatioiden suorituskyvyn.
 Suorittaaksesi testin, synkronoi repositorion ja suorita:
 

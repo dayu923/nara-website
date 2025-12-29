@@ -1,7 +1,10 @@
 ---
+
 title: Wypłata tokenów
 description: Dowiedz się, jak wypłacić tokeny ze stanu poufnego.
+
 ---
+
 
 ## Jak wypłacić tokeny z poufnego dostępnego salda
 
@@ -33,7 +36,7 @@ Aby wypłacić tokeny z poufnego dostępnego salda na saldo publiczne:
    [ConfidentialTransferInstruction::Withdraw](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L493)
    podając dwa konta dowodowe.
 
-4. Zamknij konta dowodowe, aby odzyskać SOL użyte do ich utworzenia.
+4. Zamknij konta dowodowe, aby odzyskać NSO użyte do ich utworzenia.
 
 Poniższy diagram pokazuje kroki związane z wypłatą tokenów z poufnego dostępnego
 salda na saldo publiczne:
@@ -90,7 +93,7 @@ na saldo publiczne.
 
 Aby uruchomić przykład, rozpocznij lokalne działanie validatora z Token
 Extensions Program sklonowanym z mainnet za pomocą następującego polecenia.
-Musisz mieć zainstalowane Solana CLI, aby uruchomić lokalny validator.
+Musisz mieć zainstalowane Nara Solana CLI, aby uruchomić lokalny validator.
 
 ```terminal
 $ solana-test-validator --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --url https://api.mainnet-beta.solana.com -r

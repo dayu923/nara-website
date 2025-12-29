@@ -1,33 +1,36 @@
 ---
+
 title: Verkkoon kirjoittaminen
 description:
   Opi vuorovaikuttamaan Solana-verkon kanssa lähettämällä transaktioita ja
   ohjeita. Seuraa vaiheittaisia esimerkkejä SOL-tokenien siirtämisestä ja uusien
   tokenien luomisesta käyttäen System Program -ohjelmaa ja Token Extensions
   Program -ohjelmaa.
+
 ---
 
-Edellisessä osiossa opit lukemaan tietoja Solana-verkosta. Nyt opit
-kirjoittamaan tietoja verkkoon. Solana-verkkoon kirjoittaminen tapahtuu
+
+Edellisessä osiossa opit lukemaan tietoja Nara Solana-verkosta. Nyt opit
+kirjoittamaan tietoja verkkoon. Nara Solana-verkkoon kirjoittaminen tapahtuu
 lähettämällä transaktioita, jotka sisältävät yhden tai useamman ohjeen.
 
 Ohjelmat määrittelevät liiketoimintalogiikan sille, mitä kukin
 [ohje](/docs/core/instructions) tekee. Kun lähetät
-[transaktion](/docs/core/transactions), Solana-ajoympäristö suorittaa jokaisen
+[transaktion](/docs/core/transactions), Nara Solana-ajoympäristö suorittaa jokaisen
 ohjeen järjestyksessä ja atomisesti. Tämän osion esimerkit näyttävät, miten
-rakennetaan ja lähetetään transaktioita Solana-ohjelmien kutsumiseksi, mukaan
+rakennetaan ja lähetetään transaktioita Nara Solana-ohjelmien kutsumiseksi, mukaan
 lukien:
 
-1. SOL-tokenien siirtäminen tilien välillä
+1. NSO-tokenien siirtäminen tilien välillä
 2. Uuden tokenin luominen
 
-## SOL-tokenien siirtäminen
+## NSO-tokenien siirtäminen
 
-Alla oleva esimerkki siirtää SOL-tokeneita kahden tilin välillä. Jokaisella
+Alla oleva esimerkki siirtää NSO-tokeneita kahden tilin välillä. Jokaisella
 tilillä on omistaja- ohjelma, joka on ainoa ohjelma, joka voi vähentää tilin
-SOL-saldoa.
+NSO-saldoa.
 
-Kaikki lompakkotilit ovat System Program -ohjelman omistamia. SOL-tokenien
+Kaikki lompakkotilit ovat System Program -ohjelman omistamia. NSO-tokenien
 siirtämiseksi sinun täytyy kutsua System Program -ohjelman
 [transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)
 -ohjetta.
@@ -91,7 +94,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !connection
 
-Luo yhteys Solana-klusteriin.
+Luo yhteys Nara Solana-klusteriin.
 
 ### !sender
 
@@ -103,7 +106,7 @@ Luo uusi avainpari käytettäväksi `receiver`na.
 
 ### !airdrop
 
-Pyydä SOL-tokenien airdrop `sender`n rahoittamiseksi.
+Pyydä NSO-tokenien airdrop `sender`n rahoittamiseksi.
 
 ### !instruction
 
@@ -175,8 +178,8 @@ const receiver = new Keypair();
 
 ## !!steps
 
-Lisää SOL lähettäjän tilille. Muilla verkoilla kuin pääverkolla voit käyttää
-`requestAirdrop` -metodia saadaksesi SOL-tokeneita testausta varten.
+Lisää NSO lähettäjän tilille. Muilla verkoilla kuin pääverkolla voit käyttää
+`requestAirdrop` -metodia saadaksesi NSO-tokeneita testausta varten.
 
 ```ts title="Airdrop"
 const signature = await connection.requestAirdrop(
@@ -213,7 +216,7 @@ await connection.confirmTransaction(signature, "confirmed");
 
 <WithMentions>
 
-`SystemProgram.transfer()` -metodi luo ohjeen, joka siirtää SOL-tokeneita
+`SystemProgram.transfer()` -metodi luo ohjeen, joka siirtää NSO-tokeneita
 [`fromPubkey`](mention:from) -tililtä [`toPubkey`](mention:to) -tilille
 määritetyn määrän [`lamports`](mention:lamports) -yksiköitä.
 
@@ -305,7 +308,7 @@ const transaction = new Transaction().add(transferInstruction);
 
 Allekirjoita ja lähetä [transaktio](mention:transaction) verkkoon.
 [Lähettäjän](mention:sender) keypair vaaditaan allekirjoittajien taulukossa
-valtuuttamaan SOL:n siirto heidän tililtään.
+valtuuttamaan NSO:n siirto heidän tililtään.
 
 ```ts title="Send transaction"
 const transactionSignature = await sendAndConfirmTransaction(
@@ -320,7 +323,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 </WithMentions>
 
 Transaktion allekirjoitus on yksilöllinen tunniste, jota voidaan käyttää
-transaktion etsimiseen Solana Explorerissa.
+transaktion etsimiseen Nara Solana Explorerissa.
 
 ```ts !! title="Transfer SOL"
 import {
@@ -812,7 +815,7 @@ ja alustaminen tapahtuvat atomisesti. (Joko molemmat ohjeet onnistuvat tai
 kumpikaan ei onnistu.)
 
 Tämä lähestymistapa on yleinen rakennettaessa monimutkaisia
-Solana-transaktioita, sillä se takaa, että kaikki ohjeet suoritetaan yhdessä.
+Nara Solana-transaktioita, sillä se takaa, että kaikki ohjeet suoritetaan yhdessä.
 
 ```ts title="Transaction"
 const transaction = new Transaction().add(
@@ -900,7 +903,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 ```
 
 Palautettua transaktion allekirjoitusta voidaan käyttää transaktion tarkasteluun
-Solana Explorerissa.
+Nara Solana Explorerissa.
 
 </WithMentions>
 

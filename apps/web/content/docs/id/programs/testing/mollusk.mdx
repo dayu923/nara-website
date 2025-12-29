@@ -1,12 +1,15 @@
 ---
+
 title: Mollusk
 description:
   Panduan komprehensif untuk menguji program Solana menggunakan Mollusk
+
 ---
 
+
 [Mollusk](https://github.com/anza-xyz/mollusk/tree/main) adalah alat pengujian
-ringan untuk menguji program Solana. Mollusk menyediakan antarmuka sederhana
-untuk menguji instruksi program Solana dalam lingkungan Solana Virtual Machine
+ringan untuk menguji program Nara Solana. Mollusk menyediakan antarmuka sederhana
+untuk menguji instruksi program Nara Solana dalam lingkungan Nara Solana Virtual Machine
 (SVM) yang diminimalkan. Semua akun pengujian harus didefinisikan secara
 eksplisit, memastikan tes yang deterministik dan dapat diulang.
 
@@ -53,14 +56,14 @@ mollusk-svm-programs-token = "0.7"
 
 ## Mollusk SVM
 
-Contoh berikut menunjukkan pengaturan minimal untuk menguji program Solana dasar
+Contoh berikut menunjukkan pengaturan minimal untuk menguji program Nara Solana dasar
 menggunakan Mollusk.
 
 <ScrollyCoding>
 
 ## !!steps Program Hello World
 
-Contoh ini mendemonstrasikan cara menguji program Solana dasar menggunakan
+Contoh ini mendemonstrasikan cara menguji program Nara Solana dasar menggunakan
 Mollusk. Program ini hanya mencetak "Hello, world!" ke log program saat
 dipanggil.
 
@@ -71,7 +74,7 @@ Menjalankan `cargo build-sbf` menghasilkan program terkompilasi di
 
 <WithMentions>
 
-Untuk menguji program Solana dengan Mollusk:
+Untuk menguji program Nara Solana dengan Mollusk:
 
 1. [Buat instance `Mollusk`](mention:mollusk) - Inisialisasi Mollusk dengan
    program ID dan jalur ke program terkompilasi (file `.so`)
@@ -180,7 +183,7 @@ solana-sdk = "2.2.0"
 
 Struct
 [`Mollusk`](https://docs.rs/mollusk-svm/0.5.0/mollusk_svm/struct.Mollusk.html)
-menyediakan antarmuka sederhana untuk menguji program Solana. Semua bidang dapat
+menyediakan antarmuka sederhana untuk menguji program Nara Solana. Semua bidang dapat
 dimanipulasi melalui beberapa metode pembantu, tetapi pengguna juga dapat
 langsung mengakses dan memodifikasinya jika mereka menginginkan kontrol yang
 lebih besar.
@@ -250,7 +253,7 @@ pub fn process_instruction(
 ) -> InstructionResult
 ```
 
-Contoh berikut memproses instruksi transfer SOL tanpa pemeriksaan validasi.
+Contoh berikut memproses instruksi transfer NSO tanpa pemeriksaan validasi.
 
 <Callout type="info">
 
@@ -333,7 +336,7 @@ pub fn process_and_validate_instruction(
 ) -> InstructionResult
 ```
 
-Contoh berikut memproses instruksi transfer SOL dengan pemeriksaan validasi.
+Contoh berikut memproses instruksi transfer NSO dengan pemeriksaan validasi.
 
 <CodeTabs flags="r">
 
@@ -406,7 +409,7 @@ pub fn process_instruction_chain(
 ) -> InstructionResult
 ```
 
-Contoh berikut memproses dua instruksi transfer SOL tanpa pemeriksaan validasi.
+Contoh berikut memproses dua instruksi transfer NSO tanpa pemeriksaan validasi.
 
 <CodeTabs flags="r">
 
@@ -493,7 +496,7 @@ pub fn process_and_validate_instruction_chain(
 ) -> InstructionResult
 ```
 
-Contoh berikut memproses rangkaian dua instruksi transfer SOL dengan pemeriksaan
+Contoh berikut memproses rangkaian dua instruksi transfer NSO dengan pemeriksaan
 validasi setelah setiap instruksi.
 
 <CodeTabs flags="r">
@@ -690,7 +693,7 @@ account_store.insert(
 let context = mollusk.with_context(account_store);
 ```
 
-Contoh berikut memproses dua instruksi transfer SOL terpisah dengan status akun
+Contoh berikut memproses dua instruksi transfer NSO terpisah dengan status akun
 persisten antara instruksi melalui `account_store`.
 
 <CodeTabs flags="r">
@@ -835,7 +838,7 @@ Memerlukan
 sebagai dependensi.
 
 Contoh berikut melakukan benchmark penggunaan unit komputasi dari instruksi
-transfer SOL.
+transfer NSO.
 
 <CodeTabs>
 

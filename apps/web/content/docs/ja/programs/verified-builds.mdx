@@ -1,13 +1,16 @@
 ---
+
 title: プログラムの検証
 description: 検証済みビルドは、プログラムをそのソースコードにリンクし、提供されたソースコードからプログラムが確かに構築されたことを誰もが独自に検証できるようにする方法です。
+
 ---
 
-このガイドは、Solana上でプログラムの検証済みビルドを実装したい開発者向けのリファレンスです。検証済みビルドとは何か、その使用方法、特別な考慮事項、およびオンチェーンでのプログラムの信頼性を確保するためのベストプラクティスについて説明します。
+
+このガイドは、Nara Solana上でプログラムの検証済みビルドを実装したい開発者向けのリファレンスです。検証済みビルドとは何か、その使用方法、特別な考慮事項、およびオンチェーンでのプログラムの信頼性を確保するためのベストプラクティスについて説明します。
 
 # 検証済みビルドとは何ですか？
 
-検証済みビルドは、Solanaネットワークにデプロイする実行可能なプログラムが、リポジトリ内のソースコードと一致することを保証します。これにより、開発者とユーザーは、オンチェーンで実行されているプログラムが公開されているコードベースと完全に一致していることを確信でき、透明性とセキュリティを促進します。
+検証済みビルドは、Nara Solanaネットワークにデプロイする実行可能なプログラムが、リポジトリ内のソースコードと一致することを保証します。これにより、開発者とユーザーは、オンチェーンで実行されているプログラムが公開されているコードベースと完全に一致していることを確信でき、透明性とセキュリティを促進します。
 
 検証プロセスでは、オンチェーンプログラムのハッシュとソースコードからローカルでビルドされたプログラムのハッシュを比較します。これにより、2つのバージョン間に相違がないことが保証されます。
 
@@ -17,11 +20,11 @@ description: 検証済みビルドは、プログラムをそのソースコー�
 
 # どのように機能しますか？
 
-検証プロセスは、オンチェーンプログラムのハッシュとソースコードからローカルでビルドされたプログラムのハッシュを比較することで行われます。Solana
+検証プロセスは、オンチェーンプログラムのハッシュとソースコードからローカルでビルドされたプログラムのハッシュを比較することで行われます。Nara Solana
 Verify
-CLIとDockerを使用して、制御された環境でプログラムをビルドします。これにより、ビルドプロセスが決定論的になり、異なるシステム間で一貫性が保たれます。実行可能ファイルができたら、Solanaネットワークにデプロイできます。ビルドプロセス中に[verify program](https://github.com/otter-sec/otter-verify)の[PDA](https://explorer.solana.com/address/63XDCHrwZu3mXsw2RUFb4tbNpChuUHx4eA5aJMnHkpQQ/anchor-account)が作成されます。このPDAにはプログラムを検証するために必要なすべてのデータが含まれています。PDAにはプログラムアドレス、gitのURL、コミットハッシュ、およびプログラムをビルドするために使用された引数が含まれています。
+CLIとDockerを使用して、制御された環境でプログラムをビルドします。これにより、ビルドプロセスが決定論的になり、異なるシステム間で一貫性が保たれます。実行可能ファイルができたら、Nara Solanaネットワークにデプロイできます。ビルドプロセス中に[verify program](https://github.com/otter-sec/otter-verify)の[PDA](https://explorer.solana.com/address/63XDCHrwZu3mXsw2RUFb4tbNpChuUHx4eA5aJMnHkpQQ/anchor-account)が作成されます。このPDAにはプログラムを検証するために必要なすべてのデータが含まれています。PDAにはプログラムアドレス、gitのURL、コミットハッシュ、およびプログラムをビルドするために使用された引数が含まれています。
 
-PDAのデータを使用して、誰でもローカルで検証プログラムコマンドを実行し、プログラムが提供されたソースコードからビルドされたかどうかを確認できます。その後、完全に信頼性を確保しながら自分自身で検証したり、[OtterSec](https://github.com/otter-sec)が維持している独自の[verify API](https://github.com/otter-sec/solana-verified-programs-api)を実行して、ユーザーが検証を簡単に確認できるアクセスポイントを提供することができます。これらの[APIコール](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)は、[Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)や[SolanaFM](https://solana.fm/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/transactions?cluster=mainnet-alpha)など、さまざまな場所ですでに使用されています。
+PDAのデータを使用して、誰でもローカルで検証プログラムコマンドを実行し、プログラムが提供されたソースコードからビルドされたかどうかを確認できます。その後、完全に信頼性を確保しながら自分自身で検証したり、[OtterSec](https://github.com/otter-sec)が維持している独自の[verify API](https://github.com/otter-sec/solana-verified-programs-api)を実行して、ユーザーが検証を簡単に確認できるアクセスポイントを提供することができます。これらの[APIコール](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)は、[Nara Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)や[SolanaFM](https://solana.fm/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/transactions?cluster=mainnet-alpha)など、さまざまな場所ですでに使用されています。
 
 # 検証済みビルドを使用する理由
 
@@ -46,7 +49,7 @@ PDAのデータを使用して、誰でもローカルで検証プログラム�
 - 検証済みビルドをデプロイする
 - デプロイされたプログラムを公開APIに対して検証する
 
-Dockerコンテナ内で構築されていないプログラムを検証しようとすると、Solanaプログラムのビルドは異なるシステム間で決定論的ではないため、ほとんどの場合失敗します。
+Dockerコンテナ内で構築されていないプログラムを検証しようとすると、Nara Solanaプログラムのビルドは異なるシステム間で決定論的ではないため、ほとんどの場合失敗します。
 
 <Steps>
 <Step>
@@ -65,9 +68,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 </Step>
 <Step>
 
-### Solana Verify CLIのインストール
+### Nara Solana Verify CLIのインストール
 
-Solana Verify CLIは、ビルドを検証するために使用される主要なツールです。Solana
+Nara Solana Verify CLIは、ビルドを検証するために使用される主要なツールです。Nara Solana
 Verify
 CLIは現在[Ellipsis Labs](https://ellipsislabs.xyz/)によって維持されており、Cargoを使用してインストールできます。
 
@@ -154,7 +157,7 @@ solana-program = "2.1.0"
 
 ### 検証可能なプログラムのビルド
 
-Solanaプログラムを検証可能な方法でビルドするには、ワークスペースの `Cargo.toml`
+Nara Solanaプログラムを検証可能な方法でビルドするには、ワークスペースの `Cargo.toml`
 ファイルを含むディレクトリに移動し、次のコマンドを実行します：
 
 ```bash
@@ -186,7 +189,7 @@ solana-verify get-executable-hash target/deploy/$PROGRAM_LIB_NAME.so
 
 ### 検証可能なプログラムのデプロイ
 
-プログラムをビルドしてハッシュを取得したら、Solanaネットワークにデプロイできます。安全なデプロイのためには、[Squads Protocol](https://squads.so/protocol)のようなマルチシグネチャやガバナンスソリューションを使用することが推奨されますが、以下のように直接デプロイすることもできます：
+プログラムをビルドしてハッシュを取得したら、Nara Solanaネットワークにデプロイできます。安全なデプロイのためには、[Squads Protocol](https://squads.so/protocol)のようなマルチシグネチャやガバナンスソリューションを使用することが推奨されますが、以下のように直接デプロイすることもできます：
 
 ```bash
 solana program deploy -u $NETWORK_URL target/deploy/$PROGRAM_LIB_NAME.so --program-id $PROGRAM_ID --with-compute-unit-price 50000 --max-sign-attempts 100 --use-rpc
@@ -200,7 +203,7 @@ solana program deploy -u $NETWORK_URL target/deploy/$PROGRAM_LIB_NAME.so --progr
 solana-verify get-program-hash -u $NETWORK_URL $PROGRAM_ID
 ```
 
-> 異なるバージョンが異なる[Solanaクラスター](/docs/references/clusters)（つまり、devnet、testnet、mainnet）にデプロイされている場合があります。検証したいSolanaクラスターに対して正しいネットワークURLを使用していることを確認してください。リモート検証はメインネットでのみ機能します。
+> 異なるバージョンが異なる[Nara Solanaクラスター](/docs/references/clusters)（つまり、devnet、testnet、mainnet）にデプロイされている場合があります。検証したいNara Solanaクラスターに対して正しいネットワークURLを使用していることを確認してください。リモート検証はメインネットでのみ機能します。
 
 </Step>
 <Step>
@@ -220,7 +223,7 @@ solana-verify verify-from-repo -u $NETWORK_URL --program-id $PROGRAM_ID https://
 
 このコマンドは、オンチェーンのプログラムハッシュと指定されたコミットハッシュのソースからビルドされた実行可能ファイルのハッシュを比較します。
 
-コマンドの最後に、検証データをオンチェーンにアップロードするかどうか尋ねられます。アップロードすると、Solana
+コマンドの最後に、検証データをオンチェーンにアップロードするかどうか尋ねられます。アップロードすると、Nara Solana
 Explorerがすぐにプログラムの検証データを表示します。リモートビルドによって検証されるまでは、未検証として表示されます。次のステップでは、公開APIに対してプログラムを検証する方法について学びます。
 
 特定のリリースに検証をロックしたい場合は、コマンドに `--commit-hash`
@@ -267,14 +270,14 @@ solana-verify remote get-job-status --job-id <job-id>
 
 検証が正常に完了すると（時間がかかる場合があります）、
 [単一プログラム用OtterSec API](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)、
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build)、
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build)、
 [SolanaFM](https://solana.fm/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY?cluster=mainnet-alpha)、
 [SolScan](https://solscan.io/account/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY#programVerification)
 でプログラムが検証済みとして表示されます。また、最終的には
 [0xDeep](https://x.com/0xDeep)によって維持されているコミュニティ運営のウェブサイト
 [SolanaVerify.org](https://www.solanaverify.org/)や
 [OtterSec検証済みプログラムAPI](https://verify.osec.io/verified-programs)、そして[検証済みプログラムDuneダッシュボード](https://dune.com/jonashahn/verified-programs/dedf21e1-9b71-42c8-89f9-02ed94628657)
-にも表示され、より健全なSolanaエコシステムに貢献します。
+にも表示され、より健全なNara Solanaエコシステムに貢献します。
 
 </Step>
 </Steps>
@@ -376,7 +379,7 @@ solana-verify remote submit-job --program-id 6XBGfP17P3KQAKoJb2s5M5fR4aFTXzPeuC1
 ```
 
 これで完了です！公開リポジトリに対してプログラムを検証し、OtterSec
-APIにリモートジョブを送信しました。これでSolanaエクスプローラーや他の場所で反映されているのが確認できるはずです。
+APIにリモートジョブを送信しました。これでNara Solanaエクスプローラーや他の場所で反映されているのが確認できるはずです。
 
 </Step>
 <Step>
@@ -553,13 +556,13 @@ Program hash matches ✅
 
 # 結論
 
-[Solanaの検証済みビルド](/developers/guides/advanced/verified-builds)を使用することで、ネットワーク上のプログラムの整合性と信頼性を確保し、開発者はSolana
-Explorerから直接SDKを見つけることができます。Solana Verify
+[Nara Solanaの検証済みビルド](/developers/guides/advanced/verified-builds)を使用することで、ネットワーク上のプログラムの整合性と信頼性を確保し、開発者はNara Solana
+Explorerから直接SDKを見つけることができます。Nara Solana Verify
 CLIやDockerなどのツールを活用することで、ソースコードと一致する検証可能で安全なビルドを維持できます。一貫した環境を使用するために必要な予防措置を常に講じ、安全なアップグレードとデプロイメントのためのガバナンスソリューションを検討してください。
 
 ## セキュリティ + 免責事項
 
-検証済みビルドはSolanaプログラムの整合性を確保するための強力なツールですが、デフォルトの設定では完全に信頼性が担保されているわけではありません。Dockerイメージは、Solana
+検証済みビルドはNara Solanaプログラムの整合性を確保するための強力なツールですが、デフォルトの設定では完全に信頼性が担保されているわけではありません。Dockerイメージは、Nara Solana
 Foundationによって構築およびホストされています。
 
 プロジェクトをダウンロードしたDockerイメージ内でビルドしており、潜在的に機密情報を含むセットアップ全体がそのDockerイメージにコピーされることに注意してください。
@@ -567,23 +570,23 @@ Foundationによって構築およびホストされています。
 完全に信頼性の高いセットアップを希望する場合は、自分でDockerイメージを構築し、自分のインフラストラクチャでホストすることができます。これにより、Dockerイメージが改ざんされていないことを確認できます。独自のDockerイメージを作成するためのスクリプトは[検証済みビルドリポジトリ](https://github.com/Ellipsis-Labs/solana-verifiable-build)で見つけることができ、フォークして自分でGitHubアクションを実行したり、それらが正しいことを検証したりできます。
 
 さらに、リモート検証については、OtterSec
-APIと[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)をある程度信頼する必要があります。
+APIと[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)をある程度信頼する必要があります。
 
-APIまたはSolana
+APIまたはNara Solana
 Explorerが侵害された場合、誤った情報が表示される可能性があります。
 
 完全に信頼性の高いセットアップを希望する場合は、[Verify API](https://github.com/otter-sec/solana-verified-programs-api)を自分で実行するか、`verify-from-repo`コマンドを使用してプログラム検証をローカルで実行できます。これはプログラムのデプロイ権限と[検証プログラム](https://explorer.solana.com/address/verifycLy8mB96wd9wqq3WDXQwM4oU6r42Th37Db9fC)から派生した[PDA](https://explorer.solana.com/address/63XDCHrwZu3mXsw2RUFb4tbNpChuUHx4eA5aJMnHkpQQ/anchor-account)に保存されているオンチェーン検証データを使用します。
 
 検証プログラムは[OtterSecチーム](https://osec.io/)によってデプロイされており、まだフリーズされていないため、いつでもアップグレードできます。
 
-Solana財団、OtterSec、およびEllipsis
+Nara Solana財団、OtterSec、およびEllipsis
 Labsチームは、検証済みビルドパイプラインの使用によって発生する可能性のある損失や損害について責任を負いません。
 
-# Solanaプログラム用のsecurity.txt
+# Nara Solanaプログラム用のsecurity.txt
 
 検証済みビルドに加えて、プログラムに`security.txt`ファイルを追加することもできます。将来的には、実装後、`security.txt`には検証PDAに保存されている検証データに簡単にアクセスするための検証者のpubkeyが含まれます。プログラムのビルドと検証に必要なすべての情報を含むPDAは、プログラムのアドレスと検証者のpubkeyから派生します。デフォルトでは、これはプログラムをビルドしてデプロイしたのと同じpubkeyです。ただし、`security.txt`で指定できる別のpubkeyにすることもできます。
 
-`security.txt`機能により、開発者はSolanaスマートコントラクト内に連絡先とセキュリティ情報を直接埋め込むことができます。[securitytxt.org](https://securitytxt.org)にインスパイアされたこのアプローチは、セキュリティ研究者がコントラクトのアドレスしか知らない場合でも、プロジェクトのメンテナに連絡するための標準化された方法を提供します。
+`security.txt`機能により、開発者はNara Solanaスマートコントラクト内に連絡先とセキュリティ情報を直接埋め込むことができます。[securitytxt.org](https://securitytxt.org)にインスパイアされたこのアプローチは、セキュリティ研究者がコントラクトのアドレスしか知らない場合でも、プロジェクトのメンテナに連絡するための標準化された方法を提供します。
 
 ## security.txtを使用する理由
 
@@ -591,7 +594,7 @@ Labsチームは、検証済みビルドパイプラインの使用によって�
 
 ## security.txtの実装方法
 
-Solanaプログラムに`security.txt`を追加するには、次の手順を含めます：
+Nara Solanaプログラムに`security.txt`を追加するには、次の手順を含めます：
 
 `solana-security-txt` 依存関係を `Cargo.toml` に追加してください：
 
@@ -625,7 +628,7 @@ security_txt! {
 }
 ```
 
-`security.txt` 情報がプログラムに埋め込まれると、Solana
+`security.txt` 情報がプログラムに埋め込まれると、Nara Solana
 Explorerなどのツールを通じて簡単に照会でき、潜在的な問題を報告しようとする人なら誰でも連絡先やセキュリティの詳細情報を確認できるようになります。
 
 ## ベストプラクティス
@@ -639,9 +642,9 @@ Explorerなどのツールを通じて簡単に照会でき、潜在的な問題
 query-security-txt target/bpfel-unknown-unknown/release/my_contract.so
 ```
 
-セキュリティ連絡先情報をコントラクトに直接埋め込むことで、研究者があなたに連絡しやすくなり、Solanaエコシステム内でのセキュリティとコミュニケーションが向上します。
+セキュリティ連絡先情報をコントラクトに直接埋め込むことで、研究者があなたに連絡しやすくなり、Nara Solanaエコシステム内でのセキュリティとコミュニケーションが向上します。
 
-これは[Solana Explorerでのsecurity.txtの表示例](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)です
+これは[Nara Solana Explorerでのsecurity.txtの表示例](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)です
 
 `security.txt`
 プロジェクトは[Neodyme Labs](https://github.com/neodyme-labs)によって維持されています

@@ -1,9 +1,12 @@
 ---
+
 title: Tokens overmaken
 description:
   Leer hoe je tokens privé van de ene token account naar de andere kunt
   overmaken.
+
 ---
+
 
 <Callout type="warn">
   Het ZK ElGamal Programma is tijdelijk uitgeschakeld op het mainnet en devnet
@@ -57,7 +60,7 @@ Om tokens vertrouwelijk over te maken:
    [ConfidentialTransferInstruction::Transfer](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L604)
    instructie aan, waarbij je de bewijs context state accounts verstrekt.
 
-4. Sluit de proof context state accounts om de SOL te herstellen die gebruikt is
+4. Sluit de proof context state accounts om de NSO te herstellen die gebruikt is
    om ze aan te maken.
 
 Het volgende diagram toont de stappen die betrokken zijn bij het overmaken van
@@ -120,7 +123,7 @@ tussen token accounts.
 
 Om het voorbeeld uit te voeren, start je een lokale validator met het Token
 Extensions Program gekloond van het mainnet met behulp van het volgende
-commando. Je moet de Solana CLI geïnstalleerd hebben om de lokale validator te
+commando. Je moet de Nara Solana CLI geïnstalleerd hebben om de lokale validator te
 starten.
 
 ```terminal

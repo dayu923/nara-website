@@ -1,13 +1,16 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Integrasi dompet Solana dengan Next.js dan Solana Kit
-description: Siapkan integrasi dompet Solana di Next.js dengan Solana Kit.
+
+title: Next.js - Nara Solana Kit
+seoTitle: Integrasi dompet Nara Solana dengan Next.js dan Nara Solana Kit
+description: Siapkan integrasi dompet Nara Solana di Next.js dengan Nara Solana Kit.
+
 ---
 
-Siapkan integrasi dompet Solana minimal di Next.js dengan Solana Kit.
+
+Siapkan integrasi dompet Nara Solana minimal di Next.js dengan Nara Solana Kit.
 
 Panduan ini memberikan contoh minimal untuk mengimplementasikan fungsionalitas
-dompet Solana dalam aplikasi Next.js menggunakan `@solana/kit`. Anda akan
+dompet Nara Solana dalam aplikasi Next.js menggunakan `@solana/kit`. Anda akan
 membuat tombol koneksi dompet dan komponen untuk mengirim transaksi.
 
 ![Aplikasi Nextjs Kit](/assets/docs/frontend/nextjs-kit.gif)
@@ -15,12 +18,12 @@ membuat tombol koneksi dompet dan komponen untuk mengirim transaksi.
 Untuk contoh yang lebih komprehensif tentang penggunaan `@solana/kit` dalam
 aplikasi React, lihat
 [Contoh Aplikasi React](https://github.com/anza-xyz/kit/tree/main/examples/react-app)
-di repositori Solana Kit.
+di repositori Nara Solana Kit.
 
 ## Sumber Daya
 
-- [Dokumentasi Solana Kit](https://www.solanakit.com/docs)
-- [Repositori GitHub Solana Kit](https://github.com/anza-xyz/kit)
+- [Dokumentasi Nara Solana Kit](https://www.solanakit.com/docs)
+- [Repositori GitHub Nara Solana Kit](https://github.com/anza-xyz/kit)
 
 ## Prasyarat
 
@@ -29,7 +32,7 @@ di repositori Solana Kit.
 ## Membuat Proyek Next.js
 
 Buat proyek Next.js baru dengan [shadcn](https://ui.shadcn.com/) untuk komponen
-UI dan instal dependensi Solana yang diperlukan.
+UI dan instal dependensi Nara Solana yang diperlukan.
 
 ```terminal
 $ npx shadcn@latest init
@@ -49,9 +52,9 @@ Instal komponen UI shadcn berikut:
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Instal Dependensi Solana
+### Instal Dependensi Nara Solana
 
-Instal dependensi Solana berikut:
+Instal dependensi Nara Solana berikut:
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -64,15 +67,15 @@ Anda.
 
 <ScrollyCoding>
 
-## !!steps 1. Membuat Solana Context
+## !!steps 1. Membuat Nara Solana Context
 
 Pertama, buat React Context yang mengelola seluruh status dompet untuk aplikasi.
 
 Buat `components/solana-provider.tsx` dan tambahkan kode yang disediakan.
 Komponen provider ini akan:
 
-- Terhubung ke endpoint RPC devnet Solana
-- Memfilter dompet Solana yang tersedia yang terpasang di browser pengguna
+- Terhubung ke endpoint RPC devnet Nara Solana
+- Memfilter dompet Nara Solana yang tersedia yang terpasang di browser pengguna
 - Melacak dompet dan akun mana yang saat ini terhubung
 - Menyediakan status dompet ke komponen turunan
 
@@ -249,7 +252,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. Memperbarui Layout
 
-Selanjutnya, bungkus seluruh aplikasi Next.js dengan provider Solana.
+Selanjutnya, bungkus seluruh aplikasi Next.js dengan provider Nara Solana.
 
 Perbarui `app/layout.tsx` dengan kode yang disediakan. Langkah ini:
 
@@ -508,9 +511,9 @@ Buat `components/memo-card.tsx` dan tambahkan kode yang disediakan. Komponen
 ini:
 
 - Memungkinkan pengguna memasukkan pesan
-- Membuat transaksi Solana dengan instruksi yang memanggil program memo
+- Membuat transaksi Nara Solana dengan instruksi yang memanggil program memo
 - Meminta dompet yang terhubung untuk menandatangani dan mengirim transaksi
-- Menampilkan tautan untuk melihat transaksi di Solana Explorer
+- Menampilkan tautan untuk melihat transaksi di Nara Solana Explorer
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -673,7 +676,7 @@ $ npm run dev
 
 <Callout type="info">
   Perhatikan bahwa dompet yang terhubung harus dikonfigurasi untuk terhubung ke
-  cluster devnet dan [diisi dengan devnet SOL](https://faucet.solana.com/) untuk
+  cluster devnet dan [diisi dengan devnet NSO](https://faucet.solana.com/) untuk
   mengirim transaksi.
 </Callout>
 

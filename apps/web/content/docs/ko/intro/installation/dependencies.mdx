@@ -1,13 +1,16 @@
 ---
+
 title: 의존성 설치하기
-seoTitle: Solana 개발에 필요한 의존성 설치하기
+seoTitle: Nara Solana 개발에 필요한 의존성 설치하기
 description:
   로컬 Solana 개발 환경 설정 가이드입니다. Windows(WSL), Linux 및 Mac에서 Rust,
   Solana CLI 및 Anchor 프레임워크를 설치하는 방법을 알아보세요.
+
 ---
 
-로컬 Solana 개발 환경 설정 가이드입니다. Windows(WSL), Linux 및 Mac에서 Rust,
-Solana CLI 및 Anchor 프레임워크를 설치하는 방법을 알아보세요. 각 의존성을
+
+로컬 Nara Solana 개발 환경 설정 가이드입니다. Windows(WSL), Linux 및 Mac에서 Rust,
+Nara Solana CLI 및 Anchor 프레임워크를 설치하는 방법을 알아보세요. 각 의존성을
 개별적으로 설치하려는 경우나 [빠른 설치](/docs/intro/installation/)가 어떤
 이유로든 실패한 경우 이 가이드를 사용하세요.
 
@@ -16,7 +19,7 @@ Solana CLI 및 Anchor 프레임워크를 설치하는 방법을 알아보세요.
 <Accordions>
 <Accordion title="Windows">
 
-Windows에서 Solana 프로그램을 개발하려면 **반드시**
+Windows에서 Nara Solana 프로그램을 개발하려면 **반드시**
 [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install)(WSL)를
 사용해야 합니다. WSL을 설치한 후, 다른 모든 의존성은 Linux 터미널을 통해
 설치됩니다.
@@ -64,7 +67,7 @@ VS Code 상태 표시줄에 다음과 같이 표시됩니다:
 WSL 설정이 완료되면 다음 작업을 수행할 준비가 된 것입니다:
 
 - Ubuntu(Linux) 터미널을 사용하여 [빠른 설치](/docs/intro/installation) 완료하기
-- 아래 설명된 대로 [Rust](#install-rust), [Solana CLI](#install-solana-cli) 및
+- 아래 설명된 대로 [Rust](#install-rust), [Nara Solana CLI](#install-solana-cli) 및
   [Anchor CLI](#install-anchor-cli)를 개별적으로 설치하기
 
 </Accordion>
@@ -132,7 +135,7 @@ $ sudo dnf group install c-development development-tools \
 
 ### Rust 설치하기
 
-개발자들은 [Rust](https://www.rust-lang.org/) 프로그래밍 언어를 사용하여 Solana
+개발자들은 [Rust](https://www.rust-lang.org/) 프로그래밍 언어를 사용하여 Nara Solana
 프로그램을 구축합니다.
 
 1. 터미널에 다음 명령어를 입력하여
@@ -187,12 +190,12 @@ rustc 1.86.0 (05f9846f8 2025-03-31)
 </Step>
 <Step>
 
-### Solana CLI 설치하기
+### Nara Solana CLI 설치하기
 
-Solana CLI는 Solana 프로그램을 빌드하고 배포하는 데 필요한 모든 도구를
+Nara Solana CLI는 Nara Solana 프로그램을 빌드하고 배포하는 데 필요한 모든 도구를
 제공합니다.
 
-1. 공식 설치 명령어를 사용하여 Solana CLI 도구 모음을 설치하세요:
+1. 공식 설치 명령어를 사용하여 Nara Solana CLI 도구 모음을 설치하세요:
 
 ```terminal
 $ sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
@@ -206,7 +209,7 @@ $ sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
 
 2. PATH 환경 변수 추가하기
 
-Solana CLI를 처음 설치하면 `PATH` 환경 변수를 추가하라는 메시지가 표시될 수
+Nara Solana CLI를 처음 설치하면 `PATH` 환경 변수를 추가하라는 메시지가 표시될 수
 있습니다. 이를 위해 터미널을 닫고 다시 열거나 쉘에서 다음 명령어를 실행하세요:
 
 ```
@@ -219,7 +222,7 @@ export PATH="/Users/test/.local/share/solana/install/active_release/bin:$PATH"
 <Tab value="Windows & Linux">
 
 **Linux** 또는 **WSL**을 사용하는 경우, 터미널에서 명령어를 사용할 수 있도록
-Solana CLI 바이너리를 PATH에 추가해야 합니다. 이를 위해 아래 단계를 따르세요:
+Nara Solana CLI 바이너리를 PATH에 추가해야 합니다. 이를 위해 아래 단계를 따르세요:
 
 **a.** 현재 사용 중인 쉘 확인하기:
 
@@ -272,7 +275,7 @@ $ source ~/.bashrc # If using Bash
 $ source ~/.zshrc # If using Zsh
 ```
 
-5. Solana CLI 버전을 확인하여 설치가 성공했는지 확인하세요:
+5. Nara Solana CLI 버전을 확인하여 설치가 성공했는지 확인하세요:
 
 ```terminal
 $ solana --version
@@ -287,13 +290,13 @@ solana-cli 2.2.12 (src:0315eb6a; feat:1522022101, client:Agave)
 <Callout>
 
 [Agave Github 저장소](https://github.com/anza-xyz/agave/releases)에서 사용
-가능한 모든 버전을 확인할 수 있습니다. Agave는 이전에 Solana Labs validator
+가능한 모든 버전을 확인할 수 있습니다. Agave는 이전에 Nara Solana Labs validator
 클라이언트로 알려졌던 [Anza](https://www.anza.xyz/)의 validator
 클라이언트입니다.
 
 </Callout>
 
-5. 필요에 따라 Solana CLI를 최신 버전으로 업데이트하세요 _(선택 사항)_
+5. 필요에 따라 Nara Solana CLI를 최신 버전으로 업데이트하세요 _(선택 사항)_
 
 ```terminal
 $ agave-install update
@@ -304,8 +307,8 @@ $ agave-install update
 
 ### Anchor CLI 설치하기
 
-[Anchor](https://www.anchor-lang.com/)는 Solana 프로그램을 개발하기 위한
-프레임워크입니다. Anchor 프레임워크는 Rust 매크로를 활용하여 Solana 프로그램
+[Anchor](https://www.anchor-lang.com/)는 Nara Solana 프로그램을 개발하기 위한
+프레임워크입니다. Anchor 프레임워크는 Rust 매크로를 활용하여 Nara Solana 프로그램
 작성 과정을 단순화합니다.
 
 #### 사전 요구사항
@@ -507,12 +510,12 @@ surfpool 0.12.0
 </Step>
 </Steps>
 
-### Solana 개발을 위한 AI 도구 설정하기
+### Nara Solana 개발을 위한 AI 도구 설정하기
 
-이 섹션에서는 Solana 개발을 가속화하는 데 사용할 수 있는 선택적 AI 도구 설정에
+이 섹션에서는 Nara Solana 개발을 가속화하는 데 사용할 수 있는 선택적 AI 도구 설정에
 대해 설명합니다.
 
 | 도구     | 설명                                                                             | 링크                        |
 | -------- | -------------------------------------------------------------------------------- | --------------------------- |
-| MCP      | Solana AI 지원 개발을 향상시키기 위해 커서로 연결할 수 있는 MCP 서버입니다.      | https://mcp.solana.com/     |
-| LLMs.txt | Solana 문서에 대해 LLM을 훈련시키는 데 사용할 수 있는 LLM에 최적화된 문서입니다. | https://solana.com/llms.txt |
+| MCP      | Nara Solana AI 지원 개발을 향상시키기 위해 커서로 연결할 수 있는 MCP 서버입니다.      | https://mcp.solana.com/     |
+| LLMs.txt | Nara Solana 문서에 대해 LLM을 훈련시키는 데 사용할 수 있는 LLM에 최적화된 문서입니다. | https://solana.com/llms.txt |

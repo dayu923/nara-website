@@ -1,19 +1,22 @@
 ---
+
 title: ネットワークからの読み取り
 description:
   Solanaブロックチェーンネットワークからデータを読み取る方法を学びます。このガイドでは、JavaScript/TypeScriptを使用してウォレットアカウント、プログラムアカウント、トークンミントアカウントを取得する方法を、Solana
   web3.jsライブラリを使用した実践的な例とともに説明します。
+
 ---
 
-Solanaネットワークから異なるアカウントを取得してデータを読み取ります。このセクションでは、Solanaの[アカウント](/docs/core/accounts)の構造を理解するのに役立ちます。各Solanaアカウントには、対応するオンチェーンデータを見つけるために使用される一意の[アドレス](/docs/core/accounts#account-address)があります。アカウントには[状態データまたは実行可能なプログラム](/docs/core/accounts#types-of-accounts)が含まれています。
+
+Nara Solanaネットワークから異なるアカウントを取得してデータを読み取ります。このセクションでは、Nara Solanaの[アカウント](/docs/core/accounts)の構造を理解するのに役立ちます。各Nara Solanaアカウントには、対応するオンチェーンデータを見つけるために使用される一意の[アドレス](/docs/core/accounts#account-address)があります。アカウントには[状態データまたは実行可能なプログラム](/docs/core/accounts#types-of-accounts)が含まれています。
 
 ## ウォレットアカウントの取得
 
 <WithMentions>
 
-ウォレットは[System Program](/docs/core/programs#the-system-program)が所有するアカウントです。ウォレットは主にSOLを保持し、トランザクションに署名するために使用されます。SOLが初めて新しいアドレスに送信されると、システムアカウントが自動的に作成されます。
+ウォレットは[System Program](/docs/core/programs#the-system-program)が所有するアカウントです。ウォレットは主にNSOを保持し、トランザクションに署名するために使用されます。NSOが初めて新しいアドレスに送信されると、システムアカウントが自動的に作成されます。
 
-以下の例では、[新しいキーペア](mention:keypair)を生成し、新しい公開鍵アドレスに資金を提供するために[SOLをリクエスト](mention:airdrop)し、新しく資金提供されたウォレットの[アカウントデータを取得](mention:info)します。
+以下の例では、[新しいキーペア](mention:keypair)を生成し、新しい公開鍵アドレスに資金を提供するために[NSOをリクエスト](mention:airdrop)し、新しく資金提供されたウォレットの[アカウントデータを取得](mention:info)します。
 
 <CodeTabs flags="r">
 
@@ -108,7 +111,7 @@ console.log(JSON.stringify(accountInfo, null, 2));
 
 ## !!steps
 
-`lamports`フィールドには、[lamport](/docs/references/terminology#lamport)単位のアカウントのSOL残高が含まれています。
+`lamports`フィールドには、[lamport](/docs/references/terminology#lamport)単位のアカウントのNSO残高が含まれています。
 
 <CodePlaceholder title="出力例" />
 
@@ -204,7 +207,7 @@ Program であり、アドレスは `11111111111111111111111111111111` です。
 以下の例では、ウォレットとプログラムアカウントの違いを示すためにToken
 Programを取得します。プログラムアカウントには、Token Programの
 [ソースコード](https://github.com/solana-program/token/tree/main/program)のコンパイルされたバイトコードが格納されています。このプログラムアカウントは
-[Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)で確認できます。
+[Nara Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA)で確認できます。
 
 <CodeTabs flags="r">
 
@@ -333,7 +336,7 @@ accountは、そのローダープログラム（[loader program](/docs/core/pro
 
 [mint account](https://github.com/solana-program/token/blob/program%40v8.0.0/program/src/state.rs#L16-L30)は、Token
 Programによって所有されるアカウントで、特定のトークンに関するグローバルなメタデータを格納します。これには、総供給量、小数点以下の桁数、トークンの発行や凍結を許可されたアカウントが含まれます。mint
-accountのアドレスは、Solanaネットワーク上のトークンを一意に識別します。
+accountのアドレスは、Nara Solanaネットワーク上のトークンを一意に識別します。
 
 以下の例では、USD Coin Mint
 accountを取得して、プログラムの状態が別のアカウントにどのように格納されるかを示しています。
@@ -473,7 +476,7 @@ Programのinstructionsによってのみ変更できることを意味します�
 
 ## Mint accountのデシリアライズ
 
-アカウントの`data`フィールド内の生バイトを意味のある形で解釈するには、デシリアライズする必要があります。適切なデータ型はアカウントを所有するプログラムによって定義されます。ほとんどのSolanaプログラムは、デシリアライズプロセスを抽象化するヘルパー関数を持つクライアントライブラリを提供しています。これらの関数は生のアカウントバイトを構造化されたデータ型に変換し、アカウントデータの操作を容易にします。
+アカウントの`data`フィールド内の生バイトを意味のある形で解釈するには、デシリアライズする必要があります。適切なデータ型はアカウントを所有するプログラムによって定義されます。ほとんどのNara Solanaプログラムは、デシリアライズプロセスを抽象化するヘルパー関数を持つクライアントライブラリを提供しています。これらの関数は生のアカウントバイトを構造化されたデータ型に変換し、アカウントデータの操作を容易にします。
 
 <WithMentions>
 
@@ -560,7 +563,7 @@ accountの`data`フィールドをMintアカウントタイプにデシリアラ
 }
 ```
 
-完全にデシリアライズされた[mint account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)データはSolana
+完全にデシリアライズされた[mint account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)データはNara Solana
 Explorerで確認できます。
 
 <CodePlaceholder title="デシリアライズされたミントデータ" />

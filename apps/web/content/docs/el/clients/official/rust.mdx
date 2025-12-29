@@ -1,15 +1,18 @@
 ---
+
 title: Rust SDK
-description: Επίσημα crates Rust για ανάπτυξη στο Solana.
-h1: Rust SDK για Solana
+description: Επίσημα crates Rust για ανάπτυξη στο Nara Solana.
+h1: Rust SDK για Nara Solana
+
 ---
+
 
 ## Client Crates
 
 | Crate                    | Description                           | Docs                                              | GitHub                                                                         |
 | ------------------------ | ------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------ |
 | solana-sdk               | Βασικό SDK                            | [View](https://docs.rs/solana-sdk/)               | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sdk)               |
-| solana-client            | Αλληλεπίδραση με το Solana μέσω RPC   | [View](https://docs.rs/solana-client/)            | [Source](https://github.com/anza-xyz/agave/tree/master/client)                 |
+| solana-client            | Αλληλεπίδραση με το Nara Solana μέσω RPC   | [View](https://docs.rs/solana-client/)            | [Source](https://github.com/anza-xyz/agave/tree/master/client)                 |
 | solana-commitment-config | Ρύθμιση επιπέδου δέσμευσης συναλλαγών | [View](https://docs.rs/solana-commitment-config/) | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/commitment-config) |
 
 Το `solana-sdk` crate αποτελείται από τα ακόλουθα επιμέρους crates, τα οποία
@@ -17,45 +20,45 @@ h1: Rust SDK για Solana
 
 | Crate                       | Description                                                                    | Docs                                                 | GitHub                                                                            |
 | --------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------- | --------------------------------------------------------------------------------- |
-| solana-account              | Τύπος λογαριασμού Solana                                                       | [View](https://docs.rs/solana-account/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/account)              |
-| solana-epoch-info           | Πληροφορίες σχετικά με ένα epoch του Solana                                    | [View](https://docs.rs/solana-epoch-info/)           | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-info)           |
-| solana-epoch-rewards-hasher | Hasher ανταμοιβών epoch του Solana                                             | [View](https://docs.rs/solana-epoch-rewards-hasher/) | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-rewards-hasher) |
-| solana-fee-structure        | Δομές χρεώσεων του Solana                                                      | [View](https://docs.rs/solana-fee-structure/)        | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/fee-structure)        |
-| solana-inflation            | Ρύθμιση για τον πληθωρισμό του δικτύου Solana                                  | [View](https://docs.rs/solana-inflation/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/inflation)            |
-| solana-message              | Τύποι μηνυμάτων συναλλαγών Solana                                              | [View](https://docs.rs/solana-message/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/message)              |
-| solana-program              | Πρόγραμμα Solana                                                               | [View](https://docs.rs/solana-program/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/program)              |
-| solana-program-memory       | Βασικές λειτουργίες μνήμης χαμηλού επιπέδου για το Solana                      | [View](https://docs.rs/solana-program-memory/)       | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/program-memory)       |
-| solana-pubkey               | Διευθύνσεις λογαριασμών Solana                                                 | [View](https://docs.rs/solana-pubkey/)               | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/pubkey)               |
-| solana-sanitize             | Εξυγίανση μηνυμάτων Solana                                                     | [View](https://docs.rs/solana-sanitize/)             | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sanitize)             |
-| solana-sdk-ids              | Αναγνωριστικά SDK Solana                                                       | [View](https://docs.rs/solana-sdk-ids/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-ids)              |
-| solana-sdk-macro            | Μακροεντολή SDK Solana                                                         | [View](https://docs.rs/solana-sdk-macro/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-macro)            |
-| solana-serde                | Βοηθητικά προγράμματα serde για Solana                                         | [View](https://docs.rs/solana-serde/)                | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/serde)                |
-| solana-serde-varint         | Ορισμοί Solana για ακέραιους που σειριοποιούνται σε μεταβλητό μέγεθος          | [View](https://docs.rs/solana-serde-varint/)         | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/serde-varint)         |
-| solana-short-vec            | Συμπαγής κωδικοποίηση serde διανυσμάτων με μικρό μήκος για Solana              | [View](https://docs.rs/solana-short-vec/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/short-vec)            |
-| solana-time-utils           | Βοηθητικά προγράμματα std::time για Solana                                     | [View](https://docs.rs/solana-time-utils/)           | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/time-utils)           |
-| solana-keypair              | Συγκεκριμένη υλοποίηση ενός Signer Solana                                      | [View](https://docs.rs/solana-keypair/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/keypair)              |
-| solana-offchain-message     | Υπογραφή μηνυμάτων εκτός αλυσίδας Solana                                       | [View](https://docs.rs/solana-offchain-message/)     | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/offchain-message)     |
-| solana-presigner            | Μια υλοποίηση Signer Solana που αντιπροσωπεύει μια εξωτερικά δομημένη υπογραφή | [View](https://docs.rs/solana-presigner/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/presigner)            |
-| solana-seed-derivable       | Χαρακτηριστικό Solana που ορίζει τη διεπαφή με την οποία παράγονται τα κλειδιά | [View](https://docs.rs/solana-seed-derivable/)       | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/seed-derivable)       |
-| solana-seed-phrase          | Λειτουργίες Solana για τη δημιουργία ζευγών κλειδιών από φράσεις seed          | [View](https://docs.rs/solana-seed-phrase/)          | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/seed-phrase)          |
+| solana-account              | Τύπος λογαριασμού Nara Solana                                                       | [View](https://docs.rs/solana-account/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/account)              |
+| solana-epoch-info           | Πληροφορίες σχετικά με ένα epoch του Nara Solana                                    | [View](https://docs.rs/solana-epoch-info/)           | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-info)           |
+| solana-epoch-rewards-hasher | Hasher ανταμοιβών epoch του Nara Solana                                             | [View](https://docs.rs/solana-epoch-rewards-hasher/) | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-rewards-hasher) |
+| solana-fee-structure        | Δομές χρεώσεων του Nara Solana                                                      | [View](https://docs.rs/solana-fee-structure/)        | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/fee-structure)        |
+| solana-inflation            | Ρύθμιση για τον πληθωρισμό του δικτύου Nara Solana                                  | [View](https://docs.rs/solana-inflation/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/inflation)            |
+| solana-message              | Τύποι μηνυμάτων συναλλαγών Nara Solana                                              | [View](https://docs.rs/solana-message/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/message)              |
+| solana-program              | Πρόγραμμα Nara Solana                                                               | [View](https://docs.rs/solana-program/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/program)              |
+| solana-program-memory       | Βασικές λειτουργίες μνήμης χαμηλού επιπέδου για το Nara Solana                      | [View](https://docs.rs/solana-program-memory/)       | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/program-memory)       |
+| solana-pubkey               | Διευθύνσεις λογαριασμών Nara Solana                                                 | [View](https://docs.rs/solana-pubkey/)               | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/pubkey)               |
+| solana-sanitize             | Εξυγίανση μηνυμάτων Nara Solana                                                     | [View](https://docs.rs/solana-sanitize/)             | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sanitize)             |
+| solana-sdk-ids              | Αναγνωριστικά SDK Nara Solana                                                       | [View](https://docs.rs/solana-sdk-ids/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-ids)              |
+| solana-sdk-macro            | Μακροεντολή SDK Nara Solana                                                         | [View](https://docs.rs/solana-sdk-macro/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-macro)            |
+| solana-serde                | Βοηθητικά προγράμματα serde για Nara Solana                                         | [View](https://docs.rs/solana-serde/)                | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/serde)                |
+| solana-serde-varint         | Ορισμοί Nara Solana για ακέραιους που σειριοποιούνται σε μεταβλητό μέγεθος          | [View](https://docs.rs/solana-serde-varint/)         | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/serde-varint)         |
+| solana-short-vec            | Συμπαγής κωδικοποίηση serde διανυσμάτων με μικρό μήκος για Nara Solana              | [View](https://docs.rs/solana-short-vec/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/short-vec)            |
+| solana-time-utils           | Βοηθητικά προγράμματα std::time για Nara Solana                                     | [View](https://docs.rs/solana-time-utils/)           | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/time-utils)           |
+| solana-keypair              | Συγκεκριμένη υλοποίηση ενός Signer Nara Solana                                      | [View](https://docs.rs/solana-keypair/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/keypair)              |
+| solana-offchain-message     | Υπογραφή μηνυμάτων εκτός αλυσίδας Nara Solana                                       | [View](https://docs.rs/solana-offchain-message/)     | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/offchain-message)     |
+| solana-presigner            | Μια υλοποίηση Signer Nara Solana που αντιπροσωπεύει μια εξωτερικά δομημένη υπογραφή | [View](https://docs.rs/solana-presigner/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/presigner)            |
+| solana-seed-derivable       | Χαρακτηριστικό Nara Solana που ορίζει τη διεπαφή με την οποία παράγονται τα κλειδιά | [View](https://docs.rs/solana-seed-derivable/)       | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/seed-derivable)       |
+| solana-seed-phrase          | Λειτουργίες Nara Solana για τη δημιουργία ζευγών κλειδιών από φράσεις seed          | [View](https://docs.rs/solana-seed-phrase/)          | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/seed-phrase)          |
 | solana-shred-version        | Υπολογισμός εκδόσεων shred                                                     | [View](https://docs.rs/solana-shred-version/)        | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/shred-version)        |
-| solana-signature            | Τύπος υπογραφής 64-byte του Solana                                             | [View](https://docs.rs/solana-signature/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/signature)            |
-| solana-signer               | Αφαιρέσεις για υπογράφοντες συναλλαγών Solana                                  | [View](https://docs.rs/solana-signer/)               | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/signer)               |
-| solana-transaction          | Τύποι συναλλαγών Solana                                                        | [View](https://docs.rs/solana-transaction/)          | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/transaction)          |
-| solana-transaction-error    | Τύπος TransactionError του Solana                                              | [View](https://docs.rs/solana-transaction-error/)    | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/transaction-error)    |
+| solana-signature            | Τύπος υπογραφής 64-byte του Nara Solana                                             | [View](https://docs.rs/solana-signature/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/signature)            |
+| solana-signer               | Αφαιρέσεις για υπογράφοντες συναλλαγών Nara Solana                                  | [View](https://docs.rs/solana-signer/)               | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/signer)               |
+| solana-transaction          | Τύποι συναλλαγών Nara Solana                                                        | [View](https://docs.rs/solana-transaction/)          | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/transaction)          |
+| solana-transaction-error    | Τύπος TransactionError του Nara Solana                                              | [View](https://docs.rs/solana-transaction-error/)    | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/transaction-error)    |
 
 ## Crates προγραμμάτων
 
 Χρησιμοποιήστε το `solana-program` για να δημιουργήσετε προγράμματα on-chain.
 
-- [Παράδειγμα: Δημιουργία προγράμματος Solana](/docs/programs/rust)
+- [Παράδειγμα: Δημιουργία προγράμματος Nara Solana](/docs/programs/rust)
 
 | Crate          | Περιγραφή                        | Τεκμηρίωση                                | GitHub                                                                        |
 | -------------- | -------------------------------- | ----------------------------------------- | ----------------------------------------------------------------------------- |
 | solana-program | Δημιουργία προγραμμάτων on-chain | [Προβολή](https://docs.rs/solana-program) | [Πηγαίος κώδικας](https://github.com/anza-xyz/solana-sdk/tree/master/program) |
 
 Το Pinocchio είναι μια βιβλιοθήκη χωρίς εξαρτήσεις για τη δημιουργία
-προγραμμάτων Solana σε Rust και μπορεί να χρησιμοποιηθεί ως αντικατάσταση του
+προγραμμάτων Nara Solana σε Rust και μπορεί να χρησιμοποιηθεί ως αντικατάσταση του
 `solana-program` για τη συγγραφή προγραμμάτων on-chain.
 
 | Crate     | Περιγραφή                             | Τεκμηρίωση                           | GitHub                                                   |
@@ -68,7 +71,7 @@ h1: Rust SDK για Solana
 </Callout>
 
 Το Pinocchio περιλαμβάνει crates ειδικά για προγράμματα που αλληλεπιδρούν με
-προγράμματα Solana:
+προγράμματα Nara Solana:
 
 | Crate                              | Περιγραφή                                    | Τεκμηρίωση                                                     | GitHub                                                                                               |
 | ---------------------------------- | -------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |

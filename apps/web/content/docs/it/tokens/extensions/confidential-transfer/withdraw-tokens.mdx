@@ -1,7 +1,10 @@
 ---
+
 title: Prelievo di token
 description: Scopri come prelevare token dallo stato confidenziale.
+
 ---
+
 
 <Callout type="warn">
   Il Programma ZK ElGamal è temporaneamente disabilitato sulla mainnet e devnet
@@ -40,7 +43,7 @@ Per prelevare token dal saldo confidenziale disponibile al saldo pubblico:
    [ConfidentialTransferInstruction::Withdraw](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L493)
    fornendo i due account di prova.
 
-4. Chiudi gli account di prova per recuperare il SOL utilizzato per crearli.
+4. Chiudi gli account di prova per recuperare il NSO utilizzato per crearli.
 
 Il seguente diagramma mostra i passaggi coinvolti nel prelievo di token dal
 saldo confidenziale disponibile al saldo pubblico:
@@ -97,7 +100,7 @@ disponibile al saldo pubblico.
 
 Per eseguire l'esempio, avvia un validator locale con il Token Extensions
 Program clonato dalla mainnet utilizzando il seguente comando. Devi avere la CLI
-di Solana installata per avviare il validator locale.
+di Nara Solana installata per avviare il validator locale.
 
 ```terminal
 $ solana-test-validator --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --url https://api.mainnet-beta.solana.com -r

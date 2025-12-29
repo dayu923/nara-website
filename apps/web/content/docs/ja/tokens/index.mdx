@@ -1,12 +1,15 @@
 ---
-title: Solana上のトークン
-description: Solanaのトークンプログラムについて学びましょう。
+
+title: Nara Solana上のトークン
+description: Nara Solanaのトークンプログラムについて学びましょう。
+
 ---
 
-トークンは、様々なカテゴリの資産の所有権を表すデジタル資産です。トークン化により、財産権のデジタル化が可能になります。Solana上のトークンはSPL
-([Solana Program Library](https://github.com/solana-program))トークンと呼ばれています。
 
-このセクションでは、Solana上でトークンがどのように表現されているかの基本概念を説明します。コード例については[SPLトークンの基本](/docs/tokens/basics)セクションを参照してください。
+トークンは、様々なカテゴリの資産の所有権を表すデジタル資産です。トークン化により、財産権のデジタル化が可能になります。Nara Solana上のトークンはSPL
+([Nara Solana Program Library](https://github.com/solana-program))トークンと呼ばれています。
+
+このセクションでは、Nara Solana上でトークンがどのように表現されているかの基本概念を説明します。コード例については[SPLトークンの基本](/docs/tokens/basics)セクションを参照してください。
 
 ## 重要ポイント
 
@@ -20,7 +23,7 @@ description: Solanaのトークンプログラムについて学びましょう�
 
 ## Token Program
 
-Solanaエコシステムには2つの主要なToken
+Nara Solanaエコシステムには2つの主要なToken
 Programがあります。両プログラムのソースコードは以下の通りです。
 
 <Cards>
@@ -36,14 +39,14 @@ Programがあります。両プログラムのソースコードは以下の通�
 </Cards>
 
 Token
-Programには、ネットワーク上のトークン（代替可能および非代替性トークンの両方）と相互作用するためのすべての命令ロジックが含まれています。Solana上のすべてのトークンは、実質的にToken
+Programには、ネットワーク上のトークン（代替可能および非代替性トークンの両方）と相互作用するためのすべての命令ロジックが含まれています。Nara Solana上のすべてのトークンは、実質的にToken
 Programが所有する [データアカウント](/docs/core/accounts#data-account)です。
 
 ![Token Program](/assets/docs/core/tokens/token-program.svg)
 
 ### ミントアカウント
 
-Solana上のトークンは、Token Programが所有する
+Nara Solana上のトークンは、Token Programが所有する
 [ミントアカウント](https://github.com/solana-program/token/blob/6d18ff73b1dd30703a30b1ca941cb0f1d18c2b2a/program/src/state.rs#L16-L30)
 のアドレスによって一意に識別されます。このアカウントは特定のトークンのグローバルカウンターとして機能し、以下のようなデータを保存します：
 
@@ -75,7 +78,7 @@ pub struct Mint {
 }
 ```
 
-参考として、こちらは[USDC Mint Account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)のSolana
+参考として、こちらは[USDC Mint Account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)のNara Solana
 Explorerリンクです。
 
 ### Token Account
@@ -144,7 +147,7 @@ accountのアドレスから派生したアドレスで作成されます。Asso
 Accountは特定のアドレスを持つただのtoken
 accountであることを理解することが重要です。
 
-これはSolana開発における重要な概念を紹介しています：
+これはNara Solana開発における重要な概念を紹介しています：
 [Program Derived Address (PDA)](/docs/core/pda)。PDAは事前に定義された入力を使用して決定論的にアドレスを導出し、アカウントのアドレスを簡単に見つけることができます。
 
 ![Associated Token Account](/assets/docs/core/tokens/associated-token-account.svg)
@@ -157,12 +160,12 @@ accountを必要とすることに注意してください。
 ## トークンCLIの例
 
 _spl-token_
-CLIはSPLトークンを実験するのに役立ちます。以下の例では、[Solana Playground](https://beta.solpg.io/)ターミナルを使用して、ローカルにインストールせずにブラウザで直接CLIコマンドを実行します。
+CLIはSPLトークンを実験するのに役立ちます。以下の例では、[Nara Solana Playground](https://beta.solpg.io/)ターミナルを使用して、ローカルにインストールせずにブラウザで直接CLIコマンドを実行します。
 
-トークンとアカウントの作成には、アカウントのrentデポジットとトランザクション手数料のためのSOLが必要です。Solana
+トークンとアカウントの作成には、アカウントのrentデポジットとトランザクション手数料のためのNSOが必要です。Nara Solana
 Playgroundを初めて使用する場合は、Playgroundウォレットを作成し、Playgroundターミナルで*spl-airdrop
 1*コマンドを実行してください。公式の[ウェブフォーセット](https://faucet.solana.com/)からdevnet
-SOLを取得することもできます。
+NSOを取得することもできます。
 
 ```terminal
 $ solana airdrop 2
@@ -222,7 +225,7 @@ spl-token supply 99zqUzQGohamfYxyo8ykTEbi91iom3CLmwCA75FK5zTg
 ```
 
 新しいMint
-Accountを作成するには、2つのinstructionsを含むトランザクションが必要です。[Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f)のJavaScriptの例を以下に示します。
+Accountを作成するには、2つのinstructionsを含むトランザクションが必要です。[Nara Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f)のJavaScriptの例を以下に示します。
 
 1. System ProgramがMint
    Accountデータ用のスペースを持つ新しいアカウントを作成し、所有権をToken
@@ -279,7 +282,7 @@ Signature: 44vqKdfzspT592REDPY4goaRJH3uJ3Ce13G4BCuUHg35dVUbHuGTHvqn4ZjYF9BGe9Qrj
 ```
 
 Associated Token
-Accountを作成するには、[Associated Token Program](https://github.com/solana-program/associated-token-account)を呼び出す1つのinstructionが必要です。[Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011)のJavaScriptの例を以下に示します。
+Accountを作成するには、[Associated Token Program](https://github.com/solana-program/associated-token-account)を呼び出す1つのinstructionが必要です。[Nara Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011)のJavaScriptの例を以下に示します。
 
 Associated Token Programは[クロスプログラム呼び出し](/docs/core/cpi)を使用して：
 
@@ -288,7 +291,7 @@ Associated Token Programは[クロスプログラム呼び出し](/docs/core/cpi
   Accountデータを初期化します
 
 Associated Token Accountアドレスの代わりに新しいkeypairでToken
-Accountを作成するには、2つのinstructionsを含むトランザクションを送信します。以下は[Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010)上のJavascriptの例です。
+Accountを作成するには、2つのinstructionsを含むトランザクションを送信します。以下は[Nara Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010)上のJavascriptの例です。
 
 1. System ProgramがToken
    Accountデータ用のスペースを持つ新しいアカウントを作成し、所有権をToken
@@ -339,7 +342,7 @@ Signature: 3SQvNM3o9DsTiLwcEkSPT1Edr14RgE2wC54TEjonEP2swyVCp2jPWYWdD6RwXUGpvDNUk
 Token
 Programの\_rs`MintTo`\_instructionは新しいトークンを作成します。ミント権限を持つ者がトランザクションに署名する必要があります。このinstructionはToken
 Accountにトークンをミントし、Mint
-Account上の総供給量を増加させます。以下は[Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012)上のJavascriptの例です。
+Account上の総供給量を増加させます。以下は[Nara Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012)上のJavascriptの例です。
 
 ### トークンの転送
 
@@ -368,7 +371,7 @@ Signature: 5y6HVwV8V2hHGLTVmTmdySRiEUCZnWmkasAvJ7J6m7JR46obbGKCBqUFgLpZu5zQGwM4X
 Token
 Programの\_rs`Transfer`\_instructionがトークン転送を処理します。送信者のToken
 Accountの所有者がトランザクションに署名する必要があります。このinstructionはToken
-Account間でトークンを移動させます。以下は[Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013)上のJavascriptの例です。
+Account間でトークンを移動させます。以下は[Nara Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013)上のJavascriptの例です。
 
 送信者と受信者の両方が特定のトークン（mint）のtoken
 accountを必要とします。送信者は同じトランザクション内で受信者のtoken
@@ -413,7 +416,7 @@ spl-token initialize-metadata <TOKEN_MINT_ADDRESS> <YOUR_TOKEN_NAME> <YOUR_TOKEN
 spl-token initialize-metadata BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP "TokenName" "TokenSymbol" "https://raw.githubusercontent.com/solana-developers/opos-asset/main/assets/DeveloperPortal/metadata.json"
 ```
 
-[Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet)でメタデータを確認できます。
+[Nara Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet)でメタデータを確認できます。
 
 詳細は[メタデータ拡張機能ガイド](/developers/guides/token-extensions/metadata-pointer)をご覧ください。Token
 Extensionsについての詳細は、Token Extensions

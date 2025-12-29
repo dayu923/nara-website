@@ -1,13 +1,16 @@
 ---
+
 title: Transaktiomaksut
 description:
   Opi Solanan transaktiomaksuista, mukaan lukien perus- ja priorisointimaksut,
   miten kutakin sovelletaan ja parhaat käytännöt laskentayksiköiden hallintaan
   transaktioissasi.
+
 ---
 
-Jokaisesta Solana-transaktiosta veloitetaan transaktiomaksu, joka maksetaan
-SOL:lla. Transaktiomaksut jaetaan kahteen osaan: perusmaksuun ja
+
+Jokaisesta Nara Solana-transaktiosta veloitetaan transaktiomaksu, joka maksetaan
+NSO:lla. Transaktiomaksut jaetaan kahteen osaan: perusmaksuun ja
 priorisointimaksuun. Perusmaksu korvaa validaattoreille transaktion käsittelyn.
 Priorisointimaksu on valinnainen maksu, joka lisää mahdollisuutta, että nykyinen
 johtaja käsittelee transaktiosi.
@@ -22,7 +25,7 @@ Perusmaksu jaetaan seuraavasti:
 
 - **50% poltetaan:** Puolet
   [poltetaan](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)
-  (poistetaan liikkeellä olevasta SOL-tarjonnasta).
+  (poistetaan liikkeellä olevasta NSO-tarjonnasta).
 - **50% jaetaan:** Puolet
   [maksetaan validaattorille](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62),
   joka käsitteli transaktion.
@@ -101,7 +104,7 @@ katso reaaliaikainen laskentayksikön hintasuositus alla olevasta taulukosta.
 #### Esimerkki
 
 Alla olevat esimerkit näyttävät, miten laskentayksikön raja ja hinta asetetaan
-transaktiossa käyttäen Solana SDK:ta.
+transaktiossa käyttäen Nara Solana SDK:ta.
 
 | SDK                          | Lähdekoodin viite                                                                                                                                |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |

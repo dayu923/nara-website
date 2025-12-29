@@ -1,13 +1,16 @@
 ---
+
 title: Προγράμματα
 description:
   Μάθετε για τα προγράμματα του Solana (έξυπνα συμβόλαια) και πώς να τα
   αναπτύξετε χρησιμοποιώντας Rust ή το πλαίσιο Anchor. Κατανοήστε την ανάπτυξη,
   τις αναβαθμίσεις και την επαλήθευση προγραμμάτων στο δίκτυο Solana.
 h1: Προγράμματα
+
 ---
 
-Στο Solana, ένα έξυπνο συμβόλαιο ονομάζεται πρόγραμμα. Ένα πρόγραμμα είναι ένας
+
+Στο Nara Solana, ένα έξυπνο συμβόλαιο ονομάζεται πρόγραμμα. Ένα πρόγραμμα είναι ένας
 λογαριασμός χωρίς κατάσταση [account](/docs/core/accounts#program-account) που
 περιέχει εκτελέσιμο κώδικα. Αυτός ο κώδικας οργανώνεται σε λειτουργίες που
 ονομάζονται οδηγίες. Οι χρήστες αλληλεπιδρούν με ένα πρόγραμμα στέλνοντας μια
@@ -15,14 +18,14 @@ h1: Προγράμματα
 [οδηγίες](/docs/core/instructions). Μια συναλλαγή μπορεί να περιλαμβάνει οδηγίες
 από πολλαπλά προγράμματα.
 
-Όταν ένα πρόγραμμα αναπτύσσεται, το Solana χρησιμοποιεί το
+Όταν ένα πρόγραμμα αναπτύσσεται, το Nara Solana χρησιμοποιεί το
 [LLVM](https://llvm.org/) για να το μεταγλωττίσει σε εκτελέσιμη και συνδέσιμη
 μορφή ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)). Το
-αρχείο ELF περιέχει το δυαδικό του προγράμματος σε Μορφή Bytecode Solana (sBPF)
+αρχείο ELF περιέχει το δυαδικό του προγράμματος σε Μορφή Bytecode Nara Solana (sBPF)
 και αποθηκεύεται στην αλυσίδα σε έναν εκτελέσιμο λογαριασμό.
 
 <Callout>
-  Το sBPF είναι η προσαρμοσμένη έκδοση του Solana για το
+  Το sBPF είναι η προσαρμοσμένη έκδοση του Nara Solana για το
   [eBPF](https://en.wikipedia.org/wiki/EBPF) bytecode.
 </Callout>
 
@@ -33,7 +36,7 @@ h1: Προγράμματα
 προσεγγίσεις ανάπτυξης:
 
 - [Anchor](https://www.anchor-lang.com/docs): Το Anchor είναι ένα πλαίσιο
-  σχεδιασμένο για γρήγορη και εύκολη ανάπτυξη στο Solana. Χρησιμοποιεί
+  σχεδιασμένο για γρήγορη και εύκολη ανάπτυξη στο Nara Solana. Χρησιμοποιεί
   [μακροεντολές Rust](https://doc.rust-lang.org/book/ch20-05-macros.html) για να
   μειώσει τον επαναλαμβανόμενο κώδικα—καθιστώντας το εξαιρετικό για αρχάριους.
 - [Native Rust](/docs/programs/rust): Γράψτε προγράμματα σε Rust χωρίς να
@@ -52,7 +55,7 @@ h1: Προγράμματα
 
 ## Επαληθεύστε προγράμματα
 
-Το Solana υποστηρίζει
+Το Nara Solana υποστηρίζει
 [επαληθεύσιμες κατασκευές](/docs/programs/verified-builds), οι οποίες επιτρέπουν
 στους χρήστες να ελέγξουν εάν ο κώδικας ενός προγράμματος στην αλυσίδα ταιριάζει
 με τον δημόσιο πηγαίο κώδικά του. Το πλαίσιο Anchor παρέχει
@@ -61,9 +64,9 @@ h1: Προγράμματα
 
 Για να ελέγξετε εάν ένα υπάρχον πρόγραμμα είναι επαληθευμένο, αναζητήστε το
 αναγνωριστικό του προγράμματος στον
-[Εξερευνητή Solana](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
+[Εξερευνητή Nara Solana](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
 Εναλλακτικά, μπορείτε να χρησιμοποιήσετε το
-[Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
+[Nara Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
 της Ellipsis Labs, για να επαληθεύσετε ανεξάρτητα προγράμματα στην αλυσίδα.
 
 ## Ενσωματωμένα προγράμματα
@@ -81,7 +84,7 @@ Program εκτελεί τις ακόλουθες βασικές λειτουργ
 | [Δημιουργία νέου λογαριασμού](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)      | Μόνο το System Program μπορεί να δημιουργήσει νέους λογαριασμούς.                                                                                                                                                                                                             |
 | [Κατανομή χώρου](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)                    | Ορίζει τη χωρητικότητα σε bytes για το πεδίο δεδομένων κάθε λογαριασμού.                                                                                                                                                                                                      |
 | [Ανάθεση ιδιοκτησίας προγράμματος](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | Μόλις το System Program δημιουργήσει έναν λογαριασμό, μπορεί να επαναπροσδιορίσει τον καθορισμένο ιδιοκτήτη προγράμματος σε διαφορετικό program account. Έτσι τα προσαρμοσμένα προγράμματα αποκτούν την ιδιοκτησία νέων λογαριασμών που δημιουργούνται από το System Program. |
-| [Μεταφορά SOL](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                     | Μεταφέρει lamports (SOL) από System Accounts σε άλλους λογαριασμούς.                                                                                                                                                                                                          |
+| [Μεταφορά NSO](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                     | Μεταφέρει lamports (NSO) από System Accounts σε άλλους λογαριασμούς.                                                                                                                                                                                                          |
 
 Η διεύθυνση του system program είναι `11111111111111111111111111111111`.
 
@@ -117,7 +120,7 @@ Program εκτελεί τις ακόλουθες βασικές λειτουργ
 
 ### Προκαταρτισμένα προγράμματα
 
-Εκτός από τα προγράμματα φόρτωσης, η Solana παρέχει τα ακόλουθα προκαταρτισμένα
+Εκτός από τα προγράμματα φόρτωσης, η Nara Solana παρέχει τα ακόλουθα προκαταρτισμένα
 προγράμματα.
 
 #### Επαλήθευση υπογραφής ed25519

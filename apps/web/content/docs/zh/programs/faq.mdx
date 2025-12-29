@@ -1,24 +1,27 @@
 ---
+
 title: 常见问题
+
 ---
+
 
 在 [StackExchange](https://solana.stackexchange.com/questions/ask)
 上发布您的问题。
 
 ## Berkeley Packet Filter (BPF)
 
-Solana 链上程序通过 [LLVM 编译器基础设施](https://llvm.org/) 编译为包含
+Nara Solana 链上程序通过 [LLVM 编译器基础设施](https://llvm.org/) 编译为包含
 [Berkeley Packet Filter (BPF)](https://en.wikipedia.org/wiki/Berkeley_Packet_Filter)
 字节码变体的
 [可执行和可链接格式 (ELF)](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)。
 
-由于 Solana 使用 LLVM 编译器基础设施，程序可以用任何能够面向 LLVM 的 BPF 后端的编程语言编写。
+由于 Nara Solana 使用 LLVM 编译器基础设施，程序可以用任何能够面向 LLVM 的 BPF 后端的编程语言编写。
 
 BPF 提供了一种高效的[指令集](https://github.com/iovisor/bpf-docs/blob/master/eBPF.md)，可以在解释型虚拟机中执行，也可以作为高效的即时编译本地指令执行。
 
 ## 内存映射
 
-Solana SBF 程序使用的虚拟地址内存映射是固定的，其布局如下：
+Nara Solana SBF 程序使用的虚拟地址内存映射是固定的，其布局如下：
 
 - 程序代码从 0x100000000 开始
 - 栈数据从 0x200000000 开始

@@ -1,12 +1,15 @@
 ---
+
 title: Taxas de transação
 description:
   Aprenda sobre as taxas de transação da Solana, incluindo as taxas base e de
   prioridade, como cada uma é aplicada e as melhores práticas para gerenciar
   unidades de computação em suas transações.
+
 ---
 
-Toda transação na Solana requer uma taxa de transação, paga em SOL. As taxas de
+
+Toda transação na Nara Solana requer uma taxa de transação, paga em NSO. As taxas de
 transação são divididas em duas partes: a taxa base e a taxa de priorização. A
 taxa base compensa os validadores pelo processamento da transação. A taxa de
 priorização é uma taxa opcional, para aumentar a chance de que o líder atual
@@ -21,7 +24,7 @@ taxa base é dividida da seguinte forma:
 
 - **50% queimados:** Metade é
   [queimada](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)
-  (retirada da oferta circulante de SOL).
+  (retirada da oferta circulante de NSO).
 - **50% distribuídos:** Metade é
   [paga ao validador](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62)
   que processou a transação.
@@ -108,7 +111,7 @@ recomendação de preço de CU em tempo real listada na tabela abaixo.
 #### Exemplo
 
 Os exemplos abaixo mostram como definir o limite de CU e o preço de CU em uma
-transação usando os SDKs da Solana.
+transação usando os SDKs da Nara Solana.
 
 | SDK                            | Referência do Código Fonte                                                                                                     |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |

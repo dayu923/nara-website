@@ -1,11 +1,14 @@
 ---
+
 title: Mollusk
-description: Comprehensive guide to testing Solana programs using Mollusk
+description: Comprehensive guide to testing Nara Solana programs using Mollusk
+
 ---
 
+
 [Mollusk](https://github.com/anza-xyz/mollusk/tree/main) is a lightweight test
-harness for testing Solana programs. It provides a simple interface for testing
-Solana program instructions in a minified Solana Virtual Machine (SVM)
+harness for testing Nara Solana programs. It provides a simple interface for testing
+Nara Solana program instructions in a minified Nara Solana Virtual Machine (SVM)
 environment. All test accounts must be explicitly defined, ensuring
 deterministic and repeatable tests.
 
@@ -52,14 +55,14 @@ mollusk-svm-programs-token = "0.7"
 
 ## Mollusk SVM
 
-The following example shows a minimal setup for testing a basic Solana program
+The following example shows a minimal setup for testing a basic Nara Solana program
 using Mollusk.
 
 <ScrollyCoding>
 
 ## !!steps Hello World Program
 
-This example demonstrates how to test a basic Solana program using Mollusk. The
+This example demonstrates how to test a basic Nara Solana program using Mollusk. The
 program simply prints "Hello, world!" to the program logs when invoked.
 
 Running `cargo build-sbf` generates the compiled program at
@@ -69,7 +72,7 @@ Running `cargo build-sbf` generates the compiled program at
 
 <WithMentions>
 
-To test a Solana program with Mollusk:
+To test a Nara Solana program with Mollusk:
 
 1. [Create a `Mollusk` instance](mention:mollusk) - Initialize Mollusk with a
    program ID and the path to the compiled program (`.so` file)
@@ -177,7 +180,7 @@ solana-sdk = "2.2.0"
 
 The
 [`Mollusk`](https://docs.rs/mollusk-svm/0.5.0/mollusk_svm/struct.Mollusk.html)
-struct provides a simple interface for testing Solana programs. All fields can
+struct provides a simple interface for testing Nara Solana programs. All fields can
 be manipulated through a handful of helper methods, but users can also directly
 access and modify them if they desire more control.
 
@@ -243,7 +246,7 @@ pub fn process_instruction(
 ) -> InstructionResult
 ```
 
-The following example processes a SOL transfer instruction without validation
+The following example processes a NSO transfer instruction without validation
 checks.
 
 <Callout type="info">
@@ -326,7 +329,7 @@ pub fn process_and_validate_instruction(
 ) -> InstructionResult
 ```
 
-The following example processes a SOL transfer instruction with validation
+The following example processes a NSO transfer instruction with validation
 checks.
 
 <CodeTabs flags="r">
@@ -400,7 +403,7 @@ pub fn process_instruction_chain(
 ) -> InstructionResult
 ```
 
-The following example processes two SOL transfer instructions without validation
+The following example processes two NSO transfer instructions without validation
 checks.
 
 <CodeTabs flags="r">
@@ -488,7 +491,7 @@ pub fn process_and_validate_instruction_chain(
 ) -> InstructionResult
 ```
 
-The following example processes a chain of two SOL transfer instructions with
+The following example processes a chain of two NSO transfer instructions with
 validation checks after each instruction.
 
 <CodeTabs flags="r">
@@ -686,7 +689,7 @@ account_store.insert(
 let context = mollusk.with_context(account_store);
 ```
 
-The following example processes two separate SOL transfer instructions with
+The following example processes two separate NSO transfer instructions with
 persistent account state between the instructions through the `account_store`.
 
 <CodeTabs flags="r">
@@ -830,7 +833,7 @@ Requires
 [`mollusk-svm-bencher`](https://docs.rs/mollusk-svm-bencher/0.5.0/mollusk_svm_bencher/index.html)
 as a dependency.
 
-The following example benchmarks the compute unit usage of a SOL transfer
+The following example benchmarks the compute unit usage of a NSO transfer
 instruction.
 
 <CodeTabs>

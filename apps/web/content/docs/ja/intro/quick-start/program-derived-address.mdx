@@ -1,10 +1,13 @@
 ---
+
 title: 決定論的アカウントの作成
 description:
   Program Derived
   Addresses（PDAs）とAnchorフレームワークを使用して、CRUD（作成、読み取り、更新、削除）Solanaプログラムを構築する方法を学びます。このステップバイステップのガイドでは、PDAsを使用してオンチェーンメッセージアカウントを作成、更新、削除する方法、アカウント検証を実装する方法、およびテストを作成する方法を説明します。SolanaプログラムでPDAsを使用する方法を理解したい開発者に最適です。
 h1: Program Derived Address
+
 ---
+
 
 このセクションでは、基本的なCreate, Read, Update,
 Delete（CRUD）プログラムの構築方法を学びます。
@@ -12,7 +15,7 @@ Delete（CRUD）プログラムの構築方法を学びます。
 このガイドでは、ユーザーがメッセージを作成、更新、削除できるシンプルなプログラムを紹介します。各メッセージは、プログラム自体から派生した決定論的なアドレス（Program
 Derived AddressまたはPDA）を持つアカウントに存在します。
 
-このガイドでは、Anchorフレームワークを使用してSolanaプログラムを構築しテストする方法を説明しながら、Program
+このガイドでは、Anchorフレームワークを使用してNara Solanaプログラムを構築しテストする方法を説明しながら、Program
 Derived
 Addresses（PDAs）を実演します。詳細については、[Program Derived Addresses](/docs/core/pda)ページを参照してください。
 
@@ -24,7 +27,7 @@ Invocation（CPI）の両方のセクションを完了した後の[最終コー
 
 ### スターターコード
 
-まず、スターターコードが含まれているこの[Solana Playgroundリンク](https://beta.solpg.io/66734b7bcffcf4b13384d1ad)を開きます。次に「Import」ボタンをクリックして、プログラムをSolana
+まず、スターターコードが含まれているこの[Nara Solana Playgroundリンク](https://beta.solpg.io/66734b7bcffcf4b13384d1ad)を開きます。次に「Import」ボタンをクリックして、プログラムをNara Solana
 Playgroundプロジェクトに追加します。
 
 ![インポート](/assets/docs/intro/quickstart/pg-import.png)
@@ -768,11 +771,11 @@ $ build
 を実行してプログラムをデプロイします。
 
 <Callout type="info">
-この例では、開発テスト用のSolanaクラスターであるdevnetにプログラムをデプロイします。
+この例では、開発テスト用のNara Solanaクラスターであるdevnetにプログラムをデプロイします。
 
 Playgroundウォレットはデフォルトでdevnetに接続します。プログラムのデプロイ費用を支払うために、Playgroundウォレットにdevnet
-SOLがあることを確認してください。devnet
-SOLは[Solana Faucet](https://faucet.solana.com/)から入手できます。
+NSOがあることを確認してください。devnet
+NSOは[Nara Solana Faucet](https://faucet.solana.com/)から入手できます。
 
 </Callout>
 
@@ -843,7 +846,7 @@ const [messagePda, messageBump] = PublicKey.findProgramAddressSync(
 
 <WithMentions>
 
-Solana Playgroundでは、いくつかの定型的なセットアップが省略されています。
+Nara Solana Playgroundでは、いくつかの定型的なセットアップが省略されています。
 [`pg.program`](mention:one)はプログラムとやり取りするためのメソッドへのアクセスを提供し、[`pg.wallet`](mention:two)はあなたのプレイグラウンドウォレットへのアクセスを提供します。
 
 ```ts title="anchor.test.ts"
@@ -1089,7 +1092,7 @@ _ts`fetch()`_ メソッドはネットワークからアカウントデータを
 
 まず、テストファイルは `update`
 命令を呼び出すトランザクションを送信し、新しいメッセージとして「Hello,
-Solana!」を渡します。
+Nara Solana!」を渡します。
 
 ```ts title="anchor.test.ts"
 const message = "Hello, Solana!";

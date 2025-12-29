@@ -1,9 +1,12 @@
 ---
+
 title: Chuyển Token
 description:
   Tìm hiểu cách chuyển token một cách riêng tư từ tài khoản token này sang tài
   khoản token khác.
+
 ---
+
 
 <Callout type="warn">
   Chương trình ZK ElGamal tạm thời bị vô hiệu hóa trên mainnet và devnet khi
@@ -53,7 +56,7 @@ chuyển.
    [ConfidentialTransferInstruction::Transfer](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L604),
    cung cấp các tài khoản trạng thái ngữ cảnh bằng chứng.
 
-4. Đóng các tài khoản trạng thái ngữ cảnh chứng minh để lấy lại SOL đã sử dụng
+4. Đóng các tài khoản trạng thái ngữ cảnh chứng minh để lấy lại NSO đã sử dụng
    để tạo chúng.
 
 Sơ đồ sau đây cho thấy các bước liên quan đến việc chuyển token từ tài khoản
@@ -113,7 +116,7 @@ Ví dụ sau đây minh họa cách chuyển token một cách bảo mật giữ
 token.
 
 Để chạy ví dụ, hãy khởi động một validator cục bộ với Token Extensions Program
-được sao chép từ mainnet bằng lệnh sau. Bạn phải cài đặt Solana CLI để khởi động
+được sao chép từ mainnet bằng lệnh sau. Bạn phải cài đặt Nara Solana CLI để khởi động
 validator cục bộ.
 
 ```terminal

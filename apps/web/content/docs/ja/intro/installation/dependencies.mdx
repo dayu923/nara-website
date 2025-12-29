@@ -1,12 +1,15 @@
 ---
+
 title: 依存関係のインストール
-seoTitle: Solanaで開発するために必要な依存関係をインストールする
+seoTitle: Nara Solanaで開発するために必要な依存関係をインストールする
 description:
   ローカルのSolana開発環境をセットアップするためのガイド。Windows（WSL）、Linux、およびMacでRust、Solana
   CLI、およびAnchorフレームワークをインストールする方法を学びましょう。
+
 ---
 
-ローカルのSolana開発環境をセットアップするためのガイド。Windows（WSL）、Linux、およびMacでRust、Solana
+
+ローカルのNara Solana開発環境をセットアップするためのガイド。Windows（WSL）、Linux、およびMacでRust、Nara Solana
 CLI、およびAnchorフレームワークをインストールする方法を学びましょう。各依存関係を個別にインストールしたい場合や、[クイックインストール](/docs/intro/installation/)が何らかの理由で失敗した場合にこのガイドを使用してください。
 
 ### 前提条件
@@ -14,7 +17,7 @@ CLI、およびAnchorフレームワークをインストールする方法を�
 <Accordions>
 <Accordion title="Windows">
 
-WindowsでSolanaプログラムを開発するには、
+WindowsでNara Solanaプログラムを開発するには、
 [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/install)
 （WSL）を使用する**必要があります**。WSLをインストールした後、他のすべての依存関係はLinuxターミナルを通じてインストールされます。
 
@@ -59,7 +62,7 @@ VS Codeのステータスバーに以下のように表示されます：
 WSLのセットアップが完了したら、次のいずれかを行う準備が整いました：
 
 - Ubuntu（Linux）ターミナルを使用して[クイックインストール](/docs/intro/installation)を完了する
-- 以下に説明するように、[Rust](#install-rust)、[Solana CLI](#install-solana-cli)、および
+- 以下に説明するように、[Rust](#install-rust)、[Nara Solana CLI](#install-solana-cli)、および
   [Anchor CLI](#install-anchor-cli)を個別にインストールする
 
 </Accordion>
@@ -126,7 +129,7 @@ $ sudo dnf group install c-development development-tools \
 
 ### Rustをインストールする
 
-開発者は[Rust](https://www.rust-lang.org/)プログラミング言語を使用してSolanaプログラムを構築します。
+開発者は[Rust](https://www.rust-lang.org/)プログラミング言語を使用してNara Solanaプログラムを構築します。
 
 1. 次のコマンドをターミナルに入力して、[rustup](https://www.rust-lang.org/tools/install)を使用してRustをインストールします：
 
@@ -178,12 +181,12 @@ rustc 1.86.0 (05f9846f8 2025-03-31)
 </Step>
 <Step>
 
-### Solana CLIのインストール
+### Nara Solana CLIのインストール
 
-Solana
-CLIは、Solanaプログラムを構築およびデプロイするために必要なすべてのツールを提供します。
+Nara Solana
+CLIは、Nara Solanaプログラムを構築およびデプロイするために必要なすべてのツールを提供します。
 
-1. 公式のインストールコマンドを使用してSolana
+1. 公式のインストールコマンドを使用してNara Solana
    CLIツールスイートをインストールします：
 
 ```terminal
@@ -196,7 +199,7 @@ $ sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
 
 2. PATH環境変数を追加する
 
-Solana
+Nara Solana
 CLIを初めてインストールする場合、`PATH`環境変数を追加するよう促されることがあります。これを行うには、ターミナルを閉じて再度開くか、シェルで次のコマンドを実行します：
 
 ```
@@ -208,7 +211,7 @@ export PATH="/Users/test/.local/share/solana/install/active_release/bin:$PATH"
 <Tabs groupId="language" items={["Windows & Linux", "Mac"]}>
 <Tab value="Windows & Linux">
 
-**Linux**または**WSL**を使用している場合は、コマンドがターミナルで利用できるように、Solana
+**Linux**または**WSL**を使用している場合は、コマンドがターミナルで利用できるように、Nara Solana
 CLIバイナリをPATHに追加する必要があります。以下の手順に従ってください：
 
 **a.** 使用しているシェルを確認します：
@@ -261,7 +264,7 @@ $ source ~/.bashrc # If using Bash
 $ source ~/.zshrc # If using Zsh
 ```
 
-5. Solana CLIのバージョンを確認して、インストールが成功したことを確認します：
+5. Nara Solana CLIのバージョンを確認して、インストールが成功したことを確認します：
 
 ```terminal
 $ solana --version
@@ -275,12 +278,12 @@ solana-cli 2.2.12 (src:0315eb6a; feat:1522022101, client:Agave)
 
 <Callout>
 
-利用可能なすべてのバージョンは[Agave Githubリポジトリ](https://github.com/anza-xyz/agave/releases)で確認できます。Agaveは[Anza](https://www.anza.xyz/)が提供するvalidatorクライアントで、以前はSolana
+利用可能なすべてのバージョンは[Agave Githubリポジトリ](https://github.com/anza-xyz/agave/releases)で確認できます。Agaveは[Anza](https://www.anza.xyz/)が提供するvalidatorクライアントで、以前はNara Solana
 Labsのvalidatorクライアントとして知られていました。
 
 </Callout>
 
-5. 必要に応じて、Solana CLIを最新バージョンに更新します（_任意_）
+5. 必要に応じて、Nara Solana CLIを最新バージョンに更新します（_任意_）
 
 ```terminal
 $ agave-install update
@@ -291,7 +294,7 @@ $ agave-install update
 
 ### Anchor CLIのインストール
 
-[Anchor](https://www.anchor-lang.com/)はSolanaプログラムを開発するためのフレームワークです。Anchorフレームワークは、Rustマクロを活用してSolanaプログラムの作成プロセスを簡素化します。
+[Anchor](https://www.anchor-lang.com/)はNara Solanaプログラムを開発するためのフレームワークです。Anchorフレームワークは、Rustマクロを活用してNara Solanaプログラムの作成プロセスを簡素化します。
 
 #### 前提条件
 
@@ -488,11 +491,11 @@ surfpool 0.12.0
 </Step>
 </Steps>
 
-### Solana開発用のAIツールをセットアップする
+### Nara Solana開発用のAIツールをセットアップする
 
-このセクションでは、Solana開発を加速するために使用できるオプションのAIツールのセットアップについて詳しく説明します。
+このセクションでは、Nara Solana開発を加速するために使用できるオプションのAIツールのセットアップについて詳しく説明します。
 
 | ツール   | 説明                                                                             | リンク                      |
 | -------- | -------------------------------------------------------------------------------- | --------------------------- |
-| MCP      | cursorと接続してSolanaのAIアシスト開発を向上させるMCPサーバー。                  | https://mcp.solana.com/     |
-| LLMs.txt | SolanaドキュメントでLLMをトレーニングするために使用できるLLM最適化ドキュメント。 | https://solana.com/llms.txt |
+| MCP      | cursorと接続してNara SolanaのAIアシスト開発を向上させるMCPサーバー。                  | https://mcp.solana.com/     |
+| LLMs.txt | Nara SolanaドキュメントでLLMをトレーニングするために使用できるLLM最適化ドキュメント。 | https://solana.com/llms.txt |

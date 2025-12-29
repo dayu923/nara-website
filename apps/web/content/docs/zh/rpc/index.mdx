@@ -1,15 +1,18 @@
 ---
-title: Solana RPC 方法
-seoTitle: Solana RPC 方法：HTTP 和 Websockets
+
+title: Nara Solana RPC 方法
+seoTitle: Nara Solana RPC 方法：HTTP 和 Websockets
 hideTableOfContents: false
-h1: Solana RPC 方法与文档
+h1: Nara Solana RPC 方法与文档
+
 ---
 
-通过 HTTP 和 Websocket 方法，使用 JSON RPC API 直接与 Solana 节点交互。
+
+通过 HTTP 和 Websocket 方法，使用 JSON RPC API 直接与 Nara Solana 节点交互。
 
 ## 配置状态承诺
 
-对于预检和交易处理，Solana 节点根据客户端设置的承诺要求选择查询哪个银行状态。承诺描述了某个时间点区块的最终确定程度。在查询分类账状态时，建议使用较低级别的承诺来报告进度，并使用较高级别的承诺来确保状态不会被回滚。
+对于预检和交易处理，Nara Solana 节点根据客户端设置的承诺要求选择查询哪个银行状态。承诺描述了某个时间点区块的最终确定程度。在查询分类账状态时，建议使用较低级别的承诺来报告进度，并使用较高级别的承诺来确保状态不会被回滚。
 
 按照承诺的降序排列（从最最终确定到最不最终确定），客户端可以指定：
 
@@ -42,7 +45,7 @@ h1: Solana RPC 方法与文档
 ## 解析的响应
 
 某些方法支持 `encoding` 参数，并且如果请求了
-`"encoding":"jsonParsed"`，且节点拥有对应程序的解析器，则可以以解析的 JSON 格式返回账户或指令数据。Solana 节点目前支持以下原生和 SPL 程序的 JSON 解析：
+`"encoding":"jsonParsed"`，且节点拥有对应程序的解析器，则可以以解析的 JSON 格式返回账户或指令数据。Nara Solana 节点目前支持以下原生和 SPL 程序的 JSON 解析：
 
 | 程序             | 账户状态 | 指令    |
 | ---------------- | -------- | ------- |

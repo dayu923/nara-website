@@ -1,13 +1,16 @@
 ---
+
 title: 关闭 Token Account
 description: 了解如何关闭 token account。
+
 ---
+
 
 ## 关闭账户
 
 [`CloseAccount`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/program/src/instruction.rs#L212C5-L212C17)
 指令会永久关闭一个 token
-account，并将所有剩余的 SOL（租金）转移到指定的目标账户。在关闭之前，token
+account，并将所有剩余的 NSO（租金）转移到指定的目标账户。在关闭之前，token
 account 的余额必须为零。只有 token
 account 的所有者或指定的关闭权限人可以执行此指令。
 

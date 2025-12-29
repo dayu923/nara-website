@@ -1,21 +1,24 @@
 ---
+
 title: How to Create an Account
 description:
   "Accounts are the basic building blocks of anything on Solana. Learn how to
   create accounts on the Solana blockchain."
+
 ---
 
-To create an account on Solana, invoke the
+
+To create an account on Nara Solana, invoke the
 [System Program's](https://github.com/solana-program/system) `createAccount`
 instruction. This instruction requires you to specify the the number of bytes
 (`space`) for the new account and fund it with lamports for the allocated bytes
 (rent). The account's owner program is set as the program specified in the
-instruction. The Solana runtime enforces that only this owner program can modify
+instruction. The Nara Solana runtime enforces that only this owner program can modify
 the account's data or transfer lamports from it.
 
 <Callout type="info">
 
-On Solana, only the System Program can create new accounts. To create accounts
+On Nara Solana, only the System Program can create new accounts. To create accounts
 owned by other programs, invoke the `createAccount` instruction to create a new
 account and set the owner program to the desired program. The new program owner
 can then initialize the account data through its own instructions.

@@ -1,11 +1,14 @@
 ---
+
 title: 交易
 description:
   了解 Solana 交易——与 Solana
   区块链交互的基本构建块。通过实际示例了解交易结构和指令组成。
+
 ---
 
-要与 Solana 网络交互，您必须发送一笔交易。您可以将交易视为一个装有多种表单的信封。每个表单都是一条指令，告诉网络该做什么。发送交易就像邮寄信封，以便处理这些表单。
+
+要与 Nara Solana 网络交互，您必须发送一笔交易。您可以将交易视为一个装有多种表单的信封。每个表单都是一条指令，告诉网络该做什么。发送交易就像邮寄信封，以便处理这些表单。
 
 下面的示例展示了两个交易的简化版本。当第一个交易被处理时，它将执行一条指令。当第二个交易被处理时，它将按**顺序**执行三条指令：首先是指令 1，然后是指令 2，最后是指令 3。
 
@@ -49,7 +52,7 @@ pub struct Transaction {
 <Callout>
   此限制旨在避免典型互联网基础设施上的数据包分片。虽然 IPv6 支持大于 9000 字节的
   MTU，但大多数互联网路由器使用 1500 字节的默认
-  MTU（标准以太网）。为了确保交易能够在不分片的情况下适合单个数据包，Solana 使用
+  MTU（标准以太网）。为了确保交易能够在不分片的情况下适合单个数据包，Nara Solana 使用
   1280 字节（IPv6 所需的最小 MTU）减去 48 字节的网络头（40 字节的 IPv6 + 8
   字节的分片/UDP 头），最终得出 1232 字节的交易大小限制。
 </Callout>
@@ -217,7 +220,7 @@ pub struct CompiledInstruction {
 
 ## 示例交易结构
 
-以下示例展示了包含单个 SOL 转账指令的交易结构。
+以下示例展示了包含单个 NSO 转账指令的交易结构。
 
 <CodeTabs storage="sol-transfer" flags="r">
 
@@ -465,7 +468,7 @@ async fn main() -> Result<()> {
 RPC 方法检索其详细信息。响应的结构将类似于以下代码片段。
 
 <Callout>
-  您还可以使用 [Solana Explorer](https://explorer.solana.com) 查找交易。
+  您还可以使用 [Nara Solana Explorer](https://explorer.solana.com) 查找交易。
 </Callout>
 
 ```json title="Transaction Data"

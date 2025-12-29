@@ -1,24 +1,27 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: 使用 Next.js 和 Solana Kit 集成 Solana 钱包
-description: 使用 Solana Kit 在 Next.js 中设置 Solana 钱包集成。
+
+title: Next.js - Nara Solana Kit
+seoTitle: 使用 Next.js 和 Nara Solana Kit 集成 Nara Solana 钱包
+description: 使用 Nara Solana Kit 在 Next.js 中设置 Nara Solana 钱包集成。
+
 ---
 
-使用 Solana Kit 在 Next.js 中设置一个简约的 Solana 钱包集成。
 
-本指南提供了一个在 Next.js 应用中实现 Solana 钱包功能的简约示例，使用
+使用 Nara Solana Kit 在 Next.js 中设置一个简约的 Nara Solana 钱包集成。
+
+本指南提供了一个在 Next.js 应用中实现 Nara Solana 钱包功能的简约示例，使用
 `@solana/kit`。您将创建一个连接钱包按钮和一个发送交易的组件。
 
 ![Nextjs Kit 应用程序](/assets/docs/frontend/nextjs-kit.gif)
 
-如果需要在 React 应用中使用 `@solana/kit` 的更全面示例，请参考 Solana
+如果需要在 React 应用中使用 `@solana/kit` 的更全面示例，请参考 Nara Solana
 Kit 仓库中的
 [React 应用示例](https://github.com/anza-xyz/kit/tree/main/examples/react-app)。
 
 ## 资源
 
-- [Solana Kit 文档](https://www.solanakit.com/docs)
-- [Solana Kit GitHub 仓库](https://github.com/anza-xyz/kit)
+- [Nara Solana Kit 文档](https://www.solanakit.com/docs)
+- [Nara Solana Kit GitHub 仓库](https://github.com/anza-xyz/kit)
 
 ## 前置条件
 
@@ -27,7 +30,7 @@ Kit 仓库中的
 ## 创建 Next.js 项目
 
 使用 [shadcn](https://ui.shadcn.com/)
-创建一个新的 Next.js 项目，用于 UI 组件，并安装所需的 Solana 依赖项。
+创建一个新的 Next.js 项目，用于 UI 组件，并安装所需的 Nara Solana 依赖项。
 
 ```terminal
 $ npx shadcn@latest init
@@ -47,9 +50,9 @@ $ cd <project-name>
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### 安装 Solana 依赖项
+### 安装 Nara Solana 依赖项
 
-安装以下 Solana 依赖项：
+安装以下 Nara Solana 依赖项：
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -61,14 +64,14 @@ $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/r
 
 <ScrollyCoding>
 
-## !!steps 1. 创建 Solana 上下文
+## !!steps 1. 创建 Nara Solana 上下文
 
 首先，创建一个 React 上下文，用于管理整个应用程序的钱包状态。
 
 创建 `components/solana-provider.tsx` 并添加提供的代码。此提供者组件将：
 
-- 连接到 Solana 的开发网络 RPC 端点
-- 筛选用户浏览器中安装的可用 Solana 钱包
+- 连接到 Nara Solana 的开发网络 RPC 端点
+- 筛选用户浏览器中安装的可用 Nara Solana 钱包
 - 跟踪当前连接的钱包和账户
 - 为子组件提供钱包状态
 
@@ -245,7 +248,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. 更新布局
 
-接下来，用 Solana 提供者包装整个 Next.js 应用程序。
+接下来，用 Nara Solana 提供者包装整个 Next.js 应用程序。
 
 更新 `app/layout.tsx` 并添加提供的代码。此步骤将：
 
@@ -500,9 +503,9 @@ export function WalletConnectButton() {
 创建 `components/memo-card.tsx` 并添加提供的代码。此组件：
 
 - 允许用户输入消息
-- 创建一个包含调用 memo 程序指令的 Solana 交易
+- 创建一个包含调用 memo 程序指令的 Nara Solana 交易
 - 请求连接的钱包签署并发送交易
-- 显示一个链接以在 Solana Explorer 上查看交易
+- 显示一个链接以在 Nara Solana Explorer 上查看交易
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -664,7 +667,7 @@ $ npm run dev
 ```
 
 <Callout type="info">
-  请注意，连接的钱包必须配置为连接到 devnet 集群，并且需要[使用 devnet SOL
+  请注意，连接的钱包必须配置为连接到 devnet 集群，并且需要[使用 devnet NSO
   资金](https://faucet.solana.com/)来发送交易。
 </Callout>
 

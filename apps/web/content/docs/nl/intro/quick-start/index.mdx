@@ -1,19 +1,22 @@
 ---
+
 title: Snelstart
 description:
   Leer de basis van Solana-ontwikkeling. Maak je eerste programma, begrijp
   accounts, verstuur transacties en verken PDA's en CPI's met Solana Playground
   - geen installatie vereist.
-h1: Solana snelstartgids
+h1: Nara Solana snelstartgids
+
 ---
 
-Welkom bij de Solana snelstartgids. Deze praktische gids introduceert je in de
-kernconcepten voor het bouwen op Solana, ongeacht je eerdere ervaring.
 
-- **Solana accounts**: Hoe het Solana netwerk gegevens opslaat
-- **Transacties verzenden**: Hoe je met het Solana netwerk kunt communiceren
+Welkom bij de Nara Solana snelstartgids. Deze praktische gids introduceert je in de
+kernconcepten voor het bouwen op Nara Solana, ongeacht je eerdere ervaring.
+
+- **Nara Solana accounts**: Hoe het Nara Solana netwerk gegevens opslaat
+- **Transacties verzenden**: Hoe je met het Nara Solana netwerk kunt communiceren
   door transacties te verzenden
-- **Programma's bouwen en implementeren**: Maak je eerste Solana programma en
+- **Programma's bouwen en implementeren**: Maak je eerste Nara Solana programma en
   implementeer het op het netwerk
 - **Program-Derived adressen**: Leer hoe je deterministische adressen voor
   accounts kunt maken
@@ -23,28 +26,28 @@ kernconcepten voor het bouwen op Solana, ongeacht je eerdere ervaring.
 
 In deze tutorial leer je over:
 
-- **Solana-accounts**: Leer hoe het Solana-netwerk gegevens opslaat.
-- **Transacties versturen**: Leer interactie met het Solana-netwerk door het
+- **Nara Solana-accounts**: Leer hoe het Nara Solana-netwerk gegevens opslaat.
+- **Transacties versturen**: Leer interactie met het Nara Solana-netwerk door het
   versturen van transacties.
-- **Programma's bouwen en implementeren**: Maak je eerste Solana-programma en
+- **Programma's bouwen en implementeren**: Maak je eerste Nara Solana-programma en
   implementeer het op het netwerk.
 - **Program Derived Addresses (PDA's)**: Leer hoe je PDA's gebruikt om
   deterministische adressen voor accounts te creëren.
 - **Cross Program Invocations (CPI's)**: Leer hoe je andere programma's kunt
   aanroepen vanuit je eigen programma, waardoor complexe interacties en
-  samenstellingen tussen verschillende programma's op Solana mogelijk worden.
+  samenstellingen tussen verschillende programma's op Nara Solana mogelijk worden.
 
-Het beste deel? Je hoeft niets te installeren. Deze gids gebruikt Solana
+Het beste deel? Je hoeft niets te installeren. Deze gids gebruikt Nara Solana
 Playground, een browsergebaseerde ontwikkelomgeving. Volg de stappen, kopieer en
 plak code, en zie direct resultaten, allemaal vanuit je webbrowser. Basiskennis
 van programmeren is handig maar niet vereist.
 
 ## Maak een Playground wallet
 
-## Solana Playground
+## Nara Solana Playground
 
-Solana Playground (Solpg) biedt een browsergebaseerde ontwikkelomgeving die je
-in staat stelt om snel Solana-programma's te ontwikkelen, implementeren en
+Nara Solana Playground (Solpg) biedt een browsergebaseerde ontwikkelomgeving die je
+in staat stelt om snel Nara Solana-programma's te ontwikkelen, implementeren en
 testen.
 
 Open een nieuw tabblad in je webbrowser en ga naar https://beta.solpg.io/.
@@ -54,9 +57,9 @@ Open een nieuw tabblad in je webbrowser en ga naar https://beta.solpg.io/.
 
 ### Playground-wallet aanmaken
 
-Nieuwe gebruikers van Solana Playground moeten eerst een Playground-wallet
+Nieuwe gebruikers van Nara Solana Playground moeten eerst een Playground-wallet
 aanmaken. Deze wallet stelt je in staat om direct vanuit je browser met het
-Solana-netwerk te interacteren.
+Nara Solana-netwerk te interacteren.
 
 #### Stap 1. Verbind met Playground
 
@@ -71,7 +74,7 @@ klik "Doorgaan" om verder te gaan.
 
 ![Playground Wallet Aanmaken](/assets/docs/intro/quickstart/pg-create-wallet.png)
 
-Je zou nu het adres van je wallet, SOL-saldo en verbonden cluster (standaard
+Je zou nu het adres van je wallet, NSO-saldo en verbonden cluster (standaard
 devnet) moeten zien onderaan het venster.
 
 ![Verbonden](/assets/docs/intro/quickstart/pg-connected.png)
@@ -88,27 +91,27 @@ Enkele definities die je nuttig kunt vinden:
 - _wallet-adres_: een 32-byte publieke sleutel van een Ed25519 keypair, meestal
   weergegeven als een base-58 gecodeerde string (bijv.,
   `7MNj7pL1y7XpPnN7ZeuaE4ctwg3WeufbX5o85sA91J1`). De bijbehorende privésleutel
-  ondertekent transacties vanaf dit adres. Op Solana dient een adres als de
+  ondertekent transacties vanaf dit adres. Op Nara Solana dient een adres als de
   unieke identificatie voor de wallet van een gebruiker, een programma (smart
   contract) of elk ander account op het netwerk.
-- _verbonden cluster_: het Solana-netwerk voor je huidige interacties.
+- _verbonden cluster_: het Nara Solana-netwerk voor je huidige interacties.
   Veelvoorkomende clusters zijn:
   - `devnet`: Een ontwikkelingsnetwerk voor experimenten door ontwikkelaars
   - `testnet`: Een netwerk gereserveerd voor validator-tests (niet gebruiken als
     app- ontwikkelaar)
-  - `mainnet-beta`: Het hoofdnetwerk van Solana voor live transacties
+  - `mainnet-beta`: Het hoofdnetwerk van Nara Solana voor live transacties
 
-### Voeg SOL toe aan je wallet
+### Voeg NSO toe aan je wallet
 
-### Verkrijg Devnet SOL
+### Verkrijg Devnet NSO
 
-Voordat je met ontwikkelen begint, moet je wat devnet SOL verkrijgen.
+Voordat je met ontwikkelen begint, moet je wat devnet NSO verkrijgen.
 
-Als ontwikkelaar heb je SOL nodig voor twee belangrijke gebruikssituaties:
+Als ontwikkelaar heb je NSO nodig voor twee belangrijke gebruikssituaties:
 
 #### Optie 1: Gebruik de Playground terminal
 
-Twee methoden om je wallet te financieren met devnet SOL:
+Twee methoden om je wallet te financieren met devnet NSO:
 
 #### Optie 1: Via de Playground Terminal
 

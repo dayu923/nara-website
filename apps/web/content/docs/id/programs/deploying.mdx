@@ -1,11 +1,14 @@
 ---
+
 title: Menerapkan Program
 description:
   Panduan lengkap untuk membangun, men-deploy, dan mengelola program Solana
   menggunakan Solana CLI.
+
 ---
 
-Bagian ini membahas proses dasar men-deploy program Solana menggunakan Solana
+
+Bagian ini membahas proses dasar men-deploy program Nara Solana menggunakan Nara Solana
 CLI.
 
 ## Referensi Perintah CLI
@@ -42,9 +45,9 @@ Sebelum memulai, mari perjelas beberapa terminologi:
 
 <Step>
 
-### Instal Solana CLI
+### Instal Nara Solana CLI
 
-Pertama, [instal Solana CLI](/docs/intro/installation).
+Pertama, [instal Nara Solana CLI](/docs/intro/installation).
 
 </Step>
 
@@ -67,7 +70,7 @@ Ini akan membuat keypair di `~/.config/solana/id.json` secara default.
 
 ### Konfigurasi Cluster
 
-Pilih cluster Solana mana yang akan digunakan untuk deployment. Gunakan perintah
+Pilih cluster Nara Solana mana yang akan digunakan untuk deployment. Gunakan perintah
 `solana config get` untuk memeriksa konfigurasi saat ini:
 
 ```terminal
@@ -95,7 +98,7 @@ $ solana config set --url "https://your-rpc-url.com"
 
 ### Dana Wallet
 
-Anda akan membutuhkan SOL untuk membayar deployment program. Jumlahnya
+Anda akan membutuhkan NSO untuk membayar deployment program. Jumlahnya
 tergantung pada ukuran program Anda.
 
 Untuk devnet atau localhost, danai wallet Anda menggunakan perintah
@@ -133,7 +136,7 @@ $ cargo build-sbf
 
 ## !!steps Contoh Program
 
-Berikut adalah program Solana minimal yang mencetak "Hello, Solana!" ke log
+Berikut adalah program Nara Solana minimal yang mencetak "Hello, Nara Solana!" ke log
 program.
 
 <CodePlaceholder title="src/lib.rs" />
@@ -171,8 +174,8 @@ solana program deploy target/deploy/hello_world.so
 
 ### Periksa Ukuran dan Biaya Program
 
-Menerapkan program memerlukan SOL yang dialokasikan ke akun program berdasarkan
-ukuran program. Program yang lebih besar membutuhkan lebih banyak SOL untuk
+Menerapkan program memerlukan NSO yang dialokasikan ke akun program berdasarkan
+ukuran program. Program yang lebih besar membutuhkan lebih banyak NSO untuk
 diterapkan.
 
 Periksa ukuran program Anda:
@@ -181,14 +184,14 @@ Periksa ukuran program Anda:
 ls -l target/deploy/hello_world.so
 ```
 
-Hitung SOL yang diperlukan untuk ukuran ini (byte):
+Hitung NSO yang diperlukan untuk ukuran ini (byte):
 
 ```bash
 solana program cost target/deploy/hello_world.so
 ```
 
 <Callout type="info">
-  Anda akan membutuhkan sedikit lebih banyak SOL daripada yang ditampilkan untuk
+  Anda akan membutuhkan sedikit lebih banyak NSO daripada yang ditampilkan untuk
   menutupi biaya transaksi penerapan.
 </Callout>
 
@@ -239,7 +242,7 @@ Jika program yang diperbarui memerlukan lebih banyak ruang (byte) daripada yang
 dialokasikan saat ini, deployment akan secara otomatis memperluas program
 account. Ini terjadi ketika program baru Anda lebih besar dari versi sebelumnya.
 Program account membutuhkan byte tambahan untuk menyimpan program baru. CLI akan
-menghitung SOL yang diperlukan dan menguranginya dari dompet Anda secara
+menghitung NSO yang diperlukan dan menguranginya dari dompet Anda secara
 otomatis.
 
 Anda juga dapat memperluas program secara manual untuk mengalokasikan lebih
@@ -307,7 +310,7 @@ dieksekusi dari program Anda.
 
 Authority adalah akun yang memiliki izin untuk mengupgrade atau menutup program
 ini. Hanya authority yang dapat menerapkan pembaruan atau menutup program untuk
-mengklaim kembali SOL yang dialokasikan untuk program.
+mengklaim kembali NSO yang dialokasikan untuk program.
 
 ### !last-deployed-in-slot
 
@@ -321,7 +324,7 @@ ukuran program saat ini.
 
 ### !balance
 
-Balance menampilkan SOL yang dialokasikan ke akun program untuk menyimpan
+Balance menampilkan NSO yang dialokasikan ke akun program untuk menyimpan
 datanya.
 
 </WithNotes>
@@ -359,7 +362,7 @@ Authority: none
 
 ### Menutup Program Anda
 
-Untuk menutup program Anda dan mengklaim kembali SOL yang dialokasikan ke akun
+Untuk menutup program Anda dan mengklaim kembali NSO yang dialokasikan ke akun
 program, gunakan perintah `solana program close`:
 
 ```terminal
@@ -405,7 +408,7 @@ Wrote program to ./downloaded_program.so
 
 ### Flag Deployment
 
-Ketika jaringan Solana sedang padat, gunakan flag ini untuk membantu deployment
+Ketika jaringan Nara Solana sedang padat, gunakan flag ini untuk membantu deployment
 program.
 
 Contoh Penggunaan:
@@ -420,7 +423,7 @@ $ solana program deploy ./target/deploy/hello_world.so \
 Penjelasan opsi:
 
 - **`--with-compute-unit-price`**: Tetapkan biaya prioritas dalam micro-lamports
-  (0.000001 SOL) per unit komputasi. Periksa
+  (0.000001 NSO) per unit komputasi. Periksa
   [Helius Priority Fee API](https://docs.helius.dev/guides/priority-fee-api)
   untuk tarif saat ini. Biaya prioritas adalah biaya tambahan yang dibayarkan
   kepada leader saat ini untuk memprioritaskan transaksi Anda.

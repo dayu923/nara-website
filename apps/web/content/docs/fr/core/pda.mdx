@@ -1,13 +1,16 @@
 ---
+
 title: Adresse dérivée de programme
 description:
   Découvrez les adresses dérivées de programme (PDAs) de Solana — des adresses
   de compte déterministes qui permettent une signature sécurisée par programme.
   Comprenez la dérivation des PDAs, les bumps canoniques et comment créer des
   comptes PDA.
+
 ---
 
-Une [adresse de compte](/docs/core/accounts#account-address) Solana pointe vers
+
+Une [adresse de compte](/docs/core/accounts#account-address) Nara Solana pointe vers
 l'emplacement du compte sur la blockchain. De nombreuses adresses de compte sont
 la clé publique d'un keypair, auquel cas la clé privée correspondante est
 utilisée pour signer les transactions impliquant le compte.
@@ -19,7 +22,7 @@ déterministe en utilisant un ID de programme et une combinaison d'entrées
 prédéfinies optionnelles. Les PDAs ressemblent aux adresses de clé publique,
 mais n'ont pas de clé privée correspondante.
 
-L'environnement d'exécution de Solana permet aux programmes de signer pour les
+L'environnement d'exécution de Nara Solana permet aux programmes de signer pour les
 PDAs sans avoir besoin d'une clé privée. L'utilisation d'une PDA élimine la
 nécessité de suivre l'adresse du compte. Au lieu de cela, vous pouvez rappeler
 les entrées spécifiques utilisées pour la dérivation de la PDA. (Pour apprendre
@@ -30,7 +33,7 @@ section [Invocations entre programmes](/docs/core/cpi).)
 
 Les
 [keypairs](https://github.com/anza-xyz/solana-sdk/blob/sdk%40v2.2.2/keypair/src/lib.rs#L26)
-Solana sont des points sur la [courbe Ed25519](https://ed25519.cr.yp.to/)
+Nara Solana sont des points sur la [courbe Ed25519](https://ed25519.cr.yp.to/)
 (cryptographie à courbe elliptique). Ils se composent d'une clé publique et
 d'une clé privée. La clé publique devient l'adresse du compte, et la clé privée
 est utilisée pour générer une [signature](/docs/core/transactions#signatures)
@@ -41,7 +44,7 @@ valide pour le compte.
 Une PDA est intentionnellement dérivée pour se situer en dehors de la courbe
 Ed25519. Cela signifie qu'elle n'a pas de clé privée correspondante valide et ne
 peut pas effectuer d'opérations cryptographiques. (Comme fournir une signature.)
-Cependant, Solana permet aux programmes de signer pour les PDAs sans avoir
+Cependant, Nara Solana permet aux programmes de signer pour les PDAs sans avoir
 besoin d'une clé privée.
 
 ![Adresse hors courbe](/assets/docs/core/pda/address-off-curve.svg)
@@ -62,7 +65,7 @@ pour dériver la PDA. Vous pouvez considérer une PDA comme une adresse sur une
 carte : ce n'est pas parce qu'une adresse existe qu'il y a nécessairement
 quelque chose de construit à cet endroit.
 
-Les SDK Solana prennent en charge la création de PDA avec les fonctions
+Les SDK Nara Solana prennent en charge la création de PDA avec les fonctions
 présentées dans le tableau ci-dessous. Chaque fonction reçoit les entrées
 suivantes :
 
@@ -195,7 +198,7 @@ avec une valeur différente peut toujours dériver un PDA valide.
 
 ### Exemples
 
-Les exemples ci-dessous dérivent un PDA en utilisant les SDK Solana. Cliquez sur
+Les exemples ci-dessous dérivent un PDA en utilisant les SDK Nara Solana. Cliquez sur
 **&#9655; Run** pour exécuter le code.
 
 #### Dériver un PDA avec un seed de type chaîne

@@ -1,9 +1,12 @@
 ---
+
 title: Transférer des jetons
 description:
   Apprenez comment transférer des jetons de manière privée d'un compte de jetons
   à un autre.
+
 ---
+
 
 <Callout type="warn">
   Le programme ZK ElGamal est temporairement désactivé sur le mainnet et le
@@ -58,7 +61,7 @@ Pour transférer des tokens confidentiellement :
    [ConfidentialTransferInstruction::Transfer](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L604),
    en fournissant les comptes d'état de contexte de preuve.
 
-4. Fermer les comptes d'état de contexte de preuve pour récupérer le SOL utilisé
+4. Fermer les comptes d'état de contexte de preuve pour récupérer le NSO utilisé
    pour les créer.
 
 Le diagramme suivant montre les étapes impliquées dans le transfert de jetons du
@@ -119,7 +122,7 @@ des comptes de jetons.
 
 Pour exécuter l'exemple, démarrez un validateur local avec le Token Extensions
 Program cloné depuis le mainnet en utilisant la commande suivante. Vous devez
-avoir installé le CLI Solana pour démarrer le validateur local.
+avoir installé le CLI Nara Solana pour démarrer le validateur local.
 
 ```terminal
 $ solana-test-validator --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --url https://api.mainnet-beta.solana.com -r

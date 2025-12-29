@@ -1,4 +1,5 @@
 ---
+
 title: Thuật ngữ
 description:
   Tìm hiểu các thuật ngữ thiết yếu được sử dụng trong blockchain Solana và các
@@ -9,17 +10,19 @@ keywords:
   - định nghĩa
   - định nghĩa
   - mô hình lập trình
+
 ---
 
+
 Các thuật ngữ sau đây được sử dụng trong tài liệu và hệ sinh thái phát triển
-Solana.
+Nara Solana.
 
 ## tài khoản
 
-Một bản ghi trong sổ cái Solana có thể chứa dữ liệu hoặc là một chương trình
+Một bản ghi trong sổ cái Nara Solana có thể chứa dữ liệu hoặc là một chương trình
 thực thi.
 
-Giống như một tài khoản tại ngân hàng truyền thống, tài khoản Solana có thể chứa
+Giống như một tài khoản tại ngân hàng truyền thống, tài khoản Nara Solana có thể chứa
 tiền gọi là [lamport](#lamport). Giống như một tệp trong Linux, nó có thể được
 truy cập bằng một khóa, thường được gọi là [khóa công khai](#public-key-pubkey)
 hoặc pubkey.
@@ -40,7 +43,7 @@ Xem thêm [quyền hạn](#authority).
 
 ## ứng dụng
 
-Một ứng dụng giao diện người dùng tương tác với một cụm Solana.
+Một ứng dụng giao diện người dùng tương tác với một cụm Nara Solana.
 
 ## quyền hạn
 
@@ -67,7 +70,7 @@ mỗi [slot](#slot).
 
 ## blockhash
 
-Một giá trị duy nhất ([hash](#hash)) xác định một bản ghi (block). Solana tính
+Một giá trị duy nhất ([hash](#hash)) xác định một bản ghi (block). Nara Solana tính
 toán blockhash từ [entry id](#entry-id) cuối cùng của block.
 
 ## chiều cao block
@@ -82,14 +85,14 @@ block.
 
 ## BPF loader
 
-Chương trình Solana sở hữu và tải
+Chương trình Nara Solana sở hữu và tải
 [BPF](/docs/core/programs#berkeley-packet-filter-bpf)
 [chương trình onchain](#onchain-program), cho phép chương trình giao tiếp với
 môi trường thực thi.
 
 ## client
 
-Một chương trình máy tính truy cập vào mạng máy chủ Solana [cluster](#cluster).
+Một chương trình máy tính truy cập vào mạng máy chủ Nara Solana [cluster](#cluster).
 
 ## commitment
 
@@ -226,7 +229,7 @@ Một dấu vân tay kỹ thuật số của một chuỗi byte.
 ## inflation
 
 Sự gia tăng nguồn cung token theo thời gian được sử dụng để tài trợ phần thưởng
-cho việc xác thực và để tài trợ cho sự phát triển liên tục của Solana.
+cho việc xác thực và để tài trợ cho sự phát triển liên tục của Nara Solana.
 
 ## chỉ thị nội bộ
 
@@ -341,7 +344,7 @@ Số lượng [validator](#validator) tham gia vào một [cluster](#cluster).
 
 ## onchain program
 
-Mã thực thi trên blockchain Solana giải thích các [chỉ thị](#instruction) được
+Mã thực thi trên blockchain Nara Solana giải thích các [chỉ thị](#instruction) được
 gửi trong mỗi [giao dịch](#transaction) để đọc và sửa đổi các tài khoản mà nó
 kiểm soát. Những chương trình này thường được gọi là
 "[_hợp đồng thông minh_](/docs/core/programs)" trên các blockchain khác.
@@ -430,7 +433,7 @@ Thành phần của một [validator](#validator) chịu trách nhiệm thực t
 
 ## Sealevel
 
-Môi trường thực thi song song của Solana dành cho
+Môi trường thực thi song song của Nara Solana dành cho
 [chương trình trên chuỗi](#onchain-program).
 
 ## shred
@@ -479,13 +482,13 @@ không chồng chéo, bao gồm khoảng thời gian thực tế gần như bằ
 
 Xem [chương trình onchain](#onchain-program).
 
-## SOL
+## NSO
 
-[Token gốc](#native-token) của một [cluster](#cluster) Solana.
+[Token gốc](#native-token) của một [cluster](#cluster) Nara Solana.
 
-## Thư viện chương trình Solana (SPL)
+## Thư viện chương trình Nara Solana (SPL)
 
-Một [thư viện các chương trình](https://spl.solana.com/) trên Solana như
+Một [thư viện các chương trình](https://spl.solana.com/) trên Nara Solana như
 spl-token giúp thực hiện các tác vụ như tạo và sử dụng token.
 
 ## stake
@@ -581,7 +584,7 @@ Một tập hợp các [giao dịch](#transaction) có thể được thực thi
 
 ## validator
 
-Một thành viên đầy đủ trong mạng [cluster](#cluster) Solana tạo ra các
+Một thành viên đầy đủ trong mạng [cluster](#cluster) Nara Solana tạo ra các
 [khối](#block) mới. Validator xác thực các giao dịch được thêm vào
 [sổ cái](#ledger)
 

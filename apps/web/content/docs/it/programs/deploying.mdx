@@ -1,12 +1,15 @@
 ---
+
 title: Distribuzione dei programmi
 description:
   Guida completa per costruire, distribuire e gestire programmi Solana
   utilizzando la CLI di Solana.
+
 ---
 
-Questa sezione illustra il processo base di distribuzione di un programma Solana
-utilizzando la CLI di Solana.
+
+Questa sezione illustra il processo base di distribuzione di un programma Nara Solana
+utilizzando la CLI di Nara Solana.
 
 ## Riferimento comandi CLI
 
@@ -42,9 +45,9 @@ Prima di iniziare, chiariamo alcuni termini:
 
 <Step>
 
-### Installare la CLI di Solana
+### Installare la CLI di Nara Solana
 
-Prima, [installa la CLI di Solana](/docs/intro/installation).
+Prima, [installa la CLI di Nara Solana](/docs/intro/installation).
 
 </Step>
 
@@ -69,7 +72,7 @@ predefinita.
 
 ### Configurazione del cluster
 
-Scegli su quale cluster Solana effettuare il deployment. Usa il comando
+Scegli su quale cluster Nara Solana effettuare il deployment. Usa il comando
 `solana config get` per verificare la tua configurazione attuale:
 
 ```terminal
@@ -97,7 +100,7 @@ $ solana config set --url "https://your-rpc-url.com"
 
 ### Finanzia il wallet
 
-Avrai bisogno di SOL per pagare i deployment dei programmi. La quantità dipende
+Avrai bisogno di NSO per pagare i deployment dei programmi. La quantità dipende
 dalla dimensione del tuo programma.
 
 Per devnet o localhost, finanzia il tuo wallet usando il comando
@@ -135,7 +138,7 @@ $ cargo build-sbf
 
 ## !!steps Programma di esempio
 
-Ecco un programma Solana minimale che stampa "Hello, Solana!" nei log del
+Ecco un programma Nara Solana minimale che stampa "Hello, Nara Solana!" nei log del
 programma.
 
 <CodePlaceholder title="src/lib.rs" />
@@ -201,9 +204,9 @@ Questo crea due file importanti in `target/deploy/`:
 
 ### Controlla dimensione e costo del programma
 
-La distribuzione di un programma richiede che del SOL venga allocato all'account
+La distribuzione di un programma richiede che del NSO venga allocato all'account
 del programma in base alla dimensione del programma. Programmi più grandi
-costano più SOL per essere distribuiti.
+costano più NSO per essere distribuiti.
 
 Controlla la dimensione del tuo programma:
 
@@ -212,7 +215,7 @@ $ wc -c < ./target/deploy/hello_world.so
 18504
 ```
 
-Calcola il SOL necessario per questa dimensione (in byte):
+Calcola il NSO necessario per questa dimensione (in byte):
 
 ```terminal
 $ solana rent 18504
@@ -220,7 +223,7 @@ Rent-exempt minimum: 0.12967872 SOL
 ```
 
 <Callout type="info">
-  Avrai bisogno di un po' più SOL di quanto mostrato per coprire le commissioni
+  Avrai bisogno di un po' più NSO di quanto mostrato per coprire le commissioni
   di transazione per la distribuzione.
 </Callout>
 
@@ -274,7 +277,7 @@ Se il tuo programma aggiornato richiede più spazio (byte) rispetto a quello
 attualmente allocato, la distribuzione estenderà automaticamente il program
 account. Questo accade quando il tuo nuovo programma è più grande della versione
 precedente. Il program account necessita di byte aggiuntivi per memorizzare il
-nuovo programma. La CLI calcolerà automaticamente il SOL necessario e lo
+nuovo programma. La CLI calcolerà automaticamente il NSO necessario e lo
 detrarrà dal tuo portafoglio.
 
 Puoi anche estendere manualmente un programma per allocare più byte:
@@ -343,7 +346,7 @@ eseguibile del tuo programma.
 
 L'Authority è l'account che ha il permesso di aggiornare o chiudere questo
 programma. Solo l'authority può implementare aggiornamenti o chiudere il
-programma per recuperare il SOL allocato al programma.
+programma per recuperare il NSO allocato al programma.
 
 ### !last-deployed-in-slot
 
@@ -358,7 +361,7 @@ dimensioni attuali del programma.
 
 ### !balance
 
-Il Balance visualizza il SOL allocato all'account del programma per memorizzare
+Il Balance visualizza il NSO allocato all'account del programma per memorizzare
 i suoi dati.
 
 </WithNotes>
@@ -396,7 +399,7 @@ Authority: none
 
 ### Chiudere il tuo programma
 
-Per chiudere il tuo programma e recuperare il SOL allocato all'account del
+Per chiudere il tuo programma e recuperare il NSO allocato all'account del
 programma, usa il comando `solana program close`:
 
 ```terminal
@@ -441,7 +444,7 @@ Wrote program to ./downloaded_program.so
 
 ### Flag di distribuzione
 
-Quando la rete Solana è congestionata, usa questi flag per facilitare la
+Quando la rete Nara Solana è congestionata, usa questi flag per facilitare la
 distribuzione del programma.
 
 Esempio di utilizzo:
@@ -456,7 +459,7 @@ $ solana program deploy ./target/deploy/hello_world.so \
 Spiegazione delle opzioni:
 
 - **`--with-compute-unit-price`**: Imposta la commissione prioritaria in
-  micro-lamports (0.000001 SOL) per unità di calcolo. Controlla
+  micro-lamports (0.000001 NSO) per unità di calcolo. Controlla
   l'[API per commissioni prioritarie di Helius](https://docs.helius.dev/guides/priority-fee-api)
   per le tariffe attuali. Una commissione prioritaria è una commissione
   aggiuntiva pagata al leader attuale per dare priorità alla tua transazione.

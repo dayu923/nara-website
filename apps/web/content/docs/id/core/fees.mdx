@@ -1,12 +1,15 @@
 ---
+
 title: Biaya transaksi
 description:
   Pelajari tentang biaya transaksi Solana, termasuk biaya dasar dan biaya
   prioritas, bagaimana masing-masing diterapkan, dan praktik terbaik untuk
   mengelola unit komputasi dalam transaksi Anda.
+
 ---
 
-Setiap transaksi Solana memerlukan biaya transaksi, dibayar dalam SOL. Biaya
+
+Setiap transaksi Nara Solana memerlukan biaya transaksi, dibayar dalam NSO. Biaya
 transaksi dibagi menjadi dua bagian: biaya dasar dan biaya prioritas. Biaya
 dasar mengganti validator untuk memproses transaksi. Biaya prioritas adalah
 biaya opsional, untuk meningkatkan peluang bahwa pemimpin saat ini akan
@@ -22,7 +25,7 @@ transaksi. Biaya dasar dibagi sebagai berikut:
 
 - **50% dibakar:** Setengahnya
   [dibakar](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)
-  (dikeluarkan dari pasokan SOL yang beredar).
+  (dikeluarkan dari pasokan NSO yang beredar).
 - **50% didistribusikan:** Setengahnya
   [dibayarkan kepada validator](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62)
   yang memproses transaksi.
@@ -103,7 +106,7 @@ rekomendasi harga CU real-time yang tercantum dalam tabel di bawah ini.
 #### Contoh
 
 Contoh di bawah ini menunjukkan cara menetapkan batas CU dan harga CU pada
-transaksi menggunakan SDK Solana.
+transaksi menggunakan SDK Nara Solana.
 
 | SDK                            | Referensi Kode Sumber                                                                                                          |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |

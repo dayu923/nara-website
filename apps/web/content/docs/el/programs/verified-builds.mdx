@@ -1,13 +1,16 @@
 ---
+
 title: Επαλήθευση προγραμμάτων
 description:
   Οι επαληθευμένες κατασκευές είναι ένας τρόπος να συνδέσετε το πρόγραμμά σας με
   τον πηγαίο κώδικά του και να επιτρέψετε σε όλους να επαληθεύσουν ανεξάρτητα
   ότι το πρόγραμμα πράγματι δημιουργήθηκε από τον παρεχόμενο πηγαίο κώδικα.
+
 ---
 
+
 Αυτός ο οδηγός προορίζεται να αποτελέσει αναφορά για προγραμματιστές που θέλουν
-να εφαρμόσουν επαληθευμένες κατασκευές για τα προγράμματά τους στο Solana. Θα
+να εφαρμόσουν επαληθευμένες κατασκευές για τα προγράμματά τους στο Nara Solana. Θα
 καλύψουμε τι είναι οι επαληθευμένες κατασκευές, πώς να τις χρησιμοποιήσετε,
 ειδικά ζητήματα και βέλτιστες πρακτικές για να διασφαλίσετε την αυθεντικότητα
 του προγράμματός σας στην αλυσίδα.
@@ -15,7 +18,7 @@ description:
 # Τι είναι οι επαληθευμένες κατασκευές;
 
 Οι επαληθευμένες κατασκευές διασφαλίζουν ότι το εκτελέσιμο πρόγραμμα που
-αναπτύσσετε στο δίκτυο του Solana αντιστοιχεί στον πηγαίο κώδικα στο αποθετήριό
+αναπτύσσετε στο δίκτυο του Nara Solana αντιστοιχεί στον πηγαίο κώδικα στο αποθετήριό
 σας. Με αυτόν τον τρόπο, οι προγραμματιστές και οι χρήστες μπορούν να είναι
 βέβαιοι ότι το πρόγραμμα που εκτελείται στην αλυσίδα αντιστοιχεί ακριβώς στον
 δημόσιο κώδικα, προωθώντας τη διαφάνεια και την ασφάλεια.
@@ -43,9 +46,9 @@ description:
 Η διαδικασία επαλήθευσης γίνεται συγκρίνοντας το hash του προγράμματος στην
 αλυσίδα με το hash του τοπικά δημιουργημένου προγράμματος από τον πηγαίο κώδικα.
 Δημιουργείτε το πρόγραμμά σας σε ένα ελεγχόμενο περιβάλλον χρησιμοποιώντας το
-Solana Verify CLI και το Docker. Αυτό εξασφαλίζει ότι η διαδικασία δημιουργίας
+Nara Solana Verify CLI και το Docker. Αυτό εξασφαλίζει ότι η διαδικασία δημιουργίας
 είναι ντετερμινιστική και συνεπής σε διαφορετικά συστήματα. Μόλις έχετε το
-εκτελέσιμο, μπορείτε να το αναπτύξετε στο δίκτυο Solana. Κατά τη διάρκεια της
+εκτελέσιμο, μπορείτε να το αναπτύξετε στο δίκτυο Nara Solana. Κατά τη διάρκεια της
 διαδικασίας δημιουργίας, ένα
 [PDA](https://explorer.solana.com/address/63XDCHrwZu3mXsw2RUFb4tbNpChuUHx4eA5aJMnHkpQQ/anchor-account)
 του [προγράμματος επαλήθευσης](https://github.com/otter-sec/otter-verify) θα
@@ -64,7 +67,7 @@ commit hash και τα ορίσματα που χρησιμοποιήθηκαν
 Μπορείτε ήδη να δείτε αυτές τις
 [κλήσεις API](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 να χρησιμοποιούνται στον
-[Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
+[Nara Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
 και στο
 [SolanaFM](https://solana.fm/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/transactions?cluster=mainnet-alpha),
 μεταξύ άλλων.
@@ -108,7 +111,7 @@ commit hash και τα ορίσματα που χρησιμοποιήθηκαν
 - Επαληθεύστε το αναπτυγμένο πρόγραμμα μέσω του δημόσιου API
 
 Αν επαληθεύσετε το πρόγραμμά σας που δεν έχει δημιουργηθεί σε ένα container
-docker, πιθανότατα θα αποτύχει επειδή οι εκδόσεις προγραμμάτων Solana δεν είναι
+docker, πιθανότατα θα αποτύχει επειδή οι εκδόσεις προγραμμάτων Nara Solana δεν είναι
 ντετερμινιστικές σε διαφορετικά συστήματα.
 
 <Steps>
@@ -135,10 +138,10 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 </Step>
 <Step>
 
-### Εγκαταστήστε το Solana Verify CLI
+### Εγκαταστήστε το Nara Solana Verify CLI
 
-Το Solana Verify CLI είναι το κύριο εργαλείο που χρησιμοποιείται για την
-επαλήθευση εκδόσεων. Το Solana Verify CLI συντηρείται επί του παρόντος από την
+Το Nara Solana Verify CLI είναι το κύριο εργαλείο που χρησιμοποιείται για την
+επαλήθευση εκδόσεων. Το Nara Solana Verify CLI συντηρείται επί του παρόντος από την
 [Ellipsis Labs](https://ellipsislabs.xyz/) και μπορεί να εγκατασταθεί
 χρησιμοποιώντας το Cargo.
 
@@ -237,7 +240,7 @@ solana-program = "2.1.0"
 
 ### Δημιουργία επαληθεύσιμων προγραμμάτων
 
-Για να δημιουργήσετε επαληθεύσιμα το πρόγραμμα Solana σας, μεταβείτε στον
+Για να δημιουργήσετε επαληθεύσιμα το πρόγραμμα Nara Solana σας, μεταβείτε στον
 κατάλογο που περιέχει το αρχείο `Cargo.toml` του χώρου εργασίας σας και
 εκτελέστε:
 
@@ -277,7 +280,7 @@ solana-verify get-executable-hash target/deploy/$PROGRAM_LIB_NAME.so
 ### Ανάπτυξη επαληθεύσιμων προγραμμάτων
 
 Αφού έχετε δημιουργήσει το πρόγραμμά σας και έχετε ανακτήσει το hash του,
-μπορείτε να το αναπτύξετε στο δίκτυο Solana. Συνιστάται να χρησιμοποιήσετε μια
+μπορείτε να το αναπτύξετε στο δίκτυο Nara Solana. Συνιστάται να χρησιμοποιήσετε μια
 λύση πολλαπλών υπογραφών ή διακυβέρνησης όπως το
 [Squads Protocol](https://squads.so/protocol) για ασφαλείς αναπτύξεις, αλλά
 μπορείτε επίσης να αναπτύξετε απευθείας με:
@@ -298,9 +301,9 @@ solana-verify get-program-hash -u $NETWORK_URL $PROGRAM_ID
 ```
 
 > Μπορεί να έχετε διαφορετικές εκδόσεις αναπτυγμένες σε διαφορετικά
-> [συμπλέγματα Solana](/docs/references/clusters) (δηλαδή devnet, testnet,
+> [συμπλέγματα Nara Solana](/docs/references/clusters) (δηλαδή devnet, testnet,
 > mainnet). Βεβαιωθείτε ότι χρησιμοποιείτε το σωστό URL δικτύου για το επιθυμητό
-> σύμπλεγμα Solana στο οποίο θέλετε να επαληθεύσετε ένα πρόγραμμα. Η
+> σύμπλεγμα Nara Solana στο οποίο θέλετε να επαληθεύσετε ένα πρόγραμμα. Η
 > απομακρυσμένη επαλήθευση θα λειτουργεί μόνο στο mainnet.
 
 </Step>
@@ -324,7 +327,7 @@ solana-verify verify-from-repo -u $NETWORK_URL --program-id $PROGRAM_ID https://
 εκτελέσιμου που δημιουργήθηκε από τον πηγαίο κώδικα στο καθορισμένο commit hash.
 
 Στο τέλος, η εντολή θα σας ρωτήσει αν θέλετε να ανεβάσετε τα δεδομένα
-επαλήθευσής σας στην αλυσίδα. Αν το κάνετε αυτό, ο Solana Explorer θα εμφανίσει
+επαλήθευσής σας στην αλυσίδα. Αν το κάνετε αυτό, ο Nara Solana Explorer θα εμφανίσει
 αμέσως τα δεδομένα επαλήθευσης του προγράμματός σας. Μέχρι να επαληθευτεί από
 μια απομακρυσμένη κατασκευή, θα εμφανίζεται ως μη επαληθευμένο. Μάθετε πώς
 μπορείτε να επαληθεύσετε το πρόγραμμά σας μέσω ενός δημόσιου API στο επόμενο
@@ -386,7 +389,7 @@ solana-verify remote get-job-status --job-id <job-id>
 θα μπορείτε να δείτε το πρόγραμμά σας ως επαληθευμένο στο
 [OtterSec API για μεμονωμένα προγράμματα](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 και στον
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
 [SolanaFM](https://solana.fm/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY?cluster=mainnet-alpha),
 [SolScan](https://solscan.io/account/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY#programVerification)
 και τελικά επίσης στον ιστότοπο που διατηρείται από την κοινότητα
@@ -395,7 +398,7 @@ solana-verify remote get-job-status --job-id <job-id>
 [OtterSec API επαληθευμένων προγραμμάτων](https://verify.osec.io/verified-programs)
 και τέλος στο
 [Πίνακα ελέγχου Dune επαληθευμένων προγραμμάτων](https://dune.com/jonashahn/verified-programs/dedf21e1-9b71-42c8-89f9-02ed94628657)
-συμβάλλοντας σε ένα πιο υγιές οικοσύστημα Solana.
+συμβάλλοντας σε ένα πιο υγιές οικοσύστημα Nara Solana.
 
 </Step>
 </Steps>
@@ -513,7 +516,7 @@ solana-verify remote submit-job --program-id 6XBGfP17P3KQAKoJb2s5M5fR4aFTXzPeuC1
 
 Αυτό είναι! Έχετε επαληθεύσει το πρόγραμμά σας έναντι ενός δημόσιου αποθετηρίου
 και έχετε υποβάλει μια απομακρυσμένη εργασία στο API της OtterSec. Θα πρέπει να
-μπορείτε να το δείτε να αντανακλάται στον εξερευνητή Solana και σε άλλα μέρη
+μπορείτε να το δείτε να αντανακλάται στον εξερευνητή Nara Solana και σε άλλα μέρη
 τώρα.
 
 </Step>
@@ -714,10 +717,10 @@ Program hash matches ✅
 # Συμπέρασμα
 
 Η χρήση
-[επαληθευμένων builds στο Solana](/developers/guides/advanced/verified-builds)
+[επαληθευμένων builds στο Nara Solana](/developers/guides/advanced/verified-builds)
 εξασφαλίζει την ακεραιότητα και την αξιοπιστία των προγραμμάτων σας στο δίκτυο
 και επιτρέπει στους προγραμματιστές να βρίσκουν τα SDK σας απευθείας από τον
-Solana Explorer. Αξιοποιώντας εργαλεία όπως το Solana Verify CLI και το Docker,
+Nara Solana Explorer. Αξιοποιώντας εργαλεία όπως το Nara Solana Verify CLI και το Docker,
 μπορείτε να διατηρείτε επαληθεύσιμα και ασφαλή builds που ευθυγραμμίζονται με
 τον πηγαίο κώδικά σας. Πάντα να λαμβάνετε τις απαραίτητες προφυλάξεις για τη
 χρήση συνεπών περιβαλλόντων και να εξετάζετε λύσεις διακυβέρνησης για ασφαλείς
@@ -726,9 +729,9 @@ Solana Explorer. Αξιοποιώντας εργαλεία όπως το Solana 
 ## Ασφάλεια + Αποποίηση ευθυνών
 
 Ενώ τα επαληθευμένα builds είναι ένα ισχυρό εργαλείο για τη διασφάλιση της
-ακεραιότητας των προγραμμάτων σας στο Solana, δεν είναι εντελώς αξιόπιστα στην
+ακεραιότητας των προγραμμάτων σας στο Nara Solana, δεν είναι εντελώς αξιόπιστα στην
 προεπιλεγμένη ρύθμιση. Οι εικόνες docker κατασκευάζονται και φιλοξενούνται από
-το Solana Foundation.
+το Nara Solana Foundation.
 
 Να γνωρίζετε ότι χτίζετε το έργο σας σε μια κατεβασμένη εικόνα docker και ότι
 ολόκληρη η ρύθμισή σας αντιγράφεται σε αυτή την εικόνα docker για κατασκευή,
@@ -745,10 +748,10 @@ Solana Explorer. Αξιοποιώντας εργαλεία όπως το Solana 
 
 Επιπλέον, για την απομακρυσμένη επαλήθευση, εμπιστεύεστε το API της OtterSec και
 τον
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 σε κάποιο βαθμό.
 
-Το API ή ο Solana Explorer ενδέχεται να εμφανίζουν λανθασμένες πληροφορίες σε
+Το API ή ο Nara Solana Explorer ενδέχεται να εμφανίζουν λανθασμένες πληροφορίες σε
 περίπτωση παραβίασης.
 
 Αν θέλετε να έχετε μια εντελώς αξιόπιστη ρύθμιση, μπορείτε να εκτελέσετε το
@@ -763,11 +766,11 @@ Solana Explorer. Αξιοποιώντας εργαλεία όπως το Solana 
 Το πρόγραμμα επαλήθευσης αναπτύσσεται από την [ομάδα OtterSec](https://osec.io/)
 και δεν έχει ακόμη παγώσει, οπότε μπορεί να αναβαθμιστεί ανά πάσα στιγμή.
 
-Το Ίδρυμα Solana, η OtterSec και η ομάδα Ellipsis Labs δεν φέρουν ευθύνη για
+Το Ίδρυμα Nara Solana, η OtterSec και η ομάδα Ellipsis Labs δεν φέρουν ευθύνη για
 τυχόν απώλειες ή ζημιές που μπορεί να προκύψουν από τη χρήση της διαδικασίας
 επαληθευμένων κατασκευών.
 
-# Security.txt για προγράμματα Solana
+# Security.txt για προγράμματα Nara Solana
 
 Εκτός από τις επαληθευμένες κατασκευές, μπορείτε επίσης να προσθέσετε ένα αρχείο
 `security.txt` στο πρόγραμμά σας. Στο μέλλον, μόλις υλοποιηθεί, το
@@ -781,7 +784,7 @@ Solana Explorer. Αξιοποιώντας εργαλεία όπως το Solana 
 
 Η λειτουργία `security.txt` επιτρέπει στους προγραμματιστές να ενσωματώνουν
 πληροφορίες επικοινωνίας και ασφάλειας απευθείας μέσα στα έξυπνα συμβόλαια
-Solana. Εμπνευσμένο από το [securitytxt.org](https://securitytxt.org), αυτή η
+Nara Solana. Εμπνευσμένο από το [securitytxt.org](https://securitytxt.org), αυτή η
 προσέγγιση παρέχει έναν τυποποιημένο τρόπο για τους ερευνητές ασφαλείας να
 επικοινωνούν με τους συντηρητές του έργου, ακόμα κι αν γνωρίζουν μόνο τη
 διεύθυνση του συμβολαίου.
@@ -796,7 +799,7 @@ Solana. Εμπνευσμένο από το [securitytxt.org](https://securitytxt
 
 ## Πώς να υλοποιήσετε το security.txt
 
-Για να προσθέσετε ένα `security.txt` στο πρόγραμμά σας Solana, συμπεριλάβετε τα
+Για να προσθέσετε ένα `security.txt` στο πρόγραμμά σας Nara Solana, συμπεριλάβετε τα
 ακόλουθα βήματα:
 
 Προσθέστε την εξάρτηση `solana-security-txt` στο `Cargo.toml` σας:
@@ -834,7 +837,7 @@ security_txt! {
 ```
 
 Μόλις οι πληροφορίες `security.txt` ενσωματωθούν στο πρόγραμμά σας, μπορούν να
-αναζητηθούν εύκολα μέσω εργαλείων όπως ο Solana Explorer, διασφαλίζοντας ότι τα
+αναζητηθούν εύκολα μέσω εργαλείων όπως ο Nara Solana Explorer, διασφαλίζοντας ότι τα
 στοιχεία επικοινωνίας και ασφαλείας σας είναι διαθέσιμα σε όποιον θέλει να
 αναφέρει πιθανά προβλήματα.
 
@@ -855,10 +858,10 @@ query-security-txt target/bpfel-unknown-unknown/release/my_contract.so
 
 Ενσωματώνοντας τις πληροφορίες επικοινωνίας ασφαλείας απευθείας στο συμβόλαιό
 σας, διευκολύνετε τους ερευνητές να επικοινωνήσουν μαζί σας, προωθώντας καλύτερη
-ασφάλεια και επικοινωνία εντός του οικοσυστήματος Solana.
+ασφάλεια και επικοινωνία εντός του οικοσυστήματος Nara Solana.
 
 Αυτό είναι
-[ένα παράδειγμα του πώς φαίνεται το security.txt στον Solana Explorer](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
+[ένα παράδειγμα του πώς φαίνεται το security.txt στον Nara Solana Explorer](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
 
 Το έργο `security.txt` συντηρείται από τη
 [Neodyme Labs](https://github.com/neodyme-labs)

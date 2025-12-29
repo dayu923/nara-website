@@ -1,12 +1,15 @@
 ---
+
 title: トークンアカウントを閉じる
 description: トークンアカウントの閉じ方を学びましょう。
+
 ---
+
 
 ## アカウントを閉じる
 
 [`CloseAccount`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/program/src/instruction.rs#L212C5-L212C17)
-instructionsは、トークンアカウントを永久に閉じ、残りのすべてのSOL（rent）を指定された宛先アカウントに転送します。トークンアカウントを閉じる前に、残高はゼロである必要があります。トークンアカウントの所有者または指定されたクローズ権限を持つ人だけがこのinstructionsを実行できます。
+instructionsは、トークンアカウントを永久に閉じ、残りのすべてのNSO（rent）を指定された宛先アカウントに転送します。トークンアカウントを閉じる前に、残高はゼロである必要があります。トークンアカウントの所有者または指定されたクローズ権限を持つ人だけがこのinstructionsを実行できます。
 
 <Callout type="info">
   [Token

@@ -1,13 +1,16 @@
 ---
+
 title: Mollusk
 description:
   Guide complet pour tester les programmes Solana en utilisant Mollusk
+
 ---
 
+
 [Mollusk](https://github.com/anza-xyz/mollusk/tree/main) est un harnais de test
-léger pour tester les programmes Solana. Il fournit une interface simple pour
-tester les instructions des programmes Solana dans un environnement minifié de
-la Machine Virtuelle Solana (SVM). Tous les comptes de test doivent être
+léger pour tester les programmes Nara Solana. Il fournit une interface simple pour
+tester les instructions des programmes Nara Solana dans un environnement minifié de
+la Machine Virtuelle Nara Solana (SVM). Tous les comptes de test doivent être
 explicitement définis, assurant des tests déterministes et reproductibles.
 
 - [Documentation Mollusk SVM](https://docs.rs/mollusk-svm/latest/mollusk_svm/)
@@ -54,13 +57,13 @@ mollusk-svm-programs-token = "0.7"
 ## Mollusk SVM
 
 L'exemple suivant montre une configuration minimale pour tester un programme
-Solana basique en utilisant Mollusk.
+Nara Solana basique en utilisant Mollusk.
 
 <ScrollyCoding>
 
 ## !!steps Programme Hello World
 
-Cet exemple démontre comment tester un programme Solana basique en utilisant
+Cet exemple démontre comment tester un programme Nara Solana basique en utilisant
 Mollusk. Le programme affiche simplement "Hello, world!" dans les journaux du
 programme lorsqu'il est invoqué.
 
@@ -71,7 +74,7 @@ L'exécution de `cargo build-sbf` génère le programme compilé à
 
 <WithMentions>
 
-Pour tester un programme Solana avec Mollusk :
+Pour tester un programme Nara Solana avec Mollusk :
 
 1. [Créer une instance `Mollusk`](mention:mollusk) - Initialiser Mollusk avec un
    ID de programme et le chemin vers le programme compilé (fichier `.so`)
@@ -180,7 +183,7 @@ solana-sdk = "2.2.0"
 
 La structure
 [`Mollusk`](https://docs.rs/mollusk-svm/0.5.0/mollusk_svm/struct.Mollusk.html)
-fournit une interface simple pour tester les programmes Solana. Tous les champs
+fournit une interface simple pour tester les programmes Nara Solana. Tous les champs
 peuvent être manipulés à travers quelques méthodes auxiliaires, mais les
 utilisateurs peuvent également accéder directement et les modifier s'ils
 souhaitent plus de contrôle.
@@ -251,7 +254,7 @@ pub fn process_instruction(
 ) -> InstructionResult
 ```
 
-L'exemple suivant traite une instruction de transfert de SOL sans vérifications
+L'exemple suivant traite une instruction de transfert de NSO sans vérifications
 de validation.
 
 <Callout type="info">
@@ -335,7 +338,7 @@ pub fn process_and_validate_instruction(
 ) -> InstructionResult
 ```
 
-L'exemple suivant traite une instruction de transfert de SOL avec des
+L'exemple suivant traite une instruction de transfert de NSO avec des
 vérifications de validation.
 
 <CodeTabs flags="r">
@@ -409,7 +412,7 @@ pub fn process_instruction_chain(
 ) -> InstructionResult
 ```
 
-L'exemple suivant traite deux instructions de transfert de SOL sans
+L'exemple suivant traite deux instructions de transfert de NSO sans
 vérifications de validation.
 
 <CodeTabs flags="r">
@@ -498,7 +501,7 @@ pub fn process_and_validate_instruction_chain(
 ) -> InstructionResult
 ```
 
-L'exemple suivant traite une chaîne de deux instructions de transfert de SOL
+L'exemple suivant traite une chaîne de deux instructions de transfert de NSO
 avec des vérifications de validation après chaque instruction.
 
 <CodeTabs flags="r">
@@ -696,7 +699,7 @@ account_store.insert(
 let context = mollusk.with_context(account_store);
 ```
 
-L'exemple suivant traite deux instructions de transfert SOL distinctes avec un
+L'exemple suivant traite deux instructions de transfert NSO distinctes avec un
 état de compte persistant entre les instructions via le `account_store`.
 
 <CodeTabs flags="r">
@@ -842,7 +845,7 @@ Nécessite
 comme dépendance.
 
 L'exemple suivant évalue l'utilisation des unités de calcul d'une instruction de
-transfert de SOL.
+transfert de NSO.
 
 <CodeTabs>
 

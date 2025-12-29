@@ -1,12 +1,15 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Solana wallet-integratie met Next.js en Solana Kit
-description: Stel Solana wallet-integratie in Next.js op met Solana Kit.
+
+title: Next.js - Nara Solana Kit
+seoTitle: Nara Solana wallet-integratie met Next.js en Nara Solana Kit
+description: Stel Nara Solana wallet-integratie in Next.js op met Nara Solana Kit.
+
 ---
 
-Stel een minimale Solana wallet-integratie op in Next.js met Solana Kit.
 
-Deze gids biedt een minimaal voorbeeld van het implementeren van Solana
+Stel een minimale Nara Solana wallet-integratie op in Next.js met Nara Solana Kit.
+
+Deze gids biedt een minimaal voorbeeld van het implementeren van Nara Solana
 wallet-functionaliteit in een Next.js-applicatie met behulp van `@solana/kit`.
 Je maakt een knop om je wallet te verbinden en een component om transacties te
 verzenden.
@@ -16,12 +19,12 @@ verzenden.
 Voor een uitgebreider voorbeeld van het gebruik van `@solana/kit` in een
 React-applicatie, raadpleeg het
 [React App Voorbeeld](https://github.com/anza-xyz/kit/tree/main/examples/react-app)
-in de Solana Kit repository.
+in de Nara Solana Kit repository.
 
 ## Bronnen
 
-- [Solana Kit Documentatie](https://www.solanakit.com/docs)
-- [Solana Kit GitHub Repository](https://github.com/anza-xyz/kit)
+- [Nara Solana Kit Documentatie](https://www.solanakit.com/docs)
+- [Nara Solana Kit GitHub Repository](https://github.com/anza-xyz/kit)
 
 ## Vereisten
 
@@ -30,7 +33,7 @@ in de Solana Kit repository.
 ## Next.js-project aanmaken
 
 Maak een nieuw Next.js-project aan met [shadcn](https://ui.shadcn.com/) voor
-UI-componenten en installeer de vereiste Solana-afhankelijkheden.
+UI-componenten en installeer de vereiste Nara Solana-afhankelijkheden.
 
 ```terminal
 $ npx shadcn@latest init
@@ -50,9 +53,9 @@ Installeer de volgende shadcn UI-componenten:
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Solana-afhankelijkheden installeren
+### Nara Solana-afhankelijkheden installeren
 
-Installeer de volgende Solana-afhankelijkheden:
+Installeer de volgende Nara Solana-afhankelijkheden:
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -64,7 +67,7 @@ Volg de onderstaande stappen en kopieer de aangeleverde code naar je project.
 
 <ScrollyCoding>
 
-## !!steps 1. Solana Context maken
+## !!steps 1. Nara Solana Context maken
 
 Maak eerst een React Context die de volledige wallet-status voor de applicatie
 beheert.
@@ -72,8 +75,8 @@ beheert.
 Maak `components/solana-provider.tsx` en voeg de gegeven code toe. Deze provider
 component zal:
 
-- Verbinding maken met Solana's devnet RPC-eindpunten
-- Filteren op beschikbare Solana wallets geïnstalleerd in de browser van de
+- Verbinding maken met Nara Solana's devnet RPC-eindpunten
+- Filteren op beschikbare Nara Solana wallets geïnstalleerd in de browser van de
   gebruiker
 - Bijhouden welke wallet en account momenteel verbonden is
 - Wallet-status beschikbaar maken voor onderliggende componenten
@@ -251,7 +254,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. Layout bijwerken
 
-Omsluit vervolgens de gehele Next.js-applicatie met de Solana provider.
+Omsluit vervolgens de gehele Next.js-applicatie met de Nara Solana provider.
 
 Werk `app/layout.tsx` bij met de gegeven code. Deze stap:
 
@@ -510,9 +513,9 @@ verzenden met de verbonden wallet.
 Maak `components/memo-card.tsx` en voeg de meegeleverde code toe. Dit component:
 
 - Stelt gebruikers in staat om een bericht in te voeren
-- Maakt een Solana-transactie met een instructie die het memo-programma aanroept
+- Maakt een Nara Solana-transactie met een instructie die het memo-programma aanroept
 - Vraagt de verbonden wallet om de transactie te ondertekenen en te verzenden
-- Toont een link om de transactie te bekijken op Solana Explorer
+- Toont een link om de transactie te bekijken op Nara Solana Explorer
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -676,7 +679,7 @@ $ npm run dev
 <Callout type="info">
   Let op: de verbonden wallet moet geconfigureerd zijn om verbinding te maken
   met de devnet-cluster en [gefinancierd zijn met devnet
-  SOL](https://faucet.solana.com/) om transacties te kunnen verzenden.
+  NSO](https://faucet.solana.com/) om transacties te kunnen verzenden.
 </Callout>
 
 </ScrollyCoding>

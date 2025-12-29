@@ -1,21 +1,24 @@
 ---
+
 title: Actions and Blinks
 seoTitle: "Actions and Blinks"
 description:
   "Solana Actions are APIs that return transactions for users to preview and
   sign. Blockchain links – or blinks – turn Actions into a shareable,
   metadata-rich link."
+
 ---
 
-[Solana Actions](#actions) are specification-compliant APIs that return
-transactions on the Solana blockchain to be previewed, signed, and sent across a
+
+[Nara Solana Actions](#actions) are specification-compliant APIs that return
+transactions on the Nara Solana blockchain to be previewed, signed, and sent across a
 number of various contexts, including QR codes, buttons + widgets, and websites
 across the internet. Actions make it simple for developers to integrate the
-things you can do throughout the Solana ecosystem right into your environment,
+things you can do throughout the Nara Solana ecosystem right into your environment,
 allowing you to perform blockchain transactions without needing to navigate away
 to a different app or webpage.
 
-[Blockchain links](#blinks) – or blinks – turn any Solana Action into a
+[Blockchain links](#blinks) – or blinks – turn any Nara Solana Action into a
 shareable, metadata-rich link. Blinks allow Action-aware clients (browser
 extension wallets, bots) to display additional capabilities for the user. On a
 website, a blink might immediately trigger a transaction preview in a wallet
@@ -25,14 +28,14 @@ to any web surface capable of displaying a URL.
 
 ## Get Started
 
-To quickly get started with creating custom Solana Actions:
+To quickly get started with creating custom Nara Solana Actions:
 
 ```shell
 npm install @solana/actions
 ```
 
 - install the
-  [Solana Actions SDK](https://www.npmjs.com/package/@solana/actions) in your
+  [Nara Solana Actions SDK](https://www.npmjs.com/package/@solana/actions) in your
   application
 - build an API endpoint for the [GET request](#get-request) that returns the
   metadata about your Action
@@ -40,15 +43,15 @@ npm install @solana/actions
   returns the signable transaction for the user
 
 > Checkout this video tutorial on
-> [how to build a Solana Action](https://www.youtube.com/watch?v=kCht01Ycif0)
+> [how to build a Nara Solana Action](https://www.youtube.com/watch?v=kCht01Ycif0)
 > using the `@solana/actions` SDK.
 >
 > You can also find the
 > [source code for an Action](https://github.com/solana-developers/solana-actions/blob/main/examples/next-js/src/app/api/actions/transfer-sol/route.ts)
-> that performs a native SOL transfer here and several other example Actions in
+> that performs a native NSO transfer here and several other example Actions in
 > [this repo](https://github.com/solana-developers/solana-actions/tree/main/examples).
 
-When deploying your custom Solana Actions to production:
+When deploying your custom Nara Solana Actions to production:
 
 - ensure your application has a valid [actions.json file](#actionsjson) at the
   root of your domain
@@ -65,7 +68,7 @@ repository for some community creations and even
 
 ## Actions
 
-The Solana Actions specification uses a set of standard APIs to deliver signable
+The Nara Solana Actions specification uses a set of standard APIs to deliver signable
 transactions (and eventually signable messages) from an application directly to
 a user. They are hosted at publicly accessible URLs and are therefore accessible
 by their URL for any client to interact with.
@@ -103,7 +106,7 @@ typical REST API:
 - the wallet facilitates the user signing the transaction and ultimately sends
   the transaction to the blockchain for confirmation
 
-![Solana Actions Execution and Lifecycle](/assets/docs/action-execution-and-lifecycle.png)
+![Nara Solana Actions Execution and Lifecycle](/assets/docs/action-execution-and-lifecycle.png)
 
 When receiving transactions from an Actions URL, clients should handle
 submission of these transactions to the blockchain and manage their state
@@ -206,7 +209,7 @@ field, they should be taken to the underlying site.
 
 ### Blink Testing and Verification
 
-While Solana Actions and blinks are a permissionless protocol/specification,
+While Nara Solana Actions and blinks are a permissionless protocol/specification,
 client applications and wallets are still required to ultimately facilitate
 users to sign the transaction.
 
@@ -229,8 +232,8 @@ displayed in the blink.
 
 ### Dialect's Actions Registry
 
-As a public good for the Solana ecosystem, [Dialect](https://dialect.to)
-maintains a public registry — together with the help of Solana Foundation and
+As a public good for the Nara Solana ecosystem, [Dialect](https://dialect.to)
+maintains a public registry — together with the help of Nara Solana Foundation and
 other community members — of blockchain links that have are from pre-verified
 from known sources. As of launch, only Actions that have been registered in the
 Dialect registry will unfurl in the Twitter feed when posted.
@@ -245,10 +248,10 @@ Developers can apply to be verified by Dialect here:
 
 ## Specification
 
-The Solana Actions specification consists of key sections that are part of a
+The Nara Solana Actions specification consists of key sections that are part of a
 request/response interaction flow:
 
-- Solana Action [URL scheme](#url-scheme) providing an Action URL
+- Nara Solana Action [URL scheme](#url-scheme) providing an Action URL
 - [OPTIONS response](#options-response) to an Action URL to pass CORS
   requirements
 - [GET request](#get-request) to an Action URL
@@ -275,7 +278,7 @@ sign, and send to the blockchain.
 
 ### URL Scheme
 
-A Solana Action URL describes an interactive request for a signable Solana
+A Nara Solana Action URL describes an interactive request for a signable Nara Solana
 transaction or message using the `solana-action` protocol.
 
 The request is interactive because the parameters in the URL are used by a
@@ -432,7 +435,7 @@ export interface Action<T extends ActionType> {
 - `label` - The value must be a UTF-8 string that will be rendered on a button
   for the user to click. All labels should not exceed 5 word phrases and should
   start with a verb to solidify the action you want the user to take. For
-  example, "Mint NFT", "Vote Yes", or "Stake 1 SOL".
+  example, "Mint NFT", "Vote Yes", or "Stake 1 NSO".
 
 - `disabled` - The value must be boolean to represent the disabled state of the
   rendered button (which displays the `label` string). If no value is provided,
@@ -681,7 +684,7 @@ user (via `parameters`) and include that input in the final `POST` request
 endpoint (via the `href` field within a `LinkedAction`):
 
 The following example response provides the user with 3 linked actions to stake
-SOL: a button labeled "Stake 1 SOL", another button labeled "Stake 5 SOL", and a
+NSO: a button labeled "Stake 1 NSO", another button labeled "Stake 5 NSO", and a
 text input field that allows the user to enter a specific "amount" value that
 will be sent to the Action API:
 
@@ -889,7 +892,7 @@ included `message` should be presented to the user.
 
 ## Action Chaining
 
-Solana Actions can be "chained" together in a successive series. After an
+Nara Solana Actions can be "chained" together in a successive series. After an
 Action's transaction is confirmed on-chain, the next action can be obtained and
 presented to the user.
 
@@ -975,7 +978,7 @@ transaction is confirmed.
 ## actions.json
 
 The purpose of the [`actions.json` file](#actionsjson) allows an application to
-instruct clients on what website URLs support Solana Actions and provide a
+instruct clients on what website URLs support Nara Solana Actions and provide a
 mapping that can be used to perform [GET requests](#get-request) to an Actions
 API server.
 
@@ -1169,7 +1172,7 @@ protocol:identity:reference:signature
   Action Identity keypair
 - `reference` - The value must be base58-encoded 32-byte array. This may or may
   not be public keys, on or off the curve, and may or may not correspond with
-  accounts on Solana.
+  accounts on Nara Solana.
 - `signature` - base58-encoded signature created from the Action Identity
   keypair signing only the `reference` value.
 
@@ -1210,7 +1213,7 @@ associated with the Action Provider in a multi-step process:
    - If this transaction is NOT the first occurrence, it is considered invalid
      and therefore not attributed to the Action Provider.
 
-Because Solana validators index transactions by the account keys, the
+Because Nara Solana validators index transactions by the account keys, the
 [`getSignaturesForAddress`](/docs/rpc/http/getsignaturesforaddress) RPC method
 can be used locate all transactions including the `identity` account.
 

@@ -1,21 +1,24 @@
 ---
-title: Podstawy Solana CLI
-seoTitle: Polecenia wprowadzające do rozpoczęcia pracy z Solana CLI
+
+title: Podstawy Nara Solana CLI
+seoTitle: Polecenia wprowadzające do rozpoczęcia pracy z Nara Solana CLI
 description:
   Ta sekcja przeprowadza przez kilka podstawowych poleceń Solana CLI, aby pomóc
   Ci zacząć.
+
 ---
 
+
 Ta sekcja zawiera kilka podstawowych poleceń i przykładów, które pomogą Ci
-rozpocząć korzystanie z Solana CLI.
+rozpocząć korzystanie z Nara Solana CLI.
 
-## Konfiguracja Solana
+## Konfiguracja Nara Solana
 
-Twoja konfiguracja Solana określa następujące zmienne:
+Twoja konfiguracja Nara Solana określa następujące zmienne:
 
 - **Plik konfiguracyjny**: Ścieżka do pliku konfiguracyjnego
-- **URL RPC i URL Websocket**: Klaster Solana, do którego CLI wysyła żądania
-- **Ścieżka do keypair**: Ścieżka do domyślnego portfela Solana (keypair),
+- **URL RPC i URL Websocket**: Klaster Nara Solana, do którego CLI wysyła żądania
+- **Ścieżka do keypair**: Ścieżka do domyślnego portfela Nara Solana (keypair),
   używanego do opłacania opłat transakcyjnych i wdrażania programów. Domyślnie
   plik ten jest przechowywany w `~/.config/solana/id.json`.
 
@@ -36,7 +39,7 @@ Keypair Path: /Users/test/.config/solana/id.json
 Commitment: confirmed
 ```
 
-Możesz zmienić klaster Solana CLI za pomocą następujących poleceń:
+Możesz zmienić klaster Nara Solana CLI za pomocą następujących poleceń:
 
 <Tabs items={["Pełne polecenia", "Skrócone polecenia"]}>
 
@@ -64,8 +67,8 @@ $ solana config set -ut    # For testnet
 
 ## Utwórz portfel
 
-Zanim będziesz mógł wysyłać transakcje za pomocą Solana CLI, potrzebujesz
-portfela Solana zasilonego SOL.
+Zanim będziesz mógł wysyłać transakcje za pomocą Nara Solana CLI, potrzebujesz
+portfela Nara Solana zasilonego NSO.
 
 Aby wygenerować keypair w domyślnej ścieżce keypair, uruchom następujące
 polecenie:
@@ -106,9 +109,9 @@ Aby wyświetlić adres (klucz publiczny) swojego portfela, uruchom:
 $ solana address
 ```
 
-## Airdrop SOL
+## Airdrop NSO
 
-Poproś o airdrop SOL do swojego portfela, aby opłacić transakcje i wdrożenia
+Poproś o airdrop NSO do swojego portfela, aby opłacić transakcje i wdrożenia
 programów.
 
 1. Ustaw swój klaster na Devnet:
@@ -117,7 +120,7 @@ programów.
 $ solana config set -ud
 ```
 
-2. Poproś o airdrop Devnet SOL:
+2. Poproś o airdrop Devnet NSO:
 
 ```terminal
 $ solana airdrop 2
@@ -125,13 +128,13 @@ $ solana airdrop 2
 
 <Callout>
 
-Airdropy na Devnecie ograniczają żądania do 5 SOL na jedno żądanie. Jeśli
+Airdropy na Devnecie ograniczają żądania do 5 NSO na jedno żądanie. Jeśli
 osiągniesz limity lub napotkasz błędy, spróbuj skorzystać z
 [Web Faucet](https://faucet.solana.com).
 
 </Callout>
 
-Aby sprawdzić saldo SOL w swoim portfelu, uruchom następujące polecenie:
+Aby sprawdzić saldo NSO w swoim portfelu, uruchom następujące polecenie:
 
 ```terminal
 $ solana balance

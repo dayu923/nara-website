@@ -1,16 +1,19 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Intégration de portefeuille Solana avec Next.js et Solana Kit
+
+title: Next.js - Nara Solana Kit
+seoTitle: Intégration de portefeuille Nara Solana avec Next.js et Nara Solana Kit
 description:
   Configurez l'intégration d'un portefeuille Solana dans Next.js avec Solana
   Kit.
+
 ---
 
-Configurez une intégration minimale de portefeuille Solana dans Next.js avec
-Solana Kit.
+
+Configurez une intégration minimale de portefeuille Nara Solana dans Next.js avec
+Nara Solana Kit.
 
 Ce guide fournit un exemple minimal d'implémentation de fonctionnalités de
-portefeuille Solana dans une application Next.js en utilisant `@solana/kit`.
+portefeuille Nara Solana dans une application Next.js en utilisant `@solana/kit`.
 Vous allez créer un bouton de connexion de portefeuille et un composant pour
 envoyer des transactions.
 
@@ -19,12 +22,12 @@ envoyer des transactions.
 Pour un exemple plus complet d'utilisation de `@solana/kit` dans une application
 React, consultez
 l'[exemple d'application React](https://github.com/anza-xyz/kit/tree/main/examples/react-app)
-dans le dépôt Solana Kit.
+dans le dépôt Nara Solana Kit.
 
 ## Ressources
 
-- [Documentation Solana Kit](https://www.solanakit.com/docs)
-- [Dépôt GitHub Solana Kit](https://github.com/anza-xyz/kit)
+- [Documentation Nara Solana Kit](https://www.solanakit.com/docs)
+- [Dépôt GitHub Nara Solana Kit](https://github.com/anza-xyz/kit)
 
 ## Prérequis
 
@@ -33,7 +36,7 @@ dans le dépôt Solana Kit.
 ## Créer un projet Next.js
 
 Créez un nouveau projet Next.js avec [shadcn](https://ui.shadcn.com/) pour les
-composants d'interface utilisateur et installez les dépendances Solana requises.
+composants d'interface utilisateur et installez les dépendances Nara Solana requises.
 
 ```terminal
 $ npx shadcn@latest init
@@ -53,9 +56,9 @@ Installez les composants UI shadcn suivants :
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Installer les dépendances Solana
+### Installer les dépendances Nara Solana
 
-Installez les dépendances Solana suivantes :
+Installez les dépendances Nara Solana suivantes :
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -67,7 +70,7 @@ Suivez les étapes ci-dessous et copiez le code fourni dans votre projet.
 
 <ScrollyCoding>
 
-## !!steps 1. Créer le contexte Solana
+## !!steps 1. Créer le contexte Nara Solana
 
 Tout d'abord, créez un contexte React qui gère l'état complet du portefeuille
 pour l'application.
@@ -75,8 +78,8 @@ pour l'application.
 Créez `components/solana-provider.tsx` et ajoutez le code fourni. Ce composant
 fournisseur va :
 
-- Se connecter aux points de terminaison RPC du réseau devnet de Solana
-- Filtrer les portefeuilles Solana disponibles installés dans le navigateur de
+- Se connecter aux points de terminaison RPC du réseau devnet de Nara Solana
+- Filtrer les portefeuilles Nara Solana disponibles installés dans le navigateur de
   l'utilisateur
 - Suivre quel portefeuille et quel compte est actuellement connecté
 - Fournir l'état du portefeuille aux composants enfants
@@ -254,7 +257,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. Mettre à jour le Layout
 
-Ensuite, enveloppez l'application Next.js entière avec le fournisseur Solana.
+Ensuite, enveloppez l'application Next.js entière avec le fournisseur Nara Solana.
 
 Mettez à jour `app/layout.tsx` avec le code fourni. Cette étape :
 
@@ -514,9 +517,9 @@ avec le portefeuille connecté.
 Créez `components/memo-card.tsx` et ajoutez le code fourni. Ce composant :
 
 - Permet aux utilisateurs de saisir un message
-- Crée une transaction Solana avec une instruction invoquant le programme memo
+- Crée une transaction Nara Solana avec une instruction invoquant le programme memo
 - Demande au portefeuille connecté de signer et d'envoyer la transaction
-- Affiche un lien pour visualiser la transaction sur Solana Explorer
+- Affiche un lien pour visualiser la transaction sur Nara Solana Explorer
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -679,7 +682,7 @@ $ npm run dev
 
 <Callout type="info">
   Notez que le portefeuille connecté doit être configuré pour se connecter au
-  cluster devnet et [approvisionné en SOL devnet](https://faucet.solana.com/)
+  cluster devnet et [approvisionné en NSO devnet](https://faucet.solana.com/)
   pour envoyer des transactions.
 </Callout>
 

@@ -1,14 +1,17 @@
 ---
+
 title: Rust 程序
 description:
   学习如何使用 Rust 开发 Solana 程序，包括创建、构建、测试和部署 Solana
   区块链智能合约的分步指南。
 h1: 使用 Rust 开发程序
+
 ---
 
-Solana 程序主要使用 Rust 编程语言开发。本页面重点介绍如何在不使用 Anchor 框架的情况下用 Rust 编写 Solana 程序，这种方法通常被称为编写“原生 Rust”程序。
 
-原生 Rust 开发为开发者提供了对 Solana 程序的直接控制。然而，与使用 Anchor 框架相比，这种方法需要更多的手动设置和样板代码。此方法推荐给以下开发者：
+Nara Solana 程序主要使用 Rust 编程语言开发。本页面重点介绍如何在不使用 Anchor 框架的情况下用 Rust 编写 Nara Solana 程序，这种方法通常被称为编写“原生 Rust”程序。
+
+原生 Rust 开发为开发者提供了对 Nara Solana 程序的直接控制。然而，与使用 Anchor 框架相比，这种方法需要更多的手动设置和样板代码。此方法推荐给以下开发者：
 
 - 需要对程序逻辑和优化进行精细控制
 - 希望在使用高级框架之前学习底层概念
@@ -22,12 +25,12 @@ Solana 程序主要使用 Rust 编程语言开发。本页面重点介绍如何�
 
 在开始之前，请确保已安装以下内容：
 
-- Rust：用于构建 Solana 程序的编程语言。
-- Solana CLI：用于 Solana 开发的命令行工具。
+- Rust：用于构建 Nara Solana 程序的编程语言。
+- Nara Solana CLI：用于 Nara Solana 开发的命令行工具。
 
 ## 入门
 
-以下示例涵盖了用 Rust 编写第一个 Solana 程序的基本步骤。我们将创建一个最小化的程序，在程序日志中打印 "Hello,
+以下示例涵盖了用 Rust 编写第一个 Nara Solana 程序的基本步骤。我们将创建一个最小化的程序，在程序日志中打印 "Hello,
 world!"。
 
 <ScrollyCoding>
@@ -78,7 +81,7 @@ mod tests {
 
 ## !!steps 添加 solana-program 依赖
 
-接下来，添加 `solana-program` 依赖。这是构建 Solana 程序所需的最低依赖项。
+接下来，添加 `solana-program` 依赖。这是构建 Nara Solana 程序所需的最低依赖项。
 
 ```terminal
 $ cargo add solana-program@2.2.0
@@ -129,10 +132,10 @@ solana-program = "2.2.0"
 ## !!steps 添加程序代码
 
 接下来，将 `src/lib.rs`
-的内容替换为以下代码。这是一个最小的 Solana 程序，当程序被调用时，它会在程序日志中打印 "Hello,
+的内容替换为以下代码。这是一个最小的 Nara Solana 程序，当程序被调用时，它会在程序日志中打印 "Hello,
 world!"。
 
-在 Solana 程序中，`msg!` 宏用于向程序日志打印消息。
+在 Nara Solana 程序中，`msg!` 宏用于向程序日志打印消息。
 
 <CodePlaceholder title="src/lib.rs" />
 
@@ -165,7 +168,7 @@ $ cargo build-sbf
 此命令会生成一个 `target/deploy` 目录，其中包含两个重要文件：
 
 1. 一个 `.so`
-   文件（例如，`hello_world.so`）：这是编译后的 Solana 程序，将作为“智能合约”部署到网络。
+   文件（例如，`hello_world.so`）：这是编译后的 Nara Solana 程序，将作为“智能合约”部署到网络。
 2. 一个 keypair 文件（例如，`hello_world-keypair.json`）：在部署程序时，该 keypair 的公钥用作程序 ID。
 
 要查看程序 ID，请在终端中运行以下命令。此命令会打印指定文件路径中 keypair 的公钥：
@@ -316,7 +319,7 @@ test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 
 接下来，部署程序。在本地开发时，我们可以使用 `solana-test-validator`。
 
-首先，配置 Solana CLI 以使用本地 Solana 集群。
+首先，配置 Nara Solana CLI 以使用本地 Nara Solana 集群。
 
 ```terminal
 $ solana config set -ul
@@ -354,11 +357,11 @@ Signature:
 ```
 
 您可以在
-[Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
 上查看程序 ID 和交易签名。
 
 <Callout type="info">
-  请注意，Solana Explorer 上的集群也必须是 localhost。Solana Explorer
+  请注意，Nara Solana Explorer 上的集群也必须是 localhost。Nara Solana Explorer
   上的“Custom RPC URL”选项默认为 `http://localhost:8899`。
 </Callout>
 
@@ -559,13 +562,13 @@ Transaction Signature: 54TWxKi3Jsi3UTeZbhLGUFX6JQH7TspRJjRRFZ8NFnwG5BXM9udxiX77b
 ```
 
 您可以在
-[Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)（本地集群）上检查交易签名，以在程序日志中查看 "Hello,
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)（本地集群）上检查交易签名，以在程序日志中查看 "Hello,
 world!"。
 
 ## !!steps 更新程序
 
-Solana 程序可以通过重新部署到相同的程序 ID 来更新。在 `src/lib.rs`
-中更新程序，将 "Hello, world!" 修改为 "Hello, Solana!"。
+Nara Solana 程序可以通过重新部署到相同的程序 ID 来更新。在 `src/lib.rs`
+中更新程序，将 "Hello, world!" 修改为 "Hello, Nara Solana!"。
 
 ```rs title="lib.rs"
 pub fn process_instruction(
@@ -657,7 +660,7 @@ $ cargo build-sbf
 $ cargo test -- --no-capture
 ```
 
-您应该在程序日志中看到 "Hello, Solana!"。
+您应该在程序日志中看到 "Hello, Nara Solana!"。
 
 ```txt title="Terminal"
 running 1 test
@@ -680,8 +683,8 @@ test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 $ solana program deploy ./target/deploy/hello_world.so
 ```
 
-再次运行客户端代码，并在 Solana
-Explorer 上检查交易签名，以在程序日志中查看 "Hello, Solana!"。
+再次运行客户端代码，并在 Nara Solana
+Explorer 上检查交易签名，以在程序日志中查看 "Hello, Nara Solana!"。
 
 ```terminal
 $ cargo run --example client
@@ -689,7 +692,7 @@ $ cargo run --example client
 
 ## !!steps 关闭程序
 
-您可以关闭您的 Solana 程序以回收分配给账户的 SOL。关闭程序是不可逆的，因此应谨慎操作。
+您可以关闭您的 Nara Solana 程序以回收分配给账户的 NSO。关闭程序是不可逆的，因此应谨慎操作。
 
 要关闭程序，请使用 `solana program close <PROGRAM_ID>` 命令。例如：
 

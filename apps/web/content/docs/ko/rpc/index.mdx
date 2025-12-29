@@ -1,16 +1,19 @@
 ---
-title: Solana RPC 메소드
-seoTitle: "Solana RPC 메소드: HTTP 및 웹소켓"
+
+title: Nara Solana RPC 메소드
+seoTitle: "Nara Solana RPC 메소드: HTTP 및 웹소켓"
 hideTableOfContents: false
-h1: Solana RPC 메소드 및 문서
+h1: Nara Solana RPC 메소드 및 문서
+
 ---
 
-JSON RPC API를 통해 HTTP 및 웹소켓 메소드를 사용하여 Solana 노드와 직접
+
+JSON RPC API를 통해 HTTP 및 웹소켓 메소드를 사용하여 Nara Solana 노드와 직접
 상호작용하세요.
 
 ## 상태 커밋 구성하기
 
-사전 검사 및 트랜잭션 처리를 위해 Solana 노드는 클라이언트가 설정한 커밋
+사전 검사 및 트랜잭션 처리를 위해 Nara Solana 노드는 클라이언트가 설정한 커밋
 요구사항에 따라 어떤 뱅크 상태를 쿼리할지 선택합니다. 커밋은 해당 시점에서
 블록이 얼마나 확정되었는지를 설명합니다. 원장 상태를 쿼리할 때는 진행 상황을
 보고하기 위해 낮은 수준의 커밋을 사용하고, 상태가 롤백되지 않도록 보장하기 위해
@@ -57,7 +60,7 @@ JSON RPC API를 통해 HTTP 및 웹소켓 메소드를 사용하여 Solana 노�
 
 일부 메서드는 `encoding` 매개변수를 지원하며, `"encoding":"jsonParsed"`가
 요청되고 노드가 소유 프로그램에 대한 파서를 가지고 있는 경우 파싱된 JSON
-형식으로 계정 또는 명령어 데이터를 반환할 수 있습니다. Solana 노드는 현재 다음과
+형식으로 계정 또는 명령어 데이터를 반환할 수 있습니다. Nara Solana 노드는 현재 다음과
 같은 네이티브 및 SPL 프로그램에 대한 JSON 파싱을 지원합니다:
 
 | 프로그램                     | 계정 상태 | 명령어  |

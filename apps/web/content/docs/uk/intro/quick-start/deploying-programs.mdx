@@ -1,16 +1,19 @@
 ---
+
 title: Розгортання програми
 description:
   Дізнайтеся, як створити, розгорнути та протестувати вашу першу програму Solana
   за допомогою фреймворку Anchor та Solana Playground. Цей посібник для
   початківців проведе вас через створення простої програми, її розгортання в
   devnet, запуск тестів та закриття програми.
-h1: Розгорніть вашу першу програму Solana
+h1: Розгорніть вашу першу програму Nara Solana
+
 ---
 
+
 Створіть, розгорніть та протестуйте вашу першу [програму](/docs/core/programs) у
-блокчейні Solana за допомогою фреймворку Anchor. Цей посібник допоможе вам краще
-ознайомитися з Solana Playground та підготує вас до використання Program Derived
+блокчейні Nara Solana за допомогою фреймворку Anchor. Цей посібник допоможе вам краще
+ознайомитися з Nara Solana Playground та підготує вас до використання Program Derived
 Address (PDA) та Cross Program Invocation (CPI).
 
 <Steps>
@@ -19,7 +22,7 @@ Address (PDA) та Cross Program Invocation (CPI).
 
 ### Створення проєкту Anchor
 
-1. Відкрийте [Solana Playground](https://beta.solpg.io) у вашому веб-браузері
+1. Відкрийте [Nara Solana Playground](https://beta.solpg.io) у вашому веб-браузері
 2. На лівій панелі натисніть **+ Create a new project**
 3. Введіть **Project name** (назву проєкту)
 4. Виберіть **Anchor (Rust)** як фреймворк
@@ -146,7 +149,7 @@ pub struct NewAccount {
 <WithMentions>
 
 - Макрос [`declare_id!`](mention:one) вказує адресу вашої програми в мережі.
-  Solana Playground автоматично оновить цю адресу, коли ви скомпілюєте програму.
+  Nara Solana Playground автоматично оновить цю адресу, коли ви скомпілюєте програму.
 
 ```rs
 // !mention one
@@ -248,11 +251,11 @@ Build successful. Completed in 1.46s.
   визначений у _rs`declare_id!()`_, тепер буде оновлено.
 </Callout>
 
-2. Додайте SOL до свого гаманця _(Опціонально)_
+2. Додайте NSO до свого гаманця _(Опціонально)_
 
-Розгортання програми вимагає наявності SOL в обліковому записі програми в
+Розгортання програми вимагає наявності NSO в обліковому записі програми в
 мережі. Якщо необхідно,
-[додайте SOL до свого гаманця](/docs/intro/quick-start#add-sol-to-your-wallet)
+[додайте NSO до свого гаманця](/docs/intro/quick-start#add-sol-to-your-wallet)
 перед переходом до кроку 3.
 
 3. Розгорніть програму в мережі
@@ -394,12 +397,12 @@ Confirmed
 4. Перегляньте деталі транзакції
 
 Відкрийте [SolanaFM](https://solana.fm/) або
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) і знайдіть хеш
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) і знайдіть хеш
 транзакції.
 
 <Callout type="warn">
-  **Solana Explorer:** Встановіть мережевий кластер на `devnet`, щоб він
-  відповідав кластеру Solana Playground.
+  **Nara Solana Explorer:** Встановіть мережевий кластер на `devnet`, щоб він
+  відповідав кластеру Nara Solana Playground.
 </Callout>
 
 </Step>
@@ -408,7 +411,7 @@ Confirmed
 
 ### Закриття програми
 
-Закрийте програму, щоб повернути SOL, виділений для програми в мережі. Для цього
+Закрийте програму, щоб повернути NSO, виділений для програми в мережі. Для цього
 запустіть `solana program close [ProgramID]`, використовуючи адресу програми,
 збережену в макросі _rs`declare_id!()`_.
 
@@ -424,7 +427,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   відкликано, програма стає незмінною.
 </Callout>
 
-Вітаємо! Ви створили та розгорнули свою першу програму Solana за допомогою
+Вітаємо! Ви створили та розгорнули свою першу програму Nara Solana за допомогою
 Anchor.
 
 </Step>

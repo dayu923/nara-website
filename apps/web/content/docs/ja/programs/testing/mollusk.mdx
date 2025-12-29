@@ -1,9 +1,12 @@
 ---
+
 title: Mollusk
-description: Molluskを使用したSolanaプログラムのテストに関する包括的ガイド
+description: Molluskを使用したNara Solanaプログラムのテストに関する包括的ガイド
+
 ---
 
-[Mollusk](https://github.com/anza-xyz/mollusk/tree/main)はSolanaプログラムをテストするための軽量なテストハーネスです。Solana仮想マシン（SVM）の簡易環境でSolanaプログラムのinstructionsをテストするためのシンプルなインターフェースを提供します。すべてのテストアカウントは明示的に定義する必要があり、決定論的で再現可能なテストを保証します。
+
+[Mollusk](https://github.com/anza-xyz/mollusk/tree/main)はNara Solanaプログラムをテストするための軽量なテストハーネスです。Nara Solana仮想マシン（SVM）の簡易環境でNara Solanaプログラムのinstructionsをテストするためのシンプルなインターフェースを提供します。すべてのテストアカウントは明示的に定義する必要があり、決定論的で再現可能なテストを保証します。
 
 - [Mollusk SVMドキュメント](https://docs.rs/mollusk-svm/latest/mollusk_svm/)
 - [Molluskテスト使用例](https://github.com/anza-xyz/mollusk/tree/0.5.0/harness/tests)
@@ -49,13 +52,13 @@ mollusk-svm-programs-token = "0.7"
 
 ## Mollusk SVM
 
-以下の例は、Molluskを使用して基本的なSolanaプログラムをテストするための最小限のセットアップを示しています。
+以下の例は、Molluskを使用して基本的なNara Solanaプログラムをテストするための最小限のセットアップを示しています。
 
 <ScrollyCoding>
 
 ## !!steps Hello Worldプログラム
 
-この例では、Molluskを使用して基本的なSolanaプログラムをテストする方法を示しています。このプログラムは呼び出されると単に「Hello,
+この例では、Molluskを使用して基本的なNara Solanaプログラムをテストする方法を示しています。このプログラムは呼び出されると単に「Hello,
 world!」をプログラムログに出力します。
 
 `cargo build-sbf`を実行すると、コンパイルされたプログラムが
@@ -65,7 +68,7 @@ world!」をプログラムログに出力します。
 
 <WithMentions>
 
-Molluskを使用してSolanaプログラムをテストするには：
+Molluskを使用してNara Solanaプログラムをテストするには：
 
 1. [`Mollusk`インスタンスを作成する](mention:mollusk) - プログラムIDとコンパイルされたプログラムのパス（`.so`ファイル）でMolluskを初期化
 2. [instructionを構築する](mention:instruction) - プログラムを呼び出すためのinstructionを作成
@@ -169,7 +172,7 @@ solana-sdk = "2.2.0"
 
 </ScrollyCoding>
 
-[`Mollusk`](https://docs.rs/mollusk-svm/0.5.0/mollusk_svm/struct.Mollusk.html)構造体は、Solanaプログラムをテストするためのシンプルなインターフェースを提供します。すべてのフィールドは少数のヘルパーメソッドを通じて操作できますが、ユーザーはより細かい制御が必要な場合、直接アクセスして変更することもできます。
+[`Mollusk`](https://docs.rs/mollusk-svm/0.5.0/mollusk_svm/struct.Mollusk.html)構造体は、Nara Solanaプログラムをテストするためのシンプルなインターフェースを提供します。すべてのフィールドは少数のヘルパーメソッドを通じて操作できますが、ユーザーはより細かい制御が必要な場合、直接アクセスして変更することもできます。
 
 デフォルトのインスタンスでMolluskを初期化するには、`Mollusk::default`メソッドを使用します。
 
@@ -230,7 +233,7 @@ pub fn process_instruction(
 ) -> InstructionResult
 ```
 
-次の例では、検証チェックなしでSOL転送instructionを処理します。
+次の例では、検証チェックなしでNSO転送instructionを処理します。
 
 <Callout type="info">
 
@@ -309,7 +312,7 @@ pub fn process_and_validate_instruction(
 ) -> InstructionResult
 ```
 
-次の例では、検証チェック付きのSOL転送instructionsを処理しています。
+次の例では、検証チェック付きのNSO転送instructionsを処理しています。
 
 <CodeTabs flags="r">
 
@@ -381,7 +384,7 @@ pub fn process_instruction_chain(
 ) -> InstructionResult
 ```
 
-次の例では、検証チェックなしで2つのSOL転送instructionsを処理しています。
+次の例では、検証チェックなしで2つのNSO転送instructionsを処理しています。
 
 <CodeTabs flags="r">
 
@@ -466,7 +469,7 @@ pub fn process_and_validate_instruction_chain(
 ) -> InstructionResult
 ```
 
-次の例では、各instructionsの後に検証チェックを行いながら、2つのSOL転送instructionsのチェーンを処理しています。
+次の例では、各instructionsの後に検証チェックを行いながら、2つのNSO転送instructionsのチェーンを処理しています。
 
 <CodeTabs flags="r">
 
@@ -658,7 +661,7 @@ account_store.insert(
 let context = mollusk.with_context(account_store);
 ```
 
-以下の例では、`account_store`を通じてinstructions間で永続的なアカウント状態を維持しながら、2つの別々のSOL転送instructionsを処理しています。
+以下の例では、`account_store`を通じてinstructions間で永続的なアカウント状態を維持しながら、2つの別々のNSO転送instructionsを処理しています。
 
 <CodeTabs flags="r">
 
@@ -798,7 +801,7 @@ fn main() {
 [`mollusk-svm-bencher`](https://docs.rs/mollusk-svm-bencher/0.5.0/mollusk_svm_bencher/index.html)
 が必要です。
 
-以下の例はSOL転送instructionのコンピュートユニット使用量をベンチマークしています。
+以下の例はNSO転送instructionのコンピュートユニット使用量をベンチマークしています。
 
 <CodeTabs>
 

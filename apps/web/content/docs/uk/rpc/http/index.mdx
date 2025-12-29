@@ -1,17 +1,20 @@
 ---
+
 title: HTTP методи
-seoTitle: HTTP методи Solana RPC
+seoTitle: HTTP методи Nara Solana RPC
 hideTableOfContents: false
-h1: HTTP методи Solana RPC
+h1: HTTP методи Nara Solana RPC
+
 ---
 
-Вузли Solana приймають HTTP-запити, використовуючи
+
+Вузли Nara Solana приймають HTTP-запити, використовуючи
 [специфікацію JSON-RPC 2.0](https://www.jsonrpc.org/specification).
 
 > Для JavaScript-додатків використовуйте бібліотеку
 > [@solana/web3.js](https://github.com/solana-labs/solana-web3.js) як зручний
-> інтерфейс для RPC-методів взаємодії з вузлом Solana. Для PubSub-з'єднання з
-> вузлом Solana використовуйте [Websocket API](/docs/rpc/websocket/).
+> інтерфейс для RPC-методів взаємодії з вузлом Nara Solana. Для PubSub-з'єднання з
+> вузлом Nara Solana використовуйте [Websocket API](/docs/rpc/websocket/).
 
 ## RPC HTTP кінцева точка
 
@@ -81,7 +84,7 @@ curl https://api.devnet.solana.com -s -X POST -H "Content-Type: application/json
 
 - Hash: SHA-256 хеш фрагмента даних.
 - Pubkey: Публічний ключ пари ключів Ed25519.
-- Transaction: Список інструкцій Solana, підписаних клієнтською keypair для
+- Transaction: Список інструкцій Nara Solana, підписаних клієнтською keypair для
   авторизації цих дій.
 - Signature: Підпис Ed25519 корисного навантаження транзакції, включаючи
   інструкції. Це можна використовувати для ідентифікації транзакцій.

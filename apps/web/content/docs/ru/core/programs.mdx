@@ -1,13 +1,16 @@
 ---
+
 title: Программы
 description:
   Узнайте о программах (смарт-контрактах) на Solana и о том, как разрабатывать
   их с использованием Rust или фреймворка Anchor. Поймите процесс развертывания,
   обновления и проверки программ в сети Solana.
 h1: Программы
+
 ---
 
-На Solana смарт-контракт называется программой. Программа — это не имеющий
+
+На Nara Solana смарт-контракт называется программой. Программа — это не имеющий
 состояния [аккаунт](/docs/core/accounts#program-account), который содержит
 исполняемый код. Этот код организован в функции, называемые инструкциями.
 Пользователи взаимодействуют с программой, отправляя
@@ -15,15 +18,15 @@ h1: Программы
 [инструкций](/docs/core/instructions). Транзакция может включать инструкции из
 нескольких программ.
 
-Когда программа развёртывается, Solana использует [LLVM](https://llvm.org/) для
+Когда программа развёртывается, Nara Solana использует [LLVM](https://llvm.org/) для
 компиляции её в исполняемый и связываемый формат
 ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)). ELF-файл
-содержит бинарный код программы в формате байткода Solana (sBPF) и сохраняется в
+содержит бинарный код программы в формате байткода Nara Solana (sBPF) и сохраняется в
 блокчейне в исполняемом аккаунте.
 
 <Callout>
   sBPF — это кастомная версия байткода
-  [eBPF](https://en.wikipedia.org/wiki/EBPF) от Solana.
+  [eBPF](https://en.wikipedia.org/wiki/EBPF) от Nara Solana.
 </Callout>
 
 ## Написание программ
@@ -33,7 +36,7 @@ h1: Программы
 распространённых подходов к разработке:
 
 - [Anchor](https://www.anchor-lang.com/docs): Anchor — это фреймворк,
-  разработанный для быстрой и простой разработки на Solana. Он использует
+  разработанный для быстрой и простой разработки на Nara Solana. Он использует
   [макросы Rust](https://doc.rust-lang.org/book/ch20-05-macros.html), чтобы
   уменьшить количество шаблонного кода, что делает его отличным выбором для
   начинающих.
@@ -54,7 +57,7 @@ h1: Программы
 
 ## Проверка программ
 
-Solana поддерживает [проверяемые сборки](/docs/programs/verified-builds),
+Nara Solana поддерживает [проверяемые сборки](/docs/programs/verified-builds),
 которые позволяют пользователям проверить, соответствует ли код программы в
 блокчейне её публичному исходному коду. Фреймворк Anchor предоставляет
 [встроенную поддержку](https://www.anchor-lang.com/docs/verifiable-builds) для
@@ -62,9 +65,9 @@ Solana поддерживает [проверяемые сборки](/docs/prog
 
 Чтобы проверить, является ли существующая программа проверенной, найдите её ID
 программы в
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
 Кроме того, вы можете использовать CLI-инструмент Ellipsis Labs
-[Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build),
+[Nara Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build),
 чтобы независимо проверить программы в блокчейне.
 
 ## Встроенные программы
@@ -82,7 +85,7 @@ Solana поддерживает [проверяемые сборки](/docs/prog
 | [Создание нового аккаунта](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)       | Только Системная программа может создавать новые аккаунты.                                                                                                                                                                       |
 | [Выделение пространства](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)          | Устанавливает объем байтов для поля данных каждого аккаунта.                                                                                                                                                                     |
 | [Назначение владельца программы](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | После создания аккаунта Системная программа может переназначить владельца программы на другой аккаунт программы. Таким образом, пользовательские программы получают владение новыми аккаунтами, созданными Системной программой. |
-| [Перевод SOL](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                    | Переводит лампорты (SOL) с системных аккаунтов на другие аккаунты.                                                                                                                                                               |
+| [Перевод NSO](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                    | Переводит лампорты (NSO) с системных аккаунтов на другие аккаунты.                                                                                                                                                               |
 
 Адрес системной программы: `11111111111111111111111111111111`.
 
@@ -117,7 +120,7 @@ Solana поддерживает [проверяемые сборки](/docs/prog
 
 ### Предварительно скомпилированные программы
 
-Помимо программ загрузчика, Solana предоставляет следующие предварительно
+Помимо программ загрузчика, Nara Solana предоставляет следующие предварительно
 скомпилированные программы.
 
 #### Проверка подписи ed25519

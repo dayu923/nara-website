@@ -1,19 +1,22 @@
 ---
+
 title: Программы на Rust
 description:
   Узнайте, как разрабатывать программы для Solana с использованием Rust, включая
   пошаговые инструкции по созданию, сборке, тестированию и развертыванию
   смарт-контрактов в блокчейне Solana.
 h1: Разработка программ на Rust
+
 ---
 
-Программы для Solana в основном разрабатываются с использованием языка
+
+Программы для Nara Solana в основном разрабатываются с использованием языка
 программирования Rust. На этой странице рассматривается написание программ для
-Solana на Rust без использования фреймворка Anchor, что часто называют
+Nara Solana на Rust без использования фреймворка Anchor, что часто называют
 написанием программ на "чистом Rust".
 
 Разработка на чистом Rust предоставляет разработчикам прямой контроль над их
-программами для Solana. Однако этот подход требует больше ручной настройки и
+программами для Nara Solana. Однако этот подход требует больше ручной настройки и
 шаблонного кода по сравнению с использованием фреймворка Anchor. Этот метод
 рекомендуется для разработчиков, которые:
 
@@ -31,13 +34,13 @@ Solana на Rust без использования фреймворка Anchor, 
 
 Перед началом убедитесь, что у вас установлены следующие компоненты:
 
-- Rust: Язык программирования для создания программ для Solana.
-- Solana CLI: Инструмент командной строки для разработки на Solana.
+- Rust: Язык программирования для создания программ для Nara Solana.
+- Nara Solana CLI: Инструмент командной строки для разработки на Nara Solana.
 
 ## Начало работы
 
 Пример ниже охватывает основные шаги для создания вашей первой программы для
-Solana, написанной на Rust. Мы создадим минимальную программу, которая выводит
+Nara Solana, написанной на Rust. Мы создадим минимальную программу, которая выводит
 "Hello, world!" в журнал программы.
 
 <ScrollyCoding>
@@ -92,7 +95,7 @@ mod tests {
 ## !!steps Добавьте зависимость solana-program
 
 Теперь добавьте зависимость `solana-program`. Это минимальная зависимость,
-необходимая для создания программы Solana.
+необходимая для создания программы Nara Solana.
 
 ```terminal
 $ cargo add solana-program@2.2.0
@@ -144,10 +147,10 @@ solana-program = "2.2.0"
 ## !!steps Добавьте код программы
 
 Теперь замените содержимое `src/lib.rs` следующим кодом. Это минимальная
-программа Solana, которая выводит "Hello, world!" в журнал программы при её
+программа Nara Solana, которая выводит "Hello, world!" в журнал программы при её
 вызове.
 
-Макрос `msg!` используется в программах Solana для вывода сообщения в журнал
+Макрос `msg!` используется в программах Nara Solana для вывода сообщения в журнал
 программы.
 
 <CodePlaceholder title="src/lib.rs" />
@@ -181,7 +184,7 @@ $ cargo build-sbf
 Эта команда создаёт директорию `target/deploy`, содержащую два важных файла:
 
 1. Файл `.so` (например, `hello_world.so`): Это скомпилированная программа
-   Solana, которая будет развернута в сети как "умный контракт".
+   Nara Solana, которая будет развернута в сети как "умный контракт".
 2. Файл keypair (например, `hello_world-keypair.json`): Публичный ключ этой пары
    ключей используется как ID программы при её развертывании.
 
@@ -337,7 +340,7 @@ test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 Далее разверните программу. При локальной разработке мы можем использовать
 `solana-test-validator`.
 
-Сначала настройте Solana CLI для использования локального кластера Solana.
+Сначала настройте Nara Solana CLI для использования локального кластера Nara Solana.
 
 ```terminal
 $ solana config set -ul
@@ -376,11 +379,11 @@ Signature:
 ```
 
 Вы можете проверить ID программы и подпись транзакции на
-[Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899).
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899).
 
 <Callout type="info">
-  Обратите внимание, что кластер в Solana Explorer также должен быть localhost.
-  Опция "Custom RPC URL" в Solana Explorer по умолчанию установлена на
+  Обратите внимание, что кластер в Nara Solana Explorer также должен быть localhost.
+  Опция "Custom RPC URL" в Nara Solana Explorer по умолчанию установлена на
   `http://localhost:8899`.
 </Callout>
 
@@ -582,14 +585,14 @@ Transaction Signature: 54TWxKi3Jsi3UTeZbhLGUFX6JQH7TspRJjRRFZ8NFnwG5BXM9udxiX77b
 ```
 
 Вы можете проверить подпись транзакции на
-[Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
 (локальный кластер), чтобы увидеть "Hello, world!" в журнале программы.
 
 ## !!steps Обновите программу
 
-Программы Solana можно обновлять, повторно развертывая их с тем же
+Программы Nara Solana можно обновлять, повторно развертывая их с тем же
 идентификатором программы. Обновите программу в `src/lib.rs`, чтобы вместо
-"Hello, world!" выводилось "Hello, Solana!".
+"Hello, world!" выводилось "Hello, Nara Solana!".
 
 ```rs title="lib.rs"
 pub fn process_instruction(
@@ -681,7 +684,7 @@ $ cargo build-sbf
 $ cargo test -- --no-capture
 ```
 
-Вы должны увидеть "Hello, Solana!" в журнале программы.
+Вы должны увидеть "Hello, Nara Solana!" в журнале программы.
 
 ```txt title="Terminal"
 running 1 test
@@ -704,8 +707,8 @@ test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 $ solana program deploy ./target/deploy/hello_world.so
 ```
 
-Снова выполните клиентский код и проверьте подпись транзакции на Solana
-Explorer, чтобы увидеть "Hello, Solana!" в журнале программы.
+Снова выполните клиентский код и проверьте подпись транзакции на Nara Solana
+Explorer, чтобы увидеть "Hello, Nara Solana!" в журнале программы.
 
 ```terminal
 $ cargo run --example client
@@ -713,7 +716,7 @@ $ cargo run --example client
 
 ## !!steps Закройте программу
 
-Вы можете закрыть свою программу Solana, чтобы вернуть SOL, выделенные на
+Вы можете закрыть свою программу Nara Solana, чтобы вернуть NSO, выделенные на
 аккаунт. Закрытие программы необратимо, поэтому его следует выполнять с
 осторожностью.
 

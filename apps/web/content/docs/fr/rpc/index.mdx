@@ -1,17 +1,20 @@
 ---
-title: Méthodes RPC Solana
-seoTitle: "Méthodes RPC Solana : HTTP & Websockets"
+
+title: Méthodes RPC Nara Solana
+seoTitle: "Méthodes RPC Nara Solana : HTTP & Websockets"
 hideTableOfContents: false
-h1: Méthodes RPC Solana & Documentation
+h1: Méthodes RPC Nara Solana & Documentation
+
 ---
 
-Interagissez directement avec les nœuds Solana grâce à l'API JSON RPC via les
+
+Interagissez directement avec les nœuds Nara Solana grâce à l'API JSON RPC via les
 méthodes HTTP et Websocket.
 
 ## Configuration de l'engagement d'état
 
 Pour les vérifications préliminaires et le traitement des transactions, les
-nœuds Solana choisissent quel état de banque interroger en fonction d'une
+nœuds Nara Solana choisissent quel état de banque interroger en fonction d'une
 exigence d'engagement définie par le client. L' engagement décrit le niveau de
 finalisation d'un bloc à un moment donné. Lors de l'interrogation de l'état du
 registre, il est recommandé d'utiliser des niveaux d'engagement inférieurs pour
@@ -61,7 +64,7 @@ JSON RpcResponse composé de deux parties :
 Certaines méthodes prennent en charge un paramètre `encoding` et peuvent
 renvoyer des données de compte ou d'instruction au format JSON analysé si
 `"encoding":"jsonParsed"` est demandé et que le nœud dispose d'un analyseur pour
-le programme propriétaire. Les nœuds Solana prennent actuellement en charge
+le programme propriétaire. Les nœuds Nara Solana prennent actuellement en charge
 l'analyse JSON pour les programmes natifs et SPL suivants :
 
 | Programme                    | État du compte | Instructions |

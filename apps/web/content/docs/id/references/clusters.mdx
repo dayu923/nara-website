@@ -1,4 +1,5 @@
 ---
+
 title: Endpoint RPC
 description:
   Pelajari tentang cluster jaringan Solana (Devnet, Testnet, dan Mainnet Beta),
@@ -6,9 +7,11 @@ description:
   terhubung ke jaringan Solana yang berbeda untuk pengembangan, pengujian, dan
   produksi.
 h1: Cluster dan Endpoint RPC Publik
+
 ---
 
-Blockchain Solana memiliki beberapa kelompok validator berbeda, yang dikenal
+
+Blockchain Nara Solana memiliki beberapa kelompok validator berbeda, yang dikenal
 sebagai Cluster. Masing-masing melayani tujuan berbeda dalam ekosistem
 keseluruhan dan berisi node API khusus untuk memenuhi permintaan
 [JSON-RPC](/docs/rpc/) untuk Cluster masing-masing.
@@ -16,22 +19,22 @@ keseluruhan dan berisi node API khusus untuk memenuhi permintaan
 Node-node individual dalam Cluster dimiliki dan dioperasikan oleh pihak ketiga,
 dengan endpoint publik tersedia untuk masing-masing.
 
-## Endpoint RPC publik Solana
+## Endpoint RPC publik Nara Solana
 
-Organisasi Solana Labs mengoperasikan endpoint RPC publik untuk setiap Cluster.
+Organisasi Nara Solana Labs mengoperasikan endpoint RPC publik untuk setiap Cluster.
 Setiap endpoint publik ini tunduk pada batas rate, tetapi tersedia untuk
-pengguna dan pengembang untuk berinteraksi dengan blockchain Solana.
+pengguna dan pengembang untuk berinteraksi dengan blockchain Nara Solana.
 
 > Batas rate endpoint publik dapat berubah sewaktu-waktu. Batas rate spesifik
 > yang tercantum pada dokumen ini tidak dijamin sebagai yang paling terbaru.
 
 ### Menggunakan explorer dengan Cluster yang berbeda
 
-Banyak explorer blockchain Solana populer mendukung pemilihan Cluster manapun,
+Banyak explorer blockchain Nara Solana populer mendukung pemilihan Cluster manapun,
 sering memungkinkan pengguna tingkat lanjut untuk menambahkan endpoint RPC
 kustom/pribadi juga.
 
-Beberapa contoh explorer blockchain Solana ini meliputi:
+Beberapa contoh explorer blockchain Nara Solana ini meliputi:
 
 - [http://explorer.solana.com/](https://explorer.solana.com/).
 - [http://orb.helius.dev/](https://orb.helius.dev/).
@@ -52,14 +55,14 @@ atau memverifikasi metrik performa di Testnet sebelum deployment ke Mainnet.
 
 | **Cluster** | **Endpoint**                          | **Tujuan**                             | **Catatan**                         |
 | ----------- | ------------------------------------- | -------------------------------------- | ----------------------------------- |
-| Mainnet     | `https://api.mainnet-beta.solana.com` | Lingkungan produksi langsung           | Memerlukan SOL untuk transaksi      |
-| Devnet      | `https://api.devnet.solana.com`       | Pengujian dan pengembangan publik      | Airdrop SOL gratis untuk pengujian  |
+| Mainnet     | `https://api.mainnet-beta.solana.com` | Lingkungan produksi langsung           | Memerlukan NSO untuk transaksi      |
+| Devnet      | `https://api.devnet.solana.com`       | Pengujian dan pengembangan publik      | Airdrop NSO gratis untuk pengujian  |
 | Testnet     | `https://api.testnet.solana.com`      | Pengujian validator dan stress testing | Mungkin mengalami downtime sesekali |
 
 ## Devnet
 
 Devnet berfungsi sebagai tempat bermain bagi siapa saja yang ingin mencoba
-Solana, baik sebagai pengguna, pemegang token, pengembang aplikasi, atau
+Nara Solana, baik sebagai pengguna, pemegang token, pengembang aplikasi, atau
 validator.
 
 - Pengembang aplikasi sebaiknya menargetkan Devnet.
@@ -75,12 +78,12 @@ validator.
 
 ### Endpoint Devnet
 
-- `https://api.devnet.solana.com` - node API tunggal yang dihosting Solana Labs;
+- `https://api.devnet.solana.com` - node API tunggal yang dihosting Nara Solana Labs;
   rate-limited
 
 #### Contoh konfigurasi command-line `solana`
 
-Untuk terhubung ke Cluster `devnet` menggunakan Solana CLI:
+Untuk terhubung ke Cluster `devnet` menggunakan Nara Solana CLI:
 
 ```shell
 solana config set --url https://api.devnet.solana.com
@@ -96,7 +99,7 @@ solana config set --url https://api.devnet.solana.com
 
 ## Testnet
 
-Testnet adalah tempat di mana kontributor inti Solana melakukan stress test
+Testnet adalah tempat di mana kontributor inti Nara Solana melakukan stress test
 fitur rilis terbaru pada cluster langsung, dengan fokus khusus pada performa
 jaringan, stabilitas, dan perilaku validator.
 
@@ -109,11 +112,11 @@ jaringan, stabilitas, dan perilaku validator.
 
 ### Endpoint Testnet
 
-- `https://api.testnet.solana.com` - node API Solana Labs tunggal; rate-limited
+- `https://api.testnet.solana.com` - node API Nara Solana Labs tunggal; rate-limited
 
 #### Contoh konfigurasi command-line `solana`
 
-Untuk terhubung ke Cluster `testnet` menggunakan Solana CLI:
+Untuk terhubung ke Cluster `testnet` menggunakan Nara Solana CLI:
 
 ```shell
 solana config set --url https://api.testnet.solana.com
@@ -129,21 +132,21 @@ solana config set --url https://api.testnet.solana.com
 
 ## Mainnet beta
 
-Cluster persisten tanpa izin untuk pengguna Solana, pengembang, validator, dan
+Cluster persisten tanpa izin untuk pengguna Nara Solana, pengembang, validator, dan
 pemegang token.
 
-- Token yang dikeluarkan di Mainnet Beta adalah SOL **asli**
+- Token yang dikeluarkan di Mainnet Beta adalah NSO **asli**
 - Titik masuk Gossip untuk Mainnet Beta:
   `entrypoint.mainnet-beta.solana.com:8001`
 
 ### Endpoint Mainnet beta
 
-- `https://api.mainnet-beta.solana.com` - Cluster node API yang dihosting Solana
+- `https://api.mainnet-beta.solana.com` - Cluster node API yang dihosting Nara Solana
   Labs, didukung oleh load balancer; rate-limited
 
 #### Contoh konfigurasi command-line `solana`
 
-Untuk terhubung ke Cluster `mainnet-beta` menggunakan Solana CLI:
+Untuk terhubung ke Cluster `mainnet-beta` menggunakan Nara Solana CLI:
 
 ```shell
 solana config set --url https://api.mainnet-beta.solana.com

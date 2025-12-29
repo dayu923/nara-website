@@ -1,13 +1,16 @@
 ---
+
 title: Tilit
 description:
   Opi Solanan tilimallista, mukaan lukien miten tilit tallentavat dataa ja
   ohjelmia, rent-mekaniikat, tilien omistajuus ja ohjelmien ja datatilien
   välinen suhde. Ymmärrä Solanan avain-arvo-tallennusjärjestelmän keskeiset
   käsitteet.
+
 ---
 
-Kaikki data Solana-verkossa tallennetaan tileihin. Voit ajatella Solana-verkkoa
+
+Kaikki data Nara Solana-verkossa tallennetaan tileihin. Voit ajatella Nara Solana-verkkoa
 julkisena tietokantana, jossa on yksi Tilit-taulu. Tilin ja sen osoitteen
 välinen suhde on samankaltainen kuin avain-arvo-parissa, jossa avain on osoite
 ja arvo on tili.
@@ -20,17 +23,17 @@ paikantaa sen [osoitteen](#account-address) avulla.
 ## Tilin osoite
 
 Tilin osoite on 32-tavuinen yksilöllinen tunniste, jota käytetään tilin
-paikantamiseen Solana-lohkoketjussa. Tilien osoitteet näytetään usein
+paikantamiseen Nara Solana-lohkoketjussa. Tilien osoitteet näytetään usein
 base58-koodattuina merkkijonoina. Useimmat tilit käyttävät
 [Ed25519](https://ed25519.cr.yp.to/) [julkista avainta](#public-key)
-osoitteenaan, mutta tämä ei ole pakollista, sillä Solana tukee myös
+osoitteenaan, mutta tämä ei ole pakollista, sillä Nara Solana tukee myös
 [ohjelmasta johdettuja osoitteita](#program-derived-address).
 
 ![Tili ja sen base58-koodattu julkisen avaimen osoite](/assets/docs/core/accounts/account-address.svg)
 
 ### Julkinen avain
 
-Alla oleva esimerkki näyttää, miten Solana SDK:ta käytetään keypair-avaimen
+Alla oleva esimerkki näyttää, miten Nara Solana SDK:ta käytetään keypair-avaimen
 luomiseen. keypair sisältää:
 
 - Julkisen avaimen, joka toimii tilin osoitteena
@@ -71,7 +74,7 @@ async fn main() {
 
 [Program derived address](/docs/core/pda) (PDA) on osoite, joka on
 deterministisesti johdettu käyttäen ohjelmatunnusta ja yhtä tai useampaa
-valinnaista syötettä (siemeniä). Alla oleva esimerkki näyttää, miten Solana
+valinnaista syötettä (siemeniä). Alla oleva esimerkki näyttää, miten Nara Solana
 SDK:ta käytetään Program derived address -osoitteen luomiseen.
 
 <CodeTabs storage="accounts" flags="r">
@@ -219,7 +222,7 @@ ohjelma määrittelee tähän kenttään tallennetun datan rakenteen.
 - Data account: Tämä kenttä yleensä tallentaa tilatietoja, jotka on tarkoitettu
   luettaviksi.
 
-Datan lukeminen Solana-tililtä sisältää kaksi vaihetta:
+Datan lukeminen Nara Solana-tililtä sisältää kaksi vaihetta:
 
 1. Tilin hakeminen sen [osoitteen](#account-address) avulla
 2. Tilin `data` -kentän deserialisointi raakatavuista asianmukaiseen
@@ -255,7 +258,7 @@ Account {
 
 Tämä kenttä sisältää tilin omistajan ohjelmatunnuksen.
 
-Jokaisella Solana-tilillä on [ohjelma](/docs/core/programs), joka on määritetty
+Jokaisella Nara Solana-tilillä on [ohjelma](/docs/core/programs), joka on määritetty
 sen omistajaksi. Tilin omistaja on ainoa ohjelma, joka voi muuttaa tilin `data`
 -kenttää tai vähentää lamporteja ohjelman ohjeiden mukaisesti.
 
@@ -782,7 +785,7 @@ Kaikki lompakkotilit ovat system-tilejä, mikä mahdollistaa niiden maksaa
 
 ![System Programin omistama lompakko, joka sisältää 1 000 000 lamportsia](/assets/docs/core/accounts/system-account.svg)
 
-Kun SOL lähetetään uuteen osoitteeseen ensimmäistä kertaa, tili luodaan
+Kun NSO lähetetään uuteen osoitteeseen ensimmäistä kertaa, tili luodaan
 kyseiseen osoitteeseen System Programin omistamana.
 
 Alla olevassa esimerkissä luodaan uusi keypair ja rahoitetaan se SOLilla. Koodin

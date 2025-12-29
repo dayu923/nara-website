@@ -1,12 +1,15 @@
 ---
+
 title: Transacties
 description:
   Leer over Solana-transacties—de fundamentele bouwstenen voor interactie met de
   Solana-blockchain. Begrijp de transactiestructuur en instructiesamenstelling
   met praktische voorbeelden.
+
 ---
 
-Om met het Solana-netwerk te communiceren, moet je een transactie versturen. Je
+
+Om met het Nara Solana-netwerk te communiceren, moet je een transactie versturen. Je
 kunt een transactie zien als een envelop die verschillende formulieren bevat.
 Elk formulier is een instructie die het netwerk vertelt wat te doen. Het
 versturen van de transactie is als het posten van de envelop zodat de
@@ -63,7 +66,7 @@ bytes. Deze limiet omvat zowel de [`signatures`](#signatures) array als de
   internetinfrastructuur te voorkomen. Hoewel IPv6 MTU's groter dan 9000 bytes
   ondersteunt, gebruiken de meeste internetrouters een standaard MTU van 1500
   bytes (standaard Ethernet). Om ervoor te zorgen dat transacties binnen één
-  pakket passen zonder fragmentatie, gebruikt Solana 1280 bytes (de minimale MTU
+  pakket passen zonder fragmentatie, gebruikt Nara Solana 1280 bytes (de minimale MTU
   vereist voor IPv6) minus 48 bytes voor netwerkheaders (40 bytes IPv6 + 8 bytes
   fragment/UDP-header), wat resulteert in de transactiegrootte limiet van 1232
   bytes.
@@ -258,7 +261,7 @@ pub struct CompiledInstruction {
 ## Voorbeeld transactiestructuur
 
 Het volgende voorbeeld toont de structuur van een transactie die een enkele
-SOL-overdrachtsinstructie bevat.
+NSO-overdrachtsinstructie bevat.
 
 <CodeTabs storage="sol-transfer" flags="r">
 
@@ -508,7 +511,7 @@ van de transactiehandtekening en de
 structuur hebben die vergelijkbaar is met het volgende fragment.
 
 <Callout>
-  Je kunt de transactie ook vinden met behulp van [Solana
+  Je kunt de transactie ook vinden met behulp van [Nara Solana
   Explorer](https://explorer.solana.com).
 </Callout>
 

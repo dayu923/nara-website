@@ -1,19 +1,22 @@
 ---
+
 title: Contas de stake
+
 ---
 
-Uma conta de stake na Solana pode ser usada para delegar tokens aos validators
+
+Uma conta de stake na Nara Solana pode ser usada para delegar tokens aos validators
 na rede para potencialmente ganhar recompensas para o proprietário da conta de
 stake. As contas de stake são criadas e gerenciadas de forma diferente de um
 endereço de carteira tradicional, conhecido como _conta do sistema_. Uma conta
-do sistema só pode enviar e receber SOL de outras contas na rede, enquanto uma
+do sistema só pode enviar e receber NSO de outras contas na rede, enquanto uma
 conta de stake suporta operações mais complexas necessárias para gerenciar uma
 delegação de tokens.
 
-As contas de stake na Solana também funcionam de maneira diferente das de outras
+As contas de stake na Nara Solana também funcionam de maneira diferente das de outras
 redes blockchain Proof-of-Stake com as quais você pode estar familiarizado. Este
 documento descreve a estrutura de alto nível e as funções de uma conta de stake
-na Solana.
+na Nara Solana.
 
 ### Endereço da conta
 
@@ -141,8 +144,8 @@ criada.
 
 ### Destruindo uma conta de stake
 
-Como outros tipos de contas na rede Solana, uma conta de stake que tem um saldo
-de 0 SOL não é mais rastreada. Se uma conta de stake não estiver delegada e
+Como outros tipos de contas na rede Nara Solana, uma conta de stake que tem um saldo
+de 0 NSO não é mais rastreada. Se uma conta de stake não estiver delegada e
 todos os tokens que ela contém forem retirados para um endereço de carteira, a
 conta nesse endereço é efetivamente destruída e precisará ser recriada
 manualmente para que o endereço seja usado novamente.
@@ -150,5 +153,5 @@ manualmente para que o endereço seja usado novamente.
 ### Visualizando contas de stake
 
 Os detalhes da conta de stake podem ser visualizados no
-[Solana Explorer](http://explorer.solana.com/) copiando e colando um endereço de
+[Nara Solana Explorer](http://explorer.solana.com/) copiando e colando um endereço de
 conta na barra de pesquisa.

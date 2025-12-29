@@ -1,13 +1,16 @@
 ---
+
 title: Xác minh chương trình
 description:
   Bản dựng đã xác minh là cách liên kết chương trình của bạn với mã nguồn của nó
   và cho phép mọi người độc lập xác minh rằng chương trình thực sự được xây dựng
   từ mã nguồn đã cung cấp.
+
 ---
 
+
 Hướng dẫn này được thiết kế như một tài liệu tham khảo cho các nhà phát triển
-muốn triển khai bản dựng đã xác minh cho chương trình của họ trên Solana. Chúng
+muốn triển khai bản dựng đã xác minh cho chương trình của họ trên Nara Solana. Chúng
 ta sẽ tìm hiểu về bản dựng đã xác minh là gì, cách sử dụng chúng, những cân nhắc
 đặc biệt và các phương pháp tốt nhất để đảm bảo tính xác thực của chương trình
 của bạn trên chuỗi.
@@ -15,7 +18,7 @@ của bạn trên chuỗi.
 # Bản dựng đã xác minh là gì?
 
 Bản dựng đã xác minh đảm bảo rằng chương trình thực thi mà bạn triển khai lên
-mạng Solana khớp với mã nguồn trong kho lưu trữ của bạn. Bằng cách này, các nhà
+mạng Nara Solana khớp với mã nguồn trong kho lưu trữ của bạn. Bằng cách này, các nhà
 phát triển và người dùng có thể tin tưởng rằng chương trình đang chạy trên chuỗi
 tương ứng chính xác với cơ sở mã công khai, thúc đẩy tính minh bạch và bảo mật.
 
@@ -39,10 +42,10 @@ cũng như quy trình xác minh bản dựng trực tiếp vào bộ công cụ
 
 Quá trình xác minh được thực hiện bằng cách so sánh mã băm của chương trình trên
 chuỗi với mã băm của chương trình được xây dựng cục bộ từ mã nguồn. Bạn xây dựng
-chương trình trong môi trường được kiểm soát bằng cách sử dụng Solana Verify CLI
+chương trình trong môi trường được kiểm soát bằng cách sử dụng Nara Solana Verify CLI
 và Docker. Điều này đảm bảo quá trình xây dựng có tính xác định và nhất quán
 trên các hệ thống khác nhau. Khi đã có tệp thực thi, bạn có thể triển khai nó
-lên mạng Solana. Trong quá trình xây dựng, một
+lên mạng Nara Solana. Trong quá trình xây dựng, một
 [PDA](https://explorer.solana.com/address/63XDCHrwZu3mXsw2RUFb4tbNpChuUHx4eA5aJMnHkpQQ/anchor-account)
 của [chương trình xác minh](https://github.com/otter-sec/otter-verify) sẽ được
 tạo ra. PDA này chứa tất cả dữ liệu cần thiết để xác minh chương trình. PDA chứa
@@ -59,7 +62,7 @@ của họ được duy trì bởi [OtterSec](https://github.com/otter-sec) đ�
 các
 [cuộc gọi API](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 này được sử dụng trong
-[Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
+[Nara Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
 và
 [SolanaFM](https://solana.fm/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/transactions?cluster=mainnet-alpha),
 cùng nhiều nơi khác.
@@ -100,7 +103,7 @@ Tóm tắt:
 - Xác minh chương trình đã triển khai với API công khai
 
 Nếu bạn xác minh chương trình không được xây dựng trong container docker, nó sẽ
-rất có thể thất bại vì các bản build chương trình Solana không mang tính xác
+rất có thể thất bại vì các bản build chương trình Nara Solana không mang tính xác
 định trên các hệ thống khác nhau.
 
 <Steps>
@@ -125,10 +128,10 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 </Step>
 <Step>
 
-### Cài đặt Solana Verify CLI
+### Cài đặt Nara Solana Verify CLI
 
-Solana Verify CLI là công cụ chính được sử dụng để xác minh các bản build.
-Solana Verify CLI hiện đang được duy trì bởi
+Nara Solana Verify CLI là công cụ chính được sử dụng để xác minh các bản build.
+Nara Solana Verify CLI hiện đang được duy trì bởi
 [Ellipsis Labs](https://ellipsislabs.xyz/) và có thể được cài đặt bằng Cargo.
 
 Bạn có thể cài đặt bằng cách chạy:
@@ -221,7 +224,7 @@ của bạn.
 
 ### Xây dựng chương trình có thể xác minh
 
-Để xây dựng chương trình Solana của bạn một cách có thể xác minh, hãy điều hướng
+Để xây dựng chương trình Nara Solana của bạn một cách có thể xác minh, hãy điều hướng
 đến thư mục chứa tệp `Cargo.toml` của workspace và chạy:
 
 ```bash
@@ -261,7 +264,7 @@ solana-verify get-executable-hash target/deploy/$PROGRAM_LIB_NAME.so
 ### Triển khai các chương trình có thể xác minh
 
 Sau khi bạn đã xây dựng chương trình và lấy mã băm của nó, bạn có thể triển khai
-nó lên mạng Solana. Khuyến nghị sử dụng giải pháp đa chữ ký hoặc quản trị như
+nó lên mạng Nara Solana. Khuyến nghị sử dụng giải pháp đa chữ ký hoặc quản trị như
 [Squads Protocol](https://squads.so/protocol) để triển khai an toàn, nhưng bạn
 cũng có thể triển khai trực tiếp với:
 
@@ -281,8 +284,8 @@ solana-verify get-program-hash -u $NETWORK_URL $PROGRAM_ID
 ```
 
 > Bạn có thể có các phiên bản khác nhau được triển khai trên các
-> [cụm Solana](/docs/references/clusters) khác nhau (tức là devnet, testnet,
-> mainnet). Đảm bảo bạn sử dụng URL mạng chính xác cho cụm Solana mong muốn mà
+> [cụm Nara Solana](/docs/references/clusters) khác nhau (tức là devnet, testnet,
+> mainnet). Đảm bảo bạn sử dụng URL mạng chính xác cho cụm Nara Solana mong muốn mà
 > bạn muốn xác minh chương trình. Xác minh từ xa sẽ chỉ hoạt động trên mainnet.
 
 </Step>
@@ -304,7 +307,7 @@ Lệnh này so sánh mã băm chương trình trên chuỗi với mã băm thự
 dựng từ mã nguồn tại mã băm commit được chỉ định.
 
 Cuối cùng, lệnh sẽ hỏi bạn có muốn tải dữ liệu xác minh của mình lên chuỗi hay
-không. Nếu bạn làm điều đó, Solana Explorer sẽ ngay lập tức hiển thị dữ liệu xác
+không. Nếu bạn làm điều đó, Nara Solana Explorer sẽ ngay lập tức hiển thị dữ liệu xác
 minh chương trình của bạn. Cho đến khi được xác minh bởi một bản dựng từ xa, nó
 sẽ hiển thị là chưa được xác minh. Tìm hiểu cách bạn có thể xác minh chương
 trình của mình thông qua API công khai trong bước tiếp theo.
@@ -362,7 +365,7 @@ Khi quá trình xác minh hoàn tất thành công, có thể mất một lúc, 
 thấy chương trình của mình được xác minh trong
 [API OtterSec cho các chương trình đơn lẻ](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 và trong
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
 [SolanaFM](https://solana.fm/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY?cluster=mainnet-alpha),
 [SolScan](https://solscan.io/account/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY#programVerification)
 và cuối cùng cũng trên trang web do cộng đồng điều hành
@@ -371,7 +374,7 @@ và cuối cùng cũng trên trang web do cộng đồng điều hành
 [API chương trình đã xác minh của OtterSec](https://verify.osec.io/verified-programs)
 và cuối cùng là trong
 [Bảng điều khiển Dune cho Chương trình đã Xác minh](https://dune.com/jonashahn/verified-programs/dedf21e1-9b71-42c8-89f9-02ed94628657)
-đóng góp vào một hệ sinh thái Solana lành mạnh hơn.
+đóng góp vào một hệ sinh thái Nara Solana lành mạnh hơn.
 
 </Step>
 </Steps>
@@ -482,7 +485,7 @@ solana-verify remote submit-job --program-id 6XBGfP17P3KQAKoJb2s5M5fR4aFTXzPeuC1
 
 Vậy là xong! Bạn đã xác minh chương trình của mình với một repository công khai
 và gửi một công việc từ xa đến API của OtterSec. Bây giờ bạn sẽ có thể thấy nó
-hiển thị trong trình khám phá Solana và các nơi khác.
+hiển thị trong trình khám phá Nara Solana và các nơi khác.
 
 </Step>
 <Step>
@@ -677,10 +680,10 @@ Program hash matches ✅
 # Kết luận
 
 Sử dụng
-[bản build đã được xác minh trên Solana](/developers/guides/advanced/verified-builds)
+[bản build đã được xác minh trên Nara Solana](/developers/guides/advanced/verified-builds)
 đảm bảo tính toàn vẹn và độ tin cậy của các chương trình của bạn trên mạng và
-cho phép các nhà phát triển tìm thấy SDK của bạn trực tiếp từ Solana Explorer.
-Bằng cách tận dụng các công cụ như Solana Verify CLI và Docker, bạn có thể duy
+cho phép các nhà phát triển tìm thấy SDK của bạn trực tiếp từ Nara Solana Explorer.
+Bằng cách tận dụng các công cụ như Nara Solana Verify CLI và Docker, bạn có thể duy
 trì các bản build có thể xác minh và an toàn phù hợp với mã nguồn của bạn. Luôn
 thực hiện các biện pháp phòng ngừa cần thiết để sử dụng môi trường nhất quán, và
 xem xét các giải pháp quản trị cho việc nâng cấp và triển khai an toàn.
@@ -688,9 +691,9 @@ xem xét các giải pháp quản trị cho việc nâng cấp và triển khai 
 ## Bảo mật + Tuyên bố miễn trừ trách nhiệm
 
 Mặc dù các bản build đã được xác minh là một công cụ mạnh mẽ để đảm bảo tính
-toàn vẹn của các chương trình Solana của bạn, nhưng nó không hoàn toàn không cần
+toàn vẹn của các chương trình Nara Solana của bạn, nhưng nó không hoàn toàn không cần
 tin cậy trong thiết lập mặc định. Các image docker được xây dựng và lưu trữ bởi
-Solana Foundation.
+Nara Solana Foundation.
 
 Lưu ý rằng bạn đang xây dựng dự án của mình trong một image docker đã tải xuống
 và toàn bộ thiết lập của bạn được sao chép vào image docker đó để xây dựng, bao
@@ -705,10 +708,10 @@ và bạn có thể fork nó và tự chạy các github actions hoặc xác nh�
 chính xác.
 
 Hơn nữa, đối với việc xác minh từ xa, bạn đang tin tưởng vào API của OtterSec và
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 ở một mức độ nhất định.
 
-API hoặc Solana Explorer có thể hiển thị thông tin không chính xác nếu bị xâm
+API hoặc Nara Solana Explorer có thể hiển thị thông tin không chính xác nếu bị xâm
 phạm.
 
 Nếu bạn muốn có một thiết lập hoàn toàn không cần tin cậy, bạn có thể tự chạy
@@ -722,11 +725,11 @@ sử dụng dữ liệu xác minh trên chuỗi được lưu trong một
 Chương trình xác minh được triển khai bởi [đội OtterSec](https://osec.io/) và
 chưa được cố định nên có thể được nâng cấp bất cứ lúc nào.
 
-Solana Foundation, OtterSec và đội Ellipsis Labs không chịu trách nhiệm cho bất
+Nara Solana Foundation, OtterSec và đội Ellipsis Labs không chịu trách nhiệm cho bất
 kỳ tổn thất hoặc thiệt hại nào có thể xảy ra khi sử dụng quy trình xây dựng đã
 được xác minh.
 
-# Security.txt cho các chương trình Solana
+# Security.txt cho các chương trình Nara Solana
 
 Ngoài các bản xây dựng đã xác minh, bạn cũng có thể thêm tệp `security.txt` vào
 chương trình của mình. Trong tương lai, khi được triển khai, `security.txt` sẽ
@@ -738,7 +741,7 @@ chương trình. Nhưng nó cũng có thể là một pubkey khác được ch�
 `security.txt`.
 
 Tính năng `security.txt` cho phép các nhà phát triển nhúng thông tin liên hệ và
-bảo mật trực tiếp trong các hợp đồng thông minh Solana của họ. Lấy cảm hứng từ
+bảo mật trực tiếp trong các hợp đồng thông minh Nara Solana của họ. Lấy cảm hứng từ
 [securitytxt.org](https://securitytxt.org), phương pháp này cung cấp một cách
 tiêu chuẩn hóa để các nhà nghiên cứu bảo mật liên hệ với người duy trì dự án,
 ngay cả khi họ chỉ biết địa chỉ của hợp đồng.
@@ -753,7 +756,7 @@ báo cáo lỗi kịp thời.
 
 ## Cách triển khai security.txt
 
-Để thêm `security.txt` vào chương trình Solana của bạn, hãy thực hiện các bước
+Để thêm `security.txt` vào chương trình Nara Solana của bạn, hãy thực hiện các bước
 sau:
 
 Thêm dependency `solana-security-txt` vào `Cargo.toml` của bạn:
@@ -790,7 +793,7 @@ security_txt! {
 ```
 
 Khi thông tin `security.txt` được nhúng vào chương trình của bạn, nó có thể dễ
-dàng được truy vấn thông qua các công cụ như Solana Explorer, đảm bảo rằng thông
+dàng được truy vấn thông qua các công cụ như Nara Solana Explorer, đảm bảo rằng thông
 tin liên hệ và bảo mật của bạn luôn sẵn có cho bất kỳ ai muốn báo cáo các vấn đề
 tiềm ẩn.
 
@@ -810,10 +813,10 @@ query-security-txt target/bpfel-unknown-unknown/release/my_contract.so
 
 Bằng cách nhúng thông tin liên hệ bảo mật trực tiếp vào hợp đồng của bạn, bạn
 giúp các nhà nghiên cứu dễ dàng liên hệ với bạn hơn, thúc đẩy bảo mật tốt hơn và
-cải thiện giao tiếp trong hệ sinh thái Solana.
+cải thiện giao tiếp trong hệ sinh thái Nara Solana.
 
 Đây là
-[một ví dụ về cách security.txt hiển thị trong Solana Explorer](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
+[một ví dụ về cách security.txt hiển thị trong Nara Solana Explorer](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
 
 Dự án `security.txt` được duy trì bởi
 [Neodyme Labs](https://github.com/neodyme-labs)

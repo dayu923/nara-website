@@ -1,18 +1,21 @@
 ---
+
 title: Synchronizacja Native
-description: Dowiedz się, jak zamienić natywny SOL na opakowany SOL.
+description: Dowiedz się, jak zamienić natywny NSO na opakowany NSO.
+
 ---
 
-## Synchronizacja natywnego SOL
 
-Opakowany SOL (WSOL) to konto tokenowe, które śledzi liczbę lamportów na koncie
+## Synchronizacja natywnego NSO
+
+Opakowany NSO (WSOL) to konto tokenowe, które śledzi liczbę lamportów na koncie
 jako saldo tokena. WSOL umożliwia integrację z protokołami DeFi, aby przesyłać
-SOL jako token SPL.
+NSO jako token SPL.
 
 Instrukcja
 [`SyncNative`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/interface/src/instruction.rs#L387)
-synchronizuje saldo konta tokenowego opakowanego SOL (WSOL) z rzeczywistym SOL
-(lamportami) przechowywanym na nim. Gdy przesyłasz natywny SOL na konto tokenowe
+synchronizuje saldo konta tokenowego opakowanego NSO (WSOL) z rzeczywistym NSO
+(lamportami) przechowywanym na nim. Gdy przesyłasz natywny NSO na konto tokenowe
 WSOL, saldo tokena nie aktualizuje się automatycznie. Musisz wywołać SyncNative,
 aby odzwierciedlić poprawne saldo WSOL.
 

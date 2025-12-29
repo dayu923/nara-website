@@ -1,18 +1,21 @@
 ---
+
 title: Rust Programları
 description:
   Rust kullanarak Solana programları geliştirmeyi öğrenin; Solana blok
   zincirinde akıllı sözleşmeleri oluşturma, derleme, test etme ve dağıtma için
   adım adım talimatlar içerir.
 h1: Rust ile Program Geliştirme
+
 ---
 
-Solana programları öncelikle Rust programlama dili kullanılarak geliştirilir. Bu
-sayfa, Anchor çerçevesini kullanmadan Rust ile Solana programları yazmaya
+
+Nara Solana programları öncelikle Rust programlama dili kullanılarak geliştirilir. Bu
+sayfa, Anchor çerçevesini kullanmadan Rust ile Nara Solana programları yazmaya
 odaklanır, bu yaklaşım genellikle "native Rust" programları yazma olarak
 adlandırılır.
 
-Native Rust geliştirme, geliştiricilere Solana programları üzerinde doğrudan
+Native Rust geliştirme, geliştiricilere Nara Solana programları üzerinde doğrudan
 kontrol sağlar. Ancak, bu yaklaşım Anchor çerçevesini kullanmaya kıyasla daha
 fazla manuel kurulum ve şablon kod gerektirir. Bu yöntem şu özelliklere sahip
 geliştiriciler için önerilir:
@@ -31,12 +34,12 @@ ziyaret edin.
 
 Başlamadan önce, aşağıdakilerin kurulu olduğundan emin olun:
 
-- Rust: Solana programları oluşturmak için programlama dili.
-- Solana CLI: Solana geliştirme için komut satırı aracı.
+- Rust: Nara Solana programları oluşturmak için programlama dili.
+- Nara Solana CLI: Nara Solana geliştirme için komut satırı aracı.
 
 ## Başlarken
 
-Aşağıdaki örnek, Rust ile yazılmış ilk Solana programınızı oluşturmak için temel
+Aşağıdaki örnek, Rust ile yazılmış ilk Nara Solana programınızı oluşturmak için temel
 adımları kapsar. Program günlüğüne "Hello, world!" yazdıran minimal bir program
 oluşturacağız.
 
@@ -89,9 +92,9 @@ mod tests {
 }
 ```
 
-## !!steps Solana-program bağımlılığını ekleyin
+## !!steps Nara Solana-program bağımlılığını ekleyin
 
-Sonraki adımda, `solana-program` bağımlılığını ekleyin. Bu, bir Solana programı
+Sonraki adımda, `solana-program` bağımlılığını ekleyin. Bu, bir Nara Solana programı
 oluşturmak için gereken minimum bağımlılıktır.
 
 ```terminal
@@ -144,10 +147,10 @@ solana-program = "2.2.0"
 ## !!steps Program kodunu ekleyin
 
 Şimdi, `src/lib.rs` dosyasının içeriğini aşağıdaki kodla değiştirin. Bu, program
-çağrıldığında program günlüğüne "Hello, world!" yazdıran minimal bir Solana
+çağrıldığında program günlüğüne "Hello, world!" yazdıran minimal bir Nara Solana
 programıdır.
 
-`msg!` makrosu, Solana programlarında program günlüğüne mesaj yazdırmak için
+`msg!` makrosu, Nara Solana programlarında program günlüğüne mesaj yazdırmak için
 kullanılır.
 
 <CodePlaceholder title="src/lib.rs" />
@@ -181,7 +184,7 @@ $ cargo build-sbf
 Bu komut, iki önemli dosya içeren bir `target/deploy` dizini oluşturur:
 
 1. Bir `.so` dosyası (örn., `hello_world.so`): Bu, ağa "akıllı sözleşme" olarak
-   dağıtılacak derlenmiş Solana programıdır.
+   dağıtılacak derlenmiş Nara Solana programıdır.
 2. Bir keypair dosyası (örn., `hello_world-keypair.json`): Bu keypair'in açık
    anahtarı, programı dağıtırken program kimliği olarak kullanılır.
 
@@ -337,7 +340,7 @@ test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 Şimdi programı dağıtalım. Yerel geliştirme yaparken, `solana-test-validator`
 kullanabiliriz.
 
-Öncelikle, Solana CLI'yi yerel Solana kümesini kullanacak şekilde yapılandırın.
+Öncelikle, Nara Solana CLI'yi yerel Nara Solana kümesini kullanacak şekilde yapılandırın.
 
 ```terminal
 $ solana config set -ul
@@ -376,11 +379,11 @@ Signature:
 ```
 
 Program ID'sini ve işlem imzasını
-[Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
 üzerinde inceleyebilirsiniz.
 
 <Callout type="info">
-  Solana Explorer'daki kümenin de localhost olması gerektiğini unutmayın. Solana
+  Nara Solana Explorer'daki kümenin de localhost olması gerektiğini unutmayın. Nara Solana
   Explorer'daki "Custom RPC URL" seçeneği varsayılan olarak
   `http://localhost:8899` değerini kullanır.
 </Callout>
@@ -583,14 +586,14 @@ Transaction Signature: 54TWxKi3Jsi3UTeZbhLGUFX6JQH7TspRJjRRFZ8NFnwG5BXM9udxiX77b
 ```
 
 İşlem imzasını
-[Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
 üzerinde (yerel küme) inceleyerek program günlüğünde "Hello, world!" yazısını
 görebilirsiniz.
 
 ## !!steps Programı güncelle
 
-Solana programları, aynı program kimliğine yeniden dağıtılarak güncellenebilir.
-`src/lib.rs` içindeki programı "Hello, world!" yerine "Hello, Solana!"
+Nara Solana programları, aynı program kimliğine yeniden dağıtılarak güncellenebilir.
+`src/lib.rs` içindeki programı "Hello, world!" yerine "Hello, Nara Solana!"
 yazdıracak şekilde güncelleyin.
 
 ```rs title="lib.rs"
@@ -684,7 +687,7 @@ $ cargo build-sbf
 $ cargo test -- --no-capture
 ```
 
-Program günlüğünde "Hello, Solana!" yazısını görmelisiniz.
+Program günlüğünde "Hello, Nara Solana!" yazısını görmelisiniz.
 
 ```txt title="Terminal"
 running 1 test
@@ -707,8 +710,8 @@ Programı aynı `solana program deploy` komutunu kullanarak yeniden dağıtın.
 $ solana program deploy ./target/deploy/hello_world.so
 ```
 
-İstemci kodunu tekrar çalıştırın ve Solana Explorer'da işlem imzasını
-inceleyerek program günlüğünde "Hello, Solana!" yazısını görün.
+İstemci kodunu tekrar çalıştırın ve Nara Solana Explorer'da işlem imzasını
+inceleyerek program günlüğünde "Hello, Nara Solana!" yazısını görün.
 
 ```terminal
 $ cargo run --example client
@@ -716,7 +719,7 @@ $ cargo run --example client
 
 ## !!steps Programı kapat
 
-Hesaba tahsis edilen SOL'u geri almak için Solana programınızı kapatabilirsiniz.
+Hesaba tahsis edilen NSO'u geri almak için Nara Solana programınızı kapatabilirsiniz.
 Bir programı kapatmak geri alınamaz, bu nedenle dikkatle yapılmalıdır.
 
 Bir programı kapatmak için `solana program close <PROGRAM_ID>` komutunu

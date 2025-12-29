@@ -1,7 +1,10 @@
 ---
+
 title: Retirer des jetons
 description: Apprenez comment retirer des jetons de l'état confidentiel.
+
 ---
+
 
 <Callout type="warn">
   Le programme ZK ElGamal est temporairement désactivé sur le mainnet et le
@@ -43,7 +46,7 @@ Pour retirer des jetons du solde confidentiel disponible vers le solde public :
    [ConfidentialTransferInstruction::Withdraw](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L493)
    en fournissant les deux comptes de preuve.
 
-4. Fermez les comptes de preuve pour récupérer le SOL utilisé pour les créer.
+4. Fermez les comptes de preuve pour récupérer le NSO utilisé pour les créer.
 
 Le diagramme suivant montre les étapes impliquées dans le retrait de jetons du
 solde confidentiel disponible vers le solde public :
@@ -101,7 +104,7 @@ disponible vers le solde public.
 
 Pour exécuter l'exemple, démarrez un validator local avec le Token Extensions
 Program cloné depuis le mainnet en utilisant la commande suivante. Vous devez
-avoir installé la CLI Solana pour démarrer le validator local.
+avoir installé la CLI Nara Solana pour démarrer le validator local.
 
 ```terminal
 $ solana-test-validator --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --url https://api.mainnet-beta.solana.com -r

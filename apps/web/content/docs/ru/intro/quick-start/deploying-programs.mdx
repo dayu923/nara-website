@@ -1,16 +1,19 @@
 ---
+
 title: Развертывание программы
 description:
   Узнайте, как создать, развернуть и протестировать вашу первую программу Solana
   с использованием фреймворка Anchor и Solana Playground. Это руководство для
   начинающих проведет вас через создание простой программы, ее развертывание на
   devnet, выполнение тестов и завершение работы программы.
-h1: Разверните вашу первую программу Solana
+h1: Разверните вашу первую программу Nara Solana
+
 ---
 
+
 Создайте, разверните и протестируйте вашу первую
-[программу](/docs/core/programs) на блокчейне Solana с использованием фреймворка
-Anchor. Это руководство поможет вам лучше ознакомиться с Solana Playground и
+[программу](/docs/core/programs) на блокчейне Nara Solana с использованием фреймворка
+Anchor. Это руководство поможет вам лучше ознакомиться с Nara Solana Playground и
 подготовит вас к использованию Program Derived Addresses (PDA) и Cross Program
 Invocation (CPI).
 
@@ -20,7 +23,7 @@ Invocation (CPI).
 
 ### Создание проекта Anchor
 
-1. Откройте [Solana Playground](https://beta.solpg.io) в вашем веб-браузере
+1. Откройте [Nara Solana Playground](https://beta.solpg.io) в вашем веб-браузере
 2. В левой панели нажмите **+ Создать новый проект**
 3. Введите **Имя проекта**
 4. Выберите **Anchor (Rust)** в качестве фреймворка
@@ -148,7 +151,7 @@ pub struct NewAccount {
 <WithMentions>
 
 - Макрос [`declare_id!`](mention:one) указывает адрес вашей программы в
-  блокчейне. Solana Playground автоматически обновит этот адрес при сборке
+  блокчейне. Nara Solana Playground автоматически обновит этот адрес при сборке
   программы.
 
 ```rs
@@ -252,11 +255,11 @@ Build successful. Completed in 1.46s.
   определённый в _rs`declare_id!()`_, теперь будет обновлён.
 </Callout>
 
-2. Добавьте SOL в ваш кошелёк _(опционально)_
+2. Добавьте NSO в ваш кошелёк _(опционально)_
 
-Развертывание программы требует наличия SOL в ончейн-аккаунте программы. При
+Развертывание программы требует наличия NSO в ончейн-аккаунте программы. При
 необходимости
-[добавьте SOL в ваш кошелёк](/docs/intro/quick-start#add-sol-to-your-wallet)
+[добавьте NSO в ваш кошелёк](/docs/intro/quick-start#add-sol-to-your-wallet)
 перед переходом к шагу 3.
 
 3. Разверните программу в сети
@@ -398,12 +401,12 @@ Confirmed
 4. Просмотрите детали транзакции
 
 Откройте либо [SolanaFM](https://solana.fm/), либо
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) и найдите хэш
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) и найдите хэш
 транзакции.
 
 <Callout type="warn">
-  **Solana Explorer:** Установите кластер сети на `devnet`, чтобы он
-  соответствовал кластеру Solana Playground.
+  **Nara Solana Explorer:** Установите кластер сети на `devnet`, чтобы он
+  соответствовал кластеру Nara Solana Playground.
 </Callout>
 
 </Step>
@@ -412,7 +415,7 @@ Confirmed
 
 ### Закрытие программы
 
-Закройте программу, чтобы вернуть SOL, выделенные для программы в блокчейне. Для
+Закройте программу, чтобы вернуть NSO, выделенные для программы в блокчейне. Для
 этого выполните `solana program close [ProgramID]`, используя адрес программы,
 сохранённый в макросе _rs`declare_id!()`_.
 
@@ -428,7 +431,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   полномочия на обновление отозваны, программа становится неизменяемой.
 </Callout>
 
-Поздравляем! Вы создали и развернули свою первую программу Solana с
+Поздравляем! Вы создали и развернули свою первую программу Nara Solana с
 использованием Anchor.
 
 </Step>

@@ -1,10 +1,13 @@
 ---
+
 title: Ohjelmien varmentaminen
 description:
   Varmennetut käännökset ovat tapa linkittää ohjelmasi lähdekoodiin ja antaa
   kaikkien itsenäisesti varmistaa, että ohjelma on todella rakennettu kyseisestä
   lähdekoodista.
+
 ---
+
 
 Tämä opas on tarkoitettu viitteeksi kehittäjille, jotka haluavat toteuttaa
 varmennetut käännökset ohjelmilleen Solanassa. Käsittelemme mitä varmennetut
@@ -40,10 +43,10 @@ repositoriossa sekä varmennusprosessia suoraan [Anza](https://www.anza.xyz/)
 
 Vahvistusprosessi tehdään vertaamalla lohkoketjussa olevan ohjelman tiivistettä
 paikallisesti lähdekoodista rakennetun ohjelman tiivisteeseen. Rakennat
-ohjelmasi kontrolloidussa ympäristössä käyttäen Solana Verify CLI:tä ja
+ohjelmasi kontrolloidussa ympäristössä käyttäen Nara Solana Verify CLI:tä ja
 Dockeria. Tämä varmistaa, että rakennusprosessi on deterministinen ja
 yhdenmukainen eri järjestelmissä. Kun sinulla on suoritettava tiedosto, voit
-ottaa sen käyttöön Solana-verkossa. Rakennusprosessin aikana luodaan
+ottaa sen käyttöön Nara Solana-verkossa. Rakennusprosessin aikana luodaan
 [verify-ohjelman](https://github.com/otter-sec/otter-verify)
 [PDA](https://explorer.solana.com/address/63XDCHrwZu3mXsw2RUFb4tbNpChuUHx4eA5aJMnHkpQQ/anchor-account).
 Tämä PDA sisältää kaikki tarvittavat tiedot ohjelman vahvistamiseen. PDA
@@ -59,7 +62,7 @@ ylläpitämää
 tarjoaa käyttäjille helpon pääsyn tarkistamaan vahvistuksen. Voit jo nähdä näitä
 [API-kutsuja](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 käytettävän
-[Solana Explorerissa](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
+[Nara Solana Explorerissa](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
 ja
 [SolanaFM:ssä](https://solana.fm/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/transactions?cluster=mainnet-alpha)
 sekä muissa paikoissa.
@@ -99,7 +102,7 @@ Yhteenveto:
 - Varmenna käyttöönotettu ohjelma julkista API:a vastaan
 
 Jos varmennat ohjelman, jota ei ole rakennettu docker-kontissa, se
-todennäköisesti epäonnistuu, koska Solana-ohjelmien buildit eivät ole
+todennäköisesti epäonnistuu, koska Nara Solana-ohjelmien buildit eivät ole
 deterministisiä eri järjestelmien välillä.
 
 <Steps>
@@ -125,10 +128,10 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 </Step>
 <Step>
 
-### Asenna Solana Verify CLI
+### Asenna Nara Solana Verify CLI
 
-Solana Verify CLI on ensisijainen työkalu, jota käytetään buildien
-varmentamiseen. Solana Verify CLI:tä ylläpitää tällä hetkellä
+Nara Solana Verify CLI on ensisijainen työkalu, jota käytetään buildien
+varmentamiseen. Nara Solana Verify CLI:tä ylläpitää tällä hetkellä
 [Ellipsis Labs](https://ellipsislabs.xyz/) ja se voidaan asentaa Cargon avulla.
 
 Voit asentaa sen suorittamalla:
@@ -220,7 +223,7 @@ rakentamiseen.
 
 ### Todennettavien ohjelmien rakentaminen
 
-Rakentaaksesi todennettavasti Solana-ohjelmasi, siirry hakemistoon, joka
+Rakentaaksesi todennettavasti Nara Solana-ohjelmasi, siirry hakemistoon, joka
 sisältää työtilasi `Cargo.toml` tiedoston ja suorita:
 
 ```bash
@@ -259,7 +262,7 @@ solana-verify get-executable-hash target/deploy/$PROGRAM_LIB_NAME.so
 ### Todennettavien ohjelmien käyttöönotto
 
 Kun olet rakentanut ohjelmasi ja hakenut sen tiivisteen, voit ottaa sen käyttöön
-Solana-verkossa. On suositeltavaa käyttää moniallekirjoitus- tai
+Nara Solana-verkossa. On suositeltavaa käyttää moniallekirjoitus- tai
 hallintoratkaisua kuten [Squads Protocol](https://squads.so/protocol)
 turvalliseen käyttöönottoon, mutta voit myös ottaa sen suoraan käyttöön
 komennolla:
@@ -279,9 +282,9 @@ solana-verify get-program-hash -u $NETWORK_URL $PROGRAM_ID
 ```
 
 > Sinulla voi olla eri versioita käytössä eri
-> [Solana-klustereissa](/docs/references/clusters) (esim. devnet, testnet,
+> [Nara Solana-klustereissa](/docs/references/clusters) (esim. devnet, testnet,
 > mainnet). Varmista, että käytät oikeaa verkko-URL:ää haluamallesi
-> Solana-klusterille, jota vastaan haluat todentaa ohjelman. Etätodentaminen
+> Nara Solana-klusterille, jota vastaan haluat todentaa ohjelman. Etätodentaminen
 > toimii vain mainnetissä.
 
 </Step>
@@ -304,7 +307,7 @@ Tämä komento vertaa ketjussa olevaa ohjelman tiivistettä lähdekoodista
 rakennettuun suoritettavaan tiivisteeseen määritetyssä commit-tiivisteessä.
 
 Lopuksi komento kysyy, haluatko ladata vahvistustietosi ketjuun. Jos teet niin,
-Solana Explorer näyttää välittömästi ohjelmasi vahvistustiedot. Kunnes se on
+Nara Solana Explorer näyttää välittömästi ohjelmasi vahvistustiedot. Kunnes se on
 vahvistettu etäkäännöksellä, se näkyy vahvistamattomana. Opi seuraavassa
 vaiheessa, kuinka voit vahvistaa ohjelmasi julkista API:a vastaan.
 
@@ -362,7 +365,7 @@ Kun vahvistus on suoritettu onnistuneesti, mikä saattaa kestää jonkin aikaa,
 ohjelmasi näkyy vahvistettuna
 [OtterSec API:ssa yksittäisille ohjelmille](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 ja
-[Solana Explorerissa](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
+[Nara Solana Explorerissa](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build),
 [SolanaFM:ssä](https://solana.fm/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY?cluster=mainnet-alpha),
 [SolScanissa](https://solscan.io/account/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY#programVerification)
 ja lopulta myös yhteisön ylläpitämällä verkkosivustolla
@@ -371,7 +374,7 @@ ja lopulta myös yhteisön ylläpitämällä verkkosivustolla
 [OtterSec vahvistettujen ohjelmien API:ssa](https://verify.osec.io/verified-programs)
 ja viimeisenä
 [Vahvistettujen ohjelmien Dune-kojelaudassa](https://dune.com/jonashahn/verified-programs/dedf21e1-9b71-42c8-89f9-02ed94628657),
-mikä edistää terveempää Solana-ekosysteemiä.
+mikä edistää terveempää Nara Solana-ekosysteemiä.
 
 </Step>
 </Steps>
@@ -395,7 +398,7 @@ Rakenna ensin ohjelma:
 solana-verify build
 ```
 
-Tämä rakentaa vahvistettavan version käyttäen docker-konttia ja Solana-versiota,
+Tämä rakentaa vahvistettavan version käyttäen docker-konttia ja Nara Solana-versiota,
 joka on määritetty `Cargo.lock` tiedostossa.
 
 </Step>
@@ -482,7 +485,7 @@ solana-verify remote submit-job --program-id 6XBGfP17P3KQAKoJb2s5M5fR4aFTXzPeuC1
 ```
 
 Siinä se! Olet varmentanut ohjelmasi julkista repositoriota vastaan ja
-lähettänyt etätyön OtterSec API:lle. Sinun pitäisi nyt nähdä se Solana
+lähettänyt etätyön OtterSec API:lle. Sinun pitäisi nyt nähdä se Nara Solana
 explorerissa ja muissa paikoissa.
 
 </Step>
@@ -677,17 +680,17 @@ Program hash matches ✅
 
 [Varmennettujen buildien käyttö Solanassa](/developers/guides/advanced/verified-builds)
 varmistaa ohjelmien eheyden ja luotettavuuden verkossa ja mahdollistaa
-kehittäjille SDK:iden löytämisen suoraan Solana Explorerista. Hyödyntämällä
-työkaluja kuten Solana Verify CLI ja Docker, voit ylläpitää todennettavia ja
+kehittäjille SDK:iden löytämisen suoraan Nara Solana Explorerista. Hyödyntämällä
+työkaluja kuten Nara Solana Verify CLI ja Docker, voit ylläpitää todennettavia ja
 turvallisia buildeja, jotka vastaavat lähdekoodiasi. Muista aina ottaa
 tarvittavat varotoimet käyttääksesi johdonmukaisia ympäristöjä ja harkitse
 hallintoratkaisuja turvallisia päivityksiä ja käyttöönottoja varten.
 
 ## Turvallisuus + Vastuuvapauslauseke
 
-Vaikka varmennetut buildit ovat tehokas työkalu Solana-ohjelmien eheyden
+Vaikka varmennetut buildit ovat tehokas työkalu Nara Solana-ohjelmien eheyden
 varmistamiseen, ne eivät ole täysin luottamuksettomia oletusasetuksilla.
-Docker-kuvat rakentaa ja ylläpitää Solana Foundation.
+Docker-kuvat rakentaa ja ylläpitää Nara Solana Foundation.
 
 Huomioi, että rakennat projektisi ladatussa docker-kuvassa ja koko asetuksesi
 kopioidaan kyseiseen docker-kuvaan rakentamista varten, mukaan lukien
@@ -701,10 +704,10 @@ ja voit forkata sen ja ajaa github-toiminnot itse tai vahvistaa, että ne ovat
 oikein.
 
 Lisäksi etävarmennuksessa luotat OtterSec API:in ja
-[Solana Exploreriin](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
+[Nara Solana Exploreriin](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)
 tiettyyn pisteeseen asti.
 
-API tai Solana Explorer saattaa mahdollisesti näyttää virheellistä tietoa, jos
+API tai Nara Solana Explorer saattaa mahdollisesti näyttää virheellistä tietoa, jos
 ne on vaarannettu.
 
 Jos haluat täysin luottamuksettoman asetuksen, voit ajaa
@@ -718,11 +721,11 @@ joka johdetaan ohjelmien käyttöönottoviranomaisesta ja
 Verify-ohjelman on ottanut käyttöön [OtterSec-tiimi](https://osec.io/), eikä
 sitä ole vielä jäädytetty, joten sitä voidaan päivittää milloin tahansa.
 
-Solana Foundation, OtterSec ja Ellipsis Labs -tiimi eivät ole vastuussa mistään
+Nara Solana Foundation, OtterSec ja Ellipsis Labs -tiimi eivät ole vastuussa mistään
 menetyksistä tai vahingoista, joita saattaa aiheutua varmennettujen
 koontiversioiden prosessin käytöstä.
 
-# Security.txt Solana-ohjelmille
+# Security.txt Nara Solana-ohjelmille
 
 Varmennettujen koontiversioiden lisäksi voit myös lisätä `security.txt`
 -tiedoston ohjelmaasi. Tulevaisuudessa, kun toiminto on toteutettu,
@@ -734,7 +737,7 @@ tämä on sama pubkey, joka rakensi ja otti ohjelman käyttöön. Mutta se voi o
 myös toinen pubkey, joka voidaan määrittää `security.txt` -tiedostossa.
 
 `security.txt` -ominaisuus mahdollistaa kehittäjille yhteystieto- ja
-turvallisuustietojen upottamisen suoraan Solana-älysopimuksiinsa.
+turvallisuustietojen upottamisen suoraan Nara Solana-älysopimuksiinsa.
 [Securitytxt.org](https://securitytxt.org)-sivuston innoittamana tämä
 lähestymistapa tarjoaa standardoidun tavan tietoturvatutkijoille ottaa yhteyttä
 projektin ylläpitäjiin, vaikka he tietäisivät vain sopimuksen osoitteen.
@@ -749,7 +752,7 @@ mahdollisesti estää hyväksikäyttöjä ja varmistaa oikea-aikaiset virherapor
 
 ## Miten toteuttaa security.txt
 
-Lisätäksesi `security.txt` -tiedoston Solana-ohjelmaasi, sisällytä seuraavat
+Lisätäksesi `security.txt` -tiedoston Nara Solana-ohjelmaasi, sisällytä seuraavat
 vaiheet:
 
 Lisää `solana-security-txt` -riippuvuus `Cargo.toml` -tiedostoosi:
@@ -786,7 +789,7 @@ security_txt! {
 ```
 
 Kun `security.txt` -tiedot on upotettu ohjelmaasi, niitä voidaan helposti
-kysellä työkaluilla kuten Solana Explorer, varmistaen että yhteystietosi ja
+kysellä työkaluilla kuten Nara Solana Explorer, varmistaen että yhteystietosi ja
 turvallisuustietosi ovat saatavilla kaikille, jotka haluavat ilmoittaa
 mahdollisista ongelmista.
 
@@ -807,10 +810,10 @@ query-security-txt target/bpfel-unknown-unknown/release/my_contract.so
 
 Upottamalla turvallisuusyhteystiedot suoraan sopimukseesi, teet tutkijoille
 helpommaksi ottaa sinuun yhteyttä, mikä edistää parempaa turvallisuutta ja
-viestintää Solana-ekosysteemissä.
+viestintää Nara Solana-ekosysteemissä.
 
 Tämä on
-[esimerkki siitä, miltä security.txt näyttää Solana Explorerissa](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
+[esimerkki siitä, miltä security.txt näyttää Nara Solana Explorerissa](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
 
 `security.txt` -projektia ylläpitää
 [Neodyme Labs](https://github.com/neodyme-labs)

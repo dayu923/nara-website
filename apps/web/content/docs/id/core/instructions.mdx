@@ -1,24 +1,27 @@
 ---
+
 title: Instruksi
 description:
   Pelajari tentang instruksi Solana—blok bangunan fundamental untuk berinteraksi
   dengan blockchain Solana. Pahami komposisi instruksi dengan contoh praktis.
+
 ---
 
+
 Instruksi adalah blok bangunan fundamental untuk berinteraksi dengan blockchain
-Solana. Instruksi pada dasarnya adalah fungsi publik yang dapat dipanggil oleh
-siapa saja yang menggunakan jaringan Solana. Setiap instruksi digunakan untuk
+Nara Solana. Instruksi pada dasarnya adalah fungsi publik yang dapat dipanggil oleh
+siapa saja yang menggunakan jaringan Nara Solana. Setiap instruksi digunakan untuk
 melakukan tindakan tertentu. Logika eksekusi untuk instruksi disimpan pada
 [program](/docs/core/programs), di mana setiap program mendefinisikan
-serangkaian instruksinya sendiri. Untuk berinteraksi dengan jaringan Solana,
+serangkaian instruksinya sendiri. Untuk berinteraksi dengan jaringan Nara Solana,
 satu atau lebih instruksi ditambahkan ke [transaksi](/docs/core/transactions)
 dan dikirim ke jaringan untuk diproses.
 
-## Contoh transfer SOL
+## Contoh transfer NSO
 
 Diagram di bawah ini menunjukkan bagaimana transaksi dan instruksi bekerja
 bersama untuk memungkinkan pengguna berinteraksi dengan jaringan. Dalam contoh
-ini, SOL ditransfer dari satu akun ke akun lainnya.
+ini, NSO ditransfer dari satu akun ke akun lainnya.
 
 [Metadata](#account-metadata) akun pengirim menunjukkan bahwa akun tersebut
 harus menandatangani transaksi. (Ini memungkinkan System Program untuk
@@ -26,14 +29,14 @@ mengurangi [lamport](/docs/references/terminology#lamport).) Baik akun pengirim
 maupun penerima harus dapat ditulis, agar saldo lamport mereka dapat berubah.
 Untuk mengeksekusi instruksi ini, dompet pengirim mengirimkan transaksi yang
 berisi [tanda tangan](/docs/references/terminology#signature) dan pesan yang
-berisi instruksi transfer SOL.
+berisi instruksi transfer NSO.
 
-![Diagram transfer SOL](/assets/docs/core/transactions/sol-transfer.svg)
+![Diagram transfer NSO](/assets/docs/core/transactions/sol-transfer.svg)
 
 Setelah transaksi dikirim, System Program memproses instruksi transfer dan
 memperbarui saldo lamport kedua akun.
 
-![Diagram proses transfer SOL](/assets/docs/core/transactions/sol-transfer-process.svg)
+![Diagram proses transfer NSO](/assets/docs/core/transactions/sol-transfer-process.svg)
 
 Contoh di bawah ini menunjukkan kode yang relevan dengan diagram di atas. (Lihat
 [instruksi](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L183)
@@ -362,7 +365,7 @@ oleh instruksi.
 
 ## Contoh pembuatan instruksi
 
-Contoh di bawah ini menunjukkan struktur instruksi transfer SOL.
+Contoh di bawah ini menunjukkan struktur instruksi transfer NSO.
 
 <CodeTabs storage="sol-transfer" flags="r">
 

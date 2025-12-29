@@ -1,14 +1,17 @@
 ---
-title: Токены в Solana
-description: Узнайте о Token Programs в Solana.
+
+title: Токены в Nara Solana
+description: Узнайте о Token Programs в Nara Solana.
+
 ---
+
 
 Токены — это цифровые активы, представляющие право собственности на различные
 категории активов. Токенизация позволяет оцифровывать права собственности.
-Токены в Solana называются SPL
-([Solana Program Library](https://github.com/solana-program)) токенами.
+Токены в Nara Solana называются SPL
+([Nara Solana Program Library](https://github.com/solana-program)) токенами.
 
-Этот раздел охватывает основные концепции представления токенов в Solana.
+Этот раздел охватывает основные концепции представления токенов в Nara Solana.
 Обратитесь к разделу [Основы SPL токенов](/docs/tokens/basics) для примеров
 кода.
 
@@ -29,7 +32,7 @@ description: Узнайте о Token Programs в Solana.
 
 ## Token Programs
 
-Экосистема Solana включает два основных Token Programs. Исходный код обоих
+Экосистема Nara Solana включает два основных Token Programs. Исходный код обоих
 программ приведен ниже.
 
 <Cards>
@@ -45,7 +48,7 @@ description: Узнайте о Token Programs в Solana.
 </Cards>
 
 Token Programs содержат всю логику инструкций для взаимодействия с токенами в
-сети (как с заменяемыми, так и с незаменяемыми). Все токены в Solana фактически
+сети (как с заменяемыми, так и с незаменяемыми). Все токены в Nara Solana фактически
 являются [data accounts](/docs/core/accounts#data-account), принадлежащими Token
 Program.
 
@@ -53,7 +56,7 @@ Program.
 
 ### Mint Account
 
-Токены в Solana уникально идентифицируются адресом
+Токены в Nara Solana уникально идентифицируются адресом
 [Mint Account](https://github.com/solana-program/token/blob/6d18ff73b1dd30703a30b1ca941cb0f1d18c2b2a/program/src/state.rs#L16-L30),
 принадлежащего Token Program. Этот аккаунт действует как глобальный счетчик для
 конкретного токена и хранит данные, такие как:
@@ -88,7 +91,7 @@ pub struct Mint {
 }
 ```
 
-Для справки, вот ссылка на Solana Explorer для
+Для справки, вот ссылка на Nara Solana Explorer для
 [аккаунта выпуска USDC](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v).
 
 ### Токен-аккаунт
@@ -160,7 +163,7 @@ Associated Token Account создаётся с адресом, который о
 адреса владельца и адреса mint account. Важно понимать, что Associated Token
 Account — это просто token account с определённым адресом.
 
-Это вводит ключевую концепцию в разработке на Solana:
+Это вводит ключевую концепцию в разработке на Nara Solana:
 [Program Derived Address (PDA)](/docs/core/pda). PDA определяет адрес
 детерминированно, используя заранее заданные входные данные, что упрощает поиск
 адреса аккаунта.
@@ -175,13 +178,13 @@ Account — это просто token account с определённым адр
 ## Примеры использования Token CLI
 
 CLI _sh`spl-token`_ помогает экспериментировать с SPL токенами. Примеры ниже
-используют терминал [Solana Playground](https://beta.solpg.io/) для выполнения
+используют терминал [Nara Solana Playground](https://beta.solpg.io/) для выполнения
 CLI-команд прямо в браузере без локальной установки.
 
-Создание токенов и аккаунтов требует SOL для депозита аренды аккаунта и оплаты
-комиссий за транзакции. Для новых пользователей Solana Playground создайте
+Создание токенов и аккаунтов требует NSO для депозита аренды аккаунта и оплаты
+комиссий за транзакции. Для новых пользователей Nara Solana Playground создайте
 кошелёк Playground и выполните команду _sh`solana airdrop`_ в терминале
-Playground. Вы также можете получить devnet SOL из публичного
+Playground. Вы также можете получить devnet NSO из публичного
 [веб-крана](https://faucet.solana.com/).
 
 ```terminal
@@ -246,7 +249,7 @@ spl-token supply 99zqUzQGohamfYxyo8ykTEbi91iom3CLmwCA75FK5zTg
 
 Создание нового mint аккаунта требует транзакции с двумя инструкциями. Вот
 пример на Javascript в
-[Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f).
+[Nara Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f).
 
 1. System Program создает новый аккаунт с пространством для данных Mint Account
    и передает право собственности Token Program.
@@ -303,7 +306,7 @@ Signature: 44vqKdfzspT592REDPY4goaRJH3uJ3Ce13G4BCuUHg35dVUbHuGTHvqn4ZjYF9BGe9Qrj
 Создание Associated Token Account требует одной инструкции, которая вызывает
 [Associated Token Program](https://github.com/solana-program/associated-token-account).
 Вот пример на Javascript в
-[Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011).
+[Nara Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011).
 
 Associated Token Program использует [Cross Program Invocations](/docs/core/cpi)
 для выполнения следующих действий:
@@ -315,7 +318,7 @@ Associated Token Program использует [Cross Program Invocations](/docs/
 
 Чтобы создать новый Token Account с новым keypair вместо адреса Associated Token
 Account, отправьте транзакцию с двумя инструкциями. Вот пример на Javascript в
-[Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010).
+[Nara Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010).
 
 1. System Program создает новый аккаунт с пространством для данных Token Account
    и передает право собственности Token Program.
@@ -365,7 +368,7 @@ Signature: 3SQvNM3o9DsTiLwcEkSPT1Edr14RgE2wC54TEjonEP2swyVCp2jPWYWdD6RwXUGpvDNUk
 Инструкция _rs`MintTo`_ в Token Program создает новые токены. Авторитет выпуска
 должен подписать транзакцию. Инструкция выпускает токены на Token Account и
 увеличивает общее предложение в Mint Account. Вот пример на Javascript в
-[Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012).
+[Nara Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012).
 
 ### Перевод токенов
 
@@ -394,7 +397,7 @@ Signature: 5y6HVwV8V2hHGLTVmTmdySRiEUCZnWmkasAvJ7J6m7JR46obbGKCBqUFgLpZu5zQGwM4X
 Инструкция _rs`Transfer`_ в Token Program обрабатывает переводы токенов.
 Владелец Token Account отправителя должен подписать транзакцию. Инструкция
 перемещает токены между Token Account. Вот пример на Javascript в
-[Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013).
+[Nara Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013).
 
 И у отправителя, и у получателя должны быть Token Account для конкретного токена
 (mint). Отправитель может включить инструкции для создания Token Account
@@ -440,7 +443,7 @@ spl-token initialize-metadata BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP "Toke
 ```
 
 Просмотрите метаданные в
-[Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet).
+[Nara Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet).
 
 Узнайте больше в
 [руководстве по расширению метаданных](/developers/guides/token-extensions/metadata-pointer).

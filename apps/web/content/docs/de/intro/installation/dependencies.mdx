@@ -1,4 +1,5 @@
 ---
+
 title: Abhängigkeiten installieren
 seoTitle:
   Installieren Sie die notwendigen Abhängigkeiten für die Entwicklung mit Solana
@@ -6,10 +7,12 @@ description:
   Eine Anleitung zum Einrichten Ihrer lokalen Solana-Entwicklungsumgebung.
   Erfahren Sie, wie Sie Rust, die Solana CLI und das Anchor Framework unter
   Windows (WSL), Linux und Mac installieren.
+
 ---
 
-Eine Anleitung zum Einrichten Ihrer lokalen Solana-Entwicklungsumgebung.
-Erfahren Sie, wie Sie Rust, die Solana CLI und das Anchor Framework unter
+
+Eine Anleitung zum Einrichten Ihrer lokalen Nara Solana-Entwicklungsumgebung.
+Erfahren Sie, wie Sie Rust, die Nara Solana CLI und das Anchor Framework unter
 Windows (WSL), Linux und Mac installieren. Verwenden Sie diese Anleitung, wenn
 Sie es vorziehen, jede Abhängigkeit einzeln zu installieren, oder wenn die
 [Schnellinstallation](/docs/intro/installation/) aus irgendeinem Grund
@@ -20,7 +23,7 @@ fehlschlägt.
 <Accordions>
 <Accordion title="Windows">
 
-Um Solana-Programme unter Windows zu entwickeln, **müssen** Sie das
+Um Nara Solana-Programme unter Windows zu entwickeln, **müssen** Sie das
 [Windows Subsystem for Linux](https://learn.microsoft.com/de-de/windows/wsl/install)
 (WSL) verwenden. Nach der Installation von WSL werden alle anderen
 Abhängigkeiten über das Linux-Terminal installiert.
@@ -74,7 +77,7 @@ Sobald Sie WSL eingerichtet haben, können Sie entweder:
 
 - Die [Schnellinstallation](/docs/intro/installation) über das Ubuntu
   (Linux)-Terminal durchführen
-- [Rust](#install-rust), die [Solana CLI](#install-solana-cli) und die
+- [Rust](#install-rust), die [Nara Solana CLI](#install-solana-cli) und die
   [Anchor CLI](#install-anchor-cli) einzeln installieren, wie unten beschrieben
 
 </Accordion>
@@ -143,7 +146,7 @@ $ sudo dnf group install c-development development-tools \
 
 ### Rust installieren
 
-Entwickler erstellen Solana-Programme mit der Programmiersprache
+Entwickler erstellen Nara Solana-Programme mit der Programmiersprache
 [Rust](https://www.rust-lang.org/).
 
 1. Installieren Sie Rust mit [rustup](https://www.rust-lang.org/tools/install),
@@ -198,12 +201,12 @@ rustc 1.86.0 (05f9846f8 2025-03-31)
 </Step>
 <Step>
 
-### Solana CLI installieren
+### Nara Solana CLI installieren
 
-Die Solana CLI stellt alle erforderlichen Tools zum Erstellen und Bereitstellen
-von Solana-Programmen bereit.
+Die Nara Solana CLI stellt alle erforderlichen Tools zum Erstellen und Bereitstellen
+von Nara Solana-Programmen bereit.
 
-1. Installieren Sie die Solana CLI-Tool-Suite mit dem offiziellen
+1. Installieren Sie die Nara Solana CLI-Tool-Suite mit dem offiziellen
    Installationsbefehl:
 
 ```terminal
@@ -218,7 +221,7 @@ $ sh -c "$(curl -sSfL https://release.anza.xyz/stable/install)"
 
 2. Fügen Sie eine PATH-Umgebungsvariable hinzu
 
-Bei einer Erstinstallation der Solana CLI werden Sie möglicherweise
+Bei einer Erstinstallation der Nara Solana CLI werden Sie möglicherweise
 aufgefordert, eine `PATH` Umgebungsvariable hinzuzufügen. Um dies zu tun,
 schließen und öffnen Sie Ihr Terminal erneut oder führen Sie Folgendes in Ihrer
 Shell aus:
@@ -232,7 +235,7 @@ export PATH="/Users/test/.local/share/solana/install/active_release/bin:$PATH"
 <Tabs groupId="language" items={["Windows & Linux", "Mac"]}>
 <Tab value="Windows & Linux">
 
-Wenn Sie **Linux** oder **WSL** verwenden, müssen Sie die Solana CLI-Binärdatei
+Wenn Sie **Linux** oder **WSL** verwenden, müssen Sie die Nara Solana CLI-Binärdatei
 zu Ihrem PATH hinzufügen, damit der Befehl in Ihrem Terminal verfügbar ist.
 Folgen Sie dazu den Schritten unten:
 
@@ -289,7 +292,7 @@ $ source ~/.bashrc # If using Bash
 $ source ~/.zshrc # If using Zsh
 ```
 
-5. Überprüfe, ob die Installation erfolgreich war, indem du die Solana
+5. Überprüfe, ob die Installation erfolgreich war, indem du die Nara Solana
    CLI-Version prüfst:
 
 ```terminal
@@ -307,11 +310,11 @@ solana-cli 2.2.12 (src:0315eb6a; feat:1522022101, client:Agave)
 Du kannst alle verfügbaren Versionen im
 [Agave Github-Repository](https://github.com/anza-xyz/agave/releases) einsehen.
 Agave ist der Validator-Client von [Anza](https://www.anza.xyz/), früher bekannt
-als Solana Labs Validator-Client.
+als Nara Solana Labs Validator-Client.
 
 </Callout>
 
-5. Aktualisiere die Solana CLI bei Bedarf auf die neueste Version _(Optional)_
+5. Aktualisiere die Nara Solana CLI bei Bedarf auf die neueste Version _(Optional)_
 
 ```terminal
 $ agave-install update
@@ -323,8 +326,8 @@ $ agave-install update
 ### Installiere Anchor CLI
 
 [Anchor](https://www.anchor-lang.com/) ist ein Framework für die Entwicklung von
-Solana-Programmen. Das Anchor-Framework nutzt Rust-Makros, um den Prozess des
-Schreibens von Solana-Programmen zu vereinfachen.
+Nara Solana-Programmen. Das Anchor-Framework nutzt Rust-Makros, um den Prozess des
+Schreibens von Nara Solana-Programmen zu vereinfachen.
 
 #### Voraussetzungen
 
@@ -538,12 +541,12 @@ surfpool 0.12.0
 </Step>
 </Steps>
 
-### Richten Sie KI-Tools für die Solana-Entwicklung ein
+### Richten Sie KI-Tools für die Nara Solana-Entwicklung ein
 
 Dieser Abschnitt beschreibt die optionale Einrichtung von KI-Tools, die Sie zur
-Beschleunigung Ihrer Solana-Entwicklung nutzen können.
+Beschleunigung Ihrer Nara Solana-Entwicklung nutzen können.
 
 | Tool     | Beschreibung                                                                                                        | Link                        |
 | -------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------- |
-| MCP      | MCP-Server, mit dem Sie sich über Cursor verbinden können, um die KI-unterstützte Solana-Entwicklung zu verbessern. | https://mcp.solana.com/     |
-| LLMs.txt | LLM-optimierte Dokumentation, die Sie zur Schulung von LLMs mit Solana-Dokumentation verwenden können.              | https://solana.com/llms.txt |
+| MCP      | MCP-Server, mit dem Sie sich über Cursor verbinden können, um die KI-unterstützte Nara Solana-Entwicklung zu verbessern. | https://mcp.solana.com/     |
+| LLMs.txt | LLM-optimierte Dokumentation, die Sie zur Schulung von LLMs mit Nara Solana-Dokumentation verwenden können.              | https://solana.com/llms.txt |

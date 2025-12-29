@@ -1,14 +1,17 @@
 ---
+
 title: Tài khoản
 description:
   Tìm hiểu về mô hình tài khoản của Solana, bao gồm cách tài khoản lưu trữ dữ
   liệu và chương trình, cơ chế rent, quyền sở hữu tài khoản và mối quan hệ giữa
   chương trình và tài khoản dữ liệu. Hiểu các khái niệm cốt lõi của hệ thống lưu
   trữ key-value của Solana.
+
 ---
 
-Tất cả dữ liệu trên mạng Solana được lưu trữ trong các tài khoản. Bạn có thể coi
-mạng Solana như một cơ sở dữ liệu công khai với một bảng Tài khoản duy nhất. Mối
+
+Tất cả dữ liệu trên mạng Nara Solana được lưu trữ trong các tài khoản. Bạn có thể coi
+mạng Nara Solana như một cơ sở dữ liệu công khai với một bảng Tài khoản duy nhất. Mối
 quan hệ giữa một tài khoản và địa chỉ của nó tương tự như một cặp khóa-giá trị,
 trong đó khóa là địa chỉ và giá trị là tài khoản.
 
@@ -20,17 +23,17 @@ xác định vị trí bằng [địa chỉ](#account-address) của nó.
 ## Địa chỉ tài khoản
 
 Địa chỉ tài khoản là một ID duy nhất 32-byte được sử dụng để xác định vị trí tài
-khoản trên blockchain Solana. Địa chỉ tài khoản thường được hiển thị dưới dạng
+khoản trên blockchain Nara Solana. Địa chỉ tài khoản thường được hiển thị dưới dạng
 chuỗi mã hóa base58. Hầu hết các tài khoản sử dụng [khóa công khai](#public-key)
 [Ed25519](https://ed25519.cr.yp.to/) làm địa chỉ, nhưng điều này không bắt buộc,
-vì Solana cũng hỗ trợ
+vì Nara Solana cũng hỗ trợ
 [địa chỉ dẫn xuất từ chương trình](#program-derived-address).
 
 ![Một tài khoản với địa chỉ khóa công khai được mã hóa base58](/assets/docs/core/accounts/account-address.svg)
 
 ### Khóa công khai
 
-Ví dụ dưới đây minh họa cách sử dụng Solana SDK để tạo một keypair. Một
+Ví dụ dưới đây minh họa cách sử dụng Nara Solana SDK để tạo một keypair. Một
 `Keypair` bao gồm:
 
 - Một khóa công khai đóng vai trò là địa chỉ tài khoản
@@ -71,7 +74,7 @@ async fn main() {
 
 [Program Derived Address](/docs/core/pda) (PDA) là một địa chỉ được xác định một
 cách xác định bằng cách sử dụng ID chương trình và một hoặc nhiều đầu vào tùy
-chọn (seeds). Ví dụ dưới đây minh họa cách sử dụng Solana SDK để tạo một Program
+chọn (seeds). Ví dụ dưới đây minh họa cách sử dụng Nara Solana SDK để tạo một Program
 Derived Address.
 
 <CodeTabs storage="accounts" flags="r">
@@ -220,7 +223,7 @@ cấu trúc của dữ liệu được lưu trữ trong trường này.
   trình có thể thực thi.
 - Tài khoản dữ liệu: Trường này thường lưu trữ dữ liệu trạng thái, dùng để đọc.
 
-Đọc dữ liệu từ tài khoản Solana bao gồm hai bước:
+Đọc dữ liệu từ tài khoản Nara Solana bao gồm hai bước:
 
 1. Lấy tài khoản bằng cách sử dụng [địa chỉ](#account-address) của nó
 2. Giải mã trường dữ liệu của tài khoản từ các byte thô thành cấu trúc dữ liệu
@@ -256,7 +259,7 @@ Account {
 
 Trường này chứa ID chương trình của chủ sở hữu tài khoản.
 
-Mỗi tài khoản Solana có một [chương trình](/docs/core/programs) được chỉ định
+Mỗi tài khoản Nara Solana có một [chương trình](/docs/core/programs) được chỉ định
 làm chủ sở hữu. Chủ sở hữu tài khoản là chương trình duy nhất có thể thay đổi dữ
 liệu của tài khoản hoặc trừ lamport, theo chỉ dẫn của chương trình.
 
@@ -361,7 +364,7 @@ Có hai loại tài khoản cơ bản:
 - [Tài khoản dữ liệu](#data-accounts): Tài khoản không chứa mã thực thi
 
 Sự tách biệt giữa mã của chương trình và trạng thái của nó là một tính năng quan
-trọng trong mô hình tài khoản của Solana. (Tương tự như hệ điều hành, thường có
+trọng trong mô hình tài khoản của Nara Solana. (Tương tự như hệ điều hành, thường có
 các tệp riêng biệt cho chương trình và dữ liệu của chúng.)
 
 ### Tài khoản chương trình
@@ -786,10 +789,10 @@ cho phép chúng thanh toán [phí giao dịch](docs/core/fees).
 
 ![Ví thuộc sở hữu của System Program chứa 1.000.000 lamports](/assets/docs/core/accounts/system-account.svg)
 
-Khi SOL được gửi đến một địa chỉ mới lần đầu tiên, một tài khoản được tạo tại
+Khi NSO được gửi đến một địa chỉ mới lần đầu tiên, một tài khoản được tạo tại
 địa chỉ đó thuộc sở hữu của System Program.
 
-Trong ví dụ dưới đây, một keypair mới được tạo và nạp tiền bằng SOL. Sau khi
+Trong ví dụ dưới đây, một keypair mới được tạo và nạp tiền bằng NSO. Sau khi
 chạy mã, bạn có thể thấy địa chỉ của `owner` tài khoản là
 `11111111111111111111111111111111`
 ([System Program](/docs/core/programs#the-system-program)).

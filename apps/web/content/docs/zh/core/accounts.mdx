@@ -1,12 +1,15 @@
 ---
+
 title: 账户
 description:
   了解 Solana
   的账户模型，包括账户如何存储数据和程序、租金机制、账户所有权，以及程序与数据账户之间的关系。理解
   Solana 键值存储系统的核心概念。
+
 ---
 
-Solana 网络上的所有数据都存储在账户中。您可以将 Solana 网络视为一个包含单一账户表的公共数据库。账户与其地址之间的关系类似于键值对，其中键是地址，值是账户。
+
+Nara Solana 网络上的所有数据都存储在账户中。您可以将 Nara Solana 网络视为一个包含单一账户表的公共数据库。账户与其地址之间的关系类似于键值对，其中键是地址，值是账户。
 
 每个账户都有相同的基本[结构](#account-structure)，并且可以通过其[地址](#account-address)找到。
 
@@ -14,15 +17,15 @@ Solana 网络上的所有数据都存储在账户中。您可以将 Solana 网�
 
 ## 账户地址
 
-账户地址是一个 32 字节的唯一 ID，用于在 Solana 区块链上定位账户。账户地址通常以 base58 编码字符串的形式显示。大多数账户使用
+账户地址是一个 32 字节的唯一 ID，用于在 Nara Solana 区块链上定位账户。账户地址通常以 base58 编码字符串的形式显示。大多数账户使用
 [Ed25519](https://ed25519.cr.yp.to/) [公钥](#public-key)
-作为其地址，但这并不是强制性的，因为 Solana 还支持[程序派生地址](#program-derived-address)。
+作为其地址，但这并不是强制性的，因为 Nara Solana 还支持[程序派生地址](#program-derived-address)。
 
 ![一个账户及其 base58 编码的公钥地址](/assets/docs/core/accounts/account-address.svg)
 
 ### 公钥
 
-下面的示例演示了如何使用 Solana SDK 创建一个 keypair。一个 `Keypair` 包括：
+下面的示例演示了如何使用 Nara Solana SDK 创建一个 keypair。一个 `Keypair` 包括：
 
 - 一个作为账户地址的公钥
 - 一个用于签署交易的私钥
@@ -60,7 +63,7 @@ async fn main() {
 
 ### 程序派生地址
 
-[程序派生地址](/docs/core/pda)（PDA）是一个通过程序 ID 和一个或多个可选输入（种子）确定性派生的地址。下面的示例演示了如何使用 Solana
+[程序派生地址](/docs/core/pda)（PDA）是一个通过程序 ID 和一个或多个可选输入（种子）确定性派生的地址。下面的示例演示了如何使用 Nara Solana
 SDK 创建一个程序派生地址。
 
 <CodeTabs storage="accounts" flags="r">
@@ -197,7 +200,7 @@ Account {
 - 程序账户：此字段包含可执行程序代码或[程序数据账户](#program-data-accounts)的地址，该账户存储可执行程序代码。
 - 数据账户：此字段通常存储状态数据，供读取使用。
 
-从 Solana 账户读取数据涉及两个步骤：
+从 Nara Solana 账户读取数据涉及两个步骤：
 
 1. 使用其[地址](#account-address)获取账户
 2. 将账户的`data`字段从原始字节反序列化为适当的数据结构，由拥有该账户的程序定义。
@@ -232,7 +235,7 @@ Account {
 
 此字段包含账户所有者的程序 ID。
 
-每个 Solana 账户都有一个[程序](/docs/core/programs)被指定为其所有者。账户的所有者是唯一可以更改账户的`data`或根据程序指令扣除 lamports 的程序。
+每个 Nara Solana 账户都有一个[程序](/docs/core/programs)被指定为其所有者。账户的所有者是唯一可以更改账户的`data`或根据程序指令扣除 lamports 的程序。
 
 （对于程序账户，其所有者是其[加载程序](https://solana.com/docs/core/programs#loader-programs)。）
 
@@ -330,7 +333,7 @@ Account {
 - [程序账户](#program-accounts)：包含可执行代码的账户
 - [数据账户](#data-accounts)：不包含可执行代码的账户
 
-程序代码与其状态的分离是 Solana 账户模型的一个关键特性。（类似于操作系统，通常将程序和其数据分为不同的文件。）
+程序代码与其状态的分离是 Nara Solana 账户模型的一个关键特性。（类似于操作系统，通常将程序和其数据分为不同的文件。）
 
 ### 程序账户
 
@@ -736,10 +739,10 @@ Program 拥有的账户称为系统账户。所有钱包账户都是系统账户
 
 ![一个由 System Program 拥有的钱包，包含 1,000,000 lamports](/assets/docs/core/accounts/system-account.svg)
 
-当 SOL 第一次被发送到一个新地址时，会在该地址创建一个由 System
+当 NSO 第一次被发送到一个新地址时，会在该地址创建一个由 System
 Program 拥有的账户。
 
-在下面的示例中，生成了一个新的 keypair 并用 SOL 进行了资助。运行代码后，您可以看到账户地址的
+在下面的示例中，生成了一个新的 keypair 并用 NSO 进行了资助。运行代码后，您可以看到账户地址的
 `owner` 是
 `11111111111111111111111111111111`（[System Program](/docs/core/programs#the-system-program)）。
 

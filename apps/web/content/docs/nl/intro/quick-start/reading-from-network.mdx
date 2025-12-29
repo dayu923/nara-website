@@ -1,15 +1,18 @@
 ---
+
 title: Lezen van het netwerk
 description:
   Leer hoe je gegevens kunt lezen van het Solana blockchain-netwerk. Deze gids
   behandelt het ophalen van wallet-accounts, programma-accounts en token
   mint-accounts met JavaScript/TypeScript, met praktische voorbeelden die
   gebruikmaken van de Solana web3.js bibliotheek.
+
 ---
 
-Lees gegevens van het Solana-netwerk door verschillende accounts op te halen.
-Dit gedeelte helpt je de structuur van Solana [accounts](/docs/core/accounts) te
-begrijpen. Elk Solana-account heeft een uniek
+
+Lees gegevens van het Nara Solana-netwerk door verschillende accounts op te halen.
+Dit gedeelte helpt je de structuur van Nara Solana [accounts](/docs/core/accounts) te
+begrijpen. Elk Nara Solana-account heeft een uniek
 [adres](/docs/core/accounts#account-address) dat wordt gebruikt om de
 bijbehorende on-chain gegevens te lokaliseren. Accounts bevatten ofwel
 [statusgegevens of een uitvoerbaar programma](/docs/core/accounts#types-of-accounts).
@@ -20,12 +23,12 @@ bijbehorende on-chain gegevens te lokaliseren. Accounts bevatten ofwel
 
 Een wallet is een account dat eigendom is van het
 [System Program](/docs/core/programs#the-system-program). Wallets worden
-voornamelijk gebruikt om SOL te bewaren en transacties te ondertekenen. Wanneer
-SOL voor het eerst naar een nieuw adres wordt verzonden, wordt automatisch een
+voornamelijk gebruikt om NSO te bewaren en transacties te ondertekenen. Wanneer
+NSO voor het eerst naar een nieuw adres wordt verzonden, wordt automatisch een
 systeemaccount aangemaakt.
 
 Het onderstaande voorbeeld genereert een [nieuw keypair](mention:keypair),
-[vraagt SOL aan](mention:airdrop) om het nieuwe openbare sleuteladres te
+[vraagt NSO aan](mention:airdrop) om het nieuwe openbare sleuteladres te
 financieren, en [haalt de accountgegevens op](mention:info) voor de nieuw
 gefinancierde wallet.
 
@@ -125,7 +128,7 @@ programmacode bevat. Voor wallet-accounts is dit veld `false`.
 
 ## !!steps
 
-Het `lamports` veld bevat het SOL-saldo van het account, in
+Het `lamports` veld bevat het NSO-saldo van het account, in
 [lamports](/docs/references/terminology#lamport).
 
 <CodePlaceholder title="Voorbeeldresultaat" />
@@ -225,7 +228,7 @@ wallet- en program accounts te demonstreren. Het program account slaat de
 gecompileerde bytecode op voor de
 [broncode](https://github.com/solana-program/token/tree/main/program) van het
 Token Program. Je kunt dit program account bekijken op de
-[Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
+[Nara Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
 
 <CodeTabs flags="r">
 
@@ -362,7 +365,7 @@ is een account dat eigendom is van het Token Program en dat globale metadata
 opslaat voor een specifieke token. Dit omvat de totale voorraad, het aantal
 decimalen en de accounts die geautoriseerd zijn om tokens te minten of te
 bevriezen. Het adres van het mint account identificeert een token uniek op het
-Solana-netwerk.
+Nara Solana-netwerk.
 
 Het onderstaande voorbeeld haalt het USD Coin Mint account op om te demonstreren
 hoe de status van een programma wordt opgeslagen in een apart account.
@@ -508,7 +511,7 @@ Program.
 Voordat de ruwe bytes in het `data` veld van een account zinvol kunnen worden
 geïnterpreteerd, moeten ze worden gedeserialiseerd. Het juiste datatype wordt
 bepaald door het programma dat eigenaar is van het account. De meeste
-Solana-programma's bieden clientbibliotheken met hulpfuncties die het
+Nara Solana-programma's bieden clientbibliotheken met hulpfuncties die het
 deserialisatieproces abstraheren. Deze functies zetten de ruwe accountbytes om
 in gestructureerde datatypes, waardoor het makkelijker wordt om met de
 accountgegevens te werken.
@@ -602,7 +605,7 @@ naar het Mint account type.
 
 Je kunt de volledig gedeserialiseerde
 [mint account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)
-data bekijken in de Solana Explorer.
+data bekijken in de Nara Solana Explorer.
 
 <CodePlaceholder title="Gedeserialiseerde mint data" />
 

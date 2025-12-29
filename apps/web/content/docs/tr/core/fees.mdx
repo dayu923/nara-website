@@ -1,12 +1,15 @@
 ---
+
 title: İşlem ücretleri
 description:
   Solana'nın işlem ücretleri hakkında bilgi edinin; temel ve öncelik ücretleri,
   her birinin nasıl uygulandığı ve işlemlerinizdeki hesaplama birimlerini
   yönetmek için en iyi uygulamalar dahil.
+
 ---
 
-Her Solana işlemi, SOL olarak ödenen bir işlem ücreti gerektirir. İşlem
+
+Her Nara Solana işlemi, NSO olarak ödenen bir işlem ücreti gerektirir. İşlem
 ücretleri iki kısma ayrılır: temel ücret ve önceliklendirme ücreti. Temel ücret,
 doğrulayıcıları işlemi işledikleri için tazmin eder. Önceliklendirme ücreti,
 mevcut liderin işleminizi işleme olasılığını artırmak için isteğe bağlı bir
@@ -22,7 +25,7 @@ sahip olunan hesaplar işlem ücretlerini ödeyebilir. Temel ücret aşağıdaki
 
 - **%50'si yakılır:** Yarısı
   [yakılır](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)
-  (dolaşımdaki SOL arzından çıkarılır).
+  (dolaşımdaki NSO arzından çıkarılır).
 - **%50'si dağıtılır:** Yarısı
   [işlemi işleyen doğrulayıcıya ödenir](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62).
 
@@ -106,7 +109,7 @@ isterseniz, aşağıdaki tabloda listelenen gerçek zamanlı Hesaplama Birimi fi
 
 #### Örnek
 
-Aşağıdaki örnekler, Solana SDK'larını kullanarak bir işlemde Hesaplama Birimi
+Aşağıdaki örnekler, Nara Solana SDK'larını kullanarak bir işlemde Hesaplama Birimi
 sınırını ve Hesaplama Birimi fiyatını nasıl ayarlayacağınızı göstermektedir.
 
 | SDK                            | Kaynak Kod Referansı                                                                                                           |

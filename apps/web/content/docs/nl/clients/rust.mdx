@@ -1,36 +1,39 @@
 ---
+
 title: Rust SDK
-description: Leer hoe je Solana's Rust crates kunt gebruiken voor ontwikkeling.
-h1: Rust SDKs voor Solana
+description: Leer hoe je Nara Solana's Rust crates kunt gebruiken voor ontwikkeling.
+h1: Rust SDKs voor Nara Solana
+
 ---
 
-Solana's Rust crates worden
+
+Nara Solana's Rust crates worden
 [gepubliceerd op crates.io](https://crates.io/search?q=solana-) en zijn te
 vinden [op docs.rs](https://docs.rs/releases/search?query=solana-) met het
 `solana-` voorvoegsel.
 
 ## Rust Crates
 
-De volgende zijn de belangrijkste en meest gebruikte Rust crates voor Solana
+De volgende zijn de belangrijkste en meest gebruikte Rust crates voor Nara Solana
 ontwikkeling:
 
-- [`solana-program`] &mdash; Geïmporteerd door programma's die op Solana
+- [`solana-program`] &mdash; Geïmporteerd door programma's die op Nara Solana
   draaien, gecompileerd naar SBF. Deze crate bevat veel fundamentele datatypen
   en wordt opnieuw geëxporteerd vanuit [`solana-sdk`], die niet kan worden
-  geïmporteerd vanuit een Solana-programma.
+  geïmporteerd vanuit een Nara Solana-programma.
 
 - [`solana-sdk`] &mdash; De basis offchain SDK, het exporteert
   [`solana-program`] opnieuw en voegt daar meer API's aan toe. De meeste
-  Solana-programma's die niet on-chain draaien zullen dit importeren.
+  Nara Solana-programma's die niet on-chain draaien zullen dit importeren.
 
-- [`solana-client`] &mdash; Voor interactie met een Solana-node via de
+- [`solana-client`] &mdash; Voor interactie met een Nara Solana-node via de
   [JSON RPC API](/docs/rpc).
 
-- [`solana-cli-config`] &mdash; Laden en opslaan van het Solana
+- [`solana-cli-config`] &mdash; Laden en opslaan van het Nara Solana
   CLI-configuratiebestand.
 
 - [`solana-clap-utils`] &mdash; Routines voor het opzetten van een CLI, met
-  behulp van [`clap`], zoals gebruikt door de belangrijkste Solana CLI. Bevat
+  behulp van [`clap`], zoals gebruikt door de belangrijkste Nara Solana CLI. Bevat
   functies voor het laden van alle soorten ondertekenaars die worden ondersteund
   door de CLI.
 
@@ -43,13 +46,13 @@ ontwikkeling:
 
 ## Installatie
 
-Voor het verzenden van transacties en interactie met Solana:
+Voor het verzenden van transacties en interactie met Nara Solana:
 
 ```shell title="Terminal"
 cargo add solana-sdk solana-client
 ```
 
-Voor het bouwen van Solana-programma's, installeer:
+Voor het bouwen van Nara Solana-programma's, installeer:
 
 ```shell title="Terminal"
 cargo add solana-program

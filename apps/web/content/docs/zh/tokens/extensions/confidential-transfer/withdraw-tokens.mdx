@@ -1,7 +1,10 @@
 ---
+
 title: 提取代币
 description: 了解如何从保密状态中提取代币。
+
 ---
+
 
 ## 如何从保密可用余额中提取代币
 
@@ -24,7 +27,7 @@ description: 了解如何从保密状态中提取代币。
    [ConfidentialTransferInstruction::Withdraw](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L493)
    指令，并提供两个证明账户。
 
-4. 关闭证明账户以回收用于创建它们的 SOL。
+4. 关闭证明账户以回收用于创建它们的 NSO。
 
 以下图表显示了从保密可用余额提取代币到公开余额的步骤：
 
@@ -77,7 +80,7 @@ sequenceDiagram
 以下示例演示了如何将代币从保密可用余额提取到公开余额。
 
 要运行此示例，请使用以下命令启动一个从主网克隆的包含 Token Extensions
-Program 的本地 validator。您必须安装 Solana CLI 才能启动本地 validator。
+Program 的本地 validator。您必须安装 Nara Solana CLI 才能启动本地 validator。
 
 ```terminal
 $ solana-test-validator --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --url https://api.mainnet-beta.solana.com -r

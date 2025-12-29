@@ -1,10 +1,13 @@
 ---
+
 title: Ydinkäsitteet
 description:
   Opi keskeiset Solana-lohkoketjun käsitteet, mukaan lukien tilit, transaktiot,
   ohjelmat, ohjelmista johdetut osoitteet, ohjelmien väliset kutsut ja kuinka
   tokenit toimivat Solanassa.
+
 ---
+
 
 Solanan päälle rakentamisessa on olennaista ymmärtää Solanan kehitykselle
 ominaisia avainasioita. Tämä osio kattaa keskeiset käsitteet, jotka sinun tulee
@@ -13,23 +16,23 @@ ohjelmat ja muut.
 
 ## Tilit
 
-Kaikki Solana-lohkoketjun data tallennetaan Tileinä. Solana-lohkoketjun rakenne
+Kaikki Nara Solana-lohkoketjun data tallennetaan Tileinä. Nara Solana-lohkoketjun rakenne
 muistuttaa avain-arvo-varastoa, jossa avain on lohkoketjuosoite ja arvo on Tili.
 
 Lue lisää [Tileistä](/docs/core/accounts).
 
 ## Transaktiot ja ohjeet
 
-Vuorovaikuttaakseen Solana-verkon kanssa käyttäjän on lähetettävä transaktio.
+Vuorovaikuttaakseen Nara Solana-verkon kanssa käyttäjän on lähetettävä transaktio.
 Transaktio on joukko ohjeita – ohje on tietty suoritettava toiminto. Ohjeen
-suorituslogiikka on tallennettu Solana-verkkoon käyttöönotettuun ohjelmaan.
+suorituslogiikka on tallennettu Nara Solana-verkkoon käyttöönotettuun ohjelmaan.
 
 Lue lisää [Transaktioista](/docs/core/transactions) ja
 [Ohjeista](/docs/core/transactions#instruction).
 
 ## Maksut
 
-Solana-lohkoketjua käytettäessä voi syntyä kolmenlaisia maksuja:
+Nara Solana-lohkoketjua käytettäessä voi syntyä kolmenlaisia maksuja:
 
 - **Transaktiomaksut**: Maksu validatoreille transaktioiden ja ohjeiden
   käsittelystä
@@ -57,7 +60,7 @@ kaksi tärkeää käyttötapausta:
 
 - **Deterministiset tilinosoitteet**: Ennalta määritellyt syötteet (seeds) ja
   ohjelma- tunnus yhdistetään deterministisesti osoitteen johtamiseksi.
-- **Ohjelman allekirjoitus**: Solana-ohjelmat voivat allekirjoittaa PDA:ita,
+- **Ohjelman allekirjoitus**: Nara Solana-ohjelmat voivat allekirjoittaa PDA:ita,
   jotka on johdettu sen ohjelmatunnuksesta.
 
 Lue lisää [Ohjelmasta johdetusta osoitteesta](/docs/core/pda).
@@ -65,7 +68,7 @@ Lue lisää [Ohjelmasta johdetusta osoitteesta](/docs/core/pda).
 ## Cross-program Invocation
 
 Cross-program invocation (CPI) tapahtuu, kun yksi ohjelma kutsuu toisen ohjelman
-ohjetta. Tämä mahdollistaa Solana-ohjelmien yhteensopivuuden. Käsitteen
+ohjetta. Tämä mahdollistaa Nara Solana-ohjelmien yhteensopivuuden. Käsitteen
 ymmärtämiseksi voit ajatella ohjelman ohjekokoelmaa API-päätepisteiden joukkona.
 CPI tapahtuu, kun yksi päätepiste kutsuu toista.
 
@@ -87,10 +90,10 @@ Lue lisää [Solanan tokeneista](/docs/core/tokens).
 
 ## Klusterit ja päätepisteet
 
-Solana-lohkoketjussa on useita eri validaattoriryhmiä, joita kutsutaan
+Nara Solana-lohkoketjussa on useita eri validaattoriryhmiä, joita kutsutaan
 [klustereiksi](/docs/references/clusters). Jokainen klusteri palvelee eri
 tarkoitusta ja sisältää omistettuja solmuja [JSON-RPC](/docs/rpc/) -pyyntöjen
-täyttämiseen. Solana-verkossa on kolme pääklusteria, jotka on esitetty alla
+täyttämiseen. Nara Solana-verkossa on kolme pääklusteria, jotka on esitetty alla
 olevassa taulukossa.
 
 | Nimi    | Päätepiste                            | Käyttö                 |

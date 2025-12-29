@@ -1,12 +1,15 @@
 ---
+
 title: Alamat Turunan Program
 description:
   Pelajari tentang Alamat Turunan Program (PDA) Solana — alamat akun
   deterministik yang memungkinkan penandatanganan program yang aman. Pahami
   derivasi PDA, bump kanonik, dan cara membuat akun PDA.
+
 ---
 
-Alamat [akun](/docs/core/accounts#account-address) Solana menunjuk ke lokasi
+
+Alamat [akun](/docs/core/accounts#account-address) Nara Solana menunjuk ke lokasi
 akun di blockchain. Banyak alamat akun adalah kunci publik dari keypair, dalam
 hal ini kunci privat yang sesuai digunakan untuk menandatangani transaksi yang
 melibatkan akun tersebut.
@@ -18,7 +21,7 @@ ID program dan kombinasi input yang telah ditentukan sebelumnya yang bersifat
 opsional. PDA terlihat mirip dengan alamat kunci publik, tetapi tidak memiliki
 kunci privat yang sesuai.
 
-Runtime Solana memungkinkan program untuk menandatangani PDA tanpa memerlukan
+Runtime Nara Solana memungkinkan program untuk menandatangani PDA tanpa memerlukan
 kunci privat. Menggunakan PDA menghilangkan kebutuhan untuk melacak alamat akun.
 Sebagai gantinya, Anda dapat mengingat input spesifik yang digunakan untuk
 derivasi PDA. (Untuk mempelajari bagaimana program menggunakan PDA untuk
@@ -27,7 +30,7 @@ penandatanganan, lihat bagian [Pemanggilan Lintas Program](/docs/core/cpi).)
 ## Latar Belakang
 
 [Keypair](https://github.com/anza-xyz/solana-sdk/blob/sdk%40v2.2.2/keypair/src/lib.rs#L26)
-Solana adalah titik pada [kurva Ed25519](https://ed25519.cr.yp.to/) (kriptografi
+Nara Solana adalah titik pada [kurva Ed25519](https://ed25519.cr.yp.to/) (kriptografi
 kurva eliptik). Keypair terdiri dari kunci publik dan kunci privat. Kunci publik
 menjadi alamat akun, dan kunci privat digunakan untuk menghasilkan
 [tanda tangan](/docs/core/transactions#signatures) yang valid untuk akun.
@@ -36,7 +39,7 @@ menjadi alamat akun, dan kunci privat digunakan untuk menghasilkan
 
 PDA sengaja diturunkan agar berada di luar kurva Ed25519. Ini berarti PDA tidak
 memiliki kunci privat yang sesuai yang valid dan tidak dapat melakukan operasi
-kriptografi. (Seperti menyediakan tanda tangan.) Namun, Solana memungkinkan
+kriptografi. (Seperti menyediakan tanda tangan.) Namun, Nara Solana memungkinkan
 program untuk menandatangani PDA tanpa memerlukan kunci privat.
 
 ![Off Curve Address](/assets/docs/core/pda/address-off-curve.svg)
@@ -56,7 +59,7 @@ digunakan untuk menurunkan PDA. Anda dapat menganggap PDA seperti alamat pada
 peta: hanya karena alamat itu ada tidak berarti ada sesuatu yang dibangun di
 sana.
 
-SDK Solana mendukung pembuatan PDA dengan fungsi yang ditunjukkan dalam tabel di
+SDK Nara Solana mendukung pembuatan PDA dengan fungsi yang ditunjukkan dalam tabel di
 bawah ini. Setiap fungsi menerima input berikut:
 
 - **Program ID**: Alamat program yang digunakan untuk menurunkan PDA. Program
@@ -187,7 +190,7 @@ dengan nilai yang berbeda masih dapat menghasilkan PDA yang valid.
 
 ### Contoh
 
-Contoh di bawah ini menurunkan PDA menggunakan Solana SDK. Klik **&#9655; Run**
+Contoh di bawah ini menurunkan PDA menggunakan Nara Solana SDK. Klik **&#9655; Run**
 untuk menjalankan kode.
 
 #### Menurunkan PDA dengan string seed

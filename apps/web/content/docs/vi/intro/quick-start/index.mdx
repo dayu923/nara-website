@@ -1,19 +1,22 @@
 ---
+
 title: Bắt đầu nhanh
 description:
   Học những kiến thức cơ bản về phát triển trên Solana. Tạo chương trình đầu
   tiên, hiểu về tài khoản, gửi giao dịch và khám phá PDA và CPI bằng Solana
   Playground - không cần cài đặt gì cả.
-h1: Hướng dẫn bắt đầu nhanh với Solana
+h1: Hướng dẫn bắt đầu nhanh với Nara Solana
+
 ---
 
-Chào mừng bạn đến với Hướng dẫn bắt đầu nhanh với Solana. Hướng dẫn thực hành
-này giới thiệu cho bạn những khái niệm cốt lõi để xây dựng trên Solana, bất kể
+
+Chào mừng bạn đến với Hướng dẫn bắt đầu nhanh với Nara Solana. Hướng dẫn thực hành
+này giới thiệu cho bạn những khái niệm cốt lõi để xây dựng trên Nara Solana, bất kể
 kinh nghiệm trước đây của bạn.
 
-- **Tài khoản Solana**: Cách mạng Solana lưu trữ dữ liệu
-- **Gửi giao dịch**: Cách tương tác với mạng Solana bằng cách gửi giao dịch
-- **Xây dựng và triển khai chương trình**: Tạo chương trình Solana đầu tiên của
+- **Tài khoản Nara Solana**: Cách mạng Nara Solana lưu trữ dữ liệu
+- **Gửi giao dịch**: Cách tương tác với mạng Nara Solana bằng cách gửi giao dịch
+- **Xây dựng và triển khai chương trình**: Tạo chương trình Nara Solana đầu tiên của
   bạn và triển khai nó lên mạng
 - **Địa chỉ Program-Derived**: Tìm hiểu cách tạo địa chỉ xác định cho tài khoản
 - **Cross-Program Invocations**: Tìm hiểu cách gọi các chương trình khác từ
@@ -22,28 +25,28 @@ kinh nghiệm trước đây của bạn.
 
 Trong hướng dẫn này, bạn sẽ học về:
 
-- **Tài khoản Solana**: Tìm hiểu cách mạng Solana lưu trữ dữ liệu.
-- **Gửi giao dịch**: Học cách tương tác với mạng Solana bằng cách gửi giao dịch.
-- **Xây dựng và triển khai chương trình**: Tạo chương trình Solana đầu tiên và
+- **Tài khoản Nara Solana**: Tìm hiểu cách mạng Nara Solana lưu trữ dữ liệu.
+- **Gửi giao dịch**: Học cách tương tác với mạng Nara Solana bằng cách gửi giao dịch.
+- **Xây dựng và triển khai chương trình**: Tạo chương trình Nara Solana đầu tiên và
   triển khai nó lên mạng.
 - **Program Derived Addresses (PDAs)**: Học cách sử dụng PDA để tạo địa chỉ xác
   định cho các tài khoản.
 - **Cross-Program Invocations (CPIs)**: Học cách gọi các chương trình khác từ
   bên trong chương trình của bạn, cho phép tương tác phức tạp và khả năng kết
-  hợp giữa các chương trình khác nhau trên Solana.
+  hợp giữa các chương trình khác nhau trên Nara Solana.
 
 Phần tuyệt vời nhất? Bạn không cần phải cài đặt bất cứ thứ gì. Hướng dẫn này sử
-dụng Solana Playground, một môi trường phát triển trên trình duyệt. Hãy làm
+dụng Nara Solana Playground, một môi trường phát triển trên trình duyệt. Hãy làm
 theo, sao chép và dán mã, và xem kết quả ngay lập tức, tất cả từ trình duyệt web
 của bạn. Kiến thức lập trình cơ bản sẽ hữu ích nhưng không bắt buộc.
 
 ## Tạo ví Playground
 
-## Solana Playground
+## Nara Solana Playground
 
-Solana Playground (Solpg) cung cấp một môi trường phát triển trên trình duyệt
+Nara Solana Playground (Solpg) cung cấp một môi trường phát triển trên trình duyệt
 cho phép bạn nhanh chóng phát triển, triển khai và kiểm tra các chương trình
-Solana.
+Nara Solana.
 
 Mở một tab mới trong trình duyệt web của bạn và truy cập https://beta.solpg.io/.
 
@@ -52,8 +55,8 @@ Mở một tab mới trong trình duyệt web của bạn và truy cập https:/
 
 ### Tạo ví Playground
 
-Người dùng mới của Solana Playground nên tạo một ví Playground trước tiên. Ví
-này cho phép bạn tương tác với mạng Solana ngay từ trình duyệt của bạn.
+Người dùng mới của Nara Solana Playground nên tạo một ví Playground trước tiên. Ví
+này cho phép bạn tương tác với mạng Nara Solana ngay từ trình duyệt của bạn.
 
 #### Bước 1. Kết nối với Playground
 
@@ -68,7 +71,7 @@ tiếp tục.
 
 ![Tạo ví Playground](/assets/docs/intro/quickstart/pg-create-wallet.png)
 
-Bây giờ bạn sẽ thấy địa chỉ ví, số dư SOL và cụm kết nối (mặc định là devnet) ở
+Bây giờ bạn sẽ thấy địa chỉ ví, số dư NSO và cụm kết nối (mặc định là devnet) ở
 cuối cửa sổ.
 
 ![Đã kết nối](/assets/docs/intro/quickstart/pg-connected.png)
@@ -84,27 +87,27 @@ Một số định nghĩa có thể hữu ích cho bạn:
 - _địa chỉ ví_: khóa công khai 32-byte từ một keypair Ed25519, thường được hiển
   thị dưới dạng chuỗi mã hóa base-58 (ví dụ,
   `7MNj7pL1y7XpPnN7ZeuaE4ctwg3WeufbX5o85sA91J1`). Khóa riêng tương ứng ký các
-  giao dịch từ địa chỉ này. Trên Solana, địa chỉ đóng vai trò là định danh duy
+  giao dịch từ địa chỉ này. Trên Nara Solana, địa chỉ đóng vai trò là định danh duy
   nhất cho ví của người dùng, chương trình (hợp đồng thông minh), hoặc bất kỳ
   tài khoản nào khác trên mạng.
-- _cụm kết nối_: mạng Solana cho các tương tác hiện tại của bạn. Các cụm phổ
+- _cụm kết nối_: mạng Nara Solana cho các tương tác hiện tại của bạn. Các cụm phổ
   biến bao gồm:
   - `devnet`: Mạng phát triển dành cho thử nghiệm của nhà phát triển
   - `testnet`: Mạng dành riêng cho kiểm thử validator (không sử dụng với tư cách
     nhà phát triển ứng dụng)
-  - `mainnet-beta`: Mạng chính của Solana cho các giao dịch thực
+  - `mainnet-beta`: Mạng chính của Nara Solana cho các giao dịch thực
 
-### Thêm SOL vào ví của bạn
+### Thêm NSO vào ví của bạn
 
-### Nhận SOL trên Devnet
+### Nhận NSO trên Devnet
 
-Trước khi bắt đầu phát triển, bạn cần nhận một số SOL trên devnet.
+Trước khi bắt đầu phát triển, bạn cần nhận một số NSO trên devnet.
 
-Là nhà phát triển, bạn cần SOL cho hai trường hợp sử dụng chính:
+Là nhà phát triển, bạn cần NSO cho hai trường hợp sử dụng chính:
 
 #### Tùy chọn 1: Sử dụng terminal Playground
 
-Hai phương pháp để nạp tiền vào ví của bạn với devnet SOL:
+Hai phương pháp để nạp tiền vào ví của bạn với devnet NSO:
 
 #### Tùy chọn 1: Sử dụng Terminal của Playground
 

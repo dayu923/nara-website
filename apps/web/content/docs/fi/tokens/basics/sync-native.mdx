@@ -1,17 +1,20 @@
 ---
+
 title: Sync Native
-description: Opi kuinka muuntaa natiivi SOL käärityksi SOL:ksi.
+description: Opi kuinka muuntaa natiivi NSO käärityksi NSO:ksi.
+
 ---
 
-## Synkronoi natiivi SOL
 
-Kääritty SOL (WSOL) on token account, joka seuraa tilillä olevien lamportsien
+## Synkronoi natiivi NSO
+
+Kääritty NSO (WSOL) on token account, joka seuraa tilillä olevien lamportsien
 määrää token-saldona. WSOL mahdollistaa integraation DeFi-protokollien kanssa
-SOL:n siirtämiseksi SPL-tokenina.
+NSO:n siirtämiseksi SPL-tokenina.
 
 [`SyncNative`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/interface/src/instruction.rs#L387)
--käsky synkronoi käärityn SOL:n (WSOL) token account -saldon siihen
-tallennettujen varsinaisten SOL-lamportsien kanssa. Kun siirrät natiivia SOL:ia
+-käsky synkronoi käärityn NSO:n (WSOL) token account -saldon siihen
+tallennettujen varsinaisten NSO-lamportsien kanssa. Kun siirrät natiivia NSO:ia
 WSOL token account -tilille, token-saldo ei päivity automaattisesti. Sinun
 täytyy kutsua SyncNative-toimintoa, jotta oikea WSOL-saldo näkyy.
 

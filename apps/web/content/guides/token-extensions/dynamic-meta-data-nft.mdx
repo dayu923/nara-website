@@ -1,4 +1,5 @@
 ---
+
 date: 2024-04-25T00:00:00Z
 difficulty: intermediate
 title: Dynamic metadata NFTs using Token Extensions
@@ -26,7 +27,9 @@ keywords:
   - metadata
   - token extensions
   - token 2022
+
 ---
+
 
 With the
 [Token Extension program](/developers/guides/token-extensions/getting-started),
@@ -64,7 +67,7 @@ the NFT's mint account, making them accessible to anyone or any program.
 
 <Callout title="Video and Source Code">
 
-You can find a video walkthrough of this example on the Solana Foundation
+You can find a video walkthrough of this example on the Nara Solana Foundation
 Youtube channel:
 
 - [Video Walkthrough](https://www.youtube.com/watch?v=n-ym1utpzhk)
@@ -315,9 +318,9 @@ console.log(`https://explorer.solana.com/tx/${txSig}?cluster=devnet`);
 
 ## Quickstart example
 
-The example above is based on the Solana Games Preset, which generates you a
+The example above is based on the Nara Solana Games Preset, which generates you a
 scaffold that includes a JavaScript and Unity client for this game, including
-the configuration for interacting with the Solana Anchor program.
+the configuration for interacting with the Nara Solana Anchor program.
 
 You can run it yourself with the following command:
 
@@ -328,7 +331,7 @@ npx create-solana-game gameName
 ### Setup your local environment
 
 In order to run this example locally, you will need to make sure you have
-[setup your local environment](/docs/intro/installation) for Solana development,
+[setup your local environment](/docs/intro/installation) for Nara Solana development,
 including installing and configuring the Anchor CLI. If you do not already, you
 can follow the previously linked setup guide to do so.
 
@@ -392,7 +395,7 @@ tool:
 ## Run this example locally
 
 Using Anchor's `test` command with the `--detach` flag will start and configure
-your Solana local test validator to have the program deployed (and keep the
+your Nara Solana local test validator to have the program deployed (and keep the
 validator running after the tests complete):
 
 ```shell
@@ -400,7 +403,7 @@ cd program
 anchor test --detach
 ```
 
-Then you can set the [Solana Explorer](https://explorer.solana.com/) to use your
+Then you can set the [Nara Solana Explorer](https://explorer.solana.com/) to use your
 local test validator (which starts when running the `anchor test` command) so
 you can look at the transactions:
 
@@ -424,13 +427,13 @@ First open the Unity project with Unity Version 2021.3.32.f1 (or similar), then
 open the `GameScene` or `LoginScene` and hit play. Use the editor login button
 in the bottom left.
 
-If you can't get devnet SOL you can copy your address from the console and
+If you can't get devnet NSO you can copy your address from the console and
 follow the instructions on this guide on
-[how to get devnet SOL](/developers/guides/getstarted/solana-token-airdrop-and-faucets)
+[how to get devnet NSO](/developers/guides/getstarted/solana-token-airdrop-and-faucets)
 
-### Connect to the Solana test validator in Unity
+### Connect to the Nara Solana test validator in Unity
 
-If you want to avoid having to worry about maintaining devnet SOL, you can
+If you want to avoid having to worry about maintaining devnet NSO, you can
 connect to your running local test validator from within Unity. Simply add these
 links on the wallet holder game object:
 

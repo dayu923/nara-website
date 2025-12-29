@@ -1,13 +1,16 @@
 ---
+
 title: 验证程序
 description: 验证构建是一种将程序与其源代码关联起来的方法，使每个人都可以独立验证该程序确实是从提供的源代码构建而来的。
+
 ---
 
-本指南旨在为希望在 Solana 上为其程序实现验证构建的开发者提供参考。我们将介绍什么是验证构建、如何使用它们、需要注意的特殊事项以及确保程序链上真实性的最佳实践。
+
+本指南旨在为希望在 Nara Solana 上为其程序实现验证构建的开发者提供参考。我们将介绍什么是验证构建、如何使用它们、需要注意的特殊事项以及确保程序链上真实性的最佳实践。
 
 # 什么是验证构建？
 
-验证构建确保您部署到 Solana 网络的可执行程序与您代码库中的源代码相匹配。通过这样做，开发者和用户可以确信链上运行的程序与公共代码库完全一致，从而促进透明性和安全性。
+验证构建确保您部署到 Nara Solana 网络的可执行程序与您代码库中的源代码相匹配。通过这样做，开发者和用户可以确信链上运行的程序与公共代码库完全一致，从而促进透明性和安全性。
 
 验证过程包括将链上程序的哈希值与从源代码本地构建的程序的哈希值进行比较。这确保了两者之间没有差异。
 
@@ -21,9 +24,9 @@ description: 验证构建是一种将程序与其源代码关联起来的方法�
 
 # 它是如何工作的？
 
-验证过程是通过比较链上程序的哈希值与从源代码本地构建的程序的哈希值来完成的。您可以使用 Solana
+验证过程是通过比较链上程序的哈希值与从源代码本地构建的程序的哈希值来完成的。您可以使用 Nara Solana
 Verify
-CLI 和 Docker 在受控环境中构建您的程序。这确保了构建过程在不同系统之间是确定性和一致的。一旦您获得了可执行文件，您就可以将其部署到 Solana 网络。在构建过程中，会创建一个
+CLI 和 Docker 在受控环境中构建您的程序。这确保了构建过程在不同系统之间是确定性和一致的。一旦您获得了可执行文件，您就可以将其部署到 Nara Solana 网络。在构建过程中，会创建一个
 [PDA](https://explorer.solana.com/address/63XDCHrwZu3mXsw2RUFb4tbNpChuUHx4eA5aJMnHkpQQ/anchor-account)（程序派生地址）用于
 [verify program](https://github.com/otter-sec/otter-verify)。这个 PDA 包含验证程序所需的所有数据。PDA 包括程序地址、Git
 URL、提交哈希值以及用于构建程序的参数。
@@ -32,7 +35,7 @@ URL、提交哈希值以及用于构建程序的参数。
 program 命令，检查程序是否是从提供的源代码构建的。然后，任何人都可以完全无需信任地自行验证，或者运行由
 [OtterSec](https://github.com/otter-sec) 维护的
 [verify API](https://github.com/otter-sec/solana-verified-programs-api)，为用户提供一个便捷的验证访问点。您已经可以在
-[Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
+[Nara Solana Explorer](https://explorer.solana.com/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/verified-build)
 和
 [SolanaFM](https://solana.fm/address/E1fcPKuV1UJEsTJPpab2Jr8y87ZN73i4CHTPLbWQE6CA/transactions?cluster=mainnet-alpha)
 等平台上看到这些
@@ -62,7 +65,7 @@ program 命令，检查程序是否是从提供的源代码构建的。然后，
 - 部署经过验证的构建
 - 根据公共 API 验证已部署的程序
 
-如果您验证的程序不是在 Docker 容器中构建的，很可能会失败，因为 Solana 程序构建在不同系统之间并非确定性一致。
+如果您验证的程序不是在 Docker 容器中构建的，很可能会失败，因为 Nara Solana 程序构建在不同系统之间并非确定性一致。
 
 <Steps>
 <Step>
@@ -82,9 +85,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 </Step>
 <Step>
 
-### 安装 Solana Verify CLI
+### 安装 Nara Solana Verify CLI
 
-Solana Verify CLI 是用于验证构建的主要工具。Solana Verify CLI 目前由
+Nara Solana Verify CLI 是用于验证构建的主要工具。Nara Solana Verify CLI 目前由
 [Ellipsis Labs](https://ellipsislabs.xyz/) 维护，可以通过 Cargo 安装。
 
 您可以通过运行以下命令安装：
@@ -173,7 +176,7 @@ solana-program = "2.1.0"
 
 ### 构建可验证程序
 
-要可验证地构建您的 Solana 程序，请导航到包含工作区 `Cargo.toml`
+要可验证地构建您的 Nara Solana 程序，请导航到包含工作区 `Cargo.toml`
 文件的目录并运行：
 
 ```bash
@@ -206,7 +209,7 @@ solana-verify get-executable-hash target/deploy/$PROGRAM_LIB_NAME.so
 
 ### 部署可验证程序
 
-在构建程序并检索其哈希值后，可以将其部署到 Solana 网络。建议使用多签名或治理解决方案（例如
+在构建程序并检索其哈希值后，可以将其部署到 Nara Solana 网络。建议使用多签名或治理解决方案（例如
 [Squads Protocol](https://squads.so/protocol)）进行安全部署，但也可以直接部署：
 
 ```bash
@@ -223,7 +226,7 @@ solana-verify get-program-hash -u $NETWORK_URL $PROGRAM_ID
 ```
 
 > 您可能在不同的
-> [Solana 集群](/docs/references/clusters)（例如 devnet、testnet、mainnet）上部署了不同的版本。确保使用正确的网络 URL 来验证目标 Solana 集群上的程序。远程验证仅适用于 mainnet。
+> [Nara Solana 集群](/docs/references/clusters)（例如 devnet、testnet、mainnet）上部署了不同的版本。确保使用正确的网络 URL 来验证目标 Nara Solana 集群上的程序。远程验证仅适用于 mainnet。
 
 </Step>
 <Step>
@@ -242,7 +245,7 @@ solana-verify verify-from-repo -u $NETWORK_URL --program-id $PROGRAM_ID https://
 
 此命令将链上程序的哈希值与从指定提交哈希的源代码构建的可执行文件哈希值进行比较。
 
-最后，命令会询问您是否希望将验证数据上传到链上。如果您选择上传，Solana
+最后，命令会询问您是否希望将验证数据上传到链上。如果您选择上传，Nara Solana
 Explorer 将立即显示您程序的验证数据。在通过远程构建验证之前，它将显示为未验证。了解如何在下一步中通过公共 API 验证您的程序。
 
 如果您希望将验证锁定到某个特定版本，可以在命令中添加 `--commit-hash` 标志。
@@ -287,14 +290,14 @@ solana-verify remote get-job-status --job-id <job-id>
 
 一旦验证成功完成（可能需要一些时间），您将能够在以下位置看到您的程序已被验证：
 [单个程序的 OtterSec API](https://verify.osec.io/status/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)、
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build)、
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY/verified-build)、
 [SolanaFM](https://solana.fm/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY?cluster=mainnet-alpha)、
 [SolScan](https://solscan.io/account/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY#programVerification)，以及最终在社区运营的网站
 [SolanaVerify.org](https://www.solanaverify.org/)（由
 [0xDeep](https://x.com/0xDeep) 维护）和
 [OtterSec 验证程序 API](https://verify.osec.io/verified-programs)，最后在
 [Verified Programs Dune Dashboard](https://dune.com/jonashahn/verified-programs/dedf21e1-9b71-42c8-89f9-02ed94628657)
-上显示，为更健康的 Solana 生态系统做出贡献。
+上显示，为更健康的 Nara Solana 生态系统做出贡献。
 
 </Step>
 </Steps>
@@ -316,7 +319,7 @@ solana-verify build
 ```
 
 这将使用 docker 容器构建一个可验证的版本，使用 `Cargo.lock`
-文件中指定的 Solana 版本。
+文件中指定的 Nara Solana 版本。
 
 </Step>
 <Step>
@@ -396,7 +399,7 @@ solana-verify remote submit-job --program-id 6XBGfP17P3KQAKoJb2s5M5fR4aFTXzPeuC1
 ```
 
 就是这样！您已成功将程序验证到公共存储库，并向 OtterSec
-API 提交了远程任务。现在，您应该可以在 Solana Explorer 和其他地方看到它的反映。
+API 提交了远程任务。现在，您应该可以在 Nara Solana Explorer 和其他地方看到它的反映。
 
 </Step>
 <Step>
@@ -576,14 +579,14 @@ Program hash matches ✅
 
 # 结论
 
-使用 [Solana 的已验证构建](/developers/guides/advanced/verified-builds)
-可确保网络上程序的完整性和可信度，并允许开发者直接从 Solana
-Explorer 找到您的 SDK。通过利用 Solana Verify
+使用 [Nara Solana 的已验证构建](/developers/guides/advanced/verified-builds)
+可确保网络上程序的完整性和可信度，并允许开发者直接从 Nara Solana
+Explorer 找到您的 SDK。通过利用 Nara Solana Verify
 CLI 和 Docker 等工具，您可以维护与源代码一致的可验证且安全的构建。始终采取必要的预防措施以使用一致的环境，并考虑使用治理解决方案来实现安全的升级和部署。
 
 ## 安全性与免责声明
 
-虽然已验证构建是确保 Solana 程序完整性的强大工具，但在默认设置下，它并非完全无需信任。这些 Docker 镜像由 Solana 基金会构建和托管。
+虽然已验证构建是确保 Nara Solana 程序完整性的强大工具，但在默认设置下，它并非完全无需信任。这些 Docker 镜像由 Nara Solana 基金会构建和托管。
 
 请注意，您是在下载的 Docker 镜像中构建项目，您的整个设置会被复制到该 Docker 镜像中进行构建，包括可能包含敏感信息的内容。
 
@@ -593,9 +596,9 @@ CLI 和 Docker 等工具，您可以维护与源代码一致的可验证且安�
 Actions，或者验证它们的正确性。
 
 此外，对于远程验证，您需要在一定程度上信任 OtterSec API 和
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)。
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)。
 
-如果 API 或 Solana Explorer 被攻破，可能会显示不正确的信息。
+如果 API 或 Nara Solana Explorer 被攻破，可能会显示不正确的信息。
 
 如果您希望拥有完全无需信任的设置，可以自行运行
 [Verify API](https://github.com/otter-sec/solana-verified-programs-api)，或者使用
@@ -608,10 +611,10 @@ Actions，或者验证它们的正确性。
 验证程序由 [OtterSec 团队](https://osec.io/)
 部署，目前尚未冻结，因此可以随时升级。
 
-Solana 基金会、OtterSec 和 Ellipsis
+Nara Solana 基金会、OtterSec 和 Ellipsis
 Labs 团队对使用验证构建管道可能导致的任何损失或损害不承担责任。
 
-# Solana 程序的 Security.txt
+# Nara Solana 程序的 Security.txt
 
 除了验证构建之外，您还可以向您的程序添加一个 `security.txt`
 文件。未来在实现后，`security.txt`
@@ -619,7 +622,7 @@ Labs 团队对使用验证构建管道可能导致的任何损失或损害不承
 `security.txt` 中指定。
 
 `security.txt`
-功能允许开发者将联系和安全信息直接嵌入到他们的 Solana 智能合约中。受
+功能允许开发者将联系和安全信息直接嵌入到他们的 Nara Solana 智能合约中。受
 [securitytxt.org](https://securitytxt.org)
 启发，这种方法为安全研究人员提供了一种标准化的方式与项目维护者联系，即使他们只知道合约地址。
 
@@ -631,7 +634,7 @@ Labs 团队对使用验证构建管道可能导致的任何损失或损害不承
 
 ## 如何实现 security.txt
 
-要向您的 Solana 程序添加一个 `security.txt`，请按照以下步骤操作：
+要向您的 Nara Solana 程序添加一个 `security.txt`，请按照以下步骤操作：
 
 将 `solana-security-txt` 依赖项添加到您的 `Cargo.toml`：
 
@@ -665,7 +668,7 @@ security_txt! {
 }
 ```
 
-一旦将 `security.txt` 信息嵌入到您的程序中，就可以通过 Solana
+一旦将 `security.txt` 信息嵌入到您的程序中，就可以通过 Nara Solana
 Explorer 等工具轻松查询，确保任何希望报告潜在问题的人都能获取您的联系和安全信息。
 
 ## 最佳实践
@@ -679,9 +682,9 @@ Explorer 等工具轻松查询，确保任何希望报告潜在问题的人都�
 query-security-txt target/bpfel-unknown-unknown/release/my_contract.so
 ```
 
-通过将安全联系信息直接嵌入到您的合约中，您可以让研究人员更容易联系到您，从而促进 Solana 生态系统内更好的安全性和沟通。
+通过将安全联系信息直接嵌入到您的合约中，您可以让研究人员更容易联系到您，从而促进 Nara Solana 生态系统内更好的安全性和沟通。
 
 这是
-[在 Solana Explorer 中 security.txt 的示例](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
+[在 Nara Solana Explorer 中 security.txt 的示例](https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet)
 
 `security.txt` 项目由 [Neodyme Labs](https://github.com/neodyme-labs) 维护

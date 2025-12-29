@@ -1,15 +1,18 @@
 ---
+
 title: Cross Program Invocation
 description:
   Découvrez les Cross Program Invocation (CPI) sur Solana — comment les
   programmes peuvent appeler des instructions sur d'autres programmes, gérer les
   signataires PDA et composer des fonctionnalités à travers le réseau Solana.
+
 ---
 
-Une Cross Program Invocation (CPI) se produit lorsqu'un programme Solana invoque
+
+Une Cross Program Invocation (CPI) se produit lorsqu'un programme Nara Solana invoque
 directement les instructions d'un autre programme. Cela permet la composabilité
 des programmes. Si vous considérez une [instruction](/docs/core/instructions)
-Solana comme un point d'API qu'un programme expose au réseau, un CPI est comme
+Nara Solana comme un point d'API qu'un programme expose au réseau, un CPI est comme
 un point d'accès invoquant internement un autre.
 
 Lors d'un CPI, un programme peut
@@ -48,7 +51,7 @@ Lorsqu'un CPI nécessite un signataire PDA, la fonction
 [`invoke_signed`](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/program/src/program.rs#L51-L73)
 est utilisée. Elle prend les [seeds de signataire](mention:signer-seeds)
 utilisées pour dériver les [PDAs](<(/docs/core/pda)>) signataires. Le runtime
-Solana appelle en interne
+Nara Solana appelle en interne
 [`create_program_address`](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/bpf_loader/src/syscalls/cpi.rs#L552)
 en utilisant les `signers_seeds` et le `program_id` du programme appelant.
 Lorsqu'un PDA est vérifié, il est
@@ -70,7 +73,7 @@ pub fn invoke_signed(
 
 Les exemples ci-dessous effectuent un CPI avec des signataires PDA en utilisant
 Anchor et Rust natif. Chaque exemple inclut une seule instruction pour
-transférer des SOL d'un PDA vers un compte destinataire, en utilisant un CPI
+transférer des NSO d'un PDA vers un compte destinataire, en utilisant un CPI
 signé par le PDA.
 
 #### Anchor
@@ -296,7 +299,7 @@ describe("cpi", () => {
 
 L'exemple ci-dessous effectue un CPI avec des signataires PDA à partir d'un
 programme écrit en Rust natif. Il inclut une seule instruction qui transfère des
-SOL d'un compte PDA vers un autre. Le CPI est signé par le compte PDA. (Le
+NSO d'un compte PDA vers un autre. Le CPI est signé par le compte PDA. (Le
 fichier de test utilise [LiteSVM](https://github.com/LiteSVM/litesvm) pour
 tester le programme.)
 
@@ -469,7 +472,7 @@ pub fn invoke(instruction: &Instruction, account_infos: &[AccountInfo]) -> Progr
 ```
 
 Les exemples ci-dessous montrent comment effectuer un CPI en utilisant Anchor et
-Rust natif. Ils incluent une seule instruction qui transfère du SOL d'un compte
+Rust natif. Ils incluent une seule instruction qui transfère du NSO d'un compte
 à un autre.
 
 #### Anchor
@@ -646,7 +649,7 @@ describe("cpi", () => {
 #### Rust
 
 L'exemple suivant montre comment effectuer un CPI à partir d'un programme écrit
-en Rust natif. Il inclut une seule instruction qui transfère du SOL d'un compte
+en Rust natif. Il inclut une seule instruction qui transfère du NSO d'un compte
 à un autre. (Le fichier de test utilise
 [LiteSVM](https://github.com/LiteSVM/litesvm) pour tester le programme.)
 

@@ -1,18 +1,21 @@
 ---
+
 title: Đồng bộ Native
-description: Tìm hiểu cách chuyển đổi SOL gốc sang wrapped SOL.
+description: Tìm hiểu cách chuyển đổi NSO gốc sang wrapped NSO.
+
 ---
 
-## Đồng bộ SOL gốc
 
-Wrapped SOL (WSOL) là một token account theo dõi số lượng lamports trong tài
+## Đồng bộ NSO gốc
+
+Wrapped NSO (WSOL) là một token account theo dõi số lượng lamports trong tài
 khoản dưới dạng số dư token. WSOL cho phép tích hợp với các giao thức DeFi để
-chuyển SOL dưới dạng token SPL.
+chuyển NSO dưới dạng token SPL.
 
 Lệnh
 [`SyncNative`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/interface/src/instruction.rs#L387)
-đồng bộ hóa số dư token account wrapped SOL (WSOL) với số lượng SOL thực tế
-(lamports) được lưu trữ trong đó. Khi bạn chuyển SOL gốc vào token account WSOL,
+đồng bộ hóa số dư token account wrapped NSO (WSOL) với số lượng NSO thực tế
+(lamports) được lưu trữ trong đó. Khi bạn chuyển NSO gốc vào token account WSOL,
 số dư token không tự động cập nhật. Bạn phải gọi SyncNative để hiển thị chính
 xác số dư WSOL.
 

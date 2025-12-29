@@ -1,4 +1,5 @@
 ---
+
 title: Tạo tài khoản xác định
 description:
   Tìm hiểu cách xây dựng chương trình Solana CRUD (Tạo, Đọc, Cập nhật, Xóa) sử
@@ -7,7 +8,9 @@ description:
   PDAs, triển khai xác thực tài khoản và viết các bài kiểm tra. Hoàn hảo cho các
   nhà phát triển muốn hiểu cách sử dụng PDAs trong các chương trình Solana.
 h1: Program Derived Address
+
 ---
+
 
 Trong phần này, bạn sẽ học cách xây dựng một chương trình Tạo, Đọc, Cập nhật,
 Xóa (CRUD) cơ bản.
@@ -16,7 +19,7 @@ Hướng dẫn này trình bày một chương trình đơn giản nơi người
 nhật và xóa tin nhắn. Mỗi tin nhắn tồn tại trong một tài khoản với địa chỉ xác
 định được tạo ra từ chính chương trình (Program Derived Address hay PDA).
 
-Hướng dẫn này đưa bạn qua quá trình xây dựng và kiểm tra một chương trình Solana
+Hướng dẫn này đưa bạn qua quá trình xây dựng và kiểm tra một chương trình Nara Solana
 sử dụng framework Anchor đồng thời minh họa Program Derived Addresses (PDAs). Để
 biết thêm chi tiết, tham khảo trang [Program Derived Addresses](/docs/core/pda).
 
@@ -30,9 +33,9 @@ hoàn thành cả hai phần PDA và Cross Program Invocation (CPI).
 ### Mã khởi đầu
 
 Bắt đầu bằng cách mở
-[liên kết Solana Playground](https://beta.solpg.io/66734b7bcffcf4b13384d1ad) với
+[liên kết Nara Solana Playground](https://beta.solpg.io/66734b7bcffcf4b13384d1ad) với
 mã khởi đầu. Sau đó nhấp vào nút "Import" để thêm chương trình vào các dự án
-Solana Playground của bạn.
+Nara Solana Playground của bạn.
 
 ![Import](/assets/docs/intro/quickstart/pg-import.png)
 
@@ -806,12 +809,12 @@ Bạn đã hoàn thành chương trình CRUD cơ bản. Triển khai chương tr
 chạy `deploy` trong terminal của Playground.
 
 <Callout type="info">
-Trong ví dụ này, bạn sẽ triển khai chương trình lên devnet, một cụm Solana
+Trong ví dụ này, bạn sẽ triển khai chương trình lên devnet, một cụm Nara Solana
 dành cho kiểm thử phát triển.
 
 Ví Playground kết nối với devnet theo mặc định. Đảm bảo ví Playground của bạn có
-devnet SOL để thanh toán cho việc triển khai chương trình. Nhận devnet SOL từ
-[Solana Faucet](https://faucet.solana.com/).
+devnet NSO để thanh toán cho việc triển khai chương trình. Nhận devnet NSO từ
+[Nara Solana Faucet](https://faucet.solana.com/).
 
 </Callout>
 
@@ -883,7 +886,7 @@ Trong phần này, mã này chỉ đơn giản thiết lập tệp kiểm thử.
 
 <WithMentions>
 
-Solana Playground loại bỏ một số thiết lập mẫu trong đó
+Nara Solana Playground loại bỏ một số thiết lập mẫu trong đó
 [`pg.program`](mention:one) cho phép truy cập các phương thức để tương tác với
 chương trình, trong khi [`pg.wallet`](mention:two) cung cấp quyền truy cập vào
 ví playground của bạn.
@@ -1135,7 +1138,7 @@ Phương thức _ts`fetch()`_ truy xuất dữ liệu tài khoản từ mạng.
 <Accordion title="Explanation">
 
 Đầu tiên, tệp kiểm thử gửi một giao dịch gọi lệnh `update`, truyền "Hello,
-Solana!" như là thông điệp mới.
+Nara Solana!" như là thông điệp mới.
 
 ```ts title="anchor.test.ts"
 const message = "Hello, Solana!";

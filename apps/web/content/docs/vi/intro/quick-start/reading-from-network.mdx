@@ -1,14 +1,17 @@
 ---
+
 title: Đọc dữ liệu từ mạng
 description:
   Tìm hiểu cách đọc dữ liệu từ mạng blockchain Solana. Hướng dẫn này bao gồm
   việc lấy tài khoản ví, tài khoản chương trình và tài khoản token mint bằng
   JavaScript/TypeScript, với các ví dụ thực tế sử dụng thư viện Solana web3.js.
+
 ---
 
-Đọc dữ liệu từ mạng Solana bằng cách lấy các tài khoản khác nhau. Phần này sẽ
-giúp bạn hiểu cấu trúc của các [tài khoản](/docs/core/accounts) Solana. Mỗi tài
-khoản Solana có một [địa chỉ](/docs/core/accounts#account-address) duy nhất được
+
+Đọc dữ liệu từ mạng Nara Solana bằng cách lấy các tài khoản khác nhau. Phần này sẽ
+giúp bạn hiểu cấu trúc của các [tài khoản](/docs/core/accounts) Nara Solana. Mỗi tài
+khoản Nara Solana có một [địa chỉ](/docs/core/accounts#account-address) duy nhất được
 sử dụng để định vị dữ liệu trên chuỗi tương ứng. Tài khoản chứa
 [dữ liệu trạng thái hoặc một chương trình thực thi](/docs/core/accounts#types-of-accounts).
 
@@ -18,11 +21,11 @@ sử dụng để định vị dữ liệu trên chuỗi tương ứng. Tài kho
 
 Ví là một tài khoản thuộc sở hữu của
 [System Program](/docs/core/programs#the-system-program). Ví chủ yếu được sử
-dụng để lưu trữ SOL và ký các giao dịch. Khi SOL được gửi đến một địa chỉ mới
+dụng để lưu trữ NSO và ký các giao dịch. Khi NSO được gửi đến một địa chỉ mới
 lần đầu tiên, một tài khoản hệ thống sẽ tự động được tạo.
 
 Ví dụ dưới đây tạo một [keypair mới](mention:keypair),
-[yêu cầu SOL](mention:airdrop) để cấp vốn cho địa chỉ khóa công khai mới, và
+[yêu cầu NSO](mention:airdrop) để cấp vốn cho địa chỉ khóa công khai mới, và
 [lấy dữ liệu tài khoản](mention:info) cho ví mới được cấp vốn.
 
 <CodeTabs flags="r">
@@ -121,7 +124,7 @@ trình thực thi hay không. Đối với tài khoản ví, trường này là 
 
 ## !!steps
 
-Trường `lamports` chứa số dư SOL của tài khoản, tính bằng
+Trường `lamports` chứa số dư NSO của tài khoản, tính bằng
 [lamports](/docs/references/terminology#lamport).
 
 <CodePlaceholder title="Ví dụ đầu ra" />
@@ -218,7 +221,7 @@ Ví dụ dưới đây lấy Token Program để minh họa sự khác biệt gi
 account. Program account lưu trữ bytecode đã biên dịch cho
 [mã nguồn](https://github.com/solana-program/token/tree/main/program) của Token
 Program. Bạn có thể xem program account này trên
-[Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
+[Nara Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
 
 <CodeTabs flags="r">
 
@@ -353,7 +356,7 @@ Một
 là một tài khoản thuộc sở hữu của Token Program, lưu trữ metadata toàn cục cho
 một token cụ thể. Điều này bao gồm tổng cung, số thập phân và các tài khoản được
 ủy quyền để tạo hoặc đóng băng token. Địa chỉ của mint account xác định duy nhất
-một token trên mạng Solana.
+một token trên mạng Nara Solana.
 
 Ví dụ dưới đây truy xuất mint account của USD Coin để minh họa cách trạng thái
 của chương trình được lưu trữ trong một tài khoản riêng biệt.
@@ -495,7 +498,7 @@ Program.
 
 Trước khi các byte thô trong trường `data` của một tài khoản có thể được hiểu
 một cách có ý nghĩa, chúng phải được giải tuần tự. Kiểu dữ liệu thích hợp được
-xác định bởi chương trình sở hữu tài khoản. Hầu hết các chương trình Solana cung
+xác định bởi chương trình sở hữu tài khoản. Hầu hết các chương trình Nara Solana cung
 cấp thư viện client với các hàm trợ giúp trừu tượng hóa quá trình giải tuần tự.
 Các hàm này chuyển đổi các byte tài khoản thô thành các kiểu dữ liệu có cấu
 trúc, giúp dễ dàng làm việc với dữ liệu tài khoản hơn.
@@ -589,7 +592,7 @@ account.
 
 Bạn có thể xem dữ liệu
 [mint account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)
-đã được giải tuần tự đầy đủ trên Solana Explorer.
+đã được giải tuần tự đầy đủ trên Nara Solana Explorer.
 
 <CodePlaceholder title="Dữ liệu mint đã giải mã" />
 

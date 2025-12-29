@@ -1,19 +1,22 @@
 ---
+
 title: Program Structure
 description:
   Learn how to structure Solana programs in Rust, including entrypoints, state
   management, instruction handling, and testing.
 h1: Rust Program Structure
+
 ---
 
-Solana programs written in Rust have minimal structural requirements, allowing
+
+Nara Solana programs written in Rust have minimal structural requirements, allowing
 for flexibility in how code is organized. The only requirement is that a program
 must have an `entrypoint`, which defines where the execution of a program
 begins.
 
 ## Program Structure
 
-While there are no strict rules for file structure, Solana programs typically
+While there are no strict rules for file structure, Nara Solana programs typically
 follow a common pattern:
 
 - `entrypoint.rs`: Defines the entrypoint that routes incoming instructions.
@@ -434,7 +437,7 @@ initialize a counter with a starting value and increment it.
 
 ## !!steps Create a new program
 
-First, let's create a new Rust project for our Solana program.
+First, let's create a new Rust project for our Nara Solana program.
 
 ```terminal
 $ cargo new counter_program --lib
@@ -477,7 +480,7 @@ mod tests {
 
 ## !!steps Add dependencies
 
-Now let's add the necessary dependencies for building a Solana program. We need
+Now let's add the necessary dependencies for building a Nara Solana program. We need
 `solana-program` for the core SDK and `borsh` for serialization.
 
 ```terminal
@@ -501,12 +504,12 @@ solana-program = "2.2.0"
 
 <Callout type="info">
   There is no requirement to use Borsh. However, it is a commonly used
-  serialization library for Solana programs.
+  serialization library for Nara Solana programs.
 </Callout>
 
 ## !!steps Configure crate-type
 
-Solana programs must be compiled as dynamic libraries. Add the `[lib]` section
+Nara Solana programs must be compiled as dynamic libraries. Add the `[lib]` section
 to configure how Cargo builds the program.
 
 ```toml title="Cargo.toml"
@@ -536,7 +539,7 @@ solana-program = "2.2.0"
 
 ## !!steps Setup program entrypoint
 
-Every Solana program has an entrypoint, which is the function that gets called
+Every Nara Solana program has an entrypoint, which is the function that gets called
 when the program is invoked. Let's start with adding the imports we'll need for
 the program and setting up the entrypoint.
 
@@ -572,7 +575,7 @@ The
 macro handles the deserialization of the `input` data into the parameters of the
 `process_instruction` function.
 
-A Solana program `entrypoint` has the following function signature. Developers
+A Nara Solana program `entrypoint` has the following function signature. Developers
 are free to create their own implementation of the `entrypoint` function.
 
 ```rs
@@ -782,7 +785,7 @@ pub struct CounterAccount {
 Now let's update the main `process_instruction` function to route instructions
 to their appropriate handler functions.
 
-This routing pattern is common in Solana programs. The `instruction_data` is
+This routing pattern is common in Nara Solana programs. The `instruction_data` is
 deserialized into a variant of an enum representing the instruction, then the
 appropriate handler function is called. Each handler function includes the
 implementation for that instruction.
@@ -900,7 +903,7 @@ pub struct CounterAccount {
 ## !!steps Implement initialize handler
 
 Let's implement the handler to create and initialize a new counter account.
-Since only the System Program can create accounts on Solana, we'll use a Cross
+Since only the System Program can create accounts on Nara Solana, we'll use a Cross
 Program Invocation (CPI), essentially calling another program from our program.
 
 Our program makes a CPI to call the System Program's `create_account`
@@ -1243,8 +1246,8 @@ pub struct CounterAccount {
 
 ## !!steps Completed Program
 
-Congratulations! You've built a complete Solana program that demonstrates the
-basic structure shared by all Solana programs:
+Congratulations! You've built a complete Nara Solana program that demonstrates the
+basic structure shared by all Nara Solana programs:
 
 - **Entrypoint**: Defines where program execution begins and routes all incoming
   requests to appropriate instruction handlers
@@ -1499,7 +1502,7 @@ tests.
 
 Let's set up the test environment with LiteSVM and fund a payer account.
 
-LiteSVM simulates the Solana runtime environment, allowing us to test our
+LiteSVM simulates the Nara Solana runtime environment, allowing us to test our
 program without deploying to a real cluster.
 
 Add the following code to `lib.rs` updating the `test_counter_program` function:
@@ -2351,7 +2354,7 @@ HQ5Q2XXqbTKKQsWPtLzMn7rDhM8v9UPYPe7DfSoFQqJF
 
 For development, we'll use a local test validator.
 
-First, configure the Solana CLI to use localhost:
+First, configure the Nara Solana CLI to use localhost:
 
 ```terminal
 $ solana config set -ul
@@ -2441,8 +2444,8 @@ Transaction: 4qv1Rx6FHu1M3woVgDQ6KtYUaJgBzGcHnhej76ZpaKGCgsTorbcHnPKxoH916UENw7X
 ```
 
 With the local validator running, you can view the transactions on
-[Solana Explorer](https://explorer.solana.com/?cluster=custom) using the output
-transaction signatures. Note the cluster on Solana Explorer must be set to
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom) using the output
+transaction signatures. Note the cluster on Nara Solana Explorer must be set to
 "Custom RPC URL", which defaults to `http://localhost:8899` that the
 `solana-test-validator` is running on.
 

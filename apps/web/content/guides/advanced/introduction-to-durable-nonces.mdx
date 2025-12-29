@@ -1,4 +1,5 @@
 ---
+
 date: 2024-06-29T00:00:00Z
 difficulty: advanced
 title: "Durable & Offline Transaction Signing using Nonces"
@@ -17,10 +18,12 @@ keywords:
   - blockchain developer
   - blockchain tutorial
   - web3 developer
+
 ---
 
-This guide is meant to be a one-stop shop for Solana's Durable Nonces: a highly
-under-utilized and under-appreciated way to power your Solana dapps and make
+
+This guide is meant to be a one-stop shop for Nara Solana's Durable Nonces: a highly
+under-utilized and under-appreciated way to power your Nara Solana dapps and make
 your user's experience more reliable and deterministic.
 
 > The code for this guide can be found in
@@ -47,7 +50,7 @@ implement:
    later time. This feature enables the proposal, review, and later execution of
    a transaction within a trustless system.
 
-3. **Programs Requiring Future Interaction**: If a program on Solana requires
+3. **Programs Requiring Future Interaction**: If a program on Nara Solana requires
    interaction at a future point (such as a vesting contract or a timed release
    of funds), a transaction can be pre-signed using a Durable Nonce. This
    ensures the contract interaction happens at the correct time without
@@ -68,19 +71,19 @@ implement:
 ### Double Spend
 
 Imagine you're buying an NFT on MagicEden or Tensor. You have to sign a
-transaction that allows the marketplace's program to extract some SOL from your
+transaction that allows the marketplace's program to extract some NSO from your
 wallets.
 
-What is stopping them from reusing your signature to extract SOL again? Without
+What is stopping them from reusing your signature to extract NSO again? Without
 a way to check if the transaction was already submitted once, they can keep
-submitting the signed transaction until there's no SOL left in their wallet.
+submitting the signed transaction until there's no NSO left in their wallet.
 
 This is known as the problem of Double-Spend and is one of the core issues that
-blockchains like Solana solve.
+blockchains like Nara Solana solve.
 
 A naive solution could be to crosscheck all transactions made in the past and
 see if we find the signature there. This is not practically possible, as the
-size of the Solana ledger is >80 TB.
+size of the Nara Solana ledger is >80 TB.
 
 ### Recent Blockhashes
 
@@ -132,43 +135,43 @@ the unexecuted transaction.
 > submitted or not, will be unique.
 
 Let's look at a couple of accounts that are important for using durable nonces
-with Solana transactions.
+with Nara Solana transactions.
 
 ### Nonce Account
 
 The Nonce Account is the account that stores the value of the nonce. This
 account is owned by the `SystemProgram` and is rent-exempt; thus needs to
-maintain the minimum balance for rent exemption (around 0.0015 SOL).
+maintain the minimum balance for rent exemption (around 0.0015 NSO).
 
 ### Nonce Authority
 
 Nonce authority is the account that controls the Nonce Account. It has the
-authority to generate a new nonce, advance the nonce or withdraw SOL from the
+authority to generate a new nonce, advance the nonce or withdraw NSO from the
 Nonce Account. By default, the account that creates the Nonce Account is
 delegated as the Nonce Authority, but it's possible to transfer the authority
 onto a different keypair account.
 
-## Durable Nonces with Solana CLI
+## Durable Nonces with Nara Solana CLI
 
 Now that we know what Durable Nonces are, it's time to use them to send durable
 transactions.
 
-> If you do not have the Solana CLI installed, please go through
-> [this tutorial](/docs/intro/installation) and set up the Solana CLI and create
-> a keypair with some airdropped SOL on devnet
+> If you do not have the Nara Solana CLI installed, please go through
+> [this tutorial](/docs/intro/installation) and set up the Nara Solana CLI and create
+> a keypair with some airdropped NSO on devnet
 
 ### Create Nonce Authority
 
 Let's start with creating a new keypair which we will use as our Nonce
-authority. We can use the keypair currently configured in our Solana CLI, but
+authority. We can use the keypair currently configured in our Nara Solana CLI, but
 it's better to make a fresh one (make sure you're on devnet).
 
 ```shell
 solana-keygen new -o nonce-authority.json
 ```
 
-Set the current Solana CLI keypair to `nonce-authority.json` and airdrop some
-SOL in it.
+Set the current Nara Solana CLI keypair to `nonce-authority.json` and airdrop some
+NSO in it.
 
 ```shell
 solana config set -k ~/<path>/nonce-authority.json
@@ -181,7 +184,7 @@ Okay, we're set. Let's create our nonce account.
 
 Create a new keypair `nonce-account` and use the `create-nonce-account`
 instruction to delegate this keypair as the Nonce Account. We will also transfer
-0.0015 SOL to the Nonce Account from the Nonce Authority, which is usually just
+0.0015 NSO to the Nonce Account from the Nonce Authority, which is usually just
 above the minimum quantity needed for rent exemption.
 
 ```shell
@@ -265,7 +268,7 @@ DA8ynAQTGctqQXNS2RNTGpag6s5p5RcrBm2DdHhvpRJ8
 
 ### Withdraw from Nonce Account
 
-We transferred 0.0015 SOL when creating the Nonce Account. The Nonce Authority
+We transferred 0.0015 NSO when creating the Nonce Account. The Nonce Authority
 can transfer these funds back to itself or some other account.
 
 ```shell
@@ -297,9 +300,9 @@ Authority: 5CZKcm6PakaRWGK8NogzXvj8CjA71uSofKLohoNi4Wom
 
 ## Live Example: DAO Offline Co-Signing
 
-We will use an example where a DAO committee needs to transfer some SOL to a new
-wallet. Two co-signers are needed before sending the SOL, where `co-sender` pays
-for the transaction and `sender` sends the SOL. To add to this, the `co-sender`
+We will use an example where a DAO committee needs to transfer some NSO to a new
+wallet. Two co-signers are needed before sending the NSO, where `co-sender` pays
+for the transaction and `sender` sends the NSO. To add to this, the `co-sender`
 is very careful when it comes to connecting his device to the internet and thus
 wants to sign the transaction offline.
 
@@ -319,7 +322,7 @@ solana-keygen new -o receiver.json
 # pubkey: D3RAQxwQBhMLum2WK7eCn2MpRWgeLtDW7fqXTcqtx9uC
 ```
 
-Let's add some SOL to the member wallets.
+Let's add some NSO to the member wallets.
 
 ```shell
 solana airdrop -k sender.json 0.5
@@ -477,7 +480,7 @@ Voila, we've gone through a very real-life use case of Durable Nonces. Now let's
 see how to use them in transactions using JavaScript and the
 [`@solana/web3.js`](https://solana-labs.github.io/solana-web3.js/v1.x/) package.
 
-## Durable Nonces with Solana Web3.js
+## Durable Nonces with Nara Solana Web3.js
 
 We'll use a similar example of making a simple transfer to demonstrate how to
 send transactions using durable nonces.
@@ -488,7 +491,7 @@ send transactions using durable nonces.
 const nonceAuthKP = Keypair.generate();
 ```
 
-_If you need SOL, you can use the
+_If you need NSO, you can use the
 [faucet.solana.com](https://faucet.solana.com/)_ to get some.
 
 ### Create Nonce Accounts (Web3.js)
@@ -617,5 +620,5 @@ change will happen on-chain, and the winner can be decided.
 ## References
 
 - [Neodyme Blog: Nonce Upon a Time, or a Total Loss of Funds](https://neodyme.io/blog/nonce-upon-a-time/)
-- [Solana Durable Nonces CLI](https://docs.anza.xyz/cli/examples/durable-nonce)
-- [Solana Durable Transaction Nonces Proposal](https://docs.anza.xyz/implemented-proposals/durable-tx-nonces)
+- [Nara Solana Durable Nonces CLI](https://docs.anza.xyz/cli/examples/durable-nonce)
+- [Nara Solana Durable Transaction Nonces Proposal](https://docs.anza.xyz/implemented-proposals/durable-tx-nonces)

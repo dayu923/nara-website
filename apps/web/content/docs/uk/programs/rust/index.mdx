@@ -1,19 +1,22 @@
 ---
+
 title: Програми на Rust
 description:
   Дізнайтеся, як розробляти програми Solana за допомогою Rust, включаючи
   покрокові інструкції зі створення, збірки, тестування та розгортання
   смарт-контрактів у блокчейні Solana.
 h1: Розробка програм на Rust
+
 ---
 
-Програми Solana переважно розробляються за допомогою мови програмування Rust. Ця
-сторінка зосереджена на написанні програм Solana на Rust без використання
+
+Програми Nara Solana переважно розробляються за допомогою мови програмування Rust. Ця
+сторінка зосереджена на написанні програм Nara Solana на Rust без використання
 фреймворку Anchor, підхід, який часто називають написанням програм на "нативному
 Rust".
 
 Розробка на нативному Rust надає розробникам прямий контроль над їхніми
-програмами Solana. Однак цей підхід вимагає більше ручного налаштування та
+програмами Nara Solana. Однак цей підхід вимагає більше ручного налаштування та
 шаблонного коду порівняно з використанням фреймворку Anchor. Цей метод
 рекомендується для розробників, які:
 
@@ -30,12 +33,12 @@ Rust".
 
 Перш ніж почати, переконайтеся, що у вас встановлено наступне:
 
-- Rust: Мова програмування для створення програм Solana.
-- Solana CLI: Інструмент командного рядка для розробки на Solana.
+- Rust: Мова програмування для створення програм Nara Solana.
+- Nara Solana CLI: Інструмент командного рядка для розробки на Nara Solana.
 
 ## Початок роботи
 
-Приклад нижче охоплює основні кроки для створення вашої першої програми Solana,
+Приклад нижче охоплює основні кроки для створення вашої першої програми Nara Solana,
 написаної на Rust. Ми створимо мінімальну програму, яка виводить "Hello, world!"
 у журнал програми.
 
@@ -91,7 +94,7 @@ mod tests {
 ## !!steps Додайте залежність solana-program
 
 Далі додайте залежність `solana-program`. Це мінімальна залежність, необхідна
-для створення програми Solana.
+для створення програми Nara Solana.
 
 ```terminal
 $ cargo add solana-program@2.2.0
@@ -142,10 +145,10 @@ solana-program = "2.2.0"
 
 ## !!steps Додайте код програми
 
-Далі замініть вміст `src/lib.rs` наступним кодом. Це мінімальна програма Solana,
+Далі замініть вміст `src/lib.rs` наступним кодом. Це мінімальна програма Nara Solana,
 яка виводить "Hello, world!" у журнал програми, коли програма викликається.
 
-Макрос `msg!` використовується в програмах Solana для виведення повідомлення в
+Макрос `msg!` використовується в програмах Nara Solana для виведення повідомлення в
 журнал програми.
 
 <CodePlaceholder title="src/lib.rs" />
@@ -178,7 +181,7 @@ $ cargo build-sbf
 
 Ця команда створює каталог `target/deploy`, що містить два важливі файли:
 
-1. Файл `.so` (наприклад, `hello_world.so`): Це скомпільована програма Solana,
+1. Файл `.so` (наприклад, `hello_world.so`): Це скомпільована програма Nara Solana,
    яка буде розгорнута в мережі як "смарт-контракт".
 2. Файл keypair (наприклад, `hello_world-keypair.json`): Публічний ключ цього
    keypair використовується як ідентифікатор програми при розгортанні програми.
@@ -285,7 +288,7 @@ Program log: Hello, world!
 Далі, розгорніть програму. Під час локальної розробки ми можемо використовувати
 `solana-test-validator`.
 
-Спочатку налаштуйте Solana CLI для використання локального кластера Solana.
+Спочатку налаштуйте Nara Solana CLI для використання локального кластера Nara Solana.
 
 ```bash
 $ solana config set --url localhost
@@ -324,11 +327,11 @@ Signature:
 ```
 
 Ви можете переглянути ідентифікатор програми та підпис транзакції в
-[Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899).
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899).
 
 <Callout type="info">
-  Зверніть увагу, що кластер у Solana Explorer також має бути localhost. Опція
-  "Custom RPC URL" у Solana Explorer за замовчуванням встановлена на
+  Зверніть увагу, що кластер у Nara Solana Explorer також має бути localhost. Опція
+  "Custom RPC URL" у Nara Solana Explorer за замовчуванням встановлена на
   `http://localhost:8899`.
 </Callout>
 
@@ -530,14 +533,14 @@ Transaction Signature: 54TWxKi3Jsi3UTeZbhLGUFX6JQH7TspRJjRRFZ8NFnwG5BXM9udxiX77b
 ```
 
 Ви можете перевірити підпис транзакції в
-[Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom&customUrl=http%3A%2F%2Flocalhost%3A8899)
 (локальний кластер), щоб побачити "Hello, world!" у журналі програми.
 
 ## !!steps Оновлення програми
 
-Програми Solana можна оновлювати, повторно розгортаючи їх з тим самим
+Програми Nara Solana можна оновлювати, повторно розгортаючи їх з тим самим
 ідентифікатором програми. Оновіть програму в `src/lib.rs`, щоб вона виводила
-"Hello, Solana!" замість "Hello, world!".
+"Hello, Nara Solana!" замість "Hello, world!".
 
 ```rs title="lib.rs"
 pub fn process_instruction(
@@ -629,7 +632,7 @@ $ cargo build-sbf
 $ cargo test -- --no-capture
 ```
 
-Ви повинні побачити "Hello, Solana!" у журналі програми.
+Ви повинні побачити "Hello, Nara Solana!" у журналі програми.
 
 ```txt title="Terminal"
 running 1 test
@@ -653,8 +656,8 @@ test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; fini
 $ solana program deploy ./target/deploy/hello_world.so
 ```
 
-Запустіть клієнтський код знову та перевірте підпис транзакції в Solana
-Explorer, щоб побачити "Hello, Solana!" у журналі програми.
+Запустіть клієнтський код знову та перевірте підпис транзакції в Nara Solana
+Explorer, щоб побачити "Hello, Nara Solana!" у журналі програми.
 
 ```terminal
 $ cargo run --example client
@@ -662,7 +665,7 @@ $ cargo run --example client
 
 ## !!steps Закриття програми
 
-Ви можете закрити свою програму Solana, щоб повернути SOL, виділений для
+Ви можете закрити свою програму Nara Solana, щоб повернути NSO, виділений для
 облікового запису. Закриття програми є незворотним, тому це слід робити з
 обережністю.
 

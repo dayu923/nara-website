@@ -1,15 +1,18 @@
 ---
+
 title: Rust SDK
-description: Officiële Rust crates voor het bouwen op Solana.
-h1: Rust SDK voor Solana
+description: Officiële Rust crates voor het bouwen op Nara Solana.
+h1: Rust SDK voor Nara Solana
+
 ---
+
 
 ## Client Crates
 
 | Crate                    | Beschrijving                                 | Docs                                              | GitHub                                                                         |
 | ------------------------ | -------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------ |
 | solana-sdk               | Core SDK                                     | [View](https://docs.rs/solana-sdk/)               | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sdk)               |
-| solana-client            | Interactie met Solana via RPC                | [View](https://docs.rs/solana-client/)            | [Source](https://github.com/anza-xyz/agave/tree/master/client)                 |
+| solana-client            | Interactie met Nara Solana via RPC                | [View](https://docs.rs/solana-client/)            | [Source](https://github.com/anza-xyz/agave/tree/master/client)                 |
 | solana-commitment-config | Configuratie van transactie-commitmentniveau | [View](https://docs.rs/solana-commitment-config/) | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/commitment-config) |
 
 De `solana-sdk` crate bestaat uit de volgende componentcrates, die onafhankelijk
@@ -17,44 +20,44 @@ kunnen worden gebruikt:
 
 | Crate                       | Beschrijving                                                                             | Docs                                                 | GitHub                                                                            |
 | --------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------- |
-| solana-account              | Solana Account type                                                                      | [View](https://docs.rs/solana-account/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/account)              |
-| solana-epoch-info           | Informatie over een Solana epoch                                                         | [View](https://docs.rs/solana-epoch-info/)           | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-info)           |
-| solana-epoch-rewards-hasher | Solana epoch rewards hasher                                                              | [View](https://docs.rs/solana-epoch-rewards-hasher/) | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-rewards-hasher) |
-| solana-fee-structure        | Solana fee structuren                                                                    | [View](https://docs.rs/solana-fee-structure/)        | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/fee-structure)        |
-| solana-inflation            | Configuratie voor Solana netwerk inflatie                                                | [View](https://docs.rs/solana-inflation/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/inflation)            |
-| solana-message              | Solana transactie berichttypes                                                           | [View](https://docs.rs/solana-message/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/message)              |
-| solana-program              | Solana Program                                                                           | [View](https://docs.rs/solana-program/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/program)              |
-| solana-program-memory       | Basis low-level geheugenoperaties voor Solana                                            | [View](https://docs.rs/solana-program-memory/)       | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/program-memory)       |
-| solana-pubkey               | Solana account adressen                                                                  | [View](https://docs.rs/solana-pubkey/)               | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/pubkey)               |
-| solana-sanitize             | Solana Message Sanitization                                                              | [View](https://docs.rs/solana-sanitize/)             | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sanitize)             |
-| solana-sdk-ids              | Solana SDK IDs                                                                           | [View](https://docs.rs/solana-sdk-ids/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-ids)              |
-| solana-sdk-macro            | Solana SDK Macro                                                                         | [View](https://docs.rs/solana-sdk-macro/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-macro)            |
-| solana-serde                | Solana serde helpers                                                                     | [View](https://docs.rs/solana-serde/)                | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/serde)                |
-| solana-serde-varint         | Solana definities voor integers die serialiseren naar variabele grootte                  | [View](https://docs.rs/solana-serde-varint/)         | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/serde-varint)         |
-| solana-short-vec            | Solana compacte serde-encoding van vectors met kleine lengte                             | [View](https://docs.rs/solana-short-vec/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/short-vec)            |
-| solana-time-utils           | std::time utilities voor Solana                                                          | [View](https://docs.rs/solana-time-utils/)           | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/time-utils)           |
-| solana-keypair              | Concrete implementatie van een Solana Signer                                             | [View](https://docs.rs/solana-keypair/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/keypair)              |
-| solana-offchain-message     | Solana offchain bericht ondertekening                                                    | [View](https://docs.rs/solana-offchain-message/)     | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/offchain-message)     |
-| solana-presigner            | Een Solana Signer implementatie die een extern geconstrueerde Signature vertegenwoordigt | [View](https://docs.rs/solana-presigner/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/presigner)            |
-| solana-seed-derivable       | Solana trait die de interface definieert waarmee sleutels worden afgeleid                | [View](https://docs.rs/solana-seed-derivable/)       | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/seed-derivable)       |
-| solana-seed-phrase          | Solana functies voor het genereren van keypairs uit seed phrases                         | [View](https://docs.rs/solana-seed-phrase/)          | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/seed-phrase)          |
+| solana-account              | Nara Solana Account type                                                                      | [View](https://docs.rs/solana-account/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/account)              |
+| solana-epoch-info           | Informatie over een Nara Solana epoch                                                         | [View](https://docs.rs/solana-epoch-info/)           | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-info)           |
+| solana-epoch-rewards-hasher | Nara Solana epoch rewards hasher                                                              | [View](https://docs.rs/solana-epoch-rewards-hasher/) | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-rewards-hasher) |
+| solana-fee-structure        | Nara Solana fee structuren                                                                    | [View](https://docs.rs/solana-fee-structure/)        | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/fee-structure)        |
+| solana-inflation            | Configuratie voor Nara Solana netwerk inflatie                                                | [View](https://docs.rs/solana-inflation/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/inflation)            |
+| solana-message              | Nara Solana transactie berichttypes                                                           | [View](https://docs.rs/solana-message/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/message)              |
+| solana-program              | Nara Solana Program                                                                           | [View](https://docs.rs/solana-program/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/program)              |
+| solana-program-memory       | Basis low-level geheugenoperaties voor Nara Solana                                            | [View](https://docs.rs/solana-program-memory/)       | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/program-memory)       |
+| solana-pubkey               | Nara Solana account adressen                                                                  | [View](https://docs.rs/solana-pubkey/)               | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/pubkey)               |
+| solana-sanitize             | Nara Solana Message Sanitization                                                              | [View](https://docs.rs/solana-sanitize/)             | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sanitize)             |
+| solana-sdk-ids              | Nara Solana SDK IDs                                                                           | [View](https://docs.rs/solana-sdk-ids/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-ids)              |
+| solana-sdk-macro            | Nara Solana SDK Macro                                                                         | [View](https://docs.rs/solana-sdk-macro/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-macro)            |
+| solana-serde                | Nara Solana serde helpers                                                                     | [View](https://docs.rs/solana-serde/)                | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/serde)                |
+| solana-serde-varint         | Nara Solana definities voor integers die serialiseren naar variabele grootte                  | [View](https://docs.rs/solana-serde-varint/)         | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/serde-varint)         |
+| solana-short-vec            | Nara Solana compacte serde-encoding van vectors met kleine lengte                             | [View](https://docs.rs/solana-short-vec/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/short-vec)            |
+| solana-time-utils           | std::time utilities voor Nara Solana                                                          | [View](https://docs.rs/solana-time-utils/)           | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/time-utils)           |
+| solana-keypair              | Concrete implementatie van een Nara Solana Signer                                             | [View](https://docs.rs/solana-keypair/)              | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/keypair)              |
+| solana-offchain-message     | Nara Solana offchain bericht ondertekening                                                    | [View](https://docs.rs/solana-offchain-message/)     | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/offchain-message)     |
+| solana-presigner            | Een Nara Solana Signer implementatie die een extern geconstrueerde Signature vertegenwoordigt | [View](https://docs.rs/solana-presigner/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/presigner)            |
+| solana-seed-derivable       | Nara Solana trait die de interface definieert waarmee sleutels worden afgeleid                | [View](https://docs.rs/solana-seed-derivable/)       | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/seed-derivable)       |
+| solana-seed-phrase          | Nara Solana functies voor het genereren van keypairs uit seed phrases                         | [View](https://docs.rs/solana-seed-phrase/)          | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/seed-phrase)          |
 | solana-shred-version        | Berekening van shred versies                                                             | [View](https://docs.rs/solana-shred-version/)        | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/shred-version)        |
-| solana-signature            | Solana 64-byte signature type                                                            | [View](https://docs.rs/solana-signature/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/signature)            |
-| solana-signer               | Abstracties voor Solana transactie ondertekenaars                                        | [View](https://docs.rs/solana-signer/)               | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/signer)               |
-| solana-transaction          | Solana transactie-types                                                                  | [View](https://docs.rs/solana-transaction/)          | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/transaction)          |
-| solana-transaction-error    | Solana TransactionError type                                                             | [View](https://docs.rs/solana-transaction-error/)    | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/transaction-error)    |
+| solana-signature            | Nara Solana 64-byte signature type                                                            | [View](https://docs.rs/solana-signature/)            | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/signature)            |
+| solana-signer               | Abstracties voor Nara Solana transactie ondertekenaars                                        | [View](https://docs.rs/solana-signer/)               | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/signer)               |
+| solana-transaction          | Nara Solana transactie-types                                                                  | [View](https://docs.rs/solana-transaction/)          | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/transaction)          |
+| solana-transaction-error    | Nara Solana TransactionError type                                                             | [View](https://docs.rs/solana-transaction-error/)    | [Source](https://github.com/anza-xyz/solana-sdk/tree/master/transaction-error)    |
 
 ## Program Crates
 
 Gebruik `solana-program` om on-chain programma's te bouwen.
 
-- [Voorbeeld: Bouw een Solana programma](/docs/programs/rust)
+- [Voorbeeld: Bouw een Nara Solana programma](/docs/programs/rust)
 
 | Crate          | Beschrijving              | Docs                                     | GitHub                                                                 |
 | -------------- | ------------------------- | ---------------------------------------- | ---------------------------------------------------------------------- |
 | solana-program | Bouw on-chain programma's | [Bekijk](https://docs.rs/solana-program) | [Broncode](https://github.com/anza-xyz/solana-sdk/tree/master/program) |
 
-Pinocchio is een bibliotheek zonder afhankelijkheden om Solana programma's in
+Pinocchio is een bibliotheek zonder afhankelijkheden om Nara Solana programma's in
 Rust te maken en kan worden gebruikt als vervanging voor `solana-program` om
 on-chain programma's te schrijven.
 
@@ -67,7 +70,7 @@ on-chain programma's te schrijven.
   ingrijpende wijzigingen ondergaan.
 </Callout>
 
-Pinocchio bevat programma-specifieke crates voor interactie met Solana
+Pinocchio bevat programma-specifieke crates voor interactie met Nara Solana
 programma's:
 
 | Crate                              | Beschrijving                            | Docs                                                          | GitHub                                                                                        |

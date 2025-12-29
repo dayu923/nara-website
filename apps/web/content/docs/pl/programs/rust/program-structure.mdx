@@ -1,19 +1,22 @@
 ---
+
 title: Struktura programu
 description:
   Dowiedz się, jak strukturyzować programy Solana w języku Rust, w tym punkty
   wejścia, zarządzanie stanem, obsługę instrukcji i testowanie.
 h1: Struktura programu w Rust
+
 ---
 
-Programy Solana napisane w języku Rust mają minimalne wymagania strukturalne, co
+
+Programy Nara Solana napisane w języku Rust mają minimalne wymagania strukturalne, co
 pozwala na elastyczność w organizacji kodu. Jedynym wymogiem jest to, że program
 musi mieć `entrypoint`, który definiuje, gdzie rozpoczyna się wykonanie
 programu.
 
 ## Struktura programu
 
-Chociaż nie ma ścisłych zasad dotyczących struktury plików, programy Solana
+Chociaż nie ma ścisłych zasad dotyczących struktury plików, programy Nara Solana
 zazwyczaj podążają za wspólnym wzorcem:
 
 - `entrypoint.rs`: Definiuje punkt wejścia, który kieruje przychodzącymi
@@ -435,7 +438,7 @@ zainicjalizować licznik z wartością początkową i go zwiększać.
 
 ## !!steps Utwórz nowy program
 
-Najpierw utwórzmy nowy projekt w języku Rust dla naszego programu Solana.
+Najpierw utwórzmy nowy projekt w języku Rust dla naszego programu Nara Solana.
 
 ```terminal
 $ cargo new counter_program --lib
@@ -478,7 +481,7 @@ mod tests {
 
 ## !!steps Dodaj zależności
 
-Teraz dodajmy niezbędne zależności do budowy programu Solana. Potrzebujemy
+Teraz dodajmy niezbędne zależności do budowy programu Nara Solana. Potrzebujemy
 `solana-program` dla podstawowego SDK oraz `borsh` do serializacji.
 
 ```terminal
@@ -502,12 +505,12 @@ solana-program = "2.2.0"
 
 <Callout type="info">
   Nie ma obowiązku używania Borsh. Jednak jest to powszechnie używana biblioteka
-  serializacji dla programów Solana.
+  serializacji dla programów Nara Solana.
 </Callout>
 
 ## !!steps Skonfiguruj typ crate
 
-Programy Solana muszą być kompilowane jako biblioteki dynamiczne. Dodaj sekcję
+Programy Nara Solana muszą być kompilowane jako biblioteki dynamiczne. Dodaj sekcję
 `[lib]`, aby skonfigurować sposób, w jaki Cargo buduje program.
 
 ```toml title="Cargo.toml"
@@ -537,7 +540,7 @@ solana-program = "2.2.0"
 
 ## !!steps Skonfiguruj punkt wejścia programu
 
-Każdy program Solana ma punkt wejścia, który jest funkcją wywoływaną podczas
+Każdy program Nara Solana ma punkt wejścia, który jest funkcją wywoływaną podczas
 uruchamiania programu. Zacznijmy od dodania importów, które będą potrzebne do
 programu, oraz skonfigurowania punktu wejścia.
 
@@ -573,7 +576,7 @@ Makro
 obsługuje deserializację danych `input` do parametrów funkcji
 `process_instruction`.
 
-Program Solana `entrypoint` ma następującą sygnaturę funkcji. Programiści mogą
+Program Nara Solana `entrypoint` ma następującą sygnaturę funkcji. Programiści mogą
 stworzyć własną implementację funkcji `entrypoint`.
 
 ```rs
@@ -783,7 +786,7 @@ pub struct CounterAccount {
 Zaktualizujmy teraz główną funkcję `process_instruction`, aby przekierowywała
 instrukcje do odpowiednich funkcji obsługujących.
 
-Ten wzorzec przekierowywania jest powszechny w programach Solana.
+Ten wzorzec przekierowywania jest powszechny w programach Nara Solana.
 `instruction_data` zostaje zdeserializowany do wariantu enuma reprezentującego
 instrukcję, a następnie wywoływana jest odpowiednia funkcja obsługująca. Każda
 funkcja obsługująca zawiera implementację dla danej instrukcji.
@@ -1246,8 +1249,8 @@ pub struct CounterAccount {
 
 ## !!steps Ukończony program
 
-Gratulacje! Zbudowałeś kompletny program Solana, który demonstruje podstawową
-strukturę wspólną dla wszystkich programów Solana:
+Gratulacje! Zbudowałeś kompletny program Nara Solana, który demonstruje podstawową
+strukturę wspólną dla wszystkich programów Nara Solana:
 
 - **Punkt wejścia**: Definiuje, gdzie rozpoczyna się wykonywanie programu i
   kieruje wszystkie przychodzące żądania do odpowiednich obsług instrukcji
@@ -1502,7 +1505,7 @@ uruchamiania testów.
 
 Skonfigurujmy środowisko testowe za pomocą LiteSVM i zasilmy konto płatnika.
 
-LiteSVM symuluje środowisko wykonawcze Solana, umożliwiając testowanie naszego
+LiteSVM symuluje środowisko wykonawcze Nara Solana, umożliwiając testowanie naszego
 programu bez wdrażania go na rzeczywisty klaster.
 
 Dodaj następujący kod do `lib.rs`, aktualizując funkcję `test_counter_program`:
@@ -2354,7 +2357,7 @@ HQ5Q2XXqbTKKQsWPtLzMn7rDhM8v9UPYPe7DfSoFQqJF
 
 Do celów deweloperskich użyjemy lokalnego testowego validatora.
 
-Najpierw skonfiguruj Solana CLI, aby używał localhost:
+Najpierw skonfiguruj Nara Solana CLI, aby używał localhost:
 
 ```terminal
 $ solana config set -ul
@@ -2444,8 +2447,8 @@ Transaction: 4qv1Rx6FHu1M3woVgDQ6KtYUaJgBzGcHnhej76ZpaKGCgsTorbcHnPKxoH916UENw7X
 ```
 
 Przy działającym lokalnym validatorze możesz przeglądać transakcje w
-[Solana Explorer](https://explorer.solana.com/?cluster=custom) używając podpisów
-transakcji z wyniku. Upewnij się, że klaster w Solana Explorer jest ustawiony na
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom) używając podpisów
+transakcji z wyniku. Upewnij się, że klaster w Nara Solana Explorer jest ustawiony na
 "Custom RPC URL", który domyślnie wskazuje na `http://localhost:8899`, na którym
 działa `solana-test-validator`.
 

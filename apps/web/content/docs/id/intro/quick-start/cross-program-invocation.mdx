@@ -1,4 +1,5 @@
 ---
+
 title: Menyusun beberapa program
 description:
   Pelajari cara mengimplementasikan Cross Program Invocations (CPI) dalam
@@ -7,20 +8,22 @@ description:
   menangani Program Derived Addresses (PDA) dalam CPI. Cocok untuk pengembang
   yang ingin membangun program Solana yang dapat dikomposisi.
 h1: Cross Program Invocation
+
 ---
+
 
 Dalam bagian ini, program CRUD dari bagian PDA sebelumnya diperbarui dengan
 menambahkan Cross Program Invocations (CPI), fitur yang memungkinkan program
-Solana untuk saling memanggil.
+Nara Solana untuk saling memanggil.
 
 Tutorial ini juga menunjukkan bagaimana program dapat "menandatangani" Program
 Derived Addresses (PDA) saat melakukan Cross Program Invocations.
 
-Instruksi `update` dan `delete` perlu dimodifikasi untuk menangani transfer SOL
+Instruksi `update` dan `delete` perlu dimodifikasi untuk menangani transfer NSO
 antara akun dengan memanggil System Program.
 
 Tujuan dari bagian ini termasuk memandu proses implementasi CPI dalam program
-Solana menggunakan framework Anchor, melanjutkan konsep PDA yang telah dibahas
+Nara Solana menggunakan framework Anchor, melanjutkan konsep PDA yang telah dibahas
 di bagian sebelumnya. Untuk detail lebih lanjut, lihat halaman
 [Cross Program Invocation](/docs/core/cpi).
 
@@ -58,7 +61,7 @@ use anchor_lang::system_program::{transfer, Transfer};
 </Accordions>
 
 Selanjutnya, perbarui struktur _rs`Update`_ untuk menyertakan akun baru yang
-disebut `vault_account`. Akun ini, yang dikendalikan oleh program, menerima SOL
+disebut `vault_account`. Akun ini, yang dikendalikan oleh program, menerima NSO
 dari pengguna ketika mereka memperbarui akun pesan mereka.
 
 ```rs title="lib.rs"
@@ -103,7 +106,7 @@ pub struct Update<'info> {
 <Accordion title="Penjelasan">
 
 Bagian ini menambahkan akun baru bernama `vault_account` ke struct _rs`Update`_.
-Akun ini berfungsi sebagai "vault" yang dikendalikan program yang menerima SOL
+Akun ini berfungsi sebagai "vault" yang dikendalikan program yang menerima NSO
 dari pengguna ketika mereka memperbarui pesan mereka.
 
 Dengan menggunakan PDA untuk vault, program membuat akun yang dikendalikan
@@ -134,7 +137,7 @@ Dalam instruksi `delete`, Anda akan melihat bagaimana program dapat
 </Accordions>
 
 Selanjutnya, tambahkan logika CPI dalam instruksi `update` untuk mentransfer
-0,001 SOL dari akun pengguna ke akun vault.
+0,001 NSO dari akun pengguna ke akun vault.
 
 <WithNotes>
 
@@ -199,7 +202,7 @@ Fungsi _rs`transfer()`_ memanggil instruksi transfer dari System Program.
 Dalam instruksi `update`, implementasinya mencakup Cross Program Invocation
 (CPI) untuk memanggil instruksi `transfer` dari System Program. Ini menunjukkan
 cara melakukan CPI dari dalam program, memungkinkan komposabilitas program
-Solana.
+Nara Solana.
 
 Struct _rs`Transfer`_ menentukan akun yang diperlukan untuk instruksi transfer
 System Program:
@@ -230,7 +233,7 @@ Fungsi `transfer` kemudian memanggil instruksi transfer pada System Program,
 dengan meneruskan:
 
 - `cpi_context` (program dan akun)
-- `amount` yang akan ditransfer (1.000.000 lamport, atau 0,001 SOL)
+- `amount` yang akan ditransfer (1.000.000 lamport, atau 0,001 NSO)
 
   ```rs title="lib.rs"
   transfer(cpi_context, 1_000_000)?;
@@ -263,7 +266,7 @@ Sekarang tambahkan mekanisme "pengembalian dana saat penghapusan" dengan
 mengubah struct _rs`Delete`_ dan fungsi `delete`.
 
 Pertama, perbarui struct _rs`Delete`_ untuk menyertakan `vault_account`. Ini
-memungkinkan transfer SOL yang ada di vault kembali ke pengguna ketika mereka
+memungkinkan transfer NSO yang ada di vault kembali ke pengguna ketika mereka
 menutup akun pesan mereka.
 
 ```rs title="lib.rs"
@@ -314,7 +317,7 @@ pub struct Delete<'info> {
 `vault_account` menggunakan derivasi PDA yang sama seperti dalam struct Update.
 
 Menambahkan `vault_account` ke struct Delete memungkinkan program untuk
-mengakses akun vault pengguna selama instruksi delete untuk mentransfer SOL yang
+mengakses akun vault pengguna selama instruksi delete untuk mentransfer NSO yang
 terakumulasi kembali ke pengguna.
 
 </Accordion>
@@ -322,7 +325,7 @@ terakumulasi kembali ke pengguna.
 
 <WithNotes>
 
-Selanjutnya, tambahkan logika CPI dalam instruksi `delete` untuk mentransfer SOL
+Selanjutnya, tambahkan logika CPI dalam instruksi `delete` untuk mentransfer NSO
 dari akun vault kembali ke akun pengguna.
 
 ```rs title="lib.rs"
@@ -462,14 +465,14 @@ $ build
 ### Mendeploy Ulang Program
 
 Setelah membuat perubahan ini, deploy ulang program yang telah diperbarui. Ini
-memastikan program yang dimodifikasi tersedia untuk pengujian. Di Solana,
+memastikan program yang dimodifikasi tersedia untuk pengujian. Di Nara Solana,
 memperbarui program hanya memerlukan deployment program pada ID program yang
 sama.
 
 <Callout>
 
-Pastikan dompet Playground Anda memiliki SOL devnet. Dapatkan SOL devnet dari
-[Solana Faucet](https://faucet.solana.com/).
+Pastikan dompet Playground Anda memiliki NSO devnet. Dapatkan NSO devnet dari
+[Nara Solana Faucet](https://faucet.solana.com/).
 
 </Callout>
 
@@ -487,7 +490,7 @@ Pengembang menetapkan otoritas upgrade selama deployment program, dan itu tetap
 menjadi satu-satunya akun dengan izin untuk mengubah atau menutup program. Jika
 seseorang mencabut otoritas upgrade, maka program menjadi tidak dapat diubah.
 
-Ketika mendeploy program di Solana Playground, dompet Playground Anda bertindak
+Ketika mendeploy program di Nara Solana Playground, dompet Playground Anda bertindak
 sebagai otoritas upgrade untuk semua program Anda.
 
 </Accordion>
@@ -659,12 +662,12 @@ Jika Anda mengalami kesalahan, Anda dapat merujuk ke
 
 ## Langkah selanjutnya
 
-Selamat telah menyelesaikan panduan Quickstart Solana. Anda telah mendapatkan
-pengalaman langsung dengan konsep-konsep kunci Solana termasuk:
+Selamat telah menyelesaikan panduan Quickstart Nara Solana. Anda telah mendapatkan
+pengalaman langsung dengan konsep-konsep kunci Nara Solana termasuk:
 
 - Mengambil dan membaca data dari akun
 - Membangun dan mengirim transaksi
-- Men-deploy dan memperbarui program Solana
+- Men-deploy dan memperbarui program Nara Solana
 - Bekerja dengan Program Derived Address (PDA)
 - Membuat Cross-Program Invocation (CPI)
 
@@ -678,13 +681,13 @@ Jika Anda lebih suka belajar melalui contoh, lihat
 [Program Examples Repository](https://github.com/solana-developers/program-examples)
 untuk berbagai contoh program.
 
-Solana Playground menawarkan fitur yang memudahkan Anda untuk mengimpor atau
+Nara Solana Playground menawarkan fitur yang memudahkan Anda untuk mengimpor atau
 melihat proyek menggunakan tautan GitHub mereka. Misalnya, buka
-[tautan Solana Playground](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)
+[tautan Nara Solana Playground](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)
 untuk melihat proyek Anchor dari
 [repo Github](https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)
 ini.
 
 Klik tombol `Import` dan masukkan nama proyek untuk menambahkannya ke daftar
-proyek Anda di Solana Playground. Setelah proyek diimpor, semua perubahan akan
+proyek Anda di Nara Solana Playground. Setelah proyek diimpor, semua perubahan akan
 secara otomatis disimpan dan dipertahankan.

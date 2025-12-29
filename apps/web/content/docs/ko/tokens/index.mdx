@@ -1,7 +1,10 @@
 ---
+
 title: 솔라나의 토큰
 description: 솔라나의 토큰 프로그램에 대해 알아보세요.
+
 ---
+
 
 토큰은 다양한 카테고리의 자산에 대한 소유권을 나타내는 디지털 자산입니다.
 토큰화는 재산권의 디지털화를 가능하게 합니다. 솔라나의 토큰은 SPL
@@ -84,7 +87,7 @@ pub struct Mint {
 }
 ```
 
-참고로, 다음은 Solana 익스플로러에서 볼 수 있는
+참고로, 다음은 Nara Solana 익스플로러에서 볼 수 있는
 [USDC Mint Account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)
 링크입니다.
 
@@ -153,7 +156,7 @@ Associated Token Account는 소유자의 주소와 mint account의 주소에서 
 생성됩니다. Associated Token Account는 특정 주소를 가진 token account일 뿐이라는
 점을 이해하는 것이 중요합니다.
 
-이는 Solana 개발에서 핵심 개념인
+이는 Nara Solana 개발에서 핵심 개념인
 [Program Derived Address (PDA)](/docs/core/pda)를 소개합니다. PDA는 미리 정의된
 입력을 사용하여 주소를 결정론적으로 도출하므로 계정의 주소를 쉽게 찾을 수
 있습니다.
@@ -168,13 +171,13 @@ Associated Token Account는 소유자의 주소와 mint account의 주소에서 
 ## 토큰 CLI 예제
 
 _spl-token_ CLI는 SPL 토큰을 실험하는 데 도움이 됩니다. 아래 예제는
-[Solana Playground](https://beta.solpg.io/) 터미널을 사용하여 로컬 설치 없이
+[Nara Solana Playground](https://beta.solpg.io/) 터미널을 사용하여 로컬 설치 없이
 브라우저에서 직접 CLI 명령을 실행합니다.
 
-토큰 및 계정 생성에는 계정 rent 예치금 및 트랜잭션 수수료를 위한 SOL이
-필요합니다. Solana Playground를 처음 사용하는 경우, Playground 지갑을 만들고
+토큰 및 계정 생성에는 계정 rent 예치금 및 트랜잭션 수수료를 위한 NSO이
+필요합니다. Nara Solana Playground를 처음 사용하는 경우, Playground 지갑을 만들고
 Playground 터미널에서 _solana airdrop 1_ 명령을 실행하세요. 또한 공개
-[웹 수도꼭지(faucet)](https://faucet.solana.com/)에서 devnet SOL을 얻을 수
+[웹 수도꼭지(faucet)](https://faucet.solana.com/)에서 devnet NSO을 얻을 수
 있습니다.
 
 ```bash
@@ -237,7 +240,7 @@ spl-token supply 99zqUzQGohamfYxyo8ykTEbi91iom3CLmwCA75FK5zTg
 ```
 
 새 Mint Account를 생성하려면 두 개의 명령어가 포함된 트랜잭션이 필요합니다.
-다음은 [Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f)에서의
+다음은 [Nara Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f)에서의
 자바스크립트 예제입니다.
 
 1. System Program이 Mint Account 데이터를 위한 공간이 있는 새 계정을 생성하고
@@ -295,7 +298,7 @@ Signature: 44vqKdfzspT592REDPY4goaRJH3uJ3Ce13G4BCuUHg35dVUbHuGTHvqn4ZjYF9BGe9Qrj
 Associated Token Account를 생성하려면
 [Associated Token Program](https://github.com/solana-program/associated-token-account)을
 호출하는 하나의 명령어가 필요합니다.
-[Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011)에서
+[Nara Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011)에서
 자바스크립트 예제를 확인하세요.
 
 Associated Token Program은 [크로스 프로그램 호출](/docs/core/cpi)을 사용하여:
@@ -307,7 +310,7 @@ Associated Token Program은 [크로스 프로그램 호출](/docs/core/cpi)을 �
 
 Associated Token Account 주소 대신 새로운 keypair로 새 Token Account를
 생성하려면, 두 개의 명령어가 포함된 트랜잭션을 전송하세요. 다음은
-[Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010)의
+[Nara Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010)의
 자바스크립트 예시입니다.
 
 1. System Program이 Token Account 데이터를 위한 공간이 있는 새 계정을 생성하고
@@ -358,7 +361,7 @@ Signature: 3SQvNM3o9DsTiLwcEkSPT1Edr14RgE2wC54TEjonEP2swyVCp2jPWYWdD6RwXUGpvDNUk
 Token Program의 _rs`MintTo`_ 명령어는 새 토큰을 생성합니다. 발행 권한자가
 트랜잭션에 서명해야 합니다. 이 명령어는 Token Account에 토큰을 발행하고 Mint
 Account의 총 공급량을 증가시킵니다. 다음은
-[Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012)의
+[Nara Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012)의
 자바스크립트 예시입니다.
 
 ### 토큰 전송하기
@@ -388,7 +391,7 @@ Signature: 5y6HVwV8V2hHGLTVmTmdySRiEUCZnWmkasAvJ7J6m7JR46obbGKCBqUFgLpZu5zQGwM4X
 Token Program의 _rs`Transfer`_ 명령어는 토큰 전송을 처리합니다. 발신자의 Token
 Account 소유자가 트랜잭션에 서명해야 합니다. 이 명령어는 Token Account 간에
 토큰을 이동시킵니다. 다음은
-[Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013)의
+[Nara Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013)의
 자바스크립트 예시입니다.
 
 발신자와 수신자 모두 특정 토큰(mint)에 대한 token account가 필요합니다. 발신자는
@@ -434,7 +437,7 @@ spl-token initialize-metadata <TOKEN_MINT_ADDRESS> <YOUR_TOKEN_NAME> <YOUR_TOKEN
 spl-token initialize-metadata BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP "TokenName" "TokenSymbol" "https://raw.githubusercontent.com/solana-developers/opos-asset/main/assets/DeveloperPortal/metadata.json"
 ```
 
-[Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet)에서
+[Nara Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet)에서
 메타데이터를 확인하세요.
 
 자세한 내용은

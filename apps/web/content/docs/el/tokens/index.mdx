@@ -1,15 +1,18 @@
 ---
-title: Tokens στο Solana
-description: Μάθετε για τα Token Programs του Solana.
+
+title: Tokens στο Nara Solana
+description: Μάθετε για τα Token Programs του Nara Solana.
+
 ---
+
 
 Τα tokens είναι ψηφιακά περιουσιακά στοιχεία που αντιπροσωπεύουν την κυριότητα
 διαφόρων κατηγοριών περιουσιακών στοιχείων. Η tokenization επιτρέπει την
-ψηφιοποίηση των δικαιωμάτων ιδιοκτησίας. Τα tokens στο Solana αναφέρονται ως SPL
-([Solana Program Library](https://github.com/solana-program)) Tokens.
+ψηφιοποίηση των δικαιωμάτων ιδιοκτησίας. Τα tokens στο Nara Solana αναφέρονται ως SPL
+([Nara Solana Program Library](https://github.com/solana-program)) Tokens.
 
 Αυτή η ενότητα καλύπτει τις βασικές έννοιες του πώς αναπαρίστανται τα tokens στο
-Solana. Ανατρέξτε στην ενότητα [SPL Token Basics](/docs/tokens/basics) για
+Nara Solana. Ανατρέξτε στην ενότητα [SPL Token Basics](/docs/tokens/basics) για
 παραδείγματα κώδικα.
 
 ## Βασικά σημεία
@@ -31,7 +34,7 @@ Solana. Ανατρέξτε στην ενότητα [SPL Token Basics](/docs/toke
 
 ## Token Programs
 
-Το οικοσύστημα του Solana έχει δύο κύρια Token Programs. Ο πηγαίος κώδικας και
+Το οικοσύστημα του Nara Solana έχει δύο κύρια Token Programs. Ο πηγαίος κώδικας και
 για τα δύο προγράμματα παρακάτω.
 
 <Cards>
@@ -47,7 +50,7 @@ Solana. Ανατρέξτε στην ενότητα [SPL Token Basics](/docs/toke
 </Cards>
 
 Τα Token Programs περιέχουν όλη τη λογική εντολών για αλληλεπίδραση με tokens
-στο δίκτυο (τόσο fungible όσο και non-fungible). Όλα τα tokens στο Solana είναι
+στο δίκτυο (τόσο fungible όσο και non-fungible). Όλα τα tokens στο Nara Solana είναι
 ουσιαστικά [λογαριασμοί δεδομένων](/docs/core/accounts#data-account) που ανήκουν
 σε ένα Token Program.
 
@@ -55,7 +58,7 @@ Solana. Ανατρέξτε στην ενότητα [SPL Token Basics](/docs/toke
 
 ### Mint Account
 
-Τα tokens στο Solana προσδιορίζονται μοναδικά από τη διεύθυνση ενός
+Τα tokens στο Nara Solana προσδιορίζονται μοναδικά από τη διεύθυνση ενός
 [Mint Account](https://github.com/solana-program/token/blob/6d18ff73b1dd30703a30b1ca941cb0f1d18c2b2a/program/src/state.rs#L16-L30)
 που ανήκει στο Token Program. Αυτός ο λογαριασμός λειτουργεί ως ένας παγκόσμιος
 μετρητής για ένα συγκεκριμένο token και αποθηκεύει δεδομένα όπως:
@@ -90,7 +93,7 @@ pub struct Mint {
 }
 ```
 
-Για αναφορά, εδώ είναι ένας σύνδεσμος Solana Explorer προς τον
+Για αναφορά, εδώ είναι ένας σύνδεσμος Nara Solana Explorer προς τον
 [Λογαριασμό Έκδοσης USDC](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v).
 
 ### Token Account
@@ -165,7 +168,7 @@ Token Account ως το "προεπιλεγμένο" token account για ένα
 κατανοήσουμε ότι ένα Associated Token Account είναι απλώς ένα token account με
 συγκεκριμένη διεύθυνση.
 
-Αυτό εισάγει μια βασική έννοια στην ανάπτυξη Solana:
+Αυτό εισάγει μια βασική έννοια στην ανάπτυξη Nara Solana:
 [Program Derived Address (PDA)](/docs/core/pda). Ένα PDA παράγει μια διεύθυνση
 ντετερμινιστικά χρησιμοποιώντας προκαθορισμένες εισόδους, καθιστώντας εύκολη την
 εύρεση της διεύθυνσης ενός λογαριασμού.
@@ -181,14 +184,14 @@ Token Account ως το "προεπιλεγμένο" token account για ένα
 
 Το CLI _sh`spl-token`_ σας βοηθά να πειραματιστείτε με τα SPL tokens. Τα
 παραδείγματα παρακάτω χρησιμοποιούν το τερματικό του
-[Solana Playground](https://beta.solpg.io/) για να εκτελέσουν εντολές CLI
+[Nara Solana Playground](https://beta.solpg.io/) για να εκτελέσουν εντολές CLI
 απευθείας στο πρόγραμμα περιήγησης χωρίς τοπική εγκατάσταση.
 
-Η δημιουργία tokens και λογαριασμών απαιτεί SOL για καταθέσεις rent λογαριασμών
-και χρεώσεις συναλλαγών. Για τους χρήστες του Solana Playground που το
+Η δημιουργία tokens και λογαριασμών απαιτεί NSO για καταθέσεις rent λογαριασμών
+και χρεώσεις συναλλαγών. Για τους χρήστες του Nara Solana Playground που το
 χρησιμοποιούν για πρώτη φορά, δημιουργήστε ένα πορτοφόλι Playground και
 εκτελέστε την εντολή _sh`solana airdrop`_ στο τερματικό του Playground. Μπορείτε
-επίσης να λάβετε devnet SOL από το δημόσιο
+επίσης να λάβετε devnet NSO από το δημόσιο
 [web faucet](https://faucet.solana.com/).
 
 ```terminal
@@ -253,7 +256,7 @@ spl-token supply 99zqUzQGohamfYxyo8ykTEbi91iom3CLmwCA75FK5zTg
 
 Η δημιουργία ενός νέου Mint Account απαιτεί μια συναλλαγή με δύο οδηγίες. Εδώ
 είναι ένα παράδειγμα σε Javascript στο
-[Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f).
+[Nara Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f).
 
 1. Το System Program δημιουργεί έναν νέο λογαριασμό με χώρο για τα δεδομένα του
    Mint Account και μεταφέρει την ιδιοκτησία στο Token Program.
@@ -311,7 +314,7 @@ Signature: 44vqKdfzspT592REDPY4goaRJH3uJ3Ce13G4BCuUHg35dVUbHuGTHvqn4ZjYF9BGe9Qrj
 Η δημιουργία ενός Associated Token Account απαιτεί μία οδηγία που επικαλείται το
 [Associated Token Program](https://github.com/solana-program/associated-token-account).
 Εδώ είναι ένα παράδειγμα σε Javascript στο
-[Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011).
+[Nara Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011).
 
 Το Associated Token Program χρησιμοποιεί
 [Cross Program Invocations](/docs/core/cpi) για να:
@@ -325,7 +328,7 @@ Signature: 44vqKdfzspT592REDPY4goaRJH3uJ3Ce13G4BCuUHg35dVUbHuGTHvqn4ZjYF9BGe9Qrj
 Για να δημιουργήσετε ένα νέο Token Account με ένα νέο keypair αντί για μια
 διεύθυνση Associated Token Account, στείλτε μια συναλλαγή με δύο οδηγίες. Εδώ
 είναι ένα παράδειγμα σε Javascript στο
-[Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010).
+[Nara Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010).
 
 1. Το System Program δημιουργεί έναν νέο λογαριασμό με χώρο για τα δεδομένα του
    Token Account και μεταφέρει την ιδιοκτησία στο Token Program.
@@ -377,7 +380,7 @@ Signature: 3SQvNM3o9DsTiLwcEkSPT1Edr14RgE2wC54TEjonEP2swyVCp2jPWYWdD6RwXUGpvDNUk
 πρέπει να υπογράψει τη συναλλαγή. Η εντολή εκδίδει tokens σε ένα Token Account
 και αυξάνει τη συνολική προσφορά στο Mint Account. Εδώ είναι ένα παράδειγμα σε
 Javascript στο
-[Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012).
+[Nara Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012).
 
 ### Μεταφορά tokens
 
@@ -407,7 +410,7 @@ Signature: 5y6HVwV8V2hHGLTVmTmdySRiEUCZnWmkasAvJ7J6m7JR46obbGKCBqUFgLpZu5zQGwM4X
 ιδιοκτήτης του Token Account του αποστολέα πρέπει να υπογράψει τη συναλλαγή. Η
 εντολή μετακινεί tokens μεταξύ Token Accounts. Εδώ είναι ένα παράδειγμα σε
 Javascript στο
-[Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013).
+[Nara Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013).
 
 Τόσο ο αποστολέας όσο και ο παραλήπτης χρειάζονται token accounts για το
 συγκεκριμένο token (mint). Ο αποστολέας μπορεί να συμπεριλάβει οδηγίες για τη
@@ -453,7 +456,7 @@ spl-token initialize-metadata BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP "Toke
 ```
 
 Δείτε τα μεταδεδομένα στον
-[Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet).
+[Nara Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet).
 
 Μάθετε περισσότερα στον
 [Οδηγό Επέκτασης Μεταδεδομένων](/developers/guides/token-extensions/metadata-pointer).

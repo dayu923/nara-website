@@ -1,16 +1,19 @@
 ---
-title: Metode RPC Solana
-seoTitle: "Metode RPC Solana: HTTP & Websockets"
+
+title: Metode RPC Nara Solana
+seoTitle: "Metode RPC Nara Solana: HTTP & Websockets"
 hideTableOfContents: false
-h1: Metode & Dokumentasi RPC Solana
+h1: Metode & Dokumentasi RPC Nara Solana
+
 ---
 
-Berinteraksi langsung dengan node Solana menggunakan API JSON RPC melalui metode
+
+Berinteraksi langsung dengan node Nara Solana menggunakan API JSON RPC melalui metode
 HTTP dan Websocket.
 
 ## Mengonfigurasi State Commitment
 
-Untuk pemeriksaan preflight dan pemrosesan transaksi, node Solana memilih status
+Untuk pemeriksaan preflight dan pemrosesan transaksi, node Nara Solana memilih status
 bank mana yang akan diquery berdasarkan persyaratan commitment yang ditetapkan
 oleh klien. Commitment menjelaskan seberapa final suatu blok pada titik waktu
 tertentu. Saat mengquery status ledger, disarankan untuk menggunakan level
@@ -60,7 +63,7 @@ RpcResponse yang terdiri dari dua bagian:
 Beberapa metode mendukung parameter `encoding`, dan dapat mengembalikan data
 akun atau instruksi dalam format JSON yang diuraikan jika
 `"encoding":"jsonParsed"` diminta dan node memiliki parser untuk program yang
-memilikinya. Node Solana saat ini mendukung penguraian JSON untuk program native
+memilikinya. Node Nara Solana saat ini mendukung penguraian JSON untuk program native
 dan SPL berikut:
 
 | Program                      | Status Akun | Instruksi |

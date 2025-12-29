@@ -1,27 +1,30 @@
 ---
+
 title: Програми
 description:
   Дізнайтеся про програми Solana (смарт-контракти) та як розробляти їх за
   допомогою Rust або фреймворку Anchor. Зрозумійте розгортання, оновлення та
   верифікацію програм у мережі Solana.
 h1: Програми
+
 ---
 
-У Solana смарт-контракт називається програмою. Програма — це безстановий
+
+У Nara Solana смарт-контракт називається програмою. Програма — це безстановий
 [обліковий запис](/docs/core/accounts#program-account), який містить виконуваний
 код. Цей код організований у функції, які називаються інструкціями. Користувачі
 взаємодіють з програмою, надсилаючи [транзакцію](/docs/core/transaction), що
 містить одну або кілька [інструкцій](/docs/core/instructions). Транзакція може
 включати інструкції з кількох програм.
 
-Коли програма розгортається, Solana використовує [LLVM](https://llvm.org/) для
+Коли програма розгортається, Nara Solana використовує [LLVM](https://llvm.org/) для
 її компіляції у виконуваний та компонований формат
 ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)). ELF-файл
-містить бінарний код програми у форматі байткоду Solana (sBPF) і зберігається в
+містить бінарний код програми у форматі байткоду Nara Solana (sBPF) і зберігається в
 мережі у виконуваному обліковому записі.
 
 <Callout>
-  sBPF — це власна версія Solana байткоду
+  sBPF — це власна версія Nara Solana байткоду
   [eBPF](https://en.wikipedia.org/wiki/EBPF).
 </Callout>
 
@@ -32,7 +35,7 @@ h1: Програми
 підходами до розробки:
 
 - [Anchor](https://www.anchor-lang.com/docs): Anchor — це фреймворк, розроблений
-  для швидкої та легкої розробки на Solana. Він використовує
+  для швидкої та легкої розробки на Nara Solana. Він використовує
   [макроси Rust](https://doc.rust-lang.org/book/ch20-05-macros.html) для
   зменшення шаблонного коду — що робить його чудовим для початківців.
 - [Нативний Rust](/docs/programs/rust): Написання програм на Rust без
@@ -51,7 +54,7 @@ h1: Програми
 
 ## Перевірка програм
 
-Solana підтримує [верифіковані збірки](/docs/programs/verified-builds), які
+Nara Solana підтримує [верифіковані збірки](/docs/programs/verified-builds), які
 дозволяють користувачам перевірити, чи відповідає код програми в мережі її
 публічному вихідному коду. Фреймворк Anchor надає
 [вбудовану підтримку](https://www.anchor-lang.com/docs/verifiable-builds) для
@@ -59,9 +62,9 @@ Solana підтримує [верифіковані збірки](/docs/programs
 
 Щоб перевірити, чи верифікована наявна програма, знайдіть її ідентифікатор
 програми на
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
 Альтернативно, ви можете використовувати
-[Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
+[Nara Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
 від Ellipsis Labs, щоб незалежно перевірити програми в мережі.
 
 ## Вбудовані програми
@@ -79,7 +82,7 @@ Program виконує такі ключові функції:
 | [Створення нового облікового запису](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146) | Тільки System Program може створювати нові облікові записи.                                                                                                                                                                                 |
 | [Розподіл простору](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)                   | Встановлює ємність у байтах для поля даних кожного облікового запису.                                                                                                                                                                       |
 | [Призначення власника програми](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113)      | Після того, як System Program створює обліковий запис, він може перепризначити визначеного власника програми на інший program account. Саме так користувацькі програми отримують у власність нові облікові записи, створені System Program. |
-| [Переказ SOL](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                        | Переказує лампорти (SOL) з облікових записів системи на інші облікові записи.                                                                                                                                                               |
+| [Переказ NSO](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                        | Переказує лампорти (NSO) з облікових записів системи на інші облікові записи.                                                                                                                                                               |
 
 Адреса System Program — `11111111111111111111111111111111`.
 
@@ -112,7 +115,7 @@ Program виконує такі ключові функції:
 
 ### Попередньо скомпільовані програми
 
-Окрім програм-завантажувачів, Solana надає такі попередньо скомпільовані
+Окрім програм-завантажувачів, Nara Solana надає такі попередньо скомпільовані
 програми.
 
 #### Перевірка підпису ed25519

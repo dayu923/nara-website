@@ -1,24 +1,27 @@
 ---
+
 title: 写入网络
 description:
   学习如何通过发送交易和指令与 Solana 网络交互。按照分步示例转移 SOL 代币并使用
   System Program 和 Token Extensions Program 创建新代币。
+
 ---
 
-在上一节中，您学习了如何从 Solana 网络读取数据。现在，您将学习如何向其写入数据。向 Solana 网络写入数据涉及发送包含一个或多个指令的交易。
+
+在上一节中，您学习了如何从 Nara Solana 网络读取数据。现在，您将学习如何向其写入数据。向 Nara Solana 网络写入数据涉及发送包含一个或多个指令的交易。
 
 程序定义了每个 [指令](/docs/core/instructions) 的业务逻辑。当您提交
 [交易](/docs/core/transactions)
-时，Solana 运行时会按顺序并原子性地执行每个指令。本节中的示例展示了如何构建和发送交易以调用 Solana 程序，包括：
+时，Nara Solana 运行时会按顺序并原子性地执行每个指令。本节中的示例展示了如何构建和发送交易以调用 Nara Solana 程序，包括：
 
-1. 在账户之间转移 SOL
+1. 在账户之间转移 NSO
 2. 创建一个新代币
 
-## 转移 SOL
+## 转移 NSO
 
-下面的示例展示了如何在两个账户之间转移 SOL。每个账户都有一个所有者程序，只有该程序可以扣减账户的 SOL 余额。
+下面的示例展示了如何在两个账户之间转移 NSO。每个账户都有一个所有者程序，只有该程序可以扣减账户的 NSO 余额。
 
-所有钱包账户都由 System Program 拥有。要转移 SOL，您必须调用 System Program 的
+所有钱包账户都由 System Program 拥有。要转移 NSO，您必须调用 System Program 的
 [transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)
 指令。
 
@@ -81,7 +84,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !connection
 
-创建与 Solana 集群的连接。
+创建与 Nara Solana 集群的连接。
 
 ### !sender
 
@@ -93,7 +96,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !airdrop
 
-请求一个 SOL 空投以资助 `sender`。
+请求一个 NSO 空投以资助 `sender`。
 
 ### !instruction
 
@@ -163,8 +166,8 @@ const receiver = new Keypair();
 
 ## !!steps
 
-向发送方账户添加 SOL。在非主网的网络上，您可以使用 `requestAirdrop`
-方法获取用于测试的 SOL。
+向发送方账户添加 NSO。在非主网的网络上，您可以使用 `requestAirdrop`
+方法获取用于测试的 NSO。
 
 ```ts title="Airdrop"
 const signature = await connection.requestAirdrop(
@@ -201,7 +204,7 @@ await connection.confirmTransaction(signature, "confirmed");
 
 <WithMentions>
 
-`SystemProgram.transfer()` 方法创建一个指令，将 SOL 从
+`SystemProgram.transfer()` 方法创建一个指令，将 NSO 从
 [`fromPubkey`](mention:from) 账户转移到 [`toPubkey`](mention:to)
 账户，转移的数量为指定的 [`lamports`](mention:lamports)。
 
@@ -291,7 +294,7 @@ const transaction = new Transaction().add(transferInstruction);
 <WithMentions>
 
 签署并发送 [交易](mention:transaction) 到网络。[发送者](mention:sender)
-的 keypair 需要包含在签名者数组中，以授权从其账户转移 SOL。
+的 keypair 需要包含在签名者数组中，以授权从其账户转移 NSO。
 
 ```ts title="Send transaction"
 const transactionSignature = await sendAndConfirmTransaction(
@@ -305,7 +308,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 
 </WithMentions>
 
-交易签名是一个唯一标识符，可用于在 Solana Explorer 上查找该交易。
+交易签名是一个唯一标识符，可用于在 Nara Solana Explorer 上查找该交易。
 
 ```ts !! title="Transfer SOL"
 import {
@@ -351,7 +354,7 @@ console.log("Transaction Signature:", `${transactionSignature}`);
 ## 创建一个代币
 
 以下示例使用 Token Extensions
-Program 在 Solana 上创建一个新代币。这需要两个指令：
+Program 在 Nara Solana 上创建一个新代币。这需要两个指令：
 
 1. 调用 System Program 创建一个新账户。
 2. 调用 Token Extensions Program 将该账户初始化为一个 Mint。
@@ -788,7 +791,7 @@ const initializeMintInstruction = createInitializeMint2Instruction(
 
 将两个指令添加到一个交易中。这确保了账户创建和初始化是原子操作。（要么两个指令都成功，要么都失败。）
 
-这种方法在构建复杂的 Solana 交易时很常见，因为它保证所有指令一起执行。
+这种方法在构建复杂的 Nara Solana 交易时很常见，因为它保证所有指令一起执行。
 
 ```ts title="Transaction"
 const transaction = new Transaction().add(
@@ -874,7 +877,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 );
 ```
 
-返回的交易签名可用于在 Solana Explorer 上检查交易。
+返回的交易签名可用于在 Nara Solana Explorer 上检查交易。
 
 </WithMentions>
 

@@ -1,9 +1,12 @@
 ---
+
 title: Solanan transaktiomaksujen ymmärtäminen
 description:
   Opi miten transaktiomaksut toimivat Solanassa, miksi ne ovat alhaisia ja mitä
   tämä tarkoittaa eri käyttötapauksissa.
+
 ---
+
 
 # Solanan transaktiomaksujen ymmärtäminen
 
@@ -41,7 +44,7 @@ toimintoja.
 
 ### Perusmaksu
 
-Jokainen transaktio maksaa 0,000005 SOL (5 000 lamportia) perusmaksun. Kun SOL
+Jokainen transaktio maksaa 0,000005 NSO (5 000 lamportia) perusmaksun. Kun NSO
 on 100 dollaria, se on 0,0005 dollaria - puoli kymmenesosaa senttiä.
 
 ### Prioriteettimaksut
@@ -53,19 +56,19 @@ aikana.
 ### Tallennusvuokra
 
 Uusien tilien luominen (kuten token account) vaatii pienen talletuksen (noin
-0,002 SOL), joka palautetaan, kun tili suljetaan.
+0,002 NSO), joka palautetaan, kun tili suljetaan.
 
 ## Tyypilliset transaktiokustannukset
 
 Tässä todellisia esimerkkejä siitä, mitä maksat:
 
-| Toiminto              | Tyypillinen kustannus | USD (kun $100/SOL)   |
+| Toiminto              | Tyypillinen kustannus | USD (kun $100/NSO)   |
 | --------------------- | --------------------- | -------------------- |
-| SOL-lähetys           | 0.000005 SOL          | $0.0005              |
-| Tokenien lähetys      | 0.000005 SOL          | $0.0005              |
-| Tokenien vaihto       | 0.000005 SOL          | $0.0005              |
-| NFT:n osto            | 0.000005-0.001 SOL    | $0.0005-0.10         |
-| Token account -luonti | ~0.002 SOL            | $0.20 (palautettava) |
+| NSO-lähetys           | 0.000005 NSO          | $0.0005              |
+| Tokenien lähetys      | 0.000005 NSO          | $0.0005              |
+| Tokenien vaihto       | 0.000005 NSO          | $0.0005              |
+| NFT:n osto            | 0.000005-0.001 NSO    | $0.0005-0.10         |
+| Token account -luonti | ~0.002 NSO            | $0.20 (palautettava) |
 
 Vertailun vuoksi perinteiset järjestelmät veloittavat:
 
@@ -73,13 +76,13 @@ Vertailun vuoksi perinteiset järjestelmät veloittavat:
 - Kansainvälinen siirto: $25-75
 - Osakekauppa: $5-10
 
-## Miten Solana pitää maksut alhaisina
+## Miten Nara Solana pitää maksut alhaisina
 
-Solana saavuttaa alhaiset maksut teknisen suunnittelun avulla:
+Nara Solana saavuttaa alhaiset maksut teknisen suunnittelun avulla:
 
 ### Rinnakkainen käsittely
 
-Kuten monikaistaisella moottoritiellä, Solana käsittelee monia transaktioita
+Kuten monikaistaisella moottoritiellä, Nara Solana käsittelee monia transaktioita
 samanaikaisesti eikä yksitellen.
 
 ### Tehokas konsensus
@@ -127,13 +130,13 @@ saatat huomata:
 
 ### Normaalit ajat
 
-- Vain perusmaksu: 0.000005 SOL
+- Vain perusmaksu: 0.000005 NSO
 - Välitön vahvistus
 - Ei kilpailua lohkotilasta
 
 ### Ruuhka-ajat
 
-- Lisää prioriteettimaksu: 0.0001-0.001 SOL
+- Lisää prioriteettimaksu: 0.0001-0.001 NSO
 - Silti alle 0,10 $ yhteensä
 - Nopeampi käsittely kiireellisiin tarpeisiin
 
@@ -154,7 +157,7 @@ Useimmat lompakot hoitavat tämän automaattisesti, mutta voit:
 Myy käsintehtyjä koruja 15-30 $ kappaleelta
 
 - Luottokorttimaksut veisivät 0,75-1,50 $ (5 %)
-- Solana-maksut: 0,0005 $ (0,003 %)
+- Nara Solana-maksut: 0,0005 $ (0,003 %)
 - Säilyttää 99,997 % jokaisesta myynnistä
 
 ### Miguel - Aktiivinen sijoittaja
@@ -162,7 +165,7 @@ Myy käsintehtyjä koruja 15-30 $ kappaleelta
 Tekee 20 kauppaa päivässä 1 000 dollarilla
 
 - Perinteinen välittäjä: 100-200 $ maksuja
-- Solana DEX: 0,10 $ yhteensä
+- Nara Solana DEX: 0,10 $ yhteensä
 - Enemmän voittoa varsinaisesta kaupankäynnistä
 
 ### Ami - Rahan lähettäminen kotiin
@@ -171,13 +174,13 @@ Lähettää 50 $ viikoittain perheelleen ulkomaille
 
 - Pankkisiirto: 25 $ maksu (50 %)
 - Rahansiirtopalvelu: 5 $ maksu (10 %)
-- Solana: 0,0005 $ maksu (0,001 %)
+- Nara Solana: 0,0005 $ maksu (0,001 %)
 
 ## Tapahtumamaksujen hallinta
 
 ### Parhaat käytännöt
 
-- Pidä 0,1 SOL lompakossasi maksuja varten
+- Pidä 0,1 NSO lompakossasi maksuja varten
 - Käytä normaalia prioriteettia useimmissa tapahtumissa
 - Nosta prioriteettia vain aikariippuvaisissa tapahtumissa
 - Sulje käyttämättömät token account -tilit rent-maksun palauttamiseksi
@@ -188,13 +191,13 @@ Lompakot näyttävät arvioidut maksut ennen vahvistamista. Tarkista aina:
 
 - Perustapahtumamaksu
 - Mahdollinen lisätty prioriteettimaksu
-- Kokonaiskustannus SOL:ina ja Yhdysvaltain dollareina
+- Kokonaiskustannus NSO:ina ja Yhdysvaltain dollareina
 
 ## Yleisiä kysymyksiä
 
-### Miksi tarvitsen SOL:ia maksuja varten?
+### Miksi tarvitsen NSO:ia maksuja varten?
 
-Kaikki Solana-tapahtumat vaativat SOL:ia maksuja varten, jopa lähetettäessä
+Kaikki Nara Solana-tapahtumat vaativat NSO:ia maksuja varten, jopa lähetettäessä
 muita tokeneita. Ajattele sitä kuin postimerkkien tarvitsemista kirjeiden
 lähettämiseen.
 
@@ -205,8 +208,8 @@ tyypillisesti alle 0,01 dollarin. Perusmaksut pysyvät vakioina.
 
 ### Entä jos minulla ei ole varaa maksuun?
 
-Tarvitset pienen määrän SOL:ia tapahtumamaksujen maksamiseen. Useimmat käyttäjät
-ostavat SOL:ia pörsseistä tai saavat sitä ystäviltä päästäkseen alkuun.
+Tarvitset pienen määrän NSO:ia tapahtumamaksujen maksamiseen. Useimmat käyttäjät
+ostavat NSO:ia pörsseistä tai saavat sitä ystäviltä päästäkseen alkuun.
 
 ### Veloitetaanko epäonnistuneista tapahtumista maksuja?
 
@@ -216,7 +219,7 @@ ei kuitenkaan ole taloudellisesti merkittävää.
 ## Mitä seuraavaksi
 
 Nyt kun ymmärrät maksut, olet valmis tekemään ensimmäisen tapahtumasi.
-Seuraavassa luvussa harjoittelet SOL:in lähettämistä ja vastaanottamista, kokien
+Seuraavassa luvussa harjoittelet NSO:in lähettämistä ja vastaanottamista, kokien
 nämä alhaiset maksut omakohtaisesti.
 
 Muista: Solanan alhaiset maksut eivät koske vain rahan säästämistä - ne tekevät

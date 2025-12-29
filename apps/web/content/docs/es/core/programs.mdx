@@ -1,13 +1,16 @@
 ---
+
 title: Programas
 description:
   Aprende sobre los programas de Solana (contratos inteligentes) y cómo
   desarrollarlos usando Rust o el framework Anchor. Comprende el despliegue, las
   actualizaciones y la verificación de programas en la red Solana.
 h1: Programas
+
 ---
 
-En Solana, un contrato inteligente se llama programa. Un programa es una
+
+En Nara Solana, un contrato inteligente se llama programa. Un programa es una
 [cuenta](/docs/core/accounts#program-account) sin estado que contiene código
 ejecutable. Este código está organizado en funciones llamadas instrucciones. Los
 usuarios interactúan con un programa enviando una
@@ -15,14 +18,14 @@ usuarios interactúan con un programa enviando una
 [instrucciones](/docs/core/instructions). Una transacción puede incluir
 instrucciones de múltiples programas.
 
-Cuando se despliega un programa, Solana utiliza [LLVM](https://llvm.org/) para
+Cuando se despliega un programa, Nara Solana utiliza [LLVM](https://llvm.org/) para
 compilarlo en formato ejecutable y enlazable
 ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)). El
-archivo ELF contiene el binario del programa en Formato de Bytecode de Solana
+archivo ELF contiene el binario del programa en Formato de Bytecode de Nara Solana
 (sBPF) y se guarda en la cadena en una cuenta ejecutable.
 
 <Callout>
-  sBPF es la versión personalizada de Solana del bytecode
+  sBPF es la versión personalizada de Nara Solana del bytecode
   [eBPF](https://en.wikipedia.org/wiki/EBPF).
 </Callout>
 
@@ -33,7 +36,7 @@ La mayoría de los programas están escritos en
 de desarrollo:
 
 - [Anchor](https://www.anchor-lang.com/docs): Anchor es un framework diseñado
-  para el desarrollo rápido y fácil en Solana. Utiliza
+  para el desarrollo rápido y fácil en Nara Solana. Utiliza
   [macros de Rust](https://doc.rust-lang.org/book/ch20-05-macros.html) para
   reducir el código repetitivo, lo que lo hace ideal para principiantes.
 - [Rust nativo](/docs/programs/rust): Escribir programas en Rust sin utilizar
@@ -53,7 +56,7 @@ actualizado.
 
 ## Verificar programas
 
-Solana admite [compilaciones verificables](/docs/programs/verified-builds), que
+Nara Solana admite [compilaciones verificables](/docs/programs/verified-builds), que
 permiten a los usuarios comprobar si el código en cadena de un programa coincide
 con su código fuente público. El framework Anchor proporciona
 [soporte integrado](https://www.anchor-lang.com/docs/verifiable-builds) para
@@ -61,9 +64,9 @@ crear una compilación verificable.
 
 Para comprobar si un programa existente está verificado, busca su ID de programa
 en el
-[Explorador de Solana](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
+[Explorador de Nara Solana](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
 Alternativamente, puedes usar la
-[CLI de Compilación Verificable de Solana](https://github.com/Ellipsis-Labs/solana-verifiable-build)
+[CLI de Compilación Verificable de Nara Solana](https://github.com/Ellipsis-Labs/solana-verifiable-build)
 de Ellipsis Labs, para verificar de forma independiente los programas en cadena.
 
 ## Programas integrados
@@ -81,7 +84,7 @@ System Program realiza las siguientes funciones clave:
 | [Creación de nuevas cuentas](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)          | Solo el System Program puede crear nuevas cuentas.                                                                                                                                                                                                    |
 | [Asignación de espacio](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)                | Establece la capacidad en bytes para el campo de datos de cada cuenta.                                                                                                                                                                                |
 | [Asignación de propiedad de programa](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | Una vez que el System Program crea una cuenta, puede reasignar el propietario del programa designado a una cuenta de programa diferente. Así es como los programas personalizados toman posesión de las nuevas cuentas creadas por el System Program. |
-| [Transferencia de SOL](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                | Transfiere lamports (SOL) desde cuentas del Sistema a otras cuentas.                                                                                                                                                                                  |
+| [Transferencia de NSO](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                | Transfiere lamports (NSO) desde cuentas del Sistema a otras cuentas.                                                                                                                                                                                  |
 
 La dirección del System Program es `11111111111111111111111111111111`.
 
@@ -114,7 +117,7 @@ después de su despliegue, según lo determine su autoridad de actualización.
 
 ### Programas precompilados
 
-Además de los programas cargadores, Solana proporciona los siguientes programas
+Además de los programas cargadores, Nara Solana proporciona los siguientes programas
 precompilados.
 
 #### Verificar firma ed25519

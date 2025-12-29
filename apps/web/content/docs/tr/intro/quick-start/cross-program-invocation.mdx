@@ -1,4 +1,5 @@
 ---
+
 title: Birden fazla programı birleştirme
 description:
   Anchor framework kullanarak Solana programlarında Çapraz Program Çağrılarını
@@ -7,9 +8,11 @@ description:
   Türetilmiş Adresleri (PDA) yönetmeyi göstermektedir. Birleştirilebilir Solana
   programları oluşturmak isteyen geliştiriciler için mükemmeldir.
 h1: Çapraz program çağrısı
+
 ---
 
-Bu bölümde, önceki PDA bölümündeki CRUD programı, Solana programlarının
+
+Bu bölümde, önceki PDA bölümündeki CRUD programı, Nara Solana programlarının
 birbirini çağırmasını sağlayan bir özellik olan Çapraz Program Çağrıları
 (CPI'lar) eklenerek güncelleniyor.
 
@@ -18,9 +21,9 @@ Türetilmiş Adresler (PDA'lar) için nasıl "imzalayabileceklerini" de
 göstermektedir.
 
 `update` ve `delete` talimatları, System Program'ı çağırarak hesaplar arasında
-SOL transferlerini işlemek için değişiklik gerektiriyor.
+NSO transferlerini işlemek için değişiklik gerektiriyor.
 
-Bu bölümün amacı, Anchor framework kullanarak bir Solana programında CPI'ları
+Bu bölümün amacı, Anchor framework kullanarak bir Nara Solana programında CPI'ları
 uygulama sürecini, önceki bölümde incelenen PDA kavramları üzerine inşa ederek
 anlatmaktır. Daha fazla ayrıntı için [Çapraz Program Çağrısı](/docs/core/cpi)
 sayfasına bakın.
@@ -59,7 +62,7 @@ use anchor_lang::system_program::{transfer, Transfer};
 
 Sonra, _rs`Update`_ yapısını `vault_account` adlı yeni bir hesap ekleyecek
 şekilde güncelleyin. Bu hesap, program tarafından kontrol edilir ve kullanıcılar
-mesaj hesaplarını güncellediklerinde onlardan SOL alır.
+mesaj hesaplarını güncellediklerinde onlardan NSO alır.
 
 ```rs title="lib.rs"
 #[account(
@@ -103,7 +106,7 @@ pub struct Update<'info> {
 <Accordion title="Açıklama">
 
 Bu bölüm, _rs`Update`_ yapısına `vault_account` adlı yeni bir hesap ekler. Bu
-hesap, kullanıcılar mesajlarını güncellediklerinde SOL alan program kontrollü
+hesap, kullanıcılar mesajlarını güncellediklerinde NSO alan program kontrollü
 bir "kasa" görevi görür.
 
 Kasa için bir PDA kullanarak, program her kullanıcıya özgü program kontrollü bir
@@ -131,7 +134,7 @@ Bu kurulum, programın şunları yapmasına olanak tanır:
 </Accordion>
 </Accordions>
 
-Şimdi, kullanıcının hesabından kasa hesabına 0.001 SOL aktarmak için `update`
+Şimdi, kullanıcının hesabından kasa hesabına 0.001 NSO aktarmak için `update`
 talimatına CPI mantığını ekleyin.
 
 <WithNotes>
@@ -196,7 +199,7 @@ _rs`transfer()`_ fonksiyonu, System Program'ın transfer talimatını çağırı
 
 `update` talimatında, uygulama, System Program'ın `transfer` talimatını çağırmak
 için bir Cross Program Invocation (CPI) içerir. Bu, program içinden bir CPI'nin
-nasıl gerçekleştirileceğini gösterir ve Solana programlarının
+nasıl gerçekleştirileceğini gösterir ve Nara Solana programlarının
 birleştirilebilirliğini sağlar.
 
 _rs`Transfer`_ yapısı, System Program'ın transfer talimatı için gereken
@@ -228,7 +231,7 @@ _rs`CpiContext`_ şunları belirtir:
 çağırır ve şunları iletir:
 
 - `cpi_context` (program ve hesaplar)
-- Transfer edilecek `amount` (1.000.000 lamport veya 0,001 SOL)
+- Transfer edilecek `amount` (1.000.000 lamport veya 0,001 NSO)
 
   ```rs title="lib.rs"
   transfer(cpi_context, 1_000_000)?;
@@ -261,7 +264,7 @@ $ build
 sırasında geri ödeme" mekanizması ekleyin.
 
 Öncelikle, _rs`Delete`_ yapısını `vault_account` içerecek şekilde güncelleyin.
-Bu, kullanıcılar mesaj hesaplarını kapattıklarında kasadaki herhangi bir SOL'un
+Bu, kullanıcılar mesaj hesaplarını kapattıklarında kasadaki herhangi bir NSO'un
 kullanıcıya geri aktarılmasına olanak tanır.
 
 ```rs title="lib.rs"
@@ -312,7 +315,7 @@ pub struct Delete<'info> {
 `vault_account`, Update yapısında olduğu gibi aynı PDA türetimini kullanır.
 
 `vault_account` öğesini Delete yapısına eklemek, programın silme talimatı
-sırasında kullanıcının kasa hesabına erişmesini ve birikmiş SOL'u kullanıcıya
+sırasında kullanıcının kasa hesabına erişmesini ve birikmiş NSO'u kullanıcıya
 geri aktarmasını sağlar.
 
 </Accordion>
@@ -320,7 +323,7 @@ geri aktarmasını sağlar.
 
 <WithNotes>
 
-Şimdi, SOL'u kasa hesabından kullanıcının hesabına geri aktarmak için `delete`
+Şimdi, NSO'u kasa hesabından kullanıcının hesabına geri aktarmak için `delete`
 talimatına CPI mantığını ekleyin.
 
 ```rs title="lib.rs"
@@ -459,13 +462,13 @@ $ build
 ### Programı yeniden dağıtın
 
 Bu değişiklikleri yaptıktan sonra, güncellenmiş programı yeniden dağıtın. Bu,
-değiştirilmiş programın test için kullanılabilir olmasını sağlar. Solana'da bir
+değiştirilmiş programın test için kullanılabilir olmasını sağlar. Nara Solana'da bir
 programı güncellemek, programı aynı program kimliğinde dağıtmayı gerektirir.
 
 <Callout>
 
-Playground cüzdanınızın devnet SOL'a sahip olduğundan emin olun.
-[Solana Faucet](https://faucet.solana.com/) adresinden devnet SOL alabilirsiniz.
+Playground cüzdanınızın devnet NSO'a sahip olduğundan emin olun.
+[Nara Solana Faucet](https://faucet.solana.com/) adresinden devnet NSO alabilirsiniz.
 
 </Callout>
 
@@ -483,7 +486,7 @@ program dağıtımı sırasında yükseltme yetkisini belirler ve bu, programı
 değiştirme veya kapatma iznine sahip tek hesap olarak kalır. Eğer birisi
 yükseltme yetkisini iptal ederse, program değiştirilemez hale gelir.
 
-Solana Playground'da program dağıtırken, Playground cüzdanınız tüm
+Nara Solana Playground'da program dağıtırken, Playground cüzdanınız tüm
 programlarınız için yükseltme yetkisi görevi görür.
 
 </Accordion>
@@ -655,12 +658,12 @@ Herhangi bir hatayla karşılaşırsanız,
 
 ## Sonraki adımlar
 
-Solana Hızlı Başlangıç kılavuzunu tamamladığınız için tebrikler. Aşağıdakiler
-dahil olmak üzere temel Solana kavramlarıyla pratik deneyim kazandınız:
+Nara Solana Hızlı Başlangıç kılavuzunu tamamladığınız için tebrikler. Aşağıdakiler
+dahil olmak üzere temel Nara Solana kavramlarıyla pratik deneyim kazandınız:
 
 - Hesaplardan veri alma ve okuma
 - İşlem oluşturma ve gönderme
-- Solana programlarını dağıtma ve güncelleme
+- Nara Solana programlarını dağıtma ve güncelleme
 - Program Derived Address (PDA) ile çalışma
 - Cross-Program Invocation (CPI) yapma
 
@@ -674,13 +677,13 @@ belgelerine göz atın.
 [Program Örnekleri Deposu](https://github.com/solana-developers/program-examples)'nu
 inceleyin.
 
-Solana Playground, GitHub bağlantılarını kullanarak projeleri içe aktarmanıza
+Nara Solana Playground, GitHub bağlantılarını kullanarak projeleri içe aktarmanıza
 veya görüntülemenize olanak tanıyan kullanışlı bir özellik sunar. Örneğin, bu
 [GitHub repo](https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)'dan
 Anchor projesini görüntülemek için bu
-[Solana Playground bağlantısı](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)'nı
+[Nara Solana Playground bağlantısı](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)'nı
 açın.
 
-`Import` düğmesine tıklayın ve Solana Playground'daki proje listenize eklemek
+`Import` düğmesine tıklayın ve Nara Solana Playground'daki proje listenize eklemek
 için bir proje adı girin. Bir proje içe aktarıldıktan sonra, tüm değişiklikler
 otomatik olarak kaydedilir ve korunur.

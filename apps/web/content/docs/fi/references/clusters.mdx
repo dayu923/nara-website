@@ -1,13 +1,16 @@
 ---
+
 title: RPC-päätepisteet
 description:
   Opi Solanan verkkoklustereista (Devnet, Testnet ja Mainnet Beta), niiden
   julkisista RPC-päätepisteistä, käyttörajoituksista ja käyttötapauksista. Opi
   yhdistämään eri Solana-verkkoihin kehitystä, testausta ja tuotantoa varten.
 h1: Klusterit ja julkiset RPC-päätepisteet
+
 ---
 
-Solana-lohkoketjulla on useita eri validaattoriryhmiä, joita kutsutaan
+
+Nara Solana-lohkoketjulla on useita eri validaattoriryhmiä, joita kutsutaan
 klustereiksi. Jokainen palvelee eri tarkoituksia koko ekosysteemissä ja sisältää
 omistettuja API-solmuja [JSON-RPC](/docs/rpc/) -pyyntöjen täyttämiseksi niiden
 vastaaville klustereille.
@@ -17,9 +20,9 @@ ylläpitämiä, ja jokaiselle on saatavilla julkinen päätepiste.
 
 ## Solanan julkiset RPC-päätepisteet
 
-Solana Labs -organisaatio ylläpitää julkista RPC-päätepistettä jokaiselle
+Nara Solana Labs -organisaatio ylläpitää julkista RPC-päätepistettä jokaiselle
 klusterille. Kaikki nämä julkiset päätepisteet ovat käyttörajoitusten alaisia,
-mutta ne ovat käyttäjien ja kehittäjien saatavilla Solana-lohkoketjun kanssa
+mutta ne ovat käyttäjien ja kehittäjien saatavilla Nara Solana-lohkoketjun kanssa
 vuorovaikutusta varten.
 
 > Julkisten päätepisteiden käyttörajoitukset voivat muuttua. Tässä dokumentissa
@@ -27,11 +30,11 @@ vuorovaikutusta varten.
 
 ### Explorerin käyttö eri klustereiden kanssa
 
-Monet suosituista Solana-lohkoketjun explorereista tukevat minkä tahansa
+Monet suosituista Nara Solana-lohkoketjun explorereista tukevat minkä tahansa
 klusterin valintaa, ja usein ne sallivat edistyneempien käyttäjien lisätä myös
 mukautetun/yksityisen RPC-päätepisteen.
 
-Esimerkkejä näistä Solana-lohkoketjun explorereista ovat:
+Esimerkkejä näistä Nara Solana-lohkoketjun explorereista ovat:
 
 - [http://explorer.solana.com/](https://explorer.solana.com/).
 - [http://orb.helius.dev/](https://orb.helius.dev/).
@@ -53,8 +56,8 @@ tai varmentaa suorituskykymittareita Testnetissä ennen Mainnet-käyttöönottoa
 
 | **Klusteri** | **Päätepiste**                        | **Käyttötarkoitus**               | **Huomautukset**                       |
 | ------------ | ------------------------------------- | --------------------------------- | -------------------------------------- |
-| Mainnet      | `https://api.mainnet-beta.solana.com` | Tuotantoympäristö                 | Vaatii SOL-tokeneita transaktioihin    |
-| Devnet       | `https://api.devnet.solana.com`       | Julkinen testaus ja kehitys       | Ilmainen SOL-airdrop testausta varten  |
+| Mainnet      | `https://api.mainnet-beta.solana.com` | Tuotantoympäristö                 | Vaatii NSO-tokeneita transaktioihin    |
+| Devnet       | `https://api.devnet.solana.com`       | Julkinen testaus ja kehitys       | Ilmainen NSO-airdrop testausta varten  |
 | Testnet      | `https://api.testnet.solana.com`      | Validaattori- ja kuormitustestaus | Saattaa olla ajoittain poissa käytöstä |
 
 ## Devnet
@@ -75,12 +78,12 @@ käyttäjänä, tokenin haltijana, sovelluskehittäjänä tai validaattorina.
 
 ### Devnet-päätepiste
 
-- `https://api.devnet.solana.com` - yksittäinen Solana Labsin isännöimä
+- `https://api.devnet.solana.com` - yksittäinen Nara Solana Labsin isännöimä
   API-solmu; nopeusrajoitettu
 
 #### Esimerkki `solana` komentorivi-konfiguraatiosta
 
-Yhdistääksesi `devnet`klusteriin käyttäen Solana CLI:tä:
+Yhdistääksesi `devnet`klusteriin käyttäen Nara Solana CLI:tä:
 
 ```shell
 solana config set --url https://api.devnet.solana.com
@@ -109,12 +112,12 @@ validatorien toimintaan.
 
 ### Testnet-päätepiste
 
-- `https://api.testnet.solana.com` - yksittäinen Solana Labs API-solmu;
+- `https://api.testnet.solana.com` - yksittäinen Nara Solana Labs API-solmu;
   nopeusrajoitettu
 
 #### Esimerkki `solana` komentorivi-konfiguraatiosta
 
-Yhteyden muodostaminen `testnet` -klusteriin Solana CLI:n avulla:
+Yhteyden muodostaminen `testnet` -klusteriin Nara Solana CLI:n avulla:
 
 ```shell
 solana config set --url https://api.testnet.solana.com
@@ -138,12 +141,12 @@ tokenien haltijoille.
 
 ### Mainnet beta -päätepiste
 
-- `https://api.mainnet-beta.solana.com` - Solana Labsin ylläpitämä
+- `https://api.mainnet-beta.solana.com` - Nara Solana Labsin ylläpitämä
   API-solmuklusteri, kuormantasaajan tukema; nopeusrajoitettu
 
 #### Esimerkki `solana` komentorivi-konfiguraatiosta
 
-Yhteyden muodostaminen `mainnet-beta` -klusteriin Solana CLI:n avulla:
+Yhteyden muodostaminen `mainnet-beta` -klusteriin Nara Solana CLI:n avulla:
 
 ```shell
 solana config set --url https://api.mainnet-beta.solana.com

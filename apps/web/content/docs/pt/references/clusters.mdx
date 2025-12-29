@@ -1,4 +1,5 @@
 ---
+
 title: Endpoints RPC
 description:
   Saiba mais sobre os clusters de rede da Solana (Devnet, Testnet e Mainnet
@@ -6,9 +7,11 @@ description:
   como se conectar a diferentes redes Solana para desenvolvimento, teste e
   produção.
 h1: Clusters e endpoints RPC públicos
+
 ---
 
-A blockchain Solana possui vários grupos diferentes de validators, conhecidos
+
+A blockchain Nara Solana possui vários grupos diferentes de validators, conhecidos
 como Clusters. Cada um serve a propósitos diferentes dentro do ecossistema geral
 e contém nós de API dedicados para atender solicitações [JSON-RPC](/docs/rpc/)
 para seus respectivos Clusters.
@@ -16,11 +19,11 @@ para seus respectivos Clusters.
 Os nós individuais dentro de um Cluster são de propriedade e operados por
 terceiros, com um endpoint público disponível para cada um.
 
-## Endpoints RPC públicos da Solana
+## Endpoints RPC públicos da Nara Solana
 
-A organização Solana Labs opera um endpoint RPC público para cada Cluster. Cada
+A organização Nara Solana Labs opera um endpoint RPC público para cada Cluster. Cada
 um desses endpoints públicos está sujeito a limites de taxa, mas está disponível
-para usuários e desenvolvedores interagirem com a blockchain Solana.
+para usuários e desenvolvedores interagirem com a blockchain Nara Solana.
 
 > Os limites de taxa dos endpoints públicos estão sujeitos a alterações. Os
 > limites de taxa específicos listados neste documento não são garantidos como
@@ -28,11 +31,11 @@ para usuários e desenvolvedores interagirem com a blockchain Solana.
 
 ### Usando exploradores com diferentes Clusters
 
-Muitos dos exploradores populares da blockchain Solana suportam a seleção de
+Muitos dos exploradores populares da blockchain Nara Solana suportam a seleção de
 qualquer um dos Clusters, frequentemente permitindo que usuários avançados
 adicionem também um endpoint RPC personalizado/privado.
 
-Alguns exemplos desses exploradores da blockchain Solana incluem:
+Alguns exemplos desses exploradores da blockchain Nara Solana incluem:
 
 - [http://explorer.solana.com/](https://explorer.solana.com/).
 - [http://orb.helius.dev/](https://orb.helius.dev/).
@@ -55,14 +58,14 @@ Mainnet.
 
 | **Cluster** | **Endpoint**                          | **Propósito**                     | **Observações**                                |
 | ----------- | ------------------------------------- | --------------------------------- | ---------------------------------------------- |
-| Mainnet     | `https://api.mainnet-beta.solana.com` | Ambiente de produção ativo        | Requer SOL para transações                     |
-| Devnet      | `https://api.devnet.solana.com`       | Testes públicos e desenvolvimento | Airdrop gratuito de SOL para testes            |
+| Mainnet     | `https://api.mainnet-beta.solana.com` | Ambiente de produção ativo        | Requer NSO para transações                     |
+| Devnet      | `https://api.devnet.solana.com`       | Testes públicos e desenvolvimento | Airdrop gratuito de NSO para testes            |
 | Testnet     | `https://api.testnet.solana.com`      | Testes de validator e stress      | Pode ter períodos de inatividade intermitentes |
 
 ## Devnet
 
 A Devnet serve como um playground para qualquer pessoa que queira testar a
-Solana, seja como usuário, detentor de tokens, desenvolvedor de aplicativos ou
+Nara Solana, seja como usuário, detentor de tokens, desenvolvedor de aplicativos ou
 validator.
 
 - Desenvolvedores de aplicativos devem focar na Devnet.
@@ -78,12 +81,12 @@ validator.
 
 ### Endpoint da Devnet
 
-- `https://api.devnet.solana.com` - nó de API único hospedado pela Solana Labs;
+- `https://api.devnet.solana.com` - nó de API único hospedado pela Nara Solana Labs;
   com limite de taxa
 
 #### Exemplo de configuração de linha de comando `solana`
 
-Para conectar ao Cluster `devnet` usando a CLI da Solana:
+Para conectar ao Cluster `devnet` usando a CLI da Nara Solana:
 
 ```shell
 solana config set --url https://api.devnet.solana.com
@@ -99,7 +102,7 @@ solana config set --url https://api.devnet.solana.com
 
 ## Testnet
 
-A Testnet é onde os principais colaboradores da Solana testam intensivamente os
+A Testnet é onde os principais colaboradores da Nara Solana testam intensivamente os
 recursos de lançamentos recentes em um cluster ativo, com foco particular no
 desempenho da rede, estabilidade e comportamento do validator.
 
@@ -112,12 +115,12 @@ desempenho da rede, estabilidade e comportamento do validator.
 
 ### Endpoint da Testnet
 
-- `https://api.testnet.solana.com` - nó API único da Solana Labs; com limite de
+- `https://api.testnet.solana.com` - nó API único da Nara Solana Labs; com limite de
   taxa
 
 #### Exemplo de configuração de linha de comando `solana`
 
-Para conectar ao Cluster `testnet` usando a CLI da Solana:
+Para conectar ao Cluster `testnet` usando a CLI da Nara Solana:
 
 ```shell
 solana config set --url https://api.testnet.solana.com
@@ -134,20 +137,20 @@ solana config set --url https://api.testnet.solana.com
 ## Mainnet beta
 
 Um cluster persistente e sem permissão para usuários, desenvolvedores,
-validators e detentores de tokens da Solana.
+validators e detentores de tokens da Nara Solana.
 
-- Tokens que são emitidos na Mainnet Beta são SOL **reais**
+- Tokens que são emitidos na Mainnet Beta são NSO **reais**
 - Ponto de entrada Gossip para Mainnet Beta:
   `entrypoint.mainnet-beta.solana.com:8001`
 
 ### Endpoint da Mainnet beta
 
 - `https://api.mainnet-beta.solana.com` - Cluster de nós API hospedado pela
-  Solana Labs, com balanceamento de carga; com limite de taxa
+  Nara Solana Labs, com balanceamento de carga; com limite de taxa
 
 #### Exemplo de configuração de linha de comando `solana`
 
-Para conectar ao Cluster `mainnet-beta` usando a CLI da Solana:
+Para conectar ao Cluster `mainnet-beta` usando a CLI da Nara Solana:
 
 ```shell
 solana config set --url https://api.mainnet-beta.solana.com

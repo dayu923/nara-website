@@ -1,15 +1,18 @@
 ---
+
 title: Rust SDK
-description: Офіційні пакети Rust для розробки на Solana.
-h1: Rust SDK для Solana
+description: Офіційні пакети Rust для розробки на Nara Solana.
+h1: Rust SDK для Nara Solana
+
 ---
+
 
 ## Клієнтські пакети
 
 | Пакет                    | Опис                                        | Документація                                             | GitHub                                                                          |
 | ------------------------ | ------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | solana-sdk               | Основний SDK                                | [Переглянути](https://docs.rs/solana-sdk/)               | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/sdk)               |
-| solana-client            | Взаємодія з Solana через RPC                | [Переглянути](https://docs.rs/solana-client/)            | [Джерело](https://github.com/anza-xyz/agave/tree/master/client)                 |
+| solana-client            | Взаємодія з Nara Solana через RPC                | [Переглянути](https://docs.rs/solana-client/)            | [Джерело](https://github.com/anza-xyz/agave/tree/master/client)                 |
 | solana-commitment-config | Конфігурація рівня підтвердження транзакцій | [Переглянути](https://docs.rs/solana-commitment-config/) | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/commitment-config) |
 
 Пакет `solana-sdk` складається з наступних компонентних пакетів, які можна
@@ -17,44 +20,44 @@ h1: Rust SDK для Solana
 
 | Пакет                       | Опис                                                                     | Документація                                                | GitHub                                                                             |
 | --------------------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| solana-account              | Тип облікового запису Solana                                             | [Переглянути](https://docs.rs/solana-account/)              | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/account)              |
-| solana-epoch-info           | Інформація про epoch Solana                                              | [Переглянути](https://docs.rs/solana-epoch-info/)           | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-info)           |
-| solana-epoch-rewards-hasher | Хешер винагород epoch Solana                                             | [Переглянути](https://docs.rs/solana-epoch-rewards-hasher/) | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-rewards-hasher) |
-| solana-fee-structure        | Структури комісій Solana                                                 | [Переглянути](https://docs.rs/solana-fee-structure/)        | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/fee-structure)        |
-| solana-inflation            | Конфігурація інфляції мережі Solana                                      | [Переглянути](https://docs.rs/solana-inflation/)            | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/inflation)            |
-| solana-message              | Типи повідомлень транзакцій Solana                                       | [Переглянути](https://docs.rs/solana-message/)              | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/message)              |
-| solana-program              | Програма Solana                                                          | [Переглянути](https://docs.rs/solana-program/)              | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/program)              |
-| solana-program-memory       | Базові низькорівневі операції з пам'яттю для Solana                      | [Переглянути](https://docs.rs/solana-program-memory/)       | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/program-memory)       |
-| solana-pubkey               | Адреси облікових записів Solana                                          | [Переглянути](https://docs.rs/solana-pubkey/)               | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/pubkey)               |
-| solana-sanitize             | Санітизація повідомлень Solana                                           | [Переглянути](https://docs.rs/solana-sanitize/)             | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/sanitize)             |
-| solana-sdk-ids              | Ідентифікатори SDK Solana                                                | [Переглянути](https://docs.rs/solana-sdk-ids/)              | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-ids)              |
-| solana-sdk-macro            | Макрос SDK Solana                                                        | [Переглянути](https://docs.rs/solana-sdk-macro/)            | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-macro)            |
-| solana-serde                | Допоміжні засоби serde для Solana                                        | [Переглянути](https://docs.rs/solana-serde/)                | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/serde)                |
-| solana-serde-varint         | Визначення Solana для цілих чисел, що серіалізуються до змінного розміру | [Переглянути](https://docs.rs/solana-serde-varint/)         | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/serde-varint)         |
-| solana-short-vec            | Компактне serde-кодування векторів з малою довжиною для Solana           | [Переглянути](https://docs.rs/solana-short-vec/)            | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/short-vec)            |
-| solana-time-utils           | Утиліти std::time для Solana                                             | [Переглянути](https://docs.rs/solana-time-utils/)           | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/time-utils)           |
-| solana-keypair              | Конкретна реалізація підписувача Solana                                  | [Переглянути](https://docs.rs/solana-keypair/)              | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/keypair)              |
-| solana-offchain-message     | Підписання офчейн-повідомлень Solana                                     | [Переглянути](https://docs.rs/solana-offchain-message/)     | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/offchain-message)     |
-| solana-presigner            | Реалізація підписувача Solana, що представляє зовнішньо створений підпис | [Переглянути](https://docs.rs/solana-presigner/)            | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/presigner)            |
-| solana-seed-derivable       | Трейт Solana, що визначає інтерфейс, за допомогою якого виводяться ключі | [Переглянути](https://docs.rs/solana-seed-derivable/)       | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/seed-derivable)       |
-| solana-seed-phrase          | Функції Solana для генерації пар ключів із seed-фраз                     | [Переглянути](https://docs.rs/solana-seed-phrase/)          | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/seed-phrase)          |
+| solana-account              | Тип облікового запису Nara Solana                                             | [Переглянути](https://docs.rs/solana-account/)              | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/account)              |
+| solana-epoch-info           | Інформація про epoch Nara Solana                                              | [Переглянути](https://docs.rs/solana-epoch-info/)           | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-info)           |
+| solana-epoch-rewards-hasher | Хешер винагород epoch Nara Solana                                             | [Переглянути](https://docs.rs/solana-epoch-rewards-hasher/) | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/epoch-rewards-hasher) |
+| solana-fee-structure        | Структури комісій Nara Solana                                                 | [Переглянути](https://docs.rs/solana-fee-structure/)        | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/fee-structure)        |
+| solana-inflation            | Конфігурація інфляції мережі Nara Solana                                      | [Переглянути](https://docs.rs/solana-inflation/)            | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/inflation)            |
+| solana-message              | Типи повідомлень транзакцій Nara Solana                                       | [Переглянути](https://docs.rs/solana-message/)              | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/message)              |
+| solana-program              | Програма Nara Solana                                                          | [Переглянути](https://docs.rs/solana-program/)              | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/program)              |
+| solana-program-memory       | Базові низькорівневі операції з пам'яттю для Nara Solana                      | [Переглянути](https://docs.rs/solana-program-memory/)       | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/program-memory)       |
+| solana-pubkey               | Адреси облікових записів Nara Solana                                          | [Переглянути](https://docs.rs/solana-pubkey/)               | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/pubkey)               |
+| solana-sanitize             | Санітизація повідомлень Nara Solana                                           | [Переглянути](https://docs.rs/solana-sanitize/)             | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/sanitize)             |
+| solana-sdk-ids              | Ідентифікатори SDK Nara Solana                                                | [Переглянути](https://docs.rs/solana-sdk-ids/)              | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-ids)              |
+| solana-sdk-macro            | Макрос SDK Nara Solana                                                        | [Переглянути](https://docs.rs/solana-sdk-macro/)            | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/sdk-macro)            |
+| solana-serde                | Допоміжні засоби serde для Nara Solana                                        | [Переглянути](https://docs.rs/solana-serde/)                | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/serde)                |
+| solana-serde-varint         | Визначення Nara Solana для цілих чисел, що серіалізуються до змінного розміру | [Переглянути](https://docs.rs/solana-serde-varint/)         | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/serde-varint)         |
+| solana-short-vec            | Компактне serde-кодування векторів з малою довжиною для Nara Solana           | [Переглянути](https://docs.rs/solana-short-vec/)            | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/short-vec)            |
+| solana-time-utils           | Утиліти std::time для Nara Solana                                             | [Переглянути](https://docs.rs/solana-time-utils/)           | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/time-utils)           |
+| solana-keypair              | Конкретна реалізація підписувача Nara Solana                                  | [Переглянути](https://docs.rs/solana-keypair/)              | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/keypair)              |
+| solana-offchain-message     | Підписання офчейн-повідомлень Nara Solana                                     | [Переглянути](https://docs.rs/solana-offchain-message/)     | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/offchain-message)     |
+| solana-presigner            | Реалізація підписувача Nara Solana, що представляє зовнішньо створений підпис | [Переглянути](https://docs.rs/solana-presigner/)            | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/presigner)            |
+| solana-seed-derivable       | Трейт Nara Solana, що визначає інтерфейс, за допомогою якого виводяться ключі | [Переглянути](https://docs.rs/solana-seed-derivable/)       | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/seed-derivable)       |
+| solana-seed-phrase          | Функції Nara Solana для генерації пар ключів із seed-фраз                     | [Переглянути](https://docs.rs/solana-seed-phrase/)          | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/seed-phrase)          |
 | solana-shred-version        | Обчислення версій шредів                                                 | [Переглянути](https://docs.rs/solana-shred-version/)        | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/shred-version)        |
-| solana-signature            | 64-байтовий тип підпису Solana                                           | [Переглянути](https://docs.rs/solana-signature/)            | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/signature)            |
-| solana-signer               | Абстракції для підписувачів транзакцій Solana                            | [Переглянути](https://docs.rs/solana-signer/)               | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/signer)               |
-| solana-transaction          | Типи транзакцій Solana                                                   | [Переглянути](https://docs.rs/solana-transaction/)          | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/transaction)          |
-| solana-transaction-error    | Тип помилки транзакції Solana                                            | [Переглянути](https://docs.rs/solana-transaction-error/)    | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/transaction-error)    |
+| solana-signature            | 64-байтовий тип підпису Nara Solana                                           | [Переглянути](https://docs.rs/solana-signature/)            | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/signature)            |
+| solana-signer               | Абстракції для підписувачів транзакцій Nara Solana                            | [Переглянути](https://docs.rs/solana-signer/)               | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/signer)               |
+| solana-transaction          | Типи транзакцій Nara Solana                                                   | [Переглянути](https://docs.rs/solana-transaction/)          | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/transaction)          |
+| solana-transaction-error    | Тип помилки транзакції Nara Solana                                            | [Переглянути](https://docs.rs/solana-transaction-error/)    | [Джерело](https://github.com/anza-xyz/solana-sdk/tree/master/transaction-error)    |
 
 ## Крейти програм
 
 Використовуйте `solana-program` для створення програм у блокчейні.
 
-- [Приклад: Створення програми Solana](/docs/programs/rust)
+- [Приклад: Створення програми Nara Solana](/docs/programs/rust)
 
 | Крейт          | Опис                          | Документація                                  | GitHub                                                                     |
 | -------------- | ----------------------------- | --------------------------------------------- | -------------------------------------------------------------------------- |
 | solana-program | Створення програм у блокчейні | [Переглянути](https://docs.rs/solana-program) | [Вихідний код](https://github.com/anza-xyz/solana-sdk/tree/master/program) |
 
-Pinocchio — це бібліотека без залежностей для створення програм Solana на Rust,
+Pinocchio — це бібліотека без залежностей для створення програм Nara Solana на Rust,
 яку можна використовувати замість `solana-program` для написання програм у
 блокчейні.
 
@@ -67,7 +70,7 @@ Pinocchio — це бібліотека без залежностей для с�
   найближчому майбутньому.
 </Callout>
 
-Pinocchio включає спеціальні крейти для взаємодії з програмами Solana:
+Pinocchio включає спеціальні крейти для взаємодії з програмами Nara Solana:
 
 | Крейт                              | Опис                                 | Документація                                                       | GitHub                                                                                            |
 | ---------------------------------- | ------------------------------------ | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------- |

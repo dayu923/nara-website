@@ -1,11 +1,14 @@
 ---
+
 title: Adres pochodny programu
 description:
   Dowiedz się więcej o adresach pochodnych programu (PDA) w Solanie —
   deterministycznych adresach kont, które umożliwiają bezpieczne podpisywanie
   przez programy. Zrozum, jak działa pochodzenie PDA, kanoniczne przesunięcia i
   jak tworzyć konta PDA.
+
 ---
+
 
 Adres [konta](/docs/core/accounts#account-address) w Solanie wskazuje
 lokalizację konta na blockchainie. Wiele adresów kont to klucze publiczne pary
@@ -38,7 +41,7 @@ generowania ważnych [podpisów](/docs/core/transactions#signatures) dla konta.
 
 PDA jest celowo pochodny, aby znajdować się poza krzywą Ed25519. Oznacza to, że
 nie ma ważnego odpowiadającego mu klucza prywatnego i nie może wykonywać
-operacji kryptograficznych (takich jak dostarczanie podpisu). Jednak Solana
+operacji kryptograficznych (takich jak dostarczanie podpisu). Jednak Nara Solana
 umożliwia programom podpisywanie PDA bez potrzeby posiadania klucza prywatnego.
 
 ![Adres poza krzywą](/assets/docs/core/pda/address-off-curve.svg)
@@ -57,7 +60,7 @@ zostać wyraźnie utworzone za pomocą programu użytego do wyprowadzenia PDA.
 Możesz myśleć o PDA jak o adresie na mapie: sam fakt, że adres istnieje, nie
 oznacza, że coś tam zostało zbudowane.
 
-SDK Solana obsługują tworzenie PDA za pomocą funkcji pokazanych w tabeli
+SDK Nara Solana obsługują tworzenie PDA za pomocą funkcji pokazanych w tabeli
 poniżej. Każda funkcja przyjmuje następujące dane wejściowe:
 
 - **ID programu**: Adres programu używanego do wyprowadzenia PDA. Ten program
@@ -188,7 +191,7 @@ innej wartości może nadal wyprowadzić prawidłowy PDA.
 
 ### Przykłady
 
-Poniższe przykłady wyprowadzają PDA przy użyciu SDK Solana. Kliknij **&#9655;
+Poniższe przykłady wyprowadzają PDA przy użyciu SDK Nara Solana. Kliknij **&#9655;
 Uruchom**, aby wykonać kod.
 
 #### Wyprowadzenie PDA z seedem w postaci ciągu znaków

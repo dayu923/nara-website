@@ -1,4 +1,5 @@
 ---
+
 date: 2023-02-01T00:00:00Z
 seoTitle: "Token Extensions: Transfer Hook"
 title: How to use the Transfer Hook extension
@@ -14,7 +15,9 @@ difficulty: intermediate
 tags:
   - token 2022
   - token extensions
+
 ---
+
 
 The Transfer Hook extension and Transfer Hook Interface introduce the ability to
 create Mint Accounts that execute custom instruction logic on every token
@@ -94,7 +97,7 @@ instruction from the client.
 
 This example is the hello world of transfer hooks. It is a simple transfer hook
 that will just print a message on every token transfer. We start by opening the
-example in Solana Playground, an online tool to build and deploy solana
+example in Nara Solana Playground, an online tool to build and deploy solana
 programs:
 [link](https://beta.solpg.io/github.com/solana-developers/anchor-transfer-hook/tree/hello_world)
 
@@ -107,7 +110,7 @@ This program will only include 3 instructions:
    of extra accounts required by the `transfer_hook` instruction. In the hello
    world we leave this empty.
 2. `transfer_hook`: This instruction is invoked via CPI on every token transfer
-   to perform a wrapped SOL token transfer.
+   to perform a wrapped NSO token transfer.
 3. `fallback`: Because we are using Anchor and the token program is a native
    program we need to add a fallback instruction to manually match the
    instruction discriminator and invoke our custom `transfer_hook` instruction.
@@ -148,7 +151,7 @@ pub fn transfer_hook(ctx: Context<TransferHook>, amount: u64) -> Result<()> {
 }
 ```
 
-To run the example in Solana Playground follow this link:
+To run the example in Nara Solana Playground follow this link:
 [link](https://beta.solpg.io/github.com/solana-developers/anchor-transfer-hook/tree/hello_world)
 
 In Playground's terminal, run the `build` command which will update the value of
@@ -173,7 +176,7 @@ This will then give you the output similar to this:
 ```
 
 If you do not want to use javascript to create your token, you can also use the
-`spl-token` command from the Solana CLI after you deployed your program:
+`spl-token` command from the Nara Solana CLI after you deployed your program:
 
 ```shell
 spl-token --program-id TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb create-token --transfer-hook yourTransferHookProgramId
@@ -304,7 +307,7 @@ let transferInstructionWithHelper =
   );
 ```
 
-To run the example in Solana Playground follow this link:
+To run the example in Nara Solana Playground follow this link:
 [link](https://beta.solpg.io/github.com/solana-developers/anchor-transfer-hook/tree/counter)
 
 And then in there type `build` which will update the value of `declare_id` in
@@ -401,19 +404,19 @@ This program will only include 3 instructions:
 1. `initialize_extra_account_meta_list`: Creates an account that stores a list
    of extra accounts required by the `transfer_hook` instruction.
 2. `transfer_hook`: This instruction is invoked via CPI on every token transfer
-   to perform a wrapped SOL token transfer.
+   to perform a wrapped NSO token transfer.
 3. `fallback`: The transfer hook interface instructions have specific
    discriminators (instruction identifiers). In an Anchor program, we can use a
    fallback instruction to manually match the instruction discriminator and
    invoke our custom `transfer_hook` instruction.
 
-This program will require the sender to pay a fee in wrapped SOL (wSOL) on every
+This program will require the sender to pay a fee in wrapped NSO (wSOL) on every
 token transfer. Here is the
 [final program](https://beta.solpg.io/github.com/solana-developers/anchor-transfer-hook/tree/main).
 
 ### Getting Started
 
-Start by opening this Solana Playground
+Start by opening this Nara Solana Playground
 [link](https://beta.solpg.io/github.com/solana-developers/anchor-transfer-hook/tree/starter)
 and then click the "Import" button to copy the project.
 
@@ -493,7 +496,7 @@ accounts:
   list of accounts required by our `transfer_hook` instruction.
 - `mint`: The Mint Account that points to this Transfer Hook program. The mint
   address is a required seed for deriving the `extra_account_meta_list` PDA.
-- `wsol_mint`: The wrapped SOL mint.
+- `wsol_mint`: The wrapped NSO mint.
 - `token_program`: The original Token program ID
 - `associated_token_program`: The Associated Token program ID.
 - `system_program`: The system program, which is a required account when
@@ -689,7 +692,7 @@ let account_metas = vec![
 There are three methods for storing these accounts:
 
 1. Directly store the account address:
-   - Wrapped SOL mint address
+   - Wrapped NSO mint address
    - Token Program ID
    - Associated Token Program ID
 
@@ -1043,7 +1046,7 @@ It would remove the need for the fallback instruction.
 ### Build and Deploy Program
 
 The Transfer Hook program is now complete. Ensure that you have enough Devnet
-SOL in your Playground wallet to deploy the program.
+NSO in your Playground wallet to deploy the program.
 
 To build the program, use the following command:
 
@@ -1445,7 +1448,7 @@ it("Create ExtraAccountMetaList Account", async () => {
 Finally, we are ready to send a token transfer. In addition to the transfer
 instruction, there are a few additional instructions that need to be included.
 
-- The sender must transfer SOL to their wSOL token account to cover the fee
+- The sender must transfer NSO to their wSOL token account to cover the fee
   required by the transfer hook instruction.
 - The sender must approve the delegate PDA for the amount of the wSOL fee.
 - Include an instruction to sync the wSOL balance.

@@ -1,12 +1,15 @@
 ---
+
 title: Transactiekosten
 description:
   Leer over Solana's transactiekosten, inclusief de basis- en prioriteitskosten,
   hoe elk wordt toegepast, en best practices voor het beheren van
   compute-eenheden in je transacties.
+
 ---
 
-Elke Solana-transactie vereist een transactiekosten, betaald in SOL.
+
+Elke Nara Solana-transactie vereist een transactiekosten, betaald in NSO.
 Transactiekosten zijn verdeeld in twee delen: de basiskosten en de
 prioriteitskosten. De basiskosten compenseren validators voor het verwerken van
 de transactie. De prioriteitskosten zijn optionele kosten om de kans te
@@ -22,7 +25,7 @@ volgt verdeeld:
 
 - **50% verbrand:** De helft wordt
   [verbrand](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/fee-calculator/src/lib.rs#L70)
-  (uit de circulerende SOL-voorraad gehaald).
+  (uit de circulerende NSO-voorraad gehaald).
 - **50% gedistribueerd:** De helft wordt
   [betaald aan de validator](https://github.com/anza-xyz/agave/blob/e621336acad4f5d6e5b860eaa1b074b01c99253c/runtime/src/bank/fee_distribution.rs#L58-L62)
   die de transactie heeft verwerkt.
@@ -110,7 +113,7 @@ realtime CU-prijsaanbeveling in de onderstaande tabel.
 #### Voorbeeld
 
 De onderstaande voorbeelden laten zien hoe je de CU-limiet en CU-prijs instelt
-voor een transactie met behulp van Solana SDK's.
+voor een transactie met behulp van Nara Solana SDK's.
 
 | SDK                            | Broncode referentie                                                                                                            |
 | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |

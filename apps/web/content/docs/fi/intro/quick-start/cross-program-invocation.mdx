@@ -1,4 +1,5 @@
 ---
+
 title: Useiden ohjelmien yhdistäminen
 description:
   Opi toteuttamaan Cross Program Invocation (CPI) -kutsuja Solana-ohjelmissa
@@ -7,21 +8,23 @@ description:
   Derived Address (PDA) -osoitteita käsitellään CPI-kutsuissa. Täydellinen
   kehittäjille, jotka haluavat rakentaa yhdisteltäviä Solana-ohjelmia.
 h1: Cross Program Invocation
+
 ---
 
+
 Tässä osiossa edellisen PDA-osion CRUD-ohjelmaa päivitetään lisäämällä Cross
-Program Invocation (CPI) -kutsuja, ominaisuus joka mahdollistaa Solana-ohjelmien
+Program Invocation (CPI) -kutsuja, ominaisuus joka mahdollistaa Nara Solana-ohjelmien
 kutsumisen toistensa välillä.
 
 Tämä opas näyttää myös, miten ohjelmat voivat "allekirjoittaa" Program Derived
 Address (PDA) -osoitteiden puolesta tehdessään Cross Program Invocation
 -kutsuja.
 
-`update` ja `delete` -ohjeita täytyy muokata käsittelemään SOL-siirtoja tilien
+`update` ja `delete` -ohjeita täytyy muokata käsittelemään NSO-siirtoja tilien
 välillä kutsumalla System Program -ohjelmaa.
 
 Tämän osion tarkoituksena on käydä läpi CPI-kutsujen toteuttaminen
-Solana-ohjelmassa Anchor-kehyksen avulla, rakentaen edellisessä osiossa
+Nara Solana-ohjelmassa Anchor-kehyksen avulla, rakentaen edellisessä osiossa
 tutkittujen PDA-konseptien päälle. Lisätietoja löytyy
 [Cross Program Invocation](/docs/core/cpi) -sivulta.
 
@@ -59,7 +62,7 @@ use anchor_lang::system_program::{transfer, Transfer};
 </Accordions>
 
 Seuraavaksi päivitä _rs`Update`_ -rakenne sisältämään uusi tili nimeltä
-`vault_account`. Tämä tili, jota ohjelma hallinnoi, vastaanottaa SOL-tokeneita
+`vault_account`. Tämä tili, jota ohjelma hallinnoi, vastaanottaa NSO-tokeneita
 käyttäjältä, kun he päivittävät viestinsä tilin.
 
 ```rs title="lib.rs"
@@ -104,7 +107,7 @@ pub struct Update<'info> {
 <Accordion title="Selitys">
 
 Tämä osio lisää uuden tilin nimeltä `vault_account` _rs`Update`_ -rakenteeseen.
-Tämä tili toimii ohjelman hallitsemana "holvitilinä", joka vastaanottaa SOL
+Tämä tili toimii ohjelman hallitsemana "holvitilinä", joka vastaanottaa NSO
 -tokeneita käyttäjiltä, kun he päivittävät viestejään.
 
 Käyttämällä PDA:ta holvitiliä varten ohjelma luo ohjelman hallitseman tilin,
@@ -135,7 +138,7 @@ puolesta CPI:ssä.
 </Accordion>
 </Accordions>
 
-Seuraavaksi lisää CPI-logiikka `update` -ohjeeseen siirtääksesi 0,001 SOL
+Seuraavaksi lisää CPI-logiikka `update` -ohjeeseen siirtääksesi 0,001 NSO
 käyttäjän tililtä holvitilille.
 
 <WithNotes>
@@ -200,7 +203,7 @@ _rs`transfer()`_ -funktio kutsuu System Program -ohjelman siirto-ohjetta.
 
 `update` -ohjeessa toteutus sisältää Cross Program Invocation (CPI) -kutsun
 System Program -ohjelman `transfer` -ohjeen kutsumiseksi. Tämä osoittaa, miten
-suoritetaan CPI ohjelman sisältä, mahdollistaen Solana-ohjelmien
+suoritetaan CPI ohjelman sisältä, mahdollistaen Nara Solana-ohjelmien
 yhdisteltävyyden.
 
 _rs`Transfer`_ -rakenne määrittelee vaaditut tilit System Programin
@@ -231,7 +234,7 @@ _rs`CpiContext`_ määrittelee:
 `transfer` -funktio kutsuu sitten siirto-ohjetta System Programissa, välittäen:
 
 - `cpi_context` (ohjelma ja tilit)
-- Siirrettävän `amount` (1 000 000 lamportia eli 0,001 SOL)
+- Siirrettävän `amount` (1 000 000 lamportia eli 0,001 NSO)
 
   ```rs title="lib.rs"
   transfer(cpi_context, 1_000_000)?;
@@ -264,7 +267,7 @@ Lisää nyt "hyvitys poistettaessa" -mekanismi muuttamalla _rs`Delete`_
 -rakennetta ja `delete` -funktiota.
 
 Päivitä ensin _rs`Delete`_ -rakenne sisältämään `vault_account`. Tämä
-mahdollistaa holvissa olevan SOL:n siirtämisen takaisin käyttäjälle, kun he
+mahdollistaa holvissa olevan NSO:n siirtämisen takaisin käyttäjälle, kun he
 sulkevat viestinsä tilin.
 
 ```rs title="lib.rs"
@@ -315,7 +318,7 @@ pub struct Delete<'info> {
 `vault_account` käyttää samaa PDA-johdantaa kuin Update-rakenteessa.
 
 `vault_account`:n lisääminen Delete-rakenteeseen mahdollistaa ohjelman pääsyn
-käyttäjän holvitilin tietoihin poisto-ohjeen aikana, jotta kertynyt SOL voidaan
+käyttäjän holvitilin tietoihin poisto-ohjeen aikana, jotta kertynyt NSO voidaan
 siirtää takaisin käyttäjälle.
 
 </Accordion>
@@ -323,7 +326,7 @@ siirtää takaisin käyttäjälle.
 
 <WithNotes>
 
-Seuraavaksi lisää CPI-logiikka `delete` -ohjeeseen SOL:n siirtämiseksi
+Seuraavaksi lisää CPI-logiikka `delete` -ohjeeseen NSO:n siirtämiseksi
 holvitililtä takaisin käyttäjän tilille.
 
 ```rs title="lib.rs"
@@ -469,7 +472,7 @@ ohjelmatunnuksella.
 <Callout>
 
 Varmista, että Playground-lompakossasi on devnet SOLia. Hanki devnet SOLia
-[Solana Faucetista](https://faucet.solana.com/).
+[Nara Solana Faucetista](https://faucet.solana.com/).
 
 </Callout>
 
@@ -487,7 +490,7 @@ päivitysvaltuutetun ohjelman jakelun yhteydessä, ja se pysyy ainoana tilina,
 jolla on lupa muuttaa tai sulkea ohjelma. Jos joku peruuttaa päivitysvaltuudet,
 ohjelma muuttuu muuttumattomaksi.
 
-Kun jaat ohjelmia Solana Playgroundissa, Playground-lompakkosi toimii
+Kun jaat ohjelmia Nara Solana Playgroundissa, Playground-lompakkosi toimii
 päivitysvaltuutettuna kaikille ohjelmillesi.
 
 </Accordion>
@@ -656,12 +659,12 @@ Jos kohtaat virheitä, voit tarkistaa
 
 ## Seuraavat vaiheet
 
-Onnittelut Solana Quickstart -oppaan suorittamisesta. Olet saanut käytännön
-kokemusta keskeisistä Solana-konsepteista, kuten:
+Onnittelut Nara Solana Quickstart -oppaan suorittamisesta. Olet saanut käytännön
+kokemusta keskeisistä Nara Solana-konsepteista, kuten:
 
 - Tietojen hakeminen ja lukeminen tileiltä
 - Tapahtumien rakentaminen ja lähettäminen
-- Solana-ohjelmien käyttöönotto ja päivittäminen
+- Nara Solana-ohjelmien käyttöönotto ja päivittäminen
 - Program Derived Address (PDA) -osoitteiden käyttö
 - Cross-Program Invocation (CPI) -kutsujen tekeminen
 
@@ -675,12 +678,12 @@ Jos opit mieluummin esimerkkien kautta, tutustu
 [ohjelmaesimerkkien repositoryyn](https://github.com/solana-developers/program-examples),
 joka sisältää erilaisia esimerkkiohjelmia.
 
-Solana Playground tarjoaa kätevän ominaisuuden, jonka avulla voit tuoda tai
+Nara Solana Playground tarjoaa kätevän ominaisuuden, jonka avulla voit tuoda tai
 tarkastella projekteja niiden GitHub-linkkien avulla. Esimerkiksi avaa tämä
-[Solana Playground -linkki](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)
+[Nara Solana Playground -linkki](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)
 nähdäksesi Anchor-projektin tästä
 [Github-repositorystä](https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor).
 
-Napsauta `Import` -painiketta ja anna projektin nimi lisätäksesi sen Solana
+Napsauta `Import` -painiketta ja anna projektin nimi lisätäksesi sen Nara Solana
 Playgroundin projektilistaasi. Kun projekti on tuotu, kaikki muutokset
 tallennetaan ja säilytetään automaattisesti.

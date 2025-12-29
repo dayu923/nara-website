@@ -1,15 +1,18 @@
 ---
+
 title: Cross Program Invocation
 description:
   Solana'da Cross Program Invocation (CPI) hakkında bilgi edinin — programların
   diğer programlardaki talimatları nasıl çağırabileceğini, PDA imzalayıcılarını
   nasıl yöneteceğini ve Solana ağı genelinde işlevselliği nasıl
   birleştirebileceğini öğrenin.
+
 ---
 
-Bir cross-program invocation (CPI), bir Solana programının doğrudan başka bir
+
+Bir cross-program invocation (CPI), bir Nara Solana programının doğrudan başka bir
 programın talimatlarını çağırdığında gerçekleşir. Bu, program
-birleştirilebilirliğine olanak tanır. Bir Solana
+birleştirilebilirliğine olanak tanır. Bir Nara Solana
 [talimatını](/docs/core/instructions) ağa açılan bir API uç noktası olarak
 düşünürseniz, CPI bir uç noktanın dahili olarak başka bir uç noktayı çağırması
 gibidir.
@@ -45,7 +48,7 @@ Bir CPI, PDA imzalayanı gerektirdiğinde,
 [`invoke_signed`](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/program/src/program.rs#L51-L73)
 fonksiyonu kullanılır. Bu fonksiyon, imzalayan [PDA'ları](<(/docs/core/pda)>)
 türetmek için kullanılan [imzalayan seed'lerini](mention:signer-seeds) alır.
-Solana çalışma zamanı, dahili olarak çağıran programın `signers_seeds` ve
+Nara Solana çalışma zamanı, dahili olarak çağıran programın `signers_seeds` ve
 `program_id` kullanarak
 [`create_program_address`](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/bpf_loader/src/syscalls/cpi.rs#L552)
 fonksiyonunu çağırır. Bir PDA doğrulandığında,
@@ -67,7 +70,7 @@ pub fn invoke_signed(
 
 Aşağıdaki örnekler, Anchor ve Native Rust kullanarak PDA imzalayanları ile CPI
 yapmayı göstermektedir. Her örnek, PDA tarafından imzalanmış bir CPI kullanarak
-SOL'u bir PDA'dan alıcı hesaba aktaran tek bir talimat içerir.
+NSO'u bir PDA'dan alıcı hesaba aktaran tek bir talimat içerir.
 
 #### Anchor
 
@@ -289,7 +292,7 @@ describe("cpi", () => {
 #### Rust
 
 Aşağıdaki örnek, Native Rust ile yazılmış bir programdan PDA imzalayanları ile
-CPI yapmayı göstermektedir. Program, PDA hesabından başka bir hesaba SOL aktaran
+CPI yapmayı göstermektedir. Program, PDA hesabından başka bir hesaba NSO aktaran
 tek bir talimat içerir. CPI, PDA hesabı tarafından imzalanır. (Test dosyası,
 programı test etmek için [LiteSVM](https://github.com/LiteSVM/litesvm)
 kullanır.)
@@ -463,7 +466,7 @@ pub fn invoke(instruction: &Instruction, account_infos: &[AccountInfo]) -> Progr
 ```
 
 Aşağıdaki örnekler Anchor ve Native Rust kullanarak CPI yapmayı göstermektedir.
-Her örnek, bir hesaptan diğerine SOL aktaran tek bir talimat içerir.
+Her örnek, bir hesaptan diğerine NSO aktaran tek bir talimat içerir.
 
 #### Anchor
 
@@ -638,7 +641,7 @@ describe("cpi", () => {
 #### Rust
 
 Aşağıdaki örnek, Native Rust ile yazılmış bir programdan nasıl CPI yapılacağını
-göstermektedir. Örnek, bir hesaptan diğerine SOL aktaran tek bir talimat içerir.
+göstermektedir. Örnek, bir hesaptan diğerine NSO aktaran tek bir talimat içerir.
 (Test dosyası, programı test etmek için
 [LiteSVM](https://github.com/LiteSVM/litesvm) kullanır.)
 

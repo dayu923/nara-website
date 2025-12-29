@@ -1,8 +1,9 @@
 ---
+
 date: 2025-03-15T00:00:00Z
 difficulty: intermediate
 title: How to interact with tokens in programs
-description: Learn how to use tokens in Solana games with an on-chain tutorial
+description: Learn how to use tokens in Nara Solana games with an on-chain tutorial
 tags:
   - games
   - anchor
@@ -19,21 +20,23 @@ keywords:
   - anchor
   - games
   - example
+
 ---
 
-Tokens on Solana can serve various purposes, such as in-game rewards,
+
+Tokens on Nara Solana can serve various purposes, such as in-game rewards,
 incentives, or other applications. For example, you can create tokens and
 distribute them to players when they complete specific in-game actions. In this
 example we will learn how to setup an Anchor program to mint and burn tokens in
 a game. If you want to instead learn how you can store tokens in a PDA you can
 check out the
-[Token Vault example](https://beta.solpg.io/tutorials/spl-token-vault) in Solana
+[Token Vault example](https://beta.solpg.io/tutorials/spl-token-vault) in Nara Solana
 Playground.
 
 ## Overview
 
 In this tutorial, we will build a game using Anchor to introduce the basics of
-interacting with the [Token Program](/docs/core/tokens) on Solana. The game
+interacting with the [Token Program](/docs/core/tokens) on Nara Solana. The game
 will be structured around four main actions: creating a new token mint,
 initializing player accounts, rewarding players for defeating enemies, and
 allowing players to heal by burning tokens.
@@ -61,8 +64,8 @@ The program consists of 4
 ## Getting Started
 
 To start building the program, visit the
-[Solana Playground](https://beta.solpg.io/) and create a new Anchor project. If
-you're new to Solana Playground, you'll also need to create a Playground Wallet.
+[Nara Solana Playground](https://beta.solpg.io/) and create a new Anchor project. If
+you're new to Nara Solana Playground, you'll also need to create a Playground Wallet.
 You can also find the final example here called
 [Battle coins](https://beta.solpg.io/tutorials/battle-coins)
 
@@ -100,7 +103,7 @@ URI, will be provided as parameters to the instruction.
 
 Additionally, we'll only allow an "admin" to invoke this instruction by defining
 an `ADMIN_PUBKEY` constant and using it as a constraint. Be sure to replace the
-`ADMIN_PUBKEY` with your Solana Playground wallet's public key.
+`ADMIN_PUBKEY` with your Nara Solana Playground wallet's public key.
 
 The `create_mint` instruction requires the following accounts:
 
@@ -489,7 +492,7 @@ the `burn` instruction from the Token program, which burns 1 token from the
 ## Build and Deploy
 
 Great job! You've now completed the program! Go ahead and build and deploy it
-using the Solana Playground. Your final program should look like this:
+using the Nara Solana Playground. Your final program should look like this:
 
 ```rust title="lib.rs"
 use anchor_lang::prelude::*;
@@ -750,7 +753,7 @@ pub enum ErrorCode {
 
 In this section, we'll walk you through a simple client-side implementation for
 interacting with the program. To get started, navigate to the `client.ts` file
-in Solana Playground, remove the placeholder code, and add the code snippets
+in Nara Solana Playground, remove the placeholder code, and add the code snippets
 from the following sections.
 
 Start by adding the following code for the setup.
@@ -903,8 +906,8 @@ console.log("Player Healed");
 await fetchAccountData();
 ```
 
-Finally, run the client by clicking the “Run” button in Solana Playground. You
-can copy the Token Mint address printed to the console and verify on Solana
+Finally, run the client by clicking the “Run” button in Nara Solana Playground. You
+can copy the Token Mint address printed to the console and verify on Nara Solana
 Explorer that the token now has metadata. The output should be similar to the
 following:
 

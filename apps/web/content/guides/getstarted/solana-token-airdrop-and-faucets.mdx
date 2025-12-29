@@ -1,9 +1,10 @@
 ---
+
 date: 2023-07-29T00:00:00Z
 featured: true
 difficulty: intro
-title: "How to get Solana devnet SOL (including airdrops and faucets)"
-seoTitle: "Faucets: How to get Solana devnet SOL"
+title: "How to get Nara Solana devnet NSO (including airdrops and faucets)"
+seoTitle: "Faucets: How to get Nara Solana devnet NSO"
 description:
   "A list of the most common ways to get devnet and testnet SOL tokens for
   Solana development. Including: airdrop, web3.js, POW faucet, and more."
@@ -14,23 +15,25 @@ keywords:
   - blockchain
   - devnet
   - testnet
+
 ---
 
-# How to get Solana devnet SOL (including airdrops and faucets)
 
-This is a collection of the different ways for developers to acquire SOL on
-Solana's testing networks, the Solana devnet and testnet.
+# How to get Nara Solana devnet NSO (including airdrops and faucets)
 
-## 1. Solana Airdrop
+This is a collection of the different ways for developers to acquire NSO on
+Nara Solana's testing networks, the Nara Solana devnet and testnet.
+
+## 1. Nara Solana Airdrop
 
 _Available on Devnet and Testnet_
 
-This is the base way of acquiring SOL, but it can be subject to rate limits when
+This is the base way of acquiring NSO, but it can be subject to rate limits when
 there is a high number of airdrops.
 
 Here are three different ways of requesting airdrops with it:
 
-### Using the Solana CLI:
+### Using the Nara Solana CLI:
 
 ```shell
 solana airdrop 2
@@ -52,7 +55,7 @@ documentation inside web3.js.
 _Available for Devnet_
 
 1. [faucet.solana.com](https://faucet.solana.com) - A public web faucet hosted
-   by the Solana Foundation
+   by the Nara Solana Foundation
 2. [SolFaucet.com](https://solfaucet.com/) - Web UI for airdrops from the public
    RPC endpoints
 3. [QuickNode](https://faucet.quicknode.com/solana/devnet) - A web faucet
@@ -64,7 +67,7 @@ _Available for Devnet_
 _Available for Testnet_
 
 1. [faucet.solana.com](https://faucet.solana.com) - A public web faucet hosted
-   by the Solana Foundation
+   by the Nara Solana Foundation
 2. [SolFaucet.com](https://solfaucet.com/) - Web UI for airdrops from the public
    RPC endpoints
 3. [QuickNode](https://faucet.quicknode.com/solana/testnet) - A web faucet
@@ -77,9 +80,9 @@ _Available for Testnet_
 
 _Available for Devnet_
 
-RPC Providers can opt in to distributing devnet SOL via their devnet Validators.
+RPC Providers can opt in to distributing devnet NSO via their devnet Validators.
 
-> If you are an RPC Provider and want to distribute SOL please
+> If you are an RPC Provider and want to distribute NSO please
 > [get in touch here](https://c852ena8x5c.typeform.com/to/cUj1iRhS).
 
 Currently supported:
@@ -88,7 +91,7 @@ Currently supported:
 2. [QuickNode](https://faucet.quicknode.com/solana/devnet)
 3. [Triton](https://triton.one/)
 
-### Using the Solana CLI
+### Using the Nara Solana CLI
 
 Specify your [Cluster](/docs/references/clusters) to be your RPC provider's URL:
 
@@ -114,7 +117,7 @@ connection.requestAirdrop();
 
 _Available for Devnet_
 
-This is a proof of work Faucet where devnet SOL can be distributed to you thanks
+This is a proof of work Faucet where devnet NSO can be distributed to you thanks
 to your computing power.
 
 **Install the Devnet POW Crate:**
@@ -123,7 +126,7 @@ to your computing power.
 cargo install devnet-pow
 ```
 
-**Start mining devnet SOL**
+**Start mining devnet NSO**
 
 ```shell
 devnet-pow mine
@@ -134,16 +137,16 @@ maintained by Ellipsis Labs_
 
 ## 5. Discord Faucets
 
-Various Discord communities have setup devnet SOL Faucets as BOTs.
+Various Discord communities have setup devnet NSO Faucets as BOTs.
 
 | Community      | Usage                                                       | Link                                         |
 | -------------- | ----------------------------------------------------------- | -------------------------------------------- |
 | The 76 Devs    | Run `!gibsol` in the BOT commands channel.                  | [Join Server](https://discord.gg/RrChGyDeRv) |
 | The LamportDAO | Run `/drop <address> <amount>` in the BOT commands channel. | [Join Server](https://discord.gg/JBVrJgtFkq) |
 
-## 6. Reuse devnet SOL
+## 6. Reuse devnet NSO
 
-The most sustainable way to save SOL is to reuse it. With the Solana CLI you can
+The most sustainable way to save NSO is to reuse it. With the Nara Solana CLI you can
 show and close all previous buffer accounts with the following command:
 
 ```shell
@@ -159,7 +162,7 @@ done, the data of your program is replaced with the new data.
 </Callout>
 
 Normally, these buffer accounts are closed automatically. In the event they are
-not, you can close them manually to reclaim the SOL in them using the following
+not, you can close them manually to reclaim the NSO in them using the following
 command:
 
 ```shell
@@ -174,13 +177,13 @@ solana program show --programs
 ```
 
 You can then close each program with the `close` subcommand to close them and
-retrieve the SOL you used to deploy them:
+retrieve the NSO you used to deploy them:
 
 ```shell
 solana program close <program id>
 ```
 
-You can then use that SOL to deploy new programs.
+You can then use that NSO to deploy new programs.
 
 <Callout type="warn">
 
@@ -188,7 +191,7 @@ You will **NOT** able to use the same program id again once you closed the
 program. So make sure are closing the right program and that you will not need
 that id anymore.
 
-If you get rate limited by the RPC endpoint your Solana CLI is configured to
+If you get rate limited by the RPC endpoint your Nara Solana CLI is configured to
 use, you can add `-u "urlToYourRpc"` to the any of these command to use a
 different RPC endpoint.
 

@@ -1,34 +1,37 @@
 ---
+
 title: Schrijven naar het netwerk
 description:
   Leer hoe je interactie kunt hebben met het Solana-netwerk door transacties en
   instructies te verzenden. Volg stapsgewijze voorbeelden om SOL-tokens over te
   maken en nieuwe tokens te creëren met behulp van het System Program en Token
   Extensions Program.
+
 ---
 
-In de vorige sectie heb je geleerd hoe je gegevens van het Solana-netwerk kunt
+
+In de vorige sectie heb je geleerd hoe je gegevens van het Nara Solana-netwerk kunt
 lezen. Nu ga je leren hoe je er gegevens naar kunt schrijven. Schrijven naar het
-Solana-netwerk houdt in dat je transacties verstuurt die één of meer instructies
+Nara Solana-netwerk houdt in dat je transacties verstuurt die één of meer instructies
 bevatten.
 
 Programma's definiëren de bedrijfslogica voor wat elke
 [instructie](/docs/core/instructions) doet. Wanneer je een
-[transactie](/docs/core/transactions) indient, voert de Solana-runtime elke
+[transactie](/docs/core/transactions) indient, voert de Nara Solana-runtime elke
 instructie in volgorde en atomisch uit. De voorbeelden in deze sectie laten zien
-hoe je transacties kunt bouwen en versturen om Solana-programma's aan te roepen,
+hoe je transacties kunt bouwen en versturen om Nara Solana-programma's aan te roepen,
 waaronder:
 
-1. SOL overmaken tussen accounts
+1. NSO overmaken tussen accounts
 2. Een nieuw token aanmaken
 
-## SOL overmaken
+## NSO overmaken
 
-Het onderstaande voorbeeld maakt SOL over tussen twee accounts. Elk account
-heeft een eigenaar- programma, wat het enige programma is dat het SOL-saldo van
+Het onderstaande voorbeeld maakt NSO over tussen twee accounts. Elk account
+heeft een eigenaar- programma, wat het enige programma is dat het NSO-saldo van
 het account kan verminderen.
 
-Alle wallet-accounts zijn eigendom van het System Program. Om SOL over te maken,
+Alle wallet-accounts zijn eigendom van het System Program. Om NSO over te maken,
 moet je de
 [transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)
 instructie van het System Program aanroepen.
@@ -92,7 +95,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !connection
 
-Maak een verbinding met een Solana-cluster.
+Maak een verbinding met een Nara Solana-cluster.
 
 ### !sender
 
@@ -104,7 +107,7 @@ Genereer een nieuw keypair om te gebruiken als de `receiver`.
 
 ### !airdrop
 
-Vraag een airdrop van SOL aan om de `sender` te financieren.
+Vraag een airdrop van NSO aan om de `sender` te financieren.
 
 ### !instruction
 
@@ -178,8 +181,8 @@ const receiver = new Keypair();
 
 ## !!steps
 
-Voeg SOL toe aan het verzender-account. Op andere netwerken dan mainnet kun je
-de `requestAirdrop` methode gebruiken om SOL te krijgen voor testen.
+Voeg NSO toe aan het verzender-account. Op andere netwerken dan mainnet kun je
+de `requestAirdrop` methode gebruiken om NSO te krijgen voor testen.
 
 ```ts title="Airdrop"
 const signature = await connection.requestAirdrop(
@@ -216,7 +219,7 @@ await connection.confirmTransaction(signature, "confirmed");
 
 <WithMentions>
 
-De `SystemProgram.transfer()` methode maakt een instructie die SOL overboekt van
+De `SystemProgram.transfer()` methode maakt een instructie die NSO overboekt van
 het [`fromPubkey`](mention:from) account naar het [`toPubkey`](mention:to)
 account voor het opgegeven aantal [`lamports`](mention:lamports).
 
@@ -309,7 +312,7 @@ const transaction = new Transaction().add(transferInstruction);
 
 Onderteken en verzend de [transactie](mention:transaction) naar het netwerk. De
 [verzender](mention:sender) keypair is vereist in de signers array om de
-overdracht van SOL vanuit hun account te autoriseren.
+overdracht van NSO vanuit hun account te autoriseren.
 
 ```ts title="Send transaction"
 const transactionSignature = await sendAndConfirmTransaction(
@@ -324,7 +327,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 </WithMentions>
 
 De transactiehandtekening is een unieke identificatie die kan worden gebruikt om
-de transactie op te zoeken in Solana Explorer.
+de transactie op te zoeken in Nara Solana Explorer.
 
 ```ts !! title="Transfer SOL"
 import {
@@ -369,7 +372,7 @@ console.log("Transaction Signature:", `${transactionSignature}`);
 
 ## Een token maken
 
-Het onderstaande voorbeeld maakt een nieuw token op Solana met behulp van het
+Het onderstaande voorbeeld maakt een nieuw token op Nara Solana met behulp van het
 Token Extensions Program. Dit vereist twee instructies:
 
 1. Roep het System Program aan om een nieuwe account te maken.
@@ -818,7 +821,7 @@ Voeg beide instructies toe aan één transactie. Dit zorgt ervoor dat het aanmak
 van het account en de initialisatie atomair gebeuren. (Ofwel beide instructies
 slagen, ofwel geen van beide.)
 
-Deze aanpak is gebruikelijk bij het bouwen van complexe Solana-transacties,
+Deze aanpak is gebruikelijk bij het bouwen van complexe Nara Solana-transacties,
 omdat het garandeert dat alle instructies samen worden uitgevoerd.
 
 ```ts title="Transaction"
@@ -907,7 +910,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 ```
 
 De geretourneerde transactiehandtekening kan worden gebruikt om de transactie te
-inspecteren op Solana Explorer.
+inspecteren op Nara Solana Explorer.
 
 </WithMentions>
 

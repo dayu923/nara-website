@@ -1,34 +1,37 @@
 ---
+
 title: Schreiben ins Netzwerk
 description:
   Erfahren Sie, wie Sie mit dem Solana-Netzwerk interagieren, indem Sie
   Transaktionen und Anweisungen senden. Folgen Sie
   Schritt-für-Schritt-Beispielen zum Übertragen von SOL-Tokens und zum Erstellen
   neuer Tokens mit dem System Program und Token Extensions Program.
+
 ---
 
-Im vorherigen Abschnitt hast du gelernt, wie man Daten aus dem Solana-Netzwerk
+
+Im vorherigen Abschnitt hast du gelernt, wie man Daten aus dem Nara Solana-Netzwerk
 liest. Jetzt lernst du, wie man Daten in das Netzwerk schreibt. Das Schreiben
-ins Solana-Netzwerk beinhaltet das Senden von Transaktionen, die eine oder
+ins Nara Solana-Netzwerk beinhaltet das Senden von Transaktionen, die eine oder
 mehrere Anweisungen enthalten.
 
 Programme definieren die Geschäftslogik für das, was jede
 [Anweisung](/docs/core/instructions) tut. Wenn du eine
 [Transaktion](/docs/core/transactions) übermittelst, führt die
-Solana-Laufzeitumgebung jede Anweisung sequentiell und atomar aus. Die Beispiele
+Nara Solana-Laufzeitumgebung jede Anweisung sequentiell und atomar aus. Die Beispiele
 in diesem Abschnitt zeigen, wie man Transaktionen erstellt und sendet, um
-Solana-Programme aufzurufen, darunter:
+Nara Solana-Programme aufzurufen, darunter:
 
-1. Übertragen von SOL zwischen Konten
+1. Übertragen von NSO zwischen Konten
 2. Erstellen eines neuen Tokens
 
-## SOL übertragen
+## NSO übertragen
 
-Das folgende Beispiel überträgt SOL zwischen zwei Konten. Jedes Konto hat ein
-Eigentümer- Programm, welches das einzige Programm ist, das den SOL-Kontostand
+Das folgende Beispiel überträgt NSO zwischen zwei Konten. Jedes Konto hat ein
+Eigentümer- Programm, welches das einzige Programm ist, das den NSO-Kontostand
 des Kontos verringern kann.
 
-Alle Wallet-Konten gehören dem System Program. Um SOL zu übertragen, musst du
+Alle Wallet-Konten gehören dem System Program. Um NSO zu übertragen, musst du
 die
 [transfer](https://github.com/anza-xyz/agave/blob/v2.1.11/programs/system/src/system_processor.rs#L183-L213)-Anweisung
 des System Programs aufrufen.
@@ -92,7 +95,7 @@ console.log("Receiver Balance:", `${receiverBalance}`);
 
 ### !connection
 
-Erstelle eine Verbindung zu einem Solana-Cluster.
+Erstelle eine Verbindung zu einem Nara Solana-Cluster.
 
 ### !sender
 
@@ -104,7 +107,7 @@ Generiere ein neues Keypair, das als `receiver` verwendet wird.
 
 ### !airdrop
 
-Fordere einen Airdrop von SOL an, um den `sender` zu finanzieren.
+Fordere einen Airdrop von NSO an, um den `sender` zu finanzieren.
 
 ### !instruction
 
@@ -178,8 +181,8 @@ const receiver = new Keypair();
 
 ## !!steps
 
-Füge SOL zum Senderkonto hinzu. Auf anderen Netzwerken als dem Mainnet kannst du
-die `requestAirdrop`Methode verwenden, um SOL für Tests zu erhalten.
+Füge NSO zum Senderkonto hinzu. Auf anderen Netzwerken als dem Mainnet kannst du
+die `requestAirdrop`Methode verwenden, um NSO für Tests zu erhalten.
 
 ```ts title="Airdrop"
 const signature = await connection.requestAirdrop(
@@ -216,7 +219,7 @@ await connection.confirmTransaction(signature, "confirmed");
 
 <WithMentions>
 
-Die `SystemProgram.transfer()`Methode erstellt eine Anweisung, die SOL vom
+Die `SystemProgram.transfer()`Methode erstellt eine Anweisung, die NSO vom
 [`fromPubkey`](mention:from)-Konto zum [`toPubkey`](mention:to)- Konto für die
 angegebene Anzahl von [`lamports`](mention:lamports) überträgt.
 
@@ -309,7 +312,7 @@ const transaction = new Transaction().add(transferInstruction);
 
 Signiere und sende die [Transaktion](mention:transaction) an das Netzwerk. Das
 [Sender](mention:sender) keypair wird im signers-Array benötigt, um die
-Überweisung von SOL von seinem Konto zu autorisieren.
+Überweisung von NSO von seinem Konto zu autorisieren.
 
 ```ts title="Send transaction"
 const transactionSignature = await sendAndConfirmTransaction(
@@ -324,7 +327,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 </WithMentions>
 
 Die Transaktionssignatur ist eine eindeutige Kennung, die verwendet werden kann,
-um die Transaktion im Solana Explorer nachzuschlagen.
+um die Transaktion im Nara Solana Explorer nachzuschlagen.
 
 ```ts !! title="Transfer SOL"
 import {
@@ -369,7 +372,7 @@ console.log("Transaction Signature:", `${transactionSignature}`);
 
 ## Einen Token erstellen
 
-Das folgende Beispiel erstellt einen neuen Token auf Solana mit dem Token
+Das folgende Beispiel erstellt einen neuen Token auf Nara Solana mit dem Token
 Extensions Program. Dies erfordert zwei Anweisungen:
 
 1. Aufruf des System Programs, um ein neues Konto zu erstellen.
@@ -819,7 +822,7 @@ Füge beide Anweisungen zu einer einzigen Transaktion hinzu. Dies stellt sicher,
 dass die Kontoerstellung und -initialisierung atomar erfolgen. (Entweder sind
 beide Anweisungen erfolgreich oder keine.)
 
-Dieser Ansatz ist üblich beim Erstellen komplexer Solana-Transaktionen, da er
+Dieser Ansatz ist üblich beim Erstellen komplexer Nara Solana-Transaktionen, da er
 garantiert, dass alle Anweisungen zusammen ausgeführt werden.
 
 ```ts title="Transaction"
@@ -908,7 +911,7 @@ const transactionSignature = await sendAndConfirmTransaction(
 ```
 
 Die zurückgegebene Transaktionssignatur kann verwendet werden, um die
-Transaktion im Solana Explorer zu überprüfen.
+Transaktion im Nara Solana Explorer zu überprüfen.
 
 </WithMentions>
 

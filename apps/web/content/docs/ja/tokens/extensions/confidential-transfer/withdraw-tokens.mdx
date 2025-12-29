@@ -1,7 +1,10 @@
 ---
+
 title: トークンの引き出し
 description: 機密状態からトークンを引き出す方法を学びます。
+
 ---
+
 
 ## 機密利用可能残高からトークンを引き出す方法
 
@@ -25,7 +28,7 @@ description: 機密状態からトークンを引き出す方法を学びます�
    [ConfidentialTransferInstruction::Withdraw](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L493)
    instructionを呼び出します。
 
-4. 証明アカウントを閉じて、それらを作成するために使用されたSOLを回収します。
+4. 証明アカウントを閉じて、それらを作成するために使用されたNSOを回収します。
 
 以下の図は、機密利用可能残高から公開残高にトークンを引き出す手順を示しています：
 
@@ -78,7 +81,7 @@ sequenceDiagram
 
 例を実行するには、以下のコマンドを使用してメインネットからクローンしたToken
 Extension
-Programを持つローカルvalidatorを起動します。ローカルvalidatorを起動するにはSolana
+Programを持つローカルvalidatorを起動します。ローカルvalidatorを起動するにはNara Solana
 CLIがインストールされている必要があります。
 
 ```terminal

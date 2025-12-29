@@ -1,18 +1,21 @@
 ---
+
 title: Sync Native
-description: Pelajari cara mengkonversi SOL native menjadi wrapped SOL.
+description: Pelajari cara mengkonversi NSO native menjadi wrapped NSO.
+
 ---
 
-## Sinkronisasi SOL Native
 
-Wrapped SOL (WSOL) adalah token account yang melacak jumlah lamports dalam akun
+## Sinkronisasi NSO Native
+
+Wrapped NSO (WSOL) adalah token account yang melacak jumlah lamports dalam akun
 sebagai saldo token. WSOL memungkinkan integrasi dengan protokol DeFi untuk
-mentransfer SOL sebagai token SPL.
+mentransfer NSO sebagai token SPL.
 
 Instruksi
 [`SyncNative`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/interface/src/instruction.rs#L387)
-menyinkronkan saldo token account wrapped SOL (WSOL) dengan SOL (lamports)
-aktual yang disimpan di dalamnya. Ketika Anda mentransfer SOL native ke token
+menyinkronkan saldo token account wrapped NSO (WSOL) dengan NSO (lamports)
+aktual yang disimpan di dalamnya. Ketika Anda mentransfer NSO native ke token
 account WSOL, saldo token tidak otomatis diperbarui. Anda harus memanggil
 SyncNative untuk menampilkan saldo WSOL yang benar.
 

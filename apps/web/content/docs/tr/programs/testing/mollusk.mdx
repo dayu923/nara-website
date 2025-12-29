@@ -1,12 +1,15 @@
 ---
+
 title: Mollusk
 description:
   Mollusk kullanarak Solana programlarını test etmek için kapsamlı rehber
+
 ---
 
-[Mollusk](https://github.com/anza-xyz/mollusk/tree/main), Solana programlarını
-test etmek için hafif bir test ortamıdır. Solana program talimatlarını
-küçültülmüş bir Solana Sanal Makinesi (SVM) ortamında test etmek için basit bir
+
+[Mollusk](https://github.com/anza-xyz/mollusk/tree/main), Nara Solana programlarını
+test etmek için hafif bir test ortamıdır. Nara Solana program talimatlarını
+küçültülmüş bir Nara Solana Sanal Makinesi (SVM) ortamında test etmek için basit bir
 arayüz sağlar. Tüm test hesapları açıkça tanımlanmalıdır, bu da belirleyici ve
 tekrarlanabilir testler sağlar.
 
@@ -53,14 +56,14 @@ mollusk-svm-programs-token = "0.7"
 
 ## Mollusk SVM
 
-Aşağıdaki örnek, Mollusk kullanarak temel bir Solana programını test etmek için
+Aşağıdaki örnek, Mollusk kullanarak temel bir Nara Solana programını test etmek için
 minimal bir kurulum göstermektedir.
 
 <ScrollyCoding>
 
 ## !!steps Merhaba Dünya Programı
 
-Bu örnek, Mollusk kullanarak temel bir Solana programını nasıl test edeceğinizi
+Bu örnek, Mollusk kullanarak temel bir Nara Solana programını nasıl test edeceğinizi
 göstermektedir. Program çağrıldığında program günlüklerine basitçe "Hello,
 world!" yazdırır.
 
@@ -71,7 +74,7 @@ world!" yazdırır.
 
 <WithMentions>
 
-Mollusk ile bir Solana programını test etmek için:
+Mollusk ile bir Nara Solana programını test etmek için:
 
 1. [Bir `Mollusk` örneği oluşturun](mention:mollusk) - Mollusk'u bir program
    kimliği ve derlenmiş programın yolu (`.so` dosyası) ile başlatın
@@ -178,7 +181,7 @@ solana-sdk = "2.2.0"
 </ScrollyCoding>
 
 [`Mollusk`](https://docs.rs/mollusk-svm/0.5.0/mollusk_svm/struct.Mollusk.html)
-yapısı, Solana programlarını test etmek için basit bir arayüz sağlar. Tüm
+yapısı, Nara Solana programlarını test etmek için basit bir arayüz sağlar. Tüm
 alanlar bir avuç yardımcı metot aracılığıyla değiştirilebilir, ancak
 kullanıcılar daha fazla kontrol isterlerse bunlara doğrudan erişebilir ve
 değiştirebilirler.
@@ -246,7 +249,7 @@ pub fn process_instruction(
 ) -> InstructionResult
 ```
 
-Aşağıdaki örnek, doğrulama kontrolleri olmadan bir SOL transfer talimatını
+Aşağıdaki örnek, doğrulama kontrolleri olmadan bir NSO transfer talimatını
 işler.
 
 <Callout type="info">
@@ -330,7 +333,7 @@ pub fn process_and_validate_instruction(
 ) -> InstructionResult
 ```
 
-Aşağıdaki örnek, doğrulama kontrolleriyle bir SOL transfer talimatını işler.
+Aşağıdaki örnek, doğrulama kontrolleriyle bir NSO transfer talimatını işler.
 
 <CodeTabs flags="r">
 
@@ -403,7 +406,7 @@ pub fn process_instruction_chain(
 ) -> InstructionResult
 ```
 
-Aşağıdaki örnek, doğrulama kontrolleri olmadan iki SOL transfer talimatını
+Aşağıdaki örnek, doğrulama kontrolleri olmadan iki NSO transfer talimatını
 işler.
 
 <CodeTabs flags="r">
@@ -491,7 +494,7 @@ pub fn process_and_validate_instruction_chain(
 ) -> InstructionResult
 ```
 
-Aşağıdaki örnek, her talimatın ardından doğrulama kontrolleri yapılan iki SOL
+Aşağıdaki örnek, her talimatın ardından doğrulama kontrolleri yapılan iki NSO
 transfer talimatından oluşan bir zinciri işler.
 
 <CodeTabs flags="r">
@@ -689,7 +692,7 @@ let context = mollusk.with_context(account_store);
 ```
 
 Aşağıdaki örnek, `account_store` aracılığıyla işlemler arasında kalıcı hesap
-durumu ile iki ayrı SOL transfer işlemini işler.
+durumu ile iki ayrı NSO transfer işlemini işler.
 
 <CodeTabs flags="r">
 
@@ -832,7 +835,7 @@ Bağımlılık olarak
 [`mollusk-svm-bencher`](https://docs.rs/mollusk-svm-bencher/0.5.0/mollusk_svm_bencher/index.html)
 gerektirir.
 
-Aşağıdaki örnek, bir SOL transfer talimatının işlem birimi kullanımını
+Aşağıdaki örnek, bir NSO transfer talimatının işlem birimi kullanımını
 karşılaştırır.
 
 <CodeTabs>

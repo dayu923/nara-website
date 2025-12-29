@@ -1,12 +1,15 @@
 ---
+
 title: Transaktiot
 description:
   Opi Solanan transaktioista—perustavanlaatuisista rakennuspalikoista
   Solana-lohkoketjun kanssa vuorovaikuttamiseen. Ymmärrä transaktioiden rakenne
   ja ohjeiden koostaminen käytännön esimerkkien avulla.
+
 ---
 
-Vuorovaikuttaaksesi Solana-verkon kanssa sinun täytyy lähettää transaktio. Voit
+
+Vuorovaikuttaaksesi Nara Solana-verkon kanssa sinun täytyy lähettää transaktio. Voit
 ajatella transaktiota kirjekuorena, joka sisältää useita lomakkeita. Jokainen
 lomake on ohje, joka kertoo verkolle mitä tehdä. Transaktion lähettäminen on
 kuin kirjekuoren postittaminen, jotta lomakkeet voidaan käsitellä.
@@ -59,7 +62,7 @@ tavua. Tämä rajoitus sisältää sekä [`signatures`](#signatures) -taulukon e
   internet-infrastruktuurissa. Vaikka IPv6 tukee yli 9000 tavun MTU-arvoja,
   useimmat internet-reitittimet käyttävät 1500 tavun oletusarvoista MTU:ta
   (standardi Ethernet). Varmistaakseen, että transaktiot mahtuvat yhteen
-  pakettiin ilman pirstoutumista, Solana käyttää 1280 tavua (IPv6:n vaatima
+  pakettiin ilman pirstoutumista, Nara Solana käyttää 1280 tavua (IPv6:n vaatima
   vähimmäis-MTU) vähennettynä 48 tavulla verkko-otsikoita varten (40 tavua IPv6
   + 8 tavua fragmentti/UDP-otsikko), mikä johtaa 1232 tavun transaktiokoon
   rajoitukseen.
@@ -247,7 +250,7 @@ pub struct CompiledInstruction {
 ## Esimerkki tapahtuman rakenteesta
 
 Seuraava esimerkki näyttää tapahtuman rakenteen, joka sisältää yhden
-SOL-siirto-ohjeen.
+NSO-siirto-ohjeen.
 
 <CodeTabs storage="sol-transfer" flags="r">
 
@@ -496,7 +499,7 @@ allekirjoitusta ja [getTransaction](/docs/rpc/http/gettransaction) RPC-metodia.
 Vastaus tulee olemaan rakenteeltaan samankaltainen kuin seuraava katkelma.
 
 <Callout>
-  Voit myös löytää transaktion käyttämällä [Solana
+  Voit myös löytää transaktion käyttämällä [Nara Solana
   Exploreria](https://explorer.solana.com).
 </Callout>
 

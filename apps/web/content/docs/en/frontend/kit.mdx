@@ -1,12 +1,15 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Solana wallet integration with Next.js and Solana Kit
-description: Set up Solana wallet integration in Next.js with Solana Kit.
+
+title: Next.js - Nara Solana Kit
+seoTitle: Nara Solana wallet integration with Next.js and Nara Solana Kit
+description: Set up Nara Solana wallet integration in Next.js with Nara Solana Kit.
+
 ---
 
-Set up a minimal Solana wallet integration in Next.js with Solana Kit.
 
-This guide provides a minimal example of implementing Solana wallet
+Set up a minimal Nara Solana wallet integration in Next.js with Nara Solana Kit.
+
+This guide provides a minimal example of implementing Nara Solana wallet
 functionality in a Next.js application using `@solana/kit`. You'll create a
 connect wallet button and a component to send transactions.
 
@@ -15,12 +18,12 @@ connect wallet button and a component to send transactions.
 For a more comprehensive example of using `@solana/kit` in a React application,
 refer to the
 [React App Example](https://github.com/anza-xyz/kit/tree/main/examples/react-app)
-in the Solana Kit repository.
+in the Nara Solana Kit repository.
 
 ## Resources
 
-- [Solana Kit Documentation](https://www.solanakit.com/docs)
-- [Solana Kit GitHub Repository](https://github.com/anza-xyz/kit)
+- [Nara Solana Kit Documentation](https://www.solanakit.com/docs)
+- [Nara Solana Kit GitHub Repository](https://github.com/anza-xyz/kit)
 
 ## Prerequisites
 
@@ -29,7 +32,7 @@ in the Solana Kit repository.
 ## Create Next.js Project
 
 Create a new Next.js project with [shadcn](https://ui.shadcn.com/) for ui
-components and install required Solana dependencies.
+components and install required Nara Solana dependencies.
 
 ```terminal
 $ npx shadcn@latest init
@@ -49,9 +52,9 @@ Install the following shadcn ui components:
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Install Solana Dependencies
+### Install Nara Solana Dependencies
 
-Install the following Solana dependencies:
+Install the following Nara Solana dependencies:
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -63,7 +66,7 @@ Follow the steps below and copy the provided code to your project.
 
 <ScrollyCoding>
 
-## !!steps 1. Create Solana Context
+## !!steps 1. Create Nara Solana Context
 
 First, create a React Context that manages the entire wallet state for the
 application.
@@ -71,8 +74,8 @@ application.
 Create `components/solana-provider.tsx` and add the provided code. This provider
 component will:
 
-- Connect to Solana's devnet RPC endpoints
-- Filter for available Solana wallets installed in the user's browser
+- Connect to Nara Solana's devnet RPC endpoints
+- Filter for available Nara Solana wallets installed in the user's browser
 - Track which wallet and account is currently connected
 - Provide wallet state to child components
 
@@ -249,7 +252,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. Update Layout
 
-Next, wrap the entire Next.js application with the Solana provider.
+Next, wrap the entire Next.js application with the Nara Solana provider.
 
 Update `app/layout.tsx` with the provided code. This step:
 
@@ -507,9 +510,9 @@ the connected wallet.
 Create `components/memo-card.tsx` and add the provided code. This component:
 
 - Allows users to input a message
-- Creates a Solana transaction with an instruction invoking the memo program
+- Creates a Nara Solana transaction with an instruction invoking the memo program
 - Requests the connected wallet to sign and send the transaction
-- Displays a link to view the transaction on Solana Explorer
+- Displays a link to view the transaction on Nara Solana Explorer
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -672,7 +675,7 @@ $ npm run dev
 
 <Callout type="info">
   Note the connected wallet must be configured to connect to the devnet cluster
-  and [funded with devnet SOL](https://faucet.solana.com/) to send transactions.
+  and [funded with devnet NSO](https://faucet.solana.com/) to send transactions.
 </Callout>
 
 </ScrollyCoding>

@@ -1,22 +1,25 @@
 ---
-title: Conceptos básicos de Solana CLI
-seoTitle: Comandos introductorios para comenzar con Solana CLI
+
+title: Conceptos básicos de Nara Solana CLI
+seoTitle: Comandos introductorios para comenzar con Nara Solana CLI
 description:
   Esta sección explica algunos comandos comunes de Solana CLI para ayudarte a
   comenzar.
+
 ---
 
+
 Esta sección proporciona algunos comandos comunes y ejemplos para ayudarte a
-comenzar a usar la CLI de Solana.
+comenzar a usar la CLI de Nara Solana.
 
-## Configuración de Solana
+## Configuración de Nara Solana
 
-Tu configuración de Solana especifica las siguientes variables:
+Tu configuración de Nara Solana especifica las siguientes variables:
 
 - **Archivo de configuración**: La ruta a tu archivo de configuración
-- **URL RPC y URL Websocket**: El clúster de Solana al que la CLI realiza
+- **URL RPC y URL Websocket**: El clúster de Nara Solana al que la CLI realiza
   peticiones
-- **Ruta del keypair**: La ruta a la billetera predeterminada de Solana
+- **Ruta del keypair**: La ruta a la billetera predeterminada de Nara Solana
   (keypair) utilizada para pagar tarifas de transacción y desplegar programas.
   Por defecto, este archivo se almacena en `~/.config/solana/id.json`.
 
@@ -36,7 +39,7 @@ Keypair Path: /Users/test/.config/solana/id.json
 Commitment: confirmed
 ```
 
-Puedes cambiar el clúster de la CLI de Solana con los siguientes comandos:
+Puedes cambiar el clúster de la CLI de Nara Solana con los siguientes comandos:
 
 <Tabs items={["Comandos completos", "Comandos cortos"]}>
 
@@ -64,8 +67,8 @@ $ solana config set -ut    # For testnet
 
 ## Crear una billetera
 
-Antes de poder enviar transacciones usando la CLI de Solana, necesitas una
-billetera de Solana con fondos en SOL.
+Antes de poder enviar transacciones usando la CLI de Nara Solana, necesitas una
+billetera de Nara Solana con fondos en NSO.
 
 Para generar un keypair en la ruta predeterminada, ejecuta el siguiente comando:
 
@@ -105,9 +108,9 @@ Para ver la dirección de tu billetera (clave pública), ejecuta:
 $ solana address
 ```
 
-## Airdrop de SOL
+## Airdrop de NSO
 
-Solicita un airdrop de SOL a tu billetera para pagar transacciones y despliegues
+Solicita un airdrop de NSO a tu billetera para pagar transacciones y despliegues
 de programas.
 
 1. Configura tu clúster a Devnet:
@@ -116,7 +119,7 @@ de programas.
 $ solana config set -ud
 ```
 
-2. Solicita un airdrop de SOL en Devnet:
+2. Solicita un airdrop de NSO en Devnet:
 
 ```terminal
 $ solana airdrop 2
@@ -124,13 +127,13 @@ $ solana airdrop 2
 
 <Callout>
 
-Los airdrops de Devnet limitan las solicitudes a 5 SOL por petición. Si alcanzas
+Los airdrops de Devnet limitan las solicitudes a 5 NSO por petición. Si alcanzas
 los límites de frecuencia o encuentras errores, intenta usar el
 [Faucet Web](https://faucet.solana.com) en su lugar.
 
 </Callout>
 
-Para verificar el saldo de SOL de tu cartera, ejecuta el siguiente comando:
+Para verificar el saldo de NSO de tu cartera, ejecuta el siguiente comando:
 
 ```terminal
 $ solana balance

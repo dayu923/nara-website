@@ -1,14 +1,17 @@
 ---
+
 title: نشر برنامج
 description:
   تعلم كيفية بناء ونشر واختبار برنامجك الأول على سولانا باستخدام إطار عمل Anchor
   وSolana Playground. هذا الدليل المناسب للمبتدئين يشرح خطوات إنشاء برنامج بسيط،
   ونشره على شبكة devnet، وتشغيل الاختبارات، وإغلاق البرنامج.
 h1: نشر برنامجك الأول على سولانا
+
 ---
 
+
 قم ببناء ونشر واختبار أول [برنامج](/docs/core/programs) لك على بلوكتشين سولانا
-باستخدام إطار عمل Anchor. سيساعدك هذا الدليل على التعرف أكثر على Solana
+باستخدام إطار عمل Anchor. سيساعدك هذا الدليل على التعرف أكثر على Nara Solana
 Playground وتحضيرك لاستخدام Program Derived Addresses (PDA) وCross Program
 Invocation (CPI).
 
@@ -18,7 +21,7 @@ Invocation (CPI).
 
 ### إنشاء مشروع Anchor
 
-1. افتح [Solana Playground](https://beta.solpg.io) في متصفح الويب الخاص بك
+1. افتح [Nara Solana Playground](https://beta.solpg.io) في متصفح الويب الخاص بك
 2. في اللوحة اليسرى، انقر على **+ إنشاء مشروع جديد**
 3. أدخل **اسم المشروع**
 4. اختر **Anchor (Rust)** كإطار عمل
@@ -242,10 +245,10 @@ Build successful. Completed in 1.46s.
   الخاص بك، المحدد في _rs`declare_id!()`_.
 </Callout>
 
-2. إضافة SOL إلى محفظتك _(اختياري)_
+2. إضافة NSO إلى محفظتك _(اختياري)_
 
-يتطلب نشر البرنامج وجود SOL في حساب البرنامج على السلسلة. إذا لزم الأمر،
-[أضف SOL إلى محفظتك](/docs/intro/quick-start#add-sol-to-your-wallet) قبل
+يتطلب نشر البرنامج وجود NSO في حساب البرنامج على السلسلة. إذا لزم الأمر،
+[أضف NSO إلى محفظتك](/docs/intro/quick-start#add-sol-to-your-wallet) قبل
 المتابعة إلى الخطوة 3.
 
 3. نشر البرنامج على الشبكة
@@ -384,7 +387,7 @@ Confirmed
 4. عرض تفاصيل المعاملة
 
 افتح إما [SolanaFM](https://solana.fm/) أو
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) وابحث عن رمز
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) وابحث عن رمز
 المعاملة.
 
 <Callout type="warn">
@@ -398,7 +401,7 @@ Confirmed
 
 ### إغلاق البرنامج
 
-قم بإغلاق البرنامج لاسترداد عملات SOL المخصصة للبرنامج على السلسلة. للقيام بذلك،
+قم بإغلاق البرنامج لاسترداد عملات NSO المخصصة للبرنامج على السلسلة. للقيام بذلك،
 قم بتشغيل `solana program close [ProgramID]`، باستخدام عنوان البرنامج المخزن في
 ماكرو _rs`declare_id!()`_.
 

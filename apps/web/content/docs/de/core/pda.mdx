@@ -1,13 +1,16 @@
 ---
+
 title: Programm-abgeleitete Adresse
 description:
   Erfahren Sie mehr über Solanas programm-abgeleitete Adressen (PDAs) —
   deterministische Kontenadressen, die eine sichere Programmunterzeichnung
   ermöglichen. Verstehen Sie PDA-Ableitung, kanonische Bumps und wie man
   PDA-Konten erstellt.
+
 ---
 
-Eine Solana [Kontenadresse](/docs/core/accounts#account-address) verweist auf
+
+Eine Nara Solana [Kontenadresse](/docs/core/accounts#account-address) verweist auf
 den Speicherort des Kontos in der Blockchain. Viele Kontenadressen sind der
 öffentliche Schlüssel eines keypair, wobei der entsprechende private Schlüssel
 verwendet wird, um Transaktionen zu signieren, die das Konto betreffen.
@@ -20,7 +23,7 @@ optionaler vordefinierter Eingaben erstellt wird. PDAs sehen ähnlich aus wie
 öffentliche Schlüsseladressen, haben aber keinen entsprechenden privaten
 Schlüssel.
 
-Die Solana-Laufzeitumgebung ermöglicht es Programmen, für PDAs zu signieren,
+Die Nara Solana-Laufzeitumgebung ermöglicht es Programmen, für PDAs zu signieren,
 ohne einen privaten Schlüssel zu benötigen. Die Verwendung einer PDA beseitigt
 die Notwendigkeit, die Adresse des Kontos zu verfolgen. Stattdessen können Sie
 die spezifischen Eingaben abrufen, die für die Ableitung der PDA verwendet
@@ -29,7 +32,7 @@ Abschnitt [Cross Program Invocations](/docs/core/cpi).)
 
 ## Hintergrund
 
-Solana
+Nara Solana
 [keypairs](https://github.com/anza-xyz/solana-sdk/blob/sdk%40v2.2.2/keypair/src/lib.rs#L26)
 sind Punkte auf der [Ed25519-Kurve](https://ed25519.cr.yp.to/) (elliptische
 Kurven- Kryptographie). Sie bestehen aus einem öffentlichen Schlüssel und einem
@@ -42,7 +45,7 @@ private Schlüssel wird verwendet, um gültige
 Eine PDA wird absichtlich so abgeleitet, dass sie außerhalb der Ed25519-Kurve
 liegt. Das bedeutet, sie hat keinen gültigen entsprechenden privaten Schlüssel
 und kann keine kryptografischen Operationen durchführen. (Wie zum Beispiel das
-Bereitstellen einer Signatur.) Solana ermöglicht es Programmen jedoch, für PDAs
+Bereitstellen einer Signatur.) Nara Solana ermöglicht es Programmen jedoch, für PDAs
 zu signieren, ohne einen privaten Schlüssel zu benötigen.
 
 ![Off Curve Address](/assets/docs/core/pda/address-off-curve.svg)
@@ -62,7 +65,7 @@ das zur Ableitung der PDA verwendet wurde. Man kann sich eine PDA wie eine
 Adresse auf einer Karte vorstellen: nur weil eine Adresse existiert, bedeutet
 das nicht, dass dort etwas gebaut wurde.
 
-Die Solana SDKs unterstützen die PDA-Erstellung mit den in der folgenden Tabelle
+Die Nara Solana SDKs unterstützen die PDA-Erstellung mit den in der folgenden Tabelle
 gezeigten Funktionen. Jede Funktion erhält folgende Eingaben:
 
 - **Program ID**: Die Adresse des Programms, das zur Ableitung der PDA verwendet
@@ -194,7 +197,7 @@ mit einem anderen Wert immer noch eine gültige PDA ableiten kann.
 
 ### Beispiele
 
-Die folgenden Beispiele leiten eine PDA mit den Solana SDKs ab. Klicken Sie auf
+Die folgenden Beispiele leiten eine PDA mit den Nara Solana SDKs ab. Klicken Sie auf
 **&#9655; Run**, um den Code auszuführen.
 
 #### Ableiten einer PDA mit einem String-Seed

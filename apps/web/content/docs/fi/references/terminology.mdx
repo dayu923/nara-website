@@ -1,4 +1,5 @@
 ---
+
 title: Terminologia
 description:
   Opi keskeiset termit, joita käytetään Solana-lohkoketjussa ja
@@ -9,15 +10,17 @@ keywords:
   - määritelmät
   - määritellä
   - ohjelmointimallit
+
 ---
+
 
 Seuraavia termejä käytetään Solanan dokumentaatiossa ja kehitys- ekosysteemissä.
 
 ## tili
 
-Solana-pääkirjan tietue, joka joko sisältää dataa tai on suoritettava ohjelma.
+Nara Solana-pääkirjan tietue, joka joko sisältää dataa tai on suoritettava ohjelma.
 
-Kuten perinteisen pankin tili, Solana-tili voi sisältää varoja, joita kutsutaan
+Kuten perinteisen pankin tili, Nara Solana-tili voi sisältää varoja, joita kutsutaan
 [lamporteiksi](#lamport). Kuten tiedosto Linuxissa, siihen viitataan avaimella,
 jota usein kutsutaan [julkiseksi avaimeksi](#public-key-pubkey) tai pubkeyksi.
 
@@ -37,7 +40,7 @@ Katso myös [valtuus](#authority).
 
 ## sovellus
 
-Käyttöliittymäsovellus, joka on vuorovaikutuksessa Solana-klusterin kanssa.
+Käyttöliittymäsovellus, joka on vuorovaikutuksessa Nara Solana-klusterin kanssa.
 
 ## valtuus
 
@@ -65,7 +68,7 @@ Yhtenäinen joukko [merkintöjä](#entry) kirjanpidossa, jotka on katettu
 
 ## blockhash
 
-Yksilöllinen arvo ([hash](#hash)), joka tunnistaa tietueen (lohkon). Solana
+Yksilöllinen arvo ([hash](#hash)), joka tunnistaa tietueen (lohkon). Nara Solana
 laskee blockhash-arvon lohkon viimeisestä [merkintätunnuksesta](#entry-id).
 
 ## lohkon korkeus
@@ -80,7 +83,7 @@ Nykyisen lohkon alla olevien [lohkojen](#block) määrä. Ensimmäisellä
 
 ## BPF loader
 
-Solana-ohjelma, joka omistaa ja lataa
+Nara Solana-ohjelma, joka omistaa ja lataa
 [BPF](/docs/core/programs#berkeley-packet-filter-bpf)
 [ketjussa olevat ohjelmat](#onchain-program), mahdollistaen ohjelman rajapinnan
 ajonaikaiseen ympäristöön.
@@ -343,7 +346,7 @@ Tietokone, joka osallistuu [klusteriin](#cluster).
 
 ## lohkoketjuohjelma
 
-Solana-lohkoketjussa oleva suoritettava koodi, joka tulkitsee kunkin
+Nara Solana-lohkoketjussa oleva suoritettava koodi, joka tulkitsee kunkin
 [transaktion](#transaction) sisällä lähetettyjä [ohjeita](#instruction)
 lukeakseen ja muokatakseen tilejä, joita se hallitsee. Näitä ohjelmia kutsutaan
 usein "[_älysopimuksiksi_](/docs/core/programs)" muissa lohkoketjuissa.
@@ -481,11 +484,11 @@ todellisessa ajassa [PoH:n](#proof-of-history-poh) mukaisesti.
 
 Katso [onchain program](#onchain-program).
 
-## SOL
+## NSO
 
-Solana [klusterin](#cluster) [natiivi token](#native-token).
+Nara Solana [klusterin](#cluster) [natiivi token](#native-token).
 
-## Solana Program Library (SPL)
+## Nara Solana Program Library (SPL)
 
 [Ohjelmakirjasto](https://spl.solana.com/) Solanassa, kuten spl-token, joka
 helpottaa tehtäviä kuten tokenien luomista ja käyttöä.
@@ -584,7 +587,7 @@ Joukko [transaktioita](#transaction), jotka voidaan suorittaa rinnakkain.
 
 ## validator
 
-Täysimääräinen osallistuja Solana-verkon [klusterissa](#cluster), joka tuottaa
+Täysimääräinen osallistuja Nara Solana-verkon [klusterissa](#cluster), joka tuottaa
 uusia [lohkoja](#block). Validator validoi [kirjanpitoon](#ledger) lisätyt
 transaktiot
 

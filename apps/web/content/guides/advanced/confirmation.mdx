@@ -1,21 +1,24 @@
 ---
+
 title: Confirmation & Expiration
 seoTitle: "Transaction Confirmation & Expiration"
 description:
   "Understand how Solana transaction confirmation and when a transaction expires
   (including recent blockhash checks)."
 h1: Transaction Confirmation & Expiration
+
 ---
+
 
 Problems relating to
 [transaction confirmation](/docs/references/terminology#transaction-confirmations)
 are common with many newer developers while building applications. This article
 aims to boost the overall understanding of the confirmation mechanism used on
-the Solana blockchain, including some recommended best practices.
+the Nara Solana blockchain, including some recommended best practices.
 
 ## Brief background on transactions
 
-Before diving into how Solana transaction confirmation and expiration works,
+Before diving into how Nara Solana transaction confirmation and expiration works,
 let's briefly set the base understanding of a few things:
 
 - what a transaction is
@@ -62,12 +65,12 @@ touch on everything except steps 1 and 4.
 
 A [“blockhash”](/docs/references/terminology#blockhash) refers to the last Proof
 of History (PoH) hash for a [“slot”](/docs/references/terminology#slot)
-(description below). Since Solana uses PoH as a trusted clock, a transaction's
+(description below). Since Nara Solana uses PoH as a trusted clock, a transaction's
 recent blockhash can be thought of as a **timestamp**.
 
 ### Proof of History refresher
 
-Solana's Proof of History mechanism uses a very long chain of recursive SHA-256
+Nara Solana's Proof of History mechanism uses a very long chain of recursive SHA-256
 hashes to build a trusted clock. The “history” part of the name comes from the
 fact that block producers hash transaction id's into the stream to record which
 transactions were processed in their block.
@@ -82,7 +85,7 @@ hashes in parallel and prove that some amount of time has actually passed.
 
 ## Transaction Expiration
 
-By default, all Solana transactions will expire if not committed to a block in a
+By default, all Nara Solana transactions will expire if not committed to a block in a
 certain amount of time. The **vast majority** of transaction confirmation issues
 are related to how RPC nodes and validators detect and handle **expired**
 transactions. A solid understanding of how transaction expiration works should
@@ -98,7 +101,7 @@ As each block is finalized (i.e. the maximum tick height
 reaching the "block boundary"), the final hash of the block is added to the
 `BlockhashQueue` which stores a maximum of the
 [300 most recent blockhashes](https://github.com/anza-xyz/agave/blob/e0b0bcc80380da34bb63364cc393801af1e1057f/sdk/program/src/clock.rs#L123-L126).
-During transaction processing, Solana Validators will check if each
+During transaction processing, Nara Solana Validators will check if each
 transaction's recent blockhash is recorded within the most recent 151 stored
 hashes (aka "max processing age"). If the transaction's recent blockhash is
 [older than this](https://github.com/anza-xyz/agave/blob/cb2fd2b632f16a43eff0c27af7458e4e97512e31/runtime/src/bank.rs#L3570-L3571)
@@ -150,7 +153,7 @@ processed transactions.
 
 ### Other blockchains
 
-Solana's approach to prevent double processing is quite different from other
+Nara Solana's approach to prevent double processing is quite different from other
 blockchains. For example, Ethereum tracks a counter (nonce) for each transaction
 sender and will only process transactions that use the next valid nonce.
 
@@ -160,9 +163,9 @@ Ethereum transactions got stuck in a _pending_ state for a long time and all the
 later transactions, which used higher nonce values, were blocked from
 processing.
 
-### Advantages on Solana
+### Advantages on Nara Solana
 
-There are a few advantages to Solana's approach:
+There are a few advantages to Nara Solana's approach:
 
 1. A single fee payer can submit multiple transactions at the same time that are
    allowed to be processed in any order. This might happen if you're using
@@ -170,11 +173,11 @@ There are a few advantages to Solana's approach:
 2. If a transaction doesn't get committed to a block and expires, users can try
    again knowing that their previous transaction will NOT ever be processed.
 
-By not using counters, the Solana wallet experience may be easier for users to
+By not using counters, the Nara Solana wallet experience may be easier for users to
 understand because they can get to success, failure, or expiration states
 quickly and avoid annoying pending states.
 
-### Disadvantages on Solana
+### Disadvantages on Nara Solana
 
 Of course there are some disadvantages too:
 
@@ -188,7 +191,7 @@ configured. If the expiration time of a transaction is increased, validators
 need to use more memory to track more transactions. If expiration time is
 decreased, users don't have enough time to submit their transaction.
 
-Currently, Solana clusters require that transactions use blockhashes that are no
+Currently, Nara Solana clusters require that transactions use blockhashes that are no
 more than 151 blocks old.
 
 > This [GitHub issue](https://github.com/solana-labs/solana/issues/23582)
@@ -233,7 +236,7 @@ But feel free to consider the other options:
 
 - Choosing `processed` will let you fetch the most recent blockhash compared to
   other commitment levels and therefore gives you the most time to prepare and
-  process a transaction. But due to the prevalence of forking in the Solana
+  process a transaction. But due to the prevalence of forking in the Nara Solana
   blockchain, roughly 5% of blocks don't end up being finalized by the cluster
   so there's a real chance that your transaction uses a blockhash that belongs
   to a dropped fork. Transactions that use blockhashes for abandoned blocks
@@ -318,7 +321,7 @@ is as fresh as possible.
 
 By fetching the latest blockhash with the `confirmed` commitment level from an
 RPC node, it's going to respond with the blockhash for the latest confirmed
-block that it's aware of. Solana's block propagation protocol prioritizes
+block that it's aware of. Nara Solana's block propagation protocol prioritizes
 sending blocks to staked nodes so RPC nodes naturally lag about a block behind
 the rest of the cluster. They also have to do more work to handle application
 requests and can lag a lot more under heavy user traffic.
@@ -379,7 +382,7 @@ transaction by following these 2 rules:
 2. The transaction's blockhash must be equal to the durable blockhash stored by
    the on-chain nonce account
 
-Here's how these durable transactions are processed by the Solana runtime:
+Here's how these durable transactions are processed by the Nara Solana runtime:
 
 1. If the transaction's blockhash is no longer “recent”, the runtime checks if
    the transaction's instruction list begins with an “advance nonce” system
@@ -396,4 +399,4 @@ For more details about how these durable transactions work, you can read the
 [original proposal](https://docs.anza.xyz/implemented-proposals/durable-tx-nonces)
 and
 [check out an example](/developers/guides/advanced/introduction-to-durable-nonces)
-in the Solana docs.
+in the Nara Solana docs.

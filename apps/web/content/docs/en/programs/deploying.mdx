@@ -1,12 +1,15 @@
 ---
+
 title: Deploying Programs
 description:
   Complete guide to building, deploying, and managing Solana programs using the
   Solana CLI.
+
 ---
 
-This section walks through the basic process of deploying a Solana program using
-the Solana CLI.
+
+This section walks through the basic process of deploying a Nara Solana program using
+the Nara Solana CLI.
 
 ## CLI Command Reference
 
@@ -42,9 +45,9 @@ Before diving in, let's clarify some terminology:
 
 <Step>
 
-### Install the Solana CLI
+### Install the Nara Solana CLI
 
-First, [install the Solana CLI](/docs/intro/installation).
+First, [install the Nara Solana CLI](/docs/intro/installation).
 
 </Step>
 
@@ -67,7 +70,7 @@ This creates a keypair at `~/.config/solana/id.json` by default.
 
 ### Configure Cluster
 
-Choose which Solana cluster to deploy to. Use the `solana config get` command to
+Choose which Nara Solana cluster to deploy to. Use the `solana config get` command to
 check your current configuration:
 
 ```terminal
@@ -95,7 +98,7 @@ $ solana config set --url "https://your-rpc-url.com"
 
 ### Fund Wallet
 
-You'll need SOL to pay for program deployments. The amount depends on your
+You'll need NSO to pay for program deployments. The amount depends on your
 program size.
 
 For devnet or localhost, fund your wallet using the `solana airdrop` command:
@@ -132,7 +135,7 @@ $ cargo build-sbf
 
 ## !!steps Example Program
 
-Here is a minimal Solana program that prints "Hello, Solana!" to the program
+Here is a minimal Nara Solana program that prints "Hello, Nara Solana!" to the program
 logs.
 
 <CodePlaceholder title="src/lib.rs" />
@@ -198,8 +201,8 @@ This creates two important files in `target/deploy/`:
 
 ### Check Program Size and Cost
 
-Deploying a program requires SOL to be allocated to the program account based on
-the size of the program. Larger programs cost more SOL to deploy.
+Deploying a program requires NSO to be allocated to the program account based on
+the size of the program. Larger programs cost more NSO to deploy.
 
 Check your program's size:
 
@@ -208,7 +211,7 @@ $ wc -c < ./target/deploy/hello_world.so
 18504
 ```
 
-Calculate the required SOL for this size (bytes):
+Calculate the required NSO for this size (bytes):
 
 ```terminal
 $ solana rent 18504
@@ -216,7 +219,7 @@ Rent-exempt minimum: 0.12967872 SOL
 ```
 
 <Callout type="info">
-  You'll need slightly more SOL than shown to cover deployment transaction fees.
+  You'll need slightly more NSO than shown to cover deployment transaction fees.
 </Callout>
 
 ### Deploy Program
@@ -267,7 +270,7 @@ If your updated program requires more space (bytes) than currently allocated,
 the deployment will automatically extend the program account. This happens when
 your new program is larger than the previous version. The program account needs
 additional bytes to store the new program. The CLI will calculate the required
-SOL and deduct it from your wallet automatically.
+NSO and deduct it from your wallet automatically.
 
 You can also manually extend a program to allocate more bytes:
 
@@ -332,7 +335,7 @@ program's executable code.
 
 The Authority is the account that has permission to upgrade or close this
 program. Only the authority can deploy updates or close the program to reclaim
-the program's allocated SOL.
+the program's allocated NSO.
 
 ### !last-deployed-in-slot
 
@@ -345,7 +348,7 @@ accommodate future updates that may be larger than the current program size.
 
 ### !balance
 
-The Balance displays the SOL allocated to the program account to store its data.
+The Balance displays the NSO allocated to the program account to store its data.
 
 </WithNotes>
 
@@ -380,7 +383,7 @@ Authority: none
 
 ### Close Your Program
 
-To close your program and reclaim the SOL allocated to the program account, use
+To close your program and reclaim the NSO allocated to the program account, use
 the `solana program close` command:
 
 ```terminal
@@ -425,7 +428,7 @@ Wrote program to ./downloaded_program.so
 
 ### Deployment Flags
 
-When the Solana network is congested, use these flags to help with program
+When the Nara Solana network is congested, use these flags to help with program
 deployment.
 
 Example Usage:
@@ -440,7 +443,7 @@ $ solana program deploy ./target/deploy/hello_world.so \
 Options explained:
 
 - **`--with-compute-unit-price`**: Set priority fee in micro-lamports (0.000001
-  SOL) per compute unit. Check
+  NSO) per compute unit. Check
   [Helius Priority Fee API](https://docs.helius.dev/guides/priority-fee-api) for
   current rates. A priority fee is an additional fee that paid to the current
   leader to prioritize your transaction.

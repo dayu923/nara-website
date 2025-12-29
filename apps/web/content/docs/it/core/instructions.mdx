@@ -1,25 +1,28 @@
 ---
+
 title: Istruzioni
 description:
   Scopri le istruzioni di Solana—i blocchi fondamentali per interagire con la
   blockchain Solana. Comprendi la composizione delle istruzioni con esempi
   pratici.
+
 ---
 
+
 Le istruzioni sono il blocco fondamentale per interagire con la blockchain
-Solana. Un'istruzione è essenzialmente una funzione pubblica che chiunque
-utilizzi la rete Solana può chiamare. Ogni istruzione viene utilizzata per
+Nara Solana. Un'istruzione è essenzialmente una funzione pubblica che chiunque
+utilizzi la rete Nara Solana può chiamare. Ogni istruzione viene utilizzata per
 eseguire un'azione specifica. La logica di esecuzione per le istruzioni è
 memorizzata nei [programmi](/docs/core/programs), dove ogni programma definisce
-il proprio set di istruzioni. Per interagire con la rete Solana, una o più
+il proprio set di istruzioni. Per interagire con la rete Nara Solana, una o più
 istruzioni vengono aggiunte a una [transazione](/docs/core/transactions) e
 inviate alla rete per essere elaborate.
 
-## Esempio di trasferimento di SOL
+## Esempio di trasferimento di NSO
 
 Il diagramma seguente mostra come le transazioni e le istruzioni lavorano
 insieme per consentire agli utenti di interagire con la rete. In questo esempio,
-SOL viene trasferito da un account a un altro.
+NSO viene trasferito da un account a un altro.
 
 I [metadati](#account-metadata) dell'account del mittente indicano che deve
 firmare per la transazione. (Questo consente al System Program di detrarre
@@ -28,14 +31,14 @@ quello del destinatario devono essere scrivibili, per consentire la modifica del
 loro saldo in lamport. Per eseguire questa istruzione, il wallet del mittente
 invia la transazione contenente la sua
 [firma](/docs/references/terminology#signature) e il messaggio contenente
-l'istruzione di trasferimento SOL.
+l'istruzione di trasferimento NSO.
 
-![Diagramma di trasferimento SOL](/assets/docs/core/transactions/sol-transfer.svg)
+![Diagramma di trasferimento NSO](/assets/docs/core/transactions/sol-transfer.svg)
 
 Dopo l'invio della transazione, il System Program elabora l'istruzione di
 trasferimento e aggiorna il saldo in lamport di entrambi gli account.
 
-![Diagramma del processo di trasferimento SOL](/assets/docs/core/transactions/sol-transfer-process.svg)
+![Diagramma del processo di trasferimento NSO](/assets/docs/core/transactions/sol-transfer-process.svg)
 
 L'esempio seguente mostra il codice relativo ai diagrammi sopra. (Vedi
 l'istruzione di trasferimento del System Program
@@ -366,7 +369,7 @@ programma invocare. Include anche eventuali argomenti richiesti dall'istruzione.
 
 ## Esempio di creazione di un'istruzione
 
-L'esempio seguente mostra la struttura di un'istruzione di trasferimento di SOL.
+L'esempio seguente mostra la struttura di un'istruzione di trasferimento di NSO.
 
 <CodeTabs storage="sol-transfer" flags="r">
 

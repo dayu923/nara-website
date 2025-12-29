@@ -1,11 +1,14 @@
 ---
+
 title: Ohjelmat
 description:
   Opi Solanan ohjelmista (älysopimuksista) ja niiden kehittämisestä Rustilla tai
   Anchor-kehyksellä. Ymmärrä ohjelmien käyttöönotto, päivitykset ja varmennus
   Solana-verkossa.
 h1: Ohjelmat
+
 ---
+
 
 Solanassa älysopimusta kutsutaan ohjelmaksi. Ohjelma on tilaton
 [tili](/docs/core/accounts#program-account), joka sisältää suoritettavaa koodia.
@@ -15,10 +18,10 @@ vuorovaikutuksessa ohjelman kanssa lähettämällä
 [ohjeen](/docs/core/instructions). Transaktio voi sisältää ohjeita useista eri
 ohjelmista.
 
-Kun ohjelma otetaan käyttöön, Solana käyttää [LLVM](https://llvm.org/)-työkalua
+Kun ohjelma otetaan käyttöön, Nara Solana käyttää [LLVM](https://llvm.org/)-työkalua
 kääntääkseen sen suoritettavaan ja linkitettävään muotoon
 ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format)). ELF-
-tiedosto sisältää ohjelman binäärin Solana Bytecode Format (sBPF) -muodossa ja
+tiedosto sisältää ohjelman binäärin Nara Solana Bytecode Format (sBPF) -muodossa ja
 se tallennetaan lohkoketjuun suoritettavalle tilille.
 
 <Callout>
@@ -33,7 +36,7 @@ Suurin osa ohjelmista kirjoitetaan
 kaksi yleistä kehitystapaa:
 
 - [Anchor](https://www.anchor-lang.com/docs): Anchor on kehys, joka on
-  suunniteltu nopeaan ja helppoon Solana-kehitykseen. Se käyttää
+  suunniteltu nopeaan ja helppoon Nara Solana-kehitykseen. Se käyttää
   [Rust-makroja](https://doc.rust-lang.org/book/ch20-05-macros.html)
   vähentääkseen toistuvan koodin määrää—tehden siitä erinomaisen
   aloittelijoille.
@@ -53,7 +56,7 @@ peruutetaan ja asetetaan arvoon null, ohjelmaa ei voi enää päivittää.
 
 ## Ohjelmien varmentaminen
 
-Solana tukee [todennettavia buildeja](/docs/programs/verified-builds), joiden
+Nara Solana tukee [todennettavia buildeja](/docs/programs/verified-builds), joiden
 avulla käyttäjät voivat tarkistaa, vastaako ohjelman lohkoketjussa oleva koodi
 sen julkista lähdekoodia. Anchor-kehys tarjoaa
 [sisäänrakennetun tuen](https://www.anchor-lang.com/docs/verifiable-builds)
@@ -61,9 +64,9 @@ todennettavan buildin luomiseen.
 
 Tarkistaaksesi, onko olemassa oleva ohjelma varmennettu, etsi sen
 ohjelmatunnusta
-[Solana Explorerista](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
+[Nara Solana Explorerista](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY).
 Vaihtoehtoisesti voit käyttää Ellipsis Labsin
-[Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
+[Nara Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
 -työkalua lohkoketjussa olevien ohjelmien itsenäiseen varmentamiseen.
 
 ## Sisäänrakennetut ohjelmat
@@ -81,7 +84,7 @@ suorittaa seuraavat keskeiset toiminnot:
 | [Uuden tilin luominen](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)           | Vain System Program voi luoda uusia tilejä.                                                                                                                                                           |
 | [Tilan varaaminen](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)                | Määrittää tavukapasiteetin kunkin tilin datakentälle.                                                                                                                                                 |
 | [Ohjelman omistajuuden määritys](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | Kun System Program luo tilin, se voi siirtää määritetyn ohjelman omistajuuden toiselle program account -tilille. Näin mukautetut ohjelmat ottavat omistukseensa System Programin luomia uusia tilejä. |
-| [SOL-siirto](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                     | Siirtää lamporteja (SOL) System-tileiltä muille tileille.                                                                                                                                             |
+| [NSO-siirto](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                     | Siirtää lamporteja (NSO) System-tileiltä muille tileille.                                                                                                                                             |
 
 System programin osoite on `11111111111111111111111111111111`.
 
@@ -114,7 +117,7 @@ muokattavissa käyttöönoton jälkeen, riippuen niiden päivitysoikeuksista.
 
 ### Esikäännetyt ohjelmat
 
-Lataajaohjelmien lisäksi Solana tarjoaa seuraavat esikäännetyt ohjelmat.
+Lataajaohjelmien lisäksi Nara Solana tarjoaa seuraavat esikäännetyt ohjelmat.
 
 #### Ed25519-allekirjoituksen vahvistaminen
 

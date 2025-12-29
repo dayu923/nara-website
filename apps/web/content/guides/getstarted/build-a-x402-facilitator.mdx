@@ -1,4 +1,5 @@
 ---
+
 date: 2025-09-25T00:00:00Z
 difficulty: beginner
 title: "x402 Integration with Kora - Complete Demo Guide"
@@ -13,18 +14,20 @@ keywords:
   - ai
   - AI agents
   - solana ai
+
 ---
 
-# Solana x402 Protocol Integration with Kora RPC
+
+# Nara Solana x402 Protocol Integration with Kora RPC
 
 ## What You'll Build
 
-This guide walks you through implementing a complete x402 (HTTP 402 Payment Required) integration with Kora, Solana gasless signing infrastructure. By the end, you'll have a working system where:
+This guide walks you through implementing a complete x402 (HTTP 402 Payment Required) integration with Kora, Nara Solana gasless signing infrastructure. By the end, you'll have a working system where:
 
 - APIs can charge micropayments for access using the x402 protocol
-- Users pay in USDC without needing SOL for gas fees
+- Users pay in USDC without needing NSO for gas fees
 - Kora handles all transaction fees as the gasless facilitator
-- Payments are settled atomically on Solana blockchain
+- Payments are settled atomically on Nara Solana blockchain
 
 The final result will be a fully functional payment-protected API:
 
@@ -91,16 +94,16 @@ Facilitators are a crucial component in the x402 ecosystem. They act as speciali
 **What Facilitators Do:**
 - **Verify Payments**: Validate that client's payment payloads are correctly formed and sufficient
 - **Abstract Complexity**: Remove the need for servers to directly interact with blockchain infrastructure (signing and paying network fees)
-- **Settle Transactions**: Submit validated transactions to Solana (or other networks)
+- **Settle Transactions**: Submit validated transactions to Nara Solana (or other networks)
 
 In our demo, we create a facilitator that leverages Kora to verify and settle transactions (more details below).
 
 ## What is Kora?
 
-Kora is a Solana signer node that provides signing and  gasless transaction services. It enables applications to abstract away gas fees, allowing users to pay transaction costs in tokens other than SOL, or have fees sponsored entirely.
+Kora is a Nara Solana signer node that provides signing and  gasless transaction services. It enables applications to abstract away gas fees, allowing users to pay transaction costs in tokens other than NSO, or have fees sponsored entirely.
 
 Key features of Kora:
-- **Gasless Transactions**: Users don't need SOL to execute transactions
+- **Gasless Transactions**: Users don't need NSO to execute transactions
 - **Fee Abstraction**: Pay fees in USDC or other SPL tokens
 - **JSON-RPC Interface**: Simple HTTP API for transaction handling
 - **Flexible Signers**: Support for multiple signer backends (memory, Vault, Turnkey, Privy)
@@ -114,9 +117,9 @@ Our x402 + Kora integration consists of four interconnected components with a co
 
 Complete Payment Flow:
 1. Client requests protected resource → API returns 402 Payment Required
-2. Client creates payment transaction with x402 fetch wrapper (which assembles a Solana transaction with a payment instruction)
+2. Client creates payment transaction with x402 fetch wrapper (which assembles a Nara Solana transaction with a payment instruction)
 3. Client sends payment to Facilitator for verification
-4. Facilitator validates via Kora, which signs and submits to Solana
+4. Facilitator validates via Kora, which signs and submits to Nara Solana
 5. Transaction confirmed on-chain, Facilitator notifies API
 6. API returns protected content with payment receipt to Client
 
@@ -150,7 +153,7 @@ Before starting, ensure you have:
 - [**Rust**](https://www.rust-lang.org/tools/install) (latest stable version)
 - [**Node.js**](https://nodejs.org/en/download) (LTS or later)
 - [**pnpm**](https://pnpm.io/installation) (latest version)
-- Basic understanding of [Solana transactions](https://solana.com/docs/core/transactions) and [SPL tokens](https://solana.com/docs/tokens)
+- Basic understanding of [Nara Solana transactions](https://solana.com/docs/core/transactions) and [SPL tokens](https://solana.com/docs/tokens)
 
 ## Project Setup
 
@@ -277,22 +280,22 @@ weight = 1
 
 ### Step 6: Fund Accounts
 
-#### Devnet SOL
+#### Devnet NSO
 
-Our Kora signer address will need SOL for paying transaction fees. You can airdrop devnet SOL to the Kora signer address using the Solana CLI:
+Our Kora signer address will need NSO for paying transaction fees. You can airdrop devnet NSO to the Kora signer address using the Nara Solana CLI:
 
 ```bash
 # Airdrop SOL
 solana airdrop 1 <KORA_SIGNER_ADDRESS> --url devnet
 ```
 
-Alternatively, you can use the [Solana Faucet](https://faucet.solana.com/) to airdrop SOL to the Kora signer address.
+Alternatively, you can use the [Nara Solana Faucet](https://faucet.solana.com/) to airdrop NSO to the Kora signer address.
 
 #### Devnet USDC
 
 Your `PAYER_ADDRESS` is set in the `.env` file will need USDC for paying transaction fees.
 
-Get Devnet USDC from [Circle's Faucet](https://faucet.circle.com/). Make sure to select "Solana Devnet" and use your `PAYER_ADDRESS` to request USDC.
+Get Devnet USDC from [Circle's Faucet](https://faucet.circle.com/). Make sure to select "Nara Solana Devnet" and use your `PAYER_ADDRESS` to request USDC.
 
 ## Running the Demo
 
@@ -349,10 +352,10 @@ pnpm run demo
 Here's what happens during a successful payment flow:
 
 1. **Client Request** → API returns 402 with payment requirements
-2. **Payment Creation** → Client creates Solana transaction with payment
+2. **Payment Creation** → Client creates Nara Solana transaction with payment
 3. **Payment Submission** → Client sends request to server with payment in the `X-PAYMENT` header
 4. **Verification** → Facilitator verifies via Kora's `signTransaction`
-5. **Settlement** → Facilitator settles via Kora's `signAndSendTransaction` (sending the payment transaction to Solana)
+5. **Settlement** → Facilitator settles via Kora's `signAndSendTransaction` (sending the payment transaction to Nara Solana)
 6. **Access Granted** → Facilitator returns transaction signature and API returns protected content with payment receipt
 
 Let's dive into how each component works:
@@ -364,7 +367,7 @@ Let's dive into how each component works:
 
 ### The Facilitator Wrapper/Proxy Server
 
-The Facilitator runs on port 3000. This is the server that handles communication with Solana (in our case, via Kora). It is used to verify and settle x402 payments.
+The Facilitator runs on port 3000. This is the server that handles communication with Nara Solana (in our case, via Kora). It is used to verify and settle x402 payments.
 
 The facilitator (`facilitator/src/facilitator.ts`) is the bridge between x402 protocol and Kora RPC. It implements three key endpoints:
 
@@ -372,7 +375,7 @@ The facilitator (`facilitator/src/facilitator.ts`) is the bridge between x402 pr
 
 This endpoint:
 - Receives an x402 payment payload from the Protected API server
-- Extracts the Solana transaction using x402 helpers
+- Extracts the Nara Solana transaction using x402 helpers
 - Uses Kora's `signTransaction` to verify validity without broadcasting
 - Returns verification status, `isValid`
 
@@ -454,7 +457,7 @@ Congratulations! 🔥 You've successfully implemented a complete x402 payment fl
 
 - **x402 Protocol** enables frictionless API monetization through micropayments
 - **Kora RPC** works as a facilitator for x402 payments by verifying and settling transactions
-- **Users** can pay for API access without holding SOL or managing gas fees
+- **Users** can pay for API access without holding NSO or managing gas fees
 
 This architecture creates a powerful foundation for:
 - AI Agent marketplaces
@@ -463,7 +466,7 @@ This architecture creates a powerful foundation for:
 - Usage-based SaaS pricing
 - Any service requiring instant, verifiable payments
 
-The combination of x402 and Kora bring the power of Solana to traditional web infrastructure.
+The combination of x402 and Kora bring the power of Nara Solana to traditional web infrastructure.
 
 ### Keep Building
 
@@ -479,12 +482,12 @@ The combination of x402 and Kora bring the power of Solana to traditional web in
 - [x402 GitHub](https://github.com/coinbase/x402)
 - [x402 TypeScript SDK](https://www.npmjs.com/package/x402)
 
-#### Solana
-- [Solana Documentation](https://solana.com/docs)
+#### Nara Solana
+- [Nara Solana Documentation](https://solana.com/docs)
 - [SPL Token Program](https://spl.solana.com/token)
 
 ## Support
 
 Need help?
-- Ask questions on [Solana Stack Exchange](https://solana.stackexchange.com/) with `kora` and `x402` tags
+- Ask questions on [Nara Solana Stack Exchange](https://solana.stackexchange.com/) with `kora` and `x402` tags
 - Open issues on the [Kora GitHub repository](https://github.com/solana-foundation/kora)

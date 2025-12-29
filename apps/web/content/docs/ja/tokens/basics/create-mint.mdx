@@ -1,12 +1,15 @@
 ---
+
 title: トークンミントの作成
 description: SPLトークンミントの作成方法を学びましょう。
+
 ---
+
 
 ## ミントアカウントとは？
 
 mint
-accountはSolana上でトークンを一意に表し、そのグローバルメタデータを保存します。
+accountはNara Solana上でトークンを一意に表し、そのグローバルメタデータを保存します。
 
 ```rust title="Mint Account Type"
 /// Mint data.
@@ -37,11 +40,11 @@ pub struct Mint {
   の両方が、ミントアカウントに対して同じ基本実装を共有していることに注意してください。
 </Callout>
 
-Solana上のすべてのトークンにはミントアカウントがあり、ミントのアドレスがトークンの一意の識別子として機能します。
+Nara Solana上のすべてのトークンにはミントアカウントがあり、ミントのアドレスがトークンの一意の識別子として機能します。
 
 例えば、USD Coin（USDC）のミントアドレスは
-`EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`です。このアドレスはSolanaエコシステム全体でUSDCを一意に識別します。このミントは
-[Solana Explorer](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)で確認できます。
+`EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`です。このアドレスはNara Solanaエコシステム全体でUSDCを一意に識別します。このミントは
+[Nara Solana Explorer](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v)で確認できます。
 
 ## ミントアカウントの作成方法
 

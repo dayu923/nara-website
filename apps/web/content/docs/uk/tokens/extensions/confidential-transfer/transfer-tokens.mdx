@@ -1,8 +1,11 @@
 ---
+
 title: Переказ токенів
 description:
   Дізнайтеся, як приватно переказувати токени з одного token account на інший.
+
 ---
+
 
 <Callout type="warn">
   Програма ZK ElGamal тимчасово вимкнена на мережах mainnet та devnet, оскільки
@@ -53,7 +56,7 @@ Token account відправника також повинен мати дост
    [ConfidentialTransferInstruction::Transfer](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L604),
    надаючи облікові записи контекстного стану доказу.
 
-4. Закрийте облікові записи стану контексту доказу, щоб повернути SOL,
+4. Закрийте облікові записи стану контексту доказу, щоб повернути NSO,
    використаний для їх створення.
 
 Наступна діаграма показує кроки, пов'язані з переказом токенів з токен-акаунта
@@ -113,7 +116,7 @@ sequenceDiagram
 
 Щоб запустити приклад, запустіть локальний валідатор з програмою Token
 Extensions Program, клонованою з мейннету, використовуючи наступну команду. Для
-запуску локального валідатора у вас має бути встановлений Solana CLI.
+запуску локального валідатора у вас має бути встановлений Nara Solana CLI.
 
 ```terminal
 $ solana-test-validator --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --url https://api.mainnet-beta.solana.com -r

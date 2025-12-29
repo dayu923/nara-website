@@ -1,14 +1,17 @@
 ---
-title: Next.js - Solana Kit
-seoTitle: Интеграция кошелька Solana с Next.js и Solana Kit
+
+title: Next.js - Nara Solana Kit
+seoTitle: Интеграция кошелька Nara Solana с Next.js и Nara Solana Kit
 description:
   Настройте интеграцию кошелька Solana в Next.js с помощью Solana Kit.
+
 ---
 
-Настройте минимальную интеграцию кошелька Solana в Next.js с помощью Solana Kit.
+
+Настройте минимальную интеграцию кошелька Nara Solana в Next.js с помощью Nara Solana Kit.
 
 Это руководство предоставляет минимальный пример реализации функциональности
-кошелька Solana в приложении Next.js с использованием `@solana/kit`. Вы
+кошелька Nara Solana в приложении Next.js с использованием `@solana/kit`. Вы
 создадите кнопку для подключения кошелька и компонент для отправки транзакций.
 
 ![Приложение Nextjs Kit](/assets/docs/frontend/nextjs-kit.gif)
@@ -16,12 +19,12 @@ description:
 Для более подробного примера использования `@solana/kit` в React-приложении
 обратитесь к
 [Примеру React App](https://github.com/anza-xyz/kit/tree/main/examples/react-app)
-в репозитории Solana Kit.
+в репозитории Nara Solana Kit.
 
 ## Ресурсы
 
-- [Документация Solana Kit](https://www.solanakit.com/docs)
-- [Репозиторий Solana Kit на GitHub](https://github.com/anza-xyz/kit)
+- [Документация Nara Solana Kit](https://www.solanakit.com/docs)
+- [Репозиторий Nara Solana Kit на GitHub](https://github.com/anza-xyz/kit)
 
 ## Предварительные требования
 
@@ -30,7 +33,7 @@ description:
 ## Создание проекта Next.js
 
 Создайте новый проект Next.js с [shadcn](https://ui.shadcn.com/) для
-UI-компонентов и установите необходимые зависимости Solana.
+UI-компонентов и установите необходимые зависимости Nara Solana.
 
 ```terminal
 $ npx shadcn@latest init
@@ -50,9 +53,9 @@ $ cd <project-name>
 $ npx shadcn@latest add button dropdown-menu avatar
 ```
 
-### Установка зависимостей Solana
+### Установка зависимостей Nara Solana
 
-Установите следующие зависимости Solana:
+Установите следующие зависимости Nara Solana:
 
 ```terminal
 $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/react @solana-program/memo
@@ -64,7 +67,7 @@ $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/r
 
 <ScrollyCoding>
 
-## !!steps 1. Создайте контекст Solana
+## !!steps 1. Создайте контекст Nara Solana
 
 Сначала создайте контекст React, который будет управлять состоянием кошелька для
 всего приложения.
@@ -72,8 +75,8 @@ $ npm install @solana/kit @solana/react @wallet-standard/core @wallet-standard/r
 Создайте `components/solana-provider.tsx` и добавьте предоставленный код. Этот
 компонент-провайдер будет:
 
-- Подключаться к конечным точкам RPC devnet Solana
-- Фильтровать доступные кошельки Solana, установленные в браузере пользователя
+- Подключаться к конечным точкам RPC devnet Nara Solana
+- Фильтровать доступные кошельки Nara Solana, установленные в браузере пользователя
 - Отслеживать, какой кошелек и аккаунт в данный момент подключены
 - Предоставлять состояние кошелька дочерним компонентам
 
@@ -250,7 +253,7 @@ export function SolanaProvider({ children }: { children: React.ReactNode }) {
 
 ## !!steps 2. Обновите макет
 
-Далее оберните все приложение Next.js в провайдер Solana.
+Далее оберните все приложение Next.js в провайдер Nara Solana.
 
 Обновите `app/layout.tsx` с предоставленным кодом. Этот шаг:
 
@@ -510,9 +513,9 @@ export function WalletConnectButton() {
 компонент:
 
 - Позволяет пользователям вводить сообщение
-- Создаёт транзакцию Solana с инструкцией, вызывающей программу memo
+- Создаёт транзакцию Nara Solana с инструкцией, вызывающей программу memo
 - Запрашивает у подключённого кошелька подпись и отправку транзакции
-- Отображает ссылку для просмотра транзакции в Solana Explorer
+- Отображает ссылку для просмотра транзакции в Nara Solana Explorer
 
 <CodePlaceholder title="components/memo-card.tsx" />
 
@@ -676,7 +679,7 @@ $ npm run dev
 <Callout type="info">
   Обратите внимание, что подключённый кошелёк должен быть настроен для
   подключения к кластеру devnet и [пополнен devnet
-  SOL](https://faucet.solana.com/) для отправки транзакций.
+  NSO](https://faucet.solana.com/) для отправки транзакций.
 </Callout>
 
 </ScrollyCoding>

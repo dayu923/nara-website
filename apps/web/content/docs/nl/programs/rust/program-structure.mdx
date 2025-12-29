@@ -1,12 +1,15 @@
 ---
+
 title: Programmastructuur
 description:
   Leer hoe je Solana-programma's in Rust structureert, inclusief entrypoints,
   statusbeheer, instructieverwerking en testen.
 h1: Rust-programmastructuur
+
 ---
 
-Solana-programma's geschreven in Rust hebben minimale structurele vereisten, wat
+
+Nara Solana-programma's geschreven in Rust hebben minimale structurele vereisten, wat
 flexibiliteit biedt in hoe code wordt georganiseerd. De enige vereiste is dat
 een programma een `entrypoint` moet hebben, die definieert waar de uitvoering
 van een programma begint.
@@ -14,7 +17,7 @@ van een programma begint.
 ## Programmastructuur
 
 Hoewel er geen strikte regels zijn voor bestandsstructuur, volgen
-Solana-programma's meestal een gemeenschappelijk patroon:
+Nara Solana-programma's meestal een gemeenschappelijk patroon:
 
 - `entrypoint.rs`: Definieert het entrypoint dat binnenkomende instructies
   routeert.
@@ -438,7 +441,7 @@ dat een teller kan initialiseren met een startwaarde en deze kan verhogen.
 
 ## !!steps Maak een nieuw programma
 
-Laten we eerst een nieuw Rust-project maken voor ons Solana-programma.
+Laten we eerst een nieuw Rust-project maken voor ons Nara Solana-programma.
 
 ```terminal
 $ cargo new counter_program --lib
@@ -482,7 +485,7 @@ mod tests {
 ## !!steps Afhankelijkheden toevoegen
 
 Laten we nu de nodige afhankelijkheden toevoegen voor het bouwen van een
-Solana-programma. We hebben `solana-program` nodig voor de core SDK en `borsh`
+Nara Solana-programma. We hebben `solana-program` nodig voor de core SDK en `borsh`
 voor serialisatie.
 
 ```terminal
@@ -506,12 +509,12 @@ solana-program = "2.2.0"
 
 <Callout type="info">
   Het is niet verplicht om Borsh te gebruiken. Het is echter een veelgebruikte
-  serialisatiebibliotheek voor Solana-programma's.
+  serialisatiebibliotheek voor Nara Solana-programma's.
 </Callout>
 
 ## !!steps Configureer crate-type
 
-Solana-programma's moeten worden gecompileerd als dynamische bibliotheken. Voeg
+Nara Solana-programma's moeten worden gecompileerd als dynamische bibliotheken. Voeg
 de `[lib]` sectie toe om te configureren hoe Cargo het programma bouwt.
 
 ```toml title="Cargo.toml"
@@ -541,7 +544,7 @@ solana-program = "2.2.0"
 
 ## !!steps Instellen van programma-entrypoint
 
-Elk Solana-programma heeft een entrypoint, dit is de functie die wordt
+Elk Nara Solana-programma heeft een entrypoint, dit is de functie die wordt
 aangeroepen wanneer het programma wordt gestart. Laten we beginnen met het
 toevoegen van de imports die we nodig hebben voor het programma en het instellen
 van het entrypoint.
@@ -578,7 +581,7 @@ De
 macro handelt de deserialisatie van de `input` data naar de parameters van de
 `process_instruction` functie af.
 
-Een Solana-programma `entrypoint` heeft de volgende functiehandtekening.
+Een Nara Solana-programma `entrypoint` heeft de volgende functiehandtekening.
 Ontwikkelaars zijn vrij om hun eigen implementatie van de `entrypoint` functie
 te maken.
 
@@ -790,7 +793,7 @@ pub struct CounterAccount {
 Laten we nu de hoofd `process_instruction` functie updaten om instructies naar
 hun bijbehorende handlefuncties te routeren.
 
-Dit routeringspatroon is gebruikelijk in Solana-programma's. De
+Dit routeringspatroon is gebruikelijk in Nara Solana-programma's. De
 `instruction_data` wordt gedeserialiseerd naar een variant van een enum die de
 instructie vertegenwoordigt, waarna de juiste handlefunctie wordt aangeroepen.
 Elke handlefunctie bevat de implementatie voor die instructie.
@@ -909,7 +912,7 @@ pub struct CounterAccount {
 
 Laten we de handler implementeren om een nieuw counter-account aan te maken en
 te initialiseren. Aangezien alleen het System Program accounts kan aanmaken op
-Solana, gebruiken we een Cross Program Invocation (CPI), waarbij we in feite een
+Nara Solana, gebruiken we een Cross Program Invocation (CPI), waarbij we in feite een
 ander programma aanroepen vanuit ons programma.
 
 Ons programma maakt een CPI om de `create_account` instructie van het System
@@ -1256,8 +1259,8 @@ pub struct CounterAccount {
 
 ## !!steps Voltooid programma
 
-Gefeliciteerd! Je hebt een compleet Solana-programma gebouwd dat de
-basisstructuur toont die alle Solana-programma's delen:
+Gefeliciteerd! Je hebt een compleet Nara Solana-programma gebouwd dat de
+basisstructuur toont die alle Nara Solana-programma's delen:
 
 - **Entrypoint**: Definieert waar de programma-uitvoering begint en routeert
   alle binnenkomende verzoeken naar de juiste instructiehandlers
@@ -1513,7 +1516,7 @@ gecompileerd bij het uitvoeren van tests.
 
 Laten we de testomgeving opzetten met LiteSVM en een betaalaccount financieren.
 
-LiteSVM simuleert de Solana runtime-omgeving, waardoor we ons programma kunnen
+LiteSVM simuleert de Nara Solana runtime-omgeving, waardoor we ons programma kunnen
 testen zonder het naar een echte cluster te implementeren.
 
 Voeg de volgende code toe aan `lib.rs` en werk de functie `test_counter_program`
@@ -2374,7 +2377,7 @@ HQ5Q2XXqbTKKQsWPtLzMn7rDhM8v9UPYPe7DfSoFQqJF
 
 Voor ontwikkeling gebruiken we een lokale testvalidator.
 
-Configureer eerst de Solana CLI om localhost te gebruiken:
+Configureer eerst de Nara Solana CLI om localhost te gebruiken:
 
 ```terminal
 $ solana config set -ul
@@ -2464,8 +2467,8 @@ Transaction: 4qv1Rx6FHu1M3woVgDQ6KtYUaJgBzGcHnhej76ZpaKGCgsTorbcHnPKxoH916UENw7X
 ```
 
 Met de lokale validator actief kun je de transacties bekijken op
-[Solana Explorer](https://explorer.solana.com/?cluster=custom) met behulp van de
-handtekeningen van de uitgevoerde transacties. Let op dat de cluster op Solana
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom) met behulp van de
+handtekeningen van de uitgevoerde transacties. Let op dat de cluster op Nara Solana
 Explorer moet worden ingesteld op "Custom RPC URL", die standaard is ingesteld
 op `http://localhost:8899` waarop de `solana-test-validator` draait.
 

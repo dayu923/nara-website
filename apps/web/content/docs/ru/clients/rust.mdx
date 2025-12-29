@@ -1,10 +1,13 @@
 ---
+
 title: Rust SDK
-description: Узнайте, как использовать Rust-библиотеки Solana для разработки.
-h1: Rust SDK для Solana
+description: Узнайте, как использовать Rust-библиотеки Nara Solana для разработки.
+h1: Rust SDK для Nara Solana
+
 ---
 
-Rust-библиотеки Solana
+
+Rust-библиотеки Nara Solana
 [опубликованы на crates.io](https://crates.io/search?q=solana-) и доступны
 [на docs.rs](https://docs.rs/releases/search?query=solana-) с префиксом
 `solana-`.
@@ -12,25 +15,25 @@ Rust-библиотеки Solana
 ## Rust-библиотеки
 
 Ниже приведены самые важные и часто используемые Rust-библиотеки для разработки
-на Solana:
+на Nara Solana:
 
-- [`solana-program`] &mdash; Импортируется программами, работающими на Solana, и
+- [`solana-program`] &mdash; Импортируется программами, работающими на Nara Solana, и
   компилируется в SBF. Эта библиотека содержит множество основных типов данных и
   реэкспортируется из [`solana-sdk`], которая не может быть импортирована из
-  программы Solana.
+  программы Nara Solana.
 
 - [`solana-sdk`] &mdash; Основной SDK для работы вне блокчейна, реэкспортирует
   [`solana-program`] и добавляет дополнительные API. Большинство программ
-  Solana, которые не работают на блокчейне, импортируют эту библиотеку.
+  Nara Solana, которые не работают на блокчейне, импортируют эту библиотеку.
 
-- [`solana-client`] &mdash; Для взаимодействия с узлом Solana через
+- [`solana-client`] &mdash; Для взаимодействия с узлом Nara Solana через
   [JSON RPC API](/docs/rpc).
 
 - [`solana-cli-config`] &mdash; Для загрузки и сохранения конфигурационного
-  файла Solana CLI.
+  файла Nara Solana CLI.
 
 - [`solana-clap-utils`] &mdash; Процедуры для настройки CLI с использованием
-  [`clap`], как в основном CLI Solana. Включает функции для загрузки всех типов
+  [`clap`], как в основном CLI Nara Solana. Включает функции для загрузки всех типов
   подписантов, поддерживаемых CLI.
 
 [`solana-program`]: https://docs.rs/solana-program
@@ -42,13 +45,13 @@ Rust-библиотеки Solana
 
 ## Установка
 
-Для отправки транзакций и взаимодействия с Solana:
+Для отправки транзакций и взаимодействия с Nara Solana:
 
 ```shell title="Terminal"
 cargo add solana-sdk solana-client
 ```
 
-Для создания программ Solana, установите:
+Для создания программ Nara Solana, установите:
 
 ```shell title="Terminal"
 cargo add solana-program

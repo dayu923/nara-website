@@ -1,17 +1,20 @@
 ---
+
 title: Phương thức HTTP
-seoTitle: Phương thức HTTP RPC của Solana
+seoTitle: Phương thức HTTP RPC của Nara Solana
 hideTableOfContents: false
-h1: Phương thức HTTP RPC của Solana
+h1: Phương thức HTTP RPC của Nara Solana
+
 ---
 
-Các node Solana chấp nhận các yêu cầu HTTP sử dụng đặc tả
+
+Các node Nara Solana chấp nhận các yêu cầu HTTP sử dụng đặc tả
 [JSON-RPC 2.0](https://www.jsonrpc.org/specification).
 
 > Đối với các ứng dụng JavaScript, hãy sử dụng thư viện
 > [@solana/web3.js](https://github.com/solana-labs/solana-web3.js) như một giao
-> diện thuận tiện cho các phương thức RPC để tương tác với node Solana. Đối với
-> kết nối PubSub đến node Solana, hãy sử dụng
+> diện thuận tiện cho các phương thức RPC để tương tác với node Nara Solana. Đối với
+> kết nối PubSub đến node Nara Solana, hãy sử dụng
 > [API Websocket](/docs/rpc/websocket/).
 
 ## Điểm cuối HTTP RPC
@@ -82,7 +85,7 @@ curl https://api.devnet.solana.com -s -X POST -H "Content-Type: application/json
 
 - Hash: Một hash SHA-256 của một phần dữ liệu.
 - Pubkey: Khóa công khai của một cặp khóa Ed25519.
-- Transaction: Một danh sách các hướng dẫn Solana được ký bởi một keypair của
+- Transaction: Một danh sách các hướng dẫn Nara Solana được ký bởi một keypair của
   khách hàng để ủy quyền cho các hành động đó.
 - Signature: Một chữ ký Ed25519 của dữ liệu payload giao dịch bao gồm các hướng
   dẫn. Điều này có thể được sử dụng để xác định các giao dịch.

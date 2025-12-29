@@ -1,4 +1,5 @@
 ---
+
 title: Создание детерминированных аккаунтов
 description:
   Узнайте, как создать программу CRUD (создание, чтение, обновление, удаление)
@@ -8,7 +9,9 @@ description:
   валидацию аккаунтов и писать тесты. Идеально подходит для разработчиков,
   которые хотят понять, как использовать PDA в программах Solana.
 h1: Program Derived Address
+
 ---
+
 
 В этом разделе вы узнаете, как создать базовую программу для создания, чтения,
 обновления и удаления (CRUD).
@@ -19,7 +22,7 @@ h1: Program Derived Address
 Address или PDA).
 
 Это руководство проведет вас через процесс создания и тестирования программы
-Solana с использованием фреймворка Anchor, демонстрируя использование Program
+Nara Solana с использованием фреймворка Anchor, демонстрируя использование Program
 Derived Addresses (PDA). Для получения дополнительной информации обратитесь к
 странице [Program Derived Addresses](/docs/core/pda).
 
@@ -33,9 +36,9 @@ Derived Addresses (PDA). Для получения дополнительной 
 ### Исходный код
 
 Начните с открытия этой
-[ссылки на Solana Playground](https://beta.solpg.io/66734b7bcffcf4b13384d1ad) с
+[ссылки на Nara Solana Playground](https://beta.solpg.io/66734b7bcffcf4b13384d1ad) с
 исходным кодом. Затем нажмите кнопку "Import", чтобы добавить программу в ваши
-проекты Solana Playground.
+проекты Nara Solana Playground.
 
 ![Импорт](/assets/docs/intro/quickstart/pg-import.png)
 
@@ -817,12 +820,12 @@ $ build
 `deploy` в терминале Playground.
 
 <Callout type="info">
-В этом примере вы развернете программу на devnet, кластере Solana
+В этом примере вы развернете программу на devnet, кластере Nara Solana
 для тестирования разработки.
 
 Кошелек Playground подключается к devnet по умолчанию. Убедитесь, что ваш
-кошелек Playground имеет devnet SOL для оплаты развертывания программы. Получите
-devnet SOL из [Solana Faucet](https://faucet.solana.com/).
+кошелек Playground имеет devnet NSO для оплаты развертывания программы. Получите
+devnet NSO из [Nara Solana Faucet](https://faucet.solana.com/).
 
 </Callout>
 
@@ -893,7 +896,7 @@ const [messagePda, messageBump] = PublicKey.findProgramAddressSync(
 
 <WithMentions>
 
-Solana Playground убирает часть шаблонной настройки, где
+Nara Solana Playground убирает часть шаблонной настройки, где
 [`pg.program`](mention:one) предоставляет доступ к методам для взаимодействия с
 программой, а [`pg.wallet`](mention:two) предоставляет доступ к вашему кошельку
 в Playground.
@@ -1143,7 +1146,7 @@ _ts`update()`_.
 <Accordion title="Explanation">
 
 Сначала тестовый файл отправляет транзакцию, вызывая инструкцию `update`,
-передавая "Hello, Solana!" в качестве нового сообщения.
+передавая "Hello, Nara Solana!" в качестве нового сообщения.
 
 ```ts title="anchor.test.ts"
 const message = "Hello, Solana!";

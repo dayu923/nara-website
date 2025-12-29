@@ -1,12 +1,15 @@
 ---
+
 title: Mollusk
-description: Uitgebreide gids voor het testen van Solana-programma's met Mollusk
+description: Uitgebreide gids voor het testen van Nara Solana-programma's met Mollusk
+
 ---
 
+
 [Mollusk](https://github.com/anza-xyz/mollusk/tree/main) is een lichtgewicht
-test framework voor het testen van Solana-programma's. Het biedt een eenvoudige
-interface voor het testen van Solana-programma-instructies in een
-geminimaliseerde Solana Virtual Machine (SVM) omgeving. Alle testaccounts moeten
+test framework voor het testen van Nara Solana-programma's. Het biedt een eenvoudige
+interface voor het testen van Nara Solana-programma-instructies in een
+geminimaliseerde Nara Solana Virtual Machine (SVM) omgeving. Alle testaccounts moeten
 expliciet worden gedefinieerd, wat zorgt voor deterministische en herhaalbare
 tests.
 
@@ -54,13 +57,13 @@ mollusk-svm-programs-token = "0.7"
 ## Mollusk SVM
 
 Het volgende voorbeeld toont een minimale setup voor het testen van een
-eenvoudig Solana-programma met Mollusk.
+eenvoudig Nara Solana-programma met Mollusk.
 
 <ScrollyCoding>
 
 ## !!steps Hello World-programma
 
-Dit voorbeeld laat zien hoe je een eenvoudig Solana-programma kunt testen met
+Dit voorbeeld laat zien hoe je een eenvoudig Nara Solana-programma kunt testen met
 Mollusk. Het programma print simpelweg "Hello, world!" naar de programmalogs
 wanneer het wordt aangeroepen.
 
@@ -71,7 +74,7 @@ Het uitvoeren van `cargo build-sbf` genereert het gecompileerde programma op
 
 <WithMentions>
 
-Om een Solana-programma te testen met Mollusk:
+Om een Nara Solana-programma te testen met Mollusk:
 
 1. [Maak een `Mollusk`instantie aan](mention:mollusk) - Initialiseer Mollusk met
    een programma-ID en het pad naar het gecompileerde programma (`.so`bestand)
@@ -180,7 +183,7 @@ solana-sdk = "2.2.0"
 
 De
 [`Mollusk`](https://docs.rs/mollusk-svm/0.5.0/mollusk_svm/struct.Mollusk.html)
-struct biedt een eenvoudige interface voor het testen van Solana programma's.
+struct biedt een eenvoudige interface voor het testen van Nara Solana programma's.
 Alle velden kunnen worden gemanipuleerd via een handvol hulpmethoden, maar
 gebruikers kunnen ze ook direct benaderen en wijzigen als ze meer controle
 wensen.
@@ -252,7 +255,7 @@ pub fn process_instruction(
 ) -> InstructionResult
 ```
 
-Het volgende voorbeeld verwerkt een SOL overdrachts-instructie zonder validatie
+Het volgende voorbeeld verwerkt een NSO overdrachts-instructie zonder validatie
 controles.
 
 <Callout type="info">
@@ -336,7 +339,7 @@ pub fn process_and_validate_instruction(
 ) -> InstructionResult
 ```
 
-Het volgende voorbeeld verwerkt een SOL-overdrachtsinstructie met
+Het volgende voorbeeld verwerkt een NSO-overdrachtsinstructie met
 validatiecontroles.
 
 <CodeTabs flags="r">
@@ -410,7 +413,7 @@ pub fn process_instruction_chain(
 ) -> InstructionResult
 ```
 
-Het volgende voorbeeld verwerkt twee SOL-overdrachtsinstructies zonder
+Het volgende voorbeeld verwerkt twee NSO-overdrachtsinstructies zonder
 validatiecontroles.
 
 <CodeTabs flags="r">
@@ -498,7 +501,7 @@ pub fn process_and_validate_instruction_chain(
 ) -> InstructionResult
 ```
 
-Het volgende voorbeeld verwerkt een reeks van twee SOL-overdrachtsinstructies
+Het volgende voorbeeld verwerkt een reeks van twee NSO-overdrachtsinstructies
 met validatiecontroles na elke instructie.
 
 <CodeTabs flags="r">
@@ -696,7 +699,7 @@ account_store.insert(
 let context = mollusk.with_context(account_store);
 ```
 
-Het volgende voorbeeld verwerkt twee afzonderlijke SOL-overdrachtsinstructies
+Het volgende voorbeeld verwerkt twee afzonderlijke NSO-overdrachtsinstructies
 met permanente accountstatus tussen de instructies via de `account_store`.
 
 <CodeTabs flags="r">
@@ -840,7 +843,7 @@ Vereist
 [`mollusk-svm-bencher`](https://docs.rs/mollusk-svm-bencher/0.5.0/mollusk_svm_bencher/index.html)
 als afhankelijkheid.
 
-Het volgende voorbeeld benchmarkt het compute unit gebruik van een SOL transfer
+Het volgende voorbeeld benchmarkt het compute unit gebruik van een NSO transfer
 instructie.
 
 <CodeTabs>

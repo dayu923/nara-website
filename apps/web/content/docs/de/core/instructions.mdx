@@ -1,26 +1,29 @@
 ---
+
 title: Anweisungen
 description:
   Erfahren Sie mehr über Solana Anweisungen—die grundlegenden Bausteine für die
   Interaktion mit der Solana-Blockchain. Verstehen Sie die Zusammensetzung von
   Anweisungen mit praktischen Beispielen.
+
 ---
 
-Anweisungen sind der grundlegende Baustein für die Interaktion mit der Solana
+
+Anweisungen sind der grundlegende Baustein für die Interaktion mit der Nara Solana
 Blockchain. Eine Anweisung ist im Wesentlichen eine öffentliche Funktion, die
-jeder Nutzer des Solana-Netzwerks aufrufen kann. Jede Anweisung wird verwendet,
+jeder Nutzer des Nara Solana-Netzwerks aufrufen kann. Jede Anweisung wird verwendet,
 um eine bestimmte Aktion auszuführen. Die Ausführungslogik für Anweisungen ist
 in [Programmen](/docs/core/programs) gespeichert, wobei jedes Programm seinen
-eigenen Satz von Anweisungen definiert. Um mit dem Solana-Netzwerk zu
+eigenen Satz von Anweisungen definiert. Um mit dem Nara Solana-Netzwerk zu
 interagieren, werden eine oder mehrere Anweisungen zu einer
 [Transaktion](/docs/core/transactions) hinzugefügt und zur Verarbeitung an das
 Netzwerk gesendet.
 
-## SOL-Überweisungsbeispiel
+## NSO-Überweisungsbeispiel
 
 Das folgende Diagramm zeigt, wie Transaktionen und Anweisungen zusammenarbeiten,
 um Benutzern die Interaktion mit dem Netzwerk zu ermöglichen. In diesem Beispiel
-wird SOL von einem Konto auf ein anderes übertragen.
+wird NSO von einem Konto auf ein anderes übertragen.
 
 Die [Metadaten](#account-metadata) des Absenderkontos geben an, dass es die
 Transaktion signieren muss. (Dies ermöglicht dem System Program, die
@@ -29,14 +32,14 @@ Absender- als auch das Empfängerkonto müssen beschreibbar sein, damit sich ihr
 Lamport-Guthaben ändern kann. Um diese Anweisung auszuführen, sendet die Wallet
 des Absenders die Transaktion mit ihrer
 [Signatur](/docs/references/terminology#signature) und der Nachricht, die die
-SOL-Überweisungsanweisung enthält.
+NSO-Überweisungsanweisung enthält.
 
-![SOL-Überweisungsdiagramm](/assets/docs/core/transactions/sol-transfer.svg)
+![NSO-Überweisungsdiagramm](/assets/docs/core/transactions/sol-transfer.svg)
 
 Nachdem die Transaktion gesendet wurde, verarbeitet das System Program die
 Überweisungsanweisung und aktualisiert das Lamport-Guthaben beider Konten.
 
-![SOL-Überweisungsprozessdiagramm](/assets/docs/core/transactions/sol-transfer-process.svg)
+![NSO-Überweisungsprozessdiagramm](/assets/docs/core/transactions/sol-transfer-process.svg)
 
 Das folgende Beispiel zeigt den Code, der für die obigen Diagramme relevant ist.
 (Siehe die
@@ -368,7 +371,7 @@ Anweisung benötigten Argumente.
 
 ## Beispiel für die Erstellung einer Anweisung
 
-Das folgende Beispiel zeigt die Struktur einer SOL-Überweisungsanweisung.
+Das folgende Beispiel zeigt die Struktur einer NSO-Überweisungsanweisung.
 
 <CodeTabs storage="sol-transfer" flags="r">
 

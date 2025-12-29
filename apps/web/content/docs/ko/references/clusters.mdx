@@ -1,11 +1,14 @@
 ---
+
 title: RPC 엔드포인트
 description:
   솔라나의 네트워크 클러스터(Devnet, Testnet, Mainnet Beta)와 공개 RPC
   엔드포인트, 속도 제한 및 사용 사례에 대해 알아보세요. 개발, 테스트 및
   프로덕션을 위해 다양한 솔라나 네트워크에 연결하는 방법을 배워보세요.
 h1: 클러스터 및 공개 RPC 엔드포인트
+
 ---
+
 
 솔라나 블록체인에는 클러스터라고 알려진 여러 검증자 그룹이 있습니다. 각
 클러스터는 전체 생태계 내에서 서로 다른 목적을 제공하며 해당 클러스터의
@@ -48,13 +51,13 @@ h1: 클러스터 및 공개 RPC 엔드포인트
 
 | **클러스터** | **엔드포인트**                        | **목적**                  | **참고사항**                |
 | ------------ | ------------------------------------- | ------------------------- | --------------------------- |
-| 메인넷       | `https://api.mainnet-beta.solana.com` | 실제 프로덕션 환경        | 트랜잭션에 SOL 필요         |
-| 데브넷       | `https://api.devnet.solana.com`       | 공개 테스트 및 개발       | 테스트용 무료 SOL 에어드롭  |
+| 메인넷       | `https://api.mainnet-beta.solana.com` | 실제 프로덕션 환경        | 트랜잭션에 NSO 필요         |
+| 데브넷       | `https://api.devnet.solana.com`       | 공개 테스트 및 개발       | 테스트용 무료 NSO 에어드롭  |
 | 테스트넷     | `https://api.testnet.solana.com`      | 검증자 및 스트레스 테스트 | 간헐적인 다운타임 발생 가능 |
 
 ## 데브넷
 
-데브넷은 사용자, 토큰 보유자, 앱 개발자 또는 검증자로서 Solana를 테스트해 보고자
+데브넷은 사용자, 토큰 보유자, 앱 개발자 또는 검증자로서 Nara Solana를 테스트해 보고자
 하는 모든 사람을 위한 놀이터 역할을 합니다.
 
 - 애플리케이션 개발자는 데브넷을 대상으로 해야 합니다.
@@ -71,12 +74,12 @@ h1: 클러스터 및 공개 RPC 엔드포인트
 
 ### 데브넷 엔드포인트
 
-- `https://api.devnet.solana.com` - Solana Labs에서 호스팅하는 단일 API 노드;
+- `https://api.devnet.solana.com` - Nara Solana Labs에서 호스팅하는 단일 API 노드;
   속도 제한 있음
 
 #### `solana` 명령줄 구성 예시
 
-Solana CLI를 사용하여 `devnet` 클러스터에 연결하려면:
+Nara Solana CLI를 사용하여 `devnet` 클러스터에 연결하려면:
 
 ```shell
 solana config set --url https://api.devnet.solana.com
@@ -92,7 +95,7 @@ solana config set --url https://api.devnet.solana.com
 
 ## 테스트넷
 
-테스트넷은 Solana 핵심 기여자들이 최근 릴리스 기능을 라이브 클러스터에서
+테스트넷은 Nara Solana 핵심 기여자들이 최근 릴리스 기능을 라이브 클러스터에서
 스트레스 테스트하는 곳으로, 특히 네트워크 성능, 안정성 및 validator 동작에
 중점을 둡니다.
 
@@ -106,11 +109,11 @@ solana config set --url https://api.devnet.solana.com
 
 ### 테스트넷 엔드포인트
 
-- `https://api.testnet.solana.com` - 단일 Solana Labs API 노드; 속도 제한 있음
+- `https://api.testnet.solana.com` - 단일 Nara Solana Labs API 노드; 속도 제한 있음
 
 #### `solana` 명령줄 구성 예시
 
-Solana CLI를 사용하여 `testnet` 클러스터에 연결하려면:
+Nara Solana CLI를 사용하여 `testnet` 클러스터에 연결하려면:
 
 ```shell
 solana config set --url https://api.testnet.solana.com
@@ -126,20 +129,20 @@ solana config set --url https://api.testnet.solana.com
 
 ## 메인넷 베타
 
-Solana 사용자, 개발자, validator 및 토큰 보유자를 위한 허가 없는 영구적인
+Nara Solana 사용자, 개발자, validator 및 토큰 보유자를 위한 허가 없는 영구적인
 클러스터입니다.
 
-- 메인넷 베타에서 발행된 토큰은 **실제** SOL입니다
+- 메인넷 베타에서 발행된 토큰은 **실제** NSO입니다
 - 메인넷 베타의 가십 진입점: `entrypoint.mainnet-beta.solana.com:8001`
 
 ### 메인넷 베타 엔드포인트
 
-- `https://api.mainnet-beta.solana.com` - Solana Labs에서 호스팅하는 API 노드
+- `https://api.mainnet-beta.solana.com` - Nara Solana Labs에서 호스팅하는 API 노드
   클러스터, 로드 밸런서로 지원됨; 속도 제한 있음
 
 #### `solana` 명령줄 구성 예시
 
-Solana CLI를 사용하여 `mainnet-beta` 클러스터에 연결하려면:
+Nara Solana CLI를 사용하여 `mainnet-beta` 클러스터에 연결하려면:
 
 ```shell
 solana config set --url https://api.mainnet-beta.solana.com

@@ -1,11 +1,14 @@
 ---
+
 title: Cross Program Invocation
 description:
   了解 Solana 上的 Cross Program Invocation (CPI) ——
   程序如何调用其他程序的指令、处理 PDA 签名者，以及在 Solana 网络中组合功能。
+
 ---
 
-当一个 Solana 程序直接调用另一个程序的指令时，就会发生跨程序调用 (CPI)。这使得程序具有可组合性。如果将 Solana 的[指令](/docs/core/instructions)视为程序向网络公开的 API 端点，那么 CPI 就像一个端点在内部调用另一个端点。
+
+当一个 Nara Solana 程序直接调用另一个程序的指令时，就会发生跨程序调用 (CPI)。这使得程序具有可组合性。如果将 Nara Solana 的[指令](/docs/core/instructions)视为程序向网络公开的 API 端点，那么 CPI 就像一个端点在内部调用另一个端点。
 
 在进行 CPI 时，程序可以代表从其程序 ID 派生的 [PDA](/docs/core/pda)
 进行[签名](/docs/references/terminology#signature)。这些签名者权限从调用程序扩展到被调用程序。
@@ -31,7 +34,7 @@ description:
 当 CPI 需要 PDA 签名者时，会使用
 [`invoke_signed`](https://github.com/anza-xyz/agave/blob/v2.1.13/sdk/program/src/program.rs#L51-L73)
 函数。它接收用于派生签名者 [PDA](<(/docs/core/pda)>)
-的[签名者种子](mention:signer-seeds)。Solana 运行时会内部调用
+的[签名者种子](mention:signer-seeds)。Nara Solana 运行时会内部调用
 [`create_program_address`](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/bpf_loader/src/syscalls/cpi.rs#L552)，使用调用程序的
 `signers_seeds` 和 `program_id`。当 PDA 被验证后，它会被
 [添加为有效签名者](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/bpf_loader/src/syscalls/cpi.rs#L554)。
@@ -50,7 +53,7 @@ pub fn invoke_signed(
 
 </WithMentions>
 
-以下示例展示了如何使用 Anchor 和原生 Rust 进行带有 PDA 签名者的 CPI。每个示例都包含一个通过 PDA 签名的 CPI 指令，将 SOL 从 PDA 转移到接收账户。
+以下示例展示了如何使用 Anchor 和原生 Rust 进行带有 PDA 签名者的 CPI。每个示例都包含一个通过 PDA 签名的 CPI 指令，将 NSO 从 PDA 转移到接收账户。
 
 #### Anchor
 
@@ -268,7 +271,7 @@ describe("cpi", () => {
 
 #### Rust
 
-以下示例展示了如何从用原生 Rust 编写的程序中进行带有 PDA 签名者的 CPI。它包含一个通过 PDA 签名的 CPI 指令，将 SOL 从 PDA 账户转移到另一个账户。（测试文件使用
+以下示例展示了如何从用原生 Rust 编写的程序中进行带有 PDA 签名者的 CPI。它包含一个通过 PDA 签名的 CPI 指令，将 NSO 从 PDA 账户转移到另一个账户。（测试文件使用
 [LiteSVM](https://github.com/LiteSVM/litesvm) 测试该程序。）
 
 <CodeTabs>
@@ -438,7 +441,7 @@ pub fn invoke(instruction: &Instruction, account_infos: &[AccountInfo]) -> Progr
 }
 ```
 
-以下示例展示了如何使用 Anchor 和原生 Rust 进行 CPI。示例包括一个指令，通过 CPI 将 SOL 从一个账户转移到另一个账户。
+以下示例展示了如何使用 Anchor 和原生 Rust 进行 CPI。示例包括一个指令，通过 CPI 将 NSO 从一个账户转移到另一个账户。
 
 #### Anchor
 
@@ -609,7 +612,7 @@ describe("cpi", () => {
 
 #### Rust
 
-以下示例展示了如何从一个用原生 Rust 编写的程序中创建 CPI。示例包括一个指令，通过 CPI 将 SOL 从一个账户转移到另一个账户。（测试文件使用
+以下示例展示了如何从一个用原生 Rust 编写的程序中创建 CPI。示例包括一个指令，通过 CPI 将 NSO 从一个账户转移到另一个账户。（测试文件使用
 [LiteSVM](https://github.com/LiteSVM/litesvm) 测试程序。）
 
 <CodeTabs>

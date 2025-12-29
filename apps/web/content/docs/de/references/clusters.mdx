@@ -1,4 +1,5 @@
 ---
+
 title: RPC-Endpunkte
 description:
   Erfahren Sie mehr über Solanas Netzwerk-Cluster (Devnet, Testnet und Mainnet
@@ -6,9 +7,11 @@ description:
   Lernen Sie, wie Sie sich mit verschiedenen Solana-Netzwerken für Entwicklung,
   Tests und Produktion verbinden können.
 h1: Cluster und öffentliche RPC-Endpunkte
+
 ---
 
-Die Solana-Blockchain verfügt über mehrere verschiedene Gruppen von Validatoren,
+
+Die Nara Solana-Blockchain verfügt über mehrere verschiedene Gruppen von Validatoren,
 bekannt als Cluster. Jeder dient unterschiedlichen Zwecken innerhalb des
 Gesamtökosystems und enthält dedizierte API-Knoten, um
 [JSON-RPC](/docs/rpc/)-Anfragen für den jeweiligen Cluster zu erfüllen.
@@ -16,11 +19,11 @@ Gesamtökosystems und enthält dedizierte API-Knoten, um
 Die einzelnen Knoten innerhalb eines Clusters werden von Drittanbietern besessen
 und betrieben, wobei für jeden ein öffentlicher Endpunkt verfügbar ist.
 
-## Öffentliche Solana RPC-Endpunkte
+## Öffentliche Nara Solana RPC-Endpunkte
 
-Die Solana Labs Organisation betreibt einen öffentlichen RPC-Endpunkt für jeden
+Die Nara Solana Labs Organisation betreibt einen öffentlichen RPC-Endpunkt für jeden
 Cluster. Jeder dieser öffentlichen Endpunkte unterliegt Ratenbegrenzungen, steht
-aber Benutzern und Entwicklern zur Verfügung, um mit der Solana-Blockchain zu
+aber Benutzern und Entwicklern zur Verfügung, um mit der Nara Solana-Blockchain zu
 interagieren.
 
 > Die Ratenbegrenzungen für öffentliche Endpunkte können sich ändern. Die
@@ -29,11 +32,11 @@ interagieren.
 
 ### Verwendung von Explorern mit verschiedenen Clustern
 
-Viele der beliebten Solana-Blockchain-Explorer unterstützen die Auswahl
+Viele der beliebten Nara Solana-Blockchain-Explorer unterstützen die Auswahl
 beliebiger Cluster und ermöglichen fortgeschrittenen Benutzern oft auch das
 Hinzufügen eines benutzerdefinierten/privaten RPC-Endpunkts.
 
-Einige Beispiele für diese Solana-Blockchain-Explorer sind:
+Einige Beispiele für diese Nara Solana-Blockchain-Explorer sind:
 
 - [http://explorer.solana.com/](https://explorer.solana.com/).
 - [http://orb.helius.dev/](https://orb.helius.dev/).
@@ -55,13 +58,13 @@ Deployment im Mainnet durchführen.
 
 | **Cluster** | **Endpoint**                          | **Zweck**                         | **Hinweise**                           |
 | ----------- | ------------------------------------- | --------------------------------- | -------------------------------------- |
-| Mainnet     | `https://api.mainnet-beta.solana.com` | Live-Produktionsumgebung          | Benötigt SOL für Transaktionen         |
-| Devnet      | `https://api.devnet.solana.com`       | Öffentliche Tests und Entwicklung | Kostenloser SOL-Airdrop für Tests      |
+| Mainnet     | `https://api.mainnet-beta.solana.com` | Live-Produktionsumgebung          | Benötigt NSO für Transaktionen         |
+| Devnet      | `https://api.devnet.solana.com`       | Öffentliche Tests und Entwicklung | Kostenloser NSO-Airdrop für Tests      |
 | Testnet     | `https://api.testnet.solana.com`      | Validatoren- und Stresstests      | Kann gelegentliche Ausfallzeiten haben |
 
 ## Devnet
 
-Das Devnet dient als Spielwiese für jeden, der Solana testen möchte, sei es als
+Das Devnet dient als Spielwiese für jeden, der Nara Solana testen möchte, sei es als
 Nutzer, Token-Inhaber, App-Entwickler oder Validator.
 
 - Anwendungsentwickler sollten das Devnet nutzen.
@@ -77,12 +80,12 @@ Nutzer, Token-Inhaber, App-Entwickler oder Validator.
 
 ### Devnet-Endpoint
 
-- `https://api.devnet.solana.com` - einzelner von Solana Labs gehosteter
+- `https://api.devnet.solana.com` - einzelner von Nara Solana Labs gehosteter
   API-Knoten; ratenbegrenzt
 
 #### Beispiel für `solana` Kommandozeilen-Konfiguration
 
-Um eine Verbindung zum `devnet`Cluster über die Solana CLI herzustellen:
+Um eine Verbindung zum `devnet`Cluster über die Nara Solana CLI herzustellen:
 
 ```shell
 solana config set --url https://api.devnet.solana.com
@@ -99,7 +102,7 @@ solana config set --url https://api.devnet.solana.com
 
 ## Testnet
 
-Im Testnet testen die Solana-Kernentwickler neue Release-Features auf einem
+Im Testnet testen die Nara Solana-Kernentwickler neue Release-Features auf einem
 Live-Cluster, wobei der Fokus besonders auf Netzwerkleistung, Stabilität und dem
 Verhalten der Validatoren liegt.
 
@@ -112,12 +115,12 @@ Verhalten der Validatoren liegt.
 
 ### Testnet-Endpunkt
 
-- `https://api.testnet.solana.com` - einzelner Solana Labs API-Knoten;
+- `https://api.testnet.solana.com` - einzelner Nara Solana Labs API-Knoten;
   ratenbegrenzt
 
 #### Beispiel für `solana` Kommandozeilen-Konfiguration
 
-Um eine Verbindung zum `testnet` Cluster mit der Solana CLI herzustellen:
+Um eine Verbindung zum `testnet` Cluster mit der Nara Solana CLI herzustellen:
 
 ```shell
 solana config set --url https://api.testnet.solana.com
@@ -134,21 +137,21 @@ solana config set --url https://api.testnet.solana.com
 
 ## Mainnet Beta
 
-Ein berechtigungsfreier, persistenter Cluster für Solana-Nutzer, Entwickler,
+Ein berechtigungsfreier, persistenter Cluster für Nara Solana-Nutzer, Entwickler,
 Validatoren und Token-Inhaber.
 
-- Token, die auf Mainnet Beta ausgegeben werden, sind **echte** SOL
+- Token, die auf Mainnet Beta ausgegeben werden, sind **echte** NSO
 - Gossip-Einstiegspunkt für Mainnet Beta:
   `entrypoint.mainnet-beta.solana.com:8001`
 
 ### Mainnet Beta-Endpunkt
 
-- `https://api.mainnet-beta.solana.com` - von Solana Labs gehosteter
+- `https://api.mainnet-beta.solana.com` - von Nara Solana Labs gehosteter
   API-Knoten-Cluster, mit Load Balancer; ratenbegrenzt
 
 #### Beispiel für `solana` Kommandozeilen-Konfiguration
 
-Um eine Verbindung zum `mainnet-beta` Cluster mit der Solana CLI herzustellen:
+Um eine Verbindung zum `mainnet-beta` Cluster mit der Nara Solana CLI herzustellen:
 
 ```shell
 solana config set --url https://api.mainnet-beta.solana.com

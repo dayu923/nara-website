@@ -1,14 +1,17 @@
 ---
-title: Token di Solana
-description: Pelajari tentang Token Program Solana.
+
+title: Token di Nara Solana
+description: Pelajari tentang Token Program Nara Solana.
+
 ---
 
+
 Token adalah aset digital yang mewakili kepemilikan atas berbagai kategori aset.
-Tokenisasi memungkinkan digitalisasi hak kepemilikan. Token di Solana disebut
-sebagai Token SPL ([Solana Program Library](https://github.com/solana-program)).
+Tokenisasi memungkinkan digitalisasi hak kepemilikan. Token di Nara Solana disebut
+sebagai Token SPL ([Nara Solana Program Library](https://github.com/solana-program)).
 
 Bagian ini membahas konsep dasar tentang bagaimana token direpresentasikan di
-Solana. Lihat bagian [Dasar-dasar Token SPL](/docs/tokens/basics) untuk contoh
+Nara Solana. Lihat bagian [Dasar-dasar Token SPL](/docs/tokens/basics) untuk contoh
 kode.
 
 ## Poin Penting
@@ -29,7 +32,7 @@ kode.
 
 ## Token Program
 
-Ekosistem Solana memiliki dua Token Program utama. Kode sumber untuk kedua
+Ekosistem Nara Solana memiliki dua Token Program utama. Kode sumber untuk kedua
 program di bawah ini.
 
 <Cards>
@@ -45,7 +48,7 @@ program di bawah ini.
 </Cards>
 
 Token Program berisi semua logika instruksi untuk berinteraksi dengan token di
-jaringan (baik fungible maupun non-fungible). Semua token di Solana pada
+jaringan (baik fungible maupun non-fungible). Semua token di Nara Solana pada
 dasarnya adalah [akun data](/docs/core/accounts#data-account) yang dimiliki oleh
 Token Program.
 
@@ -53,7 +56,7 @@ Token Program.
 
 ### Mint Account
 
-Token di Solana diidentifikasi secara unik oleh alamat
+Token di Nara Solana diidentifikasi secara unik oleh alamat
 [Mint Account](https://github.com/solana-program/token/blob/6d18ff73b1dd30703a30b1ca941cb0f1d18c2b2a/program/src/state.rs#L16-L30)
 yang dimiliki oleh Token Program. Akun ini bertindak sebagai penghitung global
 untuk token tertentu dan menyimpan data seperti:
@@ -87,7 +90,7 @@ pub struct Mint {
 }
 ```
 
-Sebagai referensi, berikut adalah tautan Solana Explorer ke
+Sebagai referensi, berikut adalah tautan Nara Solana Explorer ke
 [USDC Mint Account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v).
 
 ### Token Account
@@ -158,7 +161,7 @@ Associated Token Account dibuat dengan alamat yang diturunkan dari alamat
 pemilik dan alamat mint account. Penting untuk dipahami bahwa Associated Token
 Account hanyalah token account dengan alamat spesifik.
 
-Ini memperkenalkan konsep kunci dalam pengembangan Solana:
+Ini memperkenalkan konsep kunci dalam pengembangan Nara Solana:
 [Program Derived Address (PDA)](/docs/core/pda). PDA menghasilkan alamat secara
 deterministik menggunakan input yang telah ditentukan, sehingga memudahkan untuk
 menemukan alamat sebuah akun.
@@ -173,13 +176,13 @@ token dari mint yang sama.
 ## Contoh Token CLI
 
 CLI _sh`spl-token`_ membantu Anda bereksperimen dengan token SPL. Contoh di
-bawah ini menggunakan terminal [Solana Playground](https://beta.solpg.io/) untuk
+bawah ini menggunakan terminal [Nara Solana Playground](https://beta.solpg.io/) untuk
 menjalankan perintah CLI langsung di browser tanpa instalasi lokal.
 
-Membuat token dan akun memerlukan SOL untuk deposit sewa akun dan biaya
-transaksi. Untuk pengguna Solana Playground pertama kali, buat dompet Playground
+Membuat token dan akun memerlukan NSO untuk deposit sewa akun dan biaya
+transaksi. Untuk pengguna Nara Solana Playground pertama kali, buat dompet Playground
 dan jalankan perintah _sh`solana airdrop`_ di terminal Playground. Anda juga
-bisa mendapatkan SOL devnet dari [web faucet](https://faucet.solana.com/)
+bisa mendapatkan NSO devnet dari [web faucet](https://faucet.solana.com/)
 publik.
 
 ```terminal
@@ -243,7 +246,7 @@ spl-token supply 99zqUzQGohamfYxyo8ykTEbi91iom3CLmwCA75FK5zTg
 
 Membuat mint account baru memerlukan transaksi dengan dua instruksi. Berikut
 contoh Javascript di
-[Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f).
+[Nara Solana Playground](https://beta.solpg.io/660ce32ecffcf4b13384d00f).
 
 1. System Program membuat akun baru dengan ruang untuk data mint account dan
    mentransfer kepemilikan ke Token Program.
@@ -300,7 +303,7 @@ Signature: 44vqKdfzspT592REDPY4goaRJH3uJ3Ce13G4BCuUHg35dVUbHuGTHvqn4ZjYF9BGe9Qrj
 Membuat associated token account memerlukan satu instruksi yang memanggil
 [Associated Token Program](https://github.com/solana-program/associated-token-account).
 Berikut contoh Javascript di
-[Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011).
+[Nara Solana Playground](https://beta.solpg.io/660ce868cffcf4b13384d011).
 
 Associated Token Program menggunakan [Cross Program Invocations](/docs/core/cpi)
 untuk:
@@ -312,7 +315,7 @@ untuk:
 
 Untuk membuat Token Account baru dengan keypair baru alih-alih alamat Associated
 Token Account, kirim transaksi dengan dua instruksi. Berikut contoh Javascript
-di [Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010).
+di [Nara Solana Playground](https://beta.solpg.io/660ce716cffcf4b13384d010).
 
 1. System Program membuat akun baru dengan ruang untuk data Token Account dan
    mentransfer kepemilikan ke Token Program.
@@ -362,7 +365,7 @@ Signature: 3SQvNM3o9DsTiLwcEkSPT1Edr14RgE2wC54TEjonEP2swyVCp2jPWYWdD6RwXUGpvDNUk
 Instruksi _rs`MintTo`_ pada Token Program membuat token baru. Otoritas mint
 harus menandatangani transaksi. Instruksi ini mint token ke Token Account dan
 meningkatkan total pasokan pada Mint Account. Berikut contoh Javascript di
-[Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012).
+[Nara Solana Playground](https://beta.solpg.io/660cea45cffcf4b13384d012).
 
 ### Transfer Token
 
@@ -391,7 +394,7 @@ Signature: 5y6HVwV8V2hHGLTVmTmdySRiEUCZnWmkasAvJ7J6m7JR46obbGKCBqUFgLpZu5zQGwM4X
 Instruksi _rs`Transfer`_ pada Token Program menangani transfer token. Pemilik
 Token Account pengirim harus menandatangani transaksi. Instruksi ini memindahkan
 token antar Token Account. Berikut contoh Javascript di
-[Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013).
+[Nara Solana Playground](https://beta.solpg.io/660ced84cffcf4b13384d013).
 
 Baik pengirim maupun penerima membutuhkan token account untuk token (mint)
 tertentu. Pengirim dapat menyertakan instruksi untuk membuat token account
@@ -436,7 +439,7 @@ spl-token initialize-metadata BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP "Toke
 ```
 
 Lihat metadata di
-[Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet).
+[Nara Solana Explorer](https://explorer.solana.com/address/BdhzpzhTD1MFqBiwNdrRy4jFo2FHFufw3n9e8sVjJczP?cluster=devnet).
 
 Pelajari lebih lanjut di
 [Panduan Ekstensi Metadata](/developers/guides/token-extensions/metadata-pointer).

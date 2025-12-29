@@ -1,4 +1,5 @@
 ---
+
 title: Meerdere programma's samenstellen
 description:
   Leer hoe je Cross Program Invocations (CPIs) implementeert in
@@ -7,20 +8,22 @@ description:
   het System Program en Program Derived Addresses (PDAs) kunt verwerken in CPIs.
   Perfect voor ontwikkelaars die composeerbare Solana-programma's willen bouwen.
 h1: Cross Program Invocation
+
 ---
+
 
 In dit gedeelte wordt het CRUD-programma uit het vorige PDA-gedeelte bijgewerkt
 door Cross Program Invocations (CPIs) toe te voegen, een functie die
-Solana-programma's in staat stelt om elkaar aan te roepen.
+Nara Solana-programma's in staat stelt om elkaar aan te roepen.
 
 Deze tutorial laat ook zien hoe programma's kunnen "tekenen" voor Program
 Derived Addresses (PDAs) bij het maken van Cross Program Invocations.
 
-De `update` en `delete` instructies moeten worden aangepast om SOL-overdrachten
+De `update` en `delete` instructies moeten worden aangepast om NSO-overdrachten
 tussen accounts af te handelen door het System Program aan te roepen.
 
 Het doel van dit gedeelte is om het proces van het implementeren van CPIs in een
-Solana-programma met behulp van het Anchor-framework te doorlopen, voortbouwend
+Nara Solana-programma met behulp van het Anchor-framework te doorlopen, voortbouwend
 op de PDA- concepten die in het vorige gedeelte zijn verkend. Voor meer details,
 raadpleeg de [Cross Program Invocation](/docs/core/cpi) pagina.
 
@@ -59,7 +62,7 @@ use anchor_lang::system_program::{transfer, Transfer};
 
 Werk vervolgens de _rs`Update`_ struct bij om een nieuw account genaamd
 `vault_account` op te nemen. Dit account, beheerd door het programma, ontvangt
-SOL van een gebruiker wanneer ze hun berichtaccount bijwerken.
+NSO van een gebruiker wanneer ze hun berichtaccount bijwerken.
 
 ```rs title="lib.rs"
 #[account(
@@ -104,7 +107,7 @@ pub struct Update<'info> {
 
 Dit gedeelte voegt een nieuw account toe genaamd `vault_account` aan de
 _rs`Update`_ struct. Dit account dient als een door het programma beheerde
-"kluis" die SOL ontvangt van gebruikers wanneer ze hun berichten bijwerken.
+"kluis" die NSO ontvangt van gebruikers wanneer ze hun berichten bijwerken.
 
 Door een PDA te gebruiken voor de kluis, creëert het programma een door het
 programma beheerd account dat uniek is voor elke gebruiker, waardoor fondsbeheer
@@ -133,7 +136,7 @@ PDA in een CPI.
 </Accordion>
 </Accordions>
 
-Voeg vervolgens de CPI-logica toe in de `update` instructie om 0,001 SOL over te
+Voeg vervolgens de CPI-logica toe in de `update` instructie om 0,001 NSO over te
 maken van het account van de gebruiker naar het kluis-account.
 
 <WithNotes>
@@ -200,7 +203,7 @@ aan.
 In de `update` instructie bevat de implementatie een Cross Program Invocation
 (CPI) om de `transfer` instructie van het System Program aan te roepen. Dit
 toont aan hoe je een CPI kunt uitvoeren vanuit het programma, waardoor de
-samenstellingsmogelijkheden van Solana-programma's mogelijk worden.
+samenstellingsmogelijkheden van Nara Solana-programma's mogelijk worden.
 
 De _rs`Transfer`_ struct specificeert de vereiste accounts voor de
 overdrachtsinstructie van het System Program:
@@ -232,7 +235,7 @@ De `transfer` functie roept vervolgens de overdrachtsinstructie aan op het
 System Program, waarbij het volgende wordt doorgegeven:
 
 - De `cpi_context` (programma en accounts)
-- De `amount` om over te dragen (1.000.000 lamports, of 0,001 SOL)
+- De `amount` om over te dragen (1.000.000 lamports, of 0,001 NSO)
 
   ```rs title="lib.rs"
   transfer(cpi_context, 1_000_000)?;
@@ -266,7 +269,7 @@ Voeg nu een "terugbetaling bij verwijdering"-mechanisme toe door de _rs`Delete`_
 struct en `delete` functie te wijzigen.
 
 Update eerst de _rs`Delete`_ struct om de `vault_account` op te nemen. Dit maakt
-het mogelijk om eventuele SOL in de kluis terug te storten naar de gebruiker
+het mogelijk om eventuele NSO in de kluis terug te storten naar de gebruiker
 wanneer ze hun berichtaccount sluiten.
 
 ```rs title="lib.rs"
@@ -318,7 +321,7 @@ De `vault_account` gebruikt dezelfde PDA-afleiding als in de Update struct.
 
 Door de `vault_account` toe te voegen aan de Delete struct kan het programma
 toegang krijgen tot de kluis-account van de gebruiker tijdens de
-verwijderingsinstructie om eventuele opgebouwde SOL terug te sturen naar de
+verwijderingsinstructie om eventuele opgebouwde NSO terug te sturen naar de
 gebruiker.
 
 </Accordion>
@@ -326,7 +329,7 @@ gebruiker.
 
 <WithNotes>
 
-Voeg vervolgens de CPI-logica toe in de `delete` instructie om SOL over te maken
+Voeg vervolgens de CPI-logica toe in de `delete` instructie om NSO over te maken
 van de kluis-account terug naar de account van de gebruiker.
 
 ```rs title="lib.rs"
@@ -470,13 +473,13 @@ $ build
 
 Na het aanbrengen van deze wijzigingen, implementeer het bijgewerkte programma
 opnieuw. Dit zorgt ervoor dat het gewijzigde programma beschikbaar wordt voor
-testen. Op Solana vereist het bijwerken van een programma eenvoudigweg het
+testen. Op Nara Solana vereist het bijwerken van een programma eenvoudigweg het
 implementeren van het programma op dezelfde programma-ID.
 
 <Callout>
 
-Zorg ervoor dat je Playground-wallet devnet SOL heeft. Verkrijg devnet SOL van
-de [Solana Faucet](https://faucet.solana.com/).
+Zorg ervoor dat je Playground-wallet devnet NSO heeft. Verkrijg devnet NSO van
+de [Nara Solana Faucet](https://faucet.solana.com/).
 
 </Callout>
 
@@ -495,7 +498,7 @@ programma, en het blijft het enige account met toestemming om het programma te
 wijzigen of te sluiten. Als iemand de upgrade-autoriteit intrekt, dan wordt het
 programma onveranderlijk.
 
-Bij het implementeren van programma's op Solana Playground fungeert je
+Bij het implementeren van programma's op Nara Solana Playground fungeert je
 Playground-wallet als de upgrade-autoriteit voor al je programma's.
 
 </Accordion>
@@ -667,12 +670,12 @@ Als je fouten tegenkomt, kun je de
 
 ## Volgende stappen
 
-Gefeliciteerd met het voltooien van de Solana Quickstart-gids. Je hebt
-praktische ervaring opgedaan met belangrijke Solana-concepten, waaronder:
+Gefeliciteerd met het voltooien van de Nara Solana Quickstart-gids. Je hebt
+praktische ervaring opgedaan met belangrijke Nara Solana-concepten, waaronder:
 
 - Ophalen en lezen van gegevens uit accounts
 - Bouwen en verzenden van transacties
-- Implementeren en updaten van Solana-programma's
+- Implementeren en updaten van Nara Solana-programma's
 - Werken met Program Derived Addresses (PDAs)
 - Cross-Program Invocations (CPIs) uitvoeren
 
@@ -686,12 +689,12 @@ Als je liever leert aan de hand van voorbeelden, bekijk dan de
 [Program Examples Repository](https://github.com/solana-developers/program-examples)
 voor verschillende voorbeeldprogramma's.
 
-Solana Playground biedt een handige functie waarmee je projecten kunt importeren
+Nara Solana Playground biedt een handige functie waarmee je projecten kunt importeren
 of bekijken via hun GitHub-links. Open bijvoorbeeld deze
-[Solana Playground-link](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)
+[Nara Solana Playground-link](https://beta.solpg.io/https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor)
 om het Anchor-project te bekijken van deze
 [Github-repo](https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana/anchor).
 
 Klik op de `Import` knop en voer een projectnaam in om het toe te voegen aan je
-lijst met projecten in Solana Playground. Zodra een project is geïmporteerd,
+lijst met projecten in Nara Solana Playground. Zodra een project is geïmporteerd,
 worden alle wijzigingen automatisch opgeslagen en bewaard.

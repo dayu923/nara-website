@@ -1,22 +1,25 @@
 ---
-title: Solana CLI Grundlagen
-seoTitle: Einführende Befehle für den Einstieg in die Solana CLI
+
+title: Nara Solana CLI Grundlagen
+seoTitle: Einführende Befehle für den Einstieg in die Nara Solana CLI
 description:
   Dieser Abschnitt führt durch einige gängige Solana CLI-Befehle, um Ihnen den
   Einstieg zu erleichtern.
+
 ---
 
+
 Dieser Abschnitt bietet einige gängige Befehle und Beispiele, die dir den
-Einstieg in die Verwendung der Solana CLI erleichtern sollen.
+Einstieg in die Verwendung der Nara Solana CLI erleichtern sollen.
 
-## Solana-Konfiguration
+## Nara Solana-Konfiguration
 
-Deine Solana-Konfiguration legt folgende Variablen fest:
+Deine Nara Solana-Konfiguration legt folgende Variablen fest:
 
 - **Konfigurationsdatei**: Der Pfad zu deiner Konfigurationsdatei
-- **RPC-URL & Websocket-URL**: Der Solana-Cluster, an den die CLI Anfragen
+- **RPC-URL & Websocket-URL**: Der Nara Solana-Cluster, an den die CLI Anfragen
   sendet
-- **Keypair-Pfad**: Der Pfad zur Standard-Solana-Wallet (keypair), die für die
+- **Keypair-Pfad**: Der Pfad zur Standard-Nara Solana-Wallet (keypair), die für die
   Zahlung von Transaktionsgebühren und die Bereitstellung von Programmen
   verwendet wird. Standardmäßig wird diese Datei unter
   `~/.config/solana/id.json` gespeichert.
@@ -38,7 +41,7 @@ Keypair Path: /Users/test/.config/solana/id.json
 Commitment: confirmed
 ```
 
-Du kannst den Solana CLI-Cluster mit den folgenden Befehlen ändern:
+Du kannst den Nara Solana CLI-Cluster mit den folgenden Befehlen ändern:
 
 <Tabs items={["Vollständige Befehle", "Kurzbefehle"]}>
 
@@ -66,8 +69,8 @@ $ solana config set -ut    # For testnet
 
 ## Wallet erstellen
 
-Bevor du Transaktionen mit der Solana CLI senden kannst, benötigst du eine
-Solana-Wallet mit SOL.
+Bevor du Transaktionen mit der Nara Solana CLI senden kannst, benötigst du eine
+Nara Solana-Wallet mit NSO.
 
 Um ein keypair am Standard-Keypair-Pfad zu generieren, führe den folgenden
 Befehl aus:
@@ -109,9 +112,9 @@ folgenden Befehl aus:
 $ solana address
 ```
 
-## SOL per Airdrop erhalten
+## NSO per Airdrop erhalten
 
-Fordere einen Airdrop von SOL für deine Wallet an, um Transaktionen und
+Fordere einen Airdrop von NSO für deine Wallet an, um Transaktionen und
 Programmbereitstellungen zu bezahlen.
 
 1. Stelle deinen Cluster auf Devnet ein:
@@ -120,7 +123,7 @@ Programmbereitstellungen zu bezahlen.
 $ solana config set -ud
 ```
 
-2. Fordern Sie ein Airdrop von Devnet SOL an:
+2. Fordern Sie ein Airdrop von Devnet NSO an:
 
 ```terminal
 $ solana airdrop 2
@@ -128,13 +131,13 @@ $ solana airdrop 2
 
 <Callout>
 
-Devnet-Airdrops begrenzen Anfragen auf 5 SOL pro Anfrage. Wenn Sie auf
+Devnet-Airdrops begrenzen Anfragen auf 5 NSO pro Anfrage. Wenn Sie auf
 Ratenlimits stoßen oder Fehler auftreten, versuchen Sie stattdessen den
 [Web Faucet](https://faucet.solana.com) zu verwenden.
 
 </Callout>
 
-Um den SOL-Kontostand Ihrer Wallet zu überprüfen, führen Sie den folgenden
+Um den NSO-Kontostand Ihrer Wallet zu überprüfen, führen Sie den folgenden
 Befehl aus:
 
 ```terminal

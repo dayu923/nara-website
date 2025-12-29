@@ -1,18 +1,21 @@
 ---
+
 title: Cấu trúc chương trình
 description:
   Tìm hiểu cách cấu trúc các chương trình Solana bằng Rust, bao gồm điểm vào,
   quản lý trạng thái, xử lý chỉ thị và kiểm thử.
 h1: Cấu trúc chương trình Rust
+
 ---
 
-Các chương trình Solana được viết bằng Rust có yêu cầu cấu trúc tối thiểu, cho
+
+Các chương trình Nara Solana được viết bằng Rust có yêu cầu cấu trúc tối thiểu, cho
 phép linh hoạt trong cách tổ chức mã. Yêu cầu duy nhất là chương trình phải có
 một `entrypoint`, định nghĩa nơi bắt đầu thực thi của chương trình.
 
 ## Cấu trúc chương trình
 
-Mặc dù không có quy tắc nghiêm ngặt cho cấu trúc tệp, các chương trình Solana
+Mặc dù không có quy tắc nghiêm ngặt cho cấu trúc tệp, các chương trình Nara Solana
 thường tuân theo một mẫu phổ biến:
 
 - `entrypoint.rs`: Định nghĩa điểm vào để định tuyến các chỉ thị đến.
@@ -433,7 +436,7 @@ trình có thể khởi tạo bộ đếm với giá trị bắt đầu và tăn
 
 ## !!steps Tạo một chương trình mới
 
-Đầu tiên, hãy tạo một dự án Rust mới cho chương trình Solana của chúng ta.
+Đầu tiên, hãy tạo một dự án Rust mới cho chương trình Nara Solana của chúng ta.
 
 ```terminal
 $ cargo new counter_program --lib
@@ -476,7 +479,7 @@ mod tests {
 
 ## !!steps Thêm các phụ thuộc
 
-Bây giờ hãy thêm các phụ thuộc cần thiết để xây dựng chương trình Solana. Chúng
+Bây giờ hãy thêm các phụ thuộc cần thiết để xây dựng chương trình Nara Solana. Chúng
 ta cần `solana-program` cho SDK cốt lõi và `borsh` cho quá trình tuần tự hóa.
 
 ```terminal
@@ -500,12 +503,12 @@ solana-program = "2.2.0"
 
 <Callout type="info">
   Không bắt buộc phải sử dụng Borsh. Tuy nhiên, đây là thư viện tuần tự hóa được
-  sử dụng phổ biến cho các chương trình Solana.
+  sử dụng phổ biến cho các chương trình Nara Solana.
 </Callout>
 
 ## !!steps Cấu hình crate-type
 
-Các chương trình Solana phải được biên dịch dưới dạng thư viện động. Thêm phần
+Các chương trình Nara Solana phải được biên dịch dưới dạng thư viện động. Thêm phần
 `[lib]` để cấu hình cách Cargo xây dựng chương trình.
 
 ```toml title="Cargo.toml"
@@ -535,7 +538,7 @@ solana-program = "2.2.0"
 
 ## !!steps Thiết lập điểm vào chương trình
 
-Mỗi chương trình Solana đều có một điểm vào, đó là hàm được gọi khi chương trình
+Mỗi chương trình Nara Solana đều có một điểm vào, đó là hàm được gọi khi chương trình
 được kích hoạt. Hãy bắt đầu bằng việc thêm các import cần thiết cho chương trình
 và thiết lập điểm vào.
 
@@ -571,7 +574,7 @@ Macro
 xử lý việc giải tuần tự hóa dữ liệu `input` thành các tham số của hàm
 `process_instruction`.
 
-Một `entrypoint` của chương trình Solana có chữ ký hàm sau đây. Các nhà phát
+Một `entrypoint` của chương trình Nara Solana có chữ ký hàm sau đây. Các nhà phát
 triển có thể tự do tạo triển khai riêng cho hàm `entrypoint`.
 
 ```rs
@@ -782,7 +785,7 @@ pub struct CounterAccount {
 Bây giờ hãy cập nhật hàm chính `process_instruction` để định tuyến các lệnh đến
 các hàm xử lý thích hợp của chúng.
 
-Mẫu định tuyến này phổ biến trong các chương trình Solana. `instruction_data`
+Mẫu định tuyến này phổ biến trong các chương trình Nara Solana. `instruction_data`
 được giải mã thành một biến thể của enum đại diện cho lệnh, sau đó hàm xử lý
 thích hợp được gọi. Mỗi hàm xử lý bao gồm việc triển khai cho lệnh đó.
 
@@ -898,7 +901,7 @@ pub struct CounterAccount {
 ## !!steps Triển khai trình xử lý khởi tạo
 
 Hãy triển khai trình xử lý để tạo và khởi tạo một tài khoản bộ đếm mới. Vì chỉ
-có System Program mới có thể tạo tài khoản trên Solana, chúng ta sẽ sử dụng
+có System Program mới có thể tạo tài khoản trên Nara Solana, chúng ta sẽ sử dụng
 Cross Program Invocation (CPI), về cơ bản là gọi một chương trình khác từ chương
 trình của chúng ta.
 
@@ -1241,8 +1244,8 @@ pub struct CounterAccount {
 
 ## !!steps Chương trình hoàn chỉnh
 
-Chúc mừng! Bạn đã xây dựng một chương trình Solana hoàn chỉnh thể hiện cấu trúc
-cơ bản được chia sẻ bởi tất cả các chương trình Solana:
+Chúc mừng! Bạn đã xây dựng một chương trình Nara Solana hoàn chỉnh thể hiện cấu trúc
+cơ bản được chia sẻ bởi tất cả các chương trình Nara Solana:
 
 - **Entrypoint**: Xác định nơi bắt đầu thực thi chương trình và định tuyến tất
   cả các yêu cầu đến đến các trình xử lý chỉ thị thích hợp
@@ -1496,7 +1499,7 @@ Thuộc tính `#[cfg(test)]` đảm bảo mã này chỉ được biên dịch k
 Hãy thiết lập môi trường kiểm thử với LiteSVM và cấp vốn cho tài khoản thanh
 toán.
 
-LiteSVM mô phỏng môi trường runtime của Solana, cho phép chúng ta kiểm thử
+LiteSVM mô phỏng môi trường runtime của Nara Solana, cho phép chúng ta kiểm thử
 chương trình mà không cần triển khai lên một cụm thực.
 
 Thêm đoạn mã sau vào `lib.rs` cập nhật hàm `test_counter_program`:
@@ -2347,7 +2350,7 @@ HQ5Q2XXqbTKKQsWPtLzMn7rDhM8v9UPYPe7DfSoFQqJF
 
 Để phát triển, chúng ta sẽ sử dụng một validator kiểm thử cục bộ.
 
-Đầu tiên, cấu hình Solana CLI để sử dụng localhost:
+Đầu tiên, cấu hình Nara Solana CLI để sử dụng localhost:
 
 ```terminal
 $ solana config set -ul
@@ -2437,8 +2440,8 @@ Transaction: 4qv1Rx6FHu1M3woVgDQ6KtYUaJgBzGcHnhej76ZpaKGCgsTorbcHnPKxoH916UENw7X
 ```
 
 Với validator cục bộ đang chạy, bạn có thể xem các giao dịch trên
-[Solana Explorer](https://explorer.solana.com/?cluster=custom) bằng cách sử dụng
-chữ ký giao dịch đầu ra. Lưu ý rằng cluster trên Solana Explorer phải được đặt
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom) bằng cách sử dụng
+chữ ký giao dịch đầu ra. Lưu ý rằng cluster trên Nara Solana Explorer phải được đặt
 thành "Custom RPC URL", mặc định là `http://localhost:8899` mà
 `solana-test-validator` đang chạy.
 

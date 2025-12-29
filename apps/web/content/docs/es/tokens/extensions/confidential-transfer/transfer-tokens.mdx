@@ -1,8 +1,11 @@
 ---
+
 title: Transferir tokens
 description:
   Aprende cómo transferir tokens de forma privada de una cuenta de token a otra.
+
 ---
+
 
 <Callout type="warn">
   El programa ZK ElGamal está temporalmente deshabilitado en la mainnet y devnet
@@ -57,7 +60,7 @@ Para transferir tokens confidencialmente:
    [ConfidentialTransferInstruction::Transfer](https://github.com/solana-program/token-2022/blob/efd0c957fefbd79882d77df5fb2dac88c001249c/program/src/extension/confidential_transfer/processor.rs#L604),
    proporcionando las cuentas de estado de contexto de prueba.
 
-4. Cerrar las cuentas de estado de contexto de prueba para recuperar el SOL
+4. Cerrar las cuentas de estado de contexto de prueba para recuperar el NSO
    utilizado para crearlas.
 
 El siguiente diagrama muestra los pasos involucrados en la transferencia de
@@ -118,7 +121,7 @@ cuentas de token.
 
 Para ejecutar el ejemplo, inicia un validador local con el Token Extensions
 Program clonado desde la mainnet usando el siguiente comando. Debes tener
-instalado el Solana CLI para iniciar el validador local.
+instalado el Nara Solana CLI para iniciar el validador local.
 
 ```terminal
 $ solana-test-validator --clone-upgradeable-program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb --url https://api.mainnet-beta.solana.com -r

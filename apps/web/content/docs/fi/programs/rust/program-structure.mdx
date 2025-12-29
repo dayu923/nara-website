@@ -1,18 +1,21 @@
 ---
+
 title: Ohjelman rakenne
 description:
   Opi kuinka Solana-ohjelmat rakennetaan Rustilla, mukaan lukien
   sisääntulopisteet, tilan hallinta, käskyjen käsittely ja testaus.
 h1: Rust-ohjelman rakenne
+
 ---
 
-Rustilla kirjoitetuilla Solana-ohjelmilla on minimaaliset rakennevaatimukset,
+
+Rustilla kirjoitetuilla Nara Solana-ohjelmilla on minimaaliset rakennevaatimukset,
 mikä mahdollistaa joustavuuden koodin organisoinnissa. Ainoa vaatimus on, että
 ohjelmalla täytyy olla entrypoint, joka määrittää mistä ohjelman suoritus alkaa.
 
 ## Ohjelman rakenne
 
-Vaikka tiedostorakenteelle ei ole tiukkoja sääntöjä, Solana-ohjelmat noudattavat
+Vaikka tiedostorakenteelle ei ole tiukkoja sääntöjä, Nara Solana-ohjelmat noudattavat
 tyypillisesti yleistä kaavaa:
 
 - lib.rs: Määrittää sisääntulokodan, joka ohjaa saapuvat käskyt.
@@ -432,7 +435,7 @@ laskurin aloitusarvolla ja kasvattaa sitä.
 
 ## !!steps Luo uusi ohjelma
 
-Luodaan ensin uusi Rust-projekti Solana-ohjelmallemme.
+Luodaan ensin uusi Rust-projekti Nara Solana-ohjelmallemme.
 
 ```terminal
 $ cargo new counter_program --lib
@@ -475,7 +478,7 @@ mod tests {
 
 ## !!steps Lisää riippuvuudet
 
-Lisätään nyt tarvittavat riippuvuudet Solana-ohjelman rakentamiseen. Tarvitsemme
+Lisätään nyt tarvittavat riippuvuudet Nara Solana-ohjelman rakentamiseen. Tarvitsemme
 `solana-program` ydin SDK:ta varten ja `borsh` serialisointia varten.
 
 ```terminal
@@ -499,12 +502,12 @@ solana-program = "2.2.0"
 
 <Callout type="info">
   Borshin käyttö ei ole pakollista. Se on kuitenkin yleisesti käytetty
-  serialisointikirjasto Solana-ohjelmissa.
+  serialisointikirjasto Nara Solana-ohjelmissa.
 </Callout>
 
 ## !!steps Määritä crate-type
 
-Solana-ohjelmat täytyy kääntää dynaamisina kirjastoina. Lisää `[lib]` osio
+Nara Solana-ohjelmat täytyy kääntää dynaamisina kirjastoina. Lisää `[lib]` osio
 määrittääksesi miten Cargo rakentaa ohjelman.
 
 ```toml title="Cargo.toml"
@@ -534,7 +537,7 @@ solana-program = "2.2.0"
 
 ## !!steps Määritä ohjelman sisääntulopiste
 
-Jokaisella Solana-ohjelmalla on sisääntulopiste, joka on funktio jota kutsutaan
+Jokaisella Nara Solana-ohjelmalla on sisääntulopiste, joka on funktio jota kutsutaan
 kun ohjelma käynnistetään. Aloitetaan lisäämällä tarvittavat tuonnit ohjelmaa
 varten ja määrittämällä sisääntulopiste.
 
@@ -569,7 +572,7 @@ pub fn process_instruction(
 makro käsittelee `input` datan deserialisoinnin `process_instruction` funktion
 parametreiksi.
 
-Solana-ohjelman `entrypoint` funktiolla on seuraava funktiosignature. Kehittäjät
+Nara Solana-ohjelman `entrypoint` funktiolla on seuraava funktiosignature. Kehittäjät
 voivat vapaasti luoda oman toteutuksensa `entrypoint` funktiolle.
 
 ```rs
@@ -779,7 +782,7 @@ pub struct CounterAccount {
 Päivitetään nyt pääfunktio `process_instruction` ohjaamaan ohjeet niiden
 asianmukaisille käsittelijäfunktioille.
 
-Tämä reititystapa on yleinen Solana-ohjelmissa. `instruction_data`
+Tämä reititystapa on yleinen Nara Solana-ohjelmissa. `instruction_data`
 deserialisoidaan ohjetta edustavaksi enum-variantiksi, jonka jälkeen kutsutaan
 asianmukaista käsittelijäfunktiota. Jokainen käsittelijäfunktio sisältää
 toteutuksen kyseiselle ohjeelle.
@@ -1239,8 +1242,8 @@ pub struct CounterAccount {
 
 ## !!steps Valmis ohjelma
 
-Onnittelut! Olet rakentanut kokonaisen Solana-ohjelman, joka demonstroi kaikkien
-Solana-ohjelmien jakamaa perusrakennetta:
+Onnittelut! Olet rakentanut kokonaisen Nara Solana-ohjelman, joka demonstroi kaikkien
+Nara Solana-ohjelmien jakamaa perusrakennetta:
 
 - **Sisäänkäyntipiste**: Määrittää mistä ohjelman suoritus alkaa ja ohjaa kaikki
   saapuvat pyynnöt asianmukaisille ohjekäsittelijöille
@@ -2349,7 +2352,7 @@ HQ5Q2XXqbTKKQsWPtLzMn7rDhM8v9UPYPe7DfSoFQqJF
 
 Kehitystä varten käytämme paikallista testivalidatoria.
 
-Ensin määritä Solana CLI käyttämään localhostia:
+Ensin määritä Nara Solana CLI käyttämään localhostia:
 
 ```terminal
 $ solana config set -ul
@@ -2439,8 +2442,8 @@ Transaction: 4qv1Rx6FHu1M3woVgDQ6KtYUaJgBzGcHnhej76ZpaKGCgsTorbcHnPKxoH916UENw7X
 ```
 
 Kun paikallinen validator on käynnissä, voit tarkastella tapahtumia
-[Solana Explorerissa](https://explorer.solana.com/?cluster=custom) käyttämällä
-tulostettuja tapahtumien allekirjoituksia. Huomaa, että Solana Explorerissa
+[Nara Solana Explorerissa](https://explorer.solana.com/?cluster=custom) käyttämällä
+tulostettuja tapahtumien allekirjoituksia. Huomaa, että Nara Solana Explorerissa
 klusterin asetukseksi on valittava "Custom RPC URL", jonka oletusarvo on
 `http://localhost:8899`, jossa `solana-test-validator` on käynnissä.
 

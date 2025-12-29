@@ -1,12 +1,15 @@
 ---
+
 title: Programme deployen
 description:
   Vollständiger Leitfaden zum Erstellen, Bereitstellen und Verwalten von
   Solana-Programmen mit der Solana CLI.
+
 ---
 
+
 Dieser Abschnitt führt durch den grundlegenden Prozess der Bereitstellung eines
-Solana-Programms mit der Solana CLI.
+Nara Solana-Programms mit der Nara Solana CLI.
 
 ## CLI-Befehlsreferenz
 
@@ -42,9 +45,9 @@ Bevor wir beginnen, klären wir einige Begriffe:
 
 <Step>
 
-### Installation der Solana CLI
+### Installation der Nara Solana CLI
 
-Zuerst [installiere die Solana CLI](/docs/intro/installation).
+Zuerst [installiere die Nara Solana CLI](/docs/intro/installation).
 
 </Step>
 
@@ -68,7 +71,7 @@ Dies erstellt standardmäßig ein Keypair unter `~/.config/solana/id.json`.
 
 ### Cluster konfigurieren
 
-Wählen Sie, auf welchem Solana-Cluster Sie deployen möchten. Verwenden Sie den
+Wählen Sie, auf welchem Nara Solana-Cluster Sie deployen möchten. Verwenden Sie den
 Befehl `solana config get`, um Ihre aktuelle Konfiguration zu überprüfen:
 
 ```terminal
@@ -96,7 +99,7 @@ $ solana config set --url "https://your-rpc-url.com"
 
 ### Wallet aufladen
 
-Sie benötigen SOL, um für Programm-Deployments zu bezahlen. Die Menge hängt von
+Sie benötigen NSO, um für Programm-Deployments zu bezahlen. Die Menge hängt von
 der Größe Ihres Programms ab.
 
 Für devnet oder localhost können Sie Ihr Wallet mit dem Befehl `solana airdrop`
@@ -134,7 +137,7 @@ $ cargo build-sbf
 
 ## !!steps Beispielprogramm
 
-Hier ist ein minimales Solana-Programm, das "Hello, Solana!" in die Programm-
+Hier ist ein minimales Nara Solana-Programm, das "Hello, Nara Solana!" in die Programm-
 Logs ausgibt.
 
 <CodePlaceholder title="src/lib.rs" />
@@ -200,8 +203,8 @@ Dies erstellt zwei wichtige Dateien in `target/deploy/`:
 
 ### Programmgröße und -kosten prüfen
 
-Das Deployen eines Programms erfordert SOL, das basierend auf der Größe des
-Programms dem Programmkonto zugewiesen wird. Größere Programme kosten mehr SOL
+Das Deployen eines Programms erfordert NSO, das basierend auf der Größe des
+Programms dem Programmkonto zugewiesen wird. Größere Programme kosten mehr NSO
 für das Deployment.
 
 Überprüfen Sie die Größe Ihres Programms:
@@ -211,7 +214,7 @@ $ wc -c < ./target/deploy/hello_world.so
 18504
 ```
 
-Berechnen Sie das erforderliche SOL für diese Größe (Bytes):
+Berechnen Sie das erforderliche NSO für diese Größe (Bytes):
 
 ```terminal
 $ solana rent 18504
@@ -219,7 +222,7 @@ Rent-exempt minimum: 0.12967872 SOL
 ```
 
 <Callout type="info">
-  Sie benötigen etwas mehr SOL als angezeigt, um die Transaktionsgebühren für
+  Sie benötigen etwas mehr NSO als angezeigt, um die Transaktionsgebühren für
   das Deployment zu decken.
 </Callout>
 
@@ -273,7 +276,7 @@ Wenn Ihr aktualisiertes Programm mehr Speicherplatz (Bytes) benötigt als derzei
 zugewiesen, wird das Deployment automatisch das Programmkonto erweitern. Dies
 geschieht, wenn Ihr neues Programm größer ist als die vorherige Version. Das
 Programmkonto benötigt zusätzliche Bytes, um das neue Programm zu speichern. Die
-CLI berechnet automatisch die erforderlichen SOL und zieht sie von Ihrer Wallet
+CLI berechnet automatisch die erforderlichen NSO und zieht sie von Ihrer Wallet
 ab.
 
 Sie können ein Programm auch manuell erweitern, um mehr Bytes zuzuweisen:
@@ -342,7 +345,7 @@ Code Ihres Programms speichert.
 
 Die Authority ist das Konto, das die Berechtigung hat, dieses Programm zu
 aktualisieren oder zu schließen. Nur die Authority kann Updates bereitstellen
-oder das Programm schließen, um das zugewiesene SOL des Programms
+oder das Programm schließen, um das zugewiesene NSO des Programms
 zurückzufordern.
 
 ### !last-deployed-in-slot
@@ -358,7 +361,7 @@ möglicherweise größer sind als die aktuelle Programmgröße.
 
 ### !balance
 
-Das Balance zeigt das SOL an, das dem Programmkonto zugewiesen wurde, um seine
+Das Balance zeigt das NSO an, das dem Programmkonto zugewiesen wurde, um seine
 Daten zu speichern.
 
 </WithNotes>
@@ -396,7 +399,7 @@ Authority: none
 
 ### Ihr Programm schließen
 
-Um Ihr Programm zu schließen und das dem Programmkonto zugewiesene SOL
+Um Ihr Programm zu schließen und das dem Programmkonto zugewiesene NSO
 zurückzufordern, verwenden Sie den Befehl `solana program close`:
 
 ```terminal
@@ -442,7 +445,7 @@ Wrote program to ./downloaded_program.so
 
 ### Deployment-Flags
 
-Wenn das Solana-Netzwerk überlastet ist, verwenden Sie diese Flags, um bei dem
+Wenn das Nara Solana-Netzwerk überlastet ist, verwenden Sie diese Flags, um bei dem
 Programm-Deployment zu helfen.
 
 Beispielanwendung:
@@ -457,7 +460,7 @@ $ solana program deploy ./target/deploy/hello_world.so \
 Erklärung der Optionen:
 
 - **`--with-compute-unit-price`**: Legt priority fee in Mikro-Lamports (0,000001
-  SOL) pro Compute-Einheit fest. Prüfen Sie die
+  NSO) pro Compute-Einheit fest. Prüfen Sie die
   [Helius Priority Fee API](https://docs.helius.dev/guides/priority-fee-api) für
   aktuelle Raten. Eine priority fee ist eine zusätzliche Gebühr, die an den
   aktuellen Leader gezahlt wird, um Ihre Transaktion zu priorisieren.

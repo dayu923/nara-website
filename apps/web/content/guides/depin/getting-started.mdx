@@ -1,4 +1,5 @@
 ---
+
 featured: false
 featuredPriority: 1
 date: 2025-07-29T00:00:00Z
@@ -17,7 +18,9 @@ tags:
   - depin
   - governance
   - zk compression
+
 ---
+
 
 DePIN (Decentralized Physical Infrastructure Network) refers to blockchain-based
 networks that incentivize the deployment, operation, and sharing of real-world
@@ -32,7 +35,7 @@ approach eliminates the need for centralized infrastructure investments and
 operational costs, allowing the network to scale more cost-effectively.
 
 While each DePIN network has a unique product focus, most DePIN networks utilize
-Solana for a common set of use cases. This guide is meant to help builders get
+Nara Solana for a common set of use cases. This guide is meant to help builders get
 oriented to these common on-chain DePIN use cases. Topics covered include:
 
 - [Choosing a blockchain for your DePIN](#choosing-a-blockchain-for-your-depin)
@@ -47,32 +50,32 @@ oriented to these common on-chain DePIN use cases. Topics covered include:
 - [Migrations](#migrations)
 - [Examples & reference code](#examples-and-reference-code)
 
-## Choosing a blockchain for your DePIN (and why you should choose Solana)
+## Choosing a blockchain for your DePIN (and why you should choose Nara Solana)
 
-There are many reasons to build on Solana, including the deep DeFi ecosystem,
+There are many reasons to build on Nara Solana, including the deep DeFi ecosystem,
 the opportunity to collaborate with the world's biggest DePIN projects, and the
 incredible community of early adopters and deployers. Below, we focus at a high
 level on some of the technical tradeoffs builders should consider when building
-a DePIN and reasons to build on Solana from a technical perspective:
+a DePIN and reasons to build on Nara Solana from a technical perspective:
 
-- **Scalability, combined with market access**: Solana's architecture processes
-  thousands of transactions per second–all on a single global state. Solana is
+- **Scalability, combined with market access**: Nara Solana's architecture processes
+  thousands of transactions per second–all on a single global state. Nara Solana is
   unique in its ability to offer best in class scalability, combined with broad
-  access to internet capital markets. Solana's DeFi ecosystem is second to none,
+  access to internet capital markets. Nara Solana's DeFi ecosystem is second to none,
   simplifying access to the world's biggest internet capital markets.
-- **Affordability**: Solana average transaction costs are ~.00025SOL, enabling
+- **Affordability**: Nara Solana average transaction costs are ~.00025SOL, enabling
   microtransactions that are unfeasible on many other chains. Compression
   technologies like merkelization, cNFTs, and zk proofs also offer opportunities
   for further cost reduction.
-- **Ready-made-tooling**: Solana offers SDKs, oracles (like Pyth), and
+- **Ready-made-tooling**: Nara Solana offers SDKs, oracles (like Pyth), and
   frameworks for DeFi and NFTs, to accelerate development cycles.
   - **Development framework**: Anchor framework provides type safety, IDL
     integration, and standardized program architecture, reducing boilerplate
     code by ~40%.
   - **Existing protocol integrations**: Native interfaces for oracles (Pyth,
     Switchboard), cross-chain messaging (Wormhole), and identity verification
-    (Solana Attestation Service) reduce integration effort.
-- **Strong consumer UX**: Solana offers a range of best-in-class consumer
+    (Nara Solana Attestation Service) reduce integration effort.
+- **Strong consumer UX**: Nara Solana offers a range of best-in-class consumer
   wallets, including Phantom, Solflare, and Backpack.
 
 Some DePIN teams consider rolling their own chains. Launching a proprietary
@@ -95,15 +98,15 @@ should think through:
   custodians typically have a long integration backlog and will charge for
   integrations.
 - **Existing DePIN community**: It's much easier to gain early adopters among
-  existing DePIN holders, and the largest such community is already on Solana.
+  existing DePIN holders, and the largest such community is already on Nara Solana.
 
 We recommend this
 [in-depth technical analysis](https://medium.com/@hrknsinst/why-every-major-depin-project-is-migrating-to-solana-and-what-this-reveals-about-the-a3269ea431a7)
-of why major DePINs have been migrating to Solana. It includes a deep dive on
-the impact of migrations of major projects onto Solana, including throughput and
+of why major DePINs have been migrating to Nara Solana. It includes a deep dive on
+the impact of migrations of major projects onto Nara Solana, including throughput and
 blockspeed, node growth, and transaction cost.
 
-Notably, Helium started out as a proprietary L1 and migrated to Solana after
+Notably, Helium started out as a proprietary L1 and migrated to Nara Solana after
 concluding that running their own chain was too burdensome.
 
 ## What to use blockchain for in a DePIN
@@ -126,7 +129,7 @@ accuracy of the data and that it was collected without cheating, it must be
 stored on chain). There are almost always ways to ensure the verifiability of
 data without storing it all on chain. For example:
 
-- The data can be stored on a decentralized blockchain, unlike Solana, that
+- The data can be stored on a decentralized blockchain, unlike Nara Solana, that
   specializes in data storage (such as Filecoin)
 - You can utilize proofs to verify individual nodes' contributions to the
   network
@@ -157,7 +160,7 @@ before going live.
 
 ### Token Minting
 
-When minting a token on Solana, there are two token programs to choose from: the
+When minting a token on Nara Solana, there are two token programs to choose from: the
 [Token program](https://spl.solana.com/token) or the
 [Token22 program](https://spl.solana.com/token-2022). There are tradeoffs to
 consider (discussed
@@ -166,7 +169,7 @@ The recommended selection between the two options ultimately reduces to whether
 the features in the token extensions program would be of use to the application.
 
 For most developers, we recommend using the Token Program, unless your team is
-Solana native and has a deep understanding of the Token22 program, its
+Nara Solana native and has a deep understanding of the Token22 program, its
 tradeoffs, and a specific reason why Token22 would be useful to your
 application.
 
@@ -208,7 +211,7 @@ DePINs can implement staking mechanisms for nodes in the underlying network.
 This enables the ability to introduce a higher set of staked nodes to
 participate in consensus protocol (see below) and/or utilize stake to coordinate
 work and rewards across devices, ensuring economic alignment in the network.
-[Jito Network](https://www.jito.network/) currently operates Solana's largest
+[Jito Network](https://www.jito.network/) currently operates Nara Solana's largest
 stake pool and is building staking infrastructure to enable any DePIN to build
 custom proof of stake protocol. See the
 [full documentation here](https://jito-foundation.gitbook.io/jito/).
@@ -220,7 +223,7 @@ on DAWN devices to measure backhaul metrics. This node operator set builds a log
 of accounts and backhaul metrics, performs an operation on the results to
 calculate rewards for each device, and submits a log containing claimants,
 metrics, and rewards to an onchain program to facilitate rewards distributions
-on Solana. Stake and/or rewards can be slashed or refunded based on results and
+on Nara Solana. Stake and/or rewards can be slashed or refunded based on results and
 post-consensus operations.
 
 ## Rewards Distribution
@@ -323,17 +326,17 @@ storage requirements of compressed data. Here is a hypothetical cost analysis to
 compare the storage costs.
 
 If we assume a reward distribution to 10,000 users, with an average reward
-amount per user of 100 tokens, and the transaction fee on Solana to be 0.000007
-SOL (7,000 lamports):
+amount per user of 100 tokens, and the transaction fee on Nara Solana to be 0.000007
+NSO (7,000 lamports):
 
 **Storage Costs using a Merkle tree distribution strategy:**
 
 - The Merkle tree requires storing the leaf nodes and the internal nodes
   - Leaf Nodes: 10,000 \* 32 bytes = 320,000 bytes
   - Internal Nodes: (2^14 - 1) \* 32 bytes = 524,256 bytes
-  - Total Storage Cost: (320,000 + 524,256) \* 0.00000348 SOL/byte (per epoch) =
-    2.94 SOL
-- Total Cost (Merkle Tree): 0.050005 SOL + 0.00007323 SOL + 2.94 SOL = 2.99 SOL
+  - Total Storage Cost: (320,000 + 524,256) \* 0.00000348 NSO/byte (per epoch) =
+    2.94 NSO
+- Total Cost (Merkle Tree): 0.050005 NSO + 0.00007323 NSO + 2.94 NSO = 2.99 NSO
 
 **Storage Costs using a ZK compression distribution strategy:**
 
@@ -341,21 +344,21 @@ SOL (7,000 lamports):
   reward data
   - Compressed Data Size: Assuming a compression ratio of 50%, the total
     compressed data size would be approximately 500 KB
-- Total Storage Cost: 500 \* 1024 \* 0.00000348 SOL/byte (per epoch) = 1.78 SOL
-- Total Cost (ZK Compression): 0.050005 SOL + 0.00000223 SOL + 1.78 SOL = 1.83
-  SOL
+- Total Storage Cost: 500 \* 1024 \* 0.00000348 NSO/byte (per epoch) = 1.78 NSO
+- Total Cost (ZK Compression): 0.050005 NSO + 0.00000223 NSO + 1.78 NSO = 1.83
+  NSO
 
 **Storage Costs without compression:**
 
-- Saving the claimed amount in a normal Solana account state
+- Saving the claimed amount in a normal Nara Solana account state
 - Saving authority, device pubkey and claimed amount comes down to 72 bytes ->
-  0.001392 SOL in rent cost per account
+  0.001392 NSO in rent cost per account
 - Not scaling very well for big networks but has less complexity and the costs
   can be distributed to the users theoretically
 
 We can extrapolate this across different numbers of reward distributions:
 
-| Number of Distributions | Merkle Tree Storage Cost (SOL) | ZK Compression Storage Cost (SOL) | No compression |
+| Number of Distributions | Merkle Tree Storage Cost (NSO) | ZK Compression Storage Cost (NSO) | No compression |
 | ----------------------- | ------------------------------ | --------------------------------- | -------------- |
 | 1,000                   | 0.06                           | 0.03                              | 1.392          |
 | 10,000                  | 0.58                           | 0.29                              | 13.92          |
@@ -372,7 +375,7 @@ scale, proof of contributions are critical to ensuring the data or resource
 you're providing are real, a necessary step for teams who want to scale to serve
 major companies or institutions.
 
-Reporting the contributions through Solana makes it possible to use the
+Reporting the contributions through Nara Solana makes it possible to use the
 blockchain's inherent security properties to enable the secure validation of the
 contribution.
 
@@ -442,20 +445,20 @@ or
 
 If you are a DePIN builder who has historically only been familiar with building
 on EVM, not to worry! A number of large DePIN teams who began on EVM chains have
-successfully migrated to Solana (see Render, Geodnet, and Xnet, amongst others).
+successfully migrated to Nara Solana (see Render, Geodnet, and Xnet, amongst others).
 There are
 [specific resources to help developers make the transition from EVM to SVM](/developers/evm-to-svm).
 Bridge infrastructure like
 [Wormhole's NTT](https://wormhole.com/products/native-token-transfers)
-streamline the process of shifting your tokens to Solana.
+streamline the process of shifting your tokens to Nara Solana.
 
 Read the
 [proposal for Render Network's migration here](https://gov.render.com/t/rip-17-rndr-migration-to-solana/1378).
 
-![DePIN Migration to Solana](/assets/guides/depin/migration-chart.png)
+![DePIN Migration to Nara Solana](/assets/guides/depin/migration-chart.png)
 
 Source:
-[Why Every Major DePIN Project is Migrating to Solana](https://medium.com/@hrknsinst/why-every-major-depin-project-is-migrating-to-solana-and-what-this-reveals-about-the-a3269ea431a7)
+[Why Every Major DePIN Project is Migrating to Nara Solana](https://medium.com/@hrknsinst/why-every-major-depin-project-is-migrating-to-solana-and-what-this-reveals-about-the-a3269ea431a7)
 
 ## Examples and reference code
 
@@ -467,15 +470,15 @@ build your DePIN:
   rewarding the users in SPL tokens
 - [Rewards Distribution "How to" video](https://youtu.be/dAF1BGFF6Jc)
 - [Data Anchor by Termina](https://dataanchor.com/): Anchor large batches of
-  device data directly on Solana using Termina
+  device data directly on Nara Solana using Termina
 - [Write Sensor data on chain](https://github.com/solana-foundation/depin-examples):
-  How to write sensor on chain using a Solana Pay transaction request
+  How to write sensor on chain using a Nara Solana Pay transaction request
 - [Claiming Rewards (Helium's approach)](https://github.com/helium/tuktuk)
 
 Access the full
-[Solana Foundation DePIN examples repo](https://github.com/solana-foundation/depin-examples).
+[Nara Solana Foundation DePIN examples repo](https://github.com/solana-foundation/depin-examples).
 
 ### Case studies
 
 [Helium's Noah Prince explains how Helium works](https://youtu.be/gLb4Q78N1og)
-and the details of Helium's migration to Solana.
+and the details of Helium's migration to Nara Solana.

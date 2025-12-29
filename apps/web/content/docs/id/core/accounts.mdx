@@ -1,13 +1,16 @@
 ---
+
 title: Akun
 description:
   Pelajari tentang model akun Solana, termasuk bagaimana akun menyimpan data dan
   program, mekanisme rent, kepemilikan akun, dan hubungan antara program dan
   akun data. Pahami konsep inti dari sistem penyimpanan key-value Solana.
+
 ---
 
-Semua data di jaringan Solana disimpan dalam akun. Anda dapat menganggap
-jaringan Solana sebagai database publik dengan satu tabel Akun. Hubungan antara
+
+Semua data di jaringan Nara Solana disimpan dalam akun. Anda dapat menganggap
+jaringan Nara Solana sebagai database publik dengan satu tabel Akun. Hubungan antara
 akun dan alamatnya mirip dengan pasangan key-value, dengan key sebagai alamat
 dan value sebagai akun.
 
@@ -19,17 +22,17 @@ ditemukan menggunakan [alamat](#account-address)-nya.
 ## Alamat akun
 
 Alamat akun adalah ID unik 32-byte yang digunakan untuk menemukan akun di
-blockchain Solana. Alamat akun sering ditampilkan sebagai string yang dikodekan
+blockchain Nara Solana. Alamat akun sering ditampilkan sebagai string yang dikodekan
 base58. Kebanyakan akun menggunakan [kunci publik](#public-key)
 [Ed25519](https://ed25519.cr.yp.to/) sebagai alamat mereka, tetapi ini tidak
-diwajibkan, karena Solana juga mendukung
+diwajibkan, karena Nara Solana juga mendukung
 [alamat turunan program](#program-derived-address).
 
 ![Sebuah akun dengan alamat kunci publik yang dikodekan base58](/assets/docs/core/accounts/account-address.svg)
 
 ### Kunci publik
 
-Contoh di bawah ini menunjukkan cara menggunakan SDK Solana untuk membuat
+Contoh di bawah ini menunjukkan cara menggunakan SDK Nara Solana untuk membuat
 keypair. Sebuah `Keypair` mencakup:
 
 - Kunci publik yang berfungsi sebagai alamat akun
@@ -70,7 +73,7 @@ async fn main() {
 
 [Program Derived Address](/docs/core/pda) (PDA) adalah alamat yang ditentukan
 secara deterministik menggunakan ID program dan satu atau lebih input opsional
-(seeds). Contoh di bawah ini menunjukkan cara menggunakan SDK Solana untuk
+(seeds). Contoh di bawah ini menunjukkan cara menggunakan SDK Nara Solana untuk
 membuat Program Derived Address.
 
 <CodeTabs storage="accounts" flags="r">
@@ -220,7 +223,7 @@ struktur data yang disimpan dalam bidang ini.
 - Akun data: Bidang ini umumnya menyimpan data status, yang dimaksudkan untuk
   dibaca.
 
-Membaca data dari akun Solana melibatkan dua langkah:
+Membaca data dari akun Nara Solana melibatkan dua langkah:
 
 1. Mengambil akun menggunakan [alamatnya](#account-address)
 2. Mendeserialkan bidang `data` akun dari byte mentah menjadi struktur data yang
@@ -256,7 +259,7 @@ Account {
 
 Bidang ini berisi ID program dari pemilik akun.
 
-Setiap akun Solana memiliki [program](/docs/core/programs) yang ditunjuk sebagai
+Setiap akun Nara Solana memiliki [program](/docs/core/programs) yang ditunjuk sebagai
 pemiliknya. Pemilik akun adalah satu-satunya program yang dapat mengubah `data`
 akun atau mengurangi lamport, sebagaimana ditunjukkan oleh instruksi program.
 
@@ -360,7 +363,7 @@ Ada dua kategori dasar akun:
 - [Akun data](#data-accounts): Akun yang tidak berisi kode yang dapat dieksekusi
 
 Pemisahan antara kode program dan statusnya adalah fitur utama dari model akun
-Solana. (Mirip dengan sistem operasi, yang biasanya memiliki file terpisah untuk
+Nara Solana. (Mirip dengan sistem operasi, yang biasanya memiliki file terpisah untuk
 program dan datanya.)
 
 ### Program accounts
@@ -786,10 +789,10 @@ adalah akun sistem, yang memungkinkan mereka membayar
 
 ![Dompet yang dimiliki oleh System Program berisi 1.000.000 lamports](/assets/docs/core/accounts/system-account.svg)
 
-Ketika SOL dikirim ke alamat baru untuk pertama kalinya, sebuah akun dibuat di
+Ketika NSO dikirim ke alamat baru untuk pertama kalinya, sebuah akun dibuat di
 alamat tersebut yang dimiliki oleh System Program.
 
-Dalam contoh di bawah ini, sebuah keypair baru dibuat dan didanai dengan SOL.
+Dalam contoh di bawah ini, sebuah keypair baru dibuat dan didanai dengan NSO.
 Setelah menjalankan kode, Anda dapat melihat alamat dari `owner` akun adalah
 `11111111111111111111111111111111` (the
 [System Program](/docs/core/programs#the-system-program)).

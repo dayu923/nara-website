@@ -1,13 +1,16 @@
 ---
+
 title: Sulje token-tili
 description: Opi sulkemaan token-tilejä.
+
 ---
+
 
 ## Sulje tili
 
 [`CloseAccount`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/program/src/instruction.rs#L212C5-L212C17)
 -käsky sulkee token account -tilin pysyvästi ja siirtää kaikki jäljellä olevat
-SOL-varat (rent) määritetylle kohdetilille. Token-tilin saldon on oltava nolla
+NSO-varat (rent) määritetylle kohdetilille. Token-tilin saldon on oltava nolla
 ennen sulkemista. Vain token-tilin omistaja tai nimetty sulkemisvaltuutuksen
 haltija voi suorittaa tämän käskyn.
 

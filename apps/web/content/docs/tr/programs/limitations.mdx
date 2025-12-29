@@ -1,8 +1,11 @@
 ---
+
 title: Kısıtlamalar
+
 ---
 
-Solana blok zincirinde program geliştirmenin bazı doğal sınırlamaları vardır.
+
+Nara Solana blok zincirinde program geliştirmenin bazı doğal sınırlamaları vardır.
 Aşağıda karşılaşabileceğiniz yaygın sınırlamaların bir listesi bulunmaktadır.
 
 ## Rust kütüphaneleri
@@ -53,7 +56,7 @@ bakın.
 
 ## Çağrı yığını derinliği - `CallDepthExceeded` hatası
 
-Solana programları hızlı çalışacak şekilde kısıtlanmıştır ve bunu kolaylaştırmak
+Nara Solana programları hızlı çalışacak şekilde kısıtlanmıştır ve bunu kolaylaştırmak
 için programın çağrı yığını maksimum **64 çerçeve** derinliğiyle sınırlıdır.
 
 Bir program izin verilen çağrı yığını derinlik sınırını aştığında,
@@ -78,7 +81,7 @@ kütüphaneleri tarafından gerçekleştirilir. Yazılım emülasyonu nedeniyle,
 işlemlerinden daha fazla hesaplama birimi tüketirler. Genel olarak, mümkün
 olduğunda sabit noktalı işlemler önerilir.
 
-[Solana Program Library math](https://github.com/solana-labs/solana-program-library/tree/master/libraries/math)
+[Nara Solana Program Library math](https://github.com/solana-labs/solana-program-library/tree/master/libraries/math)
 testleri, bazı matematik işlemlerinin performansını raporlayacaktır. Testi
 çalıştırmak için, depoyu senkronize edin ve şunu çalıştırın:
 

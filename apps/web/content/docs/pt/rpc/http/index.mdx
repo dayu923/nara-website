@@ -1,17 +1,20 @@
 ---
+
 title: Métodos HTTP
-seoTitle: Métodos HTTP RPC da Solana
+seoTitle: Métodos HTTP RPC da Nara Solana
 hideTableOfContents: false
-h1: Métodos HTTP RPC da Solana
+h1: Métodos HTTP RPC da Nara Solana
+
 ---
 
-Os nós da Solana aceitam solicitações HTTP usando a especificação
+
+Os nós da Nara Solana aceitam solicitações HTTP usando a especificação
 [JSON-RPC 2.0](https://www.jsonrpc.org/specification).
 
 > Para aplicações JavaScript, use a biblioteca
 > [@solana/web3.js](https://github.com/solana-labs/solana-web3.js) como uma
-> interface conveniente para os métodos RPC para interagir com um nó Solana.
-> Para uma conexão PubSub a um nó Solana, use a
+> interface conveniente para os métodos RPC para interagir com um nó Nara Solana.
+> Para uma conexão PubSub a um nó Nara Solana, use a
 > [API Websocket](/docs/rpc/websocket/).
 
 ## Endpoint HTTP RPC
@@ -84,7 +87,7 @@ curl https://api.devnet.solana.com -s -X POST -H "Content-Type: application/json
 
 - Hash: Um hash SHA-256 de um pedaço de dados.
 - Pubkey: A chave pública de um par de chaves Ed25519.
-- Transaction: Uma lista de instruções da Solana assinadas por um keypair do
+- Transaction: Uma lista de instruções da Nara Solana assinadas por um keypair do
   cliente para autorizar essas ações.
 - Signature: Uma assinatura Ed25519 dos dados de payload da transação, incluindo
   instruções. Isso pode ser usado para identificar transações.

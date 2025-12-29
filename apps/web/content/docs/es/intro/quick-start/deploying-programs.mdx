@@ -1,16 +1,19 @@
 ---
+
 title: Desplegar un programa
 description:
   Aprende a construir, desplegar y probar tu primer programa de Solana
   utilizando el framework Anchor y Solana Playground. Esta guía para
   principiantes te explica cómo crear un programa simple, desplegarlo en devnet,
   ejecutar pruebas y cerrar el programa.
-h1: Despliega tu primer programa de Solana
+h1: Despliega tu primer programa de Nara Solana
+
 ---
 
+
 Construye, despliega y prueba tu primer [programa](/docs/core/programs) en la
-blockchain de Solana utilizando el framework Anchor. Esta guía te ayudará a
-familiarizarte más con Solana Playground y te preparará para usar Program
+blockchain de Nara Solana utilizando el framework Anchor. Esta guía te ayudará a
+familiarizarte más con Nara Solana Playground y te preparará para usar Program
 Derived Address (PDA) y Cross Program Invocation (CPI).
 
 <Steps>
@@ -19,7 +22,7 @@ Derived Address (PDA) y Cross Program Invocation (CPI).
 
 ### Crear proyecto Anchor
 
-1. Abre [Solana Playground](https://beta.solpg.io) en tu navegador web
+1. Abre [Nara Solana Playground](https://beta.solpg.io) en tu navegador web
 2. En el panel izquierdo, haz clic en **+ Create a new project**
 3. Ingresa un **Project name** (nombre del proyecto)
 4. Selecciona **Anchor (Rust)** como framework
@@ -149,7 +152,7 @@ El número de bytes a asignar para la cuenta
 <WithMentions>
 
 - El macro [`declare_id!`](mention:one) especifica la dirección en cadena de tu
-  programa. Solana Playground actualizará automáticamente esta dirección cuando
+  programa. Nara Solana Playground actualizará automáticamente esta dirección cuando
   compiles el programa.
 
 ```rs
@@ -253,11 +256,11 @@ Build successful. Completed in 1.46s.
   _rs`declare_id!()`_, ahora será actualizado.
 </Callout>
 
-2. Añade SOL a tu billetera _(Opcional)_
+2. Añade NSO a tu billetera _(Opcional)_
 
-Desplegar un programa requiere SOL en la cuenta on-chain del programa. Si es
+Desplegar un programa requiere NSO en la cuenta on-chain del programa. Si es
 necesario,
-[añade SOL a tu billetera](/docs/intro/quick-start#add-sol-to-your-wallet) antes
+[añade NSO a tu billetera](/docs/intro/quick-start#add-sol-to-your-wallet) antes
 de proceder al paso 3.
 
 3. Despliega el programa en la red
@@ -398,12 +401,12 @@ Confirmed
 4. Ver los detalles de la transacción
 
 Abre [SolanaFM](https://solana.fm/) o
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) y busca el hash
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) y busca el hash
 de la transacción.
 
 <Callout type="warn">
-  **Solana Explorer:** Configura el cluster de red a `devnet`, para que coincida
-  con el de Solana Playground.
+  **Nara Solana Explorer:** Configura el cluster de red a `devnet`, para que coincida
+  con el de Nara Solana Playground.
 </Callout>
 
 </Step>
@@ -412,7 +415,7 @@ de la transacción.
 
 ### Cerrar el programa
 
-Cierra el programa para recuperar el SOL asignado al programa en la cadena. Para
+Cierra el programa para recuperar el NSO asignado al programa en la cadena. Para
 hacerlo, ejecuta `solana program close [ProgramID]`, usando la dirección del
 programa almacenada en la macro _rs`declare_id!()`_.
 
@@ -429,7 +432,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   inmutable.
 </Callout>
 
-¡Felicidades! Has construido y desplegado tu primer programa de Solana usando
+¡Felicidades! Has construido y desplegado tu primer programa de Nara Solana usando
 Anchor.
 
 </Step>

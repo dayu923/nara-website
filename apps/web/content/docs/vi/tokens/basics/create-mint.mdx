@@ -1,11 +1,14 @@
 ---
+
 title: Tạo một Token Mint
 description: Tìm hiểu cách tạo một SPL Token mint.
+
 ---
+
 
 ## Mint Account là gì?
 
-Mint account đại diện duy nhất cho một token trên Solana và lưu trữ metadata
+Mint account đại diện duy nhất cho một token trên Nara Solana và lưu trữ metadata
 toàn cục của nó.
 
 ```rust title="Mint Account Type"
@@ -37,13 +40,13 @@ pub struct Mint {
   đều chia sẻ cùng một triển khai cơ bản cho tài khoản Mint.
 </Callout>
 
-Mỗi token trên Solana đều có một mint account, và địa chỉ của mint đóng vai trò
+Mỗi token trên Nara Solana đều có một mint account, và địa chỉ của mint đóng vai trò
 như định danh duy nhất của token.
 
 Ví dụ, USD Coin (USDC) có địa chỉ mint
 `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`. Địa chỉ này xác định duy nhất
-USDC trong toàn bộ hệ sinh thái Solana. Bạn có thể xem mint này trên
-[Solana Explorer](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v).
+USDC trong toàn bộ hệ sinh thái Nara Solana. Bạn có thể xem mint này trên
+[Nara Solana Explorer](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v).
 
 ## Cách tạo một Mint Account
 

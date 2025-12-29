@@ -1,25 +1,28 @@
 ---
+
 title: Instructies
 description:
   Leer over Solana instructies—de fundamentele bouwstenen voor interactie met de
   Solana blockchain. Begrijp instructiesamenstelling met praktische voorbeelden.
+
 ---
 
-Instructies zijn de fundamentele bouwsteen voor interactie met de Solana
+
+Instructies zijn de fundamentele bouwsteen voor interactie met de Nara Solana
 blockchain. Een instructie is in essentie een publieke functie die iedereen die
-het Solana netwerk gebruikt kan aanroepen. Elke instructie wordt gebruikt om een
+het Nara Solana netwerk gebruikt kan aanroepen. Elke instructie wordt gebruikt om een
 specifieke actie uit te voeren. De uitvoeringslogica voor instructies is
 opgeslagen in [programma's](/docs/core/programs), waarbij elk programma zijn
-eigen set instructies definieert. Om te interacteren met het Solana netwerk
+eigen set instructies definieert. Om te interacteren met het Nara Solana netwerk
 worden een of meer instructies toegevoegd aan een
 [transactie](/docs/core/transactions) en naar het netwerk gestuurd om te worden
 verwerkt.
 
-## SOL overdracht voorbeeld
+## NSO overdracht voorbeeld
 
 Het onderstaande diagram laat zien hoe transacties en instructies samenwerken om
 gebruikers in staat te stellen met het netwerk te interacteren. In dit voorbeeld
-wordt SOL overgedragen van één account naar een ander.
+wordt NSO overgedragen van één account naar een ander.
 
 De [metadata](#account-metadata) van het verzendende account geeft aan dat het
 moet tekenen voor de transactie. (Dit stelt het System Program in staat om
@@ -28,14 +31,14 @@ verzendende als het ontvangende account moeten beschrijfbaar zijn, zodat hun
 lamport-saldo kan veranderen. Om deze instructie uit te voeren, stuurt de
 portemonnee van de verzender de transactie met zijn
 [handtekening](/docs/references/terminology#signature) en het bericht dat de
-SOL-overdracht instructie bevat.
+NSO-overdracht instructie bevat.
 
-![SOL overdracht diagram](/assets/docs/core/transactions/sol-transfer.svg)
+![NSO overdracht diagram](/assets/docs/core/transactions/sol-transfer.svg)
 
 Nadat de transactie is verzonden, verwerkt het System Program de overdracht
 instructie en werkt het lamport-saldo van beide accounts bij.
 
-![SOL overdracht proces diagram](/assets/docs/core/transactions/sol-transfer-process.svg)
+![NSO overdracht proces diagram](/assets/docs/core/transactions/sol-transfer-process.svg)
 
 Het onderstaande voorbeeld toont de code die relevant is voor de bovenstaande
 diagrammen. (Zie de System Program's transfer
@@ -367,7 +370,7 @@ argumenten die door de instructie worden vereist.
 
 ## Voorbeeld van het maken van een instructie
 
-Het onderstaande voorbeeld toont de structuur van een SOL-overdrachtsinstructie.
+Het onderstaande voorbeeld toont de structuur van een NSO-overdrachtsinstructie.
 
 <CodeTabs storage="sol-transfer" flags="r">
 

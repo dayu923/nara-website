@@ -1,14 +1,17 @@
 ---
+
 title: 部署程序
 description:
   学习如何使用 Anchor 框架和 Solana Playground 构建、部署和测试您的第一个 Solana
   程序。本初学者友好指南将逐步讲解创建一个简单程序、将其部署到
   devnet、运行测试以及关闭程序的过程。
-h1: 部署您的第一个 Solana 程序
+h1: 部署您的第一个 Nara Solana 程序
+
 ---
 
+
 使用 Anchor 框架将您的第一个 [程序](/docs/core/programs)
-构建、部署并测试到 Solana 区块链。本指南将帮助您熟悉 Solana
+构建、部署并测试到 Nara Solana 区块链。本指南将帮助您熟悉 Nara Solana
 Playground，并为您使用程序派生地址 (PDA) 和跨程序调用 (CPI) 做好准备。
 
 <Steps>
@@ -17,7 +20,7 @@ Playground，并为您使用程序派生地址 (PDA) 和跨程序调用 (CPI) �
 
 ### 创建 Anchor 项目
 
-1. 在您的网页浏览器中打开 [Solana Playground](https://beta.solpg.io)
+1. 在您的网页浏览器中打开 [Nara Solana Playground](https://beta.solpg.io)
 2. 在左侧面板中，点击 **+ 创建新项目**
 3. 输入一个 **项目名称**
 4. 选择 **Anchor (Rust)** 作为框架
@@ -140,7 +143,7 @@ Program 创建一个新账户，并将此程序设置为所有者。作为程序
 
 <WithMentions>
 
-- [`declare_id!`](mention:one) 宏指定了程序的链上地址。当您构建程序时，Solana
+- [`declare_id!`](mention:one) 宏指定了程序的链上地址。当您构建程序时，Nara Solana
   Playground 会自动更新此地址。
 
 ```rs
@@ -239,9 +242,9 @@ Build successful. Completed in 1.46s.
   _rs`declare_id!()`_ 中，现在将被更新。
 </Callout>
 
-2. 向您的钱包添加 SOL（可选）
+2. 向您的钱包添加 NSO（可选）
 
-部署程序需要在程序的链上账户中有 SOL。如果需要，在继续第 3 步之前，[向您的钱包添加 SOL](/docs/intro/quick-start#add-sol-to-your-wallet)。
+部署程序需要在程序的链上账户中有 NSO。如果需要，在继续第 3 步之前，[向您的钱包添加 NSO](/docs/intro/quick-start#add-sol-to-your-wallet)。
 
 3. 将程序部署到网络
 
@@ -380,10 +383,10 @@ Confirmed
 4. 查看交易详情
 
 打开 [SolanaFM](https://solana.fm/) 或
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet)，并搜索交易哈希。
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet)，并搜索交易哈希。
 
 <Callout type="warn">
-  **Solana Explorer：** 将网络集群设置为 `devnet`，以匹配 Solana Playground
+  **Nara Solana Explorer：** 将网络集群设置为 `devnet`，以匹配 Nara Solana Playground
   的网络。
 </Callout>
 
@@ -393,7 +396,7 @@ Confirmed
 
 ### 关闭程序
 
-关闭程序以回收分配给链上程序的 SOL。为此，请运行
+关闭程序以回收分配给链上程序的 NSO。为此，请运行
 `solana program close [ProgramID]`，使用存储在 _rs`declare_id!()`_
 宏中的程序地址。
 
@@ -407,7 +410,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   钱包会自动成为每个程序的升级权限账户。如果升级权限被撤销，程序将变为不可更改。
 </Callout>
 
-恭喜！您已使用 Anchor 构建并部署了您的第一个 Solana 程序。
+恭喜！您已使用 Anchor 构建并部署了您的第一个 Nara Solana 程序。
 
 </Step>
 

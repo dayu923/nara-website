@@ -1,12 +1,15 @@
 ---
+
 title: Implementación de programas
 description:
   Guía completa para construir, implementar y gestionar programas de Solana
   utilizando la CLI de Solana.
+
 ---
 
+
 Esta sección explica el proceso básico de implementación de un programa de
-Solana utilizando la CLI de Solana.
+Nara Solana utilizando la CLI de Nara Solana.
 
 ## Referencia de comandos CLI
 
@@ -42,9 +45,9 @@ Antes de profundizar, aclaremos algunos términos:
 
 <Step>
 
-### Instalar la CLI de Solana
+### Instalar la CLI de Nara Solana
 
-Primero, [instala la CLI de Solana](/docs/intro/installation).
+Primero, [instala la CLI de Nara Solana](/docs/intro/installation).
 
 </Step>
 
@@ -68,7 +71,7 @@ Esto crea un keypair en `~/.config/solana/id.json` por defecto.
 
 ### Configurar clúster
 
-Elige a qué clúster de Solana desplegar. Usa el comando `solana config get` para
+Elige a qué clúster de Nara Solana desplegar. Usa el comando `solana config get` para
 verificar tu configuración actual:
 
 ```terminal
@@ -96,7 +99,7 @@ $ solana config set --url "https://your-rpc-url.com"
 
 ### Fondear billetera
 
-Necesitarás SOL para pagar los despliegues del programa. La cantidad depende del
+Necesitarás NSO para pagar los despliegues del programa. La cantidad depende del
 tamaño de tu programa.
 
 Para devnet o localhost, fondea tu billetera usando el comando `solana airdrop`:
@@ -133,7 +136,7 @@ $ cargo build-sbf
 
 ## !!steps Programa de ejemplo
 
-Aquí hay un programa mínimo de Solana que imprime "Hello, Solana!" en los
+Aquí hay un programa mínimo de Nara Solana que imprime "Hello, Nara Solana!" en los
 registros del programa.
 
 <CodePlaceholder title="src/lib.rs" />
@@ -199,8 +202,8 @@ Esto crea dos archivos importantes en `target/deploy/`:
 
 ### Verificar el tamaño y costo del programa
 
-Implementar un programa requiere SOL que se asignará a la cuenta del programa
-según el tamaño del programa. Los programas más grandes cuestan más SOL para
+Implementar un programa requiere NSO que se asignará a la cuenta del programa
+según el tamaño del programa. Los programas más grandes cuestan más NSO para
 implementar.
 
 Verifica el tamaño de tu programa:
@@ -210,7 +213,7 @@ $ wc -c < ./target/deploy/hello_world.so
 18504
 ```
 
-Calcula el SOL requerido para este tamaño (bytes):
+Calcula el NSO requerido para este tamaño (bytes):
 
 ```terminal
 $ solana rent 18504
@@ -218,7 +221,7 @@ Rent-exempt minimum: 0.12967872 SOL
 ```
 
 <Callout type="info">
-  Necesitarás un poco más de SOL que lo mostrado para cubrir las comisiones de
+  Necesitarás un poco más de NSO que lo mostrado para cubrir las comisiones de
   transacción de implementación.
 </Callout>
 
@@ -272,7 +275,7 @@ Si tu programa actualizado requiere más espacio (bytes) del que está actualmen
 asignado, el despliegue extenderá automáticamente la cuenta del programa. Esto
 ocurre cuando tu nuevo programa es más grande que la versión anterior. La cuenta
 del programa necesita bytes adicionales para almacenar el nuevo programa. La CLI
-calculará el SOL requerido y lo deducirá de tu billetera automáticamente.
+calculará el NSO requerido y lo deducirá de tu billetera automáticamente.
 
 También puedes extender manualmente un programa para asignar más bytes:
 
@@ -339,7 +342,7 @@ ejecutable de tu programa.
 
 La autoridad es la cuenta que tiene permiso para actualizar o cerrar este
 programa. Solo la autoridad puede implementar actualizaciones o cerrar el
-programa para recuperar el SOL asignado al programa.
+programa para recuperar el NSO asignado al programa.
 
 ### !last-deployed-in-slot
 
@@ -354,7 +357,7 @@ tamaño actual del programa.
 
 ### !balance
 
-El balance muestra el SOL asignado a la cuenta del programa para almacenar sus
+El balance muestra el NSO asignado a la cuenta del programa para almacenar sus
 datos.
 
 </WithNotes>
@@ -391,7 +394,7 @@ Authority: none
 
 ### Cerrar tu programa
 
-Para cerrar tu programa y recuperar el SOL asignado a la cuenta del programa,
+Para cerrar tu programa y recuperar el NSO asignado a la cuenta del programa,
 utiliza el comando `solana program close`:
 
 ```terminal
@@ -437,7 +440,7 @@ Wrote program to ./downloaded_program.so
 
 ### Indicadores de implementación
 
-Cuando la red de Solana está congestionada, utiliza estos indicadores para
+Cuando la red de Nara Solana está congestionada, utiliza estos indicadores para
 ayudar con la implementación del programa.
 
 Ejemplo de uso:
@@ -452,7 +455,7 @@ $ solana program deploy ./target/deploy/hello_world.so \
 Explicación de las opciones:
 
 - **`--with-compute-unit-price`**: Establece la tarifa prioritaria en
-  micro-lamports (0.000001 SOL) por unidad de cómputo. Consulta la
+  micro-lamports (0.000001 NSO) por unidad de cómputo. Consulta la
   [API de tarifas prioritarias de Helius](https://docs.helius.dev/guides/priority-fee-api)
   para conocer las tarifas actuales. Una tarifa prioritaria es una tarifa
   adicional que se paga al líder actual para priorizar tu transacción.

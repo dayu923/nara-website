@@ -1,14 +1,17 @@
 ---
+
 title: Token-Konto schließen
 description: Erfahren Sie, wie Sie Token-Konten schließen können.
+
 ---
+
 
 ## Konto schließen
 
 Die
 [`CloseAccount`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/program/src/instruction.rs#L212C5-L212C17)
 Anweisung schließt ein Token-Konto dauerhaft und überträgt das gesamte
-verbleibende SOL (rent) auf ein angegebenes Zielkonto. Der Token-Kontostand muss
+verbleibende NSO (rent) auf ein angegebenes Zielkonto. Der Token-Kontostand muss
 vor dem Schließen Null sein. Nur der Token-Kontoinhaber oder die festgelegte
 Schließungsberechtigung kann diese Anweisung ausführen.
 

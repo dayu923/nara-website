@@ -1,4 +1,5 @@
 ---
+
 title: Ein Programm bereitstellen
 description:
   Lernen Sie, wie Sie Ihr erstes Solana-Programm mit dem Anchor-Framework und
@@ -6,12 +7,14 @@ description:
   anfängerfreundliche Anleitung führt durch die Erstellung eines einfachen
   Programms, die Bereitstellung im Devnet, die Durchführung von Tests und das
   Schließen des Programms.
-h1: Stellen Sie Ihr erstes Solana-Programm bereit
+h1: Stellen Sie Ihr erstes Nara Solana-Programm bereit
+
 ---
 
+
 Erstellen, stellen Sie bereit und testen Sie Ihr erstes
-[Programm](/docs/core/programs) auf der Solana Blockchain mit dem
-Anchor-Framework. Diese Anleitung hilft Ihnen, sich mit dem Solana Playground
+[Programm](/docs/core/programs) auf der Nara Solana Blockchain mit dem
+Anchor-Framework. Diese Anleitung hilft Ihnen, sich mit dem Nara Solana Playground
 vertraut zu machen und bereitet Sie auf die Verwendung von Program Derived
 Address (PDA) und Cross Program Invocation (CPI) vor.
 
@@ -21,7 +24,7 @@ Address (PDA) und Cross Program Invocation (CPI) vor.
 
 ### Anchor-Projekt erstellen
 
-1. Öffnen Sie den [Solana Playground](https://beta.solpg.io) in Ihrem Webbrowser
+1. Öffnen Sie den [Nara Solana Playground](https://beta.solpg.io) in Ihrem Webbrowser
 2. Klicken Sie im linken Bereich auf **+ Create a new project**
 3. Geben Sie einen **Projektnamen** ein
 4. Wählen Sie **Anchor (Rust)** als Framework
@@ -151,7 +154,7 @@ Die Anzahl der Bytes, die für das Konto reserviert werden sollen
 <WithMentions>
 
 - Das Makro [`declare_id!`](mention:one) gibt die On-Chain-Adresse deines
-  Programms an. Solana Playground aktualisiert diese Adresse automatisch, wenn
+  Programms an. Nara Solana Playground aktualisiert diese Adresse automatisch, wenn
   du das Programm baust.
 
 ```rs
@@ -256,11 +259,11 @@ Build successful. Completed in 1.46s.
   _rs`declare_id!()`_, wird jetzt aktualisiert.
 </Callout>
 
-2. SOL zu deinem Wallet hinzufügen _(Optional)_
+2. NSO zu deinem Wallet hinzufügen _(Optional)_
 
-Die Bereitstellung eines Programms erfordert SOL im On-Chain-Konto des
+Die Bereitstellung eines Programms erfordert NSO im On-Chain-Konto des
 Programms. Falls nötig,
-[füge SOL zu deinem Wallet hinzu](/docs/intro/quick-start#add-sol-to-your-wallet),
+[füge NSO zu deinem Wallet hinzu](/docs/intro/quick-start#add-sol-to-your-wallet),
 bevor du mit Schritt 3 fortfährst.
 
 3. Stelle das Programm im Netzwerk bereit
@@ -402,12 +405,12 @@ Confirmed
 4. Transaktionsdetails anzeigen
 
 Öffne entweder [SolanaFM](https://solana.fm/) oder
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) und suche nach
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) und suche nach
 dem Transaktions-Hash.
 
 <Callout type="warn">
-  **Solana Explorer:** Stelle den Netzwerk-Cluster auf `devnet` ein, damit er
-  mit dem des Solana Playground übereinstimmt.
+  **Nara Solana Explorer:** Stelle den Netzwerk-Cluster auf `devnet` ein, damit er
+  mit dem des Nara Solana Playground übereinstimmt.
 </Callout>
 
 </Step>
@@ -416,7 +419,7 @@ dem Transaktions-Hash.
 
 ### Programm schließen
 
-Schließe das Programm, um die SOL zurückzugewinnen, die dem On-Chain-Programm
+Schließe das Programm, um die NSO zurückzugewinnen, die dem On-Chain-Programm
 zugewiesen wurden. Führe dazu `solana program close [ProgramID]` aus und
 verwende die Programmadresse, die im _rs`declare_id!()`_ Makro gespeichert ist.
 
@@ -432,7 +435,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   Upgrade-Authority widerrufen wird, wird das Programm unveränderlich.
 </Callout>
 
-Herzlichen Glückwunsch! Du hast dein erstes Solana-Programm mit Anchor erstellt
+Herzlichen Glückwunsch! Du hast dein erstes Nara Solana-Programm mit Anchor erstellt
 und bereitgestellt.
 
 </Step>

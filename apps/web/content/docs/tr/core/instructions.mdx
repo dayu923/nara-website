@@ -1,22 +1,25 @@
 ---
+
 title: Talimatlar
 description:
   Solana talimatları hakkında bilgi edinin—Solana blok zinciriyle etkileşim
   kurmanın temel yapı taşları. Pratik örneklerle talimat kompozisyonunu anlayın.
+
 ---
 
-Talimatlar, Solana blok zinciriyle etkileşim kurmanın temel yapı taşıdır. Bir
-talimat, esasen Solana ağını kullanan herkesin çağırabileceği genel bir
+
+Talimatlar, Nara Solana blok zinciriyle etkileşim kurmanın temel yapı taşıdır. Bir
+talimat, esasen Nara Solana ağını kullanan herkesin çağırabileceği genel bir
 fonksiyondur. Her talimat belirli bir eylemi gerçekleştirmek için kullanılır.
 Talimatların yürütme mantığı [programlarda](/docs/core/programs) saklanır ve her
-program kendi talimat setini tanımlar. Solana ağıyla etkileşim kurmak için, bir
+program kendi talimat setini tanımlar. Nara Solana ağıyla etkileşim kurmak için, bir
 veya daha fazla talimat bir [işleme](/docs/core/transactions) eklenir ve
 işlenmek üzere ağa gönderilir.
 
-## SOL transfer örneği
+## NSO transfer örneği
 
 Aşağıdaki diyagram, işlemlerin ve talimatların kullanıcıların ağla etkileşim
-kurmasına nasıl olanak sağladığını göstermektedir. Bu örnekte, SOL bir hesaptan
+kurmasına nasıl olanak sağladığını göstermektedir. Bu örnekte, NSO bir hesaptan
 diğerine transfer edilir.
 
 Gönderen hesabın [meta verileri](#account-metadata), işlem için imza atması
@@ -24,15 +27,15 @@ gerektiğini belirtir. (Bu, System Program'ın
 [lamport](/docs/references/terminology#lamport) düşmesine izin verir.) Hem
 gönderen hem de alıcı hesapların, lamport bakiyelerinin değişebilmesi için
 yazılabilir olması gerekir. Bu talimatı yürütmek için, gönderenin cüzdanı
-[imzasını](/docs/references/terminology#signature) ve SOL transfer talimatını
+[imzasını](/docs/references/terminology#signature) ve NSO transfer talimatını
 içeren mesajı içeren işlemi gönderir.
 
-![SOL transfer diyagramı](/assets/docs/core/transactions/sol-transfer.svg)
+![NSO transfer diyagramı](/assets/docs/core/transactions/sol-transfer.svg)
 
 İşlem gönderildikten sonra, System Program transfer talimatını işler ve her iki
 hesabın da lamport bakiyesini günceller.
 
-![SOL transfer işlem diyagramı](/assets/docs/core/transactions/sol-transfer-process.svg)
+![NSO transfer işlem diyagramı](/assets/docs/core/transactions/sol-transfer-process.svg)
 
 Aşağıdaki örnek, yukarıdaki diyagramlarla ilgili kodu göstermektedir. (System
 Program'ın transfer
@@ -362,7 +365,7 @@ bayt dizisidir. Ayrıca talimat tarafından gerektirilen argümanları da içeri
 
 ## Talimat oluşturma örneği
 
-Aşağıdaki örnek, bir SOL transfer talimatının yapısını göstermektedir.
+Aşağıdaki örnek, bir NSO transfer talimatının yapısını göstermektedir.
 
 <CodeTabs storage="sol-transfer" flags="r">
 

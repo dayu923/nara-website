@@ -1,4 +1,5 @@
 ---
+
 title: Distribuisci un programma
 description:
   Impara come costruire, distribuire e testare il tuo primo programma Solana
@@ -6,12 +7,14 @@ description:
   principianti ti accompagna nella creazione di un programma semplice, nella
   distribuzione su devnet, nell'esecuzione dei test e nella chiusura del
   programma.
-h1: Distribuisci il tuo primo programma Solana
+h1: Distribuisci il tuo primo programma Nara Solana
+
 ---
 
+
 Costruisci, distribuisci e testa il tuo primo [programma](/docs/core/programs)
-sulla blockchain Solana utilizzando il framework Anchor. Questa guida ti aiuterà
-a familiarizzare con Solana Playground e ti preparerà all'utilizzo dei Program
+sulla blockchain Nara Solana utilizzando il framework Anchor. Questa guida ti aiuterà
+a familiarizzare con Nara Solana Playground e ti preparerà all'utilizzo dei Program
 Derived Address (PDA) e delle Cross Program Invocation (CPI).
 
 <Steps>
@@ -20,7 +23,7 @@ Derived Address (PDA) e delle Cross Program Invocation (CPI).
 
 ### Crea un progetto Anchor
 
-1. Apri [Solana Playground](https://beta.solpg.io) nel tuo browser web
+1. Apri [Nara Solana Playground](https://beta.solpg.io) nel tuo browser web
 2. Nel pannello di sinistra, clicca su **+ Crea un nuovo progetto**
 3. Inserisci un **Nome progetto**
 4. Seleziona **Anchor (Rust)** come framework
@@ -150,7 +153,7 @@ Il numero di byte da allocare per l'account
 <WithMentions>
 
 - La macro [`declare_id!`](mention:one) specifica l'indirizzo on-chain del tuo
-  programma. Solana Playground aggiornerà automaticamente questo indirizzo
+  programma. Nara Solana Playground aggiornerà automaticamente questo indirizzo
   quando compili il programma.
 
 ```rs
@@ -255,11 +258,11 @@ Build successful. Completed in 1.46s.
   definito in _rs`declare_id!()`_, sarà ora aggiornato.
 </Callout>
 
-2. Aggiungi SOL al tuo wallet _(Opzionale)_
+2. Aggiungi NSO al tuo wallet _(Opzionale)_
 
-La distribuzione di un programma richiede SOL nell'account on-chain del
+La distribuzione di un programma richiede NSO nell'account on-chain del
 programma. Se necessario,
-[aggiungi SOL al tuo wallet](/docs/intro/quick-start#add-sol-to-your-wallet)
+[aggiungi NSO al tuo wallet](/docs/intro/quick-start#add-sol-to-your-wallet)
 prima di procedere al passaggio 3.
 
 3. Distribuisci il programma sulla rete
@@ -400,12 +403,12 @@ Confirmed
 4. Visualizza i dettagli della transazione
 
 Apri [SolanaFM](https://solana.fm/) oppure
-[Solana Explorer](https://explorer.solana.com/?cluster=devnet) e cerca l'hash
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=devnet) e cerca l'hash
 della transazione.
 
 <Callout type="warn">
-  **Solana Explorer:** Imposta il cluster di rete su `devnet`, per corrispondere
-  a quello di Solana Playground.
+  **Nara Solana Explorer:** Imposta il cluster di rete su `devnet`, per corrispondere
+  a quello di Nara Solana Playground.
 </Callout>
 
 </Step>
@@ -414,7 +417,7 @@ della transazione.
 
 ### Chiudi il programma
 
-Chiudi il programma per recuperare il SOL allocato al programma on-chain. Per
+Chiudi il programma per recuperare il NSO allocato al programma on-chain. Per
 farlo, esegui `solana program close [ProgramID]`, utilizzando l'indirizzo del
 programma memorizzato nella macro _rs`declare_id!()`_.
 
@@ -430,7 +433,7 @@ Closed Program Id 2VvQ11q8xrn5tkPNyeraRsPaATdiPx8weLAD8aD4dn2r, 2.79511512 SOL r
   l'autorità di aggiornamento viene revocata, il programma diventa immutabile.
 </Callout>
 
-Congratulazioni! Hai creato e distribuito il tuo primo programma Solana
+Congratulazioni! Hai creato e distribuito il tuo primo programma Nara Solana
 utilizzando Anchor.
 
 </Step>

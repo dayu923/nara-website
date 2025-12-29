@@ -1,12 +1,15 @@
 ---
+
 title: Cross Program Invocation
 description:
   Opi Cross Program Invocation (CPI) -toiminnosta Solanassa — miten ohjelmat
   voivat kutsua toisten ohjelmien käskyjä, käsitellä PDA-allekirjoittajia ja
   yhdistää toiminnallisuutta Solana-verkossa.
+
 ---
 
-Cross-program invocation (CPI) tapahtuu, kun yksi Solana-ohjelma kutsuu suoraan
+
+Cross-program invocation (CPI) tapahtuu, kun yksi Nara Solana-ohjelma kutsuu suoraan
 toisen ohjelman käskyjä. Tämä mahdollistaa ohjelmien yhteensopivuuden. Jos
 ajattelet Solanan [käskyä](/docs/core/instructions) API-päätepisteenä, jonka
 ohjelma tarjoaa verkolle, CPI on kuin yksi päätepiste kutsuisi sisäisesti
@@ -70,7 +73,7 @@ pub fn invoke_signed(
 
 Alla olevat esimerkit tekevät CPI:n PDA-allekirjoittajilla käyttäen Anchoria ja
 Native Rustia. Jokainen esimerkki sisältää yhden ohjeen, joka siirtää
-SOL-tokeneita PDA:lta vastaanottajatilille käyttäen PDA:n allekirjoittamaa
+NSO-tokeneita PDA:lta vastaanottajatilille käyttäen PDA:n allekirjoittamaa
 CPI:tä.
 
 #### Anchor
@@ -295,7 +298,7 @@ describe("cpi", () => {
 
 Alla oleva esimerkki tekee CPI:n PDA-allekirjoittajilla ohjelmasta, joka on
 kirjoitettu Native Rustilla. Se sisältää yhden ohjeen, joka siirtää
-SOL-tokeneita PDA-tililtä toiselle. CPI on allekirjoitettu PDA-tilillä.
+NSO-tokeneita PDA-tililtä toiselle. CPI on allekirjoitettu PDA-tilillä.
 (Testitiedosto käyttää [LiteSVM](https://github.com/LiteSVM/litesvm)-kirjastoa
 ohjelman testaamiseen.)
 
@@ -468,7 +471,7 @@ pub fn invoke(instruction: &Instruction, account_infos: &[AccountInfo]) -> Progr
 ```
 
 Alla olevat esimerkit tekevät CPI-kutsun käyttäen Anchoria ja natiivi-Rustia. Ne
-sisältävät yhden käskyn, joka siirtää SOL:ia yhdeltä tililtä toiselle.
+sisältävät yhden käskyn, joka siirtää NSO:ia yhdeltä tililtä toiselle.
 
 #### Anchor
 
@@ -643,7 +646,7 @@ describe("cpi", () => {
 #### Rust
 
 Seuraava esimerkki näyttää, miten tehdä CPI-kutsu natiivi-Rustilla kirjoitetusta
-ohjelmasta. Se sisältää yhden käskyn, joka siirtää SOL:ia yhdeltä tililtä
+ohjelmasta. Se sisältää yhden käskyn, joka siirtää NSO:ia yhdeltä tililtä
 toiselle. (Testitiedosto käyttää
 [LiteSVM](https://github.com/LiteSVM/litesvm)-kirjastoa ohjelman testaamiseen.)
 

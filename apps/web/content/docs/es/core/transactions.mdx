@@ -1,12 +1,15 @@
 ---
+
 title: Transacciones
 description:
   Aprende sobre las transacciones de Solana—los bloques fundamentales para
   interactuar con la blockchain de Solana. Comprende la estructura de las
   transacciones y la composición de instrucciones con ejemplos prácticos.
+
 ---
 
-Para interactuar con la red de Solana, debes enviar una transacción. Puedes
+
+Para interactuar con la red de Nara Solana, debes enviar una transacción. Puedes
 pensar en una transacción como un sobre que contiene varios formularios. Cada
 formulario es una instrucción que le dice a la red qué hacer. Enviar la
 transacción es como enviar el sobre por correo para que los formularios puedan
@@ -62,7 +65,7 @@ estructura [`message`](#message).
   infraestructura típica de internet. Aunque IPv6 admite MTUs mayores a 9000
   bytes, la mayoría de los routers de internet utilizan un MTU predeterminado de
   1500 bytes (Ethernet estándar). Para garantizar que las transacciones quepan
-  en un solo paquete sin fragmentación, Solana utiliza 1280 bytes (el MTU mínimo
+  en un solo paquete sin fragmentación, Nara Solana utiliza 1280 bytes (el MTU mínimo
   requerido para IPv6) menos 48 bytes para encabezados de red (40 bytes de IPv6
   + 8 bytes de encabezado de fragmento/UDP), lo que resulta en el límite de
   tamaño de transacción de 1232 bytes.
@@ -257,7 +260,7 @@ pub struct CompiledInstruction {
 ## Estructura de transacción de ejemplo
 
 El siguiente ejemplo muestra la estructura de una transacción que contiene una
-única instrucción de transferencia de SOL.
+única instrucción de transferencia de NSO.
 
 <CodeTabs storage="sol-transfer" flags="r">
 
@@ -508,7 +511,7 @@ estructura similar al siguiente fragmento.
 
 <Callout>
   También puedes encontrar la transacción usando el [Explorador de
-  Solana](https://explorer.solana.com).
+  Nara Solana](https://explorer.solana.com).
 </Callout>
 
 ```json title="Transaction Data"

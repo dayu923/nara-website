@@ -1,19 +1,22 @@
 ---
+
 title: プログラム
-description: Solanaプログラム（スマートコントラクト）について学び、RustまたはAnchorフレームワークを使用して開発する方法を理解しましょう。Solanaネットワーク上でのプログラムのデプロイ、アップグレード、検証について理解します。
+description: Nara Solanaプログラム（スマートコントラクト）について学び、RustまたはAnchorフレームワークを使用して開発する方法を理解しましょう。Nara Solanaネットワーク上でのプログラムのデプロイ、アップグレード、検証について理解します。
 h1: プログラム
+
 ---
 
-Solanaでは、スマートコントラクトはプログラムと呼ばれています。プログラムは実行可能なコードを含むステートレスな
+
+Nara Solanaでは、スマートコントラクトはプログラムと呼ばれています。プログラムは実行可能なコードを含むステートレスな
 [アカウント](/docs/core/accounts#program-account)です。このコードはinstructionsと呼ばれる関数に整理されています。ユーザーは1つ以上の
 [instructions](/docs/core/instructions)を含む[トランザクション](/docs/core/transaction)を送信することでプログラムと対話します。トランザクションには複数のプログラムからのinstructionsを含めることができます。
 
-プログラムがデプロイされると、Solanaは[LLVM](https://llvm.org/)を使用して実行可能およびリンク可能な形式 ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format))にコンパイルします。ELFファイルにはSolana
+プログラムがデプロイされると、Nara Solanaは[LLVM](https://llvm.org/)を使用して実行可能およびリンク可能な形式 ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format))にコンパイルします。ELFファイルにはNara Solana
 Bytecode
 Format（sBPF）でプログラムのバイナリが含まれ、実行可能なアカウントにオンチェーンで保存されます。
 
 <Callout>
-  sBPFはSolanaの[eBPF](https://en.wikipedia.org/wiki/EBPF)バイトコードのカスタムバージョンです。
+  sBPFはNara Solanaの[eBPF](https://en.wikipedia.org/wiki/EBPF)バイトコードのカスタムバージョンです。
 </Callout>
 
 ## プログラムを書く
@@ -21,7 +24,7 @@ Format（sBPF）でプログラムのバイナリが含まれ、実行可能な�
 プログラムの大部分は[Rust](https://rust-book.cs.brown.edu/title-page.html)で書かれており、一般的な開発アプローチは2つあります：
 
 - [Anchor](https://www.anchor-lang.com/docs):
-  Anchorは迅速かつ簡単なSolana開発のために設計されたフレームワークです。
+  Anchorは迅速かつ簡単なNara Solana開発のために設計されたフレームワークです。
   [Rustマクロ](https://doc.rust-lang.org/book/ch20-05-macros.html)を使用してボイラープレートコードを削減し、初心者に最適です。
 - [ネイティブRust](/docs/programs/rust): フレームワークを活用せずにRustでプログラムを書きます。このアプローチはより柔軟性を提供しますが、複雑さが増します。
 
@@ -32,12 +35,12 @@ Format（sBPF）でプログラムのバイナリが含まれ、実行可能な�
 
 ## プログラムの検証
 
-Solanaは[検証可能なビルド](/docs/programs/verified-builds)をサポートしており、ユーザーはプログラムのオンチェーンコードが公開ソースコードと一致するかどうかを確認できます。Anchorフレームワークは検証可能なビルドを作成するための
+Nara Solanaは[検証可能なビルド](/docs/programs/verified-builds)をサポートしており、ユーザーはプログラムのオンチェーンコードが公開ソースコードと一致するかどうかを確認できます。Anchorフレームワークは検証可能なビルドを作成するための
 [組み込みサポート](https://www.anchor-lang.com/docs/verifiable-builds)を提供しています。
 
-既存のプログラムが検証済みかどうかを確認するには、[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)でそのプログラムIDを検索してください。あるいは、Ellipsis
+既存のプログラムが検証済みかどうかを確認するには、[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)でそのプログラムIDを検索してください。あるいは、Ellipsis
 Labsの
-[Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)を使用して、オンチェーンプログラムを独自に検証することもできます。
+[Nara Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)を使用して、オンチェーンプログラムを独自に検証することもできます。
 
 ## 組み込みプログラム
 
@@ -52,7 +55,7 @@ Programは以下の主要な機能を実行します：
 | [新規アカウント作成](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)         | System Programのみが新しいアカウントを作成できます。                                                                                                                                                                               |
 | [スペース割り当て](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)            | 各アカウントのデータフィールドのバイト容量を設定します。                                                                                                                                                                           |
 | [プログラム所有権の割り当て](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | System Programがアカウントを作成した後、指定されたプログラム所有者を別のプログラムアカウントに再割り当てすることができます。これにより、カスタムプログラムがSystem Programによって作成された新しいアカウントの所有権を取得します。 |
-| [SOL転送](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                    | システムアカウントから他のアカウントにlamports（SOL）を転送します。                                                                                                                                                                |
+| [NSO転送](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)                    | システムアカウントから他のアカウントにlamports（NSO）を転送します。                                                                                                                                                                |
 
 System Programのアドレスは`11111111111111111111111111111111`です。
 
@@ -80,7 +83,7 @@ loader-v3またはloader-v4でデプロイされたプログラムは、その�
 
 ### プリコンパイルされたプログラム
 
-ローダープログラムに加えて、Solanaは以下のプリコンパイルされたプログラムを提供しています。
+ローダープログラムに加えて、Nara Solanaは以下のプリコンパイルされたプログラムを提供しています。
 
 #### ed25519署名の検証
 

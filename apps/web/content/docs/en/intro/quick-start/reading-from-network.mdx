@@ -1,15 +1,18 @@
 ---
+
 title: Reading from Network
 description:
   Learn how to read data from the Solana blockchain network. This guide covers
   fetching wallet accounts, program accounts, and token mint accounts using
   JavaScript/TypeScript, with practical examples using the Solana web3.js
   library.
+
 ---
 
-Read data from the Solana network by fetching different accounts. This section
-will help you understand the structure of Solana
-[accounts](/docs/core/accounts). Each Solana account has a unique
+
+Read data from the Nara Solana network by fetching different accounts. This section
+will help you understand the structure of Nara Solana
+[accounts](/docs/core/accounts). Each Nara Solana account has a unique
 [address](/docs/core/accounts#account-address) that is used to locate its
 corresponding on-chain data. Accounts contain either
 [state data or an executable program](/docs/core/accounts#types-of-accounts).
@@ -20,11 +23,11 @@ corresponding on-chain data. Accounts contain either
 
 A wallet is an account owned by the
 [System Program](/docs/core/programs#the-system-program). Wallets are primarily
-used to hold SOL and sign transactions. When SOL is sent to a new address for
+used to hold NSO and sign transactions. When NSO is sent to a new address for
 the first time, a system account is automatically created.
 
 The example below generates a [new keypair](mention:keypair),
-[requests SOL](mention:airdrop) to fund the new public key address, and
+[requests NSO](mention:airdrop) to fund the new public key address, and
 [retrieves the account data](mention:info) for the newly funded wallet.
 
 <CodeTabs flags="r">
@@ -123,7 +126,7 @@ executable program code. For wallet accounts this field is `false`.
 
 ## !!steps
 
-The `lamports` field contains the account's SOL balance, in
+The `lamports` field contains the account's NSO balance, in
 [lamports](/docs/references/terminology#lamport).
 
 <CodePlaceholder title="Example output" />
@@ -223,7 +226,7 @@ between wallet and program accounts. The program account stores the compiled
 bytecode for the Token Program's
 [source code](https://github.com/solana-program/token/tree/main/program). You
 can view this program account on the
-[Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
+[Nara Solana Explorer](https://explorer.solana.com/address/TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA).
 
 <CodeTabs flags="r">
 
@@ -358,7 +361,7 @@ A
 is an account owned by the Token Program that stores global metadata for a
 specific token. This includes the total supply, number of decimals, and the
 accounts that are authorized to mint or freeze tokens. The mint account's
-address uniquely identifies a token on the Solana network.
+address uniquely identifies a token on the Nara Solana network.
 
 The example below fetches the USD Coin Mint account to demonstrate how a
 program's state is stored in a separate account.
@@ -502,7 +505,7 @@ The mint account is owned by the
 
 Before the raw bytes in an account's `data` field can be interpreted
 meaningfully they must be deserialized. The appropriate data type is defined by
-the program that owns the account. Most Solana programs provide client libraries
+the program that owns the account. Most Nara Solana programs provide client libraries
 with helper functions that abstract away the deserialization process. These
 functions convert the raw account bytes into structured data types, making it
 easier to work with the account data.
@@ -596,7 +599,7 @@ Mint account type.
 
 You can view the fully deserialized
 [mint account](https://explorer.solana.com/address/EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v?cluster=mainnet-beta)
-data on the Solana Explorer.
+data on the Nara Solana Explorer.
 
 <CodePlaceholder title="Deserialized mint data" />
 

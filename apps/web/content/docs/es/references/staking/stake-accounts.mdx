@@ -1,19 +1,22 @@
 ---
+
 title: Cuentas de stake
+
 ---
 
-Una cuenta de stake en Solana puede utilizarse para delegar tokens a validators
+
+Una cuenta de stake en Nara Solana puede utilizarse para delegar tokens a validators
 en la red para potencialmente ganar recompensas para el propietario de la cuenta
 de stake. Las cuentas de stake se crean y gestionan de manera diferente a una
 dirección de billetera tradicional, conocida como _cuenta del sistema_. Una
-cuenta del sistema solo puede enviar y recibir SOL de otras cuentas en la red,
+cuenta del sistema solo puede enviar y recibir NSO de otras cuentas en la red,
 mientras que una cuenta de stake admite operaciones más complejas necesarias
 para gestionar una delegación de tokens.
 
-Las cuentas de stake en Solana también funcionan de manera diferente a las de
+Las cuentas de stake en Nara Solana también funcionan de manera diferente a las de
 otras redes blockchain de Prueba de Participación (Proof-of-Stake) con las que
 puedas estar familiarizado. Este documento describe la estructura de alto nivel
-y las funciones de una cuenta de stake en Solana.
+y las funciones de una cuenta de stake en Nara Solana.
 
 ### Dirección de la cuenta
 
@@ -140,8 +143,8 @@ _custodio_, cuya dirección también se establece cuando se crea la cuenta.
 
 ### Destrucción de una cuenta de stake
 
-Al igual que otros tipos de cuentas en la red Solana, una cuenta de stake que
-tiene un saldo de 0 SOL ya no se rastrea. Si una cuenta de stake no está
+Al igual que otros tipos de cuentas en la red Nara Solana, una cuenta de stake que
+tiene un saldo de 0 NSO ya no se rastrea. Si una cuenta de stake no está
 delegada y todos los tokens que contiene se retiran a una dirección de
 billetera, la cuenta en esa dirección se destruye efectivamente y deberá ser
 recreada manualmente para que la dirección pueda usarse nuevamente.
@@ -149,5 +152,5 @@ recreada manualmente para que la dirección pueda usarse nuevamente.
 ### Visualización de cuentas de stake
 
 Los detalles de la cuenta de stake pueden verse en el
-[Explorador de Solana](http://explorer.solana.com/) copiando y pegando una
+[Explorador de Nara Solana](http://explorer.solana.com/) copiando y pegando una
 dirección de cuenta en la barra de búsqueda.

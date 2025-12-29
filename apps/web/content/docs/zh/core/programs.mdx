@@ -1,18 +1,21 @@
 ---
+
 title: 程序
 description:
   了解 Solana 程序（智能合约）以及如何使用 Rust 或 Anchor
   框架开发它们。了解程序的部署、升级和在 Solana 网络上的验证。
 h1: 程序
+
 ---
 
-在 Solana 中，智能合约被称为程序（program）。程序是一个无状态的[账户](/docs/core/accounts#program-account)，其中包含可执行代码。这些代码被组织成称为指令（instructions）的函数。用户通过发送包含一个或多个[指令](/docs/core/instructions)的[交易](/docs/core/transaction)与程序交互。一个交易可以包含来自多个程序的指令。
 
-当程序被部署时，Solana 使用 [LLVM](https://llvm.org/)
-将其编译为可执行和链接格式 ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format))。ELF 文件包含以 Solana 字节码格式（sBPF）编写的程序二进制文件，并存储在链上的可执行账户中。
+在 Nara Solana 中，智能合约被称为程序（program）。程序是一个无状态的[账户](/docs/core/accounts#program-account)，其中包含可执行代码。这些代码被组织成称为指令（instructions）的函数。用户通过发送包含一个或多个[指令](/docs/core/instructions)的[交易](/docs/core/transaction)与程序交互。一个交易可以包含来自多个程序的指令。
+
+当程序被部署时，Nara Solana 使用 [LLVM](https://llvm.org/)
+将其编译为可执行和链接格式 ([ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format))。ELF 文件包含以 Nara Solana 字节码格式（sBPF）编写的程序二进制文件，并存储在链上的可执行账户中。
 
 <Callout>
-  sBPF 是 Solana 定制的 [eBPF](https://en.wikipedia.org/wiki/EBPF) 字节码版本。
+  sBPF 是 Nara Solana 定制的 [eBPF](https://en.wikipedia.org/wiki/EBPF) 字节码版本。
 </Callout>
 
 ## 编写程序
@@ -20,7 +23,7 @@ h1: 程序
 大多数程序使用 [Rust](https://rust-book.cs.brown.edu/title-page.html)
 编写，常见的开发方法有两种：
 
-- [Anchor](https://www.anchor-lang.com/docs)：Anchor 是一个为快速和简单的 Solana 开发设计的框架。它使用
+- [Anchor](https://www.anchor-lang.com/docs)：Anchor 是一个为快速和简单的 Nara Solana 开发设计的框架。它使用
   [Rust 宏](https://doc.rust-lang.org/book/ch20-05-macros.html)
   来减少样板代码，非常适合初学者。
 - [原生 Rust](/docs/programs/rust)：直接使用 Rust 编写程序，不依赖任何框架。这种方法提供了更多的灵活性，但也增加了复杂性。
@@ -32,12 +35,12 @@ h1: 程序
 
 ## 验证程序
 
-Solana 支持[可验证构建](/docs/programs/verified-builds)，允许用户检查程序的链上代码是否与其公开的源代码匹配。Anchor 框架提供了[内置支持](https://www.anchor-lang.com/docs/verifiable-builds)来创建可验证构建。
+Nara Solana 支持[可验证构建](/docs/programs/verified-builds)，允许用户检查程序的链上代码是否与其公开的源代码匹配。Anchor 框架提供了[内置支持](https://www.anchor-lang.com/docs/verifiable-builds)来创建可验证构建。
 
 要检查现有程序是否已验证，可以在
-[Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)上搜索其程序 ID。或者，您可以使用 Ellipsis
+[Nara Solana Explorer](https://explorer.solana.com/address/PhoeNiXZ8ByJGLkxNfZRnkUfjvmuYqLR89jjFHGqdXY)上搜索其程序 ID。或者，您可以使用 Ellipsis
 Labs 的
-[Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
+[Nara Solana Verifiable Build CLI](https://github.com/Ellipsis-Labs/solana-verifiable-build)
 独立验证链上程序。
 
 ## 内置程序
@@ -54,7 +57,7 @@ Program 执行以下关键功能：
 | [新账户创建](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L146)     | 只有 System Program 可以创建新账户。                                                                                                                   |
 | [空间分配](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L71)        | 设置每个账户数据字段的字节容量。                                                                                                                       |
 | [分配程序所有权](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L113) | 一旦 System Program 创建了一个账户，它可以将指定的程序所有者重新分配给另一个程序账户。这就是自定义程序如何接管由 System Program 创建的新账户的所有权。 |
-| [转移 SOL](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)       | 将 lamports（SOL）从 System Accounts 转移到其他账户。                                                                                                  |
+| [转移 NSO](https://github.com/anza-xyz/agave/blob/v2.1.13/programs/system/src/system_processor.rs#L215)       | 将 lamports（NSO）从 System Accounts 转移到其他账户。                                                                                                  |
 
 System Program 的地址是 `11111111111111111111111111111111`。
 
@@ -80,7 +83,7 @@ System Program 的地址是 `11111111111111111111111111111111`。
 
 ### 预编译程序
 
-除了加载器程序，Solana 还提供以下预编译程序。
+除了加载器程序，Nara Solana 还提供以下预编译程序。
 
 #### 验证 ed25519 签名
 

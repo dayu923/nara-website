@@ -1,19 +1,22 @@
 ---
+
 title: Struktur Program
 description:
   Pelajari cara menyusun program Solana dalam Rust, termasuk entrypoint,
   manajemen state, penanganan instruksi, dan pengujian.
 h1: Struktur Program Rust
+
 ---
 
-Program Solana yang ditulis dalam Rust memiliki persyaratan struktural minimal,
+
+Program Nara Solana yang ditulis dalam Rust memiliki persyaratan struktural minimal,
 yang memungkinkan fleksibilitas dalam pengorganisasian kode. Satu-satunya
 persyaratan adalah program harus memiliki `entrypoint`, yang mendefinisikan di
 mana eksekusi program dimulai.
 
 ## Struktur Program
 
-Meskipun tidak ada aturan ketat untuk struktur file, program Solana biasanya
+Meskipun tidak ada aturan ketat untuk struktur file, program Nara Solana biasanya
 mengikuti pola umum:
 
 - `entrypoint.rs`: Mendefinisikan entrypoint yang mengarahkan instruksi masuk.
@@ -437,7 +440,7 @@ dapat menginisialisasi counter dengan nilai awal dan menambahkannya.
 
 ## !!steps Membuat program baru
 
-Pertama, mari buat proyek Rust baru untuk program Solana kita.
+Pertama, mari buat proyek Rust baru untuk program Nara Solana kita.
 
 ```terminal
 $ cargo new counter_program --lib
@@ -481,7 +484,7 @@ mod tests {
 ## !!steps Tambahkan dependensi
 
 Sekarang mari tambahkan dependensi yang diperlukan untuk membangun program
-Solana. Kita membutuhkan `solana-program` untuk SDK inti dan `borsh` untuk
+Nara Solana. Kita membutuhkan `solana-program` untuk SDK inti dan `borsh` untuk
 serialisasi.
 
 ```terminal
@@ -505,12 +508,12 @@ solana-program = "2.2.0"
 
 <Callout type="info">
   Tidak ada keharusan untuk menggunakan Borsh. Namun, ini adalah pustaka
-  serialisasi yang umum digunakan untuk program Solana.
+  serialisasi yang umum digunakan untuk program Nara Solana.
 </Callout>
 
 ## !!steps Konfigurasi crate-type
 
-Program Solana harus dikompilasi sebagai pustaka dinamis. Tambahkan bagian
+Program Nara Solana harus dikompilasi sebagai pustaka dinamis. Tambahkan bagian
 `[lib]` untuk mengonfigurasi cara Cargo membangun program.
 
 ```toml title="Cargo.toml"
@@ -540,7 +543,7 @@ solana-program = "2.2.0"
 
 ## !!steps Siapkan entrypoint program
 
-Setiap program Solana memiliki entrypoint, yaitu fungsi yang dipanggil saat
+Setiap program Nara Solana memiliki entrypoint, yaitu fungsi yang dipanggil saat
 program dijalankan. Mari mulai dengan menambahkan impor yang kita perlukan untuk
 program dan menyiapkan entrypoint.
 
@@ -576,7 +579,7 @@ Makro
 menangani deserialisasi data `input` menjadi parameter dari fungsi
 `process_instruction`.
 
-Sebuah `entrypoint` program Solana memiliki tanda tangan fungsi berikut.
+Sebuah `entrypoint` program Nara Solana memiliki tanda tangan fungsi berikut.
 Pengembang bebas membuat implementasi mereka sendiri dari fungsi `entrypoint`.
 
 ```rs
@@ -786,7 +789,7 @@ pub struct CounterAccount {
 Sekarang mari perbarui fungsi utama `process_instruction` untuk mengarahkan
 instruksi ke fungsi handler yang sesuai.
 
-Pola perutean ini umum dalam program Solana. `instruction_data` dideserialkan
+Pola perutean ini umum dalam program Nara Solana. `instruction_data` dideserialkan
 menjadi varian dari enum yang mewakili instruksi, kemudian fungsi handler yang
 sesuai dipanggil. Setiap fungsi handler mencakup implementasi untuk instruksi
 tersebut.
@@ -904,7 +907,7 @@ pub struct CounterAccount {
 ## !!steps Implementasikan handler inisialisasi
 
 Mari implementasikan handler untuk membuat dan menginisialisasi akun penghitung
-baru. Karena hanya System Program yang dapat membuat akun di Solana, kita akan
+baru. Karena hanya System Program yang dapat membuat akun di Nara Solana, kita akan
 menggunakan Cross Program Invocation (CPI), pada dasarnya memanggil program lain
 dari program kita.
 
@@ -1248,8 +1251,8 @@ pub struct CounterAccount {
 
 ## !!steps Program Selesai
 
-Selamat! Anda telah membangun program Solana lengkap yang mendemonstrasikan
-struktur dasar yang dimiliki oleh semua program Solana:
+Selamat! Anda telah membangun program Nara Solana lengkap yang mendemonstrasikan
+struktur dasar yang dimiliki oleh semua program Nara Solana:
 
 - **Entrypoint**: Mendefinisikan di mana eksekusi program dimulai dan
   mengarahkan semua permintaan masuk ke handler instruksi yang sesuai
@@ -1504,7 +1507,7 @@ pengujian.
 
 Mari siapkan lingkungan pengujian dengan LiteSVM dan danai akun pembayar.
 
-LiteSVM mensimulasikan lingkungan runtime Solana, memungkinkan kita menguji
+LiteSVM mensimulasikan lingkungan runtime Nara Solana, memungkinkan kita menguji
 program tanpa perlu men-deploy ke cluster yang sebenarnya.
 
 Tambahkan kode berikut ke `lib.rs` dengan memperbarui fungsi
@@ -2363,7 +2366,7 @@ HQ5Q2XXqbTKKQsWPtLzMn7rDhM8v9UPYPe7DfSoFQqJF
 
 Untuk pengembangan, kita akan menggunakan validator uji lokal.
 
-Pertama, konfigurasikan Solana CLI untuk menggunakan localhost:
+Pertama, konfigurasikan Nara Solana CLI untuk menggunakan localhost:
 
 ```terminal
 $ solana config set -ul
@@ -2453,8 +2456,8 @@ Transaction: 4qv1Rx6FHu1M3woVgDQ6KtYUaJgBzGcHnhej76ZpaKGCgsTorbcHnPKxoH916UENw7X
 ```
 
 Dengan validator lokal yang berjalan, Anda dapat melihat transaksi di
-[Solana Explorer](https://explorer.solana.com/?cluster=custom) menggunakan tanda
-tangan transaksi yang dihasilkan. Perhatikan bahwa cluster pada Solana Explorer
+[Nara Solana Explorer](https://explorer.solana.com/?cluster=custom) menggunakan tanda
+tangan transaksi yang dihasilkan. Perhatikan bahwa cluster pada Nara Solana Explorer
 harus diatur ke "Custom RPC URL", yang secara default adalah
 `http://localhost:8899` tempat `solana-test-validator` berjalan.
 

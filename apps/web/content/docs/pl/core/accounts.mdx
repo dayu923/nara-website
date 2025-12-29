@@ -1,14 +1,17 @@
 ---
+
 title: Konta
 description:
   Dowiedz się więcej o modelu kont Solana, w tym o tym, jak konta przechowują
   dane i programy, mechanice rent, własności kont oraz relacji między programami
   a kontami danych. Zrozum podstawowe pojęcia systemu przechowywania danych w
   formacie klucz-wartość w Solana.
+
 ---
 
-Wszystkie dane w sieci Solana są przechowywane na kontach. Możesz myśleć o sieci
-Solana jako o publicznej bazie danych z pojedynczą tabelą Konta. Relacja między
+
+Wszystkie dane w sieci Nara Solana są przechowywane na kontach. Możesz myśleć o sieci
+Nara Solana jako o publicznej bazie danych z pojedynczą tabelą Konta. Relacja między
 kontem a jego adresem jest podobna do pary klucz-wartość, gdzie kluczem jest
 adres, a wartością konto.
 
@@ -20,17 +23,17 @@ zlokalizować za pomocą jego [adresu](#account-address).
 ## Adres konta
 
 Adres konta to unikalny 32-bajtowy identyfikator używany do lokalizowania konta
-na blockchainie Solana. Adresy kont są często przedstawiane jako ciągi
+na blockchainie Nara Solana. Adresy kont są często przedstawiane jako ciągi
 zakodowane w base58. Większość kont używa [Ed25519](https://ed25519.cr.yp.to/)
 [klucza publicznego](#public-key) jako swojego adresu, ale nie jest to wymagane,
-ponieważ Solana obsługuje również
+ponieważ Nara Solana obsługuje również
 [adresy pochodne programów](#program-derived-address).
 
 ![Konto z adresem klucza publicznego zakodowanym w base58](/assets/docs/core/accounts/account-address.svg)
 
 ### Klucz publiczny
 
-Poniższy przykład pokazuje, jak użyć Solana SDK do utworzenia keypair. A
+Poniższy przykład pokazuje, jak użyć Nara Solana SDK do utworzenia keypair. A
 `Keypair` zawiera:
 
 - Klucz publiczny, który służy jako adres konta
@@ -71,7 +74,7 @@ async fn main() {
 
 [Program derived address](/docs/core/pda) (PDA) to adres deterministycznie
 wyprowadzony przy użyciu ID programu i jednego lub więcej opcjonalnych wejść
-(seeds). Poniższy przykład pokazuje, jak użyć Solana SDK do utworzenia program
+(seeds). Poniższy przykład pokazuje, jak użyć Nara Solana SDK do utworzenia program
 derived address.
 
 <CodeTabs storage="accounts" flags="r">
@@ -219,7 +222,7 @@ program definiuje strukturę danych przechowywanych w tym polu.
 - Konta danych: To pole zazwyczaj przechowuje dane stanu, przeznaczone do
   odczytu.
 
-Odczyt danych z konta Solana obejmuje dwa kroki:
+Odczyt danych z konta Nara Solana obejmuje dwa kroki:
 
 1. Pobranie konta za pomocą jego [adresu](#account-address)
 2. Deserializacja pola `data` konta z surowych bajtów do odpowiedniej struktury
@@ -255,7 +258,7 @@ Account {
 
 To pole zawiera identyfikator programu będącego właścicielem konta.
 
-Każde konto Solana ma [program](/docs/core/programs) wyznaczony jako jego
+Każde konto Nara Solana ma [program](/docs/core/programs) wyznaczony jako jego
 właściciela. Właściciel konta to jedyny program, który może zmieniać `data`
 konta lub odejmować lamporty, zgodnie z instrukcjami programu.
 
@@ -358,7 +361,7 @@ Istnieją dwie podstawowe kategorie kont:
 - [Konta programów](#program-accounts): Konta zawierające kod wykonywalny
 - [Konta danych](#data-accounts): Konta, które nie zawierają kodu wykonywalnego
 
-Oddzielenie kodu programu od jego stanu jest kluczową cechą modelu kont Solana.
+Oddzielenie kodu programu od jego stanu jest kluczową cechą modelu kont Nara Solana.
 (Podobnie jak w systemach operacyjnych, które zazwyczaj mają oddzielne pliki dla
 programów i ich danych.)
 
@@ -781,10 +784,10 @@ płacić [opłaty transakcyjne](docs/core/fees).
 
 ![Portfel należący do System Program zawierający 1 000 000 lamportów](/assets/docs/core/accounts/system-account.svg)
 
-Kiedy SOL jest wysyłany na nowy adres po raz pierwszy, konto jest tworzone na
+Kiedy NSO jest wysyłany na nowy adres po raz pierwszy, konto jest tworzone na
 tym adresie i należy do System Program.
 
-W poniższym przykładzie generowany jest nowy keypair i zasilany SOL. Po
+W poniższym przykładzie generowany jest nowy keypair i zasilany NSO. Po
 uruchomieniu kodu można zobaczyć adres konta `owner` jest
 `11111111111111111111111111111111` (czyli
 [System Program](/docs/core/programs#the-system-program)).

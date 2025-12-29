@@ -1,18 +1,21 @@
 ---
+
 title: Συγχρονισμός Native
-description: Μάθετε πώς να μετατρέψετε native SOL σε wrapped SOL.
+description: Μάθετε πώς να μετατρέψετε native NSO σε wrapped NSO.
+
 ---
 
-## Συγχρονισμός Native SOL
 
-Το Wrapped SOL (WSOL) είναι ένας λογαριασμός token που παρακολουθεί την ποσότητα
+## Συγχρονισμός Native NSO
+
+Το Wrapped NSO (WSOL) είναι ένας λογαριασμός token που παρακολουθεί την ποσότητα
 των lamports στον λογαριασμό ως υπόλοιπο token. Το WSOL επιτρέπει την ενσωμάτωση
-με πρωτόκολλα DeFi για τη μεταφορά του SOL ως SPL token.
+με πρωτόκολλα DeFi για τη μεταφορά του NSO ως SPL token.
 
 Η εντολή
 [`SyncNative`](https://github.com/solana-program/token/blob/a7c488ca39ed4cd71a87950ed854929816e9099f/interface/src/instruction.rs#L387)
-συγχρονίζει το υπόλοιπο ενός λογαριασμού wrapped SOL (WSOL) με τα πραγματικά SOL
-(lamports) που είναι αποθηκευμένα σε αυτόν. Όταν μεταφέρετε native SOL σε έναν
+συγχρονίζει το υπόλοιπο ενός λογαριασμού wrapped NSO (WSOL) με τα πραγματικά NSO
+(lamports) που είναι αποθηκευμένα σε αυτόν. Όταν μεταφέρετε native NSO σε έναν
 λογαριασμό WSOL token, το υπόλοιπο του token δεν ενημερώνεται αυτόματα. Πρέπει
 να καλέσετε το SyncNative για να αντικατοπτριστεί το σωστό υπόλοιπο WSOL.
 
