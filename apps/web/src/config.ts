@@ -1,6 +1,6 @@
 export const config = {
   siteMetadata: {
-    title: `Solana`,
+    title: `Nara Solana`,
     description: `Fast. Decentralized. Scalable. Energy efficient. Solana can power thousands of transactions per second.`,
     socialShare: `https://solana.com/social/solana.jpg`,
     author: `@solana`,
