@@ -809,7 +809,7 @@
         },
         "api": {
           "title": "RPC API",
-          "description": "Solana RPC API संदर्भ दस्तावेज़ीकरण।"
+          "description": "Nara Solana RPC API संदर्भ दस्तावेज़ीकरण।"
         }
       },
       "tutorials": {
@@ -1089,7 +1089,7 @@
       "description": "सोलाना पारिस्थितिकी तंत्र का अन्वेषण करें और NFTs की दुनिया के बारे में अधिक जानें।",
       "nft": {
         "title": "NFT क्या है?",
-        "description": "NFTs? मिंट्स? Solana.com पर NFTs की मूल बातें जानें",
+        "description": "NFTs? मिंट्स? Nara Solana.com पर NFTs की मूल बातें जानें",
         "cta": "और जानें"
       },
       "magiceden": {

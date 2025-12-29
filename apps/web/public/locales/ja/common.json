@@ -31,10 +31,10 @@
       "check-1": "Solana上で最も活気のあるエージェント駆動型経済を促進",
       "check-2": "LLMをSolanaコードの作成とSolana開発者の支援に最適化",
       "check-3": "オープンで分散化されたAIスタックをサポート",
-      "cta": "Solana x AIについてもっと読む"
+      "cta": "Nara Solana x AIについてもっと読む"
     },
     "hackathon": {
-      "title": "Solana AIハッカソン優勝者",
+      "title": "Nara Solana AIハッカソン優勝者",
       "check-1": "15日間",
       "check-2": "400以上のプロジェクト",
       "check-3": "21名の優勝者",
@@ -43,12 +43,12 @@
     },
     "quote-section": {
       "content": "OpenAIはスタートアップです。それを構築したのはGoogleではありません。AIは運用上の変化を必要とし、大企業はそれに追いつくことができず、せいぜい生き残ることしかできないでしょう。",
-      "author": "Anatoly Yakovenko, Solana Labsの共同創設者"
+      "author": "Anatoly Yakovenko, Nara Solana Labsの共同創設者"
     },
     "build": {
       "title": "Solana上で<colored>AI</colored>エージェントを構築する",
       "card-1": {
-        "title": "Solana Agent Kit",
+        "title": "Nara Solana Agent Kit",
         "content": "SendAIのSolana Agent Kitは、あらゆるAIエージェントを30以上のSolanaプロトコルに接続し、50以上のSolanaアクションを実行するためのツールキットで、Eliza、Langchain、Perplexity、Vercel AI SDKと互換性があります。"
       },
       "card-2": {
@@ -71,7 +71,7 @@
   },
   "validators": {
     "title": "バリデーター: ネットワークの安全性を確保し、SOLを獲得する",
-    "description": "Solana Mainnet Betaネットワークは、現在1,000以上の独立したバリデーターによってサポートされており、50,000 TPSのトランザクション処理をサポートできます。バリデーターとしてエコシステムに参加してSOL報酬を得る方法について詳しくはこちら。",
+    "description": "Nara Solana Mainnet Betaネットワークは、現在1,000以上の独立したバリデーターによってサポートされており、50,000 TPSのトランザクション処理をサポートできます。バリデーターとしてエコシステムに参加してSOL報酬を得る方法について詳しくはこちら。",
     "header": "元帳を保護する。SOLを獲得する。",
     "sub-header": "コンピューティングリソースを提供してネットワークを分散化する。",
     "become-validator": "バリデーターになる",
@@ -105,7 +105,7 @@
         "education-header": "バリデーター教育",
         "education-text": "Solanaバリデーター教育は、重要なSolanaバリデーターの概念と新しいバリデーターのセットアップに必要な手順について解説する2部構成のシリーズです。",
         "delegation-header": "デリゲーションプログラム",
-        "delegation-text": "Foundation Delegationの参加者は、Solana Foundationからのデリゲーションを受け取る資格があります。",
+        "delegation-text": "Foundation Delegationの参加者は、Nara Solana Foundationからのデリゲーションを受け取る資格があります。",
         "delegation-btn": "ダッシュボード"
       }
     },
@@ -204,35 +204,35 @@
     "previousHackathons": {
       "title": "過去のハッカソン",
       "hyperdrive": {
-        "title": "Solana Hyperdrive",
+        "title": "Nara Solana Hyperdrive",
         "description": "Hyperdriveでは、7,000人以上の参加者が907の最終プロジェクトを審査員に提出し、これまでで最大のオンラインSolanaハッカソンとなりました。"
       },
       "renaissance": {
-        "title": "Solana Renaissance",
+        "title": "Nara Solana Renaissance",
         "description": "RenaissanceはSolana Foundationの9回目のハッカソンであり、95か国以上の創設者と開発者が集まり、インフラストラクチャ、ゲーム、DePIN、DAO、DeFi、そして多岐にわたる一般向けアプリケーションの開発に取り組みました。"
       },
       "grizzlython": {
-        "title": "Solana Grizzlython",
+        "title": "Nara Solana Grizzlython",
         "description": "Grizzlythonには10,000人以上の参加者が813の最終プロジェクトを提出し、Solanaの7回目のハッカソンとなりました。"
       },
       "summercamp": {
-        "title": "Solana Summer Camp",
+        "title": "Nara Solana Summer Camp",
         "description": "世界中のチームに門戸を開いたSolana Summer Campでは、約18,000人の参加者が750件の最終プロジェクトを審査員に提出しました。"
       },
       "riptide": {
-        "title": "Solana Riptide",
+        "title": "Nara Solana Riptide",
         "description": "世界中のチームに門戸を開いたRiptideでは、約7,000人の参加者が550件の最終プロジェクトを審査員に提出しました。"
       },
       "ignition": {
-        "title": "Solana Ignition",
+        "title": "Nara Solana Ignition",
         "description": "世界中のビルダーから500以上のプロジェクトが提出されました。"
       },
       "season": {
-        "title": "Solana Season",
+        "title": "Nara Solana Season",
         "description": "13,000人以上のビルダーが登録し、350チームがDeFi、NFT、Web3などにわたるプロジェクトを提出しました。"
       },
       "defi": {
-        "title": "Solana DeFi",
+        "title": "Nara Solana DeFi",
         "description": "世界中のビルダーから3,000以上の登録と100以上のプロジェクト提出がありました！"
       },
       "inaugural": {
@@ -310,7 +310,7 @@
     "welcome": {
       "title": "Solanaブランド＆マーケティングページへようこそ",
       "description": "広告、記事、ウェブサイト、印刷物のプロモーションなど、Solanaをマーケティングコミュニケーションで宣伝する際には、これらのガイドラインに従ってください。",
-      "description-2": "完全なブランドガイドラインについては、<guidelinesLink>Solana Foundation Brand Guidelines</guidelinesLink>をご覧ください。"
+      "description-2": "完全なブランドガイドラインについては、<guidelinesLink>Nara Solana Foundation Brand Guidelines</guidelinesLink>をご覧ください。"
     },
     "clearspace": {
       "title": "クリアスペース",
@@ -405,7 +405,7 @@
     "description": "Solanaがクリプトの最も優秀で才能あるチームによって使用される理由を学びましょう。Solanaブロックチェーン上で構築を始めるためのガイドと例を探索してください。",
     "courses": {
       "title": "Solana開発を学ぶ",
-      "description": "Solana Foundationとコミュニティのコースを使用して、Solana開発の旅を始めましょう。",
+      "description": "Nara Solana Foundationとコミュニティのコースを使用して、Solana開発の旅を始めましょう。",
       "featured-item": {
         "title": "Solana開発コース",
         "description": "Blueshiftで、Solana開発の旅をすぐに始めましょう。"
@@ -527,7 +527,7 @@
       "learn-more": "詳細を学ぶ",
       "featured-guides-list": {
         "title": "注目のガイド",
-        "description": "Solana dAppsを学び、構築するための最高の詳細ガイド。",
+        "description": "Nara Solana dAppsを学び、構築するための最高の詳細ガイド。",
         "start": "開始"
       },
       "seo-description": "初心者から上級者までの開発者ガイドでSolana開発を学びましょう。JavaScript、TypeScript、Rustなど。"
@@ -546,8 +546,8 @@
           "description": "Solanaクックブックは、Solana上でアプリケーションを構築するための基本的な概念とリファレンスを提供する開発者リソースです。"
         },
         "stackexchange": {
-          "title": "Solana Stack Exchange",
-          "description": "Solana Stack Exchangeは、Solanaソフトウェアユーザーと開発者のためのQ&Aサイトです。",
+          "title": "Nara Solana Stack Exchange",
+          "description": "Nara Solana Stack Exchangeは、Solanaソフトウェアユーザーと開発者のためのQ&Aサイトです。",
           "ask": {
             "title": "質問がありますか？",
             "description": "質問はどこにでもありますが、答えはSolana StackExchangeにあります。",
@@ -555,12 +555,12 @@
           }
         },
         "playground": {
-          "title": "Solana Playground",
+          "title": "Nara Solana Playground",
           "description": "ブラウザIDEからSolanaプログラムとスマートコントラクトを簡単に構築、デプロイ、テストします。"
         },
         "create-dapp": {
           "title": "create-solana-dapp",
-          "description": "Solana dAppsを迅速に立ち上げ、数秒でプロジェクトテンプレートを生成します。"
+          "description": "Nara Solana dAppsを迅速に立ち上げ、数秒でプロジェクトテンプレートを生成します。"
         },
         "anchor": {
           "title": "Anchorドキュメント",
@@ -594,11 +594,11 @@
   },
   "environment": {
     "title": "環境",
-    "description": "Solana Foundationと大規模なコミュニティが、より良く、よりエネルギー効率の高いweb3を構築する方法。",
+    "description": "Nara Solana Foundationと大規模なコミュニティが、より良く、よりエネルギー効率の高いweb3を構築する方法。",
     "hero": {
       "title-part-1": "カーボンニュートラル。",
       "title-part-2": "気候に焦点を当てる。",
-      "subtitle": "Solana Foundationとそのコミュニティがより良い、よりエネルギー効率の高いweb3を構築する方法。"
+      "subtitle": "Nara Solana Foundationとそのコミュニティがより良い、よりエネルギー効率の高いweb3を構築する方法。"
     },
     "stats": {
       "transaction": "Solanaトランザクションごとの平均エネルギー使用量（ジュール単位）",
@@ -615,7 +615,7 @@
     },
     "report": {
       "title": "Solanaのカーボンインパクト中和に向けて",
-      "description-part-1": "Solana Foundationは、Solanaブロックチェーンの影響を調査し、データをオープンソース化し、チェーンのフットプリントをゼロにするための取り組みを進めることを約束します。",
+      "description-part-1": "Nara Solana Foundationは、Solanaブロックチェーンの影響を調査し、データをオープンソース化し、チェーンのフットプリントをゼロにするための取り組みを進めることを約束します。",
       "description-part-2": "Solanaは、リアルタイムのエネルギー排出追跡を備えた最初のスマートコントラクトレイヤー1ブロックチェーンであり、世界中の誰もがネットワークの排出量をバリデーターやRPCレベルまで調べることができます。"
     },
     "what-you-can-do": {
@@ -626,7 +626,7 @@
       },
       "footprint": {
         "title": "フットプリントを軽減する",
-        "description": "Solana Foundationは、全てのバリデーターとプロジェクトに対して、自身の排出量データを確認し、可能な範囲で削減することを推奨しています。Orcaの取り組みから学んでみましょう。"
+        "description": "Nara Solana Foundationは、全てのバリデーターとプロジェクトに対して、自身の排出量データを確認し、可能な範囲で削減することを推奨しています。Orcaの取り組みから学んでみましょう。"
       },
       "grants": {
         "title": "助成金に応募する",
@@ -721,9 +721,9 @@
   },
   "footer": {
     "foundation": "管理運営",
-    "copyright": "© {currentYear} Solana Foundation. 無断転載を禁じます。",
+    "copyright": "© {currentYear} Nara Solana Foundation. 無断転載を禁じます。",
     "solana": {
-      "heading": "Solana",
+      "heading": "Nara Solana",
       "grants": "助成金",
       "media": "メディアキット",
       "careers": "求人情報",
@@ -748,8 +748,8 @@
     },
     "community": {
       "title": "コミュニティに参加",
-      "discord": "Solana Discord サポート",
-      "forums": "Solana フォーラム",
+      "discord": "Nara Solana Discord サポート",
+      "forums": "Nara Solana フォーラム",
       "solhack-discord": "SolHack Discord (コミュニティ)",
       "solhack-training": "SolHack トレーニング (コミュニティ)"
     },
@@ -840,7 +840,7 @@
         },
         "api": {
           "title": "RPC API",
-          "description": "Solana RPC APIリファレンスドキュメント"
+          "description": "Nara Solana RPC APIリファレンスドキュメント"
         }
       },
       "tutorials": {
@@ -965,7 +965,7 @@
             "description": "Solanaブロックチェーンエクスプローラーとインデクサー"
           },
           {
-            "title": "Solana Explorer",
+            "title": "Nara Solana Explorer",
             "description": "ブロック、アカウント、トランザクション、プログラム、トークン"
           },
           {
@@ -1198,7 +1198,7 @@
     "page": {
       "side-events": {
         "title": "ブレイクポイントサイドイベント",
-        "description": "Solana Breakpoint 2024の期間中に開催されるイベント。",
+        "description": "Nara Solana Breakpoint 2024の期間中に開催されるイベント。",
         "intro": "Breakpointは、Solanaエコシステム全体のためのイベントです。世界中のプロジェクト、チーム、個人がカンファレンス中に独自のイベントを開催し、仲間のビルダーと出会い、共に祝います。",
         "featured": "注目のイベント",
         "community": "コミュニティイベント",
@@ -1220,16 +1220,16 @@
     }
   },
   "format": {
-    "title": "FORMATフェスティバル x Solana Foundation",
-    "description": "Solana Houseで、ブロックチェーン決済やアート、その他の分野における分散化された未来を体験しましょう。",
+    "title": "FORMATフェスティバル x Nara Solana Foundation",
+    "description": "Nara Solana Houseで、ブロックチェーン決済やアート、その他の分野における分散化された未来を体験しましょう。",
     "hero": {
       "subtitle": "アートとテクノロジーの未来を一箇所で体験してください。",
-      "description": "Solana Houseで、<formatLink>FORMATフェスティバル</formatLink>で暗号通貨で支払うデジタルバウチャーで無料のスナックを手に入れ、世界的に有名なアーティスト<artistLink>Nancy Baker Cahill</artistLink>の初のSolana NFT展示を体験し、<auctionLink>NFTオークション</auctionLink>に参加しましょう。",
+      "description": "Nara Solana Houseで、<formatLink>FORMATフェスティバル</formatLink>で暗号通貨で支払うデジタルバウチャーで無料のスナックを手に入れ、世界的に有名なアーティスト<artistLink>Nancy Baker Cahill</artistLink>の初のSolana NFT展示を体験し、<auctionLink>NFTオークション</auctionLink>に参加しましょう。",
       "dates": "2022年9月23日から25日にアーカンソー州ベントンビルで開催されます。"
     },
     "claim": {
       "title": "ミステリーNFTを取得する",
-      "description": "Solana + FORMATフェスティバル2022を祝って、ミステリーNFTを引き換えましょう。暗号通貨の経験は必要ありません！",
+      "description": "Nara Solana + FORMATフェスティバル2022を祝って、ミステリーNFTを引き換えましょう。暗号通貨の経験は必要ありません！",
       "cta": "今すぐ取得",
       "social": {
         "description": "Twitterで<tipLink>@TipLinkOfficial</tipLink>と<solanaSpacesLink>@SolanaSpaces</solanaspaceslink/>をフォローして、ミステリーNFTが何に変わるかの発表をお待ちください。",
@@ -1238,7 +1238,7 @@
     },
     "concessions": {
       "title": "暗号通貨での売店",
-      "description": "スキャンで無料のスナックを！Solana House x FORMATのデジタルバウチャーを使用して、美味しいおやつを手に入れましょう。TipLink提供 - 在庫がある限り。"
+      "description": "スキャンで無料のスナックを！Nara Solana House x FORMATのデジタルバウチャーを使用して、美味しいおやつを手に入れましょう。TipLink提供 - 在庫がある限り。"
     },
     "slipstream": {
       "title": "Slipstream NFT体験",
@@ -1249,7 +1249,7 @@
       "description": "Solanaエコシステムを探り、NFTの世界についてもっと学びましょう。",
       "nft": {
         "title": "NFTとは？",
-        "description": "NFT？ミント？Solana.comでNFTの基本を学びましょう。",
+        "description": "NFT？ミント？Nara Solana.comでNFTの基本を学びましょう。",
         "cta": "詳細を学ぶ"
       },
       "magiceden": {
@@ -1316,7 +1316,7 @@
     },
     "presentedby": {
       "title": "主催",
-      "description": "Solana Foundation"
+      "description": "Nara Solana Foundation"
     },
     "signup": {
       "title": "サインアップして登録への早期アクセスを受け取る",
@@ -1329,15 +1329,15 @@
     }
   },
   "nft-showdown": {
-    "title": "Solana NFT Showdown",
-    "description": "Solana Foundationは、このユニークなNFTピッチコンペティションで、クリエイターたちのビジネスアイデアを形にすることを呼びかけています。",
+    "title": "Nara Solana NFT Showdown",
+    "description": "Nara Solana Foundationは、このユニークなNFTピッチコンペティションで、クリエイターたちのビジネスアイデアを形にすることを呼びかけています。",
     "alert": "NFT Showdownに参加 - Solanaで次世代のNFTブランドを構築 ->",
     "cta": "受賞者を見る",
     "intro": {
       "title": "紹介",
-      "heading": "Solana NFT Showdown",
+      "heading": "Nara Solana NFT Showdown",
       "lead": "次世代のNFTブランドを育成",
-      "description-1": "壮大な対決の準備をしてください！Solana Foundationは、このユニークなNFTピッチコンペティションで、クリエイターたちのビジネスアイデアを形にすることを呼びかけています。業界の専門家やNFTコミュニティリーダーと協力する機会を得るための貴重なチャンスです。ファッション、エンターテインメント、ゲーム、クリエイティブエージェンシーなどの分野で実世界の製品を作成することを目指す新しいSolana NFTブランドを求めています。",
+      "description-1": "壮大な対決の準備をしてください！Nara Solana Foundationは、このユニークなNFTピッチコンペティションで、クリエイターたちのビジネスアイデアを形にすることを呼びかけています。業界の専門家やNFTコミュニティリーダーと協力する機会を得るための貴重なチャンスです。ファッション、エンターテインメント、ゲーム、クリエイティブエージェンシーなどの分野で実世界の製品を作成することを目指す新しいSolana NFTブランドを求めています。",
       "description-2": "NFTブランドは、賢明な起業家がビジネスプランを開始し、持続可能なコミュニティを構築するための素晴らしい方法です。あなたが情熱を持っているクリエイティブなコンセプトとビジネスピッチを持っていますか？柔軟性とスケールを提供するさまざまな新しいSolanaツールにアクセスし、活用するこのチャンスを活かしてください。プロジェクトの受賞者は、実行可能なビジネスプランと彼らが示す製品の革新性に基づいて選ばれます。審査員は、あなたのビジョンを現実にするために必要な知識を提供するためにガイダンスを提供します。",
       "description-3": "これは、取締役会にふさわしいピッチを作成する時です。以下にメールアドレスを入力して、最新情報とタイミングを把握してください。提出期間は6月初旬に開始されます。ピッチの準備を始めて、頑張ってください！",
       "description-4": "完全なピッチガイドラインについては、以下のFAQをご覧ください。"
@@ -1368,8 +1368,8 @@
     "disclaimer": {
       "rules": "SOLANA Foundation NFT Showdown 公式ルール",
       "title": "免責事項",
-      "description-line-1": "Solana NFT Showdownは、プロジェクトのビジネスセンス、ユーザー中心のプロダクト思考、クリエイティブな方向性とストーリー性、Solana技術の革新的な活用法、そして実世界への応用が、法的実現性は考慮せずに審査員が評価するコンペティションです。ただし、全ての参加者は、NFT Showdownに関連するプロジェクトにおいて、適用される法規制を遵守しなければなりません。",
-      "description-line-2": "Solana Foundation（「SF」）が提供する開発者リソースは、教育およびインスピレーションの目的でのみ使用されます。SFは、適用される法律や規制に違反してこれらのアプリケーションを展開することを奨励、誘導、または承認しません。SFは、適用される法律や規制に違反してこれらのアプリケーション（Solanaブロックチェーンプロトコルを構成するコードを含む）の展開、統合、または使用を奨励、誘導、または承認せず、これらの展開、統合、または使用を禁止します。これには、読者が（a）米国またはその他の適用される管轄区域の輸出管理または制裁法に違反して、（b）読者が米国財務省外国資産管理局（OFAC）によって管理される包括的制裁の対象となる国または地域に所在するか、通常居住している場合、（c）読者が特別指定国民（SDN）であるか、同様のブロックまたは禁止された当事者の禁止の対象となる人物である場合、または（d）商品取引法に違反している場合が含まれます。",
+      "description-line-1": "Nara Solana NFT Showdownは、プロジェクトのビジネスセンス、ユーザー中心のプロダクト思考、クリエイティブな方向性とストーリー性、Solana技術の革新的な活用法、そして実世界への応用が、法的実現性は考慮せずに審査員が評価するコンペティションです。ただし、全ての参加者は、NFT Showdownに関連するプロジェクトにおいて、適用される法規制を遵守しなければなりません。",
+      "description-line-2": "Nara Solana Foundation（「SF」）が提供する開発者リソースは、教育およびインスピレーションの目的でのみ使用されます。SFは、適用される法律や規制に違反してこれらのアプリケーションを展開することを奨励、誘導、または承認しません。SFは、適用される法律や規制に違反してこれらのアプリケーション（Solanaブロックチェーンプロトコルを構成するコードを含む）の展開、統合、または使用を奨励、誘導、または承認せず、これらの展開、統合、または使用を禁止します。これには、読者が（a）米国またはその他の適用される管轄区域の輸出管理または制裁法に違反して、（b）読者が米国財務省外国資産管理局（OFAC）によって管理される包括的制裁の対象となる国または地域に所在するか、通常居住している場合、（c）読者が特別指定国民（SDN）であるか、同様のブロックまたは禁止された当事者の禁止の対象となる人物である場合、または（d）商品取引法に違反している場合が含まれます。",
       "read-more-button": "もっと読む...",
       "read-less-button": "少なく読む..."
     }
@@ -1429,14 +1429,14 @@
       "payment": {
         "controlText": "並列トランザクション",
         "title": "グローバル決済を促進する",
-        "description1": "Solanaの高スループットと低料金により、大規模な<paymentsLink>分散型決済</paymentsLink>の実現が可能になります。また<solanapayLink>Solana Pay</solanapayLink>を使用すると、開発者はウォールストリートのような高速な決済機能をアプリに統合するためのツールキットを手に入れることができ、最も必要なときに監査可能性と機密性を提供します。今やあなたのプロジェクトやビジネスは、従来の決済ネットワークと同じ速度でブロックチェーンの力を活用し、仲介者なしで即時決済を実現できます。",
+        "description1": "Solanaの高スループットと低料金により、大規模な<paymentsLink>分散型決済</paymentsLink>の実現が可能になります。また<solanapayLink>Nara Solana Pay</solanapayLink>を使用すると、開発者はウォールストリートのような高速な決済機能をアプリに統合するためのツールキットを手に入れることができ、最も必要なときに監査可能性と機密性を提供します。今やあなたのプロジェクトやビジネスは、従来の決済ネットワークと同じ速度でブロックチェーンの力を活用し、仲介者なしで即時決済を実現できます。",
         "description2": "Solanaを使用すると、ビルダーはオンラインと店舗での決済において低コストで即時決済を実現するブロックチェーン技術を基盤とした次世代の商取引決済システムを構築することができます。オンチェーン報酬やロイヤリティプログラムで顧客へのインセンティブ付与の新たな方法を見出し、仲介者を必要とせずに顧客と直接取引することができます。"
       },
       "web3": {
         "controlText": "超高速コンセンサス",
         "title": "ポケットの中のWeb3",
-        "description1": "<solanaMobileLink>Solana Mobile</solanaMobileLink>を使用すると、ポケットの中のWeb3がついに実現します。世界クラスの暗号電話、モバイルdAppストア、モバイルスタックを組み合わせ、高速で安全なブロックチェーン技術に支えられた無限の可能性が広がります。",
-        "description2": "Solana MobileのSagaは、Web3の新しいモバイル時代の幕を開きます。スマートフォンに期待される高品質なハードウェアを備えているだけでなく、独自のdAppストアを備えており、お気に入りのDeFiプロトコル、NFTマーケットプレイス、Web3アプリに外出先からアクセスできます。さらに、端末のセキュアなSeed Vaultにより、指紋認証だけでお気に入りのウォレットでの安全な取引、プライベートキーの保護、トランザクションの署名が可能です。"
+        "description1": "<solanaMobileLink>Nara Solana Mobile</solanaMobileLink>を使用すると、ポケットの中のWeb3がついに実現します。世界クラスの暗号電話、モバイルdAppストア、モバイルスタックを組み合わせ、高速で安全なブロックチェーン技術に支えられた無限の可能性が広がります。",
+        "description2": "Nara Solana MobileのSagaは、Web3の新しいモバイル時代の幕を開きます。スマートフォンに期待される高品質なハードウェアを備えているだけでなく、独自のdAppストアを備えており、お気に入りのDeFiプロトコル、NFTマーケットプレイス、Web3アプリに外出先からアクセスできます。さらに、端末のセキュアなSeed Vaultにより、指紋認証だけでお気に入りのウォレットでの安全な取引、プライベートキーの保護、トランザクションの署名が可能です。"
       },
       "solanaMobile": {
         "controlText": "モバイル対応"
@@ -1914,19 +1914,19 @@
       },
       "utaustin": {
         "title": "Solana大学ワークショップ",
-        "description": "Solana FoundationとOne Piece Labの大学ツアーがUTオースティンのブロックチェーンクラブを訪問"
+        "description": "Nara Solana FoundationとOne Piece Labの大学ツアーがUTオースティンのブロックチェーンクラブを訪問"
       },
       "columbia": {
         "title": "Solana大学ワークショップ",
-        "description": "Solana FoundationとOne Piece Labの大学ツアーがコロンビア大学のブロックチェーンクラブを訪問"
+        "description": "Nara Solana FoundationとOne Piece Labの大学ツアーがコロンビア大学のブロックチェーンクラブを訪問"
       },
       "nyu": {
         "title": "Solana大学ワークショップ",
-        "description": "Solana FoundationとOne Piece Labの大学ツアーがNYUのブロックチェーンクラブを訪問"
+        "description": "Nara Solana FoundationとOne Piece Labの大学ツアーがNYUのブロックチェーンクラブを訪問"
       },
       "workshop": {
         "title": "Solana大学ワークショップ",
-        "description": "Solana FoundationとOne Piece Labの大学ツアーがパートナー大学を訪問"
+        "description": "Nara Solana FoundationとOne Piece Labの大学ツアーがパートナー大学を訪問"
       }
     },
     "hostEventInquiry": {
@@ -2020,7 +2020,7 @@
             "category": "コード例"
           },
           "playground": {
-            "title": "Solana Playground",
+            "title": "Nara Solana Playground",
             "description": "セットアップなしでブラウザから直接Solanaプログラムを書き、デプロイし、テストできます。チュートリアル、例、完全なIDE機能が含まれており、すぐに構築を始められます。",
             "category": "オンラインIDE"
           },
@@ -2172,7 +2172,7 @@
         },
         {
           "title": "インターネット資本市場",
-          "description": "アクシャイ・BD、Solana Foundation nCMO",
+          "description": "アクシャイ・BD、Nara Solana Foundation nCMO",
           "alt": "インターネット資本市場の動画サムネイル"
         },
         {
@@ -2716,7 +2716,7 @@
     "hero": {
       "title": "NASDAQの速度で\nオープンな市場を。",
       "subtitle": "最速、最も流動性が高く、最も効率的なDeFiエコシステム。新しいオープンな金融システムで取引、貸付、利回りを獲得しましょう。",
-      "reportEyebrow": "Solana DeFiレポート2025",
+      "reportEyebrow": "Nara Solana DeFiレポート2025",
       "reportDescription": "なぜSolanaが世界で最も急成長するDeFi市場の基盤となっているかを発見しましょう",
       "emailCta": "レポートにアクセス",
       "stats": {
@@ -2739,7 +2739,7 @@
       }
     },
     "features": {
-      "title": "<light>Solana DeFiとは</light>何か？",
+      "title": "<light>Nara Solana DeFiとは</light>何か？",
       "description": "Solanaの高速で低コストなインフラストラクチャは、暗号資産業界で最も効率的なDeFiエコシステムを生み出しました。ユーザーは機関投資家グレードのパフォーマンスで取引、貸付、借入、イールドファーミングを行いながら、何百ものプロトコルにわたって資産の完全な管理権を維持できます。"
     },
     "projects": {
@@ -2796,9 +2796,9 @@
       "subtitle": "グローバル市場を変革するパイオニアたちの声と、彼らがSolanaを選んだ理由をお聞きください。",
       "videos": [
         {
-          "title": "Solana DeFiの現状",
+          "title": "Nara Solana DeFiの現状",
           "description": "Kyle Samani (Multicoin), Chris Heaney (Drift)",
-          "alt": "Solana DeFiの現状 動画サムネイル"
+          "alt": "Nara Solana DeFiの現状 動画サムネイル"
         },
         {
           "title": "信用市場の再構築",
@@ -2818,7 +2818,7 @@
       ]
     },
     "cta": {
-      "reportTitle": "Solana DeFiレポート2025を入手する",
+      "reportTitle": "Nara Solana DeFiレポート2025を入手する",
       "reportDescription": "なぜSolanaが世界で最も急成長するDeFi市場の基盤となっているのかをご覧ください",
       "downloadReport": "レポートにアクセス"
     }
@@ -2960,7 +2960,7 @@
       "subtitle": "Solana上でオープンインテリジェンスの未来を構築しましょう。エージェントを開発し、計算リソースを見つけ、即時取引を行い、データを調達 - すべてSolanaのスケールで。",
       "reportEyebrow": "ミームコインレポート2025",
       "reportDescription": "市場リーダーがどのようにSolanaを活用して資本市場をオンチェーン化しているかを学びましょう。",
-      "extraCta": "Solana AIを探索する"
+      "extraCta": "Nara Solana AIを探索する"
     },
     "features": {
       "title": "なぜSolana上のAIなのか？",
@@ -3001,7 +3001,7 @@
     },
     "products": {
       "0": {
-        "title": "Solana MCP",
+        "title": "Nara Solana MCP",
         "description": "IDEでリモートSolana開発者MCPをセットアップ"
       },
       "1": {
@@ -3094,7 +3094,7 @@
         "description": "科学的知的財産をトークン化して取引"
       },
       "2": {
-        "title": "Solana agent kit",
+        "title": "Nara Solana agent kit",
         "description": "あらゆるBioAgentをSolanaコアプロトコルに接続"
       },
       "title": "DeSciツールキット",
@@ -3142,7 +3142,7 @@
       },
       "communitySection": {
         "title": "成長するエコシステム",
-        "content": "x402コミュニティは、クライアントSDKから決済ファシリテーターまで、あらゆるものを構築する40以上のパートナーに広がっています。Cloudflare、AWS、Anthropicなどの主要プラットフォームがx402をサポートし、エコシステムの8億600万ドルの時価総額は実際の採用を反映しています。開発者はAIモデルをx402サービスに接続するMCPサーバーを作成し、エージェントマーケットプレイス用の決済インフラを構築し、統合を容易にするツールを立ち上げています。Base、Solana、Polygon、NEARにわたるアクティブな参加により、x402はインターネット決済の標準になりつつあります。"
+        "content": "x402コミュニティは、クライアントSDKから決済ファシリテーターまで、あらゆるものを構築する40以上のパートナーに広がっています。Cloudflare、AWS、Anthropicなどの主要プラットフォームがx402をサポートし、エコシステムの8億600万ドルの時価総額は実際の採用を反映しています。開発者はAIモデルをx402サービスに接続するMCPサーバーを作成し、エージェントマーケットプレイス用の決済インフラを構築し、統合を容易にするツールを立ち上げています。Base、Nara Solana、Polygon、NEARにわたるアクティブな参加により、x402はインターネット決済の標準になりつつあります。"
       },
       "useCases": {
         "title": "実世界のユースケース",
@@ -3227,10 +3227,10 @@
       "description": "x402向けのターンキーSolana製品を探索。"
     },
     "hackathon": {
-      "title": "Solana X402ハッカソン",
+      "title": "Nara Solana X402ハッカソン",
       "description": "インターネット決済の最前線でハッキングを行う開発者たちに参加し、最大$135,000の賞金を競い合おう",
       "hero": {
-        "title": "Solana X402ハッカソン",
+        "title": "Nara Solana X402ハッカソン",
         "subtitle": "インターネット決済の最前線でハッキングを行う開発者たちに参加し、最大$135,000の賞金を競い合おう",
         "registerButton": "登録",
         "resourcesButton": "リソース"
@@ -3395,7 +3395,7 @@
             "sponsor": "Alsa",
             "logo": "/img/sponsors/alsa.svg",
             "title": "最高のAgentPayデモ",
-            "description": "Solana USDC + HTTP-402マイクロペイメントを通じて、API、LLMトークン、またはデータに自律的に支払うAIエージェントまたはサービスを作成する",
+            "description": "Nara Solana USDC + HTTP-402マイクロペイメントを通じて、API、LLMトークン、またはデータに自律的に支払うAIエージェントまたはサービスを作成する",
             "prizeAmount": "$5,000"
           }
         ]

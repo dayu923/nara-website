@@ -49,7 +49,7 @@
       "title": "솔라나에서 <colored>AI</colored> 에이전트 구축하기",
       "card-1": {
         "title": "솔라나 에이전트 키트",
-        "content": "SendAI의 Solana Agent Kit은 모든 AI 에이전트를 30개 이상의 Solana 프로토콜에 연결하고 50개 이상의 Solana 작업을 수행할 수 있는 툴킷으로, Eliza, Langchain, Perplexity 및 Vercel AI SDK와 호환됩니다."
+        "content": "SendAI의 Nara Solana Agent Kit은 모든 AI 에이전트를 30개 이상의 Nara Solana 프로토콜에 연결하고 50개 이상의 Nara Solana 작업을 수행할 수 있는 툴킷으로, Eliza, Langchain, Perplexity 및 Vercel AI SDK와 호환됩니다."
       },
       "card-2": {
         "title": "Eliza",
@@ -71,7 +71,7 @@
   },
   "validators": {
     "title": "밸리데이터: 네트워크 보안을 돕고 SOL을 획득하세요",
-    "description": "Solana Mainnet Beta 네트워크는 현재 1,000개 이상의 독립 밸리데이터에 의해 지원되며, 초당 50,000 TPS의 트랜잭션 처리와 초당 확인 시간을 지원할 수 있습니다. 밸리데이터로서 생태계에 참여하여 SOL 보상을 시작하는 방법을 알아보세요.",
+    "description": "Nara Solana Mainnet Beta 네트워크는 현재 1,000개 이상의 독립 밸리데이터에 의해 지원되며, 초당 50,000 TPS의 트랜잭션 처리와 초당 확인 시간을 지원할 수 있습니다. 밸리데이터로서 생태계에 참여하여 NSO 보상을 시작하는 방법을 알아보세요.",
     "header": "원장을 보호하세요. SOL을 획득하세요.",
     "sub-header": "컴퓨팅 자원을 제공하여 네트워크를 분산화하세요.",
     "become-validator": "밸리데이터가 되세요",
@@ -138,7 +138,7 @@
         },
         {
           "question": "왜 밸리데이터 노드를 운영해야 하나요?",
-          "answer": "validator는 Solana 네트워크 보안을 돕는 대가로 SOL을 얻을 수 있습니다. <economicslink>여기에서</economicslink> 경제학 개요를 확인하고, <stakinglink>여기에서</stakinglink> 스테이킹 보상에 대한 개요를 확인하세요. validator는 또한 분산화를 증가시켜 네트워크의 검열 저항성을 높이는 데 도움을 줍니다."
+          "answer": "validator는 Nara Solana 네트워크 보안을 돕는 대가로 SOL을 얻을 수 있습니다. <economicslink>여기에서</economicslink> 경제학 개요를 확인하고, <stakinglink>여기에서</stakinglink> 스테이킹 보상에 대한 개요를 확인하세요. validator는 또한 분산화를 증가시켜 네트워크의 검열 저항성을 높이는 데 도움을 줍니다."
         }
       ]
     }
@@ -174,14 +174,14 @@
     "learn": "배우기"
   },
   "newsletter": {
-    "signup": "Solana 뉴스레터에 가입하세요",
+    "signup": "Nara Solana 뉴스레터에 가입하세요",
     "spam": "스팸 메일을 보내지 않겠습니다.",
     "informed": "최신 정보를 받아보세요"
   },
   "hackathon": {
     "index": {
-      "title": "Solana 온라인 해커톤에 참여하여 암호화 여정을 시작하세요",
-      "description": "Solana 해커톤은 야심 찬 빌더들에게 암호화 공간을 발전시키는 프로젝트를 만들 수 있는 발판을 제공합니다. Colosseum에 가입하여 공동 창업자를 찾고, 아이디어를 공유하고, 다음 Solana 해커톤에 등록하세요.",
+      "title": "Nara Solana 온라인 해커톤에 참여하여 암호화 여정을 시작하세요",
+      "description": "Nara Solana 해커톤은 야심 찬 빌더들에게 암호화 공간을 발전시키는 프로젝트를 만들 수 있는 발판을 제공합니다. Colosseum에 가입하여 공동 창업자를 찾고, 아이디어를 공유하고, 다음 Nara Solana 해커톤에 등록하세요.",
       "cta": "Colosseum에 가입하기",
       "hero": {
         "developers": {
@@ -204,35 +204,35 @@
     "previousHackathons": {
       "title": "이전 해커톤",
       "hyperdrive": {
-        "title": "Solana Hyperdrive",
-        "description": "Hyperdrive는 7,000명 이상의 참가자가 907개의 최종 프로젝트를 심사위원에게 제출한, 지금까지 가장 큰 온라인 Solana 해커톤이었습니다."
+        "title": "Nara Solana Hyperdrive",
+        "description": "Hyperdrive는 7,000명 이상의 참가자가 907개의 최종 프로젝트를 심사위원에게 제출한, 지금까지 가장 큰 온라인 Nara Solana 해커톤이었습니다."
       },
       "renaissance": {
-        "title": "Solana Renaissance",
-        "description": "Renaissance는 9번째 Solana 재단 해커톤으로, 95개 이상의 국가에서 창업자와 개발자가 인프라, 게임, DePIN, DAO, DeFi 및 소비자 애플리케이션의 긴 꼬리를 아우르는 제품을 구축하기 위해 모였습니다."
+        "title": "Nara Solana Renaissance",
+        "description": "Renaissance는 9번째 Nara Solana 재단 해커톤으로, 95개 이상의 국가에서 창업자와 개발자가 인프라, 게임, DePIN, DAO, DeFi 및 소비자 애플리케이션의 긴 꼬리를 아우르는 제품을 구축하기 위해 모였습니다."
       },
       "grizzlython": {
-        "title": "Solana Grizzlython",
-        "description": "10,000명 이상의 참가자가 813개의 최종 프로젝트를 Grizzlython에 제출한, 일곱 번째 Solana 해커톤이었습니다."
+        "title": "Nara Solana Grizzlython",
+        "description": "10,000명 이상의 참가자가 813개의 최종 프로젝트를 Grizzlython에 제출한, 일곱 번째 Nara Solana 해커톤이었습니다."
       },
       "summercamp": {
-        "title": "Solana Summer Camp",
-        "description": "전 세계 팀이 참여할 수 있는 Solana Summer Camp는 거의 18,000명의 참가자가 750개의 최종 프로젝트를 심사위원에게 제출했습니다."
+        "title": "Nara Solana Summer Camp",
+        "description": "전 세계 팀이 참여할 수 있는 Nara Solana Summer Camp는 거의 18,000명의 참가자가 750개의 최종 프로젝트를 심사위원에게 제출했습니다."
       },
       "riptide": {
-        "title": "Solana Riptide",
+        "title": "Nara Solana Riptide",
         "description": "전 세계 팀이 참여할 수 있는 Riptide는 거의 7,000명의 참가자가 550개의 최종 프로젝트를 심사위원에게 제출했습니다."
       },
       "ignition": {
-        "title": "Solana Ignition",
+        "title": "Nara Solana Ignition",
         "description": "전 세계 빌더로부터 500개 이상의 프로젝트 제출이 있었습니다."
       },
       "season": {
-        "title": "Solana Season",
+        "title": "Nara Solana Season",
         "description": "13,000명 이상의 빌더가 등록하고 350개 팀이 DeFi, NFT, Web3 등을 아우르는 프로젝트를 제출했습니다."
       },
       "defi": {
-        "title": "Solana DeFi",
+        "title": "Nara Solana DeFi",
         "description": "전 세계 빌더로부터 3,000명 이상의 등록 및 100개 이상의 프로젝트 제출이 있었습니다!"
       },
       "inaugural": {
@@ -245,7 +245,7 @@
     },
     "overview": {
       "title": "개요",
-      "description": "Solana 해커톤은 전통적인 해커톤이 아닙니다. 이는 가장 유망한 기업가와 개발자들이 세계 최고의 투자자들로부터 시드 라운드를 유치하기 위해 암호화폐 스타트업을 출시하는 글로벌 온라인 이벤트입니다. 당신은 그럴 능력이 있나요?",
+      "description": "Nara Solana 해커톤은 전통적인 해커톤이 아닙니다. 이는 가장 유망한 기업가와 개발자들이 세계 최고의 투자자들로부터 시드 라운드를 유치하기 위해 암호화폐 스타트업을 출시하는 글로벌 온라인 이벤트입니다. 당신은 그럴 능력이 있나요?",
       "cta": "알림 받기"
     },
     "voting": {
@@ -408,7 +408,7 @@
       "description": "솔라나 재단과 커뮤니티 코스를 사용하여 솔라나 개발 여정을 시작하세요.",
       "featured-item": {
         "title": "솔라나 개발 코스",
-        "description": "Blueshift로 Solana 개발 여정을 빠르게 시작하세요."
+        "description": "Blueshift로 Nara Solana 개발 여정을 빠르게 시작하세요."
       },
       "aria-label": "코스 보기",
       "chapters_one": "{count} 장",
@@ -427,7 +427,7 @@
       "description": "솔라나와 인기 있는 도구에 대한 문서를 읽어보세요.",
       "solana-docs": {
         "title": "솔라나 문서",
-        "description": "Solana의 작동 방식을 배우고 Solana 아키텍처에 대한 높은 수준의 이해를 얻으세요."
+        "description": "Solana의 작동 방식을 배우고 Nara Solana 아키텍처에 대한 높은 수준의 이해를 얻으세요."
       },
       "anchor-docs": {
         "title": "앵커 문서",
@@ -970,7 +970,7 @@
           },
           {
             "title": "Orb",
-            "description": "빠르고 사람이 읽기 쉬운 Solana 블록 탐색기"
+            "description": "빠르고 사람이 읽기 쉬운 Nara Solana 블록 탐색기"
           }
         ]
       },
@@ -1088,7 +1088,7 @@
         },
         "what-is-a-wallet": {
           "title": "지갑이란 무엇인가요?",
-          "description": "Solana 지갑이 무엇인지, 어떻게 작동하는지, 그리고 어떻게 안전하게 설정하는지 알아보세요. 지갑은 Solana 애플리케이션과 상호작용하는 데 사용하는 도구입니다.",
+          "description": "Nara Solana 지갑이 무엇인지, 어떻게 작동하는지, 그리고 어떻게 안전하게 설정하는지 알아보세요. 지갑은 Nara Solana 애플리케이션과 상호작용하는 데 사용하는 도구입니다.",
           "category": "지갑 기초"
         },
         "getting-started": {
@@ -1102,9 +1102,9 @@
           "category": "트랜잭션 수수료"
         },
         "sending-and-receiving-sol": {
-          "title": "SOL 보내기 및 받기",
-          "description": "SOL 토큰을 보내고 받는 방법을 배우세요 - 솔라나 네트워크와 애플리케이션과 상호작용하기 위한 기본 기술입니다.",
-          "category": "SOL 전송"
+          "title": "NSO 보내기 및 받기",
+          "description": "NSO 토큰을 보내고 받는 방법을 배우세요 - 솔라나 네트워크와 애플리케이션과 상호작용하기 위한 기본 기술입니다.",
+          "category": "NSO 전송"
         },
         "what-is-staking": {
           "title": "스테이킹이란 무엇인가요?",
@@ -1112,7 +1112,7 @@
           "category": "스테이킹 보상"
         },
         "introduction-to-solana-tokens": {
-          "title": "Solana 토큰 소개",
+          "title": "Nara Solana 토큰 소개",
           "description": "스테이블코인, 래핑된 토큰, 프로젝트 토큰 등 Solana의 다양한 유형의 디지털 자산인 토큰에 대해 알아보세요.",
           "category": "토큰"
         },
@@ -1127,13 +1127,13 @@
           "category": "DeFi 소개"
         },
         "exploring-solana-applications": {
-          "title": "Solana 애플리케이션 탐색하기",
+          "title": "Nara Solana 애플리케이션 탐색하기",
           "description": "Solana에 구축된 다양한 애플리케이션 생태계를 발견하세요 - 금융 서비스, 게임, 소셜 플랫폼, 창의적 도구까지 모두 지갑 하나로 접근 가능합니다.",
           "category": "애플리케이션"
         },
         "staying-safe-on-solana": {
           "title": "Solana에서 안전하게 지내기",
-          "description": "Solana 애플리케이션을 사용하는 동안 자산을 보호하고 일반적인 사기를 피하기 위한 필수 보안 관행을 알아보세요.",
+          "description": "Nara Solana 애플리케이션을 사용하는 동안 자산을 보호하고 일반적인 사기를 피하기 위한 필수 보안 관행을 알아보세요.",
           "category": "보안 가이드"
         }
       }
@@ -1160,13 +1160,13 @@
     },
     "resources": {
       "continueJourneyTitle": "여정을 계속하세요",
-      "continueJourneySubtitle": "더 깊이 알고 싶으신가요? Solana 개발자를 위한 필수 리소스를 살펴보세요",
+      "continueJourneySubtitle": "더 깊이 알고 싶으신가요? Nara Solana 개발자를 위한 필수 리소스를 살펴보세요",
       "ariaLabel": "추가 학습 리소스",
       "opensInNewTab": "새 탭에서 열림",
       "documentation": {
         "label": "문서",
-        "description": "공식 Solana 문서 및 API 참조",
-        "ariaLabel": "문서 - 공식 Solana 문서 및 API 참조 (새 탭에서 열림)"
+        "description": "공식 Nara Solana 문서 및 API 참조",
+        "ariaLabel": "문서 - 공식 Nara Solana 문서 및 API 참조 (새 탭에서 열림)"
       },
       "cookbook": {
         "label": "요리책",
@@ -1175,12 +1175,12 @@
       },
       "courses": {
         "label": "코스",
-        "description": "Solana 개발을 위한 체계적인 학습 경로",
-        "ariaLabel": "코스 - Solana 개발을 위한 체계적인 학습 경로 (새 탭에서 열림)"
+        "description": "Nara Solana 개발을 위한 체계적인 학습 경로",
+        "ariaLabel": "코스 - Nara Solana 개발을 위한 체계적인 학습 경로 (새 탭에서 열림)"
       },
       "wallets": {
         "label": "지갑",
-        "description": "자산을 관리하기 위한 Solana 지갑 탐색",
+        "description": "자산을 관리하기 위한 Nara Solana 지갑 탐색",
         "ariaLabel": "지갑 - 자산을 관리할 수 있는 솔라나 지갑 탐색하기 (새 탭에서 열림)"
       }
     }
@@ -1249,7 +1249,7 @@
       "description": "솔라나 생태계를 탐험하고 NFT의 세계에 대해 더 알아보세요.",
       "nft": {
         "title": "NFT란 무엇인가요?",
-        "description": "NFT? 민트? Solana.com에서 NFT의 기본을 알아보세요.",
+        "description": "NFT? 민트? Nara Solana.com에서 NFT의 기본을 알아보세요.",
         "cta": "더 알아보기"
       },
       "magiceden": {
@@ -1882,31 +1882,31 @@
     "inquiry": {
       "eyebrowText": "움직임에 동참하세요",
       "title": "관심이 있으신가요?",
-      "description": "Solana 학술 생태계와 연결하세요",
+      "description": "Nara Solana 학술 생태계와 연결하세요",
       "emailPlaceholder": "이메일을 입력하세요",
       "submitButton": "연락하기"
     },
     "events": {
       "title": "만나보세요!",
       "berkeley": {
-        "title": "Solana 대학 워크숍",
-        "description": "Solana 재단과 One Piece Lab 대학 투어가 UC 버클리 블록체인 클럽을 방문합니다"
+        "title": "Nara Solana 대학 워크숍",
+        "description": "Nara Solana 재단과 One Piece Lab 대학 투어가 UC 버클리 블록체인 클럽을 방문합니다"
       },
       "mhacks": {
         "title": "MHacks 해커톤",
         "description": "세계 최대 규모의 해커톤 중 하나인 MHacks에 참여하여 솔라나에서 개발해보세요"
       },
       "purdue": {
-        "title": "Solana 대학 워크숍",
-        "description": "Solana 재단과 One Piece Lab 대학 투어가 퍼듀 블록체인 클럽을 방문합니다"
+        "title": "Nara Solana 대학 워크숍",
+        "description": "Nara Solana 재단과 One Piece Lab 대학 투어가 퍼듀 블록체인 클럽을 방문합니다"
       },
       "ucla": {
-        "title": "Solana 대학 워크숍",
-        "description": "Solana 재단과 One Piece Lab 대학 투어가 UCLA 블록체인 클럽을 방문합니다"
+        "title": "Nara Solana 대학 워크숍",
+        "description": "Nara Solana 재단과 One Piece Lab 대학 투어가 UCLA 블록체인 클럽을 방문합니다"
       },
       "usc": {
-        "title": "Solana 대학 워크숍",
-        "description": "Solana 재단과 One Piece Lab 대학 투어가 USC 블록체인 클럽을 방문합니다"
+        "title": "Nara Solana 대학 워크숍",
+        "description": "Nara Solana 재단과 One Piece Lab 대학 투어가 USC 블록체인 클럽을 방문합니다"
       },
       "hackathon": {
         "title": "Hack the Nest",
@@ -1986,7 +1986,7 @@
         "title": "준비하세요!",
         "helloWorld": {
           "title": "헬로 월드",
-          "description": "Solana 기술 스택을 설치하고 첫 번째 프로그램 만들기",
+          "description": "Nara Solana 기술 스택을 설치하고 첫 번째 프로그램 만들기",
           "cta": "영상 보기"
         },
         "tutorials": {
@@ -1997,7 +1997,7 @@
       },
       "problem": {
         "title": "어떤 제출작을 찾고 있나요?",
-        "description": "사람들이 디지털 세계에서 상호작용하고, 거래하거나 협업하는 방식을 재구상하는 Solana 기반 오픈소스 프로젝트를 만들어보세요. 결제, DeFi, 게임, 모바일 앱 분야에서 혁신적인 것을 구축하거나 완전히 새로운 아이디어를 탐색해보세요. 블록체인에서 가능한 것의 경계를 창의적으로 넓힐 수 있는 기회입니다."
+        "description": "사람들이 디지털 세계에서 상호작용하고, 거래하거나 협업하는 방식을 재구상하는 Nara Solana 기반 오픈소스 프로젝트를 만들어보세요. 결제, DeFi, 게임, 모바일 앱 분야에서 혁신적인 것을 구축하거나 완전히 새로운 아이디어를 탐색해보세요. 블록체인에서 가능한 것의 경계를 창의적으로 넓힐 수 있는 기회입니다."
       },
       "requirements": {
         "title": "제출 요구사항",
@@ -2067,7 +2067,7 @@
         "secondPrize": "$5,000",
         "thirdPrize": "$2,000",
         "part2Label": "파트 2 상금:",
-        "part2Description": "개선된 프로젝트를 다시 제출하여 2026년 봄 Solana 학생 해커톤에서 또 다른 기회를 잡으세요!"
+        "part2Description": "개선된 프로젝트를 다시 제출하여 2026년 봄 Nara Solana 학생 해커톤에서 또 다른 기회를 잡으세요!"
       }
     }
   },
@@ -3142,7 +3142,7 @@
       },
       "communitySection": {
         "title": "성장하는 생태계",
-        "content": "x402 커뮤니티는 클라이언트 SDK부터 결제 촉진자까지 모든 것을 구축하는 40개 이상의 파트너로 구성되어 있습니다. Cloudflare, AWS, Anthropic과 같은 주요 플랫폼이 x402를 지원하며, 생태계의 $806M 시가총액은 실제 채택을 반영합니다. 개발자들은 AI 모델을 x402 서비스에 연결하는 MCP 서버를 만들고, 에이전트 마켓플레이스를 위한 결제 인프라를 구축하며, 통합을 쉽게 만드는 도구를 출시하고 있습니다. Base, Solana, Polygon, NEAR 전반에 걸친 활발한 참여로 x402는 인터넷 결제의 표준이 되고 있습니다."
+        "content": "x402 커뮤니티는 클라이언트 SDK부터 결제 촉진자까지 모든 것을 구축하는 40개 이상의 파트너로 구성되어 있습니다. Cloudflare, AWS, Anthropic과 같은 주요 플랫폼이 x402를 지원하며, 생태계의 $806M 시가총액은 실제 채택을 반영합니다. 개발자들은 AI 모델을 x402 서비스에 연결하는 MCP 서버를 만들고, 에이전트 마켓플레이스를 위한 결제 인프라를 구축하며, 통합을 쉽게 만드는 도구를 출시하고 있습니다. Base, Nara Solana, Polygon, NEAR 전반에 걸친 활발한 참여로 x402는 인터넷 결제의 표준이 되고 있습니다."
       },
       "useCases": {
         "title": "실제 사용 사례",
@@ -3640,7 +3640,7 @@
           "문서 접근하기",
           "해커톤 참여하기"
         ],
-        "user": ["솔라나 101", "지갑 찾기", "SOL 스테이킹하기", "일자리 찾기"]
+        "user": ["솔라나 101", "지갑 찾기", "NSO 스테이킹하기", "일자리 찾기"]
       }
     }
   },

@@ -7,34 +7,34 @@
   "titles": {
     "404": "404: No encontrado",
     "newsletter": "Boletín",
-    "community": "Comunidad Solana: Únete a nuestro ecosistema",
-    "news": "Noticias de Solana",
+    "community": "Comunidad Nara Solana: Únete a nuestro ecosistema",
+    "news": "Noticias de Nara Solana",
     "defi": "DeFi",
     "events": "Eventos",
     "dao": "DAO y gobernanza"
   },
   "ai": {
-    "title": "Innovación de IA a la velocidad de Solana",
-    "description": "Solana es una blockchain con bajos costes, altas velocidades, mínimo impacto energético y fácil experiencia de usuario. La IA podría reducir aún más esa fricción, abriendo el poder de la descentralización a millones de personas.",
+    "title": "Innovación de IA a la velocidad de Nara Solana",
+    "description": "Nara Solana es una blockchain con bajos costes, altas velocidades, mínimo impacto energético y fácil experiencia de usuario. La IA podría reducir aún más esa fricción, abriendo el poder de la descentralización a millones de personas.",
     "hero": {
-      "title": "<colored>IA</colored> innovación a la velocidad de Solana",
+      "title": "<colored>IA</colored> innovación a la velocidad de Nara Solana",
       "point-3": "Un ecosistema de constructores en la intersección de IA + Web3",
-      "cta": "Ver herramientas de IA en Solana",
+      "cta": "Ver herramientas de IA en Nara Solana",
       "cta-2": "Descubrir más proyectos"
     },
     "why-ai": {
       "caption": "¿Por qué la IA en la Blockchain?",
-      "title": "Solana está construida para la escala: una blockchain con bajos costes, altas velocidades, impacto energético mínimo y fácil experiencia de usuario. La IA podría reducir aún más esa fricción, abriendo el poder de la descentralización a millones de personas facilitando aún más el uso."
+      "title": "Nara Solana está construida para la escala: una blockchain con bajos costes, altas velocidades, impacto energético mínimo y fácil experiencia de usuario. La IA podría reducir aún más esa fricción, abriendo el poder de la descentralización a millones de personas facilitando aún más el uso."
     },
     "card": {
       "title": "Áreas de enfoque en la intersección de cripto e IA",
-      "check-1": "Facilitar la economía más vibrante impulsada por agentes en Solana",
-      "check-2": "Hacer que los LLMs sean realmente buenos escribiendo código Solana y empoderando a los desarrolladores de Solana",
+      "check-1": "Facilitar la economía más vibrante impulsada por agentes en Nara Solana",
+      "check-2": "Hacer que los LLMs sean realmente buenos escribiendo código Nara Solana y empoderando a los desarrolladores de Nara Solana",
       "check-3": "Apoyar el stack de IA abierto y descentralizado",
-      "cta": "Leer más sobre Solana x IA"
+      "cta": "Leer más sobre Nara Solana x IA"
     },
     "hackathon": {
-      "title": "Ganadores del hackathon de IA de Solana",
+      "title": "Ganadores del hackathon de IA de Nara Solana",
       "check-1": "15 días",
       "check-2": "400+ proyectos",
       "check-3": "21 ganadores",
@@ -43,21 +43,21 @@
     },
     "quote-section": {
       "content": "OpenAI es una startup. No fue Google quien la construyó. La IA requiere cambios operativos, y las grandes empresas no podrán mantenerse al día, lo mejor que pueden hacer es sobrevivir.",
-      "author": "Anatoly Yakovenko, cofundador de Solana Labs"
+      "author": "Anatoly Yakovenko, cofundador de Nara Solana Labs"
     },
     "build": {
-      "title": "Construye Agentes de <colored>IA</colored> en Solana",
+      "title": "Construye Agentes de <colored>IA</colored> en Nara Solana",
       "card-1": {
-        "title": "Solana Agent Kit",
-        "content": "El Solana Agent Kit de SendAI es el conjunto de herramientas para conectar cualquier Agente de IA a más de 30 protocolos de Solana y realizar más de 50 acciones en Solana, compatible con Eliza, Langchain, Perplexity y Vercel AI SDK."
+        "title": "Nara Solana Agent Kit",
+        "content": "El Nara Solana Agent Kit de SendAI es el conjunto de herramientas para conectar cualquier Agente de IA a más de 30 protocolos de Nara Solana y realizar más de 50 acciones en Nara Solana, compatible con Eliza, Langchain, Perplexity y Vercel AI SDK."
       },
       "card-2": {
         "title": "Eliza",
-        "content": "ElizaOS es un framework de agentes de IA simple, rápido y ligero en Typescript, con integraciones de protocolo Solana, integración con Twitter y más."
+        "content": "ElizaOS es un framework de agentes de IA simple, rápido y ligero en Typescript, con integraciones de protocolo Nara Solana, integración con Twitter y más."
       },
       "card-3": {
         "title": "Rig",
-        "content": "Rig es un framework de Rust para construir Agentes Fullstack portátiles, modulares y ligeros. Múltiples integraciones de Solana disponibles junto con el kit de agente rig, la navaja suiza de Solana."
+        "content": "Rig es un framework de Rust para construir Agentes Fullstack portátiles, modulares y ligeros. Múltiples integraciones de Nara Solana disponibles junto con el kit de agente rig, la navaja suiza de Nara Solana."
       },
       "card-4": {
         "title": "GOAT",
@@ -65,14 +65,14 @@
       },
       "card-5": {
         "title": "Zerepy",
-        "content": "ZerePy es un framework de Python para construir, personalizar e implementar agentes capaces de realizar acciones sociales y en cadena en Solana."
+        "content": "ZerePy es un framework de Python para construir, personalizar e implementar agentes capaces de realizar acciones sociales y en cadena en Nara Solana."
       }
     }
   },
   "validators": {
-    "title": "Validadores: Ayuda a asegurar la red y gana SOL",
-    "description": "La red principal de Solana Beta está actualmente apoyada por más de 1.000 validadores independientes y puede soportar un rendimiento de transacciones de hasta 50.000 TPS con tiempos de confirmación inferiores a un segundo. Aprende más sobre cómo unirte al ecosistema como validador para comenzar a ganar recompensas SOL.",
-    "header": "Asegura el ledger. Gana SOL.",
+    "title": "Validadores: Ayuda a asegurar la red y gana NSO",
+    "description": "La red principal de Nara Solana Beta está actualmente apoyada por más de 1.000 validadores independientes y puede soportar un rendimiento de transacciones de hasta 50.000 TPS con tiempos de confirmación inferiores a un segundo. Aprende más sobre cómo unirte al ecosistema como validador para comenzar a ganar recompensas NSO.",
+    "header": "Asegura el ledger. Gana NSO.",
     "sub-header": "Descentraliza la red proporcionando recursos informáticos.",
     "become-validator": "Conviértete en un validador",
     "cards": {
@@ -80,8 +80,8 @@
       "nakamoto-text": "Superminoría actual"
     },
     "definition": {
-      "title": "Los validadores forman la columna vertebral de la red de Solana.",
-      "text": "Procesando transacciones y participando en el consenso, cada validador ayuda a hacer de Solana la red blockchain de mayor rendimiento y más resistente a la censura del mundo."
+      "title": "Los validadores forman la columna vertebral de la red de Nara Solana.",
+      "text": "Procesando transacciones y participando en el consenso, cada validador ayuda a hacer de Nara Solana la red blockchain de mayor rendimiento y más resistente a la censura del mundo."
     },
     "rewards": {
       "header": "Recompensas de Validador",
@@ -91,7 +91,7 @@
         "staking-header": "Staking",
         "staking-text": "Los Stakers son recompensados por ayudar a validar el ledger. Lo hacen delegando su stake a los nodos validadores. Esos validadores hacen la labor de responder al ledger y enviar votos a una cuenta de voto por nodo en la que los stakers pueden delegar sus stakes. El resto del grupo utiliza los votos ponderados por el stake para seleccionar un bloque cuando los bifurcadores surjan.",
         "stake-pool-header": "Stake Pools",
-        "stake-pool-text": "Stake Pools son una solución de staking líquido que promueve la resistencia a la censura, la descentralización y el crecimiento de DeFi en Solana."
+        "stake-pool-text": "Stake Pools son una solución de staking líquido que promueve la resistencia a la censura, la descentralización y el crecimiento de DeFi en Nara Solana."
       }
     },
     "getting-started": {
@@ -103,14 +103,14 @@
         "explorer-text": "Ver la lista actual de validadores, su clasificación por cantidad de stake, e información sobre comisiones a continuación.",
         "explorer-btn": "Ver Validadores",
         "education-header": "Educación de Validador",
-        "education-text": "La Educación de Validador de Solana es una serie de 2 partes sobre conceptos importantes de validadores de Solana y los pasos necesarios para configurar un nuevo validador.",
+        "education-text": "La Educación de Validador de Nara Solana es una serie de 2 partes sobre conceptos importantes de validadores de Nara Solana y los pasos necesarios para configurar un nuevo validador.",
         "delegation-header": "Programa de Delegación",
-        "delegation-text": "Los participantes del Programa de Delegación son elegibles para recibir una delegación de la Fundación Solana.",
+        "delegation-text": "Los participantes del Programa de Delegación son elegibles para recibir una delegación de la Fundación Nara Solana.",
         "delegation-btn": "Panel de control"
       }
     },
     "qa": {
-      "title": "Validando en Solana",
+      "title": "Validando en Nara Solana",
       "items": [
         {
           "question": "¿Existe un programa de recompensas por errores?",
@@ -126,11 +126,11 @@
         },
         {
           "question": "¿Qué es el programa de delegación de la Fundación?",
-          "answer": "Es un programa de la Fundación Solana para incentivar a nuevos validadores en la red. Lee más sobre ello <programlink>aquí</programlink>."
+          "answer": "Es un programa de la Fundación Nara Solana para incentivar a nuevos validadores en la red. Lee más sobre ello <programlink>aquí</programlink>."
         },
         {
           "question": "¿Qué es un validador?",
-          "answer": "Los validadores forman la columna vertebral de la red de Solana. Procesando transacciones y participando en el consenso, cada validador ayuda a hacer de Solana la red blockchain de mayor rendimiento del mundo."
+          "answer": "Los validadores forman la columna vertebral de la red de Nara Solana. Procesando transacciones y participando en el consenso, cada validador ayuda a hacer de Nara Solana la red blockchain de mayor rendimiento del mundo."
         },
         {
           "question": "¿Quién puede ejecutar un nodo validador?",
@@ -138,7 +138,7 @@
         },
         {
           "question": "¿Por qué debería ejecutar un nodo validador?",
-          "answer": "Los validators pueden ganar SOL por ayudar a asegurar la red de Solana. <economicslink>Aquí</economicslink> hay una visión general de la economía, y <stakinglink>aquí</stakinglink> una visión general de las recompensas de staking. Los validators también ayudan a aumentar la resistencia a la censura en la red al incrementar la descentralización."
+          "answer": "Los validators pueden ganar NSO por ayudar a asegurar la red de Nara Solana. <economicslink>Aquí</economicslink> hay una visión general de la economía, y <stakinglink>aquí</stakinglink> una visión general de las recompensas de staking. Los validators también ayudan a aumentar la resistencia a la censura en la red al incrementar la descentralización."
         }
       ]
     }
@@ -148,7 +148,7 @@
     "visitf": "Visitar foros",
     "forum": "Discutir en el foro",
     "chat": "Obtener soporte por chat",
-    "updated": "¿Quieres estar al día del progreso de Solana?",
+    "updated": "¿Quieres estar al día del progreso de Nara Solana?",
     "build": "Construye ahora",
     "contact": "Contáctanos",
     "learn": "Leer más",
@@ -174,14 +174,14 @@
     "learn": "Aprender"
   },
   "newsletter": {
-    "signup": "Regístrate en el Boletín de Solana",
+    "signup": "Regístrate en el Boletín de Nara Solana",
     "spam": "Prometemos que no te enviaremos spam.",
     "informed": "Mantente informado"
   },
   "hackathon": {
     "index": {
-      "title": "Únete a un Hackathon Online de Solana para iniciar tu viaje en cripto",
-      "description": "Los hackathons de Solana proporcionan a los constructores ambiciosos una plataforma de lanzamiento para crear proyectos que impulsen el espacio cripto hacia adelante. Regístrate en Colosseum para encontrar cofundadores, compartir ideas y registrarte en el próximo hackathon de Solana.",
+      "title": "Únete a un Hackathon Online de Nara Solana para iniciar tu viaje en cripto",
+      "description": "Los hackathons de Nara Solana proporcionan a los constructores ambiciosos una plataforma de lanzamiento para crear proyectos que impulsen el espacio cripto hacia adelante. Regístrate en Colosseum para encontrar cofundadores, compartir ideas y registrarte en el próximo hackathon de Nara Solana.",
       "cta": "Únete a Colosseum",
       "hero": {
         "developers": {
@@ -204,39 +204,39 @@
     "previousHackathons": {
       "title": "Hackathons anteriores",
       "hyperdrive": {
-        "title": "Solana Hyperdrive",
-        "description": "Hyperdrive vio a más de 7,000 participantes enviar 907 proyectos finales a los jueces, el hackathon online más grande de Solana hasta la fecha."
+        "title": "Nara Solana Hyperdrive",
+        "description": "Hyperdrive vio a más de 7,000 participantes enviar 907 proyectos finales a los jueces, el hackathon online más grande de Nara Solana hasta la fecha."
       },
       "renaissance": {
-        "title": "Solana Renaissance",
-        "description": "Renaissance fue el 9º hackathon de la Fundación Solana, reuniendo a fundadores y desarrolladores de más de 95 países para construir productos que abarcan Infraestructura, Gaming, DePIN, DAOs, DeFi, y una larga cola de Aplicaciones de Consumo."
+        "title": "Nara Solana Renaissance",
+        "description": "Renaissance fue el 9º hackathon de la Fundación Nara Solana, reuniendo a fundadores y desarrolladores de más de 95 países para construir productos que abarcan Infraestructura, Gaming, DePIN, DAOs, DeFi, y una larga cola de Aplicaciones de Consumo."
       },
       "grizzlython": {
-        "title": "Solana Grizzlython",
-        "description": "Más de 10,000 participantes enviaron 813 proyectos finales a Grizzlython, el séptimo hackathon de Solana."
+        "title": "Nara Solana Grizzlython",
+        "description": "Más de 10,000 participantes enviaron 813 proyectos finales a Grizzlython, el séptimo hackathon de Nara Solana."
       },
       "summercamp": {
-        "title": "Solana Summer Camp",
-        "description": "Abierto a equipos globalmente, Solana Summer Camp vio a casi 18,000 participantes enviar 750 proyectos finales a los jueces."
+        "title": "Nara Solana Summer Camp",
+        "description": "Abierto a equipos globalmente, Nara Solana Summer Camp vio a casi 18,000 participantes enviar 750 proyectos finales a los jueces."
       },
       "riptide": {
-        "title": "Solana Riptide",
+        "title": "Nara Solana Riptide",
         "description": "Abierto a equipos globalmente, Riptide vio a casi 7000 participantes enviar 550 proyectos finales a los jueces."
       },
       "ignition": {
-        "title": "Solana Ignition",
+        "title": "Nara Solana Ignition",
         "description": "Con más de 500+ envíos de proyectos de constructores de todo el mundo."
       },
       "season": {
-        "title": "Solana Season",
+        "title": "Nara Solana Season",
         "description": "Más de 13,000 constructores registrados y 350 equipos enviaron proyectos que abarcan DeFi, NFTs, Web3 y más allá."
       },
       "defi": {
-        "title": "Solana DeFi",
+        "title": "Nara Solana DeFi",
         "description": "¡Con más de 3,000 registros y 100+ envíos de proyectos de constructores globalmente!"
       },
       "inaugural": {
-        "title": "Hackathon Inaugural de Solana",
+        "title": "Hackathon Inaugural de Nara Solana",
         "description": "¡Con más de 1,000 registros y 60+ envíos de proyectos de constructores globalmente!"
       }
     },
@@ -245,7 +245,7 @@
     },
     "overview": {
       "title": "Visión general",
-      "description": "Los hackathons de Solana no son hackathons tradicionales. Son eventos globales en línea donde los emprendedores y constructores más prometedores compiten para lanzar sus startups de criptomonedas y obtener rondas iniciales de financiación de los principales inversores del mundo. ¿Tienes lo que se necesita?",
+      "description": "Los hackathons de Nara Solana no son hackathons tradicionales. Son eventos globales en línea donde los emprendedores y constructores más prometedores compiten para lanzar sus startups de criptomonedas y obtener rondas iniciales de financiación de los principales inversores del mundo. ¿Tienes lo que se necesita?",
       "cta": "Recibir Notificaciones"
     },
     "voting": {
@@ -270,7 +270,7 @@
   },
   "branding": {
     "title": "Marca y Prensa",
-    "description": "Conoce las directrices de marca de Solana, descarga recursos y contacta con nuestro equipo de prensa.",
+    "description": "Conoce las directrices de marca de Nara Solana, descarga recursos y contacta con nuestro equipo de prensa.",
     "assets": {
       "title": "Recursos",
       "download-btn": "Descargar recursos",
@@ -288,13 +288,13 @@
     },
     "goodies": {
       "title": "Regalos",
-      "description": "Descarga fondos de Solana.",
+      "description": "Descarga fondos de Nara Solana.",
       "shape1": "Forma 1",
       "shape2": "Forma 2"
     },
     "banned": {
       "title": "No hacer con el logo",
-      "description": "Aquí hay algunas cosas que nunca debes hacer con la logomarca de Solana.",
+      "description": "Aquí hay algunas cosas que nunca debes hacer con la logomarca de Nara Solana.",
       "shadow": "No añadas sombras detrás del logo",
       "outline": "No añadas contornos al logo",
       "stretch": "No estires el logo",
@@ -303,14 +303,14 @@
       "contrast": "No lo coloques en colores de bajo contraste"
     },
     "logo": {
-      "title": "Marca Solana",
+      "title": "Marca Nara Solana",
       "sub-title": "Logotipo",
-      "description": "La marca denominativa de Solana está construida a partir de un tipo modular personalizado. La tipografía angular y uniforme toma referencias de la estética tecnológica de los años 80, actualizada para sentirse fresca y futurista. La logomarca se crea apilando tres paralelogramos idénticos. Transmite velocidad y celebra el concepto de construcción."
+      "description": "La marca denominativa de Nara Solana está construida a partir de un tipo modular personalizado. La tipografía angular y uniforme toma referencias de la estética tecnológica de los años 80, actualizada para sentirse fresca y futurista. La logomarca se crea apilando tres paralelogramos idénticos. Transmite velocidad y celebra el concepto de construcción."
     },
     "welcome": {
-      "title": "Bienvenido a la página de Marca y Marketing de Solana",
-      "description": "Siga estas pautas al promover Solana en comunicaciones de marketing, incluyendo publicidad, artículos, sitios web y promociones impresas.",
-      "description-2": "Para obtener las pautas de marca completas, consulte <guidelinesLink>Pautas de Marca de la Fundación Solana</guidelinesLink>."
+      "title": "Bienvenido a la página de Marca y Marketing de Nara Solana",
+      "description": "Siga estas pautas al promover Nara Solana en comunicaciones de marketing, incluyendo publicidad, artículos, sitios web y promociones impresas.",
+      "description-2": "Para obtener las pautas de marca completas, consulte <guidelinesLink>Pautas de Marca de la Fundación Nara Solana</guidelinesLink>."
     },
     "clearspace": {
       "title": "Espacio libre",
@@ -328,15 +328,15 @@
     }
   },
   "community": {
-    "hero": "Comunidad Solana",
+    "hero": "Comunidad Nara Solana",
     "featcontent": "Contenido destacado",
-    "header": "La comunidad Solana es un hogar distribuido globalmente para desarrolladores, poseedores de tokens, validadores y miembros que apoyan el protocolo.",
+    "header": "La comunidad Nara Solana es un hogar distribuido globalmente para desarrolladores, poseedores de tokens, validadores y miembros que apoyan el protocolo.",
     "info": "Escucha un podcast",
     "podcast": "Ir a Podcasts",
     "learn": "Learn in depth",
     "blog": "Visit Blog",
     "apply": "Aplica Ahora",
-    "collective": "Apoyar al equipo central de Solana a través de iniciativas comunitarias y de marketing mientras se acumulan recompensas.",
+    "collective": "Apoyar al equipo central de Nara Solana a través de iniciativas comunitarias y de marketing mientras se acumulan recompensas.",
     "socials": {
       "hero": "Wayfinding",
       "hero-old": "Join the crypto revolution",
@@ -357,7 +357,7 @@
       "weibo-subscribers": " suscriptores",
       "twitter-jp": "Twitter Japón",
       "twitter-jp-subscribers": " miembros",
-      "forum": "Foros Solana",
+      "forum": "Foros Nara Solana",
       "forum-subscribers": " publicaciones",
       "gt-stars": " estrellas",
       "youtube": "YouTube",
@@ -389,8 +389,8 @@
     }
   },
   "blog": {
-    "hero": "Noticias de Solana",
-    "header": "Aprende más sobre la tecnología, validadores, integraciones y comunidad de Solana.",
+    "hero": "Noticias de Nara Solana",
+    "header": "Aprende más sobre la tecnología, validadores, integraciones y comunidad de Nara Solana.",
     "latestTopics": "Temas relacionados",
     "readArticle": "Leer artículo",
     "back-btn": "Ver todas las noticias",
@@ -401,14 +401,14 @@
     "next-btn": "Página siguiente"
   },
   "developers": {
-    "title": "Desarrolladores: Recursos e información para construir en Solana",
-    "description": "Aprende por qué Solana es utilizado por las mejores y más brillantes equipas de cripto. Explora nuestras guías y ejemplos para comenzar a construir tus aplicaciones en la blockchain de Solana.",
+    "title": "Desarrolladores: Recursos e información para construir en Nara Solana",
+    "description": "Aprende por qué Nara Solana es utilizado por las mejores y más brillantes equipas de cripto. Explora nuestras guías y ejemplos para comenzar a construir tus aplicaciones en la blockchain de Nara Solana.",
     "courses": {
-      "title": "Aprende desarrollo en Solana",
-      "description": "Utiliza estos cursos de la Fundación Solana y la comunidad para comenzar tu viaje en el desarrollo de Solana.",
+      "title": "Aprende desarrollo en Nara Solana",
+      "description": "Utiliza estos cursos de la Fundación Nara Solana y la comunidad para comenzar tu viaje en el desarrollo de Nara Solana.",
       "featured-item": {
-        "title": "Cursos de desarrollo de Solana",
-        "description": "Inicia rápidamente tu viaje de desarrollo en Solana con Blueshift."
+        "title": "Cursos de desarrollo de Nara Solana",
+        "description": "Inicia rápidamente tu viaje de desarrollo en Nara Solana con Blueshift."
       },
       "aria-label": "Ver curso",
       "chapters_one": "{count} Capítulo",
@@ -420,18 +420,18 @@
       "start-lesson": "Comenzar lección",
       "lesson-one": "Lección",
       "lesson-many": "Lecciones",
-      "seo-description": "Descubre recursos para desarrolladores del ecosistema Solana. Documentación, herramientas, frameworks, SDKs y más."
+      "seo-description": "Descubre recursos para desarrolladores del ecosistema Nara Solana. Documentación, herramientas, frameworks, SDKs y más."
     },
     "documents": {
       "title": "Ve a la fuente.",
-      "description": "Lee la documentación de Solana y herramientas populares.",
+      "description": "Lee la documentación de Nara Solana y herramientas populares.",
       "solana-docs": {
-        "title": "Documentación de Solana",
-        "description": "Aprende cómo funciona Solana y obtén una comprensión de alto nivel de la arquitectura de Solana."
+        "title": "Documentación de Nara Solana",
+        "description": "Aprende cómo funciona Nara Solana y obtén una comprensión de alto nivel de la arquitectura de Nara Solana."
       },
       "anchor-docs": {
         "title": "Documentación de Anchor",
-        "description": "Construye rápidamente programas seguros de Solana en Rust utilizando el framework Anchor."
+        "description": "Construye rápidamente programas seguros de Nara Solana en Rust utilizando el framework Anchor."
       },
       "view-all": "Ver todo"
     },
@@ -440,7 +440,7 @@
     },
     "content": {
       "newsletter": {
-        "title": "Actualización para desarrolladores de Solana",
+        "title": "Actualización para desarrolladores de Nara Solana",
         "description": "Suscríbete al boletín y entérate de nuevos recursos, nuevos commits, nuevas propuestas y más."
       },
       "other-content": {
@@ -455,7 +455,7 @@
     },
     "featured-resources-list": {
       "title": "Recursos destacados",
-      "description": "Los mejores recursos para construir una dApp de Solana de principio a fin.",
+      "description": "Los mejores recursos para construir una dApp de Nara Solana de principio a fin.",
       "start": "Explorar"
     },
     "resources-page": {
@@ -464,7 +464,7 @@
       "labels": "Etiquetas",
       "date": "Fecha",
       "category": "Categoría",
-      "seo-description": "Descubre recursos para desarrolladores del ecosistema Solana. Documentación, herramientas, frameworks, SDKs y más."
+      "seo-description": "Descubre recursos para desarrolladores del ecosistema Nara Solana. Documentación, herramientas, frameworks, SDKs y más."
     },
     "resource-content": {
       "resources-title": "Recursos",
@@ -484,7 +484,7 @@
       }
     },
     "hero": {
-      "description": "Un manual para unirse al ecosistema Solana. Por constructores para constructores.",
+      "description": "Un manual para unirse al ecosistema Nara Solana. Por constructores para constructores.",
       "explore": "Explora la documentación",
       "build": "Construye ahora",
       "support": "Obtener soporte",
@@ -492,7 +492,7 @@
     },
     "learning-paths": {
       "title": "Rutas de aprendizaje",
-      "subtitle": "Rutas guiadas para expandir tus habilidades como desarrollador integral de Solana.",
+      "subtitle": "Rutas guiadas para expandir tus habilidades como desarrollador integral de Nara Solana.",
       "articles": "Artículos",
       "articles_one": "{count} Artículo",
       "articles_other": "{count} Artículos",
@@ -509,7 +509,7 @@
         "title": "Inicio"
       },
       "solana-course": {
-        "title": "Curso de Solana"
+        "title": "Curso de Nara Solana"
       },
       "learning-paths": {
         "title": "Rutas de aprendizaje"
@@ -523,52 +523,52 @@
     },
     "guides": {
       "title": "Tutoriales y guías.",
-      "description": "Aprende de tutoriales y guías de todo el ecosistema de Solana.",
+      "description": "Aprende de tutoriales y guías de todo el ecosistema de Nara Solana.",
       "learn-more": "Aprende más",
       "featured-guides-list": {
         "title": "Guías destacadas",
-        "description": "Las mejores guías en profundidad para aprender y construir dApps en Solana.",
+        "description": "Las mejores guías en profundidad para aprender y construir dApps en Nara Solana.",
         "start": "Comenzar"
       },
-      "seo-description": "Aprende desarrollo en Solana con guías para desarrolladores, desde principiantes hasta avanzados. JavaScript, TypeScript, Rust y más."
+      "seo-description": "Aprende desarrollo en Nara Solana con guías para desarrolladores, desde principiantes hasta avanzados. JavaScript, TypeScript, Rust y más."
     },
     "resources": {
       "title": "Herramientas y recursos.",
-      "description": "Explora recursos para desarrolladores de todo el ecosistema de Solana.",
+      "description": "Explora recursos para desarrolladores de todo el ecosistema de Nara Solana.",
       "learn-more": "Aprende más",
       "items": {
         "core-docs": {
           "title": "Documentación Principal",
-          "description": "La documentación oficial de Solana sobre desarrollo, validadores, tokens SPL, billeteras y más."
+          "description": "La documentación oficial de Nara Solana sobre desarrollo, validadores, tokens SPL, billeteras y más."
         },
         "cookbook": {
-          "title": "Recetario de Solana",
-          "description": "El Recetario de Solana es un recurso para desarrolladores que proporciona los conceptos esenciales y referencias para construir aplicaciones en Solana."
+          "title": "Recetario de Nara Solana",
+          "description": "El Recetario de Nara Solana es un recurso para desarrolladores que proporciona los conceptos esenciales y referencias para construir aplicaciones en Nara Solana."
         },
         "stackexchange": {
-          "title": "Solana Stack Exchange",
-          "description": "Solana Stack Exchange es un sitio de preguntas y respuestas para usuarios y desarrolladores de software de Solana.",
+          "title": "Nara Solana Stack Exchange",
+          "description": "Nara Solana Stack Exchange es un sitio de preguntas y respuestas para usuarios y desarrolladores de software de Nara Solana.",
           "ask": {
             "title": "¿Tienes una pregunta?",
-            "description": "Las preguntas están en todas partes, las respuestas están en Solana StackExchange.",
+            "description": "Las preguntas están en todas partes, las respuestas están en Nara Solana StackExchange.",
             "cta-label": "Pregunta en Stack Exchange"
           }
         },
         "playground": {
-          "title": "Solana Playground",
-          "description": "Construye, despliega y prueba fácilmente programas y contratos inteligentes de Solana desde un IDE en el navegador."
+          "title": "Nara Solana Playground",
+          "description": "Construye, despliega y prueba fácilmente programas y contratos inteligentes de Nara Solana desde un IDE en el navegador."
         },
         "create-dapp": {
           "title": "create-solana-dapp",
-          "description": "Pon en marcha rápidamente tus dApps de Solana, genera una plantilla de proyecto en segundos."
+          "description": "Pon en marcha rápidamente tus dApps de Nara Solana, genera una plantilla de proyecto en segundos."
         },
         "anchor": {
           "title": "Documentos de Anchor",
-          "description": "Anchor es un framework para el runtime Sealevel de Solana que proporciona varias herramientas convenientes para desarrolladores para escribir contratos inteligentes."
+          "description": "Anchor es un framework para el runtime Sealevel de Nara Solana que proporciona varias herramientas convenientes para desarrolladores para escribir contratos inteligentes."
         },
         "program-library": {
-          "title": "Biblioteca de Programas de Solana",
-          "description": "La Biblioteca de Programas de Solana (SPL) es una colección de programas en cadena que apuntan al runtime paralelo Sealevel."
+          "title": "Biblioteca de Programas de Nara Solana",
+          "description": "La Biblioteca de Programas de Nara Solana (SPL) es una colección de programas en cadena que apuntan al runtime paralelo Sealevel."
         },
         "program-examples": {
           "title": "Ejemplos de Programas",
@@ -594,43 +594,43 @@
   },
   "environment": {
     "title": "Medio ambiente",
-    "description": "Cómo la Fundación Solana y la comunidad en general están construyendo un web3 mejor y más eficiente energéticamente.",
+    "description": "Cómo la Fundación Nara Solana y la comunidad en general están construyendo un web3 mejor y más eficiente energéticamente.",
     "hero": {
       "title-part-1": "Carbono neutral.",
       "title-part-2": "Enfocado en el clima.",
-      "subtitle": "Cómo la Fundación Solana y la comunidad en general están construyendo un web3 mejor y más eficiente energéticamente."
+      "subtitle": "Cómo la Fundación Nara Solana y la comunidad en general están construyendo un web3 mejor y más eficiente energéticamente."
     },
     "stats": {
-      "transaction": "Energía promedio utilizada por transacción de Solana, en Joules",
-      "nonvoting-transaction": "Energía promedio utilizada por transacción no votante de Solana, en Joules",
+      "transaction": "Energía promedio utilizada por transacción de Nara Solana, en Joules",
+      "nonvoting-transaction": "Energía promedio utilizada por transacción no votante de Nara Solana, en Joules",
       "annual-carbon-footprint": "Huella de carbono anual, en toneladas de CO2",
       "net-carbon-impact": "Impacto neto de carbono"
     },
     "cta-data": "Ver datos brutos",
     "energy": {
-      "title": "Cómo se compara el uso de energía de Solana",
-      "subtitle": "Compara la plataforma extremadamente eficiente de Solana.",
-      "solanaTransaction": "Una transacción de Solana (votante + no votante)",
+      "title": "Cómo se compara el uso de energía de Nara Solana",
+      "subtitle": "Compara la plataforma extremadamente eficiente de Nara Solana.",
+      "solanaTransaction": "Una transacción de Nara Solana (votante + no votante)",
       "cta": "Leer el Informe de Uso de Energía"
     },
     "report": {
-      "title": "Neutralizando el impacto de carbono de Solana",
-      "description-part-1": "La Fundación Solana está comprometida a estudiar el impacto de la blockchain de Solana, hacer de código abierto los datos y tomar medidas para llevar la huella de la cadena a cero.",
-      "description-part-2": "Solana es la primera blockchain de capa 1 de contratos inteligentes con seguimiento de emisiones de energía en tiempo real, permitiendo a cualquier persona en el mundo examinar las emisiones de la red hasta el nivel de validador o RPC."
+      "title": "Neutralizando el impacto de carbono de Nara Solana",
+      "description-part-1": "La Fundación Nara Solana está comprometida a estudiar el impacto de la blockchain de Nara Solana, hacer de código abierto los datos y tomar medidas para llevar la huella de la cadena a cero.",
+      "description-part-2": "Nara Solana es la primera blockchain de capa 1 de contratos inteligentes con seguimiento de emisiones de energía en tiempo real, permitiendo a cualquier persona en el mundo examinar las emisiones de la red hasta el nivel de validador o RPC."
     },
     "what-you-can-do": {
       "title": "Lo que puedes hacer",
       "data": {
         "title": "Usa los datos",
-        "description": "Hemos hecho de código abierto los datos de emisiones de Solana para aquellos que quieran verificar nuestro trabajo o usarlo para otros análisis. Lee el informe de uso de energía para más información."
+        "description": "Hemos hecho de código abierto los datos de emisiones de Nara Solana para aquellos que quieran verificar nuestro trabajo o usarlo para otros análisis. Lee el informe de uso de energía para más información."
       },
       "footprint": {
         "title": "Reduce tu huella",
-        "description": "La Fundación Solana anima a todos los validadores y proyectos a revisar sus propios datos de emisiones y mitigar donde sea posible. Aprende del viaje de Orca."
+        "description": "La Fundación Nara Solana anima a todos los validadores y proyectos a revisar sus propios datos de emisiones y mitigar donde sea posible. Aprende del viaje de Orca."
       },
       "grants": {
         "title": "Solicita una subvención",
-        "description": "Revisa algunas ideas de proyectos para hacer que la red Solana sea más positiva para el clima, o envía tu propia propuesta."
+        "description": "Revisa algunas ideas de proyectos para hacer que la red Nara Solana sea más positiva para el clima, o envía tu propia propuesta."
       }
     },
     "featured-projects": {
@@ -648,14 +648,14 @@
         },
         "ecoToken": {
           "title": "EcoToken",
-          "description": "EcoToken trae créditos ambientales a Solana, ofreciendo una forma fácil para que cualquiera tenga un impacto ambiental. Esto se complementa con reconocimiento a través de tablas de clasificación y Certificados de Impacto NFT.",
+          "description": "EcoToken trae créditos ambientales a Nara Solana, ofreciendo una forma fácil para que cualquiera tenga un impacto ambiental. Esto se complementa con reconocimiento a través de tablas de clasificación y Certificados de Impacto NFT.",
           "links": {
             "website": "Visitar EcoToken"
           }
         },
         "sunriseStake": {
           "title": "SunriseStake",
-          "description": "SunriseStake apoya el staking positivo para el clima en Solana.",
+          "description": "SunriseStake apoya el staking positivo para el clima en Nara Solana.",
           "links": {
             "website": "Visitar SunriseStake"
           }
@@ -678,21 +678,21 @@
     }
   },
   "events": {
-    "description": "Descubre los últimos eventos fundamentales y comunitarios de Solana. ¡Ven a un evento y conoce a los constructores de Solana!",
-    "title": "Solana, en la vida real",
+    "description": "Descubre los últimos eventos fundamentales y comunitarios de Nara Solana. ¡Ven a un evento y conoce a los constructores de Nara Solana!",
+    "title": "Nara Solana, en la vida real",
     "signup": "Confirmar asistencia",
     "archive": {
       "page-title": "Archivo de Eventos",
       "title": "Eventos Pasados",
-      "subtitle": "¡Mira dónde se han reunido antes los constructores de Solana en tu comunidad!",
+      "subtitle": "¡Mira dónde se han reunido antes los constructores de Nara Solana en tu comunidad!",
       "archive": "Ver eventos pasados en el Archivo",
       "event-count": "Estás viendo {current} de {total} eventos archivados",
       "next-page": "Eventos Anteriores",
       "previous-page": "Eventos Más Recientes"
     },
     "hero": {
-      "title": "Solana, en la vida real",
-      "subtitle": "Conoce a los constructores de Solana en tu comunidad. ¡Ven a una reunión!",
+      "title": "Nara Solana, en la vida real",
+      "subtitle": "Conoce a los constructores de Nara Solana en tu comunidad. ¡Ven a una reunión!",
       "virtual": "Virtual",
       "in-person": "Presencial",
       "hacker": "Casa Hacker",
@@ -700,12 +700,12 @@
     },
     "community": {
       "heading": "Eventos comunitarios",
-      "description": "Encuentros, espacios de construcción y más de la comunidad Solana. Estos eventos no son organizados por la Fundación Solana.",
+      "description": "Encuentros, espacios de construcción y más de la comunidad Nara Solana. Estos eventos no son organizados por la Fundación Nara Solana.",
       "help": "¿Necesitas ayuda? Consulta el <meetupLink>manual de encuentros</meetupLink>."
     },
     "us": {
       "heading": "Solanamerica",
-      "description": "Lista curada de eventos comunitarios élite de Solana en los Estados Unidos."
+      "description": "Lista curada de eventos comunitarios élite de Nara Solana en los Estados Unidos."
     },
     "detail": {
       "action": "Detalles"
@@ -721,9 +721,9 @@
   },
   "footer": {
     "foundation": "Gestionado por",
-    "copyright": "© {currentYear} Fundación Solana. Todos los derechos reservados.",
+    "copyright": "© {currentYear} Fundación Nara Solana. Todos los derechos reservados.",
     "solana": {
-      "heading": "Solana",
+      "heading": "Nara Solana",
       "grants": "Subvenciones",
       "media": "Kit de Prensa",
       "careers": "Carreras profesionales",
@@ -748,8 +748,8 @@
     },
     "community": {
       "title": "Únete a la comunidad",
-      "discord": "Soporte de Solana en Discord",
-      "forums": "Foros Solana",
+      "discord": "Soporte de Nara Solana en Discord",
+      "forums": "Foros Nara Solana",
       "solhack-discord": "SolHack Discord (comunidad)",
       "solhack-training": "Entrenamiento SolHack (comunidad)"
     },
@@ -777,7 +777,7 @@
         "title": "Educativo",
         "items": {
           "what-is-solana": {
-            "title": "Acerca de Solana",
+            "title": "Acerca de Nara Solana",
             "description": "Red rápida y de bajo costo para activos digitales",
             "cta": "Saber más"
           },
@@ -786,14 +786,14 @@
             "description": "Tu puerta de entrada a los mercados de capital en internet"
           },
           "defi": {
-            "title": "Introducción a DeFi en Solana",
+            "title": "Introducción a DeFi en Nara Solana",
             "description": "Explora oportunidades de finanzas descentralizadas"
           },
           "transactions": {
-            "description": "Domina los fundamentos de las transacciones en Solana"
+            "description": "Domina los fundamentos de las transacciones en Nara Solana"
           },
           "fees": {
-            "description": "Aprende por qué las tarifas de Solana permiten el acceso global"
+            "description": "Aprende por qué las tarifas de Nara Solana permiten el acceso global"
           },
           "all": {
             "title": "Explorar todos los tutoriales",
@@ -815,12 +815,12 @@
           "description": "Comienza a aprender cómo construir hoy"
         },
         "docs": {
-          "title": "Documentación de Solana",
-          "description": "Documentación oficial para la blockchain de Solana"
+          "title": "Documentación de Nara Solana",
+          "description": "Documentación oficial para la blockchain de Nara Solana"
         },
         "spl": {
-          "title": "Documentación de la Biblioteca de Programas de Solana",
-          "description": "Documentos oficiales de la Biblioteca de Programas de Solana."
+          "title": "Documentación de la Biblioteca de Programas de Nara Solana",
+          "description": "Documentos oficiales de la Biblioteca de Programas de Nara Solana."
         },
         "cookbook": {
           "title": "Cookbook",
@@ -828,7 +828,7 @@
         },
         "resources": {
           "title": "Recursos",
-          "description": "Amplio conjunto de herramientas para desarrolladores para construir en Solana."
+          "description": "Amplio conjunto de herramientas para desarrolladores para construir en Nara Solana."
         },
         "courses": {
           "title": "Cursos",
@@ -840,7 +840,7 @@
         },
         "api": {
           "title": "RPC API",
-          "description": "Documentación de referencia de la API RPC de Solana"
+          "description": "Documentación de referencia de la API RPC de Nara Solana"
         }
       },
       "tutorials": {
@@ -958,19 +958,19 @@
         "items": [
           {
             "title": "Solscan",
-            "description": "Explora la blockchain de Solana en tiempo real"
+            "description": "Explora la blockchain de Nara Solana en tiempo real"
           },
           {
             "title": "SolanaFM",
-            "description": "Explorador e indexador de la blockchain de Solana"
+            "description": "Explorador e indexador de la blockchain de Nara Solana"
           },
           {
-            "title": "Solana Explorer",
+            "title": "Nara Solana Explorer",
             "description": "Bloques, cuentas, transacciones, programas y tokens"
           },
           {
             "title": "Orb",
-            "description": "Un explorador de bloques de Solana rápido y fácil de leer"
+            "description": "Un explorador de bloques de Nara Solana rápido y fácil de leer"
           }
         ]
       },
@@ -979,7 +979,7 @@
         "items": [
           {
             "title": "Conviértete en un validator",
-            "description": "Ayuda a ejecutar la red de Solana"
+            "description": "Ayuda a ejecutar la red de Nara Solana"
           },
           {
             "title": "Proveedores RPC",
@@ -991,7 +991,7 @@
           },
           {
             "title": "Rampas de entrada y salida",
-            "description": "Trae tus activos a Solana"
+            "description": "Trae tus activos a Nara Solana"
           }
         ]
       }
@@ -1003,7 +1003,7 @@
         "items": [
           {
             "title": "Noticias",
-            "description": "Lo último en el ecosistema de Solana"
+            "description": "Lo último en el ecosistema de Nara Solana"
           },
           {
             "title": "Podcasts",
@@ -1011,7 +1011,7 @@
           },
           {
             "title": "Eventos",
-            "description": "Experimenta la comunidad de Solana en la vida real"
+            "description": "Experimenta la comunidad de Nara Solana en la vida real"
           },
           {
             "title": "El colectivo",
@@ -1022,8 +1022,8 @@
             "description": "Cómo participar"
           },
           {
-            "title": "Instituto de políticas de Solana",
-            "description": "Educando a los legisladores sobre Solana"
+            "title": "Instituto de políticas de Nara Solana",
+            "description": "Educando a los legisladores sobre Nara Solana"
           }
         ]
       },
@@ -1070,10 +1070,10 @@
     "prev": "Caso de uso anterior",
     "next": "Siguiente caso de uso",
     "hero": {
-      "title": "Aprende sobre Solana",
-      "subtitle": "Domina los aspectos esenciales de Solana con estos recursos de aprendizaje sin código para desarrolladores, inversores y entusiastas.",
+      "title": "Aprende sobre Nara Solana",
+      "subtitle": "Domina los aspectos esenciales de Nara Solana con estos recursos de aprendizaje sin código para desarrolladores, inversores y entusiastas.",
       "start-learning": "Empezar a aprender",
-      "build": "Construir en Solana"
+      "build": "Construir en Nara Solana"
     },
     "tutorials": {
       "aria-label": "Ruta de aprendizaje completa",
@@ -1082,58 +1082,58 @@
       "readMoreAriaLabel": "Leer más sobre",
       "items": {
         "what-is-solana": {
-          "title": "¿Qué es Solana?",
-          "description": "Una introducción a Solana - una red rápida y de bajo costo que permite nuevas formas de transferir valor, crear aplicaciones e interactuar en línea.",
-          "category": "Fundamentos de Solana"
+          "title": "¿Qué es Nara Solana?",
+          "description": "Una introducción a Nara Solana - una red rápida y de bajo costo que permite nuevas formas de transferir valor, crear aplicaciones e interactuar en línea.",
+          "category": "Fundamentos de Nara Solana"
         },
         "what-is-a-wallet": {
           "title": "¿Qué es una billetera?",
-          "description": "Aprende qué es una wallet de Solana, cómo funciona y cómo configurarla de forma segura. Tu wallet es la herramienta que usarás para interactuar con las aplicaciones de Solana.",
+          "description": "Aprende qué es una wallet de Nara Solana, cómo funciona y cómo configurarla de forma segura. Tu wallet es la herramienta que usarás para interactuar con las aplicaciones de Nara Solana.",
           "category": "Fundamentos de billeteras"
         },
         "getting-started": {
-          "title": "Primeros pasos con Solana",
-          "description": "Aprende los fundamentos de Solana y cómo comenzar con transacciones digitales",
-          "category": "Fundamentos de Solana"
+          "title": "Primeros pasos con Nara Solana",
+          "description": "Aprende los fundamentos de Nara Solana y cómo comenzar con transacciones digitales",
+          "category": "Fundamentos de Nara Solana"
         },
         "understanding-solana-transaction-fees": {
-          "title": "Entendiendo las tarifas de transacción de Solana",
-          "description": "Aprende cómo funcionan las tarifas de transacción en Solana, por qué son bajas y qué significa esto para diferentes casos de uso.",
+          "title": "Entendiendo las tarifas de transacción de Nara Solana",
+          "description": "Aprende cómo funcionan las tarifas de transacción en Nara Solana, por qué son bajas y qué significa esto para diferentes casos de uso.",
           "category": "Tarifas de transacción"
         },
         "sending-and-receiving-sol": {
-          "title": "Enviar y recibir SOL",
-          "description": "Aprende a enviar y recibir tokens SOL - la habilidad fundamental para interactuar con la red Solana y sus aplicaciones.",
-          "category": "Transferir SOL"
+          "title": "Enviar y recibir NSO",
+          "description": "Aprende a enviar y recibir tokens NSO - la habilidad fundamental para interactuar con la red Nara Solana y sus aplicaciones.",
+          "category": "Transferir NSO"
         },
         "what-is-staking": {
           "title": "¿Qué es el Staking?",
-          "description": "Aprende cómo funciona el staking en Solana, cómo ganar recompensas ayudando a asegurar la red y qué considerar al elegir validators.",
+          "description": "Aprende cómo funciona el staking en Nara Solana, cómo ganar recompensas ayudando a asegurar la red y qué considerar al elegir validators.",
           "category": "Recompensas de Staking"
         },
         "introduction-to-solana-tokens": {
-          "title": "Introducción a los tokens de Solana",
-          "description": "Aprende sobre los tokens - los diferentes tipos de activos digitales en Solana, incluyendo stablecoins, tokens envueltos y tokens de proyectos.",
+          "title": "Introducción a los tokens de Nara Solana",
+          "description": "Aprende sobre los tokens - los diferentes tipos de activos digitales en Nara Solana, incluyendo stablecoins, tokens envueltos y tokens de proyectos.",
           "category": "Tokens"
         },
         "what-are-nfts": {
           "title": "¿Qué son los NFTs?",
-          "description": "Aprende sobre los Tokens No Fungibles (NFTs) en Solana - activos digitales únicos que representan la propiedad de elementos específicos como arte, coleccionables y más.",
+          "description": "Aprende sobre los Tokens No Fungibles (NFTs) en Nara Solana - activos digitales únicos que representan la propiedad de elementos específicos como arte, coleccionables y más.",
           "category": "Conceptos básicos de NFT"
         },
         "introduction-to-defi-on-solana": {
-          "title": "Introducción a DeFi en Solana",
-          "description": "Aprende sobre las aplicaciones de finanzas descentralizadas (DeFi) en Solana, incluyendo trading, préstamos y oportunidades de rendimiento.",
+          "title": "Introducción a DeFi en Nara Solana",
+          "description": "Aprende sobre las aplicaciones de finanzas descentralizadas (DeFi) en Nara Solana, incluyendo trading, préstamos y oportunidades de rendimiento.",
           "category": "Intro a DeFi"
         },
         "exploring-solana-applications": {
-          "title": "Explorando aplicaciones de Solana",
-          "description": "Descubre el diverso ecosistema de aplicaciones construidas en Solana - desde servicios financieros y juegos hasta plataformas sociales y herramientas creativas, todas accesibles solo con tu wallet.",
+          "title": "Explorando aplicaciones de Nara Solana",
+          "description": "Descubre el diverso ecosistema de aplicaciones construidas en Nara Solana - desde servicios financieros y juegos hasta plataformas sociales y herramientas creativas, todas accesibles solo con tu wallet.",
           "category": "Aplicaciones"
         },
         "staying-safe-on-solana": {
-          "title": "Manteniéndote seguro en Solana",
-          "description": "Aprende prácticas esenciales de seguridad para proteger tus activos y evitar estafas comunes mientras usas aplicaciones de Solana.",
+          "title": "Manteniéndote seguro en Nara Solana",
+          "description": "Aprende prácticas esenciales de seguridad para proteger tus activos y evitar estafas comunes mientras usas aplicaciones de Nara Solana.",
           "category": "Guía de seguridad"
         }
       }
@@ -1160,13 +1160,13 @@
     },
     "resources": {
       "continueJourneyTitle": "Continúa tu camino",
-      "continueJourneySubtitle": "¿Listo para profundizar? Explora estos recursos esenciales para desarrolladores de Solana",
+      "continueJourneySubtitle": "¿Listo para profundizar? Explora estos recursos esenciales para desarrolladores de Nara Solana",
       "ariaLabel": "Recursos adicionales de aprendizaje",
       "opensInNewTab": "se abre en una nueva pestaña",
       "documentation": {
         "label": "Documentación",
-        "description": "Documentación oficial de Solana y referencias de API",
-        "ariaLabel": "Documentación - Documentación oficial de Solana y referencias de API (se abre en una nueva pestaña)"
+        "description": "Documentación oficial de Nara Solana y referencias de API",
+        "ariaLabel": "Documentación - Documentación oficial de Nara Solana y referencias de API (se abre en una nueva pestaña)"
       },
       "cookbook": {
         "label": "Recetario",
@@ -1175,13 +1175,13 @@
       },
       "courses": {
         "label": "Cursos",
-        "description": "Rutas de aprendizaje estructuradas para desarrollo en Solana",
-        "ariaLabel": "Cursos - Rutas de aprendizaje estructuradas para desarrollo en Solana (se abre en una nueva pestaña)"
+        "description": "Rutas de aprendizaje estructuradas para desarrollo en Nara Solana",
+        "ariaLabel": "Cursos - Rutas de aprendizaje estructuradas para desarrollo en Nara Solana (se abre en una nueva pestaña)"
       },
       "wallets": {
         "label": "Billeteras",
-        "description": "Explora las billeteras de Solana para gestionar tus activos",
-        "ariaLabel": "Monederos - Explora los monederos de Solana para gestionar tus activos (se abre en una nueva pestaña)"
+        "description": "Explora las billeteras de Nara Solana para gestionar tus activos",
+        "ariaLabel": "Monederos - Explora los monederos de Nara Solana para gestionar tus activos (se abre en una nueva pestaña)"
       }
     }
   },
@@ -1198,8 +1198,8 @@
     "page": {
       "side-events": {
         "title": "Eventos paralelos de Breakpoint",
-        "description": "Eventos que ocurren alrededor de la fecha de Solana Breakpoint 2024.",
-        "intro": "Breakpoint es realmente un evento para todo el ecosistema Solana. Proyectos, equipos e individuos de todo el mundo organizan sus propios eventos durante la conferencia para reunirse y celebrar con sus compañeros constructores.",
+        "description": "Eventos que ocurren alrededor de la fecha de Nara Solana Breakpoint 2024.",
+        "intro": "Breakpoint es realmente un evento para todo el ecosistema Nara Solana. Proyectos, equipos e individuos de todo el mundo organizan sus propios eventos durante la conferencia para reunirse y celebrar con sus compañeros constructores.",
         "featured": "Eventos destacados",
         "community": "Eventos comunitarios",
         "community-cta": "¿Tienes un evento que quieres en este calendario? Envíalo aquí."
@@ -1220,16 +1220,16 @@
     }
   },
   "format": {
-    "title": "FORMAT Festival x Solana Foundation",
-    "description": "Entra en la Solana House para experimentar el futuro descentralizado de pagos blockchain, arte y más.",
+    "title": "FORMAT Festival x Nara Solana Foundation",
+    "description": "Entra en la Nara Solana House para experimentar el futuro descentralizado de pagos blockchain, arte y más.",
     "hero": {
       "subtitle": "Experimenta el futuro del arte y la tecnología — todo en un solo lugar.",
-      "description": "Entra en la Solana House en el <formatLink>Festival FORMAT</formatLink> para obtener snacks gratis con vales digitales impulsados por criptomonedas, sumérgete en la primera exposición NFT de Solana de la artista de renombre mundial <artistLink>Nancy Baker Cahill</artistLink>, y participa en una <auctionLink>subasta de NFT</auctionLink>.",
+      "description": "Entra en la Nara Solana House en el <formatLink>Festival FORMAT</formatLink> para obtener snacks gratis con vales digitales impulsados por criptomonedas, sumérgete en la primera exposición NFT de Nara Solana de la artista de renombre mundial <artistLink>Nancy Baker Cahill</artistLink>, y participa en una <auctionLink>subasta de NFT</auctionLink>.",
       "dates": "Llega a Bentonville, AR del 23 al 25 de septiembre de 2022."
     },
     "claim": {
       "title": "Reclama tu NFT misterioso",
-      "description": "Celebra Solana + Festival FORMAT 2022 canjeando un NFT misterioso. ¡No se requiere experiencia en cripto!",
+      "description": "Celebra Nara Solana + Festival FORMAT 2022 canjeando un NFT misterioso. ¡No se requiere experiencia en cripto!",
       "cta": "Reclamar ahora",
       "social": {
         "description": "Mantente atento a la revelación de en qué se convertirá tu NFT misterioso siguiendo a <tipLink>@TipLinkOfficial</tipLink> y <solanaSpacesLink>@SolanaSpaces</solanaspaceslink/> en Twitter.",
@@ -1238,23 +1238,23 @@
     },
     "concessions": {
       "title": "Concesiones con Cripto",
-      "description": "¡Snacks gratis con un escaneo! Usa los vales digitales de Solana House x FORMAT para obtener algunos deliciosos bocadillos, impulsados por TipLink — hasta agotar existencias."
+      "description": "¡Snacks gratis con un escaneo! Usa los vales digitales de Nara Solana House x FORMAT para obtener algunos deliciosos bocadillos, impulsados por TipLink — hasta agotar existencias."
     },
     "slipstream": {
       "title": "Experiencia NFT Slipstream",
-      "description": "La reconocida artista de nuevos medios Nancy Baker Cahill está exhibiendo 10 NFTs exclusivos en Solana House — que serán subastados al público con la ayuda de Magic Eden. <auctionLink>Ver la subasta</auctionLink>."
+      "description": "La reconocida artista de nuevos medios Nancy Baker Cahill está exhibiendo 10 NFTs exclusivos en Nara Solana House — que serán subastados al público con la ayuda de Magic Eden. <auctionLink>Ver la subasta</auctionLink>."
     },
     "ecosystem": {
       "title": "Aprende más",
-      "description": "Explora el ecosistema Solana y aprende más sobre el mundo de los NFTs.",
+      "description": "Explora el ecosistema Nara Solana y aprende más sobre el mundo de los NFTs.",
       "nft": {
         "title": "¿Qué es un NFT?",
-        "description": "¿NFTs? ¿Acuñaciones? Obtén los conceptos básicos de los NFTs en Solana.com",
+        "description": "¿NFTs? ¿Acuñaciones? Obtén los conceptos básicos de los NFTs en Nara Solana.com",
         "cta": "Aprende más"
       },
       "magiceden": {
         "title": "Magic Eden",
-        "description": "Compra, vende y descubre NFTs de Solana en el mercado de Magic Eden.",
+        "description": "Compra, vende y descubre NFTs de Nara Solana en el mercado de Magic Eden.",
         "cta": "Pruébalo"
       },
       "tipLink": {
@@ -1264,10 +1264,10 @@
       }
     },
     "nft-volume": {
-      "title": "Esto es Solana.",
-      "description": "Con transacciones rápidas, bajo impacto energético y tarifas que son una fracción de centavo, Solana se está convirtiendo rápidamente en el hogar de <learnNFTsLink>muchos proyectos NFT</learnNFTsLink>.",
+      "title": "Esto es Nara Solana.",
+      "description": "Con transacciones rápidas, bajo impacto energético y tarifas que son una fracción de centavo, Nara Solana se está convirtiendo rápidamente en el hogar de <learnNFTsLink>muchos proyectos NFT</learnNFTsLink>.",
       "volume": {
-        "title": "Más de 20.3M NFTs en Solana",
+        "title": "Más de 20.3M NFTs en Nara Solana",
         "description": "Encuentra tu comunidad. Prueba algunos de los mercados de NFT más populares.",
         "nfts": "Aprende sobre NFTs",
         "me": "IR A MAGIC EDEN",
@@ -1277,24 +1277,24 @@
   },
   "ecdr": {
     "title": "Informe de Desarrolladores de Electric Capital",
-    "description": "El Informe de Desarrolladores de Electric Capital confirmó a Solana como una de las blockchains de más rápido crecimiento en 2022.",
+    "description": "El Informe de Desarrolladores de Electric Capital confirmó a Nara Solana como una de las blockchains de más rápido crecimiento en 2022.",
     "hero": {
-      "headline": "Descubre por qué miles de nuevos desarrolladores de blockchain están construyendo en Solana.",
-      "subheadline": "Un grupo creciente de desarrolladores de blockchain está eligiendo Solana sobre otras cadenas por su escalabilidad, velocidad y menores costos.",
+      "headline": "Descubre por qué miles de nuevos desarrolladores de blockchain están construyendo en Nara Solana.",
+      "subheadline": "Un grupo creciente de desarrolladores de blockchain está eligiendo Nara Solana sobre otras cadenas por su escalabilidad, velocidad y menores costos.",
       "note": "Ponte en contacto para obtener más información y conectarte con nuestro equipo.",
       "cta": "Ponte en contacto"
     },
     "stats": {
-      "title": "El Informe de Desarrolladores de Electric Capital confirmó a Solana como una de las blockchains de más rápido crecimiento en 2022.",
-      "learn": "<learnLink>Aprende más</learnLink> sobre la visión de Solana para web3 y el informe reciente.",
+      "title": "El Informe de Desarrolladores de Electric Capital confirmó a Nara Solana como una de las blockchains de más rápido crecimiento en 2022.",
+      "learn": "<learnLink>Aprende más</learnLink> sobre la visión de Nara Solana para web3 y el informe reciente.",
       "full-time": {
         "title": "Crecimiento de 16 veces en el número de desarrolladores a tiempo completo desde 2018."
       },
       "blockchain": {
-        "title": "El número total de desarrolladores de Solana creció un 83% en 2022."
+        "title": "El número total de desarrolladores de Nara Solana creció un 83% en 2022."
       },
       "active-developers": {
-        "title": "Más de desarrolladores activos mensuales están construyendo en Solana.",
+        "title": "Más de desarrolladores activos mensuales están construyendo en Nara Solana.",
         "note": "*segundo en números brutos solo después de Ethereum."
       },
       "open-source": {
@@ -1303,8 +1303,8 @@
       }
     },
     "join-community": {
-      "title": "Únete a la Creciente Comunidad Solana para Iniciar tu Viaje Cripto.",
-      "description": "Como constructores nosotros mismos, nuestra apuesta siempre será por los constructores en la comunidad Solana. Estamos muy emocionados por los años que tenemos por delante."
+      "title": "Únete a la Creciente Comunidad Nara Solana para Iniciar tu Viaje Cripto.",
+      "description": "Como constructores nosotros mismos, nuestra apuesta siempre será por los constructores en la comunidad Nara Solana. Estamos muy emocionados por los años que tenemos por delante."
     }
   },
   "playgg": {
@@ -1316,7 +1316,7 @@
     },
     "presentedby": {
       "title": "Presentado por",
-      "description": "Fundación Solana"
+      "description": "Fundación Nara Solana"
     },
     "signup": {
       "title": "Regístrate y recibe acceso anticipado a la inscripción",
@@ -1329,16 +1329,16 @@
     }
   },
   "nft-showdown": {
-    "title": "El Duelo de NFTs de Solana",
-    "description": "La Fundación Solana convoca a todos los creadores a dar vida a sus ideas de negocio en esta competencia única de presentación de NFTs.",
-    "alert": "Únete al Duelo de NFTs - Construye la próxima generación de marcas NFT en Solana ->",
+    "title": "El Duelo de NFTs de Nara Solana",
+    "description": "La Fundación Nara Solana convoca a todos los creadores a dar vida a sus ideas de negocio en esta competencia única de presentación de NFTs.",
+    "alert": "Únete al Duelo de NFTs - Construye la próxima generación de marcas NFT en Nara Solana ->",
     "cta": "Ver a los ganadores",
     "intro": {
       "title": "Presentamos",
-      "heading": "El Duelo de NFTs de Solana",
+      "heading": "El Duelo de NFTs de Nara Solana",
       "lead": "Fomentando la próxima generación de marcas NFT",
-      "description-1": "¡Prepárate para un duelo de proporciones épicas! La Fundación Solana convoca a todos los creadores a dar vida a sus ideas de negocio en esta competencia única de presentación de NFTs – una oportunidad rara de tener la posibilidad de colaborar con expertos de la industria y líderes de la comunidad NFT. Buscamos nuevas marcas NFT de Solana que aspiren a crear productos del mundo real en verticales como moda, entretenimiento, juegos, agencias creativas.",
-      "description-2": "Las marcas NFT son una excelente manera para que los emprendedores astutos inicien sus planes de negocio y construyan comunidades duraderas. ¿Tienes un concepto creativo y una presentación de negocio que te apasiona? Aprovecha esta oportunidad para acceder y aprovechar una variedad de nuevas herramientas de Solana que proporcionan flexibilidad y escala. Los proyectos ganadores serán seleccionados en base a sus planes de negocio viables y la innovación del producto que muestren – trabajando con jueces que proporcionarán orientación para darte el conocimiento que necesitas para convertir tu visión en realidad.",
+      "description-1": "¡Prepárate para un duelo de proporciones épicas! La Fundación Nara Solana convoca a todos los creadores a dar vida a sus ideas de negocio en esta competencia única de presentación de NFTs – una oportunidad rara de tener la posibilidad de colaborar con expertos de la industria y líderes de la comunidad NFT. Buscamos nuevas marcas NFT de Nara Solana que aspiren a crear productos del mundo real en verticales como moda, entretenimiento, juegos, agencias creativas.",
+      "description-2": "Las marcas NFT son una excelente manera para que los emprendedores astutos inicien sus planes de negocio y construyan comunidades duraderas. ¿Tienes un concepto creativo y una presentación de negocio que te apasiona? Aprovecha esta oportunidad para acceder y aprovechar una variedad de nuevas herramientas de Nara Solana que proporcionan flexibilidad y escala. Los proyectos ganadores serán seleccionados en base a sus planes de negocio viables y la innovación del producto que muestren – trabajando con jueces que proporcionarán orientación para darte el conocimiento que necesitas para convertir tu visión en realidad.",
       "description-3": "Es hora de hacer una presentación digna de la sala de juntas. Deja tu correo electrónico abajo para mantenerte informado sobre actualizaciones y tiempos. La ventana de presentación estará abierta a principios de junio. ¡Empieza a trabajar en esas presentaciones y buena suerte!",
       "description-4": "Para ver las pautas completas de presentación, consulta las preguntas frecuentes a continuación."
     },
@@ -1351,14 +1351,14 @@
         "title": "Premios",
         "description": "Los finalistas y ganadores recibirán todos",
         "list": [
-          "Mentoría y horas de oficina con el equipo de Solana.",
+          "Mentoría y horas de oficina con el equipo de Nara Solana.",
           "Asistencia a talleres curados organizados por expertos de la industria y líderes de la comunidad NFT.",
           "Entradas para Breakpoint, programado del 30 de octubre al 3 de noviembre de 2023 en Ámsterdam."
         ]
       },
       "judging": {
         "title": "Evaluación",
-        "description-1": "Los proyectos ganadores serán seleccionados en base a sus planes de negocio viables y la innovación del producto que muestren – el conocimiento empresarial, el pensamiento de producto centrado en el usuario, la dirección creativa, el uso innovador de la tecnología Solana y la aplicación en el mundo real serán factores para identificar las presentaciones ganadoras.",
+        "description-1": "Los proyectos ganadores serán seleccionados en base a sus planes de negocio viables y la innovación del producto que muestren – el conocimiento empresarial, el pensamiento de producto centrado en el usuario, la dirección creativa, el uso innovador de la tecnología Nara Solana y la aplicación en el mundo real serán factores para identificar las presentaciones ganadoras.",
         "description-2": "Los jueces reducirán las entradas a diez finalistas. A partir de ahí, en colaboración con su mentor, los finalistas presentarán su propuesta en persona. De los diez finalistas, un total de cinco proyectos NFT serán reconocidos como ganadores."
       }
     },
@@ -1368,30 +1368,30 @@
     "disclaimer": {
       "rules": "Reglas oficiales del Duelo de NFTs de la Fundación SOLANA",
       "title": "Descargo de responsabilidad",
-      "description-line-1": "El Duelo de NFTs de Solana es una competencia donde los proyectos serán evaluados por jueces en base a su conocimiento empresarial, pensamiento de producto centrado en el usuario, dirección creativa y trasfondo, uso innovador de la tecnología Solana y aplicación en el mundo real sin considerar la viabilidad legal. Todos los participantes deben cumplir con las leyes y regulaciones aplicables en relación con sus proyectos para el Duelo de NFTs.",
-      "description-line-2": "Los recursos para desarrolladores que proporciona la Fundación Solana ('SF') son solo para fines educativos e inspiradores. SF no fomenta, induce ni sanciona el despliegue de tales aplicaciones en violación de las leyes o regulaciones aplicables. SF no fomenta, induce ni sanciona el despliegue, integración o uso de tales aplicaciones (incluyendo el código que comprende el protocolo blockchain de Solana) en violación de las leyes o regulaciones aplicables y por la presente prohíbe cualquier despliegue, integración o uso de este tipo. Esto incluye el uso de tales aplicaciones por parte del lector (a) en violación de las leyes de control de exportaciones o sanciones de los Estados Unidos o cualquier otra jurisdicción aplicable, (b) si el lector está ubicado o reside habitualmente en un país o territorio sujeto a sanciones integrales administradas por la Oficina de Control de Activos Extranjeros (OFAC) de EE. UU., (c) si el lector es o está trabajando en nombre de un Nacional Especialmente Designado (SDN) o es una persona sujeta a prohibiciones similares de bloqueo o de partes denegadas, o (d) en violación de la Ley de Productos Básicos y Bolsa.",
+      "description-line-1": "El Duelo de NFTs de Nara Solana es una competencia donde los proyectos serán evaluados por jueces en base a su conocimiento empresarial, pensamiento de producto centrado en el usuario, dirección creativa y trasfondo, uso innovador de la tecnología Nara Solana y aplicación en el mundo real sin considerar la viabilidad legal. Todos los participantes deben cumplir con las leyes y regulaciones aplicables en relación con sus proyectos para el Duelo de NFTs.",
+      "description-line-2": "Los recursos para desarrolladores que proporciona la Fundación Nara Solana ('SF') son solo para fines educativos e inspiradores. SF no fomenta, induce ni sanciona el despliegue de tales aplicaciones en violación de las leyes o regulaciones aplicables. SF no fomenta, induce ni sanciona el despliegue, integración o uso de tales aplicaciones (incluyendo el código que comprende el protocolo blockchain de Nara Solana) en violación de las leyes o regulaciones aplicables y por la presente prohíbe cualquier despliegue, integración o uso de este tipo. Esto incluye el uso de tales aplicaciones por parte del lector (a) en violación de las leyes de control de exportaciones o sanciones de los Estados Unidos o cualquier otra jurisdicción aplicable, (b) si el lector está ubicado o reside habitualmente en un país o territorio sujeto a sanciones integrales administradas por la Oficina de Control de Activos Extranjeros (OFAC) de EE. UU., (c) si el lector es o está trabajando en nombre de un Nacional Especialmente Designado (SDN) o es una persona sujeta a prohibiciones similares de bloqueo o de partes denegadas, o (d) en violación de la Ley de Productos Básicos y Bolsa.",
       "read-more-button": "Leer más...",
       "read-less-button": "Leer menos..."
     }
   },
   "possible": {
     "meta": {
-      "title": "Solo posible en Solana",
-      "description": "Desarrolladores de todo el mundo están construyendo aplicaciones en Solana para un futuro rápido, seguro, escalable y fácil de usar. Un futuro que solo es posible en Solana. Explora recursos, conéctate con el ecosistema y empieza a construir."
+      "title": "Solo posible en Nara Solana",
+      "description": "Desarrolladores de todo el mundo están construyendo aplicaciones en Nara Solana para un futuro rápido, seguro, escalable y fácil de usar. Un futuro que solo es posible en Nara Solana. Explora recursos, conéctate con el ecosistema y empieza a construir."
     },
     "hero": {
       "title": "Construido para lo que es posible.",
-      "description": "Desarrolladores de todo el mundo están construyendo aplicaciones en Solana para un futuro rápido, seguro, escalable y fácil de usar. Un futuro que solo es posible en Solana. Explora recursos, conéctate con el ecosistema y empieza a construir.",
+      "description": "Desarrolladores de todo el mundo están construyendo aplicaciones en Nara Solana para un futuro rápido, seguro, escalable y fácil de usar. Un futuro que solo es posible en Nara Solana. Explora recursos, conéctate con el ecosistema y empieza a construir.",
       "cta-primary": "Empieza a construir"
     },
     "caseStudies": {
       "case-1": {
         "title": "Hivemapper está mapeando el mundo con conductores cotidianos.",
-        "description": "La comunidad de Hivemapper ya ha mapeado el 6% de las carreteras del mundo, con recompensas semanales impulsadas por la incomparable tecnología de compresión de estado de Solana."
+        "description": "La comunidad de Hivemapper ya ha mapeado el 6% de las carreteras del mundo, con recompensas semanales impulsadas por la incomparable tecnología de compresión de estado de Nara Solana."
       },
       "case-2": {
         "title": "Helium Mobile habilita el servicio 5G impulsado por la comunidad.",
-        "description": "Helium migró a Solana, llevando una 'Red del Pueblo' a un número creciente de ciudades en los Estados Unidos."
+        "description": "Helium migró a Nara Solana, llevando una 'Red del Pueblo' a un número creciente de ciudades en los Estados Unidos."
       },
       "case-3": {
         "title": "El equipo de Drip ha lanzado 25 millones de obras de arte por alrededor de $3,000.",
@@ -1399,44 +1399,44 @@
       },
       "case-4": {
         "title": "Dialect ha acuñado por millones con costos de acuñación de 2,400 a 24,000 veces más baratos.",
-        "description": "Dialect redujo drásticamente los costos de acuñación para permitir a los usuarios compartir stickers NFT a gran escala con NFTs comprimidos en Solana."
+        "description": "Dialect redujo drásticamente los costos de acuñación para permitir a los usuarios compartir stickers NFT a gran escala con NFTs comprimidos en Nara Solana."
       },
       "case-5": {
         "title": "Hasta ahora, GainForest ha monitoreado 5.4m hectáreas de tierra para la conservación ambiental.",
-        "description": "GainForest utiliza contratos inteligentes de Solana para recopilar datos en tiempo real e incentivar esfuerzos de reforestación en todo el mundo."
+        "description": "GainForest utiliza contratos inteligentes de Nara Solana para recopilar datos en tiempo real e incentivar esfuerzos de reforestación en todo el mundo."
       }
     },
     "innovations": {
-      "title": "Descubre lo que solo es posible con la pila tecnológica de Solana",
+      "title": "Descubre lo que solo es posible con la pila tecnológica de Nara Solana",
       "mint": {
         "controlText": "NFTs comprimidos",
         "title": "Acuña por millones",
         "description1": "Con la compresión de estado para NFTs, el costo de los lanzamientos de alto volumen se ha vuelto mucho más barato. Imagina incorporar nuevos usuarios en masa o recompensar a los usuarios existentes por solo unos cientos de dólares, en lugar de cientos de miles. Desde la venta de entradas para eventos, hasta coleccionables, stickers de redes sociales y más, los NFTs comprimidos abren un mundo completamente nuevo de posibilidades.",
-        "description2": "Esto es posible gracias a la <docsLink>compresión de estado</docsLink>, una técnica en la que los datos de transacción asegurados por el libro mayor de Solana se hashean y verifican contra una cuenta de árbol de Merkle para su uso en un contrato inteligente. Esto significa que los NFTs comprimidos pueden crearse en la cadena de manera similar a antes, pero a una fracción del costo."
+        "description2": "Esto es posible gracias a la <docsLink>compresión de estado</docsLink>, una técnica en la que los datos de transacción asegurados por el libro mayor de Nara Solana se hashean y verifican contra una cuenta de árbol de Merkle para su uso en un contrato inteligente. Esto significa que los NFTs comprimidos pueden crearse en la cadena de manera similar a antes, pero a una fracción del costo."
       },
       "scale": {
         "controlText": "Tecnología escalable",
         "title": "Tecnología que escala, ultra rápida",
-        "description1": "Con la escalabilidad nativa de Solana, no necesitas hacer un compromiso entre descentralización y rendimiento. Ya sea que estés construyendo la <gamingLink>próxima gran cosa en juegos</gamingLink>, o enfocado en fronteras como IA o infraestructura física descentralizada (dePIN), deja volar tu imaginación y construye el tipo de aplicación que solo es posible en Solana.",
-        "description2": "Proyectos innovadores como <heliumLink>Helium</heliumLink> y <hivemapperLink>Hivemapper</hivemapperLink> están construyendo lo que solo es posible en Solana, gracias a sus velocidades de transacción, escalabilidad y confiabilidad. Y con integraciones en <aiLink>áreas como la IA</aiLink>, los constructores en Solana tienen acceso a las últimas innovaciones para impulsar sus proyectos más ambiciosos."
+        "description1": "Con la escalabilidad nativa de Nara Solana, no necesitas hacer un compromiso entre descentralización y rendimiento. Ya sea que estés construyendo la <gamingLink>próxima gran cosa en juegos</gamingLink>, o enfocado en fronteras como IA o infraestructura física descentralizada (dePIN), deja volar tu imaginación y construye el tipo de aplicación que solo es posible en Nara Solana.",
+        "description2": "Proyectos innovadores como <heliumLink>Helium</heliumLink> y <hivemapperLink>Hivemapper</hivemapperLink> están construyendo lo que solo es posible en Nara Solana, gracias a sus velocidades de transacción, escalabilidad y confiabilidad. Y con integraciones en <aiLink>áreas como la IA</aiLink>, los constructores en Nara Solana tienen acceso a las últimas innovaciones para impulsar sus proyectos más ambiciosos."
       },
       "climate": {
         "controlText": "Baja huella de carbono",
         "title": "Tecnología consciente del clima",
-        "description1": "En Solana, una transacción blockchain usa aproximadamente <environmentLink>la misma cantidad de energía que unas pocas búsquedas en línea</environmentLink>. Y con <emissionsLink>medición de emisiones en tiempo real</emissionsLink>, puedes estar seguro de que estás construyendo sobre tecnología que no solo rinde, sino que está comprometida con la eficiencia energética.",
-        "description2": "El software de seguimiento de emisiones integrado directamente en los nodos de Solana proporciona mediciones completas y dinámicas a lo largo del tiempo. Este conjunto de datos es rico en detalles, abierto y de uso gratuito, lo que permite a los validadores o cualquier persona que construya en Solana evaluar sus contribuciones a la huella de carbono de la red y explorar estrategias de mitigación."
+        "description1": "En Nara Solana, una transacción blockchain usa aproximadamente <environmentLink>la misma cantidad de energía que unas pocas búsquedas en línea</environmentLink>. Y con <emissionsLink>medición de emisiones en tiempo real</emissionsLink>, puedes estar seguro de que estás construyendo sobre tecnología que no solo rinde, sino que está comprometida con la eficiencia energética.",
+        "description2": "El software de seguimiento de emisiones integrado directamente en los nodos de Nara Solana proporciona mediciones completas y dinámicas a lo largo del tiempo. Este conjunto de datos es rico en detalles, abierto y de uso gratuito, lo que permite a los validadores o cualquier persona que construya en Nara Solana evaluar sus contribuciones a la huella de carbono de la red y explorar estrategias de mitigación."
       },
       "payment": {
         "controlText": "Transacciones paralelas",
         "title": "Potencia pagos globales",
-        "description1": "El alto rendimiento y las bajas tarifas de Solana hacen posible soportar <paymentsLink>pagos descentralizados</paymentsLink> a escala. Y con <solanapayLink>Solana Pay</solanapayLink>, los desarrolladores tienen las herramientas que necesitan para integrar capacidades de pago rápidas como Wall Street en sus aplicaciones, proporcionando auditabilidad y confidencialidad cuando más lo necesitan. Ahora tu proyecto o negocio puede aprovechar el poder de la blockchain a la misma velocidad que las redes de pago tradicionales, sin intermediarios.",
-        "description2": "Con Solana, los constructores tienen la oportunidad de crear la próxima generación de pagos comerciales y rieles de comercio construidos sobre tecnología blockchain que proporciona bajo costo y liquidación instantánea para pagos en línea y en tienda. Encuentra nuevas formas de incentivar a tus clientes con recompensas en cadena y ofertas de lealtad, y trabaja directamente con tu cliente – sin necesidad de intermediarios."
+        "description1": "El alto rendimiento y las bajas tarifas de Nara Solana hacen posible soportar <paymentsLink>pagos descentralizados</paymentsLink> a escala. Y con <solanapayLink>Nara Solana Pay</solanapayLink>, los desarrolladores tienen las herramientas que necesitan para integrar capacidades de pago rápidas como Wall Street en sus aplicaciones, proporcionando auditabilidad y confidencialidad cuando más lo necesitan. Ahora tu proyecto o negocio puede aprovechar el poder de la blockchain a la misma velocidad que las redes de pago tradicionales, sin intermediarios.",
+        "description2": "Con Nara Solana, los constructores tienen la oportunidad de crear la próxima generación de pagos comerciales y rieles de comercio construidos sobre tecnología blockchain que proporciona bajo costo y liquidación instantánea para pagos en línea y en tienda. Encuentra nuevas formas de incentivar a tus clientes con recompensas en cadena y ofertas de lealtad, y trabaja directamente con tu cliente – sin necesidad de intermediarios."
       },
       "web3": {
         "controlText": "Consenso ultrarrápido",
         "title": "Web3 en tu bolsillo",
-        "description1": "Con <solanaMobileLink>Solana Mobile</solanaMobileLink>, web3 en tu bolsillo finalmente está aquí. Cuando combinas un teléfono criptográfico de clase mundial, una tienda de dApps móviles y una pila móvil, todo respaldado por tecnología blockchain rápida y segura, las posibilidades son infinitas.",
-        "description2": "El teléfono Saga de Solana Mobile está inaugurando la nueva era móvil de web3. No solo tiene el hardware premium que esperas de tu teléfono, sino que con su tienda de dApps única en su tipo, puedes acceder a tus protocolos DeFi favoritos, mercados de NFT y aplicaciones web3 en movimiento. Además, con la Bóveda de Semillas segura del teléfono, puedes realizar transacciones de forma segura con tu billetera favorita, proteger tus claves privadas y firmar transacciones usando solo tu huella digital."
+        "description1": "Con <solanaMobileLink>Nara Solana Mobile</solanaMobileLink>, web3 en tu bolsillo finalmente está aquí. Cuando combinas un teléfono criptográfico de clase mundial, una tienda de dApps móviles y una pila móvil, todo respaldado por tecnología blockchain rápida y segura, las posibilidades son infinitas.",
+        "description2": "El teléfono Saga de Nara Solana Mobile está inaugurando la nueva era móvil de web3. No solo tiene el hardware premium que esperas de tu teléfono, sino que con su tienda de dApps única en su tipo, puedes acceder a tus protocolos DeFi favoritos, mercados de NFT y aplicaciones web3 en movimiento. Además, con la Bóveda de Semillas segura del teléfono, puedes realizar transacciones de forma segura con tu billetera favorita, proteger tus claves privadas y firmar transacciones usando solo tu huella digital."
       },
       "solanaMobile": {
         "controlText": "Listo para móvil"
@@ -1447,12 +1447,12 @@
       "title": "Comienza aquí",
       "portal": {
         "title": "El portal del desarrollador",
-        "description": "Comienza tu viaje hacia la construcción de lo que es posible en Solana. Encuentra cursos, recursos y tutoriales para empezar a codificar, construir dApps y más.",
+        "description": "Comienza tu viaje hacia la construcción de lo que es posible en Nara Solana. Encuentra cursos, recursos y tutoriales para empezar a codificar, construir dApps y más.",
         "cta": "Empieza a construir"
       },
       "programming": {
         "title": "Programación para desarrolladores",
-        "description": "Conoce a los constructores de Solana en tu comunidad. Desde Bootcamps hasta Hacker Houses alrededor del mundo, encuentra el evento adecuado para ayudarte a iniciar tu proyecto en el ecosistema Solana.",
+        "description": "Conoce a los constructores de Nara Solana en tu comunidad. Desde Bootcamps hasta Hacker Houses alrededor del mundo, encuentra el evento adecuado para ayudarte a iniciar tu proyecto en el ecosistema Nara Solana.",
         "cta": "Encuentra un evento"
       },
       "community": {
@@ -1470,32 +1470,32 @@
         {
           "name": "Hivemapper",
           "title": "Mapeando el globo con Hivemapper",
-          "description": "Descubre cómo la facilidad de uso de Solana, las bajas tarifas de transacción y la apasionada comunidad de desarrolladores apoyan a Hivemapper en su búsqueda por reimaginar las posibilidades de un sistema de mapeo descentralizado."
+          "description": "Descubre cómo la facilidad de uso de Nara Solana, las bajas tarifas de transacción y la apasionada comunidad de desarrolladores apoyan a Hivemapper en su búsqueda por reimaginar las posibilidades de un sistema de mapeo descentralizado."
         },
         {
           "name": "Orca",
           "title": "Escalabilidad y rendimiento listos para usar con Orca",
-          "description": "Descubre cómo Orca aprovecha la velocidad, fiabilidad y seguridad inigualables de Solana para crear una plataforma accesible y rentable para la formación de capital."
+          "description": "Descubre cómo Orca aprovecha la velocidad, fiabilidad y seguridad inigualables de Nara Solana para crear una plataforma accesible y rentable para la formación de capital."
         },
         {
           "name": "Dialect",
           "title": "Pioneros en una nueva experiencia de mensajería con Dialect",
-          "description": "Descubre cómo la velocidad, escalabilidad y compresión de estado de Solana han permitido que la plataforma de mensajería inteligente de Dialect mejore la experiencia de coleccionistas y creadores."
+          "description": "Descubre cómo la velocidad, escalabilidad y compresión de estado de Nara Solana han permitido que la plataforma de mensajería inteligente de Dialect mejore la experiencia de coleccionistas y creadores."
         },
         {
           "name": "Helius",
           "title": "Construido para el ahora, preparado para el futuro con Helius",
-          "description": "Observa cómo Helius utiliza la tecnología pragmática, las velocidades ultrarrápidas y la eficiencia en costos de Solana para impulsar una comunidad de desarrolladores unida que está construyendo para el futuro, hoy."
+          "description": "Observa cómo Helius utiliza la tecnología pragmática, las velocidades ultrarrápidas y la eficiencia en costos de Nara Solana para impulsar una comunidad de desarrolladores unida que está construyendo para el futuro, hoy."
         },
         {
           "name": "Helium",
           "title": "Impulsando una red inalámbrica global con Helium",
-          "description": "Observa cómo Solana está incentivando la conectividad y escalando proyectos de infraestructura del mundo real en todo el globo con la red inalámbrica impulsada por la comunidad de Helium."
+          "description": "Observa cómo Nara Solana está incentivando la conectividad y escalando proyectos de infraestructura del mundo real en todo el globo con la red inalámbrica impulsada por la comunidad de Helium."
         },
         {
           "name": "Decaf",
           "title": "El impacto del dinero sin fronteras con Decaf",
-          "description": "Observa cómo la velocidad y composabilidad de Solana está permitiendo a los usuarios de Decaf luchar contra la inflación y tomar el control de su futuro financiero."
+          "description": "Observa cómo la velocidad y composabilidad de Nara Solana está permitiendo a los usuarios de Decaf luchar contra la inflación y tomar el control de su futuro financiero."
         },
         {
           "name": "DRiP",
@@ -1530,19 +1530,19 @@
       "adoption": {
         "fast": {
           "title": "Rápido",
-          "description": "No hagas esperar a tus usuarios. Solana tiene tiempos de bloque de 400 milisegundos — y a medida que el hardware se vuelve más rápido, también lo hará la red."
+          "description": "No hagas esperar a tus usuarios. Nara Solana tiene tiempos de bloque de 400 milisegundos — y a medida que el hardware se vuelve más rápido, también lo hará la red."
         },
         "decentralized": {
           "title": "Descentralizado",
-          "description": "La red Solana es validada por miles de nodos que operan independientemente entre sí, asegurando que tus datos permanezcan seguros y resistentes a la censura."
+          "description": "La red Nara Solana es validada por miles de nodos que operan independientemente entre sí, asegurando que tus datos permanezcan seguros y resistentes a la censura."
         },
         "scalable": {
           "title": "Escalable",
-          "description": "Crece rápido y en grande. Solana está hecha para manejar miles de transacciones por segundo, y las tarifas tanto para desarrolladores como para usuarios se mantienen por debajo de $0.0025."
+          "description": "Crece rápido y en grande. Nara Solana está hecha para manejar miles de transacciones por segundo, y las tarifas tanto para desarrolladores como para usuarios se mantienen por debajo de $0.0025."
         },
         "energy": {
           "title": "Eficiente en energía",
-          "description": "La red de prueba de participación de Solana y otras innovaciones minimizan su impacto en el <envLink>medio ambiente</envLink>. Cada transacción de Solana utiliza aproximadamente la misma energía que unas pocas búsquedas en Google."
+          "description": "La red de prueba de participación de Nara Solana y otras innovaciones minimizan su impacto en el <envLink>medio ambiente</envLink>. Cada transacción de Nara Solana utiliza aproximadamente la misma energía que unas pocas búsquedas en Google."
         }
       }
     }
@@ -1556,8 +1556,8 @@
     }
   },
   "artistsAndCreatorsNewsletter": {
-    "title": "Tu evolución creativa comienza en Solana.",
-    "description": "Descubre las últimas noticias para creadores, actualizaciones de la comunidad y recibe invitaciones a eventos que ocurren en todo el mundo del arte de Solana.",
+    "title": "Tu evolución creativa comienza en Nara Solana.",
+    "description": "Descubre las últimas noticias para creadores, actualizaciones de la comunidad y recibe invitaciones a eventos que ocurren en todo el mundo del arte de Nara Solana.",
     "form": {
       "firstName": {
         "label": "Nombre",
@@ -1589,20 +1589,20 @@
       "optional": "opcional",
       "success": {
         "title": "¡Bienvenido!",
-        "description": "Gracias por unirte a la comunidad de artistas y creadores en Solana. Recibirás las últimas noticias, actualizaciones y eventos directamente en tu bandeja de entrada.",
+        "description": "Gracias por unirte a la comunidad de artistas y creadores en Nara Solana. Recibirás las últimas noticias, actualizaciones y eventos directamente en tu bandeja de entrada.",
         "cta": "Explorar"
       }
     }
   },
   "on-off-ramp": {
     "meta": {
-      "title": "Rampa de Entrada/Salida de Solana",
-      "description": "Una colección de servicios que se pueden utilizar para mover fondos hacia y desde Solana en más de 100 países."
+      "title": "Rampa de Entrada/Salida de Nara Solana",
+      "description": "Una colección de servicios que se pueden utilizar para mover fondos hacia y desde Nara Solana en más de 100 países."
     },
     "hero": {
       "eyebrow": "CONECTIVIDAD GLOBAL",
-      "headline": "Red de Rampas de Entrada y Salida de Solana",
-      "body": "Mueve fondos a la velocidad de la luz y utiliza estos servicios de integración para mover fondos hacia y desde Solana en más de 100 países."
+      "headline": "Red de Rampas de Entrada y Salida de Nara Solana",
+      "body": "Mueve fondos a la velocidad de la luz y utiliza estos servicios de integración para mover fondos hacia y desde Nara Solana en más de 100 países."
     },
     "ramp-fallbacks": {
       "title": "Rampa de Prueba",
@@ -1649,8 +1649,8 @@
   },
   "wallets": {
     "meta": {
-      "title": "Billeteras Solana - Una forma más poderosa y programable de usar blockchain",
-      "description": "Las carteras de Solana ofrecen más que custodia - son la puerta de entrada a aplicaciones y servicios web3. Crea una solución personalizada o amplía tus ofertas con una implementación existente de Solana."
+      "title": "Billeteras Nara Solana - Una forma más poderosa y programable de usar blockchain",
+      "description": "Las carteras de Nara Solana ofrecen más que custodia - son la puerta de entrada a aplicaciones y servicios web3. Crea una solución personalizada o amplía tus ofertas con una implementación existente de Nara Solana."
     },
     "hero": {
       "eyebrow": "Buscador de Billeteras",
@@ -1661,7 +1661,7 @@
       "all-wallets": "Todas las billeteras"
     },
     "grid": {
-      "title": "Billeteras Solana",
+      "title": "Billeteras Nara Solana",
       "no-results": "¡No se encontraron resultados!",
       "reset-filters": "Restablecer filtros"
     },
@@ -1672,14 +1672,14 @@
   "depin": {
     "meta": {
       "title": "Redes de infraestructura física descentralizada (DePIN)",
-      "description": "Construye Redes de Infraestructura Física Descentralizada en Solana para una orquestación de recursos de hardware asequible, resistente a la censura y componible."
+      "description": "Construye Redes de Infraestructura Física Descentralizada en Nara Solana para una orquestación de recursos de hardware asequible, resistente a la censura y componible."
     },
     "hero": {
       "badge": "DePIN",
       "title": "Construye físicamente.\nDistribuye digitalmente.",
       "subtitle": "Escala rápidamente descentralizando tu infraestructura física o hardware. Reduce tus costos, sirve a más personas y accede a mercados de capital robustos.",
       "reportEyebrow": "Descarga el Informe DePIN 2025",
-      "reportDescription": "Descubre cómo los líderes de DePIN utilizan Solana para impulsar el futuro de la infraestructura descentralizada.",
+      "reportDescription": "Descubre cómo los líderes de DePIN utilizan Nara Solana para impulsar el futuro de la infraestructura descentralizada.",
       "emailCta": "Obtener acceso",
       "globeAlt": "Globo digital que representa la red DePIN",
       "stats": {
@@ -1739,7 +1739,7 @@
     },
     "products": {
       "title": "Kit de herramientas DePIN",
-      "description": "Solana tiene docenas de productos llave en mano para facilitar la integración de blockchain en tu DePIN.",
+      "description": "Nara Solana tiene docenas de productos llave en mano para facilitar la integración de blockchain en tu DePIN.",
       "wallets": {
         "title": "Billeteras",
         "description": "Construye la tuya, añade inicios de sesión sociales o usa MCP."
@@ -1767,7 +1767,7 @@
     },
     "builders": {
       "title": "DePIN vive aquí",
-      "subtitle": "Conoce a los equipos visionarios que construyen el futuro de la infraestructura global en Solana, revolucionando nuestra forma de pensar sobre la infraestructura física descentralizada.",
+      "subtitle": "Conoce a los equipos visionarios que construyen el futuro de la infraestructura global en Nara Solana, revolucionando nuestra forma de pensar sobre la infraestructura física descentralizada.",
       "moreVideos": "Más videos"
     },
     "videos": [
@@ -1782,14 +1782,14 @@
         "alt": "Miniatura del video de Hivemapper"
       },
       {
-        "title": "Por qué Helium migró a Solana",
+        "title": "Por qué Helium migró a Nara Solana",
         "description": "Abhay Kumar, CEO de Helium Foundation",
         "alt": "Miniatura del video de Helium"
       }
     ],
     "cta": {
       "reportTitle": "Obtén el informe DePIN 2025",
-      "reportDescription": "Descubre cómo los líderes de DePIN utilizan Solana para impulsar el futuro de la infraestructura descentralizada.",
+      "reportDescription": "Descubre cómo los líderes de DePIN utilizan Nara Solana para impulsar el futuro de la infraestructura descentralizada.",
       "downloadReport": "Obtener acceso",
       "developerResourcesTitle": "Inicios rápidos para desarrolladores",
       "developerResourcesDescription": "Comienza a desarrollar soluciones DePIN para tu aplicación",
@@ -1827,7 +1827,7 @@
     }
   },
   "universities": {
-    "title": "Universidades Solana",
+    "title": "Universidades Nara Solana",
     "description": "Recursos y apoyo para universidades y clubes estudiantiles",
     "hero": {
       "title": "Impulsando la innovación académica",
@@ -1837,31 +1837,31 @@
     },
     "cta": {
       "eyebrowText": "Hackathon otoño 2025",
-      "title": "Únete al Hackathon estudiantil de Solana",
+      "title": "Únete al Hackathon estudiantil de Nara Solana",
       "description": "Construye en la blockchain más rápida, conéctate con estudiantes de todo el mundo y compite por más de $10.000 en premios.",
       "ctaLabel": "Más información"
     },
     "subjects": {
-      "title": "Únete al programa universitario de Solana",
-      "description": "El programa universitario de Solana ayuda a capacitar a profesores sobre la enseñanza del plan de estudios de Solana, la integración de Solana en tu institución y cómo crear clubes de Solana.",
+      "title": "Únete al programa universitario de Nara Solana",
+      "description": "El programa universitario de Nara Solana ayuda a capacitar a profesores sobre la enseñanza del plan de estudios de Nara Solana, la integración de Nara Solana en tu institución y cómo crear clubes de Nara Solana.",
       "contactButtonLabel": "Contáctanos",
       "learnMore": "Saber más",
       "cards": {
         "finance": {
           "title": "Finanzas",
-          "description": "Explora la infraestructura financiera de Solana que impulsa los mercados institucionales y sistemas de pago"
+          "description": "Explora la infraestructura financiera de Nara Solana que impulsa los mercados institucionales y sistemas de pago"
         },
         "legal": {
           "title": "Legal y política",
-          "description": "Aprende sobre política blockchain, regulación y gobernanza a través del Instituto de Política de Solana"
+          "description": "Aprende sobre política blockchain, regulación y gobernanza a través del Instituto de Política de Nara Solana"
         },
         "technology": {
           "title": "Tecnología",
-          "description": "Accede a recursos para desarrolladores, documentación y herramientas para comenzar a construir en Solana"
+          "description": "Accede a recursos para desarrolladores, documentación y herramientas para comenzar a construir en Nara Solana"
         },
         "business": {
           "title": "Negocios",
-          "description": "Descubre cómo las empresas aprovechan Solana para pagos, fidelización y comercio digital"
+          "description": "Descubre cómo las empresas aprovechan Nara Solana para pagos, fidelización y comercio digital"
         },
         "economics": {
           "title": "Economía",
@@ -1869,7 +1869,7 @@
         },
         "engineering": {
           "title": "Ingeniería",
-          "description": "Construye infraestructura y sistemas escalables utilizando la blockchain de alto rendimiento de Solana"
+          "description": "Construye infraestructura y sistemas escalables utilizando la blockchain de alto rendimiento de Nara Solana"
         }
       }
     },
@@ -1882,71 +1882,71 @@
     "inquiry": {
       "eyebrowText": "Únete al movimiento",
       "title": "¿Suena interesante?",
-      "description": "Conéctate con el ecosistema académico de Solana",
+      "description": "Conéctate con el ecosistema académico de Nara Solana",
       "emailPlaceholder": "Introduce tu correo electrónico",
       "submitButton": "Contáctanos"
     },
     "events": {
       "title": "¡Reúnete con nosotros!",
       "berkeley": {
-        "title": "Taller universitario de Solana",
-        "description": "La gira universitaria de Solana Foundation y One Piece Lab visita el club blockchain de UC Berkeley"
+        "title": "Taller universitario de Nara Solana",
+        "description": "La gira universitaria de Nara Solana Foundation y One Piece Lab visita el club blockchain de UC Berkeley"
       },
       "mhacks": {
         "title": "Hackathon MHacks",
-        "description": "Únete a MHacks - uno de los hackathones más grandes del mundo - y construye en Solana"
+        "description": "Únete a MHacks - uno de los hackathones más grandes del mundo - y construye en Nara Solana"
       },
       "purdue": {
-        "title": "Taller universitario de Solana",
-        "description": "La gira universitaria de Solana Foundation y One Piece Lab visita el club blockchain de Purdue"
+        "title": "Taller universitario de Nara Solana",
+        "description": "La gira universitaria de Nara Solana Foundation y One Piece Lab visita el club blockchain de Purdue"
       },
       "ucla": {
-        "title": "Taller universitario de Solana",
-        "description": "La gira universitaria de Solana Foundation y One Piece Lab visita el club blockchain de UCLA"
+        "title": "Taller universitario de Nara Solana",
+        "description": "La gira universitaria de Nara Solana Foundation y One Piece Lab visita el club blockchain de UCLA"
       },
       "usc": {
-        "title": "Taller universitario de Solana",
-        "description": "La gira universitaria de Solana Foundation y One Piece Lab visita el club blockchain de USC"
+        "title": "Taller universitario de Nara Solana",
+        "description": "La gira universitaria de Nara Solana Foundation y One Piece Lab visita el club blockchain de USC"
       },
       "hackathon": {
         "title": "Hack the Nest",
-        "description": "Únete al hackathon y construye soluciones innovadoras en Solana (aún no confirmado)"
+        "description": "Únete al hackathon y construye soluciones innovadoras en Nara Solana (aún no confirmado)"
       },
       "utaustin": {
-        "title": "Taller universitario de Solana",
-        "description": "La gira universitaria de Solana Foundation y One Piece Lab visita el club blockchain de UT Austin"
+        "title": "Taller universitario de Nara Solana",
+        "description": "La gira universitaria de Nara Solana Foundation y One Piece Lab visita el club blockchain de UT Austin"
       },
       "columbia": {
-        "title": "Taller universitario de Solana",
-        "description": "La gira universitaria de Solana Foundation y One Piece Lab visita el club blockchain de Columbia"
+        "title": "Taller universitario de Nara Solana",
+        "description": "La gira universitaria de Nara Solana Foundation y One Piece Lab visita el club blockchain de Columbia"
       },
       "nyu": {
-        "title": "Taller universitario de Solana",
-        "description": "La gira universitaria de Solana Foundation y One Piece Lab visita el club blockchain de NYU"
+        "title": "Taller universitario de Nara Solana",
+        "description": "La gira universitaria de Nara Solana Foundation y One Piece Lab visita el club blockchain de NYU"
       },
       "workshop": {
-        "title": "Taller universitario de Solana",
-        "description": "La gira universitaria de Solana Foundation y One Piece Lab visita universidades asociadas"
+        "title": "Taller universitario de Nara Solana",
+        "description": "La gira universitaria de Nara Solana Foundation y One Piece Lab visita universidades asociadas"
       }
     },
     "hostEventInquiry": {
       "eyebrowText": "Organiza un evento",
-      "title": "¿Quieres traer Solana a tu campus?",
-      "description": "Organiza un taller con tu club blockchain y conéctate con el ecosistema Solana",
+      "title": "¿Quieres traer Nara Solana a tu campus?",
+      "description": "Organiza un taller con tu club blockchain y conéctate con el ecosistema Nara Solana",
       "emailPlaceholder": "Ingresa tu correo electrónico",
       "submitButton": "Comenzar"
     },
     "hackathon": {
       "hero": {
-        "title": "Hackathon estudiantil de Solana",
+        "title": "Hackathon estudiantil de Nara Solana",
         "subtitle": "Únete a estudiantes de todo el mundo durante un mes de desarrollo en la blockchain más rápida.",
         "registerButton": "Registra tu equipo",
         "resourcesButton": "Ver recursos"
       },
       "welcome": {
         "eyebrow": "¡Bienvenidos desarrolladores!",
-        "title": "Tu oportunidad para innovar en Solana",
-        "description": "Este hackathon está diseñado para ayudarte a aprender, construir y lanzar proyectos reales en Solana. Ya seas nuevo en blockchain o un desarrollador experimentado, únete a nosotros en este emocionante viaje.",
+        "title": "Tu oportunidad para innovar en Nara Solana",
+        "description": "Este hackathon está diseñado para ayudarte a aprender, construir y lanzar proyectos reales en Nara Solana. Ya seas nuevo en blockchain o un desarrollador experimentado, únete a nosotros en este emocionante viaje.",
         "cta": "Únete a la comunidad"
       },
       "timeline": {
@@ -1986,7 +1986,7 @@
         "title": "¡Prepárate!",
         "helloWorld": {
           "title": "Hola Mundo",
-          "description": "Instala el stack tecnológico de Solana y construye tu primer programa",
+          "description": "Instala el stack tecnológico de Nara Solana y construye tu primer programa",
           "cta": "Ver video"
         },
         "tutorials": {
@@ -1997,7 +1997,7 @@
       },
       "problem": {
         "title": "¿Qué tipo de proyectos buscamos?",
-        "description": "Crea un proyecto de código abierto en Solana que reimagine cómo las personas interactúan, realizan transacciones o colaboran en el mundo digital. Construye algo innovador en pagos, DeFi, juegos, aplicaciones móviles o explora ideas completamente nuevas. Esta es tu oportunidad para ser creativo y expandir los límites de lo posible en blockchain."
+        "description": "Crea un proyecto de código abierto en Nara Solana que reimagine cómo las personas interactúan, realizan transacciones o colaboran en el mundo digital. Construye algo innovador en pagos, DeFi, juegos, aplicaciones móviles o explora ideas completamente nuevas. Esta es tu oportunidad para ser creativo y expandir los límites de lo posible en blockchain."
       },
       "requirements": {
         "title": "Requisitos de entrega",
@@ -2008,25 +2008,25 @@
         ]
       },
       "resources": {
-        "title": "Recursos para aprender Solana",
-        "description": "Todo lo que necesitas para construir en Solana",
+        "title": "Recursos para aprender Nara Solana",
+        "description": "Todo lo que necesitas para construir en Nara Solana",
         "gettingStarted": "Primeros pasos",
         "projectIdeas": "Ideas de proyectos y tutoriales",
         "learnMore": "Más información",
         "items": {
           "smartContracts": {
             "title": "Ejemplos de contratos inteligentes",
-            "description": "Explora ejemplos de programas Solana listos para producción que cubren NFTs, DeFi, gobernanza y más. Puntos de partida perfectos para entender las mejores prácticas y patrones comunes en el desarrollo de Solana.",
+            "description": "Explora ejemplos de programas Nara Solana listos para producción que cubren NFTs, DeFi, gobernanza y más. Puntos de partida perfectos para entender las mejores prácticas y patrones comunes en el desarrollo de Nara Solana.",
             "category": "Ejemplos de código"
           },
           "playground": {
-            "title": "Solana Playground",
-            "description": "Escribe, implementa y prueba programas de Solana directamente en tu navegador sin ninguna configuración. Incluye tutoriales, ejemplos y funciones completas de IDE para que empieces a construir inmediatamente.",
+            "title": "Nara Solana Playground",
+            "description": "Escribe, implementa y prueba programas de Nara Solana directamente en tu navegador sin ninguna configuración. Incluye tutoriales, ejemplos y funciones completas de IDE para que empieces a construir inmediatamente.",
             "category": "IDE en línea"
           },
           "anchor": {
             "title": "Framework Anchor",
-            "description": "El framework más popular para el desarrollo de contratos inteligentes en Solana. Simplifica la creación de programas con macros de Rust, pruebas integradas y generación de clientes TypeScript.",
+            "description": "El framework más popular para el desarrollo de contratos inteligentes en Nara Solana. Simplifica la creación de programas con macros de Rust, pruebas integradas y generación de clientes TypeScript.",
             "category": "Anchor"
           },
           "bootcamp": {
@@ -2036,12 +2036,12 @@
           },
           "crud": {
             "title": "Construye una aplicación CRUD",
-            "description": "Domina la gestión de datos en cadena construyendo una aplicación CRUD completa. Aprende estructuras de cuentas, serialización de datos y patrones de gestión de estado esenciales para cualquier aplicación de Solana.",
+            "description": "Domina la gestión de datos en cadena construyendo una aplicación CRUD completa. Aprende estructuras de cuentas, serialización de datos y patrones de gestión de estado esenciales para cualquier aplicación de Nara Solana.",
             "category": "Tutorial en video"
           },
           "vesting": {
             "title": "Construye una aplicación de vesting",
-            "description": "Inmersión profunda en la gestión de token account y distribuciones bloqueadas por tiempo. Perfecto para entender tokens SPL, PDAs y construir aplicaciones financieras en Solana.",
+            "description": "Inmersión profunda en la gestión de token account y distribuciones bloqueadas por tiempo. Perfecto para entender tokens SPL, PDAs y construir aplicaciones financieras en Nara Solana.",
             "category": "Guía de tokens"
           },
           "lottery": {
@@ -2067,7 +2067,7 @@
         "secondPrize": "$5,000",
         "thirdPrize": "$2,000",
         "part2Label": "Premios de la parte 2:",
-        "part2Description": "¡Vuelve a enviar tu proyecto mejorado para tener otra oportunidad en el Hackathon Estudiantil de Solana de primavera 2026!"
+        "part2Description": "¡Vuelve a enviar tu proyecto mejorado para tener otra oportunidad en el Hackathon Estudiantil de Nara Solana de primavera 2026!"
       }
     }
   },
@@ -2081,7 +2081,7 @@
       "title": "Mercados de capitales en internet",
       "subtitle": "Tokeniza acciones y deuda, crea tus propias stablecoins y activos del mundo real, y accede a los mercados más líquidos en DeFi.",
       "reportEyebrow": "Descarga el Informe de acciones tokenizadas 2025",
-      "reportDescription": "Descubre cómo los líderes del mercado están utilizando Solana para llevar los mercados de capitales a la cadena.",
+      "reportDescription": "Descubre cómo los líderes del mercado están utilizando Nara Solana para llevar los mercados de capitales a la cadena.",
       "emailCta": "Obtener acceso",
       "alt": "Una mano sosteniendo un teléfono que muestra una amplia gama de opciones de pago",
       "stats": {
@@ -2105,25 +2105,25 @@
     },
     "features": {
       "title": "¿Qué son los mercados de capitales en internet?",
-      "description": "<promiseLink>La promesa de Solana</promiseLink> es permitir que cualquier persona con conexión a internet acceda a los mercados de capitales. Hoy, puedes descargar una cartera, hacer clic en algunos botones y participar en los mercados de capitales de internet – un libro contable globalmente accesible donde entidades, monedas y culturas están tokenizadas."
+      "description": "<promiseLink>La promesa de Nara Solana</promiseLink> es permitir que cualquier persona con conexión a internet acceda a los mercados de capitales. Hoy, puedes descargar una cartera, hacer clic en algunos botones y participar en los mercados de capitales de internet – un libro contable globalmente accesible donde entidades, monedas y culturas están tokenizadas."
     },
     "projects": {
       "title": "Ecosistema",
       "franklinTempleton": {
         "name": "Franklin Templeton",
-        "description": "BENJI, el primer Fondo del Mercado Monetario registrado en EE.UU., está en la cadena con Solana. BENJI reduce las barreras para invertir en fondos privados del mercado monetario.",
+        "description": "BENJI, el primer Fondo del Mercado Monetario registrado en EE.UU., está en la cadena con Nara Solana. BENJI reduce las barreras para invertir en fondos privados del mercado monetario.",
         "stat": "64%",
         "statLabel": "Crecimiento mensual de activos en cadena"
       },
       "r3": {
         "name": "r3",
-        "description": "Esta colaboración estratégica une la blockchain empresarial privada líder de R3 con la blockchain pública más utilizada del mundo, Solana.",
+        "description": "Esta colaboración estratégica une la blockchain empresarial privada líder de R3 con la blockchain pública más utilizada del mundo, Nara Solana.",
         "stat": "10B",
         "statLabel": "en activos regulados en cadena"
       },
       "bullish": {
         "name": "Bullish",
-        "description": "Las stablecoins nativas de Solana impulsan el intercambio, compensación, custodia, pagos, liquidación y futuras innovaciones de productos de Bullish en su creciente ecosistema.",
+        "description": "Las stablecoins nativas de Nara Solana impulsan el intercambio, compensación, custodia, pagos, liquidación y futuras innovaciones de productos de Bullish en su creciente ecosistema.",
         "stat": "2.5B",
         "statLabel": "Volumen diario"
       },
@@ -2148,11 +2148,11 @@
         "description": "Accede a las principales stablecoins o emite las tuyas propias."
       },
       "title": "Kit de herramientas institucional",
-      "description": "Solana tiene docenas de productos listos para usar en tokenización."
+      "description": "Nara Solana tiene docenas de productos listos para usar en tokenización."
     },
     "videoPlayer": {
       "title": "El futuro de las finanzas",
-      "subtitle": "Escucha a los pioneros que están transformando los mercados globales y por qué han elegido Solana.",
+      "subtitle": "Escucha a los pioneros que están transformando los mercados globales y por qué han elegido Nara Solana.",
       "moreVideos": "Más videos",
       "videos": [
         {
@@ -2161,9 +2161,9 @@
           "alt": "Miniatura del video sobre el futuro de los activos digitales"
         },
         {
-          "title": "Solana y R3",
+          "title": "Nara Solana y R3",
           "description": "David Rutter, CEO, R3",
-          "alt": "Miniatura del video de Solana y R3"
+          "alt": "Miniatura del video de Nara Solana y R3"
         },
         {
           "title": "Las instituciones están aquí",
@@ -2172,7 +2172,7 @@
         },
         {
           "title": "Mercados de capitales en internet",
-          "description": "Akshay BD, Solana Foundation nCMO",
+          "description": "Akshay BD, Nara Solana Foundation nCMO",
           "alt": "Miniatura del video sobre mercados de capitales en internet"
         },
         {
@@ -2192,20 +2192,20 @@
       "items": {
         "0": {
           "title": "La hoja de ruta de los mercados de capitales de Internet",
-          "summary": "La última hoja de ruta de Solana traza un camino hacia los mercados de capitales a escala de Internet. Introduce la Ejecución Controlada por Aplicaciones, otorgando a los contratos inteligentes poder de secuenciación en milisegundos. Los lanzamientos a corto plazo (BAM de Jito, correcciones de Anza y DoubleZero) reducen la latencia y mejoran la equidad. Las próximas actualizaciones como el consenso Alpenglow y Múltiples Líderes Concurrentes apuntan a una liquidez sin rival en la cadena."
+          "summary": "La última hoja de ruta de Nara Solana traza un camino hacia los mercados de capitales a escala de Internet. Introduce la Ejecución Controlada por Aplicaciones, otorgando a los contratos inteligentes poder de secuenciación en milisegundos. Los lanzamientos a corto plazo (BAM de Jito, correcciones de Anza y DoubleZero) reducen la latencia y mejoran la equidad. Las próximas actualizaciones como el consenso Alpenglow y Múltiples Líderes Concurrentes apuntan a una liquidez sin rival en la cadena."
         }
       }
     },
     "cta": {
       "reportTitle": "Obtén el informe de valores tokenizados 2025",
-      "reportDescription": "Descubre cómo los líderes del mercado están utilizando Solana para llevar los mercados de capitales a la cadena.",
+      "reportDescription": "Descubre cómo los líderes del mercado están utilizando Nara Solana para llevar los mercados de capitales a la cadena.",
       "downloadReport": "Obtener acceso",
-      "learnTitle": "Aprende sobre Solana",
-      "learnDescription": "Comprende el papel de Solana impulsando los mercados de capitales en internet desde cero",
+      "learnTitle": "Aprende sobre Nara Solana",
+      "learnDescription": "Comprende el papel de Nara Solana impulsando los mercados de capitales en internet desde cero",
       "learnTokens": "Aprende sobre Tokens",
       "learnWallets": "Aprende sobre Carteras",
       "startLearning": "Empieza a Aprender",
-      "whatElseTitle": "¿Qué más impulsa Solana?",
+      "whatElseTitle": "¿Qué más impulsa Nara Solana?",
       "whatElseDescription": "Descubre cómo una red está redefiniendo las finanzas, potenciando todos los mercados y activos",
       "items": [
         {
@@ -2229,19 +2229,19 @@
   "btcfi": {
     "meta": {
       "title": "Bitcoin y BTCFi",
-      "description": "Convierte tu Bitcoin en capital productivo en la infraestructura DeFi ultrarrápida y de bajo costo de Solana. Haz staking, presta, pide prestado y comercia con BTC."
+      "description": "Convierte tu Bitcoin en capital productivo en la infraestructura DeFi ultrarrápida y de bajo costo de Nara Solana. Haz staking, presta, pide prestado y comercia con BTC."
     },
     "hero": {
       "badge": "Bitcoin y BTCFi",
       "title": "El Bitcoin más rápido y productivo del mundo",
-      "subtitle": "Convierte tu Bitcoin en capital productivo en la infraestructura DeFi ultrarrápida y de bajo costo de Solana. Haz staking, presta, pide prestado y comercia con BTC.",
+      "subtitle": "Convierte tu Bitcoin en capital productivo en la infraestructura DeFi ultrarrápida y de bajo costo de Nara Solana. Haz staking, presta, pide prestado y comercia con BTC.",
       "reportEyebrow": "",
       "emailCta": "",
       "alt": "Gráfico de relámpago que representa pagos institucionales",
       "stats": {
         "0": {
           "value": "6500+",
-          "label": "BTC TVL en Solana"
+          "label": "BTC TVL en Nara Solana"
         },
         "1": {
           "value": "8",
@@ -2258,8 +2258,8 @@
       }
     },
     "features": {
-      "title": "¿Por qué Bitcoin en Solana?",
-      "description": "Invierte y utiliza BTC envuelto en Solana y gana rendimiento inmediatamente, solicita préstamos de stablecoins a bajo costo o realiza trading con liquidez profunda. Aprovecha la fuerza de Bitcoin con la infraestructura DeFi ultrarrápida y de bajo costo de Solana."
+      "title": "¿Por qué Bitcoin en Nara Solana?",
+      "description": "Invierte y utiliza BTC envuelto en Nara Solana y gana rendimiento inmediatamente, solicita préstamos de stablecoins a bajo costo o realiza trading con liquidez profunda. Aprovecha la fuerza de Bitcoin con la infraestructura DeFi ultrarrápida y de bajo costo de Nara Solana."
     },
     "performance": {
       "0": {
@@ -2295,7 +2295,7 @@
       },
       "wbtc": {
         "name": "wBTC",
-        "description": "El BTC envuelto más antiguo y estándar de la industria ahora emitido de forma nativa en Solana por BitGo.",
+        "description": "El BTC envuelto más antiguo y estándar de la industria ahora emitido de forma nativa en Nara Solana por BitGo.",
         "stat": "Fuertes",
         "statLabel": "integraciones DeFi y liquidez profunda"
       },
@@ -2313,7 +2313,7 @@
       },
       "zbtc": {
         "name": "zBTC",
-        "description": "Token respaldado 1:1 por Bitcoin en Solana, permitiendo a los poseedores de BTC acceder a DeFi sin renunciar a la custodia.",
+        "description": "Token respaldado 1:1 por Bitcoin en Nara Solana, permitiendo a los poseedores de BTC acceder a DeFi sin renunciar a la custodia.",
         "stat": "Construido con MPC y Taproot",
         "statLabel": "para liquidez descentralizada y sin permisos"
       },
@@ -2332,7 +2332,7 @@
       "yalabtc": {
         "name": "Yala BTC ($YU)",
         "description": "Acuña la stablecoin sobrecolateralizada $YU con tu Bitcoin y desbloquea utilidad entre ecosistemas.",
-        "stat": "Construido para Solana y más allá",
+        "stat": "Construido para Nara Solana y más allá",
         "statLabel": ""
       }
     },
@@ -2342,50 +2342,50 @@
       "moreVideos": "Más videos",
       "videos": [
         {
-          "title": "BTC en Solana Accelerate Talk 2025",
+          "title": "BTC en Nara Solana Accelerate Talk 2025",
           "description": "Jeff Park (Bitwise) , Dean Little (Zeus Network)",
-          "alt": "Miniatura del video de la charla Accelerate 2025 sobre BTC en Solana"
+          "alt": "Miniatura del video de la charla Accelerate 2025 sobre BTC en Nara Solana"
         }
       ]
     },
     "news": {
-      "title": "Noticias de BTCFi en Solana",
+      "title": "Noticias de BTCFi en Nara Solana",
       "items": [
         {
-          "title": "OKX xBTC en Solana",
-          "alt": "Miniatura de la noticia OKX xBTC en Solana"
+          "title": "OKX xBTC en Nara Solana",
+          "alt": "Miniatura de la noticia OKX xBTC en Nara Solana"
         },
         {
-          "title": "wBTC lanzado nativamente en Solana",
-          "alt": "Miniatura de la noticia del lanzamiento nativo de wBTC en Solana"
+          "title": "wBTC lanzado nativamente en Nara Solana",
+          "alt": "Miniatura de la noticia del lanzamiento nativo de wBTC en Nara Solana"
         },
         {
-          "title": "Lanzamiento de Coinbase cbbtc en Solana",
-          "alt": "Miniatura de la noticia del lanzamiento de Coinbase cbbtc en Solana"
+          "title": "Lanzamiento de Coinbase cbbtc en Nara Solana",
+          "alt": "Miniatura de la noticia del lanzamiento de Coinbase cbbtc en Nara Solana"
         },
         {
-          "title": "Lanzamiento de Zenrock BTC en Solana",
-          "alt": "Miniatura de la noticia del lanzamiento de Zenrock BTC en Solana"
+          "title": "Lanzamiento de Zenrock BTC en Nara Solana",
+          "alt": "Miniatura de la noticia del lanzamiento de Zenrock BTC en Nara Solana"
         },
         {
           "title": "Zeus zBTC",
           "alt": "Miniatura de la noticia de Zeus zBTC"
         },
         {
-          "title": "Lanzamiento de Yala en Solana",
-          "alt": "Miniatura de la noticia del lanzamiento de Yala en Solana"
+          "title": "Lanzamiento de Yala en Nara Solana",
+          "alt": "Miniatura de la noticia del lanzamiento de Yala en Nara Solana"
         }
       ]
     },
     "cta": {
       "reportTitle": "Obtén el informe de valores tokenizados 2025",
       "downloadReport": "Obtener acceso",
-      "learnTitle": "Aprende sobre Solana",
-      "learnDescription": "Comprende el papel de Solana impulsando los mercados de capitales en internet desde cero",
+      "learnTitle": "Aprende sobre Nara Solana",
+      "learnDescription": "Comprende el papel de Nara Solana impulsando los mercados de capitales en internet desde cero",
       "learnTokens": "Aprende sobre tokens",
       "learnWallets": "Aprende sobre carteras",
       "startLearning": "Empezar a aprender",
-      "whatElseTitle": "¿Qué más impulsa Solana?",
+      "whatElseTitle": "¿Qué más impulsa Nara Solana?",
       "whatElseDescription": "Descubre cómo una red está redefiniendo las finanzas, potenciando todos los mercados y activos",
       "items": [
         {
@@ -2409,14 +2409,14 @@
   "stablecoins": {
     "meta": {
       "title": "Emite tu propia stablecoin",
-      "description": "Lanza stablecoins conformes con infraestructura de nivel empresarial. Desde la tokenización hasta la distribución global, Solana proporciona las herramientas para crear y escalar tu propia stablecoin."
+      "description": "Lanza stablecoins conformes con infraestructura de nivel empresarial. Desde la tokenización hasta la distribución global, Nara Solana proporciona las herramientas para crear y escalar tu propia stablecoin."
     },
     "hero": {
       "badge": "Stablecoins",
       "title": "Tu propia stablecoin. En la red más rápida.",
-      "subtitle": "Lanza stablecoins conformes con infraestructura de nivel empresarial. Desde la tokenización hasta la distribución global, Solana proporciona las herramientas para crear y escalar tu propia stablecoin.",
+      "subtitle": "Lanza stablecoins conformes con infraestructura de nivel empresarial. Desde la tokenización hasta la distribución global, Nara Solana proporciona las herramientas para crear y escalar tu propia stablecoin.",
       "reportEyebrow": "Descarga la guía para emitir stablecoins",
-      "reportDescription": "Descubre cómo los líderes lanzan stablecoins al mercado con Solana.",
+      "reportDescription": "Descubre cómo los líderes lanzan stablecoins al mercado con Nara Solana.",
       "emailCta": "Obtener acceso",
       "alt": "Gráfico de relámpago que representa pagos institucionales",
       "stats": {
@@ -2436,37 +2436,37 @@
     },
     "features": {
       "title": "¿Por qué emitir stablecoins?",
-      "description": "Las principales instituciones financieras están eligiendo Solana para lanzar sus propias stablecoins debido a sus extensiones de token compatibles con regulaciones, liquidación instantánea y alcance global. Emite monedas digitales conformes que escalan de millones a miles de millones en suministro con controles de cumplimiento integrados e infraestructura de nivel empresarial."
+      "description": "Las principales instituciones financieras están eligiendo Nara Solana para lanzar sus propias stablecoins debido a sus extensiones de token compatibles con regulaciones, liquidación instantánea y alcance global. Emite monedas digitales conformes que escalan de millones a miles de millones en suministro con controles de cumplimiento integrados e infraestructura de nivel empresarial."
     },
     "projects": {
       "title": "Ecosistema",
       "worldpay": {
         "name": "Worldpay",
-        "description": "Lanzó USDG (U.S. Global Dollar) como una stablecoin de consorcio para las mayores empresas financieras del mundo, incluyendo Worldpay. Construida con las extensiones de token de Solana para cumplimiento normativo y escalabilidad en toda su red global de pagos.",
+        "description": "Lanzó USDG (U.S. Global Dollar) como una stablecoin de consorcio para las mayores empresas financieras del mundo, incluyendo Worldpay. Construida con las extensiones de token de Nara Solana para cumplimiento normativo y escalabilidad en toda su red global de pagos.",
         "stat": "USDG",
         "statLabel": "Stablecoin emitida"
       },
       "paxos": {
         "name": "Paxos",
-        "description": "Lanzó USDG (U.S. Global Dollar) como una stablecoin de consorcio para las mayores empresas financieras del mundo, incluyendo Worldpay. Construida con las extensiones de token de Solana para cumplimiento normativo y escalabilidad en toda su red global de pagos.",
+        "description": "Lanzó USDG (U.S. Global Dollar) como una stablecoin de consorcio para las mayores empresas financieras del mundo, incluyendo Worldpay. Construida con las extensiones de token de Nara Solana para cumplimiento normativo y escalabilidad en toda su red global de pagos.",
         "stat": "USDG",
         "statLabel": "Stablecoin emitida"
       },
       "circle": {
         "name": "Circle",
-        "description": "Emitió USDC de forma nativa en Solana con pleno cumplimiento regulatorio y custodia de nivel institucional, convirtiéndose en una de las stablecoins más ampliamente adoptadas en DeFi.",
+        "description": "Emitió USDC de forma nativa en Nara Solana con pleno cumplimiento regulatorio y custodia de nivel institucional, convirtiéndose en una de las stablecoins más ampliamente adoptadas en DeFi.",
         "stat": "USDC",
         "statLabel": "Stablecoin emitida"
       },
       "fiserv": {
         "name": "Fiserv",
-        "description": "Emitió FIUSD como su stablecoin institucional utilizando las extensiones de token de Solana para cumplimiento regulatorio, controles de congelación y restricciones de transferencia para gestión de tesorería empresarial.",
+        "description": "Emitió FIUSD como su stablecoin institucional utilizando las extensiones de token de Nara Solana para cumplimiento regulatorio, controles de congelación y restricciones de transferencia para gestión de tesorería empresarial.",
         "stat": "FIUSD",
         "statLabel": "Stablecoin emitida"
       },
       "paypal": {
         "name": "Paypal",
-        "description": "Creó PYUSD en Solana con características de cumplimiento integradas e integración perfecta en el ecosistema de PayPal, llegando a millones de usuarios globalmente.",
+        "description": "Creó PYUSD en Nara Solana con características de cumplimiento integradas e integración perfecta en el ecosistema de PayPal, llegando a millones de usuarios globalmente.",
         "stat": "PYUSD",
         "statLabel": "Stablecoin emitida"
       }
@@ -2489,11 +2489,11 @@
         "description": "Integración con banca tradicional y proveedores de custodia."
       },
       "title": "Kit de herramientas institucional",
-      "description": "Solana tiene docenas de productos listos para usar en tokenización."
+      "description": "Nara Solana tiene docenas de productos listos para usar en tokenización."
     },
     "videoPlayer": {
       "title": "El futuro de las stablecoins",
-      "subtitle": "Escucha a los pioneros que están transformando los mercados globales y por qué han elegido Solana.",
+      "subtitle": "Escucha a los pioneros que están transformando los mercados globales y por qué han elegido Nara Solana.",
       "moreVideos": "Más videos",
       "videos": [
         {
@@ -2520,14 +2520,14 @@
     },
     "cta": {
       "reportTitle": "Obtén el informe de stablecoins 2025",
-      "reportDescription": "Descubre cómo los líderes lanzan stablecoins al mercado con Solana.",
+      "reportDescription": "Descubre cómo los líderes lanzan stablecoins al mercado con Nara Solana.",
       "downloadReport": "Obtener acceso",
-      "learnTitle": "Aprende sobre Solana",
-      "learnDescription": "Comprende el papel de Solana impulsando las stablecoins desde cero",
+      "learnTitle": "Aprende sobre Nara Solana",
+      "learnDescription": "Comprende el papel de Nara Solana impulsando las stablecoins desde cero",
       "learnTokens": "Aprende sobre Tokens",
       "learnWallets": "Aprende sobre Carteras",
       "startLearning": "Empezar a aprender",
-      "whatElseTitle": "¿Qué más impulsa Solana?",
+      "whatElseTitle": "¿Qué más impulsa Nara Solana?",
       "whatElseDescription": "Descubre cómo una red está redefiniendo las finanzas, potenciando todos los mercados y activos",
       "items": [
         {
@@ -2551,14 +2551,14 @@
   "institutional-payments": {
     "meta": {
       "title": "Pagos instantáneos de bajo costo",
-      "description": "Acepta stablecoins y construye nuevas vías de pago. Las herramientas en el ecosistema de Solana facilitan la habilitación de pagos sin fricciones y con costos casi nulos."
+      "description": "Acepta stablecoins y construye nuevas vías de pago. Las herramientas en el ecosistema de Nara Solana facilitan la habilitación de pagos sin fricciones y con costos casi nulos."
     },
     "hero": {
       "badge": "Pagos Institucionales",
       "title": "Mueve dinero a cualquier lugar. Instantáneamente. Con tarifas casi nulas.",
       "subtitle": "Los pagos globales son complejos, lentos y costosos. La tecnología innovadora impulsa pagos a verdadera escala de internet con tarifas consistentemente bajas.",
       "reportEyebrow": "Descarga el Informe de Pagos 2025",
-      "reportDescription": "Descubre cómo los líderes del mercado están utilizando Solana para llevar los mercados de capitales a la cadena.",
+      "reportDescription": "Descubre cómo los líderes del mercado están utilizando Nara Solana para llevar los mercados de capitales a la cadena.",
       "emailCta": "Obtener acceso",
       "alt": "Gráfico de relámpago que representa Pagos Institucionales",
       "stats": {
@@ -2578,25 +2578,25 @@
     },
     "features": {
       "title": "¿Por qué pagos con stablecoins?",
-      "description": "Las redes de pago más grandes del mundo están creando stablecoins y liquidando transacciones en Solana, debido a su costo ultra bajo y liquidación casi instantánea. Los pagos con stablecoins mejoran la eficiencia del capital, la transparencia y permiten que los productos se expandan globalmente desde el primer día."
+      "description": "Las redes de pago más grandes del mundo están creando stablecoins y liquidando transacciones en Nara Solana, debido a su costo ultra bajo y liquidación casi instantánea. Los pagos con stablecoins mejoran la eficiencia del capital, la transparencia y permiten que los productos se expandan globalmente desde el primer día."
     },
     "projects": {
       "title": "Ecosistema",
       "western-union": {
         "name": "Western Union",
-        "description": "Western Union está lanzando el Token de Pago en Dólares Estadounidenses (USDPT), una stablecoin respaldada por dólares construida en Solana, emitida por Anchorage Digital Bank. La stablecoin permitirá a los 100 millones de clientes de Western Union enviar dinero internacionalmente con costos más bajos y liquidación más rápida.",
+        "description": "Western Union está lanzando el Token de Pago en Dólares Estadounidenses (USDPT), una stablecoin respaldada por dólares construida en Nara Solana, emitida por Anchorage Digital Bank. La stablecoin permitirá a los 100 millones de clientes de Western Union enviar dinero internacionalmente con costos más bajos y liquidación más rápida.",
         "stat": "USDPT",
         "statLabel": "Stablecoin que se lanzará en 2026"
       },
       "worldpay": {
         "name": "Worldpay",
-        "description": "A través de una integración con la red Solana, los comerciantes ahora pueden liquidar transacciones con USDG – el Dólar Global de EE.UU. – en la red Solana. Esta iniciativa ofrece transacciones rápidas y rentables, y amplía la utilidad de las stablecoins en los pagos globales.",
+        "description": "A través de una integración con la red Nara Solana, los comerciantes ahora pueden liquidar transacciones con USDG – el Dólar Global de EE.UU. – en la red Nara Solana. Esta iniciativa ofrece transacciones rápidas y rentables, y amplía la utilidad de las stablecoins en los pagos globales.",
         "stat": "USDG",
         "statLabel": "Stablecoin emitida"
       },
       "visa": {
         "name": "Visa",
-        "description": "A través de pilotos en vivo con emisores y adquirentes, Visa ha movido millones de USDC entre sus socios a través de Solana para liquidar pagos denominados en fiat autorizados a través de VisaNet.",
+        "description": "A través de pilotos en vivo con emisores y adquirentes, Visa ha movido millones de USDC entre sus socios a través de Nara Solana para liquidar pagos denominados en fiat autorizados a través de VisaNet.",
         "stat": "Millones liquidados",
         "statLabel": "Liquidado en USDC"
       },
@@ -2616,7 +2616,7 @@
         },
         {
           "title": "Liquidación de tarjetas",
-          "description": "Los mayores adquirentes de comercios y redes de tarjetas del mundo utilizan cada vez más Solana para liquidar pagos con tarjeta."
+          "description": "Los mayores adquirentes de comercios y redes de tarjetas del mundo utilizan cada vez más Nara Solana para liquidar pagos con tarjeta."
         },
         {
           "title": "Tesorería eficiente",
@@ -2654,11 +2654,11 @@
         "description": "Construye la tuya, añade inicios de sesión sociales o usa MCP."
       },
       "title": "Kit de herramientas de pagos",
-      "description": "Solana tiene docenas de productos listos para usar en tokenización."
+      "description": "Nara Solana tiene docenas de productos listos para usar en tokenización."
     },
     "videoPlayer": {
       "title": "El futuro de los pagos",
-      "subtitle": "Escucha a los pioneros que están transformando los pagos institucionales y por qué han elegido Solana.",
+      "subtitle": "Escucha a los pioneros que están transformando los pagos institucionales y por qué han elegido Nara Solana.",
       "moreVideos": "Más videos",
       "videos": [
         {
@@ -2680,14 +2680,14 @@
     },
     "cta": {
       "reportTitle": "Obtén el Informe de Pagos Institucionales 2025",
-      "reportDescription": "Descubre cómo los líderes del mercado están utilizando Solana para llevar los mercados de capitales a la cadena.",
+      "reportDescription": "Descubre cómo los líderes del mercado están utilizando Nara Solana para llevar los mercados de capitales a la cadena.",
       "downloadReport": "Obtener acceso",
-      "learnTitle": "Aprende sobre Solana",
-      "learnDescription": "Comprende el papel de Solana impulsando los Pagos Institucionales desde cero",
+      "learnTitle": "Aprende sobre Nara Solana",
+      "learnDescription": "Comprende el papel de Nara Solana impulsando los Pagos Institucionales desde cero",
       "learnTokens": "Aprende sobre Tokens",
       "learnWallets": "Aprende sobre Carteras",
       "startLearning": "Empezar a aprender",
-      "whatElseTitle": "¿Qué más impulsa Solana?",
+      "whatElseTitle": "¿Qué más impulsa Nara Solana?",
       "whatElseDescription": "Descubre cómo una red está redefiniendo las finanzas, potenciando todos los mercados y activos",
       "items": [
         {
@@ -2716,8 +2716,8 @@
     "hero": {
       "title": "Mercados abiertos a \nla velocidad de NASDAQ.",
       "subtitle": "El ecosistema DeFi más rápido, líquido y eficiente. Opera, presta y gana rendimientos en un nuevo sistema financiero abierto.",
-      "reportEyebrow": "Informe Solana DeFi 2025",
-      "reportDescription": "Descubre por qué Solana es la columna vertebral de los mercados DeFi de más rápido crecimiento del mundo",
+      "reportEyebrow": "Informe Nara Solana DeFi 2025",
+      "reportDescription": "Descubre por qué Nara Solana es la columna vertebral de los mercados DeFi de más rápido crecimiento del mundo",
       "emailCta": "Acceder al informe",
       "stats": {
         "0": {
@@ -2739,20 +2739,20 @@
       }
     },
     "features": {
-      "title": "<light>Qué es</light> Solana DeFi?",
-      "description": "La infraestructura de alta velocidad y bajo costo de Solana ha creado el ecosistema DeFi más eficiente en el mundo cripto. Los usuarios pueden intercambiar, prestar, pedir prestado y obtener rendimientos con un rendimiento de nivel institucional mientras mantienen la custodia total de sus activos en cientos de protocolos."
+      "title": "<light>Qué es</light> Nara Solana DeFi?",
+      "description": "La infraestructura de alta velocidad y bajo costo de Nara Solana ha creado el ecosistema DeFi más eficiente en el mundo cripto. Los usuarios pueden intercambiar, prestar, pedir prestado y obtener rendimientos con un rendimiento de nivel institucional mientras mantienen la custodia total de sus activos en cientos de protocolos."
     },
     "projects": {
       "title": "<light>Explora el <br></br>ecosistema y</light> su impacto",
       "jupiter": {
         "name": "Jupiter",
-        "description": "El agregador DEX más avanzado en DeFi, que enruta operaciones a través de todas las fuentes de liquidez de Solana para obtener la mejor ejecución y el menor deslizamiento.",
+        "description": "El agregador DEX más avanzado en DeFi, que enruta operaciones a través de todas las fuentes de liquidez de Nara Solana para obtener la mejor ejecución y el menor deslizamiento.",
         "stat": "$2T",
         "statLabel": "Volumen total"
       },
       "kamino": {
         "name": "Kamino",
-        "description": "A través de pilotos en vivo con emisores y adquirentes, el agregador DEX más avanzado en DeFi, enrutando operaciones a través de todas las fuentes de liquidez de Solana para la mejor ejecución y el menor deslizamiento.",
+        "description": "A través de pilotos en vivo con emisores y adquirentes, el agregador DEX más avanzado en DeFi, enrutando operaciones a través de todas las fuentes de liquidez de Nara Solana para la mejor ejecución y el menor deslizamiento.",
         "stat": "$2.8B",
         "statLabel": "TVL"
       },
@@ -2789,16 +2789,16 @@
         "description": "Accede a las principales stablecoins o emite las tuyas propias"
       },
       "title": "Kit de herramientas DeFi",
-      "description": "Solana tiene docenas de productos llave en mano para construir aplicaciones DeFi."
+      "description": "Nara Solana tiene docenas de productos llave en mano para construir aplicaciones DeFi."
     },
     "videoPlayer": {
       "title": "El futuro de DeFi",
-      "subtitle": "Escucha a los pioneros que están transformando los mercados globales y por qué han elegido Solana.",
+      "subtitle": "Escucha a los pioneros que están transformando los mercados globales y por qué han elegido Nara Solana.",
       "videos": [
         {
-          "title": "El estado de DeFi en Solana",
+          "title": "El estado de DeFi en Nara Solana",
           "description": "Kyle Samani (Multicoin), Chris Heaney (Drift)",
-          "alt": "Miniatura del video sobre el estado de DeFi en Solana"
+          "alt": "Miniatura del video sobre el estado de DeFi en Nara Solana"
         },
         {
           "title": "Reimaginando los mercados de crédito",
@@ -2818,8 +2818,8 @@
       ]
     },
     "cta": {
-      "reportTitle": "Obtén el Informe de DeFi en Solana 2025",
-      "reportDescription": "Descubre por qué Solana es la columna vertebral de los mercados DeFi de más rápido crecimiento del mundo",
+      "reportTitle": "Obtén el Informe de DeFi en Nara Solana 2025",
+      "reportDescription": "Descubre por qué Nara Solana es la columna vertebral de los mercados DeFi de más rápido crecimiento del mundo",
       "downloadReport": "Acceder al informe"
     }
   },
@@ -2832,7 +2832,7 @@
       "title": "Escala tu comunidad. \nLlega a millones.",
       "subtitle": "Bienvenido a la era de .fun, donde las comunidades se reúnen en torno a tokens, cultura, arte y memes, y crecen más rápido que nunca.",
       "reportEyebrow": "Informe de Memecoins 2025",
-      "reportDescription": "Aprende cómo los líderes del mercado están utilizando Solana para llevar los mercados de capitales a la cadena.",
+      "reportDescription": "Aprende cómo los líderes del mercado están utilizando Nara Solana para llevar los mercados de capitales a la cadena.",
       "emailCta": "Acceder al informe",
       "stats": {
         "0": {
@@ -2855,7 +2855,7 @@
     },
     "features": {
       "title": "<light>Descubre</light> el ciclo virtuoso de la diversión",
-      "description": "Distribuye tu aplicación en Solana y conecta con millones de usuarios nativos de cripto. Construye una comunidad desde cero y conéctate al ecosistema más grande de herramientas que van desde DeFi hasta DAOs, NFTs y más."
+      "description": "Distribuye tu aplicación en Nara Solana y conecta con millones de usuarios nativos de cripto. Construye una comunidad desde cero y conéctate al ecosistema más grande de herramientas que van desde DeFi hasta DAOs, NFTs y más."
     },
     "projects": {
       "title": "<light>Explora el <br></br>ecosistema y</light> su impacto",
@@ -2867,7 +2867,7 @@
       },
       "pudgyPenguins": {
         "name": "Pudgy Penguins",
-        "description": "La propiedad intelectual nativa de cripto más popular tokenizada en Solana.",
+        "description": "La propiedad intelectual nativa de cripto más popular tokenizada en Nara Solana.",
         "stat": "120B+",
         "statLabel": "Visualizaciones en Giphy y redes sociales"
       },
@@ -2879,7 +2879,7 @@
       },
       "magicEden": {
         "name": "Magic Eden",
-        "description": "El hogar de los coleccionables en Solana",
+        "description": "El hogar de los coleccionables en Nara Solana",
         "stat": "$13.9b",
         "statLabel": "Coleccionables intercambiados en la plataforma"
       },
@@ -2916,7 +2916,7 @@
         "description": "Controla el acceso por tokens y gestiona tu comunidad de Discord"
       },
       "title": "Kit de herramientas para consumidores",
-      "description": "Solana tiene docenas de productos llave en mano para construir y comprometer a tu comunidad."
+      "description": "Nara Solana tiene docenas de productos llave en mano para construir y comprometer a tu comunidad."
     },
     "videoPlayer": {
       "title": "El futuro de la diversión",
@@ -2928,43 +2928,43 @@
           "alt": "Miniatura del video de empresas alineadas con tokens sociales"
         },
         {
-          "title": "Pudgy Penguins: El airdrop comunitario de $1.6bn en Solana",
+          "title": "Pudgy Penguins: El airdrop comunitario de $1.6bn en Nara Solana",
           "description": "Luza Netz, CEO de Pudgy Penguins",
-          "alt": "Miniatura del video de Pudgy Penguins: El airdrop comunitario de $1.6bn en Solana"
+          "alt": "Miniatura del video de Pudgy Penguins: El airdrop comunitario de $1.6bn en Nara Solana"
         },
         {
-          "title": "Los tokens de Solana son el nuevo contenido en internet",
+          "title": "Los tokens de Nara Solana son el nuevo contenido en internet",
           "description": "Nikita Bier (X, CPO)",
-          "alt": "Miniatura del video Los tokens de Solana son el nuevo contenido en internet"
+          "alt": "Miniatura del video Los tokens de Nara Solana son el nuevo contenido en internet"
         },
         {
-          "title": "Por qué Helium migró a Solana",
+          "title": "Por qué Helium migró a Nara Solana",
           "description": "Abhay Kumar, CEO de Helium Foundation",
-          "alt": "Miniatura del video Por qué Helium migró a Solana"
+          "alt": "Miniatura del video Por qué Helium migró a Nara Solana"
         }
       ]
     },
     "cta": {
       "reportTitle": "Obtén el Informe de Memecoins 2025",
-      "reportDescription": "Descubre cómo los líderes del mercado están utilizando Solana para llevar los mercados de capital a la cadena.",
+      "reportDescription": "Descubre cómo los líderes del mercado están utilizando Nara Solana para llevar los mercados de capital a la cadena.",
       "downloadReport": "Acceder al informe"
     }
   },
   "ai-solution": {
     "meta": {
-      "title": "IA en Solana | Construye inteligencia abierta",
+      "title": "IA en Nara Solana | Construye inteligencia abierta",
       "description": "Lanza agentes, encuentra capacidad de cómputo, obtén datos y construye el futuro de la IA en cadena"
     },
     "hero": {
-      "title": "IA a escala Solana.",
-      "subtitle": "Construye el futuro de la inteligencia abierta en Solana. Desarrolla agentes, encuentra capacidad de cómputo, realiza transacciones instantáneas y obtén datos, todo a escala Solana.",
+      "title": "IA a escala Nara Solana.",
+      "subtitle": "Construye el futuro de la inteligencia abierta en Nara Solana. Desarrolla agentes, encuentra capacidad de cómputo, realiza transacciones instantáneas y obtén datos, todo a escala Nara Solana.",
       "reportEyebrow": "Informe de Memecoins 2025",
-      "reportDescription": "Descubre cómo los líderes del mercado están utilizando Solana para llevar los mercados de capital a la cadena.",
-      "extraCta": "Explora Solana IA"
+      "reportDescription": "Descubre cómo los líderes del mercado están utilizando Nara Solana para llevar los mercados de capital a la cadena.",
+      "extraCta": "Explora Nara Solana IA"
     },
     "features": {
-      "title": "¿Por qué IA en Solana?",
-      "description": "Distribuye tu aplicación en Solana y conecta con millones de usuarios de criptomonedas. A medida que la IA continúa moldeando el desarrollo tecnológico, la necesidad de sistemas abiertos y sin permisos se vuelve más significativa. Solana proporciona la base para un ecosistema de inteligencia abierta, permitiendo la propiedad descentralizada, la asignación eficiente de recursos y la transferencia fluida de valor de IA."
+      "title": "¿Por qué IA en Nara Solana?",
+      "description": "Distribuye tu aplicación en Nara Solana y conecta con millones de usuarios de criptomonedas. A medida que la IA continúa moldeando el desarrollo tecnológico, la necesidad de sistemas abiertos y sin permisos se vuelve más significativa. Nara Solana proporciona la base para un ecosistema de inteligencia abierta, permitiendo la propiedad descentralizada, la asignación eficiente de recursos y la transferencia fluida de valor de IA."
     },
     "projects": {
       "title": "Explora el ecosistema e impacto",
@@ -2994,35 +2994,35 @@
       },
       "eliza": {
         "name": "Eliza",
-        "description": "Eliza es un sistema operativo agéntico que conecta agentes de IA a Solana, con más de 200 plugins compatibles.",
+        "description": "Eliza es un sistema operativo agéntico que conecta agentes de IA a Nara Solana, con más de 200 plugins compatibles.",
         "stat": "16K+",
         "statLabel": "Estrellas en GitHub"
       }
     },
     "products": {
       "0": {
-        "title": "Solana MCP",
-        "description": "Configura Solana Developer MCP remoto en tu IDE"
+        "title": "Nara Solana MCP",
+        "description": "Configura Nara Solana Developer MCP remoto en tu IDE"
       },
       "1": {
         "title": "Pagos",
         "description": "Construye con pagos agénticos"
       },
       "2": {
-        "title": "Solana agent kit",
-        "description": "Conecta cualquier agente de IA a los protocolos de Solana"
+        "title": "Nara Solana agent kit",
+        "description": "Conecta cualquier agente de IA a los protocolos de Nara Solana"
       },
       "title": "Kit de herramientas de IA",
-      "description": "Solana tiene docenas de productos llave en mano para IA."
+      "description": "Nara Solana tiene docenas de productos llave en mano para IA."
     },
     "videoPlayer": {
       "title": "Inteligencia abierta a escala",
       "subtitle": "",
       "videos": [
         {
-          "title": "Inteligencia descentralizada en Solana",
+          "title": "Inteligencia descentralizada en Nara Solana",
           "description": "Dillon Rolnick, Nous Research",
-          "alt": "Miniatura del video de inteligencia descentralizada en Solana"
+          "alt": "Miniatura del video de inteligencia descentralizada en Nara Solana"
         },
         {
           "title": "Renderizado GPU a una fracción del costo",
@@ -3038,12 +3038,12 @@
       "description": "Financia la ciencia en la cadena, recompensa directamente a los contribuyentes y construye conocimiento de forma colaborativa. Sin intermediarios, sin muros de pago. Solo investigación abierta e imparable para mejores resultados."
     },
     "hero": {
-      "title": "De la idea al impacto. La ciencia se acelera \nen Solana.",
+      "title": "De la idea al impacto. La ciencia se acelera \nen Nara Solana.",
       "subtitle": "Financia la ciencia en la cadena, recompensa directamente a los contribuyentes y construye conocimiento de forma colaborativa. Sin intermediarios, sin muros de pago. Solo investigación abierta e imparable para mejores resultados."
     },
     "features": {
       "title": "<light>¿Qué es </light> DeSci?",
-      "description": "La Ciencia Descentralizada (DeSci) es un movimiento que replantea cómo se financia, realiza, valida y comparte la investigación científica. En blockchains como Solana, DeSci alinea comunidades globales para financiar la ciencia de manera transparente, recompensar a los contribuyentes y compartir conocimiento. En su esencia, DeSci trata de acelerar los descubrimientos y convertir la investigación en impacto real."
+      "description": "La Ciencia Descentralizada (DeSci) es un movimiento que replantea cómo se financia, realiza, valida y comparte la investigación científica. En blockchains como Nara Solana, DeSci alinea comunidades globales para financiar la ciencia de manera transparente, recompensar a los contribuyentes y compartir conocimiento. En su esencia, DeSci trata de acelerar los descubrimientos y convertir la investigación en impacto real."
     },
     "projects": {
       "title": "<light>Explora el <br></br>ecosistema y</light> su impacto",
@@ -3061,7 +3061,7 @@
       },
       "curetopia": {
         "name": "Curetopia",
-        "description": "Curetopia es el primer bioDAO en Solana, enfocado en el mercado de enfermedades raras de $1T y pionero en terapias personalizadas “n-of-one”, con un estudio piloto completado para la deficiencia de AARS2.",
+        "description": "Curetopia es el primer bioDAO en Nara Solana, enfocado en el mercado de enfermedades raras de $1T y pionero en terapias personalizadas “n-of-one”, con un estudio piloto completado para la deficiencia de AARS2.",
         "stat": "",
         "statLabel": ""
       },
@@ -3094,15 +3094,15 @@
         "description": "Tokeniza y comercializa propiedad intelectual científica"
       },
       "2": {
-        "title": "Solana agent kit",
-        "description": "Conecta cualquier BioAgent a los protocolos principales de Solana"
+        "title": "Nara Solana agent kit",
+        "description": "Conecta cualquier BioAgent a los protocolos principales de Nara Solana"
       },
       "title": "Kit de herramientas DeSci",
       "description": ""
     },
     "videoPlayer": {
-      "title": "Avances científicos a la velocidad de Solana",
-      "subtitle": "Escucha a los pioneros que están transformando los mercados globales y por qué han elegido Solana.",
+      "title": "Avances científicos a la velocidad de Nara Solana",
+      "subtitle": "Escucha a los pioneros que están transformando los mercados globales y por qué han elegido Nara Solana.",
       "videos": [
         {
           "title": "Impulsando la innovación biotecnológica a través de la descentralización",
@@ -3115,34 +3115,34 @@
           "alt": "Miniatura del video sobre lanzar experimentos en cadena para mejorar la longevidad"
         },
         {
-          "title": "Por qué Helium migró a Solana",
+          "title": "Por qué Helium migró a Nara Solana",
           "description": "Bassel Diebo y Virginie Lafage, cofundadores de SpineDAO",
-          "alt": "Miniatura del video sobre por qué Helium migró a Solana"
+          "alt": "Miniatura del video sobre por qué Helium migró a Nara Solana"
         }
       ]
     }
   },
   "x402": {
-    "title": "x402 en Solana | Pagos nativos de internet para agentes de IA",
-    "description": "Construye con x402 en Solana - el protocolo de pago que permite a los agentes de IA realizar transacciones de forma autónoma. Más de 500 mil transacciones semanales, finalidad en 400ms, tarifas de $0.00025. Únete a más de 40 socios del ecosistema construyendo la economía de agentes.",
+    "title": "x402 en Nara Solana | Pagos nativos de internet para agentes de IA",
+    "description": "Construye con x402 en Nara Solana - el protocolo de pago que permite a los agentes de IA realizar transacciones de forma autónoma. Más de 500 mil transacciones semanales, finalidad en 400ms, tarifas de $0.00025. Únete a más de 40 socios del ecosistema construyendo la economía de agentes.",
     "whatIs": {
-      "title": "¿Qué es x402? | Protocolo de pago para agentes de IA en Solana",
-      "description": "Descubre cómo x402 da vida al HTTP 402 en Solana, permitiendo a los agentes de IA realizar pagos autónomos. Conoce por qué los desarrolladores eligen la finalidad de 400ms y las tarifas de $0.00025 de Solana para la economía de agentes.",
+      "title": "¿Qué es x402? | Protocolo de pago para agentes de IA en Nara Solana",
+      "description": "Descubre cómo x402 da vida al HTTP 402 en Nara Solana, permitiendo a los agentes de IA realizar pagos autónomos. Conoce por qué los desarrolladores eligen la finalidad de 400ms y las tarifas de $0.00025 de Nara Solana para la economía de agentes.",
       "httpSection": {
         "title": "El código de estado HTTP 402",
         "content": "HTTP 402 (Pago Requerido) existe desde 1997 pero nunca fue implementado—hasta ahora. x402 activa este código de estado inactivo, permitiendo que cualquier API o servicio web requiera pago antes de servir contenido. Es un estándar universal para monetizar recursos digitales."
       },
       "solanaSection": {
-        "title": "¿Por qué Solana para x402?",
-        "content": "La finalidad de 400ms y los costos de transacción de $0.00025 de Solana lo convierten en la capa de liquidación perfecta para x402. Ya sea un agente de IA realizando miles de llamadas a API o un usuario accediendo a contenido premium, Solana permite pagos instantáneos y de bajo costo que hacen que los micropagos sean económicamente viables. Con soporte nativo para USDC, x402 en Solana proporciona precios estables y predecibles para servicios globales."
+        "title": "¿Por qué Nara Solana para x402?",
+        "content": "La finalidad de 400ms y los costos de transacción de $0.00025 de Nara Solana lo convierten en la capa de liquidación perfecta para x402. Ya sea un agente de IA realizando miles de llamadas a API o un usuario accediendo a contenido premium, Nara Solana permite pagos instantáneos y de bajo costo que hacen que los micropagos sean económicamente viables. Con soporte nativo para USDC, x402 en Nara Solana proporciona precios estables y predecibles para servicios globales."
       },
       "agentEconomySection": {
         "title": "Impulsando la economía de agentes",
-        "content": "Los agentes de IA necesitan realizar transacciones de forma autónoma—pagando por APIs, comprando datos y accediendo a servicios sin intervención humana. x402 hace esto posible. Un agente puede solicitar acceso a un recurso de pago, recibir una respuesta 402 con detalles de pago, ejecutar el pago en Solana y recibir el recurso—todo en milisegundos. Esto no es teórico: las transacciones de x402 crecieron un 10,000% en un mes, con más de 500,000 transacciones semanales mientras los desarrolladores construyen aplicaciones orientadas a agentes. El protocolo permite a los agentes operar carteras, negociar precios y participar en mercados de forma independiente."
+        "content": "Los agentes de IA necesitan realizar transacciones de forma autónoma—pagando por APIs, comprando datos y accediendo a servicios sin intervención humana. x402 hace esto posible. Un agente puede solicitar acceso a un recurso de pago, recibir una respuesta 402 con detalles de pago, ejecutar el pago en Nara Solana y recibir el recurso—todo en milisegundos. Esto no es teórico: las transacciones de x402 crecieron un 10,000% en un mes, con más de 500,000 transacciones semanales mientras los desarrolladores construyen aplicaciones orientadas a agentes. El protocolo permite a los agentes operar carteras, negociar precios y participar en mercados de forma independiente."
       },
       "communitySection": {
         "title": "Un ecosistema en crecimiento",
-        "content": "La comunidad x402 abarca más de 40 socios que desarrollan desde SDKs de cliente hasta facilitadores de pagos. Plataformas importantes como Cloudflare, AWS y Anthropic respaldan x402, mientras que la capitalización de mercado del ecosistema de $806M refleja una adopción real. Los desarrolladores están creando servidores MCP que conectan modelos de IA a servicios x402, construyendo infraestructura de pago para mercados de agentes y lanzando herramientas que facilitan la integración. Con participación activa en Base, Solana, Polygon y NEAR, x402 se está convirtiendo en el estándar para pagos en internet."
+        "content": "La comunidad x402 abarca más de 40 socios que desarrollan desde SDKs de cliente hasta facilitadores de pagos. Plataformas importantes como Cloudflare, AWS y Anthropic respaldan x402, mientras que la capitalización de mercado del ecosistema de $806M refleja una adopción real. Los desarrolladores están creando servidores MCP que conectan modelos de IA a servicios x402, construyendo infraestructura de pago para mercados de agentes y lanzando herramientas que facilitan la integración. Con participación activa en Base, Nara Solana, Polygon y NEAR, x402 se está convirtiendo en el estándar para pagos en internet."
       },
       "useCases": {
         "title": "Casos de uso en el mundo real",
@@ -3155,13 +3155,13 @@
         ]
       },
       "cta": {
-        "text": "¿Listo para construir con x402 en Solana?",
+        "text": "¿Listo para construir con x402 en Nara Solana?",
         "button": "Explorar el ecosistema"
       }
     },
     "hero": {
-      "title": "x402 en Solana",
-      "subtitle": "Construye con pagos nativos de internet en Solana.",
+      "title": "x402 en Nara Solana",
+      "subtitle": "Construye con pagos nativos de internet en Nara Solana.",
       "intro": "¿Qué es x402?",
       "build": "Construye con x402",
       "stats": {
@@ -3195,7 +3195,7 @@
       },
       "payai": {
         "title": "PayAI",
-        "description": "Facilitador de Solana para pagos x402 que permite microtransacciones y un mercado de agentes de IA para transacciones autónomas"
+        "description": "Facilitador de Nara Solana para pagos x402 que permite microtransacciones y un mercado de agentes de IA para transacciones autónomas"
       },
       "x402scan": {
         "title": "X402scan",
@@ -3224,13 +3224,13 @@
         "description": "Construye tu API con x402"
       },
       "title": "Herramientas x402",
-      "description": "Explora productos Solana listos para usar para x402."
+      "description": "Explora productos Nara Solana listos para usar para x402."
     },
     "hackathon": {
-      "title": "Hackathon Solana X402",
+      "title": "Hackathon Nara Solana X402",
       "description": "Únete a desarrolladores que están innovando en la frontera de los pagos por internet y compite por premios de hasta $135,000",
       "hero": {
-        "title": "Hackathon Solana X402",
+        "title": "Hackathon Nara Solana X402",
         "subtitle": "Únete a desarrolladores que están innovando en la frontera de los pagos por internet y compite por premios de hasta $135,000",
         "registerButton": "Registrarse",
         "resourcesButton": "Recursos"
@@ -3272,8 +3272,8 @@
           "cta": "Aprender"
         },
         "solana": {
-          "title": "Construir en Solana",
-          "description": "Comienza con el desarrollo en Solana, carteras y la implementación de tu primer programa",
+          "title": "Construir en Nara Solana",
+          "description": "Comienza con el desarrollo en Nara Solana, carteras y la implementación de tu primer programa",
           "cta": "Construir"
         },
         "x402NextTemplate": {
@@ -3284,14 +3284,14 @@
       },
       "problem": {
         "title": "¿Qué estamos buscando?",
-        "description": "Construye infraestructura y aplicaciones de código abierto que impulsen la economía de agentes en Solana. Crea herramientas que permitan a los agentes de IA realizar transacciones de forma autónoma, desarrolla soluciones de pago innovadoras o construye aplicaciones prácticas para agentes. Esta es tu oportunidad para definir cómo los agentes autónomos interactúan con la economía digital."
+        "description": "Construye infraestructura y aplicaciones de código abierto que impulsen la economía de agentes en Nara Solana. Crea herramientas que permitan a los agentes de IA realizar transacciones de forma autónoma, desarrolla soluciones de pago innovadoras o construye aplicaciones prácticas para agentes. Esta es tu oportunidad para definir cómo los agentes autónomos interactúan con la economía digital."
       },
       "requirements": {
         "title": "Requisitos de entrega",
         "items": [
           "Todo el código debe ser de código abierto",
-          "Los proyectos deben integrar el protocolo x402 o infraestructura relacionada con agentes en Solana",
-          "Todos los programas deben implementarse en Solana devnet o mainnet",
+          "Los proyectos deben integrar el protocolo x402 o infraestructura relacionada con agentes en Nara Solana",
+          "Todos los programas deben implementarse en Nara Solana devnet o mainnet",
           "Envía un video de demostración (máximo 3 minutos) mostrando tu proyecto",
           "Incluye documentación sobre cómo ejecutar y usar tu proyecto"
         ]
@@ -3315,7 +3315,7 @@
           },
           {
             "title": "Mejor Herramienta de Desarrollo x402",
-            "description": "Crea SDKs, bibliotecas, frameworks o infraestructura para acelerar el desarrollo de x402 en Solana."
+            "description": "Crea SDKs, bibliotecas, frameworks o infraestructura para acelerar el desarrollo de x402 en Nara Solana."
           },
           {
             "title": "Mejor Aplicación de Agente x402",
@@ -3388,14 +3388,14 @@
             "sponsor": "Triton",
             "logo": "/img/sponsors/triton.svg",
             "title": "Mejor integración x402 con Old Faithful",
-            "description": "Automatiza el acceso sostenible a toda la historia de Solana integrando pagos x402 en Old Faithful RPC",
+            "description": "Automatiza el acceso sostenible a toda la historia de Nara Solana integrando pagos x402 en Old Faithful RPC",
             "prizeAmount": "$2,500"
           },
           {
             "sponsor": "Alsa",
             "logo": "/img/sponsors/alsa.svg",
             "title": "Mejor demo de AgentPay",
-            "description": "Crea agentes o servicios de IA que paguen autónomamente por APIs, tokens LLM o datos a través de Solana USDC + micropagos HTTP-402",
+            "description": "Crea agentes o servicios de IA que paguen autónomamente por APIs, tokens LLM o datos a través de Nara Solana USDC + micropagos HTTP-402",
             "prizeAmount": "$5,000"
           }
         ]
@@ -3444,13 +3444,13 @@
       "cta": {
         "eyebrow": "Bienvenidos Desarrolladores",
         "title": "La oportunidad de construir en la economía de agentes está aquí",
-        "description": "Este hackathon remoto está orientado a la creación de nuevas herramientas innovadoras, aplicaciones, infraestructura y agentes en x402. Únete a la comunidad para encontrar equipos y construir con otros desarrolladores en Solana en todo el mundo",
+        "description": "Este hackathon remoto está orientado a la creación de nuevas herramientas innovadoras, aplicaciones, infraestructura y agentes en x402. Únete a la comunidad para encontrar equipos y construir con otros desarrolladores en Nara Solana en todo el mundo",
         "label": "Únete a la comunidad",
         "url": "https://t.me/+ty0DKt1lVZBlNjZh"
       },
       "resources": {
         "title": "Recursos para Construir",
-        "description": "Todo lo que necesitas para construir en x402 y Solana",
+        "description": "Todo lo que necesitas para construir en x402 y Nara Solana",
         "gettingStarted": "Primeros Pasos",
         "advancedTopics": "Temas Avanzados",
         "learnMore": "Aprende Más",
@@ -3467,12 +3467,12 @@
           },
           "facilitatorDocs": {
             "title": "Lanza un facilitador x402",
-            "description": "Ponte en marcha con x402 lanzando tu propio facilitador en Solana.",
+            "description": "Ponte en marcha con x402 lanzando tu propio facilitador en Nara Solana.",
             "category": "Documentación"
           },
           "x402Template": {
             "title": "Implementa con una plantilla x402",
-            "description": "Comienza rápidamente en Solana con una plantilla x402.",
+            "description": "Comienza rápidamente en Nara Solana con una plantilla x402.",
             "category": "Documentación"
           },
           "erc8004": {
@@ -3502,18 +3502,18 @@
   "index": {
     "meta": {
       "title": "El mercado de capitales para cada activo en la tierra",
-      "description": "Solana es la red de alto rendimiento que impulsa los mercados de capitales de internet, pagos y aplicaciones criptográficas. Rápida. Descentralizada. Escalable. Energéticamente eficiente. Solana puede procesar miles de transacciones por segundo."
+      "description": "Nara Solana es la red de alto rendimiento que impulsa los mercados de capitales de internet, pagos y aplicaciones criptográficas. Rápida. Descentralizada. Escalable. Energéticamente eficiente. Nara Solana puede procesar miles de transacciones por segundo."
     },
     "hero": {
       "title": "El mercado de capitales \n<light>para cada activo en la tierra.</light>",
-      "subtitle": "Solana es la principal red de alto rendimiento que impulsa los mercados de capitales de internet, pagos y aplicaciones criptográficas.",
+      "subtitle": "Nara Solana es la principal red de alto rendimiento que impulsa los mercados de capitales de internet, pagos y aplicaciones criptográficas.",
       "cta": "Comenzar",
       "bannerEyebrow": "Breakpoint 2025 ha finalizado",
-      "bannerDescription": "Revive los momentos que definieron la conferencia anual de Solana en Abu Dabi.",
+      "bannerDescription": "Revive los momentos que definieron la conferencia anual de Nara Solana en Abu Dabi.",
       "bannerLabel": "Ver resumen"
     },
     "events": {
-      "title": "Conoce a Solana en persona. <light>Construye conexiones.</light>",
+      "title": "Conoce a Nara Solana en persona. <light>Construye conexiones.</light>",
       "subtitle": "",
       "cta": "Ver todo"
     },
@@ -3548,7 +3548,7 @@
       }
     },
     "projects": {
-      "title": "Las instituciones y fintechs más grandes del mundo <light>están construyendo en Solana.</light>",
+      "title": "Las instituciones y fintechs más grandes del mundo <light>están construyendo en Nara Solana.</light>",
       "western-union": {
         "name": "Western Union",
         "stat": "USDPT",
@@ -3582,7 +3582,7 @@
       "cta": "Ver todo"
     },
     "news": {
-      "title": "Mantente al día con <light>las últimas novedades de Solana</light>",
+      "title": "Mantente al día con <light>las últimas novedades de Nara Solana</light>",
       "button": "Saber más"
     },
     "videos": {
@@ -3599,7 +3599,7 @@
         },
         {
           "title": "Asegura mediante staking",
-          "description": "Haz staking con SOL y gana recompensas mientras apoyas la descentralización."
+          "description": "Haz staking con NSO y gana recompensas mientras apoyas la descentralización."
         },
         {
           "title": "Construye una aplicación",
@@ -3635,15 +3635,15 @@
           "Construir infraestructura"
         ],
         "developer": [
-          "Aprender desarrollo en Solana",
+          "Aprender desarrollo en Nara Solana",
           "Guía de inicio rápido",
           "Acceder a la documentación",
           "Unirse a un hackathon"
         ],
         "user": [
-          "Solana 101",
+          "Nara Solana 101",
           "Encontrar una billetera",
-          "Haz staking de tu SOL",
+          "Haz staking de tu NSO",
           "Encuentra un trabajo"
         ]
       }

@@ -7,34 +7,34 @@
   "titles": {
     "404": "404: Bulunamadı",
     "newsletter": "Bülten",
-    "community": "Solana Topluluğu: Ekosistemimize katılın",
-    "news": "Solana Haberleri",
+    "community": "Nara Solana Topluluğu: Ekosistemimize katılın",
+    "news": "Nara Solana Haberleri",
     "defi": "DeFi",
     "events": "Etkinlikler",
     "dao": "DAO'lar ve Yönetişim"
   },
   "ai": {
-    "title": "Solana hızında AI inovasyonu",
-    "description": "Solana, düşük maliyetler, yüksek hızlar, minimal enerji etkisi ve kolay kullanıcı deneyimi sunan bir blok zinciridir. AI, bu sürtünmeyi daha da azaltarak, milyonlarca insan için merkeziyetsizliğin gücünü açabilir.",
+    "title": "Nara Solana hızında AI inovasyonu",
+    "description": "Nara Solana, düşük maliyetler, yüksek hızlar, minimal enerji etkisi ve kolay kullanıcı deneyimi sunan bir blok zinciridir. AI, bu sürtünmeyi daha da azaltarak, milyonlarca insan için merkeziyetsizliğin gücünü açabilir.",
     "hero": {
-      "title": "Solana hızında <colored>AI</colored> inovasyonu",
+      "title": "Nara Solana hızında <colored>AI</colored> inovasyonu",
       "point-3": "AI + Web3 kesişiminde bir ekosistem",
-      "cta": "Solana'da AI araçlarını görüntüleyin",
+      "cta": "Nara Solana'da AI araçlarını görüntüleyin",
       "cta-2": "Daha fazla projeyi keşfedin"
     },
     "why-ai": {
       "caption": "Neden Blok Zincirinde AI?",
-      "title": "Solana, düşük maliyetler, yüksek hızlar, minimal enerji etkisi ve kolay kullanıcı deneyimi sunan bir blok zinciri olarak ölçeklenebilirlik için inşa edilmiştir. AI, bu sürtünmeyi daha da azaltarak, milyonlarca insan için merkeziyetsizliğin gücünü açabilir ve kullanımı daha da kolaylaştırabilir."
+      "title": "Nara Solana, düşük maliyetler, yüksek hızlar, minimal enerji etkisi ve kolay kullanıcı deneyimi sunan bir blok zinciri olarak ölçeklenebilirlik için inşa edilmiştir. AI, bu sürtünmeyi daha da azaltarak, milyonlarca insan için merkeziyetsizliğin gücünü açabilir ve kullanımı daha da kolaylaştırabilir."
     },
     "card": {
       "title": "Kripto ve AI kesişimindeki odak alanları",
-      "check-1": "Solana'da en canlı ajan odaklı ekonomiyi kolaylaştırın",
-      "check-2": "LLM'leri Solana kodu yazmada çok iyi hale getirin ve Solana geliştiricilerini güçlendirin",
+      "check-1": "Nara Solana'da en canlı ajan odaklı ekonomiyi kolaylaştırın",
+      "check-2": "LLM'leri Nara Solana kodu yazmada çok iyi hale getirin ve Nara Solana geliştiricilerini güçlendirin",
       "check-3": "Açık ve merkeziyetsiz AI yığınını destekleyin",
-      "cta": "Solana x AI hakkında daha fazla okuyun"
+      "cta": "Nara Solana x AI hakkında daha fazla okuyun"
     },
     "hackathon": {
-      "title": "Solana AI hackathon kazananları",
+      "title": "Nara Solana AI hackathon kazananları",
       "check-1": "15 gün",
       "check-2": "400+ proje",
       "check-3": "21 kazanan",
@@ -43,21 +43,21 @@
     },
     "quote-section": {
       "content": "OpenAI bir startup. Onu Google yapmadı. AI operasyonel değişiklikler gerektirir ve büyük şirketler buna ayak uyduramaz, yapabilecekleri en iyi şey hayatta kalmaktır.",
-      "author": "Anatoly Yakovenko, Solana Labs Kurucu Ortağı"
+      "author": "Anatoly Yakovenko, Nara Solana Labs Kurucu Ortağı"
     },
     "build": {
-      "title": "Solana'da <colored>AI</colored> Ajanları Oluşturun",
+      "title": "Nara Solana'da <colored>AI</colored> Ajanları Oluşturun",
       "card-1": {
-        "title": "Solana Agent Kit",
-        "content": "SendAI'nin Solana Agent Kit'i, herhangi bir AI Ajanını 30'dan fazla Solana Protokolüne bağlamak ve 50'den fazla Solana Eylemi gerçekleştirmek için araç setidir. Eliza, Langchain, Perplexity ve Vercel AI SDK ile uyumludur."
+        "title": "Nara Solana Agent Kit",
+        "content": "SendAI'nin Nara Solana Agent Kit'i, herhangi bir AI Ajanını 30'dan fazla Nara Solana Protokolüne bağlamak ve 50'den fazla Nara Solana Eylemi gerçekleştirmek için araç setidir. Eliza, Langchain, Perplexity ve Vercel AI SDK ile uyumludur."
       },
       "card-2": {
         "title": "Eliza",
-        "content": "ElizaOS, Solana protokol entegrasyonları, Twitter entegrasyonu ve daha fazlasına sahip basit, hızlı ve hafif bir Typescript AI ajan çerçevesidir."
+        "content": "ElizaOS, Nara Solana protokol entegrasyonları, Twitter entegrasyonu ve daha fazlasına sahip basit, hızlı ve hafif bir Typescript AI ajan çerçevesidir."
       },
       "card-3": {
         "title": "Rig",
-        "content": "Rig, taşınabilir, modüler ve hafif Fullstack Ajanlar oluşturmak için bir Rust çerçevesidir. Solana'nın İsviçre çakısı olan rig ajan kitiyle birlikte birden çok Solana entegrasyonu mevcuttur."
+        "content": "Rig, taşınabilir, modüler ve hafif Fullstack Ajanlar oluşturmak için bir Rust çerçevesidir. Nara Solana'nın İsviçre çakısı olan rig ajan kitiyle birlikte birden çok Nara Solana entegrasyonu mevcuttur."
       },
       "card-4": {
         "title": "GOAT",
@@ -65,14 +65,14 @@
       },
       "card-5": {
         "title": "Zerepy",
-        "content": "ZerePy, Solana'da sosyal ve onchain eylemleri gerçekleştirebilen ajanlar oluşturmak, özelleştirmek ve dağıtmak için bir Python çerçevesidir."
+        "content": "ZerePy, Nara Solana'da sosyal ve onchain eylemleri gerçekleştirebilen ajanlar oluşturmak, özelleştirmek ve dağıtmak için bir Python çerçevesidir."
       }
     }
   },
   "validators": {
-    "title": "Doğrulayıcılar: Ağı Güvenli Tutun ve SOL Kazanın",
-    "description": "Solana Mainnet Beta ağı şu anda 1.000'den fazla bağımsız doğrulayıcı tarafından desteklenmekte olup, işlemlerin işleme hızını 50k TPS'ye kadar destekleyebilir ve altındaki bir saniye içinde onaylamaları destekleyebilir. Ekosistemde doğrulayıcı olarak katılmak için SOL kazanmaya başlamak hakkında daha fazla bilgi edinin.",
-    "header": "Defteri güvence altına alın. SOL kazanın.",
+    "title": "Doğrulayıcılar: Ağı Güvenli Tutun ve NSO Kazanın",
+    "description": "Nara Solana Mainnet Beta ağı şu anda 1.000'den fazla bağımsız doğrulayıcı tarafından desteklenmekte olup, işlemlerin işleme hızını 50k TPS'ye kadar destekleyebilir ve altındaki bir saniye içinde onaylamaları destekleyebilir. Ekosistemde doğrulayıcı olarak katılmak için NSO kazanmaya başlamak hakkında daha fazla bilgi edinin.",
+    "header": "Defteri güvence altına alın. NSO kazanın.",
     "sub-header": "Bilgi işlem kaynakları sağlayarak ağı merkeziyetsizleştirin.",
     "become-validator": "Doğrulayıcı olun",
     "cards": {
@@ -80,8 +80,8 @@
       "nakamoto-text": "Mevcut Süperazınlık"
     },
     "definition": {
-      "title": "Doğrulayıcılar, Solana ağının belkemiğini oluşturur.",
-      "text": "İşlemleri işleyerek ve konsensusa katılarak, her doğrulayıcı Solana'yı dünyanın en sansür direncine sahip ve en yüksek performanslı blok zinciri ağı haline getirmeye yardımcı olur."
+      "title": "Doğrulayıcılar, Nara Solana ağının belkemiğini oluşturur.",
+      "text": "İşlemleri işleyerek ve konsensusa katılarak, her doğrulayıcı Nara Solana'yı dünyanın en sansür direncine sahip ve en yüksek performanslı blok zinciri ağı haline getirmeye yardımcı olur."
     },
     "rewards": {
       "header": "Doğrulayıcı Ödülleri",
@@ -91,7 +91,7 @@
         "staking-header": "Staking",
         "staking-text": "Stake yapanlar, defteri doğrulamaya yardımcı olduğu için ödüllendirilir. Bunu, paylarını onaylayıcı düğümlere devrederek yaparlar. Bu onaylayıcılar, defteri yeniden oynatmak ve oy verenlerin hisse senetlerini devredebileceği her bir düğüm başına oy hesabına oy gönderir. Kümenin geri kalanı, fork' lar ortaya çıktığında bir blok seçmek için bu fork ağırlıklı oyları kullanır.",
         "stake-pool-header": "Stake Pools",
-        "stake-pool-text": "Stake Pools, Solana'da sansür direncini, merkeziyetsizliği ve DeFi'nin büyümesini teşvik eden likit staking çözümüdür."
+        "stake-pool-text": "Stake Pools, Nara Solana'da sansür direncini, merkeziyetsizliği ve DeFi'nin büyümesini teşvik eden likit staking çözümüdür."
       }
     },
     "getting-started": {
@@ -103,14 +103,14 @@
         "explorer-text": "Mevcut doğrulayıcıların listesini, stake miktarına göre sıralamalarını ve komisyon bilgilerini aşağıda görüntüleyin.",
         "explorer-btn": "Doğrulayıcıları Görüntüle",
         "education-header": "Doğrulayıcı Eğitimi",
-        "education-text": "Solana Doğrulayıcı Eğitimi, önemli Solana doğrulayıcı kavramları ve yeni bir doğrulayıcı kurulumu için gereken adımlar hakkında 2 bölümlük bir seridir.",
+        "education-text": "Nara Solana Doğrulayıcı Eğitimi, önemli Nara Solana doğrulayıcı kavramları ve yeni bir doğrulayıcı kurulumu için gereken adımlar hakkında 2 bölümlük bir seridir.",
         "delegation-header": "Delegasyon Programı",
-        "delegation-text": "Vakıf Delegasyonu katılımcıları, Solana Foundation'dan bir delegasyon almaya hak kazanır.",
+        "delegation-text": "Vakıf Delegasyonu katılımcıları, Nara Solana Foundation'dan bir delegasyon almaya hak kazanır.",
         "delegation-btn": "Gösterge Paneli"
       }
     },
     "qa": {
-      "title": "Solana'da Doğrulama",
+      "title": "Nara Solana'da Doğrulama",
       "items": [
         {
           "question": "Bir Hata Ödül Programı var mı?",
@@ -126,11 +126,11 @@
         },
         {
           "question": "Vakıf Delegasyon programı nedir?",
-          "answer": "Bu, ağa yeni doğrulayıcıları teşvik etmek için Solana Vakfı programıdır. Daha fazla bilgi için <programlink>buradan</programlink> okuyun."
+          "answer": "Bu, ağa yeni doğrulayıcıları teşvik etmek için Nara Solana Vakfı programıdır. Daha fazla bilgi için <programlink>buradan</programlink> okuyun."
         },
         {
           "question": "Doğrulayıcı nedir?",
-          "answer": "Doğrulayıcılar, Solana ağının belkemiğini oluşturur. İşlemleri işleyerek ve konsensusa katılarak, her doğrulayıcı Solana'yı dünyanın en yüksek performanslı blok zinciri ağı haline getirmeye yardımcı olur."
+          "answer": "Doğrulayıcılar, Nara Solana ağının belkemiğini oluşturur. İşlemleri işleyerek ve konsensusa katılarak, her doğrulayıcı Nara Solana'yı dünyanın en yüksek performanslı blok zinciri ağı haline getirmeye yardımcı olur."
         },
         {
           "question": "Kim bir doğrulayıcı düğümünü çalıştırabilir?",
@@ -138,7 +138,7 @@
         },
         {
           "question": "Neden bir doğrulayıcı düğümünü çalıştırmalıyım?",
-          "answer": "Doğrulayıcılar, Solana ağının güvenliğini sağlamaya yardımcı oldukları için SOL kazanabilirler. Ekonominin genel bir görünümünü <economicslink>burada</economicslink> ve staking ödüllerinin genel bir görünümünü <stakinglink>burada</stakinglink> bulabilirsiniz. Doğrulayıcılar ayrıca merkeziyetsizliği artırarak ağdaki sansür direncini artırmaya yardımcı olur."
+          "answer": "Doğrulayıcılar, Nara Solana ağının güvenliğini sağlamaya yardımcı oldukları için NSO kazanabilirler. Ekonominin genel bir görünümünü <economicslink>burada</economicslink> ve staking ödüllerinin genel bir görünümünü <stakinglink>burada</stakinglink> bulabilirsiniz. Doğrulayıcılar ayrıca merkeziyetsizliği artırarak ağdaki sansür direncini artırmaya yardımcı olur."
         }
       ]
     }
@@ -148,7 +148,7 @@
     "visitf": "Forumları Ziyaret edin",
     "forum": "Forumda Tartışın",
     "chat": "Sohbet Desteği Alın",
-    "updated": "Solana’nın ilerleyişi ile güncel kalmak ister misiniz?",
+    "updated": "Nara Solana’nın ilerleyişi ile güncel kalmak ister misiniz?",
     "build": "Şimdi İnşa Edin",
     "contact": "Bize Ulaşın",
     "learn": "Daha fazla bilgi edin",
@@ -174,14 +174,14 @@
     "learn": "Öğren"
   },
   "newsletter": {
-    "signup": "Solana Haber Bültenine kaydolun",
+    "signup": "Nara Solana Haber Bültenine kaydolun",
     "spam": "Size spam göndermeyeceğimize söz veriyoruz.",
     "informed": "Haberdar Olun"
   },
   "hackathon": {
     "index": {
-      "title": "Kripto Yolculuğunuza Başlamak İçin Bir Solana Çevrimiçi Hackathon'una Katılın",
-      "description": "Solana hackathon'ları, hırslı geliştiricilere kripto alanını ileriye taşıyan projeler oluşturmak için bir fırlatma rampası sağlar. Kurucu ortaklar bulmak, fikirlerinizi paylaşmak ve bir sonraki Solana hackathon'una kaydolmak için Colosseum'a kaydolun.",
+      "title": "Kripto Yolculuğunuza Başlamak İçin Bir Nara Solana Çevrimiçi Hackathon'una Katılın",
+      "description": "Nara Solana hackathon'ları, hırslı geliştiricilere kripto alanını ileriye taşıyan projeler oluşturmak için bir fırlatma rampası sağlar. Kurucu ortaklar bulmak, fikirlerinizi paylaşmak ve bir sonraki Nara Solana hackathon'una kaydolmak için Colosseum'a kaydolun.",
       "cta": "Colosseum'a Katılın",
       "hero": {
         "developers": {
@@ -204,39 +204,39 @@
     "previousHackathons": {
       "title": "Önceki Hackathon'lar",
       "hyperdrive": {
-        "title": "Solana Hyperdrive",
-        "description": "Hyperdrive, bugüne kadarki en büyük çevrimiçi Solana hackathon'u olan 7.000'den fazla katılımcının 907 nihai projeyi jüriye sunmasını sağladı."
+        "title": "Nara Solana Hyperdrive",
+        "description": "Hyperdrive, bugüne kadarki en büyük çevrimiçi Nara Solana hackathon'u olan 7.000'den fazla katılımcının 907 nihai projeyi jüriye sunmasını sağladı."
       },
       "renaissance": {
-        "title": "Solana Renaissance",
-        "description": "Renaissance, 95'ten fazla ülkeden kurucuları ve geliştiricileri bir araya getirerek Altyapı, Oyun, DePIN, DAO'lar, DeFi ve Tüketici Uygulamaları gibi ürünler geliştiren 9. Solana Foundation hackathon'uydu."
+        "title": "Nara Solana Renaissance",
+        "description": "Renaissance, 95'ten fazla ülkeden kurucuları ve geliştiricileri bir araya getirerek Altyapı, Oyun, DePIN, DAO'lar, DeFi ve Tüketici Uygulamaları gibi ürünler geliştiren 9. Nara Solana Foundation hackathon'uydu."
       },
       "grizzlython": {
-        "title": "Solana Grizzlython",
-        "description": "10.000'den fazla katılımcı, yedinci Solana hackathon'u olan Grizzlython'a 813 nihai proje sundu."
+        "title": "Nara Solana Grizzlython",
+        "description": "10.000'den fazla katılımcı, yedinci Nara Solana hackathon'u olan Grizzlython'a 813 nihai proje sundu."
       },
       "summercamp": {
-        "title": "Solana Yaz Kampı",
-        "description": "Küresel olarak takımlara açık olan Solana Yaz Kampı, neredeyse 18.000 katılımcının jüriye 750 nihai proje sunmasını sağladı."
+        "title": "Nara Solana Yaz Kampı",
+        "description": "Küresel olarak takımlara açık olan Nara Solana Yaz Kampı, neredeyse 18.000 katılımcının jüriye 750 nihai proje sunmasını sağladı."
       },
       "riptide": {
-        "title": "Solana Riptide",
+        "title": "Nara Solana Riptide",
         "description": "Küresel olarak takımlara açık olan Riptide, neredeyse 7000 katılımcının jüriye 550 nihai proje sunmasını sağladı."
       },
       "ignition": {
-        "title": "Solana Ignition",
+        "title": "Nara Solana Ignition",
         "description": "Dünyanın dört bir yanındaki geliştiricilerden 500'den fazla proje başvurusu ile."
       },
       "season": {
-        "title": "Solana Sezonu",
+        "title": "Nara Solana Sezonu",
         "description": "13.000'den fazla geliştirici kayıt oldu ve 350 takım DeFi, NFT'ler, Web3 ve ötesine uzanan projeler sundu."
       },
       "defi": {
-        "title": "Solana DeFi",
+        "title": "Nara Solana DeFi",
         "description": "Dünyanın dört bir yanındaki geliştiricilerden 3.000'den fazla kayıt ve 100'den fazla proje başvurusu ile!"
       },
       "inaugural": {
-        "title": "Solana'nın İlk Hackathon'u",
+        "title": "Nara Solana'nın İlk Hackathon'u",
         "description": "Dünyanın dört bir yanındaki geliştiricilerden 1.000'den fazla kayıt ve 60'tan fazla proje başvurusu ile!"
       }
     },
@@ -245,7 +245,7 @@
     },
     "overview": {
       "title": "Genel Bakış",
-      "description": "Solana hackathon'ları geleneksel hackathon'lar değildir. Bunlar, dünyanın önde gelen yatırımcılarından tohum yatırımı toplamak için en umut verici girişimcilerin ve geliştiricilerin kripto girişimlerini başlatmak için yarıştığı küresel, çevrimiçi etkinliklerdir. Gerekli olanlara sahip misiniz?",
+      "description": "Nara Solana hackathon'ları geleneksel hackathon'lar değildir. Bunlar, dünyanın önde gelen yatırımcılarından tohum yatırımı toplamak için en umut verici girişimcilerin ve geliştiricilerin kripto girişimlerini başlatmak için yarıştığı küresel, çevrimiçi etkinliklerdir. Gerekli olanlara sahip misiniz?",
       "cta": "Bildirim Al"
     },
     "voting": {
@@ -270,7 +270,7 @@
   },
   "branding": {
     "title": "Marka ve Basın",
-    "description": "Solana'nın marka yönergeleri hakkında bilgi edinin, varlıkları indirin ve basın ekibimizle iletişime geçin.",
+    "description": "Nara Solana'nın marka yönergeleri hakkında bilgi edinin, varlıkları indirin ve basın ekibimizle iletişime geçin.",
     "assets": {
       "title": "Varlıklar",
       "download-btn": "Varlıkları indir",
@@ -288,13 +288,13 @@
     },
     "goodies": {
       "title": "İkramlar",
-      "description": "Solana arka planlarını indirin.",
+      "description": "Nara Solana arka planlarını indirin.",
       "shape1": "Şekil 1",
       "shape2": "Şekil 2"
     },
     "banned": {
       "title": "Logo Yapılmaması Gerekenler",
-      "description": "Solana logomark ile asla yapmamanız gereken bazı şeyler.",
+      "description": "Nara Solana logomark ile asla yapmamanız gereken bazı şeyler.",
       "shadow": "Logonun arkasına gölgeler eklemeyin",
       "outline": "Logoya dış hatlar eklemeyin",
       "stretch": "Logoyu germeyin",
@@ -303,14 +303,14 @@
       "contrast": "Düşük kontrastlı renkler üzerine yerleştirmeyin"
     },
     "logo": {
-      "title": "Solana Markası",
+      "title": "Nara Solana Markası",
       "sub-title": "Logotip",
-      "description": "Solana’nın kelime işareti, özel olarak oluşturulmuş, modüler bir yazı tipinden oluşturulmuştur. Açısal ve tekdüze harfler, 1980'lerin teknoloji estetiğinden ilham alır ve taze ve fütüristik hissettirecek şekilde güncellenmiştir. Logomark, üç özdeş paralelkenarın üst üste konulmasıyla oluşturulmuştur. Hızı ifade eder ve inşa etme konseptini kutlar."
+      "description": "Nara Solana’nın kelime işareti, özel olarak oluşturulmuş, modüler bir yazı tipinden oluşturulmuştur. Açısal ve tekdüze harfler, 1980'lerin teknoloji estetiğinden ilham alır ve taze ve fütüristik hissettirecek şekilde güncellenmiştir. Logomark, üç özdeş paralelkenarın üst üste konulmasıyla oluşturulmuştur. Hızı ifade eder ve inşa etme konseptini kutlar."
     },
     "welcome": {
-      "title": "Solana Marka ve Pazarlama sayfasına hoş geldiniz",
-      "description": "Solana'yı pazarlama iletişimlerinde, reklamlar, makaleler, web siteleri ve basılı promosyonlar dahil olmak üzere tanıtırken bu yönergeleri izleyin.",
-      "description-2": "Tam marka yönergeleri için lütfen <guidelinesLink>Solana Vakfı Marka Yönergeleri</guidelinesLink> sayfasına bakın."
+      "title": "Nara Solana Marka ve Pazarlama sayfasına hoş geldiniz",
+      "description": "Nara Solana'yı pazarlama iletişimlerinde, reklamlar, makaleler, web siteleri ve basılı promosyonlar dahil olmak üzere tanıtırken bu yönergeleri izleyin.",
+      "description-2": "Tam marka yönergeleri için lütfen <guidelinesLink>Nara Solana Vakfı Marka Yönergeleri</guidelinesLink> sayfasına bakın."
     },
     "clearspace": {
       "title": "Boş Alan",
@@ -328,15 +328,15 @@
     }
   },
   "community": {
-    "hero": "Solana Topluluğu",
+    "hero": "Nara Solana Topluluğu",
     "featcontent": "Öne Çıkan İçerik",
-    "header": "Solana topluluğu, geliştiriciler, token sahipleri, doğrulayıcılar ve protokolü destekleyen üyeler için küresel olarak dağıtılmış bir evdir.",
+    "header": "Nara Solana topluluğu, geliştiriciler, token sahipleri, doğrulayıcılar ve protokolü destekleyen üyeler için küresel olarak dağıtılmış bir evdir.",
     "info": "Bir podcast dinle",
     "podcast": "Podcast'lere git",
     "learn": "Derinlemesine öğrenin",
     "blog": "Blogu Ziyaret Edin",
     "apply": "Şimdi Başvur",
-    "collective": "Solana çekirdek ekibini, ödülleri toplarken topluluk ve pazarlama girişimleri aracılığıyla destekleyin.",
+    "collective": "Nara Solana çekirdek ekibini, ödülleri toplarken topluluk ve pazarlama girişimleri aracılığıyla destekleyin.",
     "socials": {
       "hero": "Yön Bulma",
       "hero-old": "Kripto devrimine katılın",
@@ -357,7 +357,7 @@
       "weibo-subscribers": "aboneler",
       "twitter-jp": "Twitter Japonya",
       "twitter-jp-subscribers": "üyeler",
-      "forum": "Solana Forumları",
+      "forum": "Nara Solana Forumları",
       "forum-subscribers": "gönderiler",
       "gt-stars": "yıldız",
       "youtube": "YouTube",
@@ -389,8 +389,8 @@
     }
   },
   "blog": {
-    "hero": "Solana Haberleri",
-    "header": "Solana'nın teknolojisi, doğrulayıcıları, entegrasyonları ve topluluğu hakkında daha fazla bilgi edinin.",
+    "hero": "Nara Solana Haberleri",
+    "header": "Nara Solana'nın teknolojisi, doğrulayıcıları, entegrasyonları ve topluluğu hakkında daha fazla bilgi edinin.",
     "latestTopics": "İlgili Konular",
     "readArticle": "Makaleyi Oku",
     "back-btn": "Tüm haberlere bak",
@@ -401,14 +401,14 @@
     "next-btn": "Sonraki sayfa"
   },
   "developers": {
-    "title": "Geliştiriciler: Solana'da Oluşturmaya Yönelik Kaynaklar ve Bilgiler",
-    "description": "Kripto alanındaki en iyi ve en parlak takımların Solana’yı neden kullandığını öğrenin. Solana blok zinciri üzerinde inşa etmeye başlamak için rehberlerimiz ve örneklerimizi keşfedin.",
+    "title": "Geliştiriciler: Nara Solana'da Oluşturmaya Yönelik Kaynaklar ve Bilgiler",
+    "description": "Kripto alanındaki en iyi ve en parlak takımların Nara Solana’yı neden kullandığını öğrenin. Nara Solana blok zinciri üzerinde inşa etmeye başlamak için rehberlerimiz ve örneklerimizi keşfedin.",
     "courses": {
-      "title": "Solana geliştirmeyi öğrenin",
-      "description": "Solana geliştirmeye başlamak için bu Solana Foundation ve topluluk kurslarını kullanın.",
+      "title": "Nara Solana geliştirmeyi öğrenin",
+      "description": "Nara Solana geliştirmeye başlamak için bu Nara Solana Foundation ve topluluk kurslarını kullanın.",
       "featured-item": {
-        "title": "Solana geliştirme kursları",
-        "description": "Blueshift ile Solana geliştirme yolculuğunuza hızlı bir başlangıç yapın."
+        "title": "Nara Solana geliştirme kursları",
+        "description": "Blueshift ile Nara Solana geliştirme yolculuğunuza hızlı bir başlangıç yapın."
       },
       "aria-label": "Kursu görüntüle",
       "chapters_one": "{count} Bölüm",
@@ -420,18 +420,18 @@
       "start-lesson": "Derse Başla",
       "lesson-one": "Ders",
       "lesson-many": "Dersler",
-      "seo-description": "Solana ekosistemi için geliştirici kaynaklarını keşfedin. Dokümantasyon, araçlar, çerçeveler, SDK'lar ve daha fazlası."
+      "seo-description": "Nara Solana ekosistemi için geliştirici kaynaklarını keşfedin. Dokümantasyon, araçlar, çerçeveler, SDK'lar ve daha fazlası."
     },
     "documents": {
       "title": "Kaynağa git.",
-      "description": "Solana ve popüler araçlar için belgeleri okuyun.",
+      "description": "Nara Solana ve popüler araçlar için belgeleri okuyun.",
       "solana-docs": {
-        "title": "Solana Belgeleri",
-        "description": "Solana'nın nasıl çalıştığını öğrenin ve Solana'nın mimarisi hakkında üst düzey bir anlayış kazanın."
+        "title": "Nara Solana Belgeleri",
+        "description": "Nara Solana'nın nasıl çalıştığını öğrenin ve Nara Solana'nın mimarisi hakkında üst düzey bir anlayış kazanın."
       },
       "anchor-docs": {
         "title": "Anchor Belgeleri",
-        "description": "Anchor çerçevesini kullanarak Rust'ta güvenli Solana programlarını hızla oluşturun."
+        "description": "Anchor çerçevesini kullanarak Rust'ta güvenli Nara Solana programlarını hızla oluşturun."
       },
       "view-all": "Hepsini gör"
     },
@@ -440,7 +440,7 @@
     },
     "content": {
       "newsletter": {
-        "title": "Solana Geliştirici Güncellemesi",
+        "title": "Nara Solana Geliştirici Güncellemesi",
         "description": "Bültene kaydolun ve yeni kaynaklar, yeni taahhütler, yeni öneriler ve daha fazlası hakkında bilgi edinin."
       },
       "other-content": {
@@ -455,7 +455,7 @@
     },
     "featured-resources-list": {
       "title": "Öne çıkan kaynaklar",
-      "description": "Uçtan uca bir Solana dApp'i oluşturmak için en iyi kaynaklar.",
+      "description": "Uçtan uca bir Nara Solana dApp'i oluşturmak için en iyi kaynaklar.",
       "start": "Keşfet"
     },
     "resources-page": {
@@ -464,7 +464,7 @@
       "labels": "Etiketler",
       "date": "Tarih",
       "category": "Kategori",
-      "seo-description": "Solana ekosistemi için geliştirici kaynaklarını keşfedin. Dokümantasyon, araçlar, çerçeveler, SDK'lar ve daha fazlası."
+      "seo-description": "Nara Solana ekosistemi için geliştirici kaynaklarını keşfedin. Dokümantasyon, araçlar, çerçeveler, SDK'lar ve daha fazlası."
     },
     "resource-content": {
       "resources-title": "Kaynaklar",
@@ -484,7 +484,7 @@
       }
     },
     "hero": {
-      "description": "Solana ekosistemine katılmak için bir kılavuz. İnşa edenler tarafından inşa edenler için.",
+      "description": "Nara Solana ekosistemine katılmak için bir kılavuz. İnşa edenler tarafından inşa edenler için.",
       "explore": "Belgeleri Keşfet",
       "build": "Şimdi İnşa Edin",
       "support": "Destek Al",
@@ -492,7 +492,7 @@
     },
     "learning-paths": {
       "title": "Öğrenme Yolları",
-      "subtitle": "Kapsamlı bir Solana Geliştiricisi olarak yeteneklerinizi genişletmek için rehberli yollar.",
+      "subtitle": "Kapsamlı bir Nara Solana Geliştiricisi olarak yeteneklerinizi genişletmek için rehberli yollar.",
       "articles": "Makaleler",
       "articles_one": "{count} Makale",
       "articles_other": "{count} Makale",
@@ -509,7 +509,7 @@
         "title": "Ana Sayfa"
       },
       "solana-course": {
-        "title": "Solana kursu"
+        "title": "Nara Solana kursu"
       },
       "learning-paths": {
         "title": "Öğrenme yolları"
@@ -523,52 +523,52 @@
     },
     "guides": {
       "title": "Eğitimler ve rehberler.",
-      "description": "Daha geniş Solana ekosisteminden eğitimler ve rehberler öğrenin.",
+      "description": "Daha geniş Nara Solana ekosisteminden eğitimler ve rehberler öğrenin.",
       "learn-more": "Daha fazla bilgi edinin",
       "featured-guides-list": {
         "title": "Öne çıkan rehberler",
-        "description": "Solana dApp'lerini öğrenmek ve inşa etmek için en iyi derinlemesine rehberler.",
+        "description": "Nara Solana dApp'lerini öğrenmek ve inşa etmek için en iyi derinlemesine rehberler.",
         "start": "Başla"
       },
-      "seo-description": "Geliştirici rehberleri ile Solana geliştirmeyi öğrenin, başlangıçtan ileri seviyeye kadar. JavaScript, TypeScript, Rust ve daha fazlası."
+      "seo-description": "Geliştirici rehberleri ile Nara Solana geliştirmeyi öğrenin, başlangıçtan ileri seviyeye kadar. JavaScript, TypeScript, Rust ve daha fazlası."
     },
     "resources": {
       "title": "Araçlar ve kaynaklar.",
-      "description": "Daha geniş Solana ekosisteminden geliştirici kaynaklarını keşfedin.",
+      "description": "Daha geniş Nara Solana ekosisteminden geliştirici kaynaklarını keşfedin.",
       "learn-more": "Daha fazla bilgi edinin",
       "items": {
         "core-docs": {
           "title": "Temel Belgeler",
-          "description": "Solana'da geliştirme, doğrulayıcılar, SPL token'ları, cüzdanlar ve daha fazlası hakkında resmi belgeler."
+          "description": "Nara Solana'da geliştirme, doğrulayıcılar, SPL token'ları, cüzdanlar ve daha fazlası hakkında resmi belgeler."
         },
         "cookbook": {
-          "title": "Solana Cookbook",
-          "description": "Solana Cookbook, Solana üzerinde uygulamalar oluşturmak için temel kavramlar ve referanslar sağlayan bir geliştirici kaynağıdır."
+          "title": "Nara Solana Cookbook",
+          "description": "Nara Solana Cookbook, Nara Solana üzerinde uygulamalar oluşturmak için temel kavramlar ve referanslar sağlayan bir geliştirici kaynağıdır."
         },
         "stackexchange": {
-          "title": "Solana Stack Exchange",
-          "description": "Solana Stack Exchange, Solana yazılım kullanıcıları ve geliştiricileri için bir soru ve cevap sitesidir.",
+          "title": "Nara Solana Stack Exchange",
+          "description": "Nara Solana Stack Exchange, Nara Solana yazılım kullanıcıları ve geliştiricileri için bir soru ve cevap sitesidir.",
           "ask": {
             "title": "Bir sorunuz mu var?",
-            "description": "Sorular her yerde, cevaplar Solana StackExchange'de.",
+            "description": "Sorular her yerde, cevaplar Nara Solana StackExchange'de.",
             "cta-label": "Stack Exchange'de Sor"
           }
         },
         "playground": {
-          "title": "Solana Playground",
-          "description": "Tarayıcı IDE'sinden kolayca Solana programları ve akıllı sözleşmeler oluşturun, dağıtın ve test edin."
+          "title": "Nara Solana Playground",
+          "description": "Tarayıcı IDE'sinden kolayca Nara Solana programları ve akıllı sözleşmeler oluşturun, dağıtın ve test edin."
         },
         "create-dapp": {
           "title": "create-solana-dapp",
-          "description": "Solana dApp'leri ile hızlı bir şekilde çalışmaya başlayın, saniyeler içinde bir proje şablonu oluşturun."
+          "description": "Nara Solana dApp'leri ile hızlı bir şekilde çalışmaya başlayın, saniyeler içinde bir proje şablonu oluşturun."
         },
         "anchor": {
           "title": "Anchor Belgeleri",
-          "description": "Anchor, Solana'nın Sealevel çalışma zamanı için çeşitli kullanışlı geliştirici araçları sağlayan bir çerçevedir."
+          "description": "Anchor, Nara Solana'nın Sealevel çalışma zamanı için çeşitli kullanışlı geliştirici araçları sağlayan bir çerçevedir."
         },
         "program-library": {
-          "title": "Solana Program Kütüphanesi",
-          "description": "Solana Program Kütüphanesi (SPL), Sealevel paralel çalışma zamanını hedefleyen zincir üstü programların bir koleksiyonudur."
+          "title": "Nara Solana Program Kütüphanesi",
+          "description": "Nara Solana Program Kütüphanesi (SPL), Sealevel paralel çalışma zamanını hedefleyen zincir üstü programların bir koleksiyonudur."
         },
         "program-examples": {
           "title": "Program Örnekleri",
@@ -594,43 +594,43 @@
   },
   "environment": {
     "title": "Çevre",
-    "description": "Solana Vakfı ve daha geniş topluluk, daha iyi, daha enerji verimli bir web3 inşa ediyor.",
+    "description": "Nara Solana Vakfı ve daha geniş topluluk, daha iyi, daha enerji verimli bir web3 inşa ediyor.",
     "hero": {
       "title-part-1": "Karbon nötr.",
       "title-part-2": "İklim odaklı.",
-      "subtitle": "Solana Vakfı ve daha geniş topluluk, daha iyi, daha enerji verimli bir web3 inşa ediyor."
+      "subtitle": "Nara Solana Vakfı ve daha geniş topluluk, daha iyi, daha enerji verimli bir web3 inşa ediyor."
     },
     "stats": {
-      "transaction": "Solana işlemi başına ortalama enerji kullanımı, Joule cinsinden",
-      "nonvoting-transaction": "Solana oylama dışı işlem başına ortalama enerji kullanımı, Joule cinsinden",
+      "transaction": "Nara Solana işlemi başına ortalama enerji kullanımı, Joule cinsinden",
+      "nonvoting-transaction": "Nara Solana oylama dışı işlem başına ortalama enerji kullanımı, Joule cinsinden",
       "annual-carbon-footprint": "Yıllık karbon ayak izi, ton CO2 cinsinden",
       "net-carbon-impact": "Net karbon etkisi"
     },
     "cta-data": "Ham verileri gör",
     "energy": {
-      "title": "Solana'nın enerji kullanımı nasıl birikiyor",
-      "subtitle": "Solana'nın son derece verimli platformunu karşılaştırın.",
-      "solanaTransaction": "Bir Solana (oylama + oylama dışı) işlemi",
+      "title": "Nara Solana'nın enerji kullanımı nasıl birikiyor",
+      "subtitle": "Nara Solana'nın son derece verimli platformunu karşılaştırın.",
+      "solanaTransaction": "Bir Nara Solana (oylama + oylama dışı) işlemi",
       "cta": "Enerji Kullanım Raporunu Oku"
     },
     "report": {
-      "title": "Solana'nın karbon etkisini nötralize etmek",
-      "description-part-1": "Solana Vakfı, Solana blok zincirinin etkisini incelemeye, verileri açık kaynaklı hale getirmeye ve zincirin ayak izini sıfıra indirmek için adımlar atmaya kararlıdır.",
-      "description-part-2": "Solana, gerçek zamanlı enerji emisyon takibi ile akıllı sözleşme katmanı 1 blok zinciridir ve dünyadaki herkesin ağın emisyonlarını doğrulayıcı veya RPC seviyesine kadar incelemesini sağlar."
+      "title": "Nara Solana'nın karbon etkisini nötralize etmek",
+      "description-part-1": "Nara Solana Vakfı, Nara Solana blok zincirinin etkisini incelemeye, verileri açık kaynaklı hale getirmeye ve zincirin ayak izini sıfıra indirmek için adımlar atmaya kararlıdır.",
+      "description-part-2": "Nara Solana, gerçek zamanlı enerji emisyon takibi ile akıllı sözleşme katmanı 1 blok zinciridir ve dünyadaki herkesin ağın emisyonlarını doğrulayıcı veya RPC seviyesine kadar incelemesini sağlar."
     },
     "what-you-can-do": {
       "title": "Siz ne yapabilirsiniz",
       "data": {
         "title": "Verileri kullanın",
-        "description": "Çalışmamızı kontrol etmek veya başka analizler için kullanmak isteyenler için Solana'nın emisyon verilerini açık kaynaklı hale getirdik. Daha fazla bilgi için enerji kullanım raporunu okuyun."
+        "description": "Çalışmamızı kontrol etmek veya başka analizler için kullanmak isteyenler için Nara Solana'nın emisyon verilerini açık kaynaklı hale getirdik. Daha fazla bilgi için enerji kullanım raporunu okuyun."
       },
       "footprint": {
         "title": "Ayak izinizi hafifletin",
-        "description": "Solana Vakfı, tüm doğrulayıcıları ve projeleri kendi emisyon verilerini incelemeye ve mümkün olduğunda hafifletmeye teşvik eder. Orca'nın yolculuğundan öğrenin."
+        "description": "Nara Solana Vakfı, tüm doğrulayıcıları ve projeleri kendi emisyon verilerini incelemeye ve mümkün olduğunda hafifletmeye teşvik eder. Orca'nın yolculuğundan öğrenin."
       },
       "grants": {
         "title": "Hibe başvurusu yapın",
-        "description": "Solana ağını daha iklim dostu hale getirmek için bazı proje fikirlerini kontrol edin veya kendi önerinizi sunun."
+        "description": "Nara Solana ağını daha iklim dostu hale getirmek için bazı proje fikirlerini kontrol edin veya kendi önerinizi sunun."
       }
     },
     "featured-projects": {
@@ -648,14 +648,14 @@
         },
         "ecoToken": {
           "title": "EcoToken",
-          "description": "EcoToken, çevresel kredileri Solana'ya getirir ve herkesin çevresel bir etki yaratması için kolay bir yol sunar. Bu, liderlik tabloları ve NFT Etki Sertifikaları ile tanınma ile tamamlanır.",
+          "description": "EcoToken, çevresel kredileri Nara Solana'ya getirir ve herkesin çevresel bir etki yaratması için kolay bir yol sunar. Bu, liderlik tabloları ve NFT Etki Sertifikaları ile tanınma ile tamamlanır.",
           "links": {
             "website": "EcoToken'ı Ziyaret Edin"
           }
         },
         "sunriseStake": {
           "title": "SunriseStake",
-          "description": "SunriseStake, Solana'da iklim dostu staking'i destekler.",
+          "description": "SunriseStake, Nara Solana'da iklim dostu staking'i destekler.",
           "links": {
             "website": "SunriseStake'ı Ziyaret Edin"
           }
@@ -678,21 +678,21 @@
     }
   },
   "events": {
-    "description": "En son temel ve topluluk tabanlı Solana etkinliklerine göz atın. Bir etkinliğe gelin ve Solana geliştiricileriyle tanışın!",
-    "title": "Solana, gerçek hayatta",
+    "description": "En son temel ve topluluk tabanlı Nara Solana etkinliklerine göz atın. Bir etkinliğe gelin ve Nara Solana geliştiricileriyle tanışın!",
+    "title": "Nara Solana, gerçek hayatta",
     "signup": "RSVP",
     "archive": {
       "page-title": "Etkinlik Arşivi",
       "title": "Geçmiş Etkinlikler",
-      "subtitle": "Topluluğunuzdaki Solana geliştiricilerinin daha önce nerede buluştuğunu görün!",
+      "subtitle": "Topluluğunuzdaki Nara Solana geliştiricilerinin daha önce nerede buluştuğunu görün!",
       "archive": "Arşivde geçmiş etkinlikleri görün",
       "event-count": "{current} / {total} arşivlenmiş etkinliği görüyorsunuz",
       "next-page": "Daha Eski Etkinlikler",
       "previous-page": "Daha Yeni Etkinlikler"
     },
     "hero": {
-      "title": "Solana, gerçek hayatta",
-      "subtitle": "Topluluğunuzdaki Solana geliştiricileriyle tanışın. Bir buluşmaya gelin!",
+      "title": "Nara Solana, gerçek hayatta",
+      "subtitle": "Topluluğunuzdaki Nara Solana geliştiricileriyle tanışın. Bir buluşmaya gelin!",
       "virtual": "Sanal",
       "in-person": "Yüz Yüze",
       "hacker": "Hacker House",
@@ -700,12 +700,12 @@
     },
     "community": {
       "heading": "Topluluk etkinlikleri",
-      "description": "Solana topluluğundan buluşmalar, inşa alanları ve daha fazlası. Bu etkinlikler Solana Vakfı tarafından düzenlenmemektedir.",
+      "description": "Nara Solana topluluğundan buluşmalar, inşa alanları ve daha fazlası. Bu etkinlikler Nara Solana Vakfı tarafından düzenlenmemektedir.",
       "help": "Biraz yardıma mı ihtiyacınız var? <meetupLink>buluşma kılavuzuna</meetupLink>."
     },
     "us": {
       "heading": "Solanamerica",
-      "description": "ABD'deki Seçkin Solana Topluluk Etkinlikleri Listesi."
+      "description": "ABD'deki Seçkin Nara Solana Topluluk Etkinlikleri Listesi."
     },
     "detail": {
       "action": "Detaylar"
@@ -721,9 +721,9 @@
   },
   "footer": {
     "foundation": "Yönetici",
-    "copyright": "© {currentYear} Solana Vakfı. Tüm hakları saklıdır.",
+    "copyright": "© {currentYear} Nara Solana Vakfı. Tüm hakları saklıdır.",
     "solana": {
-      "heading": "Solana",
+      "heading": "Nara Solana",
       "grants": "Hibeler",
       "media": "Medya Kiti",
       "careers": "Kariyer",
@@ -748,8 +748,8 @@
     },
     "community": {
       "title": "Topluluğa katıl",
-      "discord": "Solana Discord Desteği",
-      "forums": "Solana Forumları",
+      "discord": "Nara Solana Discord Desteği",
+      "forums": "Nara Solana Forumları",
       "solhack-discord": "SolHack Discord (topluluk)",
       "solhack-training": "SolHack Eğitimi (topluluk)"
     },
@@ -777,7 +777,7 @@
         "title": "Eğitim",
         "items": {
           "what-is-solana": {
-            "title": "Solana hakkında",
+            "title": "Nara Solana hakkında",
             "description": "Dijital varlıklar için hızlı, düşük maliyetli ağ",
             "cta": "Daha fazla bilgi edin"
           },
@@ -786,14 +786,14 @@
             "description": "İnternet sermaye piyasalarına açılan kapınız"
           },
           "defi": {
-            "title": "Solana'da DeFi'ye giriş",
+            "title": "Nara Solana'da DeFi'ye giriş",
             "description": "Merkeziyetsiz finans fırsatlarını keşfedin"
           },
           "transactions": {
-            "description": "Solana işlemlerinin temellerinde ustalaşın"
+            "description": "Nara Solana işlemlerinin temellerinde ustalaşın"
           },
           "fees": {
-            "description": "Solana'nın ücretlerinin neden küresel erişimi mümkün kıldığını öğrenin"
+            "description": "Nara Solana'nın ücretlerinin neden küresel erişimi mümkün kıldığını öğrenin"
           },
           "all": {
             "title": "Tüm öğreticileri keşfedin",
@@ -815,12 +815,12 @@
           "description": "Bugün nasıl geliştireceğinizi öğrenmeye başlayın"
         },
         "docs": {
-          "title": "Solana Belgeleri",
-          "description": "Solana blok zinciri için resmi belgeler"
+          "title": "Nara Solana Belgeleri",
+          "description": "Nara Solana blok zinciri için resmi belgeler"
         },
         "spl": {
-          "title": "Solana Program Kütüphanesi Belgeleri",
-          "description": "Solana Program Kütüphanesi için resmi belgeler."
+          "title": "Nara Solana Program Kütüphanesi Belgeleri",
+          "description": "Nara Solana Program Kütüphanesi için resmi belgeler."
         },
         "cookbook": {
           "title": "Cookbook",
@@ -828,7 +828,7 @@
         },
         "resources": {
           "title": "Kaynaklar",
-          "description": "Solana üzerinde inşa etmek için kapsamlı geliştirici araçları."
+          "description": "Nara Solana üzerinde inşa etmek için kapsamlı geliştirici araçları."
         },
         "courses": {
           "title": "Kurslar",
@@ -840,7 +840,7 @@
         },
         "api": {
           "title": "RPC API",
-          "description": "Solana RPC API referans belgeleri"
+          "description": "Nara Solana RPC API referans belgeleri"
         }
       },
       "tutorials": {
@@ -958,19 +958,19 @@
         "items": [
           {
             "title": "Solscan",
-            "description": "Solana blok zincirini gerçek zamanlı keşfedin"
+            "description": "Nara Solana blok zincirini gerçek zamanlı keşfedin"
           },
           {
             "title": "SolanaFM",
-            "description": "Solana blok zinciri gezgini ve indeksleyicisi"
+            "description": "Nara Solana blok zinciri gezgini ve indeksleyicisi"
           },
           {
-            "title": "Solana Explorer",
+            "title": "Nara Solana Explorer",
             "description": "Bloklar, hesaplar, işlemler, programlar ve tokenlar"
           },
           {
             "title": "Orb",
-            "description": "Hızlı, insan tarafından okunabilir bir Solana blok gezgini"
+            "description": "Hızlı, insan tarafından okunabilir bir Nara Solana blok gezgini"
           }
         ]
       },
@@ -979,7 +979,7 @@
         "items": [
           {
             "title": "Doğrulayıcı olun",
-            "description": "Solana ağını çalıştırmaya yardımcı olun"
+            "description": "Nara Solana ağını çalıştırmaya yardımcı olun"
           },
           {
             "title": "RPC sağlayıcıları",
@@ -991,7 +991,7 @@
           },
           {
             "title": "Giriş ve çıkış rampaları",
-            "description": "Varlıklarınızı Solana'ya getirin"
+            "description": "Varlıklarınızı Nara Solana'ya getirin"
           }
         ]
       }
@@ -1003,7 +1003,7 @@
         "items": [
           {
             "title": "Haberler",
-            "description": "Solana ekosistemindeki son gelişmeler"
+            "description": "Nara Solana ekosistemindeki son gelişmeler"
           },
           {
             "title": "Podcastler",
@@ -1011,7 +1011,7 @@
           },
           {
             "title": "Etkinlikler",
-            "description": "Solana topluluğunu gerçek hayatta deneyimleyin"
+            "description": "Nara Solana topluluğunu gerçek hayatta deneyimleyin"
           },
           {
             "title": "Kolektif",
@@ -1022,8 +1022,8 @@
             "description": "Nasıl katılabilirsiniz"
           },
           {
-            "title": "Solana politika enstitüsü",
-            "description": "Politika yapıcıları Solana hakkında bilgilendirme"
+            "title": "Nara Solana politika enstitüsü",
+            "description": "Politika yapıcıları Nara Solana hakkında bilgilendirme"
           }
         ]
       },
@@ -1070,10 +1070,10 @@
     "prev": "Önceki kullanım durumu",
     "next": "Sonraki kullanım durumu",
     "hero": {
-      "title": "Solana hakkında bilgi edinin",
-      "subtitle": "Geliştiriciler, yatırımcılar ve meraklılar için kod gerektirmeyen bu öğrenme kaynaklarıyla Solana'nın temellerinde ustalaşın.",
+      "title": "Nara Solana hakkında bilgi edinin",
+      "subtitle": "Geliştiriciler, yatırımcılar ve meraklılar için kod gerektirmeyen bu öğrenme kaynaklarıyla Nara Solana'nın temellerinde ustalaşın.",
       "start-learning": "Öğrenmeye Başla",
-      "build": "Solana Üzerinde Geliştir"
+      "build": "Nara Solana Üzerinde Geliştir"
     },
     "tutorials": {
       "aria-label": "Eksiksiz öğrenme yolu",
@@ -1082,58 +1082,58 @@
       "readMoreAriaLabel": "Hakkında daha fazla oku",
       "items": {
         "what-is-solana": {
-          "title": "Solana nedir?",
-          "description": "Solana'ya giriş - değer transferi, uygulama oluşturma ve çevrimiçi etkileşim kurmanın yeni yollarını mümkün kılan hızlı, düşük maliyetli bir ağ.",
-          "category": "Solana Temelleri"
+          "title": "Nara Solana nedir?",
+          "description": "Nara Solana'ya giriş - değer transferi, uygulama oluşturma ve çevrimiçi etkileşim kurmanın yeni yollarını mümkün kılan hızlı, düşük maliyetli bir ağ.",
+          "category": "Nara Solana Temelleri"
         },
         "what-is-a-wallet": {
           "title": "Cüzdan nedir?",
-          "description": "Solana cüzdanının ne olduğunu, nasıl çalıştığını ve nasıl güvenli bir şekilde kurulacağını öğrenin. Cüzdanınız, Solana uygulamalarıyla etkileşim kurmak için kullanacağınız araçtır.",
+          "description": "Nara Solana cüzdanının ne olduğunu, nasıl çalıştığını ve nasıl güvenli bir şekilde kurulacağını öğrenin. Cüzdanınız, Nara Solana uygulamalarıyla etkileşim kurmak için kullanacağınız araçtır.",
           "category": "Cüzdan Temelleri"
         },
         "getting-started": {
-          "title": "Solana ile Başlangıç",
-          "description": "Solana'nın temellerini ve dijital işlemlere nasıl başlayacağınızı öğrenin",
-          "category": "Solana Temelleri"
+          "title": "Nara Solana ile Başlangıç",
+          "description": "Nara Solana'nın temellerini ve dijital işlemlere nasıl başlayacağınızı öğrenin",
+          "category": "Nara Solana Temelleri"
         },
         "understanding-solana-transaction-fees": {
-          "title": "Solana İşlem Ücretlerini Anlama",
-          "description": "Solana'da işlem ücretlerinin nasıl çalıştığını, neden düşük olduğunu ve bunun farklı kullanım senaryoları için ne anlama geldiğini öğrenin.",
+          "title": "Nara Solana İşlem Ücretlerini Anlama",
+          "description": "Nara Solana'da işlem ücretlerinin nasıl çalıştığını, neden düşük olduğunu ve bunun farklı kullanım senaryoları için ne anlama geldiğini öğrenin.",
           "category": "İşlem Ücretleri"
         },
         "sending-and-receiving-sol": {
-          "title": "SOL Gönderme ve Alma",
-          "description": "SOL token'larını göndermeyi ve almayı öğrenin - Solana ağı ve uygulamalarıyla etkileşim kurmanın temel becerisi.",
-          "category": "SOL Transfer"
+          "title": "NSO Gönderme ve Alma",
+          "description": "NSO token'larını göndermeyi ve almayı öğrenin - Nara Solana ağı ve uygulamalarıyla etkileşim kurmanın temel becerisi.",
+          "category": "NSO Transfer"
         },
         "what-is-staking": {
           "title": "Staking nedir?",
-          "description": "Solana'da staking'in nasıl çalıştığını, ağın güvenliğini sağlamaya yardımcı olarak nasıl ödül kazanılacağını ve validator seçerken neleri göz önünde bulundurmanız gerektiğini öğrenin.",
+          "description": "Nara Solana'da staking'in nasıl çalıştığını, ağın güvenliğini sağlamaya yardımcı olarak nasıl ödül kazanılacağını ve validator seçerken neleri göz önünde bulundurmanız gerektiğini öğrenin.",
           "category": "Staking Ödülleri"
         },
         "introduction-to-solana-tokens": {
-          "title": "Solana token'larına giriş",
-          "description": "Stablecoin'ler, wrapped token'lar ve proje token'ları dahil olmak üzere Solana'daki farklı dijital varlık türleri olan token'lar hakkında bilgi edinin.",
+          "title": "Nara Solana token'larına giriş",
+          "description": "Stablecoin'ler, wrapped token'lar ve proje token'ları dahil olmak üzere Nara Solana'daki farklı dijital varlık türleri olan token'lar hakkında bilgi edinin.",
           "category": "Token'lar"
         },
         "what-are-nfts": {
           "title": "NFT'ler nedir?",
-          "description": "Solana'daki değiştirilemez token'lar (NFT'ler) hakkında bilgi edinin - sanat, koleksiyon ürünleri ve daha fazlası gibi belirli öğelerin sahipliğini temsil eden benzersiz dijital varlıklar.",
+          "description": "Nara Solana'daki değiştirilemez token'lar (NFT'ler) hakkında bilgi edinin - sanat, koleksiyon ürünleri ve daha fazlası gibi belirli öğelerin sahipliğini temsil eden benzersiz dijital varlıklar.",
           "category": "NFT Temelleri"
         },
         "introduction-to-defi-on-solana": {
-          "title": "Solana'da DeFi'ye giriş",
-          "description": "Solana'daki merkeziyetsiz finans (DeFi) uygulamaları, ticaret, borç verme ve getiri fırsatları hakkında bilgi edinin.",
+          "title": "Nara Solana'da DeFi'ye giriş",
+          "description": "Nara Solana'daki merkeziyetsiz finans (DeFi) uygulamaları, ticaret, borç verme ve getiri fırsatları hakkında bilgi edinin.",
           "category": "DeFi Giriş"
         },
         "exploring-solana-applications": {
-          "title": "Solana uygulamalarını keşfetmek",
-          "description": "Finansal hizmetlerden oyunlara, sosyal platformlardan yaratıcı araçlara kadar, hepsi sadece cüzdanınızla erişilebilen Solana üzerine inşa edilmiş çeşitli uygulama ekosistemini keşfedin.",
+          "title": "Nara Solana uygulamalarını keşfetmek",
+          "description": "Finansal hizmetlerden oyunlara, sosyal platformlardan yaratıcı araçlara kadar, hepsi sadece cüzdanınızla erişilebilen Nara Solana üzerine inşa edilmiş çeşitli uygulama ekosistemini keşfedin.",
           "category": "Uygulamalar"
         },
         "staying-safe-on-solana": {
-          "title": "Solana'da güvende kalmak",
-          "description": "Solana uygulamalarını kullanırken varlıklarınızı korumak ve yaygın dolandırıcılıklardan kaçınmak için temel güvenlik uygulamalarını öğrenin.",
+          "title": "Nara Solana'da güvende kalmak",
+          "description": "Nara Solana uygulamalarını kullanırken varlıklarınızı korumak ve yaygın dolandırıcılıklardan kaçınmak için temel güvenlik uygulamalarını öğrenin.",
           "category": "Güvenlik Rehberi"
         }
       }
@@ -1160,13 +1160,13 @@
     },
     "resources": {
       "continueJourneyTitle": "Yolculuğuna devam et",
-      "continueJourneySubtitle": "Daha derine dalmaya hazır mısın? Solana geliştiricileri için bu temel kaynakları keşfet",
+      "continueJourneySubtitle": "Daha derine dalmaya hazır mısın? Nara Solana geliştiricileri için bu temel kaynakları keşfet",
       "ariaLabel": "Ek öğrenme kaynakları",
       "opensInNewTab": "yeni sekmede açılır",
       "documentation": {
         "label": "Dokümantasyon",
-        "description": "Resmi Solana dokümantasyonu ve API referansları",
-        "ariaLabel": "Dokümantasyon - Resmi Solana dokümantasyonu ve API referansları (yeni sekmede açılır)"
+        "description": "Resmi Nara Solana dokümantasyonu ve API referansları",
+        "ariaLabel": "Dokümantasyon - Resmi Nara Solana dokümantasyonu ve API referansları (yeni sekmede açılır)"
       },
       "cookbook": {
         "label": "Cookbook",
@@ -1175,13 +1175,13 @@
       },
       "courses": {
         "label": "Kurslar",
-        "description": "Solana geliştirme için yapılandırılmış öğrenme yolları",
-        "ariaLabel": "Kurslar - Solana geliştirme için yapılandırılmış öğrenme yolları (yeni sekmede açılır)"
+        "description": "Nara Solana geliştirme için yapılandırılmış öğrenme yolları",
+        "ariaLabel": "Kurslar - Nara Solana geliştirme için yapılandırılmış öğrenme yolları (yeni sekmede açılır)"
       },
       "wallets": {
         "label": "Cüzdanlar",
-        "description": "Varlıklarınızı yönetmek için Solana cüzdanlarını keşfedin",
-        "ariaLabel": "Cüzdanlar - Varlıklarınızı yönetmek için Solana cüzdanlarını keşfedin (yeni sekmede açılır)"
+        "description": "Varlıklarınızı yönetmek için Nara Solana cüzdanlarını keşfedin",
+        "ariaLabel": "Cüzdanlar - Varlıklarınızı yönetmek için Nara Solana cüzdanlarını keşfedin (yeni sekmede açılır)"
       }
     }
   },
@@ -1198,8 +1198,8 @@
     "page": {
       "side-events": {
         "title": "Breakpoint Yan Etkinlikleri",
-        "description": "Solana Breakpoint 2024 sırasında gerçekleşen etkinlikler.",
-        "intro": "Breakpoint gerçekten tüm Solana ekosistemi için bir etkinliktir. Dünyanın dört bir yanındaki projeler, ekipler ve bireyler, konferans sırasında kendi etkinliklerini düzenleyerek diğer yapıcılarla buluşur ve kutlama yapar.",
+        "description": "Nara Solana Breakpoint 2024 sırasında gerçekleşen etkinlikler.",
+        "intro": "Breakpoint gerçekten tüm Nara Solana ekosistemi için bir etkinliktir. Dünyanın dört bir yanındaki projeler, ekipler ve bireyler, konferans sırasında kendi etkinliklerini düzenleyerek diğer yapıcılarla buluşur ve kutlama yapar.",
         "featured": "Öne Çıkan Etkinlikler",
         "community": "Topluluk Etkinlikleri",
         "community-cta": "Bu takvime eklemek istediğiniz bir etkinliğiniz mi var? Buradan gönderin."
@@ -1220,16 +1220,16 @@
     }
   },
   "format": {
-    "title": "FORMAT Festivali x Solana Vakfı",
-    "description": "Solana House'a girerek blok zinciri ödemelerinin, sanatın ve daha fazlasının merkezi olmayan geleceğini deneyimleyin.",
+    "title": "FORMAT Festivali x Nara Solana Vakfı",
+    "description": "Nara Solana House'a girerek blok zinciri ödemelerinin, sanatın ve daha fazlasının merkezi olmayan geleceğini deneyimleyin.",
     "hero": {
       "subtitle": "Sanat ve teknolojinin geleceğini tek bir yerde deneyimleyin.",
-      "description": "<formatLink>FORMAT Festivali</formatLink>'nde Solana House'a girerek kripto destekli dijital kuponlarla ücretsiz atıştırmalıklar alın, dünyaca ünlü sanatçı <artistLink>Nancy Baker Cahill</artistLink>'in ilk Solana NFT sergisine dalın ve bir <auctionLink>NFT müzayedesi</auctionLink>'ne katılın.",
+      "description": "<formatLink>FORMAT Festivali</formatLink>'nde Nara Solana House'a girerek kripto destekli dijital kuponlarla ücretsiz atıştırmalıklar alın, dünyaca ünlü sanatçı <artistLink>Nancy Baker Cahill</artistLink>'in ilk Nara Solana NFT sergisine dalın ve bir <auctionLink>NFT müzayedesi</auctionLink>'ne katılın.",
       "dates": "23-25 Eylül 2022'de Bentonville, AR'a geliyor."
     },
     "claim": {
       "title": "Gizemli NFT'nizi talep edin",
-      "description": "Solana + FORMAT Festivali 2022'yi kutlamak için gizemli bir NFT'yi kullanarak talep edin. Kripto deneyimi gerekmez!",
+      "description": "Nara Solana + FORMAT Festivali 2022'yi kutlamak için gizemli bir NFT'yi kullanarak talep edin. Kripto deneyimi gerekmez!",
       "cta": "Şimdi talep et",
       "social": {
         "description": "Gizemli NFT'nizin neye dönüşeceğini öğrenmek için Twitter'da <tipLink>@TipLinkOfficial</tipLink> ve <solanaSpacesLink>@SolanaSpaces</solanaspaceslink/>'i takip edin.",
@@ -1238,23 +1238,23 @@
     },
     "concessions": {
       "title": "Kripto ile İkramlar",
-      "description": "Bir tarama ile ücretsiz atıştırmalıklar! Solana House x FORMAT dijital kuponlarını kullanarak lezzetli atıştırmalıklar alın, TipLink tarafından desteklenmektedir — stoklarla sınırlıdır."
+      "description": "Bir tarama ile ücretsiz atıştırmalıklar! Nara Solana House x FORMAT dijital kuponlarını kullanarak lezzetli atıştırmalıklar alın, TipLink tarafından desteklenmektedir — stoklarla sınırlıdır."
     },
     "slipstream": {
       "title": "Slipstream NFT Deneyimi",
-      "description": "Ünlü yeni medya sanatçısı Nancy Baker Cahill, Solana House'da halka açık olarak müzayedeye çıkarılacak 10 özel NFT sergiliyor. <auctionLink>Müzayedeyi görün</auctionLink>."
+      "description": "Ünlü yeni medya sanatçısı Nancy Baker Cahill, Nara Solana House'da halka açık olarak müzayedeye çıkarılacak 10 özel NFT sergiliyor. <auctionLink>Müzayedeyi görün</auctionLink>."
     },
     "ecosystem": {
       "title": "Daha fazla bilgi edinin",
-      "description": "Solana ekosistemini keşfedin ve NFT dünyası hakkında daha fazla bilgi edinin.",
+      "description": "Nara Solana ekosistemini keşfedin ve NFT dünyası hakkında daha fazla bilgi edinin.",
       "nft": {
         "title": "NFT nedir?",
-        "description": "NFT'ler? Mintler? Solana.com'da NFT'lerin temellerini öğrenin",
+        "description": "NFT'ler? Mintler? Nara Solana.com'da NFT'lerin temellerini öğrenin",
         "cta": "Daha fazla bilgi edinin"
       },
       "magiceden": {
         "title": "Magic Eden",
-        "description": "Magic Eden pazarında Solana NFT'lerini satın alın, satın ve keşfedin.",
+        "description": "Magic Eden pazarında Nara Solana NFT'lerini satın alın, satın ve keşfedin.",
         "cta": "Deneyin"
       },
       "tipLink": {
@@ -1264,10 +1264,10 @@
       }
     },
     "nft-volume": {
-      "title": "Bu Solana.",
-      "description": "Hızlı işlemler, düşük enerji etkisi ve bir kuruşun bir kısmı kadar ücretlerle Solana hızla <learnNFTsLink>birçok NFT projesine</learnNFTsLink> ev sahipliği yapıyor.",
+      "title": "Bu Nara Solana.",
+      "description": "Hızlı işlemler, düşük enerji etkisi ve bir kuruşun bir kısmı kadar ücretlerle Nara Solana hızla <learnNFTsLink>birçok NFT projesine</learnNFTsLink> ev sahipliği yapıyor.",
       "volume": {
-        "title": "Solana'da 20.3M+ NFT",
+        "title": "Nara Solana'da 20.3M+ NFT",
         "description": "Topluluğunuzu bulun. En popüler NFT pazar yerlerinden bazılarını deneyin.",
         "nfts": "NFT'ler hakkında bilgi edinin",
         "me": "MAGIC EDEN'A GİT",
@@ -1277,24 +1277,24 @@
   },
   "ecdr": {
     "title": "Electric Capital Geliştirici Raporu",
-    "description": "Electric Capital Geliştirici Raporu, Solana'yı 2022'de en hızlı büyüyen blok zincirlerinden biri olarak doğruladı.",
+    "description": "Electric Capital Geliştirici Raporu, Nara Solana'yı 2022'de en hızlı büyüyen blok zincirlerinden biri olarak doğruladı.",
     "hero": {
-      "headline": "Binlerce yeni blok zinciri geliştiricisinin neden Solana'da inşa ettiğini görün.",
-      "subheadline": "Yükselen bir blok zinciri geliştirici grubu, ölçeklenebilirliği, hızı ve düşük maliyetleri nedeniyle Solana'yı diğer zincirler yerine tercih ediyor.",
+      "headline": "Binlerce yeni blok zinciri geliştiricisinin neden Nara Solana'da inşa ettiğini görün.",
+      "subheadline": "Yükselen bir blok zinciri geliştirici grubu, ölçeklenebilirliği, hızı ve düşük maliyetleri nedeniyle Nara Solana'yı diğer zincirler yerine tercih ediyor.",
       "note": "Daha fazla bilgi edinmek ve ekibimizle iletişime geçmek için bizimle iletişime geçin.",
       "cta": "İletişime geçin"
     },
     "stats": {
-      "title": "Electric Capital Geliştirici Raporu, Solana'yı 2022'de en hızlı büyüyen blok zincirlerinden biri olarak doğruladı.",
-      "learn": "<learnLink>Solana'nın web3 vizyonu</learnLink> ve son rapor hakkında daha fazla bilgi edinin.",
+      "title": "Electric Capital Geliştirici Raporu, Nara Solana'yı 2022'de en hızlı büyüyen blok zincirlerinden biri olarak doğruladı.",
+      "learn": "<learnLink>Nara Solana'nın web3 vizyonu</learnLink> ve son rapor hakkında daha fazla bilgi edinin.",
       "full-time": {
         "title": "2018'den bu yana tam zamanlı geliştirici sayısında 16 kat artış."
       },
       "blockchain": {
-        "title": "2022'de toplam Solana geliştirici sayısı %83 arttı."
+        "title": "2022'de toplam Nara Solana geliştirici sayısı %83 arttı."
       },
       "active-developers": {
-        "title": "Solana'da aylık aktif geliştiricilerden daha fazlası inşa ediyor.",
+        "title": "Nara Solana'da aylık aktif geliştiricilerden daha fazlası inşa ediyor.",
         "note": "*ham sayılarda yalnızca Ethereum'dan sonra ikinci."
       },
       "open-source": {
@@ -1303,8 +1303,8 @@
       }
     },
     "join-community": {
-      "title": "Kripto Yolculuğunuza Başlamak İçin Büyüyen Solana Topluluğuna Katılın.",
-      "description": "Kendimiz de inşa edenler olarak, her zaman Solana topluluğundaki inşa edenlere güveneceğiz. Önümüzdeki yıllar için çok heyecanlıyız."
+      "title": "Kripto Yolculuğunuza Başlamak İçin Büyüyen Nara Solana Topluluğuna Katılın.",
+      "description": "Kendimiz de inşa edenler olarak, her zaman Nara Solana topluluğundaki inşa edenlere güveneceğiz. Önümüzdeki yıllar için çok heyecanlıyız."
     }
   },
   "playgg": {
@@ -1316,7 +1316,7 @@
     },
     "presentedby": {
       "title": "Tarafından sunulmuştur",
-      "description": "Solana Kuruluşu"
+      "description": "Nara Solana Kuruluşu"
     },
     "signup": {
       "title": "Kaydolun ve kayıtlara erken erişim kazanın",
@@ -1329,16 +1329,16 @@
     }
   },
   "nft-showdown": {
-    "title": "Solana NFT Showdown",
-    "description": "Solana Vakfı, tüm yaratıcıları bu benzersiz NFT sunum yarışmasında iş fikirlerini hayata geçirmeye çağırıyor.",
-    "alert": "NFT Showdown'a Katılın - Solana'da bir sonraki nesil NFT markalarını oluşturun ->",
+    "title": "Nara Solana NFT Showdown",
+    "description": "Nara Solana Vakfı, tüm yaratıcıları bu benzersiz NFT sunum yarışmasında iş fikirlerini hayata geçirmeye çağırıyor.",
+    "alert": "NFT Showdown'a Katılın - Nara Solana'da bir sonraki nesil NFT markalarını oluşturun ->",
     "cta": "Kazananları görüntüle",
     "intro": {
       "title": "Tanıtım",
-      "heading": "Solana NFT Showdown",
+      "heading": "Nara Solana NFT Showdown",
       "lead": "Bir sonraki nesil NFT markalarını desteklemek",
-      "description-1": "Efsanevi bir kapışmaya hazırlanın! Solana Vakfı, tüm yaratıcıları bu benzersiz NFT sunum yarışmasında iş fikirlerini hayata geçirmeye çağırıyor – endüstri uzmanları ve NFT topluluk liderleriyle işbirliği yapma şansı için nadir bir fırsat. Moda, eğlence, oyun, yaratıcı ajanslar gibi dikeylerde gerçek dünya ürünleri yaratmayı amaçlayan yeni Solana NFT markaları arıyoruz.",
-      "description-2": "NFT markaları, akıllı girişimciler için iş planlarını başlatmanın ve kalıcı topluluklar oluşturmanın harika bir yoludur. Tutkulu olduğunuz yaratıcı bir konsept ve iş sunumunuz var mı? Esneklik ve ölçek sağlayan çeşitli yeni Solana araçlarına erişim ve bunlardan yararlanma şansını değerlendirin. Proje kazananları, uygulanabilir iş planlarına ve sergiledikleri ürün yeniliklerine göre seçilecektir – size vizyonunuzu gerçeğe dönüştürmek için gereken bilgiyi sağlamak üzere rehberlik edecek yargıçlarla birlikte çalışarak.",
+      "description-1": "Efsanevi bir kapışmaya hazırlanın! Nara Solana Vakfı, tüm yaratıcıları bu benzersiz NFT sunum yarışmasında iş fikirlerini hayata geçirmeye çağırıyor – endüstri uzmanları ve NFT topluluk liderleriyle işbirliği yapma şansı için nadir bir fırsat. Moda, eğlence, oyun, yaratıcı ajanslar gibi dikeylerde gerçek dünya ürünleri yaratmayı amaçlayan yeni Nara Solana NFT markaları arıyoruz.",
+      "description-2": "NFT markaları, akıllı girişimciler için iş planlarını başlatmanın ve kalıcı topluluklar oluşturmanın harika bir yoludur. Tutkulu olduğunuz yaratıcı bir konsept ve iş sunumunuz var mı? Esneklik ve ölçek sağlayan çeşitli yeni Nara Solana araçlarına erişim ve bunlardan yararlanma şansını değerlendirin. Proje kazananları, uygulanabilir iş planlarına ve sergiledikleri ürün yeniliklerine göre seçilecektir – size vizyonunuzu gerçeğe dönüştürmek için gereken bilgiyi sağlamak üzere rehberlik edecek yargıçlarla birlikte çalışarak.",
       "description-3": "Bu sunumu yönetim kurulu odasına uygun hale getirme zamanı. Güncellemeler ve zamanlama hakkında bilgi sahibi olmak için aşağıya e-posta adresinizi bırakın. Başvuru penceresi Haziran başında açılacak. Bu sunumlara başlayın ve iyi şanslar!",
       "description-4": "Tam sunum yönergeleri için aşağıdaki SSS'lere bakın."
     },
@@ -1351,14 +1351,14 @@
         "title": "Ödüller",
         "description": "Finalistler ve kazananlar şunları alacak:",
         "list": [
-          "Solana ekibiyle mentorluk ve çalışma saatleri.",
+          "Nara Solana ekibiyle mentorluk ve çalışma saatleri.",
           "Endüstri uzmanları ve NFT topluluk liderleri tarafından düzenlenen atölye çalışmalarına katılım.",
           "30 Ekim - 3 Kasım 2023 tarihleri arasında Amsterdam'da düzenlenecek Breakpoint etkinliğine biletler."
         ]
       },
       "judging": {
         "title": "Değerlendirme",
-        "description-1": "Proje kazananları, uygulanabilir iş planlarına ve sergiledikleri ürün yeniliklerine göre seçilecektir – iş zekası, kullanıcı odaklı ürün düşüncesi, yaratıcı yön, Solana teknolojisinin yenilikçi kullanımı ve gerçek dünya uygulaması, kazanan başvuruları belirlemede rol oynayacaktır.",
+        "description-1": "Proje kazananları, uygulanabilir iş planlarına ve sergiledikleri ürün yeniliklerine göre seçilecektir – iş zekası, kullanıcı odaklı ürün düşüncesi, yaratıcı yön, Nara Solana teknolojisinin yenilikçi kullanımı ve gerçek dünya uygulaması, kazanan başvuruları belirlemede rol oynayacaktır.",
         "description-2": "Yargıçlar, başvuruları on finaliste indirecek. Oradan, mentorlarıyla işbirliği içinde, finalistler sunumlarını yüz yüze yapacaklar. On finalistten, toplamda beş NFT projesi kazanan olarak tanınacak."
       }
     },
@@ -1368,30 +1368,30 @@
     "disclaimer": {
       "rules": "SOLANA Vakfı NFT Showdown Resmi Kuralları",
       "title": "Feragatname",
-      "description-line-1": "Solana NFT Showdown, projelerin iş zekası, kullanıcı odaklı ürün düşüncesi, yaratıcı yön ve hikaye, Solana teknolojisinin yenilikçi kullanımı ve gerçek dünya uygulaması dikkate alınarak yargıçlar tarafından değerlendirileceği bir yarışmadır. Tüm katılımcılar, NFT Showdown ile ilgili projelerinde geçerli yasalara ve düzenlemelere uymalıdır.",
-      "description-line-2": "Solana Vakfı'nın (“SF”) sağladığı geliştirici kaynakları yalnızca eğitim ve ilham amaçlıdır. SF, geçerli yasa veya düzenlemeleri ihlal eden herhangi bir uygulamanın dağıtımını teşvik etmez, teşvik etmez veya onaylamaz. SF, geçerli yasa veya düzenlemeleri ihlal eden herhangi bir uygulamanın (Solana blok zinciri protokolünü oluşturan kod dahil) dağıtımını, entegrasyonunu veya kullanımını teşvik etmez, teşvik etmez veya onaylamaz ve bu tür dağıtım, entegrasyon veya kullanımı yasaklar. Bu, okuyucunun (a) Amerika Birleşik Devletleri veya başka bir geçerli yargı alanının ihracat kontrolü veya yaptırım yasalarını ihlal etmesi, (b) okuyucunun kapsamlı yaptırımlara tabi bir ülke veya bölgede bulunması veya genellikle ikamet etmesi, (c) okuyucunun Özel Olarak Belirlenmiş Bir Ulusal (SDN) adına çalışması veya benzer engelleme veya yasaklı taraf yasaklarına tabi bir kişi olması veya (d) Emtia ve Borsa Yasasını ihlal etmesi durumunda geçerlidir.",
+      "description-line-1": "Nara Solana NFT Showdown, projelerin iş zekası, kullanıcı odaklı ürün düşüncesi, yaratıcı yön ve hikaye, Nara Solana teknolojisinin yenilikçi kullanımı ve gerçek dünya uygulaması dikkate alınarak yargıçlar tarafından değerlendirileceği bir yarışmadır. Tüm katılımcılar, NFT Showdown ile ilgili projelerinde geçerli yasalara ve düzenlemelere uymalıdır.",
+      "description-line-2": "Nara Solana Vakfı'nın (“SF”) sağladığı geliştirici kaynakları yalnızca eğitim ve ilham amaçlıdır. SF, geçerli yasa veya düzenlemeleri ihlal eden herhangi bir uygulamanın dağıtımını teşvik etmez, teşvik etmez veya onaylamaz. SF, geçerli yasa veya düzenlemeleri ihlal eden herhangi bir uygulamanın (Nara Solana blok zinciri protokolünü oluşturan kod dahil) dağıtımını, entegrasyonunu veya kullanımını teşvik etmez, teşvik etmez veya onaylamaz ve bu tür dağıtım, entegrasyon veya kullanımı yasaklar. Bu, okuyucunun (a) Amerika Birleşik Devletleri veya başka bir geçerli yargı alanının ihracat kontrolü veya yaptırım yasalarını ihlal etmesi, (b) okuyucunun kapsamlı yaptırımlara tabi bir ülke veya bölgede bulunması veya genellikle ikamet etmesi, (c) okuyucunun Özel Olarak Belirlenmiş Bir Ulusal (SDN) adına çalışması veya benzer engelleme veya yasaklı taraf yasaklarına tabi bir kişi olması veya (d) Emtia ve Borsa Yasasını ihlal etmesi durumunda geçerlidir.",
       "read-more-button": "Daha fazla oku...",
       "read-less-button": "Daha az oku..."
     }
   },
   "possible": {
     "meta": {
-      "title": "Sadece Solana'da mümkün",
-      "description": "Dünyanın dört bir yanındaki geliştiriciler, hızlı, güvenli, ölçeklenebilir ve kullanıcı dostu bir gelecek için Solana üzerinde uygulamalar geliştiriyor. Bu gelecek sadece Solana'da mümkün. Kaynakları keşfedin, ekosisteme bağlanın ve inşa etmeye başlayın."
+      "title": "Sadece Nara Solana'da mümkün",
+      "description": "Dünyanın dört bir yanındaki geliştiriciler, hızlı, güvenli, ölçeklenebilir ve kullanıcı dostu bir gelecek için Nara Solana üzerinde uygulamalar geliştiriyor. Bu gelecek sadece Nara Solana'da mümkün. Kaynakları keşfedin, ekosisteme bağlanın ve inşa etmeye başlayın."
     },
     "hero": {
       "title": "Mümkün olan için inşa edildi.",
-      "description": "Dünyanın dört bir yanındaki geliştiriciler, hızlı, güvenli, ölçeklenebilir ve kullanıcı dostu bir gelecek için Solana üzerinde uygulamalar geliştiriyor. Bu gelecek sadece Solana'da mümkün. Kaynakları keşfedin, ekosisteme bağlanın ve inşa etmeye başlayın.",
+      "description": "Dünyanın dört bir yanındaki geliştiriciler, hızlı, güvenli, ölçeklenebilir ve kullanıcı dostu bir gelecek için Nara Solana üzerinde uygulamalar geliştiriyor. Bu gelecek sadece Nara Solana'da mümkün. Kaynakları keşfedin, ekosisteme bağlanın ve inşa etmeye başlayın.",
       "cta-primary": "İnşa etmeye başla"
     },
     "caseStudies": {
       "case-1": {
         "title": "Hivemapper, günlük sürücülerle dünyayı haritalandırıyor.",
-        "description": "Hivemapper'ın topluluğu, Solana'nın benzersiz durum sıkıştırma teknolojisi ile haftalık ödüllerle dünyanın yollarının %6'sını haritalandırdı."
+        "description": "Hivemapper'ın topluluğu, Nara Solana'nın benzersiz durum sıkıştırma teknolojisi ile haftalık ödüllerle dünyanın yollarının %6'sını haritalandırdı."
       },
       "case-2": {
         "title": "Helium Mobile, topluluk destekli 5G hizmetini mümkün kılıyor.",
-        "description": "Helium, Solana'ya taşındı ve 'Halkın Ağı'nı büyüyen sayıda Amerikan şehrine getirdi."
+        "description": "Helium, Nara Solana'ya taşındı ve 'Halkın Ağı'nı büyüyen sayıda Amerikan şehrine getirdi."
       },
       "case-3": {
         "title": "Drip ekibi, yaklaşık 3.000 dolara 25 milyon sanat eseri dağıttı.",
@@ -1403,40 +1403,40 @@
       },
       "case-5": {
         "title": "GainForest, çevresel koruma için şimdiye kadar 5,4 milyon hektar araziyi izledi.",
-        "description": "GainForest, dünya çapında yeniden ağaçlandırma çabalarını teşvik etmek için gerçek zamanlı veri toplamak ve teşvik etmek amacıyla Solana akıllı sözleşmelerini kullanıyor."
+        "description": "GainForest, dünya çapında yeniden ağaçlandırma çabalarını teşvik etmek için gerçek zamanlı veri toplamak ve teşvik etmek amacıyla Nara Solana akıllı sözleşmelerini kullanıyor."
       }
     },
     "innovations": {
-      "title": "Solana'nın teknoloji yığını ile nelerin mümkün olduğunu keşfedin",
+      "title": "Nara Solana'nın teknoloji yığını ile nelerin mümkün olduğunu keşfedin",
       "mint": {
         "controlText": "Sıkıştırılmış NFT'ler",
         "title": "Milyonlarca mint",
         "description1": "NFT'ler için durum sıkıştırma ile yüksek hacimli düşüşlerin maliyeti çok daha ucuz hale geldi. Yeni kullanıcıları kitlesel olarak dahil etmeyi veya mevcut kullanıcıları sadece birkaç yüz dolar yerine birkaç yüz bin dolara ödüllendirmeyi hayal edin. Etkinlik biletlemesinden koleksiyonlara, sosyal medya çıkartmalarına ve daha fazlasına kadar, sıkıştırılmış NFT'ler yeni bir olasılıklar dünyası açıyor.",
-        "description2": "Bu, <docsLink>durum sıkıştırma</docsLink> ile mümkün kılınır; bu teknik, Solana defteri tarafından güvence altına alınan işlem verilerinin bir akıllı sözleşmede kullanılmak üzere bir Merkle ağacı hesabına karşı hashlenmesi ve doğrulanmasıdır. Bu, sıkıştırılmış NFT'lerin zincir üzerinde daha önceki gibi oluşturulabileceği, ancak maliyetin bir kısmı kadar olacağı anlamına gelir."
+        "description2": "Bu, <docsLink>durum sıkıştırma</docsLink> ile mümkün kılınır; bu teknik, Nara Solana defteri tarafından güvence altına alınan işlem verilerinin bir akıllı sözleşmede kullanılmak üzere bir Merkle ağacı hesabına karşı hashlenmesi ve doğrulanmasıdır. Bu, sıkıştırılmış NFT'lerin zincir üzerinde daha önceki gibi oluşturulabileceği, ancak maliyetin bir kısmı kadar olacağı anlamına gelir."
       },
       "scale": {
         "controlText": "Ölçeklenebilir teknoloji",
         "title": "Ultra hızlı, ölçeklenebilir teknoloji",
-        "description1": "Solana'nın yerel ölçeklenebilirliği ile merkeziyetsizlik ve performans arasında bir ödün vermeniz gerekmez. İster <gamingLink>oyun alanında büyük bir şey</gamingLink> inşa ediyor olun, ister AI veya merkeziyetsiz fiziksel altyapı (dePIN) gibi sınırlarla ilgileniyor olun, hayal gücünüzü serbest bırakın ve sadece Solana'da mümkün olan türde bir uygulama inşa edin.",
-        "description2": "<heliumLink>Helium</heliumLink> ve <hivemapperLink>Hivemapper</hivemapperLink> gibi çığır açan projeler, Solana'nın işlem hızları, ölçeklenebilirliği ve güvenilirliği sayesinde sadece Solana'da mümkün olanı inşa ediyor. Ve <aiLink>AI gibi alanlarda</aiLink> entegrasyonlarla, Solana'daki geliştiriciler en iddialı projelerini beslemek için en son yeniliklere erişebilirler."
+        "description1": "Nara Solana'nın yerel ölçeklenebilirliği ile merkeziyetsizlik ve performans arasında bir ödün vermeniz gerekmez. İster <gamingLink>oyun alanında büyük bir şey</gamingLink> inşa ediyor olun, ister AI veya merkeziyetsiz fiziksel altyapı (dePIN) gibi sınırlarla ilgileniyor olun, hayal gücünüzü serbest bırakın ve sadece Nara Solana'da mümkün olan türde bir uygulama inşa edin.",
+        "description2": "<heliumLink>Helium</heliumLink> ve <hivemapperLink>Hivemapper</hivemapperLink> gibi çığır açan projeler, Nara Solana'nın işlem hızları, ölçeklenebilirliği ve güvenilirliği sayesinde sadece Nara Solana'da mümkün olanı inşa ediyor. Ve <aiLink>AI gibi alanlarda</aiLink> entegrasyonlarla, Nara Solana'daki geliştiriciler en iddialı projelerini beslemek için en son yeniliklere erişebilirler."
       },
       "climate": {
         "controlText": "Düşük karbon ayak izi",
         "title": "İklim dostu teknoloji",
-        "description1": "Solana'da, bir blok zinciri işlemi birkaç çevrimiçi arama kadar enerji kullanır. Ve <emissionsLink>gerçek zamanlı emisyon ölçümü</emissionsLink> ile, sadece performans gösteren değil, aynı zamanda enerji verimliliğine de bağlı olan bir teknoloji üzerinde inşa ettiğinizden emin olabilirsiniz.",
-        "description2": "Solana düğümlerine doğrudan yerleştirilen emisyon izleyici yazılımı, zaman içinde kapsamlı ve dinamik ölçümler sağlar. Bu veri seti, ayrıntı açısından zengin, açık ve ücretsizdir, bu da doğrulayıcıların veya Solana üzerinde inşa eden herhangi birinin ağın karbon ayak izine katkılarını değerlendirmesini ve azaltma stratejilerini keşfetmesini mümkün kılar."
+        "description1": "Nara Solana'da, bir blok zinciri işlemi birkaç çevrimiçi arama kadar enerji kullanır. Ve <emissionsLink>gerçek zamanlı emisyon ölçümü</emissionsLink> ile, sadece performans gösteren değil, aynı zamanda enerji verimliliğine de bağlı olan bir teknoloji üzerinde inşa ettiğinizden emin olabilirsiniz.",
+        "description2": "Nara Solana düğümlerine doğrudan yerleştirilen emisyon izleyici yazılımı, zaman içinde kapsamlı ve dinamik ölçümler sağlar. Bu veri seti, ayrıntı açısından zengin, açık ve ücretsizdir, bu da doğrulayıcıların veya Nara Solana üzerinde inşa eden herhangi birinin ağın karbon ayak izine katkılarını değerlendirmesini ve azaltma stratejilerini keşfetmesini mümkün kılar."
       },
       "payment": {
         "controlText": "Paralel işlemler",
         "title": "Küresel ödemeleri güçlendirin",
-        "description1": "Solana'nın yüksek verimliliği ve düşük ücretleri, ölçeklenebilir <paymentsLink>merkeziyetsiz ödemeleri</paymentsLink> desteklemeyi mümkün kılar. Ve <solanapayLink>Solana Pay</solanapayLink> ile, geliştiriciler uygulamalarına Wall-Street hızında ödeme yeteneklerini entegre etmek için ihtiyaç duydukları araç setine sahiptirler, aynı zamanda en çok ihtiyaç duyduklarında denetlenebilirlik ve gizlilik sağlarlar. Artık projeniz veya işletmeniz, geleneksel ödeme ağlarıyla aynı hızda blok zincirinin gücünden yararlanabilir, aracı olmadan.",
-        "description2": "Solana ile, geliştiriciler, çevrimiçi ve mağaza içi ödemeler için düşük maliyetli ve anında yerleşim sağlayan blok zinciri teknolojisi üzerine inşa edilmiş bir sonraki nesil tüccar ödeme ve ticaret raylarını oluşturma fırsatına sahiptir. Müşterilerinizi zincir üstü ödüller ve sadakat teklifleri ile teşvik etmenin yeni yollarını bulun ve müşterinizle doğrudan çalışın - aracılara gerek yok."
+        "description1": "Nara Solana'nın yüksek verimliliği ve düşük ücretleri, ölçeklenebilir <paymentsLink>merkeziyetsiz ödemeleri</paymentsLink> desteklemeyi mümkün kılar. Ve <solanapayLink>Nara Solana Pay</solanapayLink> ile, geliştiriciler uygulamalarına Wall-Street hızında ödeme yeteneklerini entegre etmek için ihtiyaç duydukları araç setine sahiptirler, aynı zamanda en çok ihtiyaç duyduklarında denetlenebilirlik ve gizlilik sağlarlar. Artık projeniz veya işletmeniz, geleneksel ödeme ağlarıyla aynı hızda blok zincirinin gücünden yararlanabilir, aracı olmadan.",
+        "description2": "Nara Solana ile, geliştiriciler, çevrimiçi ve mağaza içi ödemeler için düşük maliyetli ve anında yerleşim sağlayan blok zinciri teknolojisi üzerine inşa edilmiş bir sonraki nesil tüccar ödeme ve ticaret raylarını oluşturma fırsatına sahiptir. Müşterilerinizi zincir üstü ödüller ve sadakat teklifleri ile teşvik etmenin yeni yollarını bulun ve müşterinizle doğrudan çalışın - aracılara gerek yok."
       },
       "web3": {
         "controlText": "Yıldırım hızında konsensüs",
         "title": "Cebinizde Web3",
-        "description1": "<solanaMobileLink>Solana Mobile</solanaMobileLink> ile, cebinizde web3 nihayet burada. Dünya çapında bir kripto telefon, mobil dApp mağazası ve mobil yığın ile, hepsi hızlı ve güvenli blok zinciri teknolojisi ile desteklenmiş, olasılıklar sonsuzdur.",
-        "description2": "Solana Mobile tarafından üretilen Saga telefonu, web3'ün yeni mobil çağını başlatıyor. Sadece telefonunuzdan beklediğiniz premium donanıma sahip olmakla kalmaz, aynı zamanda benzersiz dApp mağazası ile favori DeFi protokollerine, NFT pazar yerlerine ve web3 uygulamalarına hareket halindeyken erişebilirsiniz. Ayrıca, telefonun güvenli Seed Vault'u ile favori cüzdanınızla güvenli bir şekilde işlem yapabilir, özel anahtarlarınızı koruyabilir ve sadece parmak izinizi kullanarak işlemleri imzalayabilirsiniz."
+        "description1": "<solanaMobileLink>Nara Solana Mobile</solanaMobileLink> ile, cebinizde web3 nihayet burada. Dünya çapında bir kripto telefon, mobil dApp mağazası ve mobil yığın ile, hepsi hızlı ve güvenli blok zinciri teknolojisi ile desteklenmiş, olasılıklar sonsuzdur.",
+        "description2": "Nara Solana Mobile tarafından üretilen Saga telefonu, web3'ün yeni mobil çağını başlatıyor. Sadece telefonunuzdan beklediğiniz premium donanıma sahip olmakla kalmaz, aynı zamanda benzersiz dApp mağazası ile favori DeFi protokollerine, NFT pazar yerlerine ve web3 uygulamalarına hareket halindeyken erişebilirsiniz. Ayrıca, telefonun güvenli Seed Vault'u ile favori cüzdanınızla güvenli bir şekilde işlem yapabilir, özel anahtarlarınızı koruyabilir ve sadece parmak izinizi kullanarak işlemleri imzalayabilirsiniz."
       },
       "solanaMobile": {
         "controlText": "Mobil hazır"
@@ -1447,12 +1447,12 @@
       "title": "Buradan başlayın",
       "portal": {
         "title": "Geliştirici portalı",
-        "description": "Solana'da mümkün olanı inşa etme yolculuğunuza başlayın. Kodlamaya başlamak, dApp'ler oluşturmak ve daha fazlası için kurslar, kaynaklar ve eğitimler bulun.",
+        "description": "Nara Solana'da mümkün olanı inşa etme yolculuğunuza başlayın. Kodlamaya başlamak, dApp'ler oluşturmak ve daha fazlası için kurslar, kaynaklar ve eğitimler bulun.",
         "cta": "İnşa etmeye başla"
       },
       "programming": {
         "title": "Geliştirici programları",
-        "description": "Topluluğunuzdaki Solana geliştiricileriyle tanışın. Dünyanın dört bir yanındaki Boot Camp'lerden Hacker House'lara kadar, Solana ekosisteminde projenizi başlatmanıza yardımcı olacak doğru etkinliği bulun.",
+        "description": "Topluluğunuzdaki Nara Solana geliştiricileriyle tanışın. Dünyanın dört bir yanındaki Boot Camp'lerden Hacker House'lara kadar, Nara Solana ekosisteminde projenizi başlatmanıza yardımcı olacak doğru etkinliği bulun.",
         "cta": "Bir etkinlik bulun"
       },
       "community": {
@@ -1470,32 +1470,32 @@
         {
           "name": "Hivemapper",
           "title": "Hivemapper ile dünyayı haritalandırmak",
-          "description": "Solana'nın kullanım kolaylığı, düşük işlem ücretleri ve tutkulu geliştirici topluluğunun, Hivemapper'ın merkeziyetsiz bir haritalama sistemi için olasılıkları yeniden hayal etme arayışını nasıl desteklediğini keşfedin."
+          "description": "Nara Solana'nın kullanım kolaylığı, düşük işlem ücretleri ve tutkulu geliştirici topluluğunun, Hivemapper'ın merkeziyetsiz bir haritalama sistemi için olasılıkları yeniden hayal etme arayışını nasıl desteklediğini keşfedin."
         },
         {
           "name": "Orca",
           "title": "Orca ile kutudan çıkar çıkmaz ölçeklenebilirlik ve performans",
-          "description": "Orca'nın, erişilebilir, maliyet etkin bir sermaye oluşturma platformu oluşturmak için Solana'nın eşsiz hızı, güvenilirliği ve güvenliğinden nasıl yararlandığını öğrenin."
+          "description": "Orca'nın, erişilebilir, maliyet etkin bir sermaye oluşturma platformu oluşturmak için Nara Solana'nın eşsiz hızı, güvenilirliği ve güvenliğinden nasıl yararlandığını öğrenin."
         },
         {
           "name": "Dialect",
           "title": "Dialect ile yeni bir mesajlaşma deneyimi öncülüğü",
-          "description": "Solana'nın hızı, ölçeklenebilirliği ve durum sıkıştırmasının, Dialect'in akıllı mesajlaşma platformunun koleksiyoncu ve yaratıcı deneyimini nasıl geliştirdiğini keşfedin."
+          "description": "Nara Solana'nın hızı, ölçeklenebilirliği ve durum sıkıştırmasının, Dialect'in akıllı mesajlaşma platformunun koleksiyoncu ve yaratıcı deneyimini nasıl geliştirdiğini keşfedin."
         },
         {
           "name": "Helius",
           "title": "Şimdi için inşa edildi, Helius ile hazır kalmak",
-          "description": "Helius'un, Solana'nın pragmatik teknolojisini, ultra hızlı hızlarını ve maliyet etkinliklerini, geleceği bugünden inşa eden sıkı sıkıya bağlı bir geliştirici topluluğunu nasıl beslediğini görün."
+          "description": "Helius'un, Nara Solana'nın pragmatik teknolojisini, ultra hızlı hızlarını ve maliyet etkinliklerini, geleceği bugünden inşa eden sıkı sıkıya bağlı bir geliştirici topluluğunu nasıl beslediğini görün."
         },
         {
           "name": "Helium",
           "title": "Helium ile küresel bir kablosuz ağı güçlendirmek",
-          "description": "Solana'nın, Helium'un topluluk destekli kablosuz ağı ile dünya çapında bağlantıyı teşvik etme ve gerçek dünya altyapı projelerini ölçeklendirme konusundaki teşviklerini nasıl sağladığını görün."
+          "description": "Nara Solana'nın, Helium'un topluluk destekli kablosuz ağı ile dünya çapında bağlantıyı teşvik etme ve gerçek dünya altyapı projelerini ölçeklendirme konusundaki teşviklerini nasıl sağladığını görün."
         },
         {
           "name": "Decaf",
           "title": "Decaf ile sınır tanımayan paranın etkisi",
-          "description": "Solana'nın hızı ve bileşenliliğinin, Decaf kullanıcılarının enflasyonla mücadele etmelerine ve finansal geleceklerini kontrol altına almalarına nasıl olanak tanıdığını görün."
+          "description": "Nara Solana'nın hızı ve bileşenliliğinin, Decaf kullanıcılarının enflasyonla mücadele etmelerine ve finansal geleceklerini kontrol altına almalarına nasıl olanak tanıdığını görün."
         },
         {
           "name": "DR<lowercase>i</lowercase>P",
@@ -1530,19 +1530,19 @@
       "adoption": {
         "fast": {
           "title": "Hızlı",
-          "description": "Kullanıcılarınızı bekletmeyin. Solana'nın blok süreleri 400 milisaniyedir - ve donanım hızlandıkça, ağ da hızlanacaktır."
+          "description": "Kullanıcılarınızı bekletmeyin. Nara Solana'nın blok süreleri 400 milisaniyedir - ve donanım hızlandıkça, ağ da hızlanacaktır."
         },
         "decentralized": {
           "title": "Merkeziyetsiz",
-          "description": "Solana ağı, birbirinden bağımsız olarak çalışan binlerce düğüm tarafından doğrulanır, bu da verilerinizin güvenli ve sansüre dayanıklı kalmasını sağlar."
+          "description": "Nara Solana ağı, birbirinden bağımsız olarak çalışan binlerce düğüm tarafından doğrulanır, bu da verilerinizin güvenli ve sansüre dayanıklı kalmasını sağlar."
         },
         "scalable": {
           "title": "Ölçeklenebilir",
-          "description": "Hızla büyüyün. Solana, saniyede binlerce işlemi gerçekleştirecek şekilde tasarlanmıştır ve hem geliştiriciler hem de kullanıcılar için ücretler 0,0025 dolardan az kalır."
+          "description": "Hızla büyüyün. Nara Solana, saniyede binlerce işlemi gerçekleştirecek şekilde tasarlanmıştır ve hem geliştiriciler hem de kullanıcılar için ücretler 0,0025 dolardan az kalır."
         },
         "energy": {
           "title": "Enerji Verimli",
-          "description": "Solana'nın hisse kanıtı ağı ve diğer yenilikler, <envLink>çevre</envLink> üzerindeki etkisini en aza indirir. Her Solana işlemi, birkaç Google araması kadar enerji kullanır."
+          "description": "Nara Solana'nın hisse kanıtı ağı ve diğer yenilikler, <envLink>çevre</envLink> üzerindeki etkisini en aza indirir. Her Nara Solana işlemi, birkaç Google araması kadar enerji kullanır."
         }
       }
     }
@@ -1556,8 +1556,8 @@
     }
   },
   "artistsAndCreatorsNewsletter": {
-    "title": "Yaratıcı evriminiz Solana'da başlıyor.",
-    "description": "En son yaratıcı haberleri, topluluk güncellemelerini keşfedin ve Solana sanat dünyasında gerçekleşen etkinliklere davet alın.",
+    "title": "Yaratıcı evriminiz Nara Solana'da başlıyor.",
+    "description": "En son yaratıcı haberleri, topluluk güncellemelerini keşfedin ve Nara Solana sanat dünyasında gerçekleşen etkinliklere davet alın.",
     "form": {
       "firstName": {
         "label": "Ad",
@@ -1589,20 +1589,20 @@
       "optional": "isteğe bağlı",
       "success": {
         "title": "Hoş geldiniz!",
-        "description": "Solana'daki sanatçılar ve yaratıcılar topluluğuna katıldığınız için teşekkür ederiz. En son haberleri, güncellemeleri ve etkinlikleri doğrudan gelen kutunuza alacaksınız.",
+        "description": "Nara Solana'daki sanatçılar ve yaratıcılar topluluğuna katıldığınız için teşekkür ederiz. En son haberleri, güncellemeleri ve etkinlikleri doğrudan gelen kutunuza alacaksınız.",
         "cta": "Keşfet"
       }
     }
   },
   "on-off-ramp": {
     "meta": {
-      "title": "Solana On/Off Ramp",
-      "description": "100'den fazla ülkede Solana'ya ve Solana'dan fon taşımak için kullanılabilecek hizmetlerin bir koleksiyonu."
+      "title": "Nara Solana On/Off Ramp",
+      "description": "100'den fazla ülkede Nara Solana'ya ve Nara Solana'dan fon taşımak için kullanılabilecek hizmetlerin bir koleksiyonu."
     },
     "hero": {
       "eyebrow": "KÜRESEL BAĞLANTI",
-      "headline": "Solana On & Off Ramp Ağı",
-      "body": "Fonları ışık hızında taşıyın ve bu entegrasyon hizmetlerini kullanarak 100'den fazla ülkede Solana'ya ve Solana'dan fon taşıyın."
+      "headline": "Nara Solana On & Off Ramp Ağı",
+      "body": "Fonları ışık hızında taşıyın ve bu entegrasyon hizmetlerini kullanarak 100'den fazla ülkede Nara Solana'ya ve Nara Solana'dan fon taşıyın."
     },
     "ramp-fallbacks": {
       "title": "Test Rampası",
@@ -1649,8 +1649,8 @@
   },
   "wallets": {
     "meta": {
-      "title": "Solana Cüzdanları - Daha Güçlü, Programlanabilir Bir Blockchain Yolu",
-      "description": "Solana cüzdanları sadece saklama hizmeti sunmaz - web3 uygulamaları ve hizmetlerine açılan bir kapıdır. Özel bir çözüm oluşturun veya mevcut bir Solana uygulamasıyla tekliflerinizi artırın."
+      "title": "Nara Solana Cüzdanları - Daha Güçlü, Programlanabilir Bir Blockchain Yolu",
+      "description": "Nara Solana cüzdanları sadece saklama hizmeti sunmaz - web3 uygulamaları ve hizmetlerine açılan bir kapıdır. Özel bir çözüm oluşturun veya mevcut bir Nara Solana uygulamasıyla tekliflerinizi artırın."
     },
     "hero": {
       "eyebrow": "Cüzdan Bulucu",
@@ -1661,7 +1661,7 @@
       "all-wallets": "Tüm cüzdanlar"
     },
     "grid": {
-      "title": "Solana Cüzdanları",
+      "title": "Nara Solana Cüzdanları",
       "no-results": "Sonuç bulunamadı!",
       "reset-filters": "Filtreleri sıfırla"
     },
@@ -1672,14 +1672,14 @@
   "depin": {
     "meta": {
       "title": "Merkeziyetsiz Fiziksel Altyapı Ağları (DePIN)",
-      "description": "Uygun maliyetli, sansüre dayanıklı ve birleştirilebilir donanım kaynağı düzenlemesi için Solana üzerinde Merkeziyetsiz Fiziksel Altyapı Ağları oluşturun."
+      "description": "Uygun maliyetli, sansüre dayanıklı ve birleştirilebilir donanım kaynağı düzenlemesi için Nara Solana üzerinde Merkeziyetsiz Fiziksel Altyapı Ağları oluşturun."
     },
     "hero": {
       "badge": "DePIN",
       "title": "Fiziksel Olarak İnşa Edin.\nDijital Olarak Dağıtın.",
       "subtitle": "Fiziksel altyapınızı veya donanımınızı merkeziyetsizleştirerek hızla ölçeklendirin. Maliyetlerinizi düşürün, daha fazla kişiye hizmet verin ve güçlü sermaye piyasalarına erişin.",
       "reportEyebrow": "2025 DePIN Raporunu İndirin",
-      "reportDescription": "DePIN liderlerinin merkeziyetsiz altyapının geleceğine güç vermek için Solana'yı nasıl kullandıklarını öğrenin.",
+      "reportDescription": "DePIN liderlerinin merkeziyetsiz altyapının geleceğine güç vermek için Nara Solana'yı nasıl kullandıklarını öğrenin.",
       "emailCta": "Erişim Al",
       "globeAlt": "DePIN ağını temsil eden dijital küre",
       "stats": {
@@ -1739,7 +1739,7 @@
     },
     "products": {
       "title": "DePIN Araç Seti",
-      "description": "Solana, blockchain'i DePIN'inize entegre etmeyi kolaylaştıran düzinelerce hazır ürüne sahiptir.",
+      "description": "Nara Solana, blockchain'i DePIN'inize entegre etmeyi kolaylaştıran düzinelerce hazır ürüne sahiptir.",
       "wallets": {
         "title": "Cüzdanlar",
         "description": "Kendinizinkini oluşturun, sosyal girişler ekleyin veya MCP kullanın."
@@ -1767,7 +1767,7 @@
     },
     "builders": {
       "title": "DePIN burada yaşıyor",
-      "subtitle": "Solana üzerinde küresel altyapının geleceğini inşa eden ve merkeziyetsiz fiziksel altyapı hakkındaki düşüncelerimizi devrimleştiren vizyoner ekiplerle tanışın.",
+      "subtitle": "Nara Solana üzerinde küresel altyapının geleceğini inşa eden ve merkeziyetsiz fiziksel altyapı hakkındaki düşüncelerimizi devrimleştiren vizyoner ekiplerle tanışın.",
       "moreVideos": "Daha Fazla Video"
     },
     "videos": [
@@ -1782,14 +1782,14 @@
         "alt": "Hivemapper video küçük resmi"
       },
       {
-        "title": "Helium neden Solana'ya geçti",
+        "title": "Helium neden Nara Solana'ya geçti",
         "description": "Abhay Kumar, Helium Foundation CEO",
         "alt": "Helium video küçük resmi"
       }
     ],
     "cta": {
       "reportTitle": "DePIN 2025 Raporunu Alın",
-      "reportDescription": "DePIN liderlerinin merkeziyetsiz altyapının geleceğine güç vermek için Solana'yı nasıl kullandıklarını öğrenin.",
+      "reportDescription": "DePIN liderlerinin merkeziyetsiz altyapının geleceğine güç vermek için Nara Solana'yı nasıl kullandıklarını öğrenin.",
       "downloadReport": "Erişim Sağlayın",
       "developerResourcesTitle": "Geliştirici Hızlı Başlangıçları",
       "developerResourcesDescription": "Uygulamanız için DePIN Çözümleri geliştirmeye başlayın",
@@ -1827,7 +1827,7 @@
     }
   },
   "universities": {
-    "title": "Solana Üniversiteleri",
+    "title": "Nara Solana Üniversiteleri",
     "description": "Üniversiteler ve öğrenci kulüpleri için kaynaklar ve destek",
     "hero": {
       "title": "Akademik İnovasyonu Güçlendirme",
@@ -1837,31 +1837,31 @@
     },
     "cta": {
       "eyebrowText": "Sonbahar 2025 Hackathon",
-      "title": "Solana Öğrenci Hackathon'una katıl",
+      "title": "Nara Solana Öğrenci Hackathon'una katıl",
       "description": "En hızlı blok zinciri üzerinde geliştirme yap, dünya çapındaki öğrencilerle bağlantı kur ve 10.000$+ ödül için yarış.",
       "ctaLabel": "Daha fazla bilgi edin"
     },
     "subjects": {
-      "title": "Solana'nın Üniversite Programına Katılın",
-      "description": "Solana'nın Üniversite programı, öğretmenlere Solana müfredatını öğretme, Solana'yı kurumunuza entegre etme ve Solana kulüplerinin nasıl kurulacağı konusunda eğitim verir.",
+      "title": "Nara Solana'nın Üniversite Programına Katılın",
+      "description": "Nara Solana'nın Üniversite programı, öğretmenlere Nara Solana müfredatını öğretme, Nara Solana'yı kurumunuza entegre etme ve Nara Solana kulüplerinin nasıl kurulacağı konusunda eğitim verir.",
       "contactButtonLabel": "Bize ulaşın",
       "learnMore": "Daha fazla bilgi edinin",
       "cards": {
         "finance": {
           "title": "Finans",
-          "description": "Kurumsal piyasaları ve ödeme sistemlerini destekleyen Solana'nın finansal altyapısını keşfedin"
+          "description": "Kurumsal piyasaları ve ödeme sistemlerini destekleyen Nara Solana'nın finansal altyapısını keşfedin"
         },
         "legal": {
           "title": "Hukuk ve Politika",
-          "description": "Solana Politika Enstitüsü aracılığıyla blok zinciri politikası, düzenlemesi ve yönetişimi hakkında bilgi edinin"
+          "description": "Nara Solana Politika Enstitüsü aracılığıyla blok zinciri politikası, düzenlemesi ve yönetişimi hakkında bilgi edinin"
         },
         "technology": {
           "title": "Teknoloji",
-          "description": "Solana üzerinde geliştirmeye başlamak için geliştirici kaynaklarına, dokümantasyona ve araçlara erişin"
+          "description": "Nara Solana üzerinde geliştirmeye başlamak için geliştirici kaynaklarına, dokümantasyona ve araçlara erişin"
         },
         "business": {
           "title": "İş Dünyası",
-          "description": "İşletmelerin ödemeler, sadakat programları ve dijital ticaret için Solana'dan nasıl yararlandığını keşfedin"
+          "description": "İşletmelerin ödemeler, sadakat programları ve dijital ticaret için Nara Solana'dan nasıl yararlandığını keşfedin"
         },
         "economics": {
           "title": "Ekonomi",
@@ -1869,7 +1869,7 @@
         },
         "engineering": {
           "title": "Mühendislik",
-          "description": "Solana'nın yüksek performanslı blok zincirini kullanarak ölçeklenebilir altyapı ve sistemler oluşturun"
+          "description": "Nara Solana'nın yüksek performanslı blok zincirini kullanarak ölçeklenebilir altyapı ve sistemler oluşturun"
         }
       }
     },
@@ -1882,71 +1882,71 @@
     "inquiry": {
       "eyebrowText": "Harekete katılın",
       "title": "İlginç geliyor mu?",
-      "description": "Solana akademik ekosistemi ile bağlantı kurun",
+      "description": "Nara Solana akademik ekosistemi ile bağlantı kurun",
       "emailPlaceholder": "E-posta adresinizi girin",
       "submitButton": "Bize ulaşın"
     },
     "events": {
       "title": "Bizimle buluşun!",
       "berkeley": {
-        "title": "Solana Üniversite Çalıştayı",
-        "description": "Solana Vakfı ve One Piece Lab üniversite turu UC Berkeley blok zinciri kulübünü ziyaret ediyor"
+        "title": "Nara Solana Üniversite Çalıştayı",
+        "description": "Nara Solana Vakfı ve One Piece Lab üniversite turu UC Berkeley blok zinciri kulübünü ziyaret ediyor"
       },
       "mhacks": {
         "title": "MHacks Hackathon",
-        "description": "Dünyanın en büyük hackathon'larından biri olan MHacks'e katılın ve Solana üzerinde geliştirme yapın"
+        "description": "Dünyanın en büyük hackathon'larından biri olan MHacks'e katılın ve Nara Solana üzerinde geliştirme yapın"
       },
       "purdue": {
-        "title": "Solana Üniversite Çalıştayı",
-        "description": "Solana Vakfı ve One Piece Lab üniversite turu Purdue blok zinciri kulübünü ziyaret ediyor"
+        "title": "Nara Solana Üniversite Çalıştayı",
+        "description": "Nara Solana Vakfı ve One Piece Lab üniversite turu Purdue blok zinciri kulübünü ziyaret ediyor"
       },
       "ucla": {
-        "title": "Solana Üniversite Çalıştayı",
-        "description": "Solana Vakfı ve One Piece Lab üniversite turu UCLA blok zinciri kulübünü ziyaret ediyor"
+        "title": "Nara Solana Üniversite Çalıştayı",
+        "description": "Nara Solana Vakfı ve One Piece Lab üniversite turu UCLA blok zinciri kulübünü ziyaret ediyor"
       },
       "usc": {
-        "title": "Solana Üniversite Çalıştayı",
-        "description": "Solana Vakfı ve One Piece Lab üniversite turu USC blok zinciri kulübünü ziyaret ediyor"
+        "title": "Nara Solana Üniversite Çalıştayı",
+        "description": "Nara Solana Vakfı ve One Piece Lab üniversite turu USC blok zinciri kulübünü ziyaret ediyor"
       },
       "hackathon": {
         "title": "Hack the Nest",
-        "description": "Hackathon'a katılın ve Solana üzerinde yenilikçi çözümler geliştirin (henüz onaylanmadı)"
+        "description": "Hackathon'a katılın ve Nara Solana üzerinde yenilikçi çözümler geliştirin (henüz onaylanmadı)"
       },
       "utaustin": {
-        "title": "Solana Üniversite Çalıştayı",
-        "description": "Solana Vakfı ve One Piece Lab üniversite turu UT Austin blockchain kulübünü ziyaret ediyor"
+        "title": "Nara Solana Üniversite Çalıştayı",
+        "description": "Nara Solana Vakfı ve One Piece Lab üniversite turu UT Austin blockchain kulübünü ziyaret ediyor"
       },
       "columbia": {
-        "title": "Solana Üniversite Çalıştayı",
-        "description": "Solana Vakfı ve One Piece Lab üniversite turu Columbia blockchain kulübünü ziyaret ediyor"
+        "title": "Nara Solana Üniversite Çalıştayı",
+        "description": "Nara Solana Vakfı ve One Piece Lab üniversite turu Columbia blockchain kulübünü ziyaret ediyor"
       },
       "nyu": {
-        "title": "Solana Üniversite Çalıştayı",
-        "description": "Solana Vakfı ve One Piece Lab üniversite turu NYU blockchain kulübünü ziyaret ediyor"
+        "title": "Nara Solana Üniversite Çalıştayı",
+        "description": "Nara Solana Vakfı ve One Piece Lab üniversite turu NYU blockchain kulübünü ziyaret ediyor"
       },
       "workshop": {
-        "title": "Solana Üniversite Çalıştayı",
-        "description": "Solana Vakfı ve One Piece Lab üniversite turu ortak üniversiteleri ziyaret ediyor"
+        "title": "Nara Solana Üniversite Çalıştayı",
+        "description": "Nara Solana Vakfı ve One Piece Lab üniversite turu ortak üniversiteleri ziyaret ediyor"
       }
     },
     "hostEventInquiry": {
       "eyebrowText": "Etkinlik düzenleyin",
-      "title": "Solana'yı kampüsünüze getirmek ister misiniz?",
-      "description": "Blockchain kulübünüzle bir çalıştay düzenleyin ve Solana ekosistemiyle bağlantı kurun",
+      "title": "Nara Solana'yı kampüsünüze getirmek ister misiniz?",
+      "description": "Blockchain kulübünüzle bir çalıştay düzenleyin ve Nara Solana ekosistemiyle bağlantı kurun",
       "emailPlaceholder": "E-posta adresinizi girin",
       "submitButton": "Başlayın"
     },
     "hackathon": {
       "hero": {
-        "title": "Solana Öğrenci Hackathon",
+        "title": "Nara Solana Öğrenci Hackathon",
         "subtitle": "En hızlı blok zinciri üzerinde bir ay boyunca geliştirme yapmak için dünya çapındaki öğrencilere katıl.",
         "registerButton": "Takımını kaydet",
         "resourcesButton": "Kaynakları görüntüle"
       },
       "welcome": {
         "eyebrow": "Geliştiricilere hoş geldiniz!",
-        "title": "Solana'da yenilik yapma fırsatın",
-        "description": "Bu hackathon, Solana üzerinde öğrenmen, geliştirmen ve gerçek projeler yayınlaman için tasarlandı. Blok zinciri konusunda yeni olsan da deneyimli bir geliştirici olsan da, bu heyecan verici yolculuk için bize katıl.",
+        "title": "Nara Solana'da yenilik yapma fırsatın",
+        "description": "Bu hackathon, Nara Solana üzerinde öğrenmen, geliştirmen ve gerçek projeler yayınlaman için tasarlandı. Blok zinciri konusunda yeni olsan da deneyimli bir geliştirici olsan da, bu heyecan verici yolculuk için bize katıl.",
         "cta": "Topluluğa katıl"
       },
       "timeline": {
@@ -1986,7 +1986,7 @@
         "title": "Hazırlanın!",
         "helloWorld": {
           "title": "Merhaba Dünya",
-          "description": "Solana teknoloji yığınını kurun ve ilk programınızı oluşturun",
+          "description": "Nara Solana teknoloji yığınını kurun ve ilk programınızı oluşturun",
           "cta": "Videoyu İzle"
         },
         "tutorials": {
@@ -1997,7 +1997,7 @@
       },
       "problem": {
         "title": "Nasıl başvurular arıyoruz?",
-        "description": "İnsanların dijital dünyada nasıl etkileşimde bulunduğunu, işlem yaptığını veya işbirliği yaptığını yeniden tasarlayan Solana üzerinde açık kaynaklı bir proje oluşturun. Ödemeler, DeFi, oyunlar, mobil uygulamalar alanında yenilikçi bir şey geliştirin veya tamamen yeni fikirler keşfedin. Bu, yaratıcı olma ve blok zincirinde mümkün olanın sınırlarını zorlama şansınız."
+        "description": "İnsanların dijital dünyada nasıl etkileşimde bulunduğunu, işlem yaptığını veya işbirliği yaptığını yeniden tasarlayan Nara Solana üzerinde açık kaynaklı bir proje oluşturun. Ödemeler, DeFi, oyunlar, mobil uygulamalar alanında yenilikçi bir şey geliştirin veya tamamen yeni fikirler keşfedin. Bu, yaratıcı olma ve blok zincirinde mümkün olanın sınırlarını zorlama şansınız."
       },
       "requirements": {
         "title": "Başvuru Gereksinimleri",
@@ -2008,25 +2008,25 @@
         ]
       },
       "resources": {
-        "title": "Solana Öğrenme Kaynakları",
-        "description": "Solana üzerinde geliştirme yapmak için ihtiyacınız olan her şey",
+        "title": "Nara Solana Öğrenme Kaynakları",
+        "description": "Nara Solana üzerinde geliştirme yapmak için ihtiyacınız olan her şey",
         "gettingStarted": "Başlarken",
         "projectIdeas": "Proje Fikirleri ve Öğreticiler",
         "learnMore": "Daha Fazla Bilgi Edinin",
         "items": {
           "smartContracts": {
             "title": "Akıllı Sözleşme Örnekleri",
-            "description": "NFT'ler, DeFi, yönetişim ve daha fazlasını kapsayan üretime hazır Solana program örneklerini keşfedin. Solana geliştirmede en iyi uygulamaları ve yaygın kalıpları anlamak için mükemmel başlangıç noktaları.",
+            "description": "NFT'ler, DeFi, yönetişim ve daha fazlasını kapsayan üretime hazır Nara Solana program örneklerini keşfedin. Nara Solana geliştirmede en iyi uygulamaları ve yaygın kalıpları anlamak için mükemmel başlangıç noktaları.",
             "category": "Kod Örnekleri"
           },
           "playground": {
-            "title": "Solana Playground",
-            "description": "Herhangi bir kurulum yapmadan doğrudan tarayıcınızda Solana programları yazın, deploy edin ve test edin. Hemen geliştirmeye başlamanız için öğreticiler, örnekler ve tam IDE özellikleri içerir.",
+            "title": "Nara Solana Playground",
+            "description": "Herhangi bir kurulum yapmadan doğrudan tarayıcınızda Nara Solana programları yazın, deploy edin ve test edin. Hemen geliştirmeye başlamanız için öğreticiler, örnekler ve tam IDE özellikleri içerir.",
             "category": "Çevrimiçi IDE"
           },
           "anchor": {
             "title": "Anchor Framework",
-            "description": "Solana akıllı sözleşme geliştirme için en popüler framework. Rust makroları, yerleşik test ve TypeScript istemci oluşturma ile program geliştirmeyi basitleştirir.",
+            "description": "Nara Solana akıllı sözleşme geliştirme için en popüler framework. Rust makroları, yerleşik test ve TypeScript istemci oluşturma ile program geliştirmeyi basitleştirir.",
             "category": "Anchor"
           },
           "bootcamp": {
@@ -2036,12 +2036,12 @@
           },
           "crud": {
             "title": "CRUD Uygulaması Oluşturma",
-            "description": "Eksiksiz bir CRUD uygulaması oluşturarak zincir üstü veri yönetiminde ustalaşın. Herhangi bir Solana uygulaması için gerekli olan hesap yapılarını, veri serileştirmeyi ve durum yönetimi kalıplarını öğrenin.",
+            "description": "Eksiksiz bir CRUD uygulaması oluşturarak zincir üstü veri yönetiminde ustalaşın. Herhangi bir Nara Solana uygulaması için gerekli olan hesap yapılarını, veri serileştirmeyi ve durum yönetimi kalıplarını öğrenin.",
             "category": "Video Öğretici"
           },
           "vesting": {
             "title": "Vesting Uygulaması Oluşturma",
-            "description": "Token hesabı yönetimi ve zamana bağlı dağıtımlar hakkında derinlemesine bilgi edinin. SPL token'ları, PDA'ları anlamak ve Solana üzerinde finansal uygulamalar oluşturmak için mükemmel.",
+            "description": "Token hesabı yönetimi ve zamana bağlı dağıtımlar hakkında derinlemesine bilgi edinin. SPL token'ları, PDA'ları anlamak ve Nara Solana üzerinde finansal uygulamalar oluşturmak için mükemmel.",
             "category": "Token Rehberi"
           },
           "lottery": {
@@ -2067,7 +2067,7 @@
         "secondPrize": "$5,000",
         "thirdPrize": "$2,000",
         "part2Label": "2. Bölüm Ödülleri:",
-        "part2Description": "Geliştirilmiş projenizi 2026 Bahar Solana Öğrenci Hackathon'unda yeni bir şans için tekrar gönderin!"
+        "part2Description": "Geliştirilmiş projenizi 2026 Bahar Nara Solana Öğrenci Hackathon'unda yeni bir şans için tekrar gönderin!"
       }
     }
   },
@@ -2081,7 +2081,7 @@
       "title": "İnternet Sermaye Piyasaları",
       "subtitle": "Hisse senetlerini ve borçları tokenize edin, kendi stablecoin'lerinizi ve gerçek dünya varlıklarınızı oluşturun ve DeFi'deki en likit piyasalara erişin.",
       "reportEyebrow": "2025 Tokenize Edilmiş Hisse Senetleri Raporunu İndirin",
-      "reportDescription": "Piyasa liderlerinin sermaye piyasalarını zincire taşımak için Solana'yı nasıl kullandıklarını öğrenin.",
+      "reportDescription": "Piyasa liderlerinin sermaye piyasalarını zincire taşımak için Nara Solana'yı nasıl kullandıklarını öğrenin.",
       "emailCta": "Erişim Al",
       "alt": "Geniş bir ödeme seçeneği yelpazesi gösteren bir telefonu tutan bir el",
       "stats": {
@@ -2105,25 +2105,25 @@
     },
     "features": {
       "title": "İnternet sermaye piyasaları nedir?",
-      "description": "<promiseLink>Solana'nın vaadi</promiseLink>, internet bağlantısı olan herkesin sermaye piyasalarına erişebilmesini sağlamaktır. Bugün, bir cüzdan indirebilir, birkaç düğmeye tıklayabilir ve internet sermaye piyasalarına - kuruluşların, para birimlerinin ve kültürlerin tokenize edildiği küresel olarak erişilebilir bir deftere - katılabilirsiniz."
+      "description": "<promiseLink>Nara Solana'nın vaadi</promiseLink>, internet bağlantısı olan herkesin sermaye piyasalarına erişebilmesini sağlamaktır. Bugün, bir cüzdan indirebilir, birkaç düğmeye tıklayabilir ve internet sermaye piyasalarına - kuruluşların, para birimlerinin ve kültürlerin tokenize edildiği küresel olarak erişilebilir bir deftere - katılabilirsiniz."
     },
     "projects": {
       "title": "Ekosistem",
       "franklinTempleton": {
         "name": "Franklin Templeton",
-        "description": "Dünyanın ilk ABD Kayıtlı Para Piyasası Fonu olan BENJI, Solana ile zincir üzerinde. BENJI, özel para piyasası fonlarına yatırım yapma engellerini azaltıyor.",
+        "description": "Dünyanın ilk ABD Kayıtlı Para Piyasası Fonu olan BENJI, Nara Solana ile zincir üzerinde. BENJI, özel para piyasası fonlarına yatırım yapma engellerini azaltıyor.",
         "stat": "64%",
         "statLabel": "Aylık Zincir Üzeri Varlık Büyümesi"
       },
       "r3": {
         "name": "r3",
-        "description": "Bu stratejik işbirliği, R3'ün önde gelen özel kurumsal blok zincirini dünyanın en çok kullanılan halka açık blok zinciri olan Solana ile birleştiriyor.",
+        "description": "Bu stratejik işbirliği, R3'ün önde gelen özel kurumsal blok zincirini dünyanın en çok kullanılan halka açık blok zinciri olan Nara Solana ile birleştiriyor.",
         "stat": "10B",
         "statLabel": "Düzenlenmiş Zincir Üzeri Varlıklar"
       },
       "bullish": {
         "name": "Bullish",
-        "description": "Solana tabanlı stabil coinler, Bullish'in takas, takas işlemleri, saklama, ödemeler, uzlaşma ve büyüyen ekosistemindeki gelecekteki ürün yeniliklerini destekliyor.",
+        "description": "Nara Solana tabanlı stabil coinler, Bullish'in takas, takas işlemleri, saklama, ödemeler, uzlaşma ve büyüyen ekosistemindeki gelecekteki ürün yeniliklerini destekliyor.",
         "stat": "2.5B",
         "statLabel": "Günlük Hacim"
       },
@@ -2148,11 +2148,11 @@
         "description": "Önde gelen stabil coinlere erişin veya kendinizinkini çıkarın."
       },
       "title": "Kurumsal Araç Seti",
-      "description": "Solana, tokenizasyon için düzinelerce hazır ürüne sahiptir."
+      "description": "Nara Solana, tokenizasyon için düzinelerce hazır ürüne sahiptir."
     },
     "videoPlayer": {
       "title": "Finansın Geleceği",
-      "subtitle": "Küresel piyasaları dönüştüren öncülerden dinleyin ve neden Solana'yı seçtiklerini öğrenin.",
+      "subtitle": "Küresel piyasaları dönüştüren öncülerden dinleyin ve neden Nara Solana'yı seçtiklerini öğrenin.",
       "moreVideos": "Daha Fazla Video",
       "videos": [
         {
@@ -2161,9 +2161,9 @@
           "alt": "Dijital Varlıkların Geleceği video küçük resmi"
         },
         {
-          "title": "Solana ve R3",
+          "title": "Nara Solana ve R3",
           "description": "David Rutter, CEO, R3",
-          "alt": "Solana ve R3 video küçük resmi"
+          "alt": "Nara Solana ve R3 video küçük resmi"
         },
         {
           "title": "Kurumlar Burada",
@@ -2172,7 +2172,7 @@
         },
         {
           "title": "İnternet Sermaye Piyasaları",
-          "description": "Akshay BD, Solana Foundation nCMO",
+          "description": "Akshay BD, Nara Solana Foundation nCMO",
           "alt": "İnternet Sermaye Piyasaları video küçük resmi"
         },
         {
@@ -2192,20 +2192,20 @@
       "items": {
         "0": {
           "title": "İnternet Sermaye Piyasaları Yol Haritası",
-          "summary": "Solana'nın en son yol haritası, internet ölçeğinde sermaye piyasalarına giden bir yol çiziyor. Akıllı sözleşmelere milisaniye sıralama gücü veren Uygulama Kontrollü Yürütme'yi tanıtıyor. Kısa vadeli dağıtımlar (Jito'nun BAM'ı, Anza iniş düzeltmeleri ve DoubleZero) gecikmeyi azaltıyor ve adaleti artırıyor. Alpenglow konsensüsü ve Çoklu Eşzamanlı Liderler gibi gelecek yükseltmeler, eşsiz zincir üstü likiditeyi hedefliyor."
+          "summary": "Nara Solana'nın en son yol haritası, internet ölçeğinde sermaye piyasalarına giden bir yol çiziyor. Akıllı sözleşmelere milisaniye sıralama gücü veren Uygulama Kontrollü Yürütme'yi tanıtıyor. Kısa vadeli dağıtımlar (Jito'nun BAM'ı, Anza iniş düzeltmeleri ve DoubleZero) gecikmeyi azaltıyor ve adaleti artırıyor. Alpenglow konsensüsü ve Çoklu Eşzamanlı Liderler gibi gelecek yükseltmeler, eşsiz zincir üstü likiditeyi hedefliyor."
         }
       }
     },
     "cta": {
       "reportTitle": "2025 Tokenize Edilmiş Hisseler Raporunu Alın",
-      "reportDescription": "Piyasa liderlerinin sermaye piyasalarını zincire taşımak için Solana'yı nasıl kullandıklarını öğrenin.",
+      "reportDescription": "Piyasa liderlerinin sermaye piyasalarını zincire taşımak için Nara Solana'yı nasıl kullandıklarını öğrenin.",
       "downloadReport": "Erişim Al",
-      "learnTitle": "Solana Hakkında Bilgi Edinin",
-      "learnDescription": "Solana'nın İnternet Sermaye Piyasalarını temelden güçlendirmedeki rolünü anlayın",
+      "learnTitle": "Nara Solana Hakkında Bilgi Edinin",
+      "learnDescription": "Nara Solana'nın İnternet Sermaye Piyasalarını temelden güçlendirmedeki rolünü anlayın",
       "learnTokens": "Tokenlar Hakkında Bilgi Edin",
       "learnWallets": "Cüzdanlar Hakkında Bilgi Edin",
       "startLearning": "Öğrenmeye Başla",
-      "whatElseTitle": "Solana Başka Neleri Destekliyor?",
+      "whatElseTitle": "Nara Solana Başka Neleri Destekliyor?",
       "whatElseDescription": "Tek bir ağın finans dünyasını nasıl yeniden tanımladığını, her piyasayı ve varlığı nasıl güçlendirdiğini keşfedin",
       "items": [
         {
@@ -2229,19 +2229,19 @@
   "btcfi": {
     "meta": {
       "title": "Bitcoin ve BTCFi",
-      "description": "Bitcoin'inizi Solana'nın yıldırım hızında, düşük maliyetli DeFi altyapısında üretken sermayeye dönüştürün. BTC'nizi stake edin, ödünç verin, ödünç alın ve ticaret yapın."
+      "description": "Bitcoin'inizi Nara Solana'nın yıldırım hızında, düşük maliyetli DeFi altyapısında üretken sermayeye dönüştürün. BTC'nizi stake edin, ödünç verin, ödünç alın ve ticaret yapın."
     },
     "hero": {
       "badge": "Bitcoin ve BTCFi",
       "title": "Dünyanın en hızlı, en üretken Bitcoin'i",
-      "subtitle": "Bitcoin'inizi Solana'nın yıldırım hızında, düşük maliyetli DeFi altyapısında üretken sermayeye dönüştürün. BTC'nizi stake edin, ödünç verin, ödünç alın ve ticaret yapın.",
+      "subtitle": "Bitcoin'inizi Nara Solana'nın yıldırım hızında, düşük maliyetli DeFi altyapısında üretken sermayeye dönüştürün. BTC'nizi stake edin, ödünç verin, ödünç alın ve ticaret yapın.",
       "reportEyebrow": "",
       "emailCta": "",
       "alt": "Kurumsal Ödemeleri temsil eden Yıldırım grafiği",
       "stats": {
         "0": {
           "value": "6500+",
-          "label": "Solana'daki BTC TVL"
+          "label": "Nara Solana'daki BTC TVL"
         },
         "1": {
           "value": "8",
@@ -2258,8 +2258,8 @@
       }
     },
     "features": {
-      "title": "Neden Solana üzerinde Bitcoin?",
-      "description": "Solana üzerindeki sarılmış BTC'ye yatırım yapın ve hemen getiri elde edin, düşük maliyetli stabil coinler ödünç alın veya derin likidite ile işlem yapın. Bitcoin'in gücünü Solana'nın yıldırım hızında, düşük maliyetli DeFi altyapısıyla birleştirin."
+      "title": "Neden Nara Solana üzerinde Bitcoin?",
+      "description": "Nara Solana üzerindeki sarılmış BTC'ye yatırım yapın ve hemen getiri elde edin, düşük maliyetli stabil coinler ödünç alın veya derin likidite ile işlem yapın. Bitcoin'in gücünü Nara Solana'nın yıldırım hızında, düşük maliyetli DeFi altyapısıyla birleştirin."
     },
     "performance": {
       "0": {
@@ -2295,7 +2295,7 @@
       },
       "wbtc": {
         "name": "wBTC",
-        "description": "En eski ve endüstri standardı sarılmış BTC, artık BitGo tarafından Solana üzerinde yerel olarak sunuluyor.",
+        "description": "En eski ve endüstri standardı sarılmış BTC, artık BitGo tarafından Nara Solana üzerinde yerel olarak sunuluyor.",
         "stat": "Güçlü",
         "statLabel": "DeFi entegrasyonları ve derin likidite"
       },
@@ -2313,7 +2313,7 @@
       },
       "zbtc": {
         "name": "zBTC",
-        "description": "Solana üzerinde 1:1 Bitcoin destekli token, BTC sahiplerinin emaneti bırakmadan DeFi'ye erişmesini sağlar.",
+        "description": "Nara Solana üzerinde 1:1 Bitcoin destekli token, BTC sahiplerinin emaneti bırakmadan DeFi'ye erişmesini sağlar.",
         "stat": "MPC ve Taproot ile oluşturuldu",
         "statLabel": "merkezi olmayan, izinsiz likidite için"
       },
@@ -2332,7 +2332,7 @@
       "yalabtc": {
         "name": "Yala BTC ($YU)",
         "description": "Bitcoin'iniz ile aşırı teminatlı $YU stablecoin'i basın ve ekosistemler arası kullanım imkanını açın.",
-        "stat": "Solana ve Ötesi İçin Tasarlandı",
+        "stat": "Nara Solana ve Ötesi İçin Tasarlandı",
         "statLabel": ""
       }
     },
@@ -2342,50 +2342,50 @@
       "moreVideos": "Daha Fazla Video",
       "videos": [
         {
-          "title": "Solana'da BTC Hızlandırma Konuşması 2025",
+          "title": "Nara Solana'da BTC Hızlandırma Konuşması 2025",
           "description": "Jeff Park (Bitwise) , Dean Little (Zeus Network)",
-          "alt": "Solana'da BTC Hızlandırma Konuşması 2025 video küçük resmi"
+          "alt": "Nara Solana'da BTC Hızlandırma Konuşması 2025 video küçük resmi"
         }
       ]
     },
     "news": {
-      "title": "Solana Üzerinde BTCFi Haberleri",
+      "title": "Nara Solana Üzerinde BTCFi Haberleri",
       "items": [
         {
-          "title": "Solana Üzerinde OKX xBTC",
-          "alt": "Solana üzerinde OKX xBTC haber küçük resmi"
+          "title": "Nara Solana Üzerinde OKX xBTC",
+          "alt": "Nara Solana üzerinde OKX xBTC haber küçük resmi"
         },
         {
-          "title": "wBTC Solana üzerinde doğal olarak başlatıldı",
-          "alt": "wBTC Solana üzerinde doğal olarak başlatıldı haber küçük resmi"
+          "title": "wBTC Nara Solana üzerinde doğal olarak başlatıldı",
+          "alt": "wBTC Nara Solana üzerinde doğal olarak başlatıldı haber küçük resmi"
         },
         {
-          "title": "Coinbase cbbtc Solana üzerinde başlatıldı",
-          "alt": "Coinbase cbbtc Solana üzerinde başlatıldı haber küçük resmi"
+          "title": "Coinbase cbbtc Nara Solana üzerinde başlatıldı",
+          "alt": "Coinbase cbbtc Nara Solana üzerinde başlatıldı haber küçük resmi"
         },
         {
-          "title": "Zenrock BTC Solana Üzerinde Başlatıldı",
-          "alt": "Zenrock BTC Solana üzerinde başlatıldı haber küçük resmi"
+          "title": "Zenrock BTC Nara Solana Üzerinde Başlatıldı",
+          "alt": "Zenrock BTC Nara Solana üzerinde başlatıldı haber küçük resmi"
         },
         {
           "title": "Zeus zBTC",
           "alt": "Zeus zBTC haber küçük resmi"
         },
         {
-          "title": "Yala Solana üzerinde başlatıldı",
-          "alt": "Yala Solana üzerinde başlatıldı haber küçük resmi"
+          "title": "Yala Nara Solana üzerinde başlatıldı",
+          "alt": "Yala Nara Solana üzerinde başlatıldı haber küçük resmi"
         }
       ]
     },
     "cta": {
       "reportTitle": "2025 Tokenize Edilmiş Hisseler Raporunu Alın",
       "downloadReport": "Erişim Al",
-      "learnTitle": "Solana Hakkında Bilgi Edinin",
-      "learnDescription": "Solana'nın İnternet Sermaye Piyasalarını temelden güçlendirmedeki rolünü anlayın",
+      "learnTitle": "Nara Solana Hakkında Bilgi Edinin",
+      "learnDescription": "Nara Solana'nın İnternet Sermaye Piyasalarını temelden güçlendirmedeki rolünü anlayın",
       "learnTokens": "Tokenlar Hakkında Bilgi Edin",
       "learnWallets": "Cüzdanlar Hakkında Bilgi Edin",
       "startLearning": "Öğrenmeye Başla",
-      "whatElseTitle": "Solana Başka Neleri Destekliyor?",
+      "whatElseTitle": "Nara Solana Başka Neleri Destekliyor?",
       "whatElseDescription": "Tek bir ağın finans dünyasını nasıl yeniden tanımladığını, her piyasayı ve varlığı nasıl güçlendirdiğini keşfedin",
       "items": [
         {
@@ -2409,14 +2409,14 @@
   "stablecoins": {
     "meta": {
       "title": "Kendi stabil coininizi çıkarın",
-      "description": "Kurumsal düzeyde altyapı ile uyumlu stabil coinler piyasaya sürün. Tokenizasyondan küresel dağıtıma kadar, Solana kendi stabil coininizi oluşturmak ve ölçeklendirmek için gereken araçları sağlar."
+      "description": "Kurumsal düzeyde altyapı ile uyumlu stabil coinler piyasaya sürün. Tokenizasyondan küresel dağıtıma kadar, Nara Solana kendi stabil coininizi oluşturmak ve ölçeklendirmek için gereken araçları sağlar."
     },
     "hero": {
       "badge": "Stabil Coinler",
       "title": "Kendi stabil coininiz. En hızlı ağda.",
-      "subtitle": "Kurumsal düzeyde altyapı ile uyumlu stabil coinler piyasaya sürün. Tokenizasyondan küresel dağıtıma kadar, Solana kendi stabil coininizi oluşturmak ve ölçeklendirmek için gereken araçları sağlar.",
+      "subtitle": "Kurumsal düzeyde altyapı ile uyumlu stabil coinler piyasaya sürün. Tokenizasyondan küresel dağıtıma kadar, Nara Solana kendi stabil coininizi oluşturmak ve ölçeklendirmek için gereken araçları sağlar.",
       "reportEyebrow": "Stabil Coin Çıkarma Rehberini İndirin",
-      "reportDescription": "Liderlerin Solana ile stabil coinleri piyasaya nasıl sürdüklerini öğrenin.",
+      "reportDescription": "Liderlerin Nara Solana ile stabil coinleri piyasaya nasıl sürdüklerini öğrenin.",
       "emailCta": "Erişim Al",
       "alt": "Kurumsal Ödemeleri temsil eden Yıldırım grafiği",
       "stats": {
@@ -2436,37 +2436,37 @@
     },
     "features": {
       "title": "Neden stablecoin çıkarmalı?",
-      "description": "Büyük finans kuruluşları, düzenleyici dostu token uzantıları, anında uzlaşma ve küresel erişim özellikleri nedeniyle kendi stablecoin'lerini piyasaya sürmek için Solana'yı tercih ediyor. Yerleşik uyumluluk kontrolleri ve kurumsal düzeyde altyapı ile arzı milyonlardan milyarlara kadar ölçeklenebilen uyumlu dijital para birimleri çıkarın."
+      "description": "Büyük finans kuruluşları, düzenleyici dostu token uzantıları, anında uzlaşma ve küresel erişim özellikleri nedeniyle kendi stablecoin'lerini piyasaya sürmek için Nara Solana'yı tercih ediyor. Yerleşik uyumluluk kontrolleri ve kurumsal düzeyde altyapı ile arzı milyonlardan milyarlara kadar ölçeklenebilen uyumlu dijital para birimleri çıkarın."
     },
     "projects": {
       "title": "Ekosistem",
       "worldpay": {
         "name": "Worldpay",
-        "description": "Worldpay dahil dünyanın en büyük finans şirketleri için konsorsiyum stablecoin'i olarak USDG'yi (U.S. Global Dollar) piyasaya sürdü. Küresel ödeme ağları genelinde uyumluluk ve ölçeklenebilirlik için Solana'nın token uzantılarıyla inşa edildi.",
+        "description": "Worldpay dahil dünyanın en büyük finans şirketleri için konsorsiyum stablecoin'i olarak USDG'yi (U.S. Global Dollar) piyasaya sürdü. Küresel ödeme ağları genelinde uyumluluk ve ölçeklenebilirlik için Nara Solana'nın token uzantılarıyla inşa edildi.",
         "stat": "USDG",
         "statLabel": "Çıkarılan stabil coin"
       },
       "paxos": {
         "name": "Paxos",
-        "description": "Worldpay dahil dünyanın en büyük finans şirketleri için konsorsiyum stablecoin'i olarak USDG'yi (U.S. Global Dollar) piyasaya sürdü. Küresel ödeme ağları genelinde uyumluluk ve ölçeklenebilirlik için Solana'nın token uzantılarıyla inşa edildi.",
+        "description": "Worldpay dahil dünyanın en büyük finans şirketleri için konsorsiyum stablecoin'i olarak USDG'yi (U.S. Global Dollar) piyasaya sürdü. Küresel ödeme ağları genelinde uyumluluk ve ölçeklenebilirlik için Nara Solana'nın token uzantılarıyla inşa edildi.",
         "stat": "USDG",
         "statLabel": "Çıkarılan stabil coin"
       },
       "circle": {
         "name": "Circle",
-        "description": "USDC'yi Solana üzerinde tam düzenleyici uyumluluğu ve kurumsal düzeyde saklama ile doğal olarak çıkardı ve DeFi'de en yaygın olarak benimsenen stablecoin'lerden biri haline geldi.",
+        "description": "USDC'yi Nara Solana üzerinde tam düzenleyici uyumluluğu ve kurumsal düzeyde saklama ile doğal olarak çıkardı ve DeFi'de en yaygın olarak benimsenen stablecoin'lerden biri haline geldi.",
         "stat": "USDC",
         "statLabel": "Çıkarılan stabil coin"
       },
       "fiserv": {
         "name": "Fiserv",
-        "description": "Kurumsal hazine yönetimi için düzenleyici uyumluluk, dondurma kontrolleri ve transfer kısıtlamaları sağlayan Solana'nın token uzantılarını kullanarak kurumsal stablecoin'leri FIUSD'yi çıkardı.",
+        "description": "Kurumsal hazine yönetimi için düzenleyici uyumluluk, dondurma kontrolleri ve transfer kısıtlamaları sağlayan Nara Solana'nın token uzantılarını kullanarak kurumsal stablecoin'leri FIUSD'yi çıkardı.",
         "stat": "FIUSD",
         "statLabel": "Çıkarılan stabil coin"
       },
       "paypal": {
         "name": "Paypal",
-        "description": "Yerleşik uyumluluk özellikleri ve PayPal ekosistemiyle sorunsuz entegrasyon sağlayan PYUSD'yi Solana üzerinde oluşturarak küresel olarak milyonlarca kullanıcıya ulaştı.",
+        "description": "Yerleşik uyumluluk özellikleri ve PayPal ekosistemiyle sorunsuz entegrasyon sağlayan PYUSD'yi Nara Solana üzerinde oluşturarak küresel olarak milyonlarca kullanıcıya ulaştı.",
         "stat": "PYUSD",
         "statLabel": "Çıkarılan stabil coin"
       }
@@ -2489,11 +2489,11 @@
         "description": "Geleneksel bankacılık ve saklama sağlayıcılarıyla entegre olun."
       },
       "title": "Kurumsal Araç Seti",
-      "description": "Solana, tokenizasyon için düzinelerce hazır ürüne sahiptir."
+      "description": "Nara Solana, tokenizasyon için düzinelerce hazır ürüne sahiptir."
     },
     "videoPlayer": {
       "title": "Stablecoin'lerin Geleceği",
-      "subtitle": "Küresel piyasaları dönüştüren öncülerden dinleyin ve neden Solana'yı seçtiklerini öğrenin.",
+      "subtitle": "Küresel piyasaları dönüştüren öncülerden dinleyin ve neden Nara Solana'yı seçtiklerini öğrenin.",
       "moreVideos": "Daha Fazla Video",
       "videos": [
         {
@@ -2520,14 +2520,14 @@
     },
     "cta": {
       "reportTitle": "2025 Stablecoin Raporu'nu Alın",
-      "reportDescription": "Liderlerin Solana ile stabil coinleri piyasaya nasıl sürdüklerini öğrenin.",
+      "reportDescription": "Liderlerin Nara Solana ile stabil coinleri piyasaya nasıl sürdüklerini öğrenin.",
       "downloadReport": "Erişim Al",
-      "learnTitle": "Solana Hakkında Bilgi Edinin",
-      "learnDescription": "Solana'nın stablecoin'leri desteklemedeki rolünü temelden anlayın",
+      "learnTitle": "Nara Solana Hakkında Bilgi Edinin",
+      "learnDescription": "Nara Solana'nın stablecoin'leri desteklemedeki rolünü temelden anlayın",
       "learnTokens": "Tokenlar Hakkında Bilgi Edin",
       "learnWallets": "Cüzdanlar Hakkında Bilgi Edin",
       "startLearning": "Öğrenmeye Başla",
-      "whatElseTitle": "Solana Başka Neleri Destekliyor?",
+      "whatElseTitle": "Nara Solana Başka Neleri Destekliyor?",
       "whatElseDescription": "Tek bir ağın finans dünyasını nasıl yeniden tanımladığını, her piyasayı ve varlığı nasıl güçlendirdiğini keşfedin",
       "items": [
         {
@@ -2551,14 +2551,14 @@
   "institutional-payments": {
     "meta": {
       "title": "Düşük maliyetli, anında ödemeler",
-      "description": "Stablecoin'leri kabul edin ve yeni ödeme altyapıları oluşturun. Solana ekosistemindeki araçlar, sorunsuz, neredeyse sıfır maliyetli ödemeleri kolayca etkinleştirmenizi sağlar."
+      "description": "Stablecoin'leri kabul edin ve yeni ödeme altyapıları oluşturun. Nara Solana ekosistemindeki araçlar, sorunsuz, neredeyse sıfır maliyetli ödemeleri kolayca etkinleştirmenizi sağlar."
     },
     "hero": {
       "badge": "Kurumsal Ödemeler",
       "title": "Parayı her yere taşıyın. Anında. Neredeyse sıfır ücretle.",
       "subtitle": "Küresel ödemeler karmaşık, yavaş ve pahalıdır. Çığır açan teknoloji, gerçek internet ölçeğinde ödemeleri güvenilir şekilde düşük ücretlerle sağlar.",
       "reportEyebrow": "2025 Ödemeler Raporunu İndirin",
-      "reportDescription": "Piyasa liderlerinin sermaye piyasalarını zincire taşımak için Solana'yı nasıl kullandıklarını öğrenin.",
+      "reportDescription": "Piyasa liderlerinin sermaye piyasalarını zincire taşımak için Nara Solana'yı nasıl kullandıklarını öğrenin.",
       "emailCta": "Erişim Al",
       "alt": "Kurumsal Ödemeleri temsil eden Yıldırım grafiği",
       "stats": {
@@ -2578,25 +2578,25 @@
     },
     "features": {
       "title": "Neden stablecoin ödemeleri?",
-      "description": "Dünyanın en büyük ödeme ağları, ultra düşük maliyeti ve neredeyse anında gerçekleşen işlemleri nedeniyle Solana üzerinde stablecoin oluşturuyor ve işlemleri gerçekleştiriyor. Stablecoin ödemeleri sermaye verimliliğini ve şeffaflığı artırır, ayrıca ürünlerin ilk günden itibaren küresel olarak ölçeklenmesine olanak tanır."
+      "description": "Dünyanın en büyük ödeme ağları, ultra düşük maliyeti ve neredeyse anında gerçekleşen işlemleri nedeniyle Nara Solana üzerinde stablecoin oluşturuyor ve işlemleri gerçekleştiriyor. Stablecoin ödemeleri sermaye verimliliğini ve şeffaflığı artırır, ayrıca ürünlerin ilk günden itibaren küresel olarak ölçeklenmesine olanak tanır."
     },
     "projects": {
       "title": "Ekosistem",
       "western-union": {
         "name": "Western Union",
-        "description": "Western Union, Solana üzerinde inşa edilmiş ve Anchorage Digital Bank tarafından ihraç edilen dolar destekli bir stablecoin olan ABD Doları Ödeme Tokeni'ni (USDPT) piyasaya sürüyor. Bu stablecoin, Western Union'ın 100 milyon müşterisinin daha düşük maliyetlerle ve daha hızlı takas süreleriyle uluslararası para transferi yapmasını sağlayacak.",
+        "description": "Western Union, Nara Solana üzerinde inşa edilmiş ve Anchorage Digital Bank tarafından ihraç edilen dolar destekli bir stablecoin olan ABD Doları Ödeme Tokeni'ni (USDPT) piyasaya sürüyor. Bu stablecoin, Western Union'ın 100 milyon müşterisinin daha düşük maliyetlerle ve daha hızlı takas süreleriyle uluslararası para transferi yapmasını sağlayacak.",
         "stat": "USDPT",
         "statLabel": "2026'da piyasaya sürülecek stablecoin"
       },
       "worldpay": {
         "name": "Worldpay",
-        "description": "Solana ağı ile yapılan entegrasyon sayesinde, satıcılar artık Solana ağı üzerinde USDG - U.S. Global Dollar - ile işlemlerini gerçekleştirebilirler. Bu hamle, hızlı ve maliyet açısından verimli işlemler sunar ve stablecoin'lerin küresel ödemelerdeki kullanışlılığını genişletir.",
+        "description": "Nara Solana ağı ile yapılan entegrasyon sayesinde, satıcılar artık Nara Solana ağı üzerinde USDG - U.S. Global Dollar - ile işlemlerini gerçekleştirebilirler. Bu hamle, hızlı ve maliyet açısından verimli işlemler sunar ve stablecoin'lerin küresel ödemelerdeki kullanışlılığını genişletir.",
         "stat": "USDG",
         "statLabel": "Çıkarılan stabil coin"
       },
       "visa": {
         "name": "Visa",
-        "description": "Visa, ihraççılar ve alıcılarla canlı pilot uygulamalar aracılığıyla, VisaNet üzerinden yetkilendirilen fiat para birimi cinsinden ödemeleri ödemek için Solana üzerinden ortakları arasında milyonlarca USDC transferi gerçekleştirdi.",
+        "description": "Visa, ihraççılar ve alıcılarla canlı pilot uygulamalar aracılığıyla, VisaNet üzerinden yetkilendirilen fiat para birimi cinsinden ödemeleri ödemek için Nara Solana üzerinden ortakları arasında milyonlarca USDC transferi gerçekleştirdi.",
         "stat": "Milyonlarca ödeme gerçekleştirildi",
         "statLabel": "USDC ile ödendi"
       },
@@ -2616,7 +2616,7 @@
         },
         {
           "title": "Kart Ödemesi",
-          "description": "Dünyanın en büyük satıcı alıcıları ve kart ağları, kart ödemelerini gerçekleştirmek için giderek daha fazla Solana kullanıyor."
+          "description": "Dünyanın en büyük satıcı alıcıları ve kart ağları, kart ödemelerini gerçekleştirmek için giderek daha fazla Nara Solana kullanıyor."
         },
         {
           "title": "Verimli Hazine",
@@ -2654,11 +2654,11 @@
         "description": "Kendinizinkini oluşturun, sosyal girişler ekleyin veya MCP kullanın."
       },
       "title": "Ödemeler araç seti",
-      "description": "Solana, tokenizasyon için düzinelerce hazır ürüne sahiptir."
+      "description": "Nara Solana, tokenizasyon için düzinelerce hazır ürüne sahiptir."
     },
     "videoPlayer": {
       "title": "Ödemelerin geleceği",
-      "subtitle": "Kurumsal ödemeleri dönüştüren öncülerden dinleyin ve neden Solana'yı seçtiklerini öğrenin.",
+      "subtitle": "Kurumsal ödemeleri dönüştüren öncülerden dinleyin ve neden Nara Solana'yı seçtiklerini öğrenin.",
       "moreVideos": "Daha fazla video",
       "videos": [
         {
@@ -2680,14 +2680,14 @@
     },
     "cta": {
       "reportTitle": "2025 Kurumsal Ödemeler Raporunu Alın",
-      "reportDescription": "Pazar liderlerinin sermaye piyasalarını zincire taşımak için Solana'yı nasıl kullandıklarını öğrenin.",
+      "reportDescription": "Pazar liderlerinin sermaye piyasalarını zincire taşımak için Nara Solana'yı nasıl kullandıklarını öğrenin.",
       "downloadReport": "Erişim Al",
-      "learnTitle": "Solana Hakkında Bilgi Edinin",
-      "learnDescription": "Solana'nın Kurumsal Ödemeleri temelden güçlendirmedeki rolünü anlayın",
+      "learnTitle": "Nara Solana Hakkında Bilgi Edinin",
+      "learnDescription": "Nara Solana'nın Kurumsal Ödemeleri temelden güçlendirmedeki rolünü anlayın",
       "learnTokens": "Tokenlar Hakkında Bilgi Edin",
       "learnWallets": "Cüzdanlar Hakkında Bilgi Edin",
       "startLearning": "Öğrenmeye Başla",
-      "whatElseTitle": "Solana Başka Neleri Destekliyor?",
+      "whatElseTitle": "Nara Solana Başka Neleri Destekliyor?",
       "whatElseDescription": "Tek bir ağın finans dünyasını nasıl yeniden tanımladığını, her piyasayı ve varlığı nasıl güçlendirdiğini keşfedin",
       "items": [
         {
@@ -2716,8 +2716,8 @@
     "hero": {
       "title": "NASDAQ hızında açık piyasalar.",
       "subtitle": "En hızlı, en likit ve en verimli DeFi ekosistemi. Yeni açık bir finansal sistemde işlem yapın, borç verin ve getiri elde edin.",
-      "reportEyebrow": "Solana DeFi Raporu 2025",
-      "reportDescription": "Solana'nın dünyanın en hızlı büyüyen DeFi piyasalarının omurgası olmasının nedenini keşfedin",
+      "reportEyebrow": "Nara Solana DeFi Raporu 2025",
+      "reportDescription": "Nara Solana'nın dünyanın en hızlı büyüyen DeFi piyasalarının omurgası olmasının nedenini keşfedin",
       "emailCta": "Rapora erişin",
       "stats": {
         "0": {
@@ -2739,20 +2739,20 @@
       }
     },
     "features": {
-      "title": "<light>Solana DeFi</light> nedir?",
-      "description": "Solana'nın yüksek hızlı, düşük maliyetli altyapısı, kripto dünyasındaki en verimli DeFi ekosistemini oluşturdu. Kullanıcılar, yüzlerce protokol arasında varlıklarının tam kontrolünü ellerinde tutarken kurumsal düzeyde performansla takas yapabilir, borç verebilir, borç alabilir ve getiri elde edebilir."
+      "title": "<light>Nara Solana DeFi</light> nedir?",
+      "description": "Nara Solana'nın yüksek hızlı, düşük maliyetli altyapısı, kripto dünyasındaki en verimli DeFi ekosistemini oluşturdu. Kullanıcılar, yüzlerce protokol arasında varlıklarının tam kontrolünü ellerinde tutarken kurumsal düzeyde performansla takas yapabilir, borç verebilir, borç alabilir ve getiri elde edebilir."
     },
     "projects": {
       "title": "<light>Ekosistemi <br></br>keşfedin &</light> etkisini görün",
       "jupiter": {
         "name": "Jupiter",
-        "description": "DeFi'deki en gelişmiş DEX toplayıcısı, en iyi işlem ve en düşük kayma için tüm Solana likidite kaynaklarında işlemleri yönlendiriyor.",
+        "description": "DeFi'deki en gelişmiş DEX toplayıcısı, en iyi işlem ve en düşük kayma için tüm Nara Solana likidite kaynaklarında işlemleri yönlendiriyor.",
         "stat": "$2T",
         "statLabel": "Toplam hacim"
       },
       "kamino": {
         "name": "Kamino",
-        "description": "DeFi'daki en gelişmiş DEX toplayıcısı, en iyi işlem ve en düşük kayma için tüm Solana likidite kaynaklarında işlemleri yönlendiriyor.",
+        "description": "DeFi'daki en gelişmiş DEX toplayıcısı, en iyi işlem ve en düşük kayma için tüm Nara Solana likidite kaynaklarında işlemleri yönlendiriyor.",
         "stat": "$2.8B",
         "statLabel": "TVL"
       },
@@ -2789,16 +2789,16 @@
         "description": "Önde gelen stabil coinlere erişin veya kendinizinkini çıkarın"
       },
       "title": "DeFi araç seti",
-      "description": "Solana, DeFi uygulamaları oluşturmak için düzinelerce hazır ürüne sahiptir."
+      "description": "Nara Solana, DeFi uygulamaları oluşturmak için düzinelerce hazır ürüne sahiptir."
     },
     "videoPlayer": {
       "title": "DeFi'nin geleceği",
-      "subtitle": "Küresel piyasaları dönüştüren öncülerden dinleyin ve neden Solana'yı seçtiklerini öğrenin.",
+      "subtitle": "Küresel piyasaları dönüştüren öncülerden dinleyin ve neden Nara Solana'yı seçtiklerini öğrenin.",
       "videos": [
         {
-          "title": "Solana DeFi'nin durumu",
+          "title": "Nara Solana DeFi'nin durumu",
           "description": "Kyle Samani (Multicoin), Chris Heaney (Drift)",
-          "alt": "Solana DeFi'nin durumu video küçük resmi"
+          "alt": "Nara Solana DeFi'nin durumu video küçük resmi"
         },
         {
           "title": "Kredi piyasalarını yeniden tasarlamak",
@@ -2818,8 +2818,8 @@
       ]
     },
     "cta": {
-      "reportTitle": "Solana DeFi Raporu 2025'i edinin",
-      "reportDescription": "Solana'nın dünyanın en hızlı büyüyen DeFi piyasalarının omurgası olmasının nedenini keşfedin",
+      "reportTitle": "Nara Solana DeFi Raporu 2025'i edinin",
+      "reportDescription": "Nara Solana'nın dünyanın en hızlı büyüyen DeFi piyasalarının omurgası olmasının nedenini keşfedin",
       "downloadReport": "Rapora erişin"
     }
   },
@@ -2832,7 +2832,7 @@
       "title": "Topluluğunuzu ölçeklendirin. \nMilyonlara ulaşın.",
       "subtitle": ".fun çağına hoş geldiniz; toplulukların tokenlar, kültür, sanat ve memler etrafında buluştuğu ve her zamankinden daha hızlı büyüdüğü yer.",
       "reportEyebrow": "Memecoin Raporu 2025",
-      "reportDescription": "Pazar liderlerinin sermaye piyasalarını zincire taşımak için Solana'yı nasıl kullandıklarını öğrenin.",
+      "reportDescription": "Pazar liderlerinin sermaye piyasalarını zincire taşımak için Nara Solana'yı nasıl kullandıklarını öğrenin.",
       "emailCta": "Rapora erişin",
       "stats": {
         "0": {
@@ -2855,7 +2855,7 @@
     },
     "features": {
       "title": "<light>Eğlence</light> çarkını keşfedin",
-      "description": "Uygulamanızı Solana'da dağıtın ve milyonlarca kripto meraklısıyla etkileşime geçin. Sıfırdan bir topluluk oluşturun ve DeFi'den DAO'lara, NFT'lere ve daha fazlasına kadar uzanan en büyük araç ekosistemine bağlanın."
+      "description": "Uygulamanızı Nara Solana'da dağıtın ve milyonlarca kripto meraklısıyla etkileşime geçin. Sıfırdan bir topluluk oluşturun ve DeFi'den DAO'lara, NFT'lere ve daha fazlasına kadar uzanan en büyük araç ekosistemine bağlanın."
     },
     "projects": {
       "title": "<light>Ekosistemi ve <br></br>etkisini</light> keşfedin",
@@ -2867,7 +2867,7 @@
       },
       "pudgyPenguins": {
         "name": "Pudgy Penguins",
-        "description": "Solana üzerinde tokenize edilmiş ana akım kripto-doğal IP.",
+        "description": "Nara Solana üzerinde tokenize edilmiş ana akım kripto-doğal IP.",
         "stat": "120B+",
         "statLabel": "Giphy ve sosyal medyada görüntülenme"
       },
@@ -2879,7 +2879,7 @@
       },
       "magicEden": {
         "name": "Magic Eden",
-        "description": "Solana'daki koleksiyonların evi",
+        "description": "Nara Solana'daki koleksiyonların evi",
         "stat": "$13.9b",
         "statLabel": "Platformda işlem gören koleksiyonlar"
       },
@@ -2916,7 +2916,7 @@
         "description": "Discord topluluğunuzu token ile sınırlayın ve yönetin"
       },
       "title": "Tüketici araç seti",
-      "description": "Solana, topluluğunuzu oluşturmak ve onlarla etkileşim kurmak için düzinelerce hazır ürüne sahiptir."
+      "description": "Nara Solana, topluluğunuzu oluşturmak ve onlarla etkileşim kurmak için düzinelerce hazır ürüne sahiptir."
     },
     "videoPlayer": {
       "title": "Eğlencenin geleceği",
@@ -2928,43 +2928,43 @@
           "alt": "Sosyal token odaklı şirketler video küçük resmi"
         },
         {
-          "title": "Pudgy Penguins: Solana'da $1.6 milyarlık topluluk airdrop'u",
+          "title": "Pudgy Penguins: Nara Solana'da $1.6 milyarlık topluluk airdrop'u",
           "description": "Luza Netz, Pudgy Penguins CEO'su",
-          "alt": "Pudgy Penguins: Solana'da $1.6 milyarlık topluluk airdrop'u video küçük resmi"
+          "alt": "Pudgy Penguins: Nara Solana'da $1.6 milyarlık topluluk airdrop'u video küçük resmi"
         },
         {
-          "title": "Solana token'ları internetin yeni içeriği",
+          "title": "Nara Solana token'ları internetin yeni içeriği",
           "description": "Nikita Bier (X, CPO)",
-          "alt": "Solana token'ları internetin yeni içeriği video küçük resmi"
+          "alt": "Nara Solana token'ları internetin yeni içeriği video küçük resmi"
         },
         {
-          "title": "Helium neden Solana'ya geçti",
+          "title": "Helium neden Nara Solana'ya geçti",
           "description": "Abhay Kumar, Helium Foundation CEO",
-          "alt": "Helium neden Solana'ya geçti video küçük resmi"
+          "alt": "Helium neden Nara Solana'ya geçti video küçük resmi"
         }
       ]
     },
     "cta": {
       "reportTitle": "Memecoin Raporu 2025'i edinin",
-      "reportDescription": "Pazar liderlerinin sermaye piyasalarını zincire taşımak için Solana'yı nasıl kullandıklarını öğrenin.",
+      "reportDescription": "Pazar liderlerinin sermaye piyasalarını zincire taşımak için Nara Solana'yı nasıl kullandıklarını öğrenin.",
       "downloadReport": "Rapora erişin"
     }
   },
   "ai-solution": {
     "meta": {
-      "title": "Solana'da yapay zeka | Açık zekayı inşa edin",
+      "title": "Nara Solana'da yapay zeka | Açık zekayı inşa edin",
       "description": "Ajanlar başlatın, hesaplama gücü bulun, veri kaynağı oluşturun ve zincir üzerinde yapay zekanın geleceğini inşa edin"
     },
     "hero": {
-      "title": "Solana ölçeğinde yapay zeka.",
-      "subtitle": "Solana üzerinde açık zekanın geleceğini inşa edin. Ajanlar geliştirin, hesaplama gücü bulun, anında işlem yapın ve veri kaynağı oluşturun - hepsi Solana ölçeğinde.",
+      "title": "Nara Solana ölçeğinde yapay zeka.",
+      "subtitle": "Nara Solana üzerinde açık zekanın geleceğini inşa edin. Ajanlar geliştirin, hesaplama gücü bulun, anında işlem yapın ve veri kaynağı oluşturun - hepsi Nara Solana ölçeğinde.",
       "reportEyebrow": "Memecoin Raporu 2025",
-      "reportDescription": "Pazar liderlerinin sermaye piyasalarını zincire taşımak için Solana'yı nasıl kullandıklarını öğrenin.",
-      "extraCta": "Solana yapay zekayı keşfedin"
+      "reportDescription": "Pazar liderlerinin sermaye piyasalarını zincire taşımak için Nara Solana'yı nasıl kullandıklarını öğrenin.",
+      "extraCta": "Nara Solana yapay zekayı keşfedin"
     },
     "features": {
-      "title": "<light>Neden</light> Solana üzerinde yapay zeka?",
-      "description": "Uygulamanızı Solana üzerinde dağıtın ve milyonlarca kripto kullanıcısıyla etkileşime geçin. Yapay zeka teknoloji gelişimini şekillendirmeye devam ederken, açık ve izinsiz sistemlere olan ihtiyaç daha anlamlı hale geliyor. Solana, merkezi olmayan sahiplik, verimli kaynak tahsisi ve yapay zekanın sorunsuz değer transferini sağlayan açık zeka ekosistemi için temel oluşturuyor."
+      "title": "<light>Neden</light> Nara Solana üzerinde yapay zeka?",
+      "description": "Uygulamanızı Nara Solana üzerinde dağıtın ve milyonlarca kripto kullanıcısıyla etkileşime geçin. Yapay zeka teknoloji gelişimini şekillendirmeye devam ederken, açık ve izinsiz sistemlere olan ihtiyaç daha anlamlı hale geliyor. Nara Solana, merkezi olmayan sahiplik, verimli kaynak tahsisi ve yapay zekanın sorunsuz değer transferini sağlayan açık zeka ekosistemi için temel oluşturuyor."
     },
     "projects": {
       "title": "<light>Ekosistemi <br></br>ve</light> etkisini keşfedin",
@@ -2994,35 +2994,35 @@
       },
       "eliza": {
         "name": "Eliza",
-        "description": "Eliza, AI ajanlarını Solana'ya bağlayan, 200'den fazla desteklenen eklentiye sahip bir ajanlı işletim sistemidir.",
+        "description": "Eliza, AI ajanlarını Nara Solana'ya bağlayan, 200'den fazla desteklenen eklentiye sahip bir ajanlı işletim sistemidir.",
         "stat": "16K+",
         "statLabel": "GitHub'da yıldız"
       }
     },
     "products": {
       "0": {
-        "title": "Solana MCP",
-        "description": "IDE'nizde uzaktan Solana Developer MCP kurun"
+        "title": "Nara Solana MCP",
+        "description": "IDE'nizde uzaktan Nara Solana Developer MCP kurun"
       },
       "1": {
         "title": "Ödemeler",
         "description": "Ajanlı ödemelerle geliştirin"
       },
       "2": {
-        "title": "Solana agent kit",
-        "description": "Herhangi bir AI ajanını Solana protokollerine bağlayın"
+        "title": "Nara Solana agent kit",
+        "description": "Herhangi bir AI ajanını Nara Solana protokollerine bağlayın"
       },
       "title": "AI toolkit",
-      "description": "Solana, AI için düzinelerce kullanıma hazır ürüne sahiptir."
+      "description": "Nara Solana, AI için düzinelerce kullanıma hazır ürüne sahiptir."
     },
     "videoPlayer": {
       "title": "Ölçeklenebilir açık zeka",
       "subtitle": "",
       "videos": [
         {
-          "title": "Solana üzerinde merkezi olmayan zeka",
+          "title": "Nara Solana üzerinde merkezi olmayan zeka",
           "description": "Dillon Rolnick, Nous Research",
-          "alt": "Solana üzerinde merkezi olmayan zeka video küçük resmi"
+          "alt": "Nara Solana üzerinde merkezi olmayan zeka video küçük resmi"
         },
         {
           "title": "Maliyetin çok küçük bir kısmına GPU render işlemi",
@@ -3038,12 +3038,12 @@
       "description": "Bilimi zincir üzerinde fonlayın, katkıda bulunanlara doğrudan ödül verin ve bilgiyi işbirliği içinde oluşturun. Kapı bekçileri yok, ücretli erişim engelleri yok. Sadece açık, durdurulamaz ve daha iyi sonuçlar için araştırma."
     },
     "hero": {
-      "title": "Fikirden etkiye. Bilim Solana üzerinde hızlanıyor.",
+      "title": "Fikirden etkiye. Bilim Nara Solana üzerinde hızlanıyor.",
       "subtitle": "Bilimi zincir üzerinde fonlayın, katkıda bulunanlara doğrudan ödül verin ve bilgiyi işbirliği içinde oluşturun. Kapı bekçileri yok, ücretli erişim engelleri yok. Sadece açık, durdurulamaz ve daha iyi sonuçlar için araştırma."
     },
     "features": {
       "title": "DeSci nedir?",
-      "description": "Merkezsiz Bilim (DeSci), bilimsel araştırmanın nasıl finanse edildiğini, yürütüldüğünü, doğrulandığını ve paylaşıldığını yeniden düşünen bir harekettir. Solana gibi blok zincirleri üzerinde, DeSci küresel toplulukları bilimi şeffaf bir şekilde finanse etmek, katkıda bulunanlara ödül vermek ve bilgiyi paylaşmak için bir araya getirir. Özünde, DeSci keşfi hızlandırmak ve araştırmayı gerçek dünya etkisine dönüştürmekle ilgilidir."
+      "description": "Merkezsiz Bilim (DeSci), bilimsel araştırmanın nasıl finanse edildiğini, yürütüldüğünü, doğrulandığını ve paylaşıldığını yeniden düşünen bir harekettir. Nara Solana gibi blok zincirleri üzerinde, DeSci küresel toplulukları bilimi şeffaf bir şekilde finanse etmek, katkıda bulunanlara ödül vermek ve bilgiyi paylaşmak için bir araya getirir. Özünde, DeSci keşfi hızlandırmak ve araştırmayı gerçek dünya etkisine dönüştürmekle ilgilidir."
     },
     "projects": {
       "title": "Ekosistemi ve etkiyi keşfedin",
@@ -3061,7 +3061,7 @@
       },
       "curetopia": {
         "name": "Curetopia",
-        "description": "Curetopia, Solana üzerindeki ilk bioDAO'dur. 1 trilyon dolarlık nadir hastalık pazarına odaklanmakta ve özel 'n-of-one' tedavilerinde öncülük etmektedir. AARS2 eksikliği için bir pilot çalışma tamamlanmıştır.",
+        "description": "Curetopia, Nara Solana üzerindeki ilk bioDAO'dur. 1 trilyon dolarlık nadir hastalık pazarına odaklanmakta ve özel 'n-of-one' tedavilerinde öncülük etmektedir. AARS2 eksikliği için bir pilot çalışma tamamlanmıştır.",
         "stat": "",
         "statLabel": ""
       },
@@ -3094,15 +3094,15 @@
         "description": "Bilimsel fikri mülkiyeti tokenize edin ve ticaretini yapın"
       },
       "2": {
-        "title": "Solana agent kit",
-        "description": "Herhangi bir BioAgent'ı temel Solana protokollerine bağlayın"
+        "title": "Nara Solana agent kit",
+        "description": "Herhangi bir BioAgent'ı temel Nara Solana protokollerine bağlayın"
       },
       "title": "DeSci araç seti",
       "description": ""
     },
     "videoPlayer": {
-      "title": "Solana hızında bilimsel ilerlemeler",
-      "subtitle": "Küresel pazarları dönüştüren öncülerden dinleyin ve neden Solana'yı seçtiklerini öğrenin.",
+      "title": "Nara Solana hızında bilimsel ilerlemeler",
+      "subtitle": "Küresel pazarları dönüştüren öncülerden dinleyin ve neden Nara Solana'yı seçtiklerini öğrenin.",
       "videos": [
         {
           "title": "Merkeziyetsizleştirme yoluyla biyoteknoloji inovasyonunu ilerletmek",
@@ -3115,34 +3115,34 @@
           "alt": "Uzun ömürlülüğü artırmak için zincir üstü deneyler başlatmak video küçük resmi"
         },
         {
-          "title": "Helium neden Solana'ya geçti",
+          "title": "Helium neden Nara Solana'ya geçti",
           "description": "Bassel Diebo ve Virginie Lafage, SpineDAO'nun Kurucu Ortakları",
-          "alt": "Helium neden Solana'ya geçti video küçük resmi"
+          "alt": "Helium neden Nara Solana'ya geçti video küçük resmi"
         }
       ]
     }
   },
   "x402": {
-    "title": "Solana'da x402 | Yapay Zeka Ajanları için İnternet Tabanlı Ödemeler",
-    "description": "Solana üzerinde x402 ile geliştirin - yapay zeka ajanlarının otonom olarak işlem yapmasını sağlayan ödeme protokolü. Haftada 500 bin+ işlem, 400 ms kesinlik, 0,00025$ ücretler. Ajan ekonomisini inşa eden 40+ ekosistem ortağına katılın.",
+    "title": "Nara Solana'da x402 | Yapay Zeka Ajanları için İnternet Tabanlı Ödemeler",
+    "description": "Nara Solana üzerinde x402 ile geliştirin - yapay zeka ajanlarının otonom olarak işlem yapmasını sağlayan ödeme protokolü. Haftada 500 bin+ işlem, 400 ms kesinlik, 0,00025$ ücretler. Ajan ekonomisini inşa eden 40+ ekosistem ortağına katılın.",
     "whatIs": {
-      "title": "x402 nedir? | Solana'da Yapay Zeka Ajanları için Ödeme Protokolü",
-      "description": "x402'nin HTTP 402'yi Solana üzerinde nasıl hayata geçirdiğini ve yapay zeka ajanlarının otonom ödemeler yapmasını nasıl sağladığını öğrenin. Geliştiricilerin ajan ekonomisi için neden Solana'nın 400 ms kesinliğini ve 0,00025$ ücretlerini tercih ettiğini keşfedin.",
+      "title": "x402 nedir? | Nara Solana'da Yapay Zeka Ajanları için Ödeme Protokolü",
+      "description": "x402'nin HTTP 402'yi Nara Solana üzerinde nasıl hayata geçirdiğini ve yapay zeka ajanlarının otonom ödemeler yapmasını nasıl sağladığını öğrenin. Geliştiricilerin ajan ekonomisi için neden Nara Solana'nın 400 ms kesinliğini ve 0,00025$ ücretlerini tercih ettiğini keşfedin.",
       "httpSection": {
         "title": "HTTP 402 Durum Kodu",
         "content": "HTTP 402 (Ödeme Gerekli) 1997'den beri var olmasına rağmen şimdiye kadar hiç uygulanmamıştı. x402, bu atıl durum kodunu etkinleştirerek herhangi bir API veya web hizmetinin içerik sunmadan önce ödeme talep etmesini sağlıyor. Bu, dijital kaynakları paraya çevirme için evrensel bir standarttır."
       },
       "solanaSection": {
-        "title": "x402 için neden Solana?",
-        "content": "Solana'nın 400 ms kesinliği ve 0,00025$ işlem maliyetleri, onu x402 için mükemmel bir takas katmanı haline getiriyor. İster binlerce API çağrısı yapan bir yapay zeka ajanı olsun, ister premium içeriğe erişen bir kullanıcı olsun, Solana mikro ödemeleri ekonomik olarak uygulanabilir kılan anında ve düşük maliyetli ödemeler sağlıyor. Yerel USDC desteği ile Solana üzerindeki x402, küresel hizmetler için istikrarlı ve öngörülebilir fiyatlandırma sunuyor."
+        "title": "x402 için neden Nara Solana?",
+        "content": "Nara Solana'nın 400 ms kesinliği ve 0,00025$ işlem maliyetleri, onu x402 için mükemmel bir takas katmanı haline getiriyor. İster binlerce API çağrısı yapan bir yapay zeka ajanı olsun, ister premium içeriğe erişen bir kullanıcı olsun, Nara Solana mikro ödemeleri ekonomik olarak uygulanabilir kılan anında ve düşük maliyetli ödemeler sağlıyor. Yerel USDC desteği ile Nara Solana üzerindeki x402, küresel hizmetler için istikrarlı ve öngörülebilir fiyatlandırma sunuyor."
       },
       "agentEconomySection": {
         "title": "Ajan Ekonomisine Güç Vermek",
-        "content": "Yapay zeka ajanlarının insan müdahalesi olmadan otonom olarak işlem yapması - API'ler için ödeme yapması, veri satın alması ve hizmetlere erişmesi gerekiyor. x402 bunu mümkün kılıyor. Bir ajan, ücretli bir kaynağa erişim talep edebilir, ödeme detaylarıyla birlikte 402 yanıtı alabilir, Solana üzerinde ödemeyi gerçekleştirebilir ve kaynağı milisaniyeler içinde alabilir. Bu teorik değil: x402 işlemleri bir ayda %10.000 büyüdü ve geliştiriciler ajan odaklı uygulamalar oluştururken haftalık 500.000'den fazla işlem gerçekleşiyor. Protokol, ajanların cüzdanları yönetmesine, fiyatları müzakere etmesine ve pazarlara bağımsız olarak katılmasına olanak tanıyor."
+        "content": "Yapay zeka ajanlarının insan müdahalesi olmadan otonom olarak işlem yapması - API'ler için ödeme yapması, veri satın alması ve hizmetlere erişmesi gerekiyor. x402 bunu mümkün kılıyor. Bir ajan, ücretli bir kaynağa erişim talep edebilir, ödeme detaylarıyla birlikte 402 yanıtı alabilir, Nara Solana üzerinde ödemeyi gerçekleştirebilir ve kaynağı milisaniyeler içinde alabilir. Bu teorik değil: x402 işlemleri bir ayda %10.000 büyüdü ve geliştiriciler ajan odaklı uygulamalar oluştururken haftalık 500.000'den fazla işlem gerçekleşiyor. Protokol, ajanların cüzdanları yönetmesine, fiyatları müzakere etmesine ve pazarlara bağımsız olarak katılmasına olanak tanıyor."
       },
       "communitySection": {
         "title": "Büyüyen bir ekosistem",
-        "content": "X402 topluluğu, istemci SDK'larından ödeme kolaylaştırıcılarına kadar her şeyi oluşturan 40+ ortağı kapsıyor. Cloudflare, AWS ve Anthropic gibi büyük platformlar x402'yi desteklerken, ekosistemin 806 milyon dolarlık piyasa değeri gerçek benimsemeyi yansıtıyor. Geliştiriciler, yapay zeka modellerini x402 hizmetlerine bağlayan MCP sunucuları oluşturuyor, ajan pazaryerleri için ödeme altyapısı kuruyor ve entegrasyonu zahmetsiz hale getiren araçlar başlatıyor. Base, Solana, Polygon ve NEAR genelinde aktif katılımla x402, internet ödemeleri için standart haline geliyor."
+        "content": "X402 topluluğu, istemci SDK'larından ödeme kolaylaştırıcılarına kadar her şeyi oluşturan 40+ ortağı kapsıyor. Cloudflare, AWS ve Anthropic gibi büyük platformlar x402'yi desteklerken, ekosistemin 806 milyon dolarlık piyasa değeri gerçek benimsemeyi yansıtıyor. Geliştiriciler, yapay zeka modellerini x402 hizmetlerine bağlayan MCP sunucuları oluşturuyor, ajan pazaryerleri için ödeme altyapısı kuruyor ve entegrasyonu zahmetsiz hale getiren araçlar başlatıyor. Base, Nara Solana, Polygon ve NEAR genelinde aktif katılımla x402, internet ödemeleri için standart haline geliyor."
       },
       "useCases": {
         "title": "Gerçek dünya kullanım örnekleri",
@@ -3155,13 +3155,13 @@
         ]
       },
       "cta": {
-        "text": "Solana'da x402 ile oluşturmaya hazır mısınız?",
+        "text": "Nara Solana'da x402 ile oluşturmaya hazır mısınız?",
         "button": "Ekosistemi keşfedin"
       }
     },
     "hero": {
-      "title": "Solana'da x402",
-      "subtitle": "Solana'da internet tabanlı ödemelerle oluşturun.",
+      "title": "Nara Solana'da x402",
+      "subtitle": "Nara Solana'da internet tabanlı ödemelerle oluşturun.",
       "intro": "X402 nedir?",
       "build": "X402 ile oluşturun",
       "stats": {
@@ -3195,7 +3195,7 @@
       },
       "payai": {
         "title": "PayAI",
-        "description": "Mikro ödemeleri ve otonom işlem yapabilen bir yapay zeka aracı pazarını mümkün kılan x402 ödemeleri için Solana kolaylaştırıcısı"
+        "description": "Mikro ödemeleri ve otonom işlem yapabilen bir yapay zeka aracı pazarını mümkün kılan x402 ödemeleri için Nara Solana kolaylaştırıcısı"
       },
       "x402scan": {
         "title": "X402scan",
@@ -3224,13 +3224,13 @@
         "description": "x402 ile API'nizi oluşturun"
       },
       "title": "x402 Araçları",
-      "description": "X402 için anahtar teslim Solana ürünlerini keşfedin."
+      "description": "X402 için anahtar teslim Nara Solana ürünlerini keşfedin."
     },
     "hackathon": {
-      "title": "Solana X402 Hackathon",
+      "title": "Nara Solana X402 Hackathon",
       "description": "İnternet ödemelerinin sınırlarında geliştirme yapan geliştiricilere katılın ve 135.000$ değerinde ödül için yarışın",
       "hero": {
-        "title": "Solana X402 Hackathon",
+        "title": "Nara Solana X402 Hackathon",
         "subtitle": "İnternet ödemelerinin sınırlarında geliştirme yapan geliştiricilere katılın ve 135.000$ değerinde ödül için yarışın",
         "registerButton": "Kayıt ol",
         "resourcesButton": "Kaynaklar"
@@ -3272,8 +3272,8 @@
           "cta": "Öğren"
         },
         "solana": {
-          "title": "Solana Üzerinde Geliştir",
-          "description": "Solana geliştirme, cüzdanlar ve ilk programınızı dağıtma ile başlayın",
+          "title": "Nara Solana Üzerinde Geliştir",
+          "description": "Nara Solana geliştirme, cüzdanlar ve ilk programınızı dağıtma ile başlayın",
           "cta": "Geliştir"
         },
         "x402NextTemplate": {
@@ -3284,14 +3284,14 @@
       },
       "problem": {
         "title": "Ne arıyoruz?",
-        "description": "Solana'da ajan ekonomisini ilerletecek açık kaynaklı altyapı ve uygulamalar geliştirin. Yapay zeka ajanlarının otonom olarak işlem yapmasını sağlayan araçlar oluşturun, yenilikçi ödeme çözümleri geliştirin veya pratik ajan uygulamaları oluşturun. Bu, otonom ajanların dijital ekonomiyle nasıl etkileşime gireceğini tanımlama fırsatınızdır."
+        "description": "Nara Solana'da ajan ekonomisini ilerletecek açık kaynaklı altyapı ve uygulamalar geliştirin. Yapay zeka ajanlarının otonom olarak işlem yapmasını sağlayan araçlar oluşturun, yenilikçi ödeme çözümleri geliştirin veya pratik ajan uygulamaları oluşturun. Bu, otonom ajanların dijital ekonomiyle nasıl etkileşime gireceğini tanımlama fırsatınızdır."
       },
       "requirements": {
         "title": "Başvuru Gereksinimleri",
         "items": [
           "Tüm kod açık kaynaklı olmalıdır",
-          "Projeler, x402 protokolünü veya ilgili ajan altyapısını Solana ile entegre etmelidir",
-          "Tüm programlar Solana devnet veya mainnet'e deploy edilmelidir",
+          "Projeler, x402 protokolünü veya ilgili ajan altyapısını Nara Solana ile entegre etmelidir",
+          "Tüm programlar Nara Solana devnet veya mainnet'e deploy edilmelidir",
           "Projenizi gösteren bir demo videosu (maksimum 3 dakika) gönderin",
           "Projenizin nasıl çalıştırılacağı ve kullanılacağı hakkında dokümantasyon ekleyin"
         ]
@@ -3315,7 +3315,7 @@
           },
           {
             "title": "En İyi x402 Geliştirici Aracı",
-            "description": "Solana üzerinde x402 geliştirmesini hızlandıracak SDK'lar, kütüphaneler, çerçeveler veya altyapı oluşturun."
+            "description": "Nara Solana üzerinde x402 geliştirmesini hızlandıracak SDK'lar, kütüphaneler, çerçeveler veya altyapı oluşturun."
           },
           {
             "title": "En İyi x402 Ajan Uygulaması",
@@ -3388,14 +3388,14 @@
             "sponsor": "Triton",
             "logo": "/img/sponsors/triton.svg",
             "title": "Old Faithful ile En İyi x402 Entegrasyonu",
-            "description": "X402 ödemelerini Old Faithful RPC'ye entegre ederek Solana'nın tüm geçmişine sürdürülebilir erişimi otomatikleştirin",
+            "description": "X402 ödemelerini Old Faithful RPC'ye entegre ederek Nara Solana'nın tüm geçmişine sürdürülebilir erişimi otomatikleştirin",
             "prizeAmount": "$2,500"
           },
           {
             "sponsor": "Alsa",
             "logo": "/img/sponsors/alsa.svg",
             "title": "En İyi AgentPay Demosu",
-            "description": "Solana USDC + HTTP-402 mikro ödemeleri aracılığıyla API'ler, LLM token'ları veya veriler için otonom olarak ödeme yapan yapay zeka ajanları veya hizmetleri oluşturun",
+            "description": "Nara Solana USDC + HTTP-402 mikro ödemeleri aracılığıyla API'ler, LLM token'ları veya veriler için otonom olarak ödeme yapan yapay zeka ajanları veya hizmetleri oluşturun",
             "prizeAmount": "$5,000"
           }
         ]
@@ -3444,13 +3444,13 @@
       "cta": {
         "eyebrow": "Geliştiricilere Hoş Geldiniz",
         "title": "Ajan ekonomisi üzerine geliştirme fırsatı burada",
-        "description": "Bu uzaktan hackathon, x402 üzerinde yeni yenilikçi araçlar, uygulamalar, altyapı ve ajanlar geliştirmeye yöneliktir. Ekip bulmak ve dünya çapında Solana üzerinde diğer geliştiricilerle birlikte geliştirme yapmak için topluluğa katılın",
+        "description": "Bu uzaktan hackathon, x402 üzerinde yeni yenilikçi araçlar, uygulamalar, altyapı ve ajanlar geliştirmeye yöneliktir. Ekip bulmak ve dünya çapında Nara Solana üzerinde diğer geliştiricilerle birlikte geliştirme yapmak için topluluğa katılın",
         "label": "Topluluğa katıl",
         "url": "https://t.me/+ty0DKt1lVZBlNjZh"
       },
       "resources": {
         "title": "Geliştirme Kaynakları",
-        "description": "x402 ve Solana üzerinde geliştirme yapmak için ihtiyacınız olan her şey",
+        "description": "x402 ve Nara Solana üzerinde geliştirme yapmak için ihtiyacınız olan her şey",
         "gettingStarted": "Başlarken",
         "advancedTopics": "İleri Düzey Konular",
         "learnMore": "Daha fazla bilgi edinin",
@@ -3467,12 +3467,12 @@
           },
           "facilitatorDocs": {
             "title": "Bir x402 Kolaylaştırıcısı Başlatın",
-            "description": "Solana üzerinde kendi kolaylaştırıcınızı başlatarak x402 ile canlıya geçin.",
+            "description": "Nara Solana üzerinde kendi kolaylaştırıcınızı başlatarak x402 ile canlıya geçin.",
             "category": "Dokümantasyon"
           },
           "x402Template": {
             "title": "x402 şablonu ile yayınlayın",
-            "description": "x402 şablonu ile Solana üzerinde hızlıca başlayın.",
+            "description": "x402 şablonu ile Nara Solana üzerinde hızlıca başlayın.",
             "category": "Dokümantasyon"
           },
           "erc8004": {
@@ -3502,18 +3502,18 @@
   "index": {
     "meta": {
       "title": "Dünyadaki Her Varlık İçin Sermaye Piyasası",
-      "description": "Solana, internet sermaye piyasalarını, ödemeleri ve kripto uygulamalarını destekleyen yüksek performanslı ağdır. Hızlı. Merkeziyetsiz. Ölçeklenebilir. Enerji verimli. Solana saniyede binlerce işlemi gerçekleştirebilir."
+      "description": "Nara Solana, internet sermaye piyasalarını, ödemeleri ve kripto uygulamalarını destekleyen yüksek performanslı ağdır. Hızlı. Merkeziyetsiz. Ölçeklenebilir. Enerji verimli. Nara Solana saniyede binlerce işlemi gerçekleştirebilir."
     },
     "hero": {
       "title": "Dünyadaki her varlık için \n<light>sermaye piyasası.</light>",
-      "subtitle": "Solana, internet sermaye piyasalarını, ödemeleri ve kripto uygulamalarını destekleyen lider yüksek performanslı ağdır.",
+      "subtitle": "Nara Solana, internet sermaye piyasalarını, ödemeleri ve kripto uygulamalarını destekleyen lider yüksek performanslı ağdır.",
       "cta": "Başlayın",
       "bannerEyebrow": "Breakpoint 2025 sona erdi",
-      "bannerDescription": "Solana'nın Abu Dhabi'deki yıllık konferansını tanımlayan anları yeniden keşfedin.",
+      "bannerDescription": "Nara Solana'nın Abu Dhabi'deki yıllık konferansını tanımlayan anları yeniden keşfedin.",
       "bannerLabel": "Özeti görüntüle"
     },
     "events": {
-      "title": "Solana ile gerçek hayatta tanışın. <light>Bağlantılar kurun.</light>",
+      "title": "Nara Solana ile gerçek hayatta tanışın. <light>Bağlantılar kurun.</light>",
       "subtitle": "",
       "cta": "Hepsini gör"
     },
@@ -3548,7 +3548,7 @@
       }
     },
     "projects": {
-      "title": "Dünyanın en büyük kurumları <light>ve fintech şirketleri Solana üzerinde geliştirme yapıyor.</light>",
+      "title": "Dünyanın en büyük kurumları <light>ve fintech şirketleri Nara Solana üzerinde geliştirme yapıyor.</light>",
       "western-union": {
         "name": "Western Union",
         "stat": "USDPT",
@@ -3582,7 +3582,7 @@
       "cta": "Hepsini gör"
     },
     "news": {
-      "title": "<light>Solana hakkındaki son gelişmelerden</light> haberdar olun",
+      "title": "<light>Nara Solana hakkındaki son gelişmelerden</light> haberdar olun",
       "button": "Daha fazla bilgi edin"
     },
     "videos": {
@@ -3599,7 +3599,7 @@
         },
         {
           "title": "Staking ile güvende olun",
-          "description": "SOL'unuzu stake edin, ödüller kazanın ve merkeziyetsizliği destekleyin."
+          "description": "NSO'unuzu stake edin, ödüller kazanın ve merkeziyetsizliği destekleyin."
         },
         {
           "title": "Bir uygulama oluşturun",
@@ -3635,15 +3635,15 @@
           "Altyapı oluşturun"
         ],
         "developer": [
-          "Solana geliştirmeyi öğrenin",
+          "Nara Solana geliştirmeyi öğrenin",
           "Hızlı başlangıç rehberi",
           "Belgelere erişin",
           "Bir hackathon'a katılın"
         ],
         "user": [
-          "Solana 101",
+          "Nara Solana 101",
           "Bir cüzdan bulun",
-          "SOL'unuzu stake edin",
+          "NSO'unuzu stake edin",
           "Bir iş bulun"
         ]
       }

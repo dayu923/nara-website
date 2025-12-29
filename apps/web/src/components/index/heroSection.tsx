@@ -26,25 +26,26 @@ export function HeroSection() {
 
 const HeroSectionBox = styled.section`
   position: relative;
+  top: -64px;
   width: 100%;
   margin-bottom: 160px;
   font-family: "Sans Tab";
   @media (max-width: 768px) {
+    top: 0 !important;
     margin-bottom: 64px;
   }
 `;
 
 const HeroSectionContent = styled.div`
   position: absolute;
-  top: 50%;
+  top: 35%;
   left: 50%;
   z-index: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 12px;
-  transform: translate(-50%, -50%);
-  padding-bottom: 48px;
+  transform: translate(-50%, -35%);
 
   h1 {
     font-weight: bold;
@@ -85,4 +86,8 @@ const HeroBgIcon = styled(Image)`
 const HeroBgIconShadow = styled(Image)`
   position: absolute;
   inset: 0;
+
+  @media (max-width: 768px) {
+    top: -62px;
+  }
 `;

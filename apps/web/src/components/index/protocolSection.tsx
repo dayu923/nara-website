@@ -151,6 +151,7 @@ export function ProtocolSection() {
           <ProtocolList key={index}>
             {List.map((item) => (
               <ProtocolItem key={item.key} $width={item.width}>
+                <CardBgIcon src={cardBgIcon.src} alt="cardBgIcon" />
                 <SubTitle>{item.title}</SubTitle>
                 <BarBox>
                   <BarName>{item.nara.label}</BarName>
@@ -251,15 +252,7 @@ const ProtocolItem = styled.div<{ $width: string }>`
   overflow: hidden;
   cursor: pointer;
 
-  &::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: url(${cardBgIcon.src}) no-repeat top left;
-    opacity: 0;
-  }
-
-  &:hover::before {
+  &:hover > img {
     opacity: 1;
   }
 
@@ -268,6 +261,15 @@ const ProtocolItem = styled.div<{ $width: string }>`
     padding: 16px;
     gap: 8px;
   }
+`;
+
+const CardBgIcon = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 294px;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
 `;
 
 const SubTitle = styled.div`

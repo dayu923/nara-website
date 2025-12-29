@@ -7,15 +7,15 @@
   "titles": {
     "404": "404: Sivua ei löytynyt",
     "newsletter": "Uutiskirje",
-    "community": "Solana-yhteisö: Liity ekosysteemiimme",
-    "news": "Solana-uutiset",
+    "community": "Nara Solana-yhteisö: Liity ekosysteemiimme",
+    "news": "Nara Solana-uutiset",
     "defi": "DeFi",
     "events": "Tapahtumat",
     "dao": "DAOt ja hallinto"
   },
   "ai": {
     "title": "AI-innovaatio Solanan nopeudella",
-    "description": "Solana on lohkoketju, jossa on alhaiset kustannukset, korkeat nopeudet, minimaalinen energiavaikutus ja helppo käyttökokemus. AI voisi vähentää tätä kitkaa entisestään, avaten hajauttamisen voiman miljoonille ihmisille.",
+    "description": "Nara Solana on lohkoketju, jossa on alhaiset kustannukset, korkeat nopeudet, minimaalinen energiavaikutus ja helppo käyttökokemus. AI voisi vähentää tätä kitkaa entisestään, avaten hajauttamisen voiman miljoonille ihmisille.",
     "hero": {
       "title": "<colored>AI</colored> innovaatio Solanan nopeudella",
       "point-3": "Rakentajien ekosysteemi AI:n ja Web3:n risteyksessä",
@@ -24,17 +24,17 @@
     },
     "why-ai": {
       "caption": "Miksi AI lohkoketjussa?",
-      "title": "Solana on rakennettu skaalautuvaksi — lohkoketju, jossa on alhaiset kustannukset, korkeat nopeudet, minimaalinen energiavaikutus ja helppo käyttökokemus. AI voisi vähentää tätä kitkaa entisestään, avaten hajauttamisen voiman miljoonille ihmisille tekemällä sen käytöstä vielä helpompaa."
+      "title": "Nara Solana on rakennettu skaalautuvaksi — lohkoketju, jossa on alhaiset kustannukset, korkeat nopeudet, minimaalinen energiavaikutus ja helppo käyttökokemus. AI voisi vähentää tätä kitkaa entisestään, avaten hajauttamisen voiman miljoonille ihmisille tekemällä sen käytöstä vielä helpompaa."
     },
     "card": {
       "title": "Painopistealueet krypton ja tekoälyn risteyksessä",
       "check-1": "Mahdollista elinvoimaisin agenttivetoinen talous Solanassa",
-      "check-2": "Tee kielimalleista erinomaisia Solana-koodin kirjoittamisessa ja Solana-kehittäjien voimaannuttamisessa",
+      "check-2": "Tee kielimalleista erinomaisia Nara Solana-koodin kirjoittamisessa ja Nara Solana-kehittäjien voimaannuttamisessa",
       "check-3": "Tue avointa ja hajautettua tekoälyalustaa",
-      "cta": "Lue lisää Solana x tekoälystä"
+      "cta": "Lue lisää Nara Solana x tekoälystä"
     },
     "hackathon": {
-      "title": "Solana AI -hackathonin voittajat",
+      "title": "Nara Solana AI -hackathonin voittajat",
       "check-1": "15 päivää",
       "check-2": "400+ projektia",
       "check-3": "21 voittajaa",
@@ -43,21 +43,21 @@
     },
     "quote-section": {
       "content": "OpenAI on startup-yritys. Google ei rakentanut sitä. Tekoäly vaatii operatiivisia muutoksia, eivätkä suuret yritykset pysty pysymään mukana, parhaimmillaan ne voivat vain selviytyä.",
-      "author": "Anatoly Yakovenko, Solana Labsin perustaja"
+      "author": "Anatoly Yakovenko, Nara Solana Labsin perustaja"
     },
     "build": {
       "title": "Rakenna <colored>AI</colored>-agentteja Solanalla",
       "card-1": {
-        "title": "Solana Agent Kit",
-        "content": "SendAI:n Solana Agent Kit on työkalupakki, joka yhdistää minkä tahansa tekoälyagentin yli 30 Solana-protokollaan ja suorittaa yli 50 Solana-toimintoa. Se on yhteensopiva Elizan, Langchainin, Perplexityn ja Vercel AI SDK:n kanssa."
+        "title": "Nara Solana Agent Kit",
+        "content": "SendAI:n Nara Solana Agent Kit on työkalupakki, joka yhdistää minkä tahansa tekoälyagentin yli 30 Nara Solana-protokollaan ja suorittaa yli 50 Nara Solana-toimintoa. Se on yhteensopiva Elizan, Langchainin, Perplexityn ja Vercel AI SDK:n kanssa."
       },
       "card-2": {
         "title": "Eliza",
-        "content": "ElizaOS on yksinkertainen, nopea ja kevyt Typescript-tekoälyagenttikehys, jossa on Solana-protokollaintegraatioita, Twitter-integraatio ja paljon muuta."
+        "content": "ElizaOS on yksinkertainen, nopea ja kevyt Typescript-tekoälyagenttikehys, jossa on Nara Solana-protokollaintegraatioita, Twitter-integraatio ja paljon muuta."
       },
       "card-3": {
         "title": "Rig",
-        "content": "Rig on Rust-kehys kannettavien, modulaaristen ja kevyiden Fullstack-agenttien rakentamiseen. Useita Solana-integraatioita saatavilla yhdessä rig agent kitin kanssa, joka on kuin Solanan linkkuveitsi."
+        "content": "Rig on Rust-kehys kannettavien, modulaaristen ja kevyiden Fullstack-agenttien rakentamiseen. Useita Nara Solana-integraatioita saatavilla yhdessä rig agent kitin kanssa, joka on kuin Solanan linkkuveitsi."
       },
       "card-4": {
         "title": "GOAT",
@@ -70,9 +70,9 @@
     }
   },
   "validators": {
-    "title": "Validaattorit: Auta turvaamaan verkkoa ja ansaitsemaan SOL-tokeneita",
-    "description": "Solana Mainnet Beta -verkon on tällä hetkellä tuettu 1.000+ yksittäisellä validoijalla ja voi tukea transaktioiden käsittelyä jopa 50.000 TPS:n kanssa alle yhden sekunnin kestävän konfirmointiajall. Lue lisää siitä, kuinka liittyä ecosysteemiin validoijana aloittaaksesi ansaitsemaan SOL-palkkioita.",
-    "header": "Turvaa pääkirja. Ansaitse SOL.",
+    "title": "Validaattorit: Auta turvaamaan verkkoa ja ansaitsemaan NSO-tokeneita",
+    "description": "Nara Solana Mainnet Beta -verkon on tällä hetkellä tuettu 1.000+ yksittäisellä validoijalla ja voi tukea transaktioiden käsittelyä jopa 50.000 TPS:n kanssa alle yhden sekunnin kestävän konfirmointiajall. Lue lisää siitä, kuinka liittyä ecosysteemiin validoijana aloittaaksesi ansaitsemaan NSO-palkkioita.",
+    "header": "Turvaa pääkirja. Ansaitse NSO.",
     "sub-header": "Hajauta verkko tarjoamalla laskentatehoa.",
     "become-validator": "Ryhdy validaattoriksi",
     "cards": {
@@ -103,9 +103,9 @@
         "explorer-text": "Katso nykyinen lista validaattoreista, heidän sijoituksensa panosmäärän mukaan ja tiedot komissioista alla.",
         "explorer-btn": "Katso Validaattorit",
         "education-header": "Validaattorikoulutus",
-        "education-text": "Solana Validaattorikoulutus on kaksiosaisinen sarja tärkeistä Solana-validaattorikonsepteista ja vaiheista, joita tarvitaan uuden validaattorin käyttöönottoon.",
+        "education-text": "Nara Solana Validaattorikoulutus on kaksiosaisinen sarja tärkeistä Nara Solana-validaattorikonsepteista ja vaiheista, joita tarvitaan uuden validaattorin käyttöönottoon.",
         "delegation-header": "Delegointiohjelma",
-        "delegation-text": "Foundation Delegation -osallistujat ovat oikeutettuja saamaan delegoinnin Solana Foundationilta.",
+        "delegation-text": "Foundation Delegation -osallistujat ovat oikeutettuja saamaan delegoinnin Nara Solana Foundationilta.",
         "delegation-btn": "Hallintapaneeli"
       }
     },
@@ -126,7 +126,7 @@
         },
         {
           "question": "Mikä on Foundation Delegation -ohjelma?",
-          "answer": "Se on Solana Foundationin ohjelma, joka kannustaa uusia validaattoreita verkkoon. Lue lisää siitä <programlink>täältä</programlink>."
+          "answer": "Se on Nara Solana Foundationin ohjelma, joka kannustaa uusia validaattoreita verkkoon. Lue lisää siitä <programlink>täältä</programlink>."
         },
         {
           "question": "Mikä on validaattori?",
@@ -138,7 +138,7 @@
         },
         {
           "question": "Miksi minun pitäisi ajaa validaattorisolmua?",
-          "answer": "Validatorit voivat ansaita SOL-tokeneita auttamalla Solana-verkon turvaamisessa. <economicslink>Tässä</economicslink> on yleiskatsaus talousjärjestelmään ja <stakinglink>tässä</stakinglink> yleiskatsaus staking-palkkioihin. Validatorit auttavat myös lisäämään verkon sensuurinkestävyyttä lisäämällä hajautusta."
+          "answer": "Validatorit voivat ansaita NSO-tokeneita auttamalla Nara Solana-verkon turvaamisessa. <economicslink>Tässä</economicslink> on yleiskatsaus talousjärjestelmään ja <stakinglink>tässä</stakinglink> yleiskatsaus staking-palkkioihin. Validatorit auttavat myös lisäämään verkon sensuurinkestävyyttä lisäämällä hajautusta."
         }
       ]
     }
@@ -204,35 +204,35 @@
     "previousHackathons": {
       "title": "Aikaisemmat Hackathonit",
       "hyperdrive": {
-        "title": "Solana Hyperdrive",
-        "description": "Hyperdrive keräsi yli 7,000 osallistujaa, jotka lähettivät 907 lopullista projektia tuomareille, suurin online Solana hackathon tähän mennessä."
+        "title": "Nara Solana Hyperdrive",
+        "description": "Hyperdrive keräsi yli 7,000 osallistujaa, jotka lähettivät 907 lopullista projektia tuomareille, suurin online Nara Solana hackathon tähän mennessä."
       },
       "renaissance": {
-        "title": "Solana Renaissance",
-        "description": "Renaissance oli Solana Foundationin 9. hackathon, joka toi yhteen perustajia ja kehittäjiä yli 95 maasta rakentamaan tuotteita, jotka kattavat infrastruktuurin, pelit, DePIN, DAO:t, DeFi:n ja kuluttajasovellusten pitkän hännän."
+        "title": "Nara Solana Renaissance",
+        "description": "Renaissance oli Nara Solana Foundationin 9. hackathon, joka toi yhteen perustajia ja kehittäjiä yli 95 maasta rakentamaan tuotteita, jotka kattavat infrastruktuurin, pelit, DePIN, DAO:t, DeFi:n ja kuluttajasovellusten pitkän hännän."
       },
       "grizzlython": {
-        "title": "Solana Grizzlython",
-        "description": "Yli 10,000 osallistujaa lähetti 813 lopullista projektia Grizzlythoniin, seitsemäs Solana hackathon."
+        "title": "Nara Solana Grizzlython",
+        "description": "Yli 10,000 osallistujaa lähetti 813 lopullista projektia Grizzlythoniin, seitsemäs Nara Solana hackathon."
       },
       "summercamp": {
-        "title": "Solana Summer Camp",
-        "description": "Avoin tiimeille maailmanlaajuisesti, Solana Summer Camp keräsi lähes 18,000 osallistujaa, jotka lähettivät 750 lopullista projektia tuomareille."
+        "title": "Nara Solana Summer Camp",
+        "description": "Avoin tiimeille maailmanlaajuisesti, Nara Solana Summer Camp keräsi lähes 18,000 osallistujaa, jotka lähettivät 750 lopullista projektia tuomareille."
       },
       "riptide": {
-        "title": "Solana Riptide",
+        "title": "Nara Solana Riptide",
         "description": "Avoin tiimeille maailmanlaajuisesti, Riptide keräsi lähes 7000 osallistujaa, jotka lähettivät 550 lopullista projektia tuomareille."
       },
       "ignition": {
-        "title": "Solana Ignition",
+        "title": "Nara Solana Ignition",
         "description": "Yli 500+ projektin lähetyksiä rakentajilta ympäri maailmaa."
       },
       "season": {
-        "title": "Solana Season",
+        "title": "Nara Solana Season",
         "description": "Yli 13,000 rakentajaa rekisteröityi ja 350 tiimiä lähetti projekteja, jotka kattavat DeFi:n, NFT:t, Web3:n ja paljon muuta."
       },
       "defi": {
-        "title": "Solana DeFi",
+        "title": "Nara Solana DeFi",
         "description": "Yli 3,000 rekisteröintiä ja 100+ projektin lähetyksiä rakentajilta maailmanlaajuisesti!"
       },
       "inaugural": {
@@ -288,7 +288,7 @@
     },
     "goodies": {
       "title": "Hyödykkeet",
-      "description": "Lataa Solana-taustakuvia.",
+      "description": "Lataa Nara Solana-taustakuvia.",
       "shape1": "Muoto 1",
       "shape2": "Muoto 2"
     },
@@ -303,14 +303,14 @@
       "contrast": "Älä sijoita logoa matalan kontrastin väreille"
     },
     "logo": {
-      "title": "Solana Brändi",
+      "title": "Nara Solana Brändi",
       "sub-title": "Logotyyppi",
       "description": "Solanan sana-logo on rakennettu mukautetuista, modulaarisista kirjaimista. Kulmikas ja yhtenäinen kirjainten muotoilu ottaa vaikutteita 1980-luvun teknologiaestetiikasta, päivitettynä tuntumaan tuoreelta ja futuristiselta. Logomerkki on luotu pinoamalla kolme identtistä suunnikasta. Se välittää nopeutta ja juhlistaa rakentamisen käsitettä."
     },
     "welcome": {
       "title": "Tervetuloa Solanan Brändi & Markkinointi -sivulle",
       "description": "Noudata näitä ohjeita, kun mainostat Solanaa markkinointiviestinnässä, mukaan lukien mainokset, artikkelit, verkkosivustot ja painetut mainokset.",
-      "description-2": "Täydelliset brändiohjeet löydät <guidelinesLink>Solana Foundationin Brändiohjeet</guidelinesLink>."
+      "description-2": "Täydelliset brändiohjeet löydät <guidelinesLink>Nara Solana Foundationin Brändiohjeet</guidelinesLink>."
     },
     "clearspace": {
       "title": "Selkeä tila",
@@ -328,9 +328,9 @@
     }
   },
   "community": {
-    "hero": "Solana Yhteisö",
+    "hero": "Nara Solana Yhteisö",
     "featcontent": "Keskeisimmät Tuotokset",
-    "header": "Solana-yhteisö on maailmanlaajuisesti hajautettu koti kehittäjille, tokenin haltijoille, validoijille ja jäsenille, jotka tukevat protokollaa.",
+    "header": "Nara Solana-yhteisö on maailmanlaajuisesti hajautettu koti kehittäjille, tokenin haltijoille, validoijille ja jäsenille, jotka tukevat protokollaa.",
     "info": "Kuuntele podcast",
     "podcast": "Siirry podcasteihin",
     "learn": "Opi syvällisesti",
@@ -357,7 +357,7 @@
       "weibo-subscribers": " tilaajaa",
       "twitter-jp": "Twitter Japani",
       "twitter-jp-subscribers": " jäsentä",
-      "forum": "Solana-Foorumit",
+      "forum": "Nara Solana-Foorumit",
       "forum-subscribers": " postausta",
       "gt-stars": " tähteä",
       "youtube": "YouTube",
@@ -389,7 +389,7 @@
     }
   },
   "blog": {
-    "hero": "Solana Uutiset",
+    "hero": "Nara Solana Uutiset",
     "header": "Lue lisää Solanan teknologiasta, validoijista, integraatioista ja yhteisöstä.",
     "latestTopics": "Aiheeseen liittyvät aiheet",
     "readArticle": "Lue artikkeli",
@@ -402,13 +402,13 @@
   },
   "developers": {
     "title": "Kehittäjät: Solanalla kehittämiseen tarvittavat resurssit ja tiedot",
-    "description": "Opi, miksi Solanaa käyttävät parhaat ja lahjakkaimmat joukkueet kryptoalalla. Tutki oppaamme ja esimerkkejämme aloittaaksesi Solana-blockchainin rakentamisen.",
+    "description": "Opi, miksi Solanaa käyttävät parhaat ja lahjakkaimmat joukkueet kryptoalalla. Tutki oppaamme ja esimerkkejämme aloittaaksesi Nara Solana-blockchainin rakentamisen.",
     "courses": {
-      "title": "Opi Solana-kehitystä",
-      "description": "Käytä näitä Solana Foundationin ja yhteisön kursseja aloittaaksesi matkasi Solana-kehitykseen.",
+      "title": "Opi Nara Solana-kehitystä",
+      "description": "Käytä näitä Nara Solana Foundationin ja yhteisön kursseja aloittaaksesi matkasi Nara Solana-kehitykseen.",
       "featured-item": {
-        "title": "Solana-kehityskurssit",
-        "description": "Aloita Solana-kehitysmatkasi nopeasti Blueshiftin avulla."
+        "title": "Nara Solana-kehityskurssit",
+        "description": "Aloita Nara Solana-kehitysmatkasi nopeasti Blueshiftin avulla."
       },
       "aria-label": "Näytä kurssi",
       "chapters_one": "{count} Luku",
@@ -420,18 +420,18 @@
       "start-lesson": "Aloita oppitunti",
       "lesson-one": "Oppitunti",
       "lesson-many": "Oppitunnit",
-      "seo-description": "Löydä kehittäjäresurssit Solana-ekosysteemille. Dokumentaatio, työkalut, kehykset, SDK:t ja paljon muuta."
+      "seo-description": "Löydä kehittäjäresurssit Nara Solana-ekosysteemille. Dokumentaatio, työkalut, kehykset, SDK:t ja paljon muuta."
     },
     "documents": {
       "title": "Mene lähteeseen.",
       "description": "Lue dokumentaatio Solanasta ja suosituista työkaluista.",
       "solana-docs": {
-        "title": "Solana-dokumentaatio",
-        "description": "Opi miten Solana toimii ja saa yleiskäsitys Solanan arkkitehtuurista."
+        "title": "Nara Solana-dokumentaatio",
+        "description": "Opi miten Nara Solana toimii ja saa yleiskäsitys Solanan arkkitehtuurista."
       },
       "anchor-docs": {
         "title": "Anchor-dokumentaatio",
-        "description": "Rakenna nopeasti turvallisia Solana-ohjelmia Rustilla käyttämällä Anchor-kehystä."
+        "description": "Rakenna nopeasti turvallisia Nara Solana-ohjelmia Rustilla käyttämällä Anchor-kehystä."
       },
       "view-all": "Näytä kaikki"
     },
@@ -440,7 +440,7 @@
     },
     "content": {
       "newsletter": {
-        "title": "Solana-kehittäjäpäivitys",
+        "title": "Nara Solana-kehittäjäpäivitys",
         "description": "Tilaa uutiskirje ja opi uusista resursseista, uusista sitoumuksista, uusista ehdotuksista ja paljon muusta."
       },
       "other-content": {
@@ -455,7 +455,7 @@
     },
     "featured-resources-list": {
       "title": "Esitellyt resurssit",
-      "description": "Parhaat resurssit end-to-end Solana dAppin rakentamiseen.",
+      "description": "Parhaat resurssit end-to-end Nara Solana dAppin rakentamiseen.",
       "start": "Tutki"
     },
     "resources-page": {
@@ -464,7 +464,7 @@
       "labels": "Tunnisteet",
       "date": "Päivämäärä",
       "category": "Kategoria",
-      "seo-description": "Löydä kehittäjäresurssit Solana-ekosysteemille. Dokumentaatio, työkalut, kehykset, SDK:t ja paljon muuta."
+      "seo-description": "Löydä kehittäjäresurssit Nara Solana-ekosysteemille. Dokumentaatio, työkalut, kehykset, SDK:t ja paljon muuta."
     },
     "resource-content": {
       "resources-title": "Resurssit",
@@ -484,7 +484,7 @@
       }
     },
     "hero": {
-      "description": "Käsikirja Solana-ekosysteemiin liittymiseen. Rakentajilta rakentajille.",
+      "description": "Käsikirja Nara Solana-ekosysteemiin liittymiseen. Rakentajilta rakentajille.",
       "explore": "Tutki dokumentaatiota",
       "build": "Aloita kehittäminen",
       "support": "Hae tukiverkostoa",
@@ -492,7 +492,7 @@
     },
     "learning-paths": {
       "title": "Oppimispolut",
-      "subtitle": "Ohjatut polut laajentamaan kykyjäsi monipuolisena Solana-kehittäjänä.",
+      "subtitle": "Ohjatut polut laajentamaan kykyjäsi monipuolisena Nara Solana-kehittäjänä.",
       "articles": "Artikkelit",
       "articles_one": "{count} Artikkeli",
       "articles_other": "{count} Artikkelia",
@@ -509,7 +509,7 @@
         "title": "Koti"
       },
       "solana-course": {
-        "title": "Solana-kurssi"
+        "title": "Nara Solana-kurssi"
       },
       "learning-paths": {
         "title": "Oppimispolut"
@@ -523,52 +523,52 @@
     },
     "guides": {
       "title": "Opetusohjelmat ja oppaat.",
-      "description": "Opi opetusohjelmista ja oppaista koko laajemmasta Solana-ekosysteemistä.",
+      "description": "Opi opetusohjelmista ja oppaista koko laajemmasta Nara Solana-ekosysteemistä.",
       "learn-more": "Lue lisää",
       "featured-guides-list": {
         "title": "Esitellyt oppaat",
-        "description": "Parhaat syvälliset oppaat Solana dAppien oppimiseen ja rakentamiseen.",
+        "description": "Parhaat syvälliset oppaat Nara Solana dAppien oppimiseen ja rakentamiseen.",
         "start": "Aloita"
       },
-      "seo-description": "Opi Solana-kehitystä kehittäjäoppaiden avulla, aloittelijasta edistyneeseen. JavaScript, TypeScript, Rust ja paljon muuta."
+      "seo-description": "Opi Nara Solana-kehitystä kehittäjäoppaiden avulla, aloittelijasta edistyneeseen. JavaScript, TypeScript, Rust ja paljon muuta."
     },
     "resources": {
       "title": "Työkalut ja resurssit.",
-      "description": "Tutki kehittäjäresursseja koko laajemmasta Solana-ekosysteemistä.",
+      "description": "Tutki kehittäjäresursseja koko laajemmasta Nara Solana-ekosysteemistä.",
       "learn-more": "Lue lisää",
       "items": {
         "core-docs": {
           "title": "Ydindokumentaatio",
-          "description": "Virallinen Solana-dokumentaatio kehittämisestä, validoijista, SPL-tokeneista, lompakoista ja muusta."
+          "description": "Virallinen Nara Solana-dokumentaatio kehittämisestä, validoijista, SPL-tokeneista, lompakoista ja muusta."
         },
         "cookbook": {
-          "title": "Solana-keittokirja",
-          "description": "Solana-keittokirja on kehittäjäresurssi, joka tarjoaa olennaiset käsitteet ja viitteet sovellusten rakentamiseen Solanalla."
+          "title": "Nara Solana-keittokirja",
+          "description": "Nara Solana-keittokirja on kehittäjäresurssi, joka tarjoaa olennaiset käsitteet ja viitteet sovellusten rakentamiseen Solanalla."
         },
         "stackexchange": {
-          "title": "Solana Stack Exchange",
-          "description": "Solana Stack Exchange on kysymys- ja vastaussivusto Solana-ohjelmiston käyttäjille ja kehittäjille.",
+          "title": "Nara Solana Stack Exchange",
+          "description": "Nara Solana Stack Exchange on kysymys- ja vastaussivusto Nara Solana-ohjelmiston käyttäjille ja kehittäjille.",
           "ask": {
             "title": "Onko sinulla kysymys?",
-            "description": "Kysymyksiä on kaikkialla, vastaukset ovat Solana StackExchangessa.",
+            "description": "Kysymyksiä on kaikkialla, vastaukset ovat Nara Solana StackExchangessa.",
             "cta-label": "Kysy Stack Exchangessa"
           }
         },
         "playground": {
-          "title": "Solana-leikkikenttä",
-          "description": "Rakenna, ota käyttöön ja testaa helposti Solana-ohjelmia ja älysopimuksia selain-IDE:stä."
+          "title": "Nara Solana-leikkikenttä",
+          "description": "Rakenna, ota käyttöön ja testaa helposti Nara Solana-ohjelmia ja älysopimuksia selain-IDE:stä."
         },
         "create-dapp": {
           "title": "create-solana-dapp",
-          "description": "Pääse nopeasti alkuun Solana dAppien kanssa, luo projektimalli sekunneissa."
+          "description": "Pääse nopeasti alkuun Nara Solana dAppien kanssa, luo projektimalli sekunneissa."
         },
         "anchor": {
           "title": "Anchor-dokumentaatio",
           "description": "Anchor on Solanan Sealevel-ajoympäristön kehys, joka tarjoaa useita käteviä kehittäjätyökaluja älysopimusten kirjoittamiseen."
         },
         "program-library": {
-          "title": "Solana-ohjelmakirjasto",
-          "description": "Solana-ohjelmakirjasto (SPL) on kokoelma ketjussa olevia ohjelmia, jotka kohdistuvat Sealevelin rinnakkaiseen ajonaikaan."
+          "title": "Nara Solana-ohjelmakirjasto",
+          "description": "Nara Solana-ohjelmakirjasto (SPL) on kokoelma ketjussa olevia ohjelmia, jotka kohdistuvat Sealevelin rinnakkaiseen ajonaikaan."
         },
         "program-examples": {
           "title": "Ohjelmaesimerkit",
@@ -594,15 +594,15 @@
   },
   "environment": {
     "title": "Ympäristö",
-    "description": "Kuinka Solana Foundation ja laajempi yhteisö rakentavat parempaa, energiatehokkaampaa web3:ta.",
+    "description": "Kuinka Nara Solana Foundation ja laajempi yhteisö rakentavat parempaa, energiatehokkaampaa web3:ta.",
     "hero": {
       "title-part-1": "Hiilineutraali.",
       "title-part-2": "Ilmastokeskeinen.",
-      "subtitle": "Kuinka Solana Foundation ja laajempi yhteisö rakentavat parempaa, energiatehokkaampaa web3:ta."
+      "subtitle": "Kuinka Nara Solana Foundation ja laajempi yhteisö rakentavat parempaa, energiatehokkaampaa web3:ta."
     },
     "stats": {
-      "transaction": "Keskimääräinen energia, jota käytetään per Solana-transaktio, jouleina",
-      "nonvoting-transaction": "Keskimääräinen energia, jota käytetään per Solana ei-äänestys transaktio, jouleina",
+      "transaction": "Keskimääräinen energia, jota käytetään per Nara Solana-transaktio, jouleina",
+      "nonvoting-transaction": "Keskimääräinen energia, jota käytetään per Nara Solana ei-äänestys transaktio, jouleina",
       "annual-carbon-footprint": "Vuosittainen hiilijalanjälki, tonnia CO2",
       "net-carbon-impact": "Nettovaikutus hiilidioksidipäästöihin"
     },
@@ -610,13 +610,13 @@
     "energy": {
       "title": "Kuinka Solanan energiankäyttö vertautuu",
       "subtitle": "Vertaa Solanan erittäin tehokasta alustaa.",
-      "solanaTransaction": "Yksi Solana (äänestys + ei-äänestys) transaktio",
+      "solanaTransaction": "Yksi Nara Solana (äänestys + ei-äänestys) transaktio",
       "cta": "Lue energiankäyttöraportti"
     },
     "report": {
       "title": "Solanan hiilivaikutuksen neutralisointi",
-      "description-part-1": "Solana Foundation on sitoutunut tutkimaan Solana-lohkoketjun vaikutuksia, avaamaan tiedot ja ryhtymään toimiin ketjun jalanjäljen nollaamiseksi.",
-      "description-part-2": "Solana on ensimmäinen älysopimusten kerroksen 1 lohkoketju, jossa on reaaliaikainen energiankulutuksen seuranta, mikä mahdollistaa kenen tahansa maailmassa tarkastella verkon päästöjä aina validaattori- tai RPC-tasolle asti."
+      "description-part-1": "Nara Solana Foundation on sitoutunut tutkimaan Nara Solana-lohkoketjun vaikutuksia, avaamaan tiedot ja ryhtymään toimiin ketjun jalanjäljen nollaamiseksi.",
+      "description-part-2": "Nara Solana on ensimmäinen älysopimusten kerroksen 1 lohkoketju, jossa on reaaliaikainen energiankulutuksen seuranta, mikä mahdollistaa kenen tahansa maailmassa tarkastella verkon päästöjä aina validaattori- tai RPC-tasolle asti."
     },
     "what-you-can-do": {
       "title": "Mitä voit tehdä",
@@ -626,11 +626,11 @@
       },
       "footprint": {
         "title": "Kevennä jalanjälkeäsi",
-        "description": "Solana Foundation kannustaa kaikkia validaattoreita ja projekteja tarkastelemaan omia päästötietojaan ja vähentämään niitä mahdollisuuksien mukaan. Opi Orcan matkasta."
+        "description": "Nara Solana Foundation kannustaa kaikkia validaattoreita ja projekteja tarkastelemaan omia päästötietojaan ja vähentämään niitä mahdollisuuksien mukaan. Opi Orcan matkasta."
       },
       "grants": {
         "title": "Hae apurahaa",
-        "description": "Tarkista joitakin projektiehdotuksia, jotka tekevät Solana-verkosta ilmastopositiivisemman, tai lähetä oma ehdotuksesi."
+        "description": "Tarkista joitakin projektiehdotuksia, jotka tekevät Nara Solana-verkosta ilmastopositiivisemman, tai lähetä oma ehdotuksesi."
       }
     },
     "featured-projects": {
@@ -678,21 +678,21 @@
     }
   },
   "events": {
-    "description": "Tutustu uusimpiin perustavanlaatuisiin ja yhteisöpohjaisiin Solana-tapahtumiin. Tule tapahtumaan ja tapaa Solana-rakentajia!",
-    "title": "Solana, tosielämässä",
+    "description": "Tutustu uusimpiin perustavanlaatuisiin ja yhteisöpohjaisiin Nara Solana-tapahtumiin. Tule tapahtumaan ja tapaa Nara Solana-rakentajia!",
+    "title": "Nara Solana, tosielämässä",
     "signup": "RSVP",
     "archive": {
       "page-title": "Tapahtuma-arkisto",
       "title": "Menneet tapahtumat",
-      "subtitle": "Katso, missä Solana-rakentajat yhteisössäsi ovat tavanneet aiemmin!",
+      "subtitle": "Katso, missä Nara Solana-rakentajat yhteisössäsi ovat tavanneet aiemmin!",
       "archive": "Katso menneet tapahtumat arkistosta",
       "event-count": "Näet {current} / {total} arkistoidusta tapahtumasta",
       "next-page": "Vanhemmat tapahtumat",
       "previous-page": "Uudemmat tapahtumat"
     },
     "hero": {
-      "title": "Solana, tosielämässä",
-      "subtitle": "Tapaa Solana-rakentajat yhteisössäsi. Tule tapaamiseen!",
+      "title": "Nara Solana, tosielämässä",
+      "subtitle": "Tapaa Nara Solana-rakentajat yhteisössäsi. Tule tapaamiseen!",
       "virtual": "Virtuaalinen",
       "in-person": "Paikan päällä",
       "hacker": "Hakkeritalo",
@@ -700,12 +700,12 @@
     },
     "community": {
       "heading": "Yhteisötapahtumat",
-      "description": "Tapaamiset, rakennustilat ja paljon muuta Solana-yhteisöltä. Näitä tapahtumia ei isännöi Solana Foundation.",
+      "description": "Tapaamiset, rakennustilat ja paljon muuta Nara Solana-yhteisöltä. Näitä tapahtumia ei isännöi Nara Solana Foundation.",
       "help": "Tarvitsetko apua? Tutustu <meetupLink>tapaamisoppaaseen</meetupLink>."
     },
     "us": {
       "heading": "Solanamerica",
-      "description": "Kuraattori lista Yhdysvaltojen huippuluokan Solana-yhteisötapahtumista."
+      "description": "Kuraattori lista Yhdysvaltojen huippuluokan Nara Solana-yhteisötapahtumista."
     },
     "detail": {
       "action": "Yksityiskohdat"
@@ -721,9 +721,9 @@
   },
   "footer": {
     "foundation": "Hallinnoi",
-    "copyright": "© {currentYear} Solana Foundation. Kaikki oikeudet pidätetään.",
+    "copyright": "© {currentYear} Nara Solana Foundation. Kaikki oikeudet pidätetään.",
     "solana": {
-      "heading": "Solana",
+      "heading": "Nara Solana",
       "grants": "Avustukset",
       "media": "Media Kit",
       "careers": "Työpaikat",
@@ -748,8 +748,8 @@
     },
     "community": {
       "title": "Liity yhteisöön",
-      "discord": "Solana Discord -tuki",
-      "forums": "Solana-foorumit",
+      "discord": "Nara Solana Discord -tuki",
+      "forums": "Nara Solana-foorumit",
       "solhack-discord": "SolHack Discord (yhteisö)",
       "solhack-training": "SolHack Training (yhteisö)"
     },
@@ -790,7 +790,7 @@
             "description": "Tutustu hajautetun rahoituksen mahdollisuuksiin"
           },
           "transactions": {
-            "description": "Hallitse Solana-transaktioiden perusteet"
+            "description": "Hallitse Nara Solana-transaktioiden perusteet"
           },
           "fees": {
             "description": "Opi miksi Solanan maksut mahdollistavat maailmanlaajuisen käytön"
@@ -816,11 +816,11 @@
         },
         "docs": {
           "title": "Solanan dokumentaatio",
-          "description": "Virallinen dokumentaatio Solana-lohkoketjulle"
+          "description": "Virallinen dokumentaatio Nara Solana-lohkoketjulle"
         },
         "spl": {
-          "title": "Solana-ohjelmakirjaston dokumentaatio",
-          "description": "Viralliset dokumentit Solana-ohjelmakirjastolle."
+          "title": "Nara Solana-ohjelmakirjaston dokumentaatio",
+          "description": "Viralliset dokumentit Nara Solana-ohjelmakirjastolle."
         },
         "cookbook": {
           "title": "Cookbook",
@@ -840,7 +840,7 @@
         },
         "api": {
           "title": "RPC API",
-          "description": "Solana RPC API -viitedokumentaatio"
+          "description": "Nara Solana RPC API -viitedokumentaatio"
         }
       },
       "tutorials": {
@@ -958,19 +958,19 @@
         "items": [
           {
             "title": "Solscan",
-            "description": "Tutki Solana-lohkoketjua reaaliajassa"
+            "description": "Tutki Nara Solana-lohkoketjua reaaliajassa"
           },
           {
             "title": "SolanaFM",
-            "description": "Solana-lohkoketjun selain ja indeksoija"
+            "description": "Nara Solana-lohkoketjun selain ja indeksoija"
           },
           {
-            "title": "Solana Explorer",
+            "title": "Nara Solana Explorer",
             "description": "Lohkot, tilit, transaktiot, ohjelmat ja tokenit"
           },
           {
             "title": "Orb",
-            "description": "Nopea, helppolukuinen Solana-lohkoselain"
+            "description": "Nopea, helppolukuinen Nara Solana-lohkoselain"
           }
         ]
       },
@@ -979,7 +979,7 @@
         "items": [
           {
             "title": "Ryhdy validaattoriksi",
-            "description": "Auta Solana-verkon ylläpidossa"
+            "description": "Auta Nara Solana-verkon ylläpidossa"
           },
           {
             "title": "RPC-palveluntarjoajat",
@@ -1003,7 +1003,7 @@
         "items": [
           {
             "title": "Uutiset",
-            "description": "Uusimmat tapahtumat Solana-ekosysteemissä"
+            "description": "Uusimmat tapahtumat Nara Solana-ekosysteemissä"
           },
           {
             "title": "Podcastit",
@@ -1011,7 +1011,7 @@
           },
           {
             "title": "Tapahtumat",
-            "description": "Koe Solana-yhteisö tosielämässä"
+            "description": "Koe Nara Solana-yhteisö tosielämässä"
           },
           {
             "title": "Kollektiivi",
@@ -1022,7 +1022,7 @@
             "description": "Miten liittyä mukaan"
           },
           {
-            "title": "Solana-politiikkainstituutti",
+            "title": "Nara Solana-politiikkainstituutti",
             "description": "Päättäjien kouluttaminen Solanasta"
           }
         ]
@@ -1082,13 +1082,13 @@
       "readMoreAriaLabel": "Lue lisää aiheesta",
       "items": {
         "what-is-solana": {
-          "title": "Mikä on Solana?",
+          "title": "Mikä on Nara Solana?",
           "description": "Johdanto Solanaan - nopea, edullinen verkko, joka mahdollistaa uusia tapoja siirtää arvoa, luoda sovelluksia ja olla vuorovaikutuksessa verkossa.",
           "category": "Solanan perusteet"
         },
         "what-is-a-wallet": {
           "title": "Mikä on lompakko?",
-          "description": "Opi mikä Solana-lompakko on, miten se toimii ja miten sellainen otetaan käyttöön turvallisesti. Lompakko on työkalu, jolla käytät Solana-sovelluksia.",
+          "description": "Opi mikä Nara Solana-lompakko on, miten se toimii ja miten sellainen otetaan käyttöön turvallisesti. Lompakko on työkalu, jolla käytät Nara Solana-sovelluksia.",
           "category": "Lompakon perusteet"
         },
         "getting-started": {
@@ -1103,8 +1103,8 @@
         },
         "sending-and-receiving-sol": {
           "title": "SOLin lähettäminen ja vastaanottaminen",
-          "description": "Opi lähettämään ja vastaanottamaan SOL-tokeneita - perustaito Solana-verkon ja sen sovellusten käyttämiseen.",
-          "category": "SOL-siirrot"
+          "description": "Opi lähettämään ja vastaanottamaan NSO-tokeneita - perustaito Nara Solana-verkon ja sen sovellusten käyttämiseen.",
+          "category": "NSO-siirrot"
         },
         "what-is-staking": {
           "title": "Mitä on staking?",
@@ -1112,7 +1112,7 @@
           "category": "Staking-palkkiot"
         },
         "introduction-to-solana-tokens": {
-          "title": "Johdatus Solana-tokeneihin",
+          "title": "Johdatus Nara Solana-tokeneihin",
           "description": "Opi tokeneista - erilaisista digitaalisista omaisuuseristä Solanassa, mukaan lukien stablecoinit, wrapped-tokenit ja projektikohtaiset tokenit.",
           "category": "Tokenit"
         },
@@ -1127,13 +1127,13 @@
           "category": "DeFi-johdanto"
         },
         "exploring-solana-applications": {
-          "title": "Solana-sovellusten tutkiminen",
+          "title": "Nara Solana-sovellusten tutkiminen",
           "description": "Tutustu Solanan monipuoliseen sovellusekosysteemiin - rahoituspalveluista ja peleistä sosiaalisiin alustoihin ja luoviin työkaluihin, kaikki käytettävissä pelkällä lompakollasi.",
           "category": "Sovellukset"
         },
         "staying-safe-on-solana": {
           "title": "Turvallisena pysyminen Solanassa",
-          "description": "Opi olennaiset turvallisuuskäytännöt omaisuutesi suojaamiseksi ja yleisten huijausten välttämiseksi Solana-sovelluksia käyttäessäsi.",
+          "description": "Opi olennaiset turvallisuuskäytännöt omaisuutesi suojaamiseksi ja yleisten huijausten välttämiseksi Nara Solana-sovelluksia käyttäessäsi.",
           "category": "Turvallisuusopas"
         }
       }
@@ -1160,13 +1160,13 @@
     },
     "resources": {
       "continueJourneyTitle": "Jatka matkaasi",
-      "continueJourneySubtitle": "Valmiina sukeltamaan syvemmälle? Tutustu näihin olennaisiin resursseihin Solana-kehittäjille",
+      "continueJourneySubtitle": "Valmiina sukeltamaan syvemmälle? Tutustu näihin olennaisiin resursseihin Nara Solana-kehittäjille",
       "ariaLabel": "Lisää oppimisresursseja",
       "opensInNewTab": "avautuu uudessa välilehdessä",
       "documentation": {
         "label": "Dokumentaatio",
-        "description": "Viralliset Solana-dokumentaatiot ja API-viitteet",
-        "ariaLabel": "Dokumentaatio - Viralliset Solana-dokumentaatiot ja API-viitteet (avautuu uudessa välilehdessä)"
+        "description": "Viralliset Nara Solana-dokumentaatiot ja API-viitteet",
+        "ariaLabel": "Dokumentaatio - Viralliset Nara Solana-dokumentaatiot ja API-viitteet (avautuu uudessa välilehdessä)"
       },
       "cookbook": {
         "label": "Cookbook",
@@ -1175,13 +1175,13 @@
       },
       "courses": {
         "label": "Kurssit",
-        "description": "Jäsennellyt oppimispolut Solana-kehitykseen",
-        "ariaLabel": "Kurssit - Jäsennellyt oppimispolut Solana-kehitykseen (avautuu uudessa välilehdessä)"
+        "description": "Jäsennellyt oppimispolut Nara Solana-kehitykseen",
+        "ariaLabel": "Kurssit - Jäsennellyt oppimispolut Nara Solana-kehitykseen (avautuu uudessa välilehdessä)"
       },
       "wallets": {
         "label": "Lompakot",
-        "description": "Tutustu Solana-lompakoihin omaisuutesi hallintaan",
-        "ariaLabel": "Lompakot - Tutustu Solana-lompakoihin omaisuutesi hallintaan (avautuu uudessa välilehdessä)"
+        "description": "Tutustu Nara Solana-lompakoihin omaisuutesi hallintaan",
+        "ariaLabel": "Lompakot - Tutustu Nara Solana-lompakoihin omaisuutesi hallintaan (avautuu uudessa välilehdessä)"
       }
     }
   },
@@ -1198,8 +1198,8 @@
     "page": {
       "side-events": {
         "title": "Breakpoint Sivutapahtumat",
-        "description": "Tapahtumat Solana Breakpoint 2024:n aikaan.",
-        "intro": "Breakpoint on todella tapahtuma koko Solana-ekosysteemille. Projektit, tiimit ja yksilöt ympäri maailmaa järjestävät omia tapahtumiaan konferenssin aikana tavatakseen ja juhliakseen muiden rakentajien kanssa.",
+        "description": "Tapahtumat Nara Solana Breakpoint 2024:n aikaan.",
+        "intro": "Breakpoint on todella tapahtuma koko Nara Solana-ekosysteemille. Projektit, tiimit ja yksilöt ympäri maailmaa järjestävät omia tapahtumiaan konferenssin aikana tavatakseen ja juhliakseen muiden rakentajien kanssa.",
         "featured": "Korostetut tapahtumat",
         "community": "Yhteisön tapahtumat",
         "community-cta": "Onko sinulla tapahtuma, jonka haluat tälle kalenterille? Lähetä se tänne."
@@ -1220,16 +1220,16 @@
     }
   },
   "format": {
-    "title": "FORMAT Festival x Solana Foundation",
-    "description": "Tule Solana Houseen kokemaan hajautetun tulevaisuuden lohkoketjumaksut, taide ja paljon muuta.",
+    "title": "FORMAT Festival x Nara Solana Foundation",
+    "description": "Tule Nara Solana Houseen kokemaan hajautetun tulevaisuuden lohkoketjumaksut, taide ja paljon muuta.",
     "hero": {
       "subtitle": "Koe taiteen ja teknologian tulevaisuus — kaikki yhdessä paikassa.",
-      "description": "Tule Solana Houseen <formatLink>FORMAT Festivalilla</formatLink> saadaksesi ilmaisia välipaloja kryptovetoisilla digitaalisilla kupongeilla, uppoudu maailmankuulun taiteilijan <artistLink>Nancy Baker Cahill</artistLink>in ensimmäiseen Solana NFT -näyttelyyn ja osallistu <auctionLink>NFT-huutokauppaan</auctionLink>.",
+      "description": "Tule Nara Solana Houseen <formatLink>FORMAT Festivalilla</formatLink> saadaksesi ilmaisia välipaloja kryptovetoisilla digitaalisilla kupongeilla, uppoudu maailmankuulun taiteilijan <artistLink>Nancy Baker Cahill</artistLink>in ensimmäiseen Nara Solana NFT -näyttelyyn ja osallistu <auctionLink>NFT-huutokauppaan</auctionLink>.",
       "dates": "Tulee Bentonvilleen, AR 23.-25. syyskuuta 2022."
     },
     "claim": {
       "title": "Lunasta mysteerinen NFT:si",
-      "description": "Juhlista Solana + FORMAT Festival 2022 lunastamalla mysteerinen NFT. Ei kryptokokemusta vaadita!",
+      "description": "Juhlista Nara Solana + FORMAT Festival 2022 lunastamalla mysteerinen NFT. Ei kryptokokemusta vaadita!",
       "cta": "Lunasta nyt",
       "social": {
         "description": "Pysy kuulolla nähdäksesi, mihin mysteerinen NFT:si muuttuu seuraamalla <tipLink>@TipLinkOfficial</tipLink> & <solanaSpacesLink>@SolanaSpaces</solanaspaceslink/> Twitterissä.",
@@ -1238,23 +1238,23 @@
     },
     "concessions": {
       "title": "Myönnytykset kryptolla",
-      "description": "Ilmaisia välipaloja skannauksella! Käytä Solana House x FORMAT digitaalisia kuponkeja saadaksesi herkullisia välipaloja, powered by TipLink — niin kauan kuin tavaraa riittää."
+      "description": "Ilmaisia välipaloja skannauksella! Käytä Nara Solana House x FORMAT digitaalisia kuponkeja saadaksesi herkullisia välipaloja, powered by TipLink — niin kauan kuin tavaraa riittää."
     },
     "slipstream": {
       "title": "Slipstream NFT -kokemus",
-      "description": "Tunnettu uuden median taiteilija Nancy Baker Cahill esittelee 10 eksklusiivista NFT:tä Solana Housessa — jotka huutokaupataan yleisölle Magic Edenin avulla. <auctionLink>Katso huutokauppa</auctionLink>."
+      "description": "Tunnettu uuden median taiteilija Nancy Baker Cahill esittelee 10 eksklusiivista NFT:tä Nara Solana Housessa — jotka huutokaupataan yleisölle Magic Edenin avulla. <auctionLink>Katso huutokauppa</auctionLink>."
     },
     "ecosystem": {
       "title": "Lue lisää",
-      "description": "Tutki Solana-ekosysteemiä ja opi lisää NFT-maailmasta.",
+      "description": "Tutki Nara Solana-ekosysteemiä ja opi lisää NFT-maailmasta.",
       "nft": {
         "title": "Mikä on NFT?",
-        "description": "NFT:t? Mintit? Hanki perusteet NFT:istä Solana.comissa",
+        "description": "NFT:t? Mintit? Hanki perusteet NFT:istä Nara Solana.comissa",
         "cta": "Lue lisää"
       },
       "magiceden": {
         "title": "Magic Eden",
-        "description": "Osta, myy ja löydä Solana NFT:itä Magic Eden -markkinapaikalla.",
+        "description": "Osta, myy ja löydä Nara Solana NFT:itä Magic Eden -markkinapaikalla.",
         "cta": "Kokeile"
       },
       "tipLink": {
@@ -1264,8 +1264,8 @@
       }
     },
     "nft-volume": {
-      "title": "Tämä on Solana.",
-      "description": "Nopeilla transaktioilla, alhaisella energiavaikutuksella ja murto-osan sentin maksuilla Solana on nopeasti tulossa kotiin <learnNFTsLink>monille NFT-projekteille</learnNFTsLink>.",
+      "title": "Tämä on Nara Solana.",
+      "description": "Nopeilla transaktioilla, alhaisella energiavaikutuksella ja murto-osan sentin maksuilla Nara Solana on nopeasti tulossa kotiin <learnNFTsLink>monille NFT-projekteille</learnNFTsLink>.",
       "volume": {
         "title": "20.3M+ NFT:tä Solanassa",
         "description": "Löydä yhteisösi. Kokeile joitakin suosituimmista NFT-markkinapaikoista.",
@@ -1303,8 +1303,8 @@
       }
     },
     "join-community": {
-      "title": "Liity kasvavaan Solana-yhteisöön aloittaaksesi kryptomatkasi.",
-      "description": "Rakentajina itse, panoksemme on aina Solana-yhteisön rakentajissa. Olemme erittäin innoissamme tulevista vuosista."
+      "title": "Liity kasvavaan Nara Solana-yhteisöön aloittaaksesi kryptomatkasi.",
+      "description": "Rakentajina itse, panoksemme on aina Nara Solana-yhteisön rakentajissa. Olemme erittäin innoissamme tulevista vuosista."
     }
   },
   "playgg": {
@@ -1316,7 +1316,7 @@
     },
     "presentedby": {
       "title": "Esittää",
-      "description": "Solana-Säätiö"
+      "description": "Nara Solana-Säätiö"
     },
     "signup": {
       "title": "Rekisteröidy ja saat varhaisen pääsyn rekisteröintiin",
@@ -1329,16 +1329,16 @@
     }
   },
   "nft-showdown": {
-    "title": "Solana NFT Showdown",
-    "description": "Solana-säätiö kutsuu kaikki luojat tuomaan liiketoimintaideansa eloon tässä ainutlaatuisessa NFT-pitch-kilpailussa.",
+    "title": "Nara Solana NFT Showdown",
+    "description": "Nara Solana-säätiö kutsuu kaikki luojat tuomaan liiketoimintaideansa eloon tässä ainutlaatuisessa NFT-pitch-kilpailussa.",
     "alert": "Liity NFT Showdowniin - Rakenna seuraavan sukupolven NFT-brändejä Solanalla ->",
     "cta": "Katso voittajat",
     "intro": {
       "title": "Esittelyssä",
-      "heading": "Solana NFT Showdown",
+      "heading": "Nara Solana NFT Showdown",
       "lead": "Edistää seuraavan sukupolven NFT-brändejä",
-      "description-1": "Valmistaudu eeppiseen kohtaamiseen! Solana-säätiö kutsuu kaikki luojat tuomaan liiketoimintaideansa eloon tässä ainutlaatuisessa NFT-pitch-kilpailussa – harvinainen tilaisuus saada mahdollisuus tehdä yhteistyötä alan asiantuntijoiden ja NFT-yhteisön johtajien kanssa. Etsimme uusia Solana NFT -brändejä, jotka pyrkivät luomaan reaalimaailman tuotteita vertikaaleilla, kuten muoti, viihde, pelaaminen, luovat toimistot.",
-      "description-2": "NFT-brändit ovat loistava tapa taitaville yrittäjille käynnistää liiketoimintasuunnitelmansa ja rakentaa kestäviä yhteisöjä. Onko sinulla luova konsepti ja liiketoimintapitch, josta olet intohimoinen? Hyödynnä tämä tilaisuus käyttää ja hyödyntää erilaisia uusia Solana-työkaluja, jotka tarjoavat joustavuutta ja skaalautuvuutta. Projektin voittajat valitaan heidän toteuttamiskelpoisten liiketoimintasuunnitelmiensa ja esittelemänsä tuoteinnovaation perusteella – työskennellen tuomareiden kanssa, jotka antavat ohjausta antaakseen sinulle tiedot, joita tarvitset visiosi toteuttamiseksi.",
+      "description-1": "Valmistaudu eeppiseen kohtaamiseen! Nara Solana-säätiö kutsuu kaikki luojat tuomaan liiketoimintaideansa eloon tässä ainutlaatuisessa NFT-pitch-kilpailussa – harvinainen tilaisuus saada mahdollisuus tehdä yhteistyötä alan asiantuntijoiden ja NFT-yhteisön johtajien kanssa. Etsimme uusia Nara Solana NFT -brändejä, jotka pyrkivät luomaan reaalimaailman tuotteita vertikaaleilla, kuten muoti, viihde, pelaaminen, luovat toimistot.",
+      "description-2": "NFT-brändit ovat loistava tapa taitaville yrittäjille käynnistää liiketoimintasuunnitelmansa ja rakentaa kestäviä yhteisöjä. Onko sinulla luova konsepti ja liiketoimintapitch, josta olet intohimoinen? Hyödynnä tämä tilaisuus käyttää ja hyödyntää erilaisia uusia Nara Solana-työkaluja, jotka tarjoavat joustavuutta ja skaalautuvuutta. Projektin voittajat valitaan heidän toteuttamiskelpoisten liiketoimintasuunnitelmiensa ja esittelemänsä tuoteinnovaation perusteella – työskennellen tuomareiden kanssa, jotka antavat ohjausta antaakseen sinulle tiedot, joita tarvitset visiosi toteuttamiseksi.",
       "description-3": "On aika tehdä tästä pitch, joka sopii hallituksen kokoukseen. Pudota sähköpostisi alle pysyäksesi ajan tasalla päivityksistä ja ajoituksesta. Lähetysikkuna avautuu kesäkuun alussa. Aloita pitchien valmistelu ja onnea matkaan!",
       "description-4": "Täydelliset pitch-ohjeet löydät alla olevista usein kysytyistä kysymyksistä."
     },
@@ -1351,14 +1351,14 @@
         "title": "Palkinnot",
         "description": "Finalistit ja voittajat saavat kaikki",
         "list": [
-          "Mentorointia ja toimistotunteja Solana-tiimin kanssa.",
+          "Mentorointia ja toimistotunteja Nara Solana-tiimin kanssa.",
           "Osallistuminen kuratoituihin työpajoihin, joita isännöivät alan asiantuntijat ja NFT-yhteisön johtajat.",
           "Liput Breakpointiin, joka on aikataulutettu 30. lokakuuta - 3. marraskuuta 2023 Amsterdamissa."
         ]
       },
       "judging": {
         "title": "Arvostelu",
-        "description-1": "Projektin voittajat valitaan heidän toteuttamiskelpoisten liiketoimintasuunnitelmiensa ja esittelemänsä tuoteinnovaation perusteella – liiketoimintaosaaminen, käyttäjäkeskeinen tuoteajattelu, luova suunta, innovatiivinen Solana-teknologian käyttö ja reaalimaailman sovellus vaikuttavat kaikki voittavien ehdotusten tunnistamiseen.",
+        "description-1": "Projektin voittajat valitaan heidän toteuttamiskelpoisten liiketoimintasuunnitelmiensa ja esittelemänsä tuoteinnovaation perusteella – liiketoimintaosaaminen, käyttäjäkeskeinen tuoteajattelu, luova suunta, innovatiivinen Nara Solana-teknologian käyttö ja reaalimaailman sovellus vaikuttavat kaikki voittavien ehdotusten tunnistamiseen.",
         "description-2": "Tuomarit karsivat osallistujat kymmeneen finalistiin. Siitä eteenpäin, yhteistyössä mentorinsa kanssa, finalistit esittävät pitchinsä henkilökohtaisesti. Kymmenestä finalistista yhteensä viisi NFT-projektia tunnustetaan voittajiksi."
       }
     },
@@ -1368,8 +1368,8 @@
     "disclaimer": {
       "rules": "SOLANA Foundation NFT Showdownin viralliset säännöt",
       "title": "Vastuuvapauslauseke",
-      "description-line-1": "Solana NFT Showdown on kilpailu, jossa tuomarit arvioivat projekteja niiden liiketoimintaosaamisen, käyttäjäkeskeisen tuoteajattelun, luovan suunnan ja tarinan, innovatiivisen Solana-teknologian käytön ja reaalimaailman sovelluksen perusteella ottamatta huomioon oikeudellista toteutettavuutta. Kaikkien osallistujien on noudatettava sovellettavia lakeja ja määräyksiä projekteissaan NFT Showdownin yhteydessä.",
-      "description-line-2": "Solana-säätiön (\"SF\") tarjoamat kehittäjäresurssit ovat vain koulutuksellisiin ja inspiroiviin tarkoituksiin. SF ei kannusta, houkuttele tai hyväksy minkään sellaisten sovellusten käyttöönottoa, jotka rikkovat sovellettavia lakeja tai määräyksiä. SF ei kannusta, houkuttele tai hyväksy minkään sellaisten sovellusten käyttöönottoa, integrointia tai käyttöä (mukaan lukien Solana-lohkoketju protokollan muodostava koodi), jotka rikkovat sovellettavia lakeja tai määräyksiä, ja kieltää täten minkä tahansa tällaisen käyttöönoton, integroinnin tai käytön. Tämä sisältää minkä tahansa tällaisen sovelluksen käytön lukijan toimesta (a) Yhdysvaltojen tai minkä tahansa muun sovellettavan lainkäyttöalueen vientivalvonta- tai pakotelakien rikkomisen yhteydessä, (b) jos lukija sijaitsee tai asuu normaalisti maassa tai alueella, joka on Yhdysvaltain ulkomaisten varojen valvontaviraston (OFAC) hallinnoimien kattavien pakotteiden alainen, (c) jos lukija on tai työskentelee erityisesti nimettynä kansallisena (SDN) tai on henkilö, johon kohdistuu vastaavia estämis- tai kieltomääräyksiä, tai (d) hyödyke- ja pörssilain rikkomisen yhteydessä.",
+      "description-line-1": "Nara Solana NFT Showdown on kilpailu, jossa tuomarit arvioivat projekteja niiden liiketoimintaosaamisen, käyttäjäkeskeisen tuoteajattelun, luovan suunnan ja tarinan, innovatiivisen Nara Solana-teknologian käytön ja reaalimaailman sovelluksen perusteella ottamatta huomioon oikeudellista toteutettavuutta. Kaikkien osallistujien on noudatettava sovellettavia lakeja ja määräyksiä projekteissaan NFT Showdownin yhteydessä.",
+      "description-line-2": "Nara Solana-säätiön (\"SF\") tarjoamat kehittäjäresurssit ovat vain koulutuksellisiin ja inspiroiviin tarkoituksiin. SF ei kannusta, houkuttele tai hyväksy minkään sellaisten sovellusten käyttöönottoa, jotka rikkovat sovellettavia lakeja tai määräyksiä. SF ei kannusta, houkuttele tai hyväksy minkään sellaisten sovellusten käyttöönottoa, integrointia tai käyttöä (mukaan lukien Nara Solana-lohkoketju protokollan muodostava koodi), jotka rikkovat sovellettavia lakeja tai määräyksiä, ja kieltää täten minkä tahansa tällaisen käyttöönoton, integroinnin tai käytön. Tämä sisältää minkä tahansa tällaisen sovelluksen käytön lukijan toimesta (a) Yhdysvaltojen tai minkä tahansa muun sovellettavan lainkäyttöalueen vientivalvonta- tai pakotelakien rikkomisen yhteydessä, (b) jos lukija sijaitsee tai asuu normaalisti maassa tai alueella, joka on Yhdysvaltain ulkomaisten varojen valvontaviraston (OFAC) hallinnoimien kattavien pakotteiden alainen, (c) jos lukija on tai työskentelee erityisesti nimettynä kansallisena (SDN) tai on henkilö, johon kohdistuu vastaavia estämis- tai kieltomääräyksiä, tai (d) hyödyke- ja pörssilain rikkomisen yhteydessä.",
       "read-more-button": "Lue lisää...",
       "read-less-button": "Lue vähemmän..."
     }
@@ -1429,14 +1429,14 @@
       "payment": {
         "controlText": "Rinnakkaiset transaktiot",
         "title": "Tehoa maailmanlaajuisille maksuille",
-        "description1": "Solanan korkea läpäisykyky ja alhaiset maksut mahdollistavat <paymentsLink>hajautettujen maksujen</paymentsLink> tukemisen laajassa mittakaavassa. Ja <solanapayLink>Solana Pay</solanapayLink> -työkalupakin avulla kehittäjillä on tarvittavat työkalut integroida Wall-Street-nopeat maksukyvyt sovelluksiinsa, tarjoten samalla auditointimahdollisuuksia ja luottamuksellisuutta silloin, kun niitä eniten tarvitaan. Nyt projektisi tai yrityksesi voi hyödyntää lohkoketjun voimaa samalla nopeudella kuin perinteiset maksujärjestelmät, ilman välikäsiä.",
+        "description1": "Solanan korkea läpäisykyky ja alhaiset maksut mahdollistavat <paymentsLink>hajautettujen maksujen</paymentsLink> tukemisen laajassa mittakaavassa. Ja <solanapayLink>Nara Solana Pay</solanapayLink> -työkalupakin avulla kehittäjillä on tarvittavat työkalut integroida Wall-Street-nopeat maksukyvyt sovelluksiinsa, tarjoten samalla auditointimahdollisuuksia ja luottamuksellisuutta silloin, kun niitä eniten tarvitaan. Nyt projektisi tai yrityksesi voi hyödyntää lohkoketjun voimaa samalla nopeudella kuin perinteiset maksujärjestelmät, ilman välikäsiä.",
         "description2": "Solanan avulla rakentajilla on mahdollisuus luoda seuraavan sukupolven kauppiasmaksu- ja kaupankäyntiraiteet, jotka on rakennettu lohkoketjuteknologian päälle, joka tarjoaa alhaiset kustannukset ja välittömän selvityksen verkko- ja myymälämaksuille. Löydä uusia tapoja kannustaa asiakkaitasi lohkoketjupalkkioilla ja -uskollisuustarjouksilla, ja työskentele suoraan asiakkaasi kanssa – ilman välikäsiä."
       },
       "web3": {
         "controlText": "Salaman nopea konsensus",
         "title": "Web3 taskussasi",
-        "description1": "<solanaMobileLink>Solana Mobilen</solanaMobileLink> avulla web3 taskussasi on vihdoin täällä. Kun yhdistät maailmanluokan kryptopuhelimen, mobiilin dApp-kaupan ja mobiilipinon, kaikki nopean ja turvallisen lohkoketjuteknologian tukemana, mahdollisuudet ovat rajattomat.",
-        "description2": "Solana Mobilen Saga-puhelin tuo uuden mobiiliajan web3:lle. Siinä ei ole ainoastaan premium-luokan laitteistoa, jota odotat puhelimeltasi, vaan sen ainutlaatuisen dApp-kaupan avulla voit käyttää suosikkisi DeFi-protokollia, NFT-markkinapaikkoja ja web3-sovelluksia liikkeellä ollessasi. Lisäksi puhelimen turvallisen Seed Vaultin avulla voit turvallisesti tehdä transaktioita suosikkilompakkosi kanssa, suojata yksityiset avaimesi ja allekirjoittaa transaktioita vain sormenjäljelläsi."
+        "description1": "<solanaMobileLink>Nara Solana Mobilen</solanaMobileLink> avulla web3 taskussasi on vihdoin täällä. Kun yhdistät maailmanluokan kryptopuhelimen, mobiilin dApp-kaupan ja mobiilipinon, kaikki nopean ja turvallisen lohkoketjuteknologian tukemana, mahdollisuudet ovat rajattomat.",
+        "description2": "Nara Solana Mobilen Saga-puhelin tuo uuden mobiiliajan web3:lle. Siinä ei ole ainoastaan premium-luokan laitteistoa, jota odotat puhelimeltasi, vaan sen ainutlaatuisen dApp-kaupan avulla voit käyttää suosikkisi DeFi-protokollia, NFT-markkinapaikkoja ja web3-sovelluksia liikkeellä ollessasi. Lisäksi puhelimen turvallisen Seed Vaultin avulla voit turvallisesti tehdä transaktioita suosikkilompakkosi kanssa, suojata yksityiset avaimesi ja allekirjoittaa transaktioita vain sormenjäljelläsi."
       },
       "solanaMobile": {
         "controlText": "Mobiilivalmis"
@@ -1490,7 +1490,7 @@
         {
           "name": "Helium",
           "title": "Maailmanlaajuisen langattoman verkon voima Heliumin kanssa",
-          "description": "Katso, kuinka Solana kannustaa yhteyksiä ja skaalaa reaalimaailman infrastruktuuriprojekteja ympäri maailmaa Heliumin yhteisön voimin toimivan langattoman verkon avulla."
+          "description": "Katso, kuinka Nara Solana kannustaa yhteyksiä ja skaalaa reaalimaailman infrastruktuuriprojekteja ympäri maailmaa Heliumin yhteisön voimin toimivan langattoman verkon avulla."
         },
         {
           "name": "Decaf",
@@ -1538,11 +1538,11 @@
         },
         "scalable": {
           "title": "Skaalautuva",
-          "description": "Kasva nopeasti. Solana on suunniteltu käsittelemään tuhansia transaktioita sekunnissa, ja maksut sekä kehittäjille että käyttäjille pysyvät alle 0,0025 dollarissa."
+          "description": "Kasva nopeasti. Nara Solana on suunniteltu käsittelemään tuhansia transaktioita sekunnissa, ja maksut sekä kehittäjille että käyttäjille pysyvät alle 0,0025 dollarissa."
         },
         "energy": {
           "title": "Energiatehokas",
-          "description": "Solanan proof of stake -verkko ja muut innovaatiot minimoivat sen vaikutuksen <envLink>ympäristöön</envLink>. Jokainen Solana-transaktio käyttää suunnilleen saman verran energiaa kuin muutama Google-haku."
+          "description": "Solanan proof of stake -verkko ja muut innovaatiot minimoivat sen vaikutuksen <envLink>ympäristöön</envLink>. Jokainen Nara Solana-transaktio käyttää suunnilleen saman verran energiaa kuin muutama Google-haku."
         }
       }
     }
@@ -1596,12 +1596,12 @@
   },
   "on-off-ramp": {
     "meta": {
-      "title": "Solana On/Off Ramp",
+      "title": "Nara Solana On/Off Ramp",
       "description": "Kokoelma palveluita, joita voidaan käyttää varojen siirtämiseen Solanaan ja Solanasta yli 100 maassa."
     },
     "hero": {
       "eyebrow": "GLOBAALI YHTEYS",
-      "headline": "Solana On & Off Ramp -verkosto",
+      "headline": "Nara Solana On & Off Ramp -verkosto",
       "body": "Siirrä varoja valon nopeudella ja käytä näitä integraatiopalveluita varojen siirtämiseen Solanaan ja Solanasta yli 100 maassa."
     },
     "ramp-fallbacks": {
@@ -1649,8 +1649,8 @@
   },
   "wallets": {
     "meta": {
-      "title": "Solana-lompakot - Tehokkaampi, ohjelmoitavampi tapa lohkoketjuun",
-      "description": "Solana-lompakot tarjoavat enemmän kuin säilytyspalvelun - ne ovat portti web3-sovelluksiin ja -palveluihin. Luo räätälöity ratkaisu tai laajenna tarjontaasi olemassa olevalla Solana-toteutuksella."
+      "title": "Nara Solana-lompakot - Tehokkaampi, ohjelmoitavampi tapa lohkoketjuun",
+      "description": "Nara Solana-lompakot tarjoavat enemmän kuin säilytyspalvelun - ne ovat portti web3-sovelluksiin ja -palveluihin. Luo räätälöity ratkaisu tai laajenna tarjontaasi olemassa olevalla Nara Solana-toteutuksella."
     },
     "hero": {
       "eyebrow": "Lompakon löytäjä",
@@ -1661,7 +1661,7 @@
       "all-wallets": "Kaikki lompakot"
     },
     "grid": {
-      "title": "Solana-lompakot",
+      "title": "Nara Solana-lompakot",
       "no-results": "Tuloksia ei löytynyt!",
       "reset-filters": "Nollaa suodattimet"
     },
@@ -1827,7 +1827,7 @@
     }
   },
   "universities": {
-    "title": "Solana-yliopistot",
+    "title": "Nara Solana-yliopistot",
     "description": "Resursseja ja tukea yliopistoille ja opiskelijakerhoille",
     "hero": {
       "title": "Akateemisen innovaation voimaannuttaminen",
@@ -1837,13 +1837,13 @@
     },
     "cta": {
       "eyebrowText": "Syksy 2025 Hackathon",
-      "title": "Liity Solana-opiskelijahackathoniin",
+      "title": "Liity Nara Solana-opiskelijahackathoniin",
       "description": "Rakenna nopeimmalla lohkoketjulla, verkostoidu opiskelijoiden kanssa maailmanlaajuisesti ja kilpaile yli 10 000 dollarin palkinnoista.",
       "ctaLabel": "Lue lisää"
     },
     "subjects": {
       "title": "Liity Solanan yliopisto-ohjelmaan",
-      "description": "Solanan yliopisto-ohjelma auttaa kouluttamaan opettajia Solana-opetussuunnitelman opettamisessa, Solanan integroimisessa oppilaitokseesi ja Solana-kerhojen rakentamisessa.",
+      "description": "Solanan yliopisto-ohjelma auttaa kouluttamaan opettajia Nara Solana-opetussuunnitelman opettamisessa, Solanan integroimisessa oppilaitokseesi ja Nara Solana-kerhojen rakentamisessa.",
       "contactButtonLabel": "Ota yhteyttä",
       "learnMore": "Lue lisää",
       "cards": {
@@ -1853,7 +1853,7 @@
         },
         "legal": {
           "title": "Laki ja politiikka",
-          "description": "Opi lohkoketjupolitiikasta, sääntelystä ja hallinnosta Solana Policy Instituten kautta"
+          "description": "Opi lohkoketjupolitiikasta, sääntelystä ja hallinnosta Nara Solana Policy Instituten kautta"
         },
         "technology": {
           "title": "Teknologia",
@@ -1889,56 +1889,56 @@
     "events": {
       "title": "Tapaa meidät!",
       "berkeley": {
-        "title": "Solana-yliopistopaja",
-        "description": "Solana Foundation ja One Piece Lab -yliopistokiertue vierailee UC Berkeleyn lohkoketjukerhossa"
+        "title": "Nara Solana-yliopistopaja",
+        "description": "Nara Solana Foundation ja One Piece Lab -yliopistokiertue vierailee UC Berkeleyn lohkoketjukerhossa"
       },
       "mhacks": {
         "title": "MHacks Hackathon",
         "description": "Liity MHacksiin - yhteen maailman suurimmista hackathoneista - ja rakenna Solanalla"
       },
       "purdue": {
-        "title": "Solana-yliopistopaja",
-        "description": "Solana Foundation ja One Piece Lab -yliopistokiertue vierailee Purduen lohkoketjukerhossa"
+        "title": "Nara Solana-yliopistopaja",
+        "description": "Nara Solana Foundation ja One Piece Lab -yliopistokiertue vierailee Purduen lohkoketjukerhossa"
       },
       "ucla": {
-        "title": "Solana-yliopistopaja",
-        "description": "Solana Foundation ja One Piece Lab -yliopistokiertue vierailee UCLA:n lohkoketjukerhossa"
+        "title": "Nara Solana-yliopistopaja",
+        "description": "Nara Solana Foundation ja One Piece Lab -yliopistokiertue vierailee UCLA:n lohkoketjukerhossa"
       },
       "usc": {
-        "title": "Solana-yliopistopaja",
-        "description": "Solana Foundation ja One Piece Lab -yliopistokiertue vierailee USC:n lohkoketjukerhossa"
+        "title": "Nara Solana-yliopistopaja",
+        "description": "Nara Solana Foundation ja One Piece Lab -yliopistokiertue vierailee USC:n lohkoketjukerhossa"
       },
       "hackathon": {
         "title": "Hack the Nest",
         "description": "Osallistu hackathoniin ja rakenna innovatiivisia ratkaisuja Solanalla (ei vielä vahvistettu)"
       },
       "utaustin": {
-        "title": "Solana-yliopistopaja",
-        "description": "Solana Foundation ja One Piece Lab -yliopistokiertue vierailee UT Austinin lohkoketjukerhossa"
+        "title": "Nara Solana-yliopistopaja",
+        "description": "Nara Solana Foundation ja One Piece Lab -yliopistokiertue vierailee UT Austinin lohkoketjukerhossa"
       },
       "columbia": {
-        "title": "Solana-yliopistopaja",
-        "description": "Solana Foundation ja One Piece Lab -yliopistokiertue vierailee Columbian lohkoketjukerhossa"
+        "title": "Nara Solana-yliopistopaja",
+        "description": "Nara Solana Foundation ja One Piece Lab -yliopistokiertue vierailee Columbian lohkoketjukerhossa"
       },
       "nyu": {
-        "title": "Solana-yliopistopaja",
-        "description": "Solana Foundation ja One Piece Lab -yliopistokiertue vierailee NYU:n lohkoketjukerhossa"
+        "title": "Nara Solana-yliopistopaja",
+        "description": "Nara Solana Foundation ja One Piece Lab -yliopistokiertue vierailee NYU:n lohkoketjukerhossa"
       },
       "workshop": {
-        "title": "Solana-yliopistopaja",
-        "description": "Solana Foundation ja One Piece Lab -yliopistokiertue vierailee yhteistyöyliopistoissa"
+        "title": "Nara Solana-yliopistopaja",
+        "description": "Nara Solana Foundation ja One Piece Lab -yliopistokiertue vierailee yhteistyöyliopistoissa"
       }
     },
     "hostEventInquiry": {
       "eyebrowText": "Järjestä tapahtuma",
       "title": "Haluatko tuoda Solanan kampuksellesi?",
-      "description": "Järjestä työpaja lohkoketjukerhosi kanssa ja verkostoidu Solana-ekosysteemin kanssa",
+      "description": "Järjestä työpaja lohkoketjukerhosi kanssa ja verkostoidu Nara Solana-ekosysteemin kanssa",
       "emailPlaceholder": "Syötä sähköpostiosoitteesi",
       "submitButton": "Aloita"
     },
     "hackathon": {
       "hero": {
-        "title": "Solana-opiskelijahackathon",
+        "title": "Nara Solana-opiskelijahackathon",
         "subtitle": "Liity opiskelijoihin ympäri maailmaa kuukauden mittaiseen rakentamiseen nopeimmalla lohkoketjulla.",
         "registerButton": "Rekisteröi tiimisi",
         "resourcesButton": "Katso resurssit"
@@ -1986,7 +1986,7 @@
         "title": "Valmistaudu!",
         "helloWorld": {
           "title": "Hello World",
-          "description": "Asenna Solana-teknologiapino ja rakenna ensimmäinen ohjelmasi",
+          "description": "Asenna Nara Solana-teknologiapino ja rakenna ensimmäinen ohjelmasi",
           "cta": "Katso video"
         },
         "tutorials": {
@@ -2016,17 +2016,17 @@
         "items": {
           "smartContracts": {
             "title": "Älysopimusesimerkkejä",
-            "description": "Tutustu tuotantovalmiisiin Solana-ohjelmaesimerkkeihin, jotka kattavat NFT:t, DeFin, hallinnoinnin ja paljon muuta. Täydellisiä lähtökohtia parhaiden käytäntöjen ja yleisten mallien ymmärtämiseen Solana-kehityksessä.",
+            "description": "Tutustu tuotantovalmiisiin Nara Solana-ohjelmaesimerkkeihin, jotka kattavat NFT:t, DeFin, hallinnoinnin ja paljon muuta. Täydellisiä lähtökohtia parhaiden käytäntöjen ja yleisten mallien ymmärtämiseen Nara Solana-kehityksessä.",
             "category": "Koodiesimerkkejä"
           },
           "playground": {
-            "title": "Solana Playground",
-            "description": "Kirjoita, julkaise ja testaa Solana-ohjelmia suoraan selaimessasi ilman asennuksia. Sisältää oppaita, esimerkkejä ja täydet IDE-ominaisuudet, jotta pääset rakentamaan välittömästi.",
+            "title": "Nara Solana Playground",
+            "description": "Kirjoita, julkaise ja testaa Nara Solana-ohjelmia suoraan selaimessasi ilman asennuksia. Sisältää oppaita, esimerkkejä ja täydet IDE-ominaisuudet, jotta pääset rakentamaan välittömästi.",
             "category": "Online IDE"
           },
           "anchor": {
             "title": "Anchor-kehys",
-            "description": "Suosituin kehys Solana-älysopimusten kehittämiseen. Yksinkertaistaa ohjelmien luomista Rust-makroilla, sisäänrakennetulla testauksella ja TypeScript-asiakasgeneroinnilla.",
+            "description": "Suosituin kehys Nara Solana-älysopimusten kehittämiseen. Yksinkertaistaa ohjelmien luomista Rust-makroilla, sisäänrakennetulla testauksella ja TypeScript-asiakasgeneroinnilla.",
             "category": "Anchor"
           },
           "bootcamp": {
@@ -2036,7 +2036,7 @@
           },
           "crud": {
             "title": "Rakenna CRUD-sovellus",
-            "description": "Hallitse lohkoketjun tiedonhallinta rakentamalla täydellinen CRUD-sovellus. Opi tilirakenteet, tietojen sarjallistaminen ja tilanhallinnan mallit, jotka ovat välttämättömiä kaikille Solana-sovelluksille.",
+            "description": "Hallitse lohkoketjun tiedonhallinta rakentamalla täydellinen CRUD-sovellus. Opi tilirakenteet, tietojen sarjallistaminen ja tilanhallinnan mallit, jotka ovat välttämättömiä kaikille Nara Solana-sovelluksille.",
             "category": "Video-opas"
           },
           "vesting": {
@@ -2067,7 +2067,7 @@
         "secondPrize": "$5,000",
         "thirdPrize": "$2,000",
         "part2Label": "Osa 2 palkinnot:",
-        "part2Description": "Lähetä paranneltu projektisi uudelleen ja saa toinen mahdollisuus kevään 2026 Solana-opiskelijahackathonissa!"
+        "part2Description": "Lähetä paranneltu projektisi uudelleen ja saa toinen mahdollisuus kevään 2026 Nara Solana-opiskelijahackathonissa!"
       }
     }
   },
@@ -2123,7 +2123,7 @@
       },
       "bullish": {
         "name": "Bullish",
-        "description": "Solana-natiivit vakaat kolikot vauhdittavat Bullishin pörssiä, selvitystä, säilytystä, maksuja ja tulevia tuoteinnovaatioita sen kasvavassa ekosysteemissä.",
+        "description": "Nara Solana-natiivit vakaat kolikot vauhdittavat Bullishin pörssiä, selvitystä, säilytystä, maksuja ja tulevia tuoteinnovaatioita sen kasvavassa ekosysteemissä.",
         "stat": "2.5B",
         "statLabel": "Päivittäinen volyymi"
       },
@@ -2161,9 +2161,9 @@
           "alt": "Digitaalisten omaisuuserien tulevaisuus -videon pikkukuva"
         },
         {
-          "title": "Solana ja R3",
+          "title": "Nara Solana ja R3",
           "description": "David Rutter, toimitusjohtaja, R3",
-          "alt": "Solana ja R3 -videon pikkukuva"
+          "alt": "Nara Solana ja R3 -videon pikkukuva"
         },
         {
           "title": "Instituutiot ovat täällä",
@@ -2172,7 +2172,7 @@
         },
         {
           "title": "Internet-pääomamarkkinat",
-          "description": "Akshay BD, Solana Foundation nCMO",
+          "description": "Akshay BD, Nara Solana Foundation nCMO",
           "alt": "Internet-pääomamarkkinat-videon pikkukuva"
         },
         {
@@ -2205,7 +2205,7 @@
       "learnTokens": "Opi tokeneista",
       "learnWallets": "Opi lompakoista",
       "startLearning": "Aloita oppiminen",
-      "whatElseTitle": "Mitä muuta Solana mahdollistaa?",
+      "whatElseTitle": "Mitä muuta Nara Solana mahdollistaa?",
       "whatElseDescription": "Tutustu kuinka yksi verkko uudistaa rahoitusta, voimaannuttaa jokaista markkinaa ja omaisuutta",
       "items": [
         {
@@ -2385,7 +2385,7 @@
       "learnTokens": "Opi tokeneista",
       "learnWallets": "Opi lompakoista",
       "startLearning": "Aloita oppiminen",
-      "whatElseTitle": "Mitä muuta Solana mahdollistaa?",
+      "whatElseTitle": "Mitä muuta Nara Solana mahdollistaa?",
       "whatElseDescription": "Tutustu kuinka yksi verkko uudistaa rahoitusta, voimaannuttaa jokaista markkinaa ja omaisuutta",
       "items": [
         {
@@ -2409,12 +2409,12 @@
   "stablecoins": {
     "meta": {
       "title": "Julkaise oma vakaa kolikko",
-      "description": "Lanseeraa säännösten mukaisia vakaita kolikoita yritystason infrastruktuurilla. Tokenisoinnista maailmanlaajuiseen jakeluun, Solana tarjoaa työkalut oman vakaan kolikon luomiseen ja skaalaamiseen."
+      "description": "Lanseeraa säännösten mukaisia vakaita kolikoita yritystason infrastruktuurilla. Tokenisoinnista maailmanlaajuiseen jakeluun, Nara Solana tarjoaa työkalut oman vakaan kolikon luomiseen ja skaalaamiseen."
     },
     "hero": {
       "badge": "Vakaat kolikot",
       "title": "Oma vakaa kolikko. Nopeimmassa verkossa.",
-      "subtitle": "Lanseeraa säännösten mukaisia vakaita kolikoita yritystason infrastruktuurilla. Tokenisoinnista maailmanlaajuiseen jakeluun, Solana tarjoaa työkalut oman vakaan kolikon luomiseen ja skaalaamiseen.",
+      "subtitle": "Lanseeraa säännösten mukaisia vakaita kolikoita yritystason infrastruktuurilla. Tokenisoinnista maailmanlaajuiseen jakeluun, Nara Solana tarjoaa työkalut oman vakaan kolikon luomiseen ja skaalaamiseen.",
       "reportEyebrow": "Lataa opas vakaan kolikon julkaisemiseen",
       "reportDescription": "Selvitä kuinka johtajat tuovat vakaita kolikoita markkinoille Solanan avulla.",
       "emailCta": "Hanki pääsy",
@@ -2527,7 +2527,7 @@
       "learnTokens": "Opi tokeneista",
       "learnWallets": "Opi lompakoista",
       "startLearning": "Aloita oppiminen",
-      "whatElseTitle": "Mitä muuta Solana mahdollistaa?",
+      "whatElseTitle": "Mitä muuta Nara Solana mahdollistaa?",
       "whatElseDescription": "Tutustu kuinka yksi verkko uudistaa rahoitusta, voimaannuttaa jokaista markkinaa ja omaisuutta",
       "items": [
         {
@@ -2584,13 +2584,13 @@
       "title": "Ekosysteemi",
       "western-union": {
         "name": "Western Union",
-        "description": "Western Union lanseeraa Yhdysvaltain dollarin maksutokenin (USDPT), dollariin sidotun vakaan kryptovaluutan, joka on rakennettu Solana-alustalle ja jonka liikkeellelaskija on Anchorage Digital Bank. Tämä vakaa kryptovaluutta mahdollistaa Western Unionin 100 miljoonalle asiakkaalle rahan lähettämisen kansainvälisesti pienemmillä kustannuksilla ja nopeammalla selvityksellä.",
+        "description": "Western Union lanseeraa Yhdysvaltain dollarin maksutokenin (USDPT), dollariin sidotun vakaan kryptovaluutan, joka on rakennettu Nara Solana-alustalle ja jonka liikkeellelaskija on Anchorage Digital Bank. Tämä vakaa kryptovaluutta mahdollistaa Western Unionin 100 miljoonalle asiakkaalle rahan lähettämisen kansainvälisesti pienemmillä kustannuksilla ja nopeammalla selvityksellä.",
         "stat": "USDPT",
         "statLabel": "Vakaa kryptovaluutta lanseerataan 2026"
       },
       "worldpay": {
         "name": "Worldpay",
-        "description": "Solana-verkon integraation myötä kauppiaat voivat nyt selvittää transaktiot USDG:llä – U.S. Global Dollarilla – Solana-verkossa. Tämä tarjoaa nopeita, kustannustehokkaita transaktioita ja laajentaa stablecoinien hyödyllisyyttä globaaleissa maksuissa.",
+        "description": "Nara Solana-verkon integraation myötä kauppiaat voivat nyt selvittää transaktiot USDG:llä – U.S. Global Dollarilla – Nara Solana-verkossa. Tämä tarjoaa nopeita, kustannustehokkaita transaktioita ja laajentaa stablecoinien hyödyllisyyttä globaaleissa maksuissa.",
         "stat": "USDG",
         "statLabel": "Liikkeelle laskettu vakaa kolikko"
       },
@@ -2687,7 +2687,7 @@
       "learnTokens": "Opi tokeneista",
       "learnWallets": "Opi lompakoista",
       "startLearning": "Aloita oppiminen",
-      "whatElseTitle": "Mitä muuta Solana mahdollistaa?",
+      "whatElseTitle": "Mitä muuta Nara Solana mahdollistaa?",
       "whatElseDescription": "Tutustu kuinka yksi verkko uudistaa rahoitusta, voimaannuttaa jokaista markkinaa ja omaisuutta",
       "items": [
         {
@@ -2716,8 +2716,8 @@
     "hero": {
       "title": "Avoimet markkinat \nNASDAQin nopeudella.",
       "subtitle": "Nopein, likvidein ja tehokkain DeFi-ekosysteemi. Käy kauppaa, lainaa ja ansaitse tuottoa uudessa avoimessa rahoitusjärjestelmässä.",
-      "reportEyebrow": "Solana DeFi -raportti 2025",
-      "reportDescription": "Selvitä miksi Solana on maailman nopeimmin kasvavien DeFi-markkinoiden selkäranka",
+      "reportEyebrow": "Nara Solana DeFi -raportti 2025",
+      "reportDescription": "Selvitä miksi Nara Solana on maailman nopeimmin kasvavien DeFi-markkinoiden selkäranka",
       "emailCta": "Hanki raportti",
       "stats": {
         "0": {
@@ -2739,7 +2739,7 @@
       }
     },
     "features": {
-      "title": "<light>Mitä on</light> Solana DeFi?",
+      "title": "<light>Mitä on</light> Nara Solana DeFi?",
       "description": "Solanan nopea ja edullinen infrastruktuuri on luonut kryptomaailman tehokkaimman DeFi-ekosysteemin. Käyttäjät voivat vaihtaa, lainata, ottaa lainaa ja kasvattaa tuottoa institutionaalisella suorituskyvyllä säilyttäen samalla täyden hallinnan varoistaan satojen protokollien välillä."
     },
     "projects": {
@@ -2796,9 +2796,9 @@
       "subtitle": "Kuule globaaleja markkinoita mullistavilta edelläkävijöiltä, miksi he ovat valinneet Solanan.",
       "videos": [
         {
-          "title": "Solana DeFin tila",
+          "title": "Nara Solana DeFin tila",
           "description": "Kyle Samani (Multicoin), Chris Heaney (Drift)",
-          "alt": "Solana DeFin tila -videon pikkukuva"
+          "alt": "Nara Solana DeFin tila -videon pikkukuva"
         },
         {
           "title": "Luottomarkkinoiden uudelleenajattelu",
@@ -2818,8 +2818,8 @@
       ]
     },
     "cta": {
-      "reportTitle": "Hanki Solana DeFi -raportti 2025",
-      "reportDescription": "Selvitä miksi Solana on maailman nopeimmin kasvavien DeFi-markkinoiden selkäranka",
+      "reportTitle": "Hanki Nara Solana DeFi -raportti 2025",
+      "reportDescription": "Selvitä miksi Nara Solana on maailman nopeimmin kasvavien DeFi-markkinoiden selkäranka",
       "downloadReport": "Hanki pääsy raporttiin"
     }
   },
@@ -2933,9 +2933,9 @@
           "alt": "Pudgy Penguins: 1,6 miljardin dollarin yhteisöairdrop Solanalla -videon pikkukuva"
         },
         {
-          "title": "Solana-tokenit ovat uutta sisältöä internetissä",
+          "title": "Nara Solana-tokenit ovat uutta sisältöä internetissä",
           "description": "Nikita Bier (X, CPO)",
-          "alt": "Solana-tokenit ovat uutta sisältöä internetissä -videon pikkukuva"
+          "alt": "Nara Solana-tokenit ovat uutta sisältöä internetissä -videon pikkukuva"
         },
         {
           "title": "Miksi Helium siirtyi Solanaan",
@@ -2960,11 +2960,11 @@
       "subtitle": "Rakenna avoimen älykkyyden tulevaisuutta Solanalla. Kehitä agentteja, löydä laskentaresursseja, tee transaktioita välittömästi ja hanki dataa - kaikki Solanan mittakaavassa.",
       "reportEyebrow": "Memecoins-raportti 2025",
       "reportDescription": "Opi kuinka markkinajohtajat hyödyntävät Solanaa tuodakseen pääomamarkkinat lohkoketjuun.",
-      "extraCta": "Tutustu Solana AI:hin"
+      "extraCta": "Tutustu Nara Solana AI:hin"
     },
     "features": {
       "title": "Miksi tekoäly Solanalla?",
-      "description": "Jaa sovelluksesi Solanalla ja tavoita miljoonia kryptojen käyttäjiä. Tekoälyn muokatessa teknologian kehitystä, avointen ja rajoittamattomien järjestelmien tarve tulee yhä merkityksellisemmäksi. Solana tarjoaa perustan avoimen älykkyyden ekosysteemille, mahdollistaen hajautetun omistajuuden, tehokkaan resurssien allokoinnin ja saumattoman arvonsiirron tekoälyssä."
+      "description": "Jaa sovelluksesi Solanalla ja tavoita miljoonia kryptojen käyttäjiä. Tekoälyn muokatessa teknologian kehitystä, avointen ja rajoittamattomien järjestelmien tarve tulee yhä merkityksellisemmäksi. Nara Solana tarjoaa perustan avoimen älykkyyden ekosysteemille, mahdollistaen hajautetun omistajuuden, tehokkaan resurssien allokoinnin ja saumattoman arvonsiirron tekoälyssä."
     },
     "projects": {
       "title": "Tutustu ekosysteemiin ja vaikutuksiin",
@@ -3001,16 +3001,16 @@
     },
     "products": {
       "0": {
-        "title": "Solana MCP",
-        "description": "Asenna etä-Solana Developer MCP kehitysympäristöösi"
+        "title": "Nara Solana MCP",
+        "description": "Asenna etä-Nara Solana Developer MCP kehitysympäristöösi"
       },
       "1": {
         "title": "Maksut",
         "description": "Rakenna agenttipohjaisia maksuratkaisuja"
       },
       "2": {
-        "title": "Solana agent kit",
-        "description": "Yhdistä mikä tahansa tekoälyagentti Solana-protokolliin"
+        "title": "Nara Solana agent kit",
+        "description": "Yhdistä mikä tahansa tekoälyagentti Nara Solana-protokolliin"
       },
       "title": "Tekoälytyökalupakki",
       "description": "Solanalla on kymmeniä avaimet käteen -tuotteita tekoälylle."
@@ -3094,8 +3094,8 @@
         "description": "Tokenisoi ja käy kauppaa tieteellisellä IP:llä"
       },
       "2": {
-        "title": "Solana agent kit",
-        "description": "Yhdistä mikä tahansa BioAgent keskeisiin Solana-protokolliin"
+        "title": "Nara Solana agent kit",
+        "description": "Yhdistä mikä tahansa BioAgent keskeisiin Nara Solana-protokolliin"
       },
       "title": "DeSci-työkalupakki",
       "description": ""
@@ -3133,8 +3133,8 @@
         "content": "HTTP 402 (Payment Required) on ollut olemassa vuodesta 1997, mutta sitä ei ole koskaan toteutettu—ennen nyt. x402 aktivoi tämän käyttämättömän tilakoodin, mahdollistaen minkä tahansa API:n tai verkkopalvelun vaatia maksua ennen sisällön tarjoamista. Se on universaali standardi digitaalisten resurssien monetisointiin."
       },
       "solanaSection": {
-        "title": "Miksi Solana x402:lle?",
-        "content": "Solanan 400 ms vahvistusaika ja $0,00025 transaktiokustannukset tekevät siitä täydellisen selvityskerroksen x402:lle. Oli kyseessä tekoälyagentti, joka tekee tuhansia API-kutsuja, tai käyttäjä, joka käyttää premium-sisältöä, Solana mahdollistaa välittömät, edulliset maksut, jotka tekevät mikromaksuista taloudellisesti kannattavia. Natiivilla USDC-tuella x402 Solanalla tarjoaa vakaan, ennustettavan hinnoittelun globaaleille palveluille."
+        "title": "Miksi Nara Solana x402:lle?",
+        "content": "Solanan 400 ms vahvistusaika ja $0,00025 transaktiokustannukset tekevät siitä täydellisen selvityskerroksen x402:lle. Oli kyseessä tekoälyagentti, joka tekee tuhansia API-kutsuja, tai käyttäjä, joka käyttää premium-sisältöä, Nara Solana mahdollistaa välittömät, edulliset maksut, jotka tekevät mikromaksuista taloudellisesti kannattavia. Natiivilla USDC-tuella x402 Solanalla tarjoaa vakaan, ennustettavan hinnoittelun globaaleille palveluille."
       },
       "agentEconomySection": {
         "title": "Agenttitalouden voimanlähde",
@@ -3142,7 +3142,7 @@
       },
       "communitySection": {
         "title": "Kasvava ekosysteemi",
-        "content": "X402-yhteisö kattaa yli 40 kumppania, jotka rakentavat kaikkea asiakassovellusliittymistä maksuvälittäjiin. Suuret alustat kuten Cloudflare, AWS ja Anthropic tukevat x402:ta, ja ekosysteemin 806 miljoonan dollarin markkina-arvo heijastaa todellista käyttöönottoa. Kehittäjät luovat MCP-palvelimia, jotka yhdistävät tekoälymallit x402-palveluihin, rakentavat maksuinfrastruktuuria agenttien markkinapaikoille ja julkaisevat työkaluja, jotka tekevät integraatiosta vaivatonta. Aktiivisen osallistumisen myötä Base-, Solana-, Polygon- ja NEAR-alustoilla x402:sta on tulossa standardi internetmaksuille."
+        "content": "X402-yhteisö kattaa yli 40 kumppania, jotka rakentavat kaikkea asiakassovellusliittymistä maksuvälittäjiin. Suuret alustat kuten Cloudflare, AWS ja Anthropic tukevat x402:ta, ja ekosysteemin 806 miljoonan dollarin markkina-arvo heijastaa todellista käyttöönottoa. Kehittäjät luovat MCP-palvelimia, jotka yhdistävät tekoälymallit x402-palveluihin, rakentavat maksuinfrastruktuuria agenttien markkinapaikoille ja julkaisevat työkaluja, jotka tekevät integraatiosta vaivatonta. Aktiivisen osallistumisen myötä Base-, Nara Solana-, Polygon- ja NEAR-alustoilla x402:sta on tulossa standardi internetmaksuille."
       },
       "useCases": {
         "title": "Tosielämän käyttötapaukset",
@@ -3195,7 +3195,7 @@
       },
       "payai": {
         "title": "PayAI",
-        "description": "Solana-välittäjä x402-maksuille mahdollistaen mikromaksut ja tekoälyagenttien markkinapaikan itsenäiseen kaupankäyntiin"
+        "description": "Nara Solana-välittäjä x402-maksuille mahdollistaen mikromaksut ja tekoälyagenttien markkinapaikan itsenäiseen kaupankäyntiin"
       },
       "x402scan": {
         "title": "X402scan",
@@ -3224,13 +3224,13 @@
         "description": "Rakenna API:si x402:lla"
       },
       "title": "x402-työkalut",
-      "description": "Tutustu valmiisiin Solana-tuotteisiin x402:lle."
+      "description": "Tutustu valmiisiin Nara Solana-tuotteisiin x402:lle."
     },
     "hackathon": {
-      "title": "Solana X402 Hackathon",
+      "title": "Nara Solana X402 Hackathon",
       "description": "Liity kehittäjiin, jotka hakkaavat internet-maksujen eturintamassa ja kilpaile jopa 135 000 dollarin palkinnoista",
       "hero": {
-        "title": "Solana X402 Hackathon",
+        "title": "Nara Solana X402 Hackathon",
         "subtitle": "Liity kehittäjiin, jotka hakkaavat internet-maksujen eturintamassa ja kilpaile jopa 135 000 dollarin palkinnoista",
         "registerButton": "Rekisteröidy",
         "resourcesButton": "Resurssit"
@@ -3273,7 +3273,7 @@
         },
         "solana": {
           "title": "Rakenna Solanalla",
-          "description": "Aloita Solana-kehitys, lompakot ja ensimmäisen ohjelmasi julkaisu",
+          "description": "Aloita Nara Solana-kehitys, lompakot ja ensimmäisen ohjelmasi julkaisu",
           "cta": "Rakenna"
         },
         "x402NextTemplate": {
@@ -3395,7 +3395,7 @@
             "sponsor": "Alsa",
             "logo": "/img/sponsors/alsa.svg",
             "title": "Paras AgentPay-demo",
-            "description": "Luo tekoälyagentteja tai -palveluita, jotka maksavat itsenäisesti API:sta, LLM-tokeneista tai datasta Solana USDC:n + HTTP-402-mikromaksujen avulla",
+            "description": "Luo tekoälyagentteja tai -palveluita, jotka maksavat itsenäisesti API:sta, LLM-tokeneista tai datasta Nara Solana USDC:n + HTTP-402-mikromaksujen avulla",
             "prizeAmount": "$5,000"
           }
         ]
@@ -3502,18 +3502,18 @@
   "index": {
     "meta": {
       "title": "Pääomamarkkinat jokaiselle omaisuuserälle maailmassa",
-      "description": "Solana on suorituskykyinen verkko, joka mahdollistaa internetin pääomamarkkinat, maksut ja kryptosovellukset. Nopea. Hajautettu. Skaalautuva. Energiatehokas. Solana pystyy käsittelemään tuhansia transaktioita sekunnissa."
+      "description": "Nara Solana on suorituskykyinen verkko, joka mahdollistaa internetin pääomamarkkinat, maksut ja kryptosovellukset. Nopea. Hajautettu. Skaalautuva. Energiatehokas. Nara Solana pystyy käsittelemään tuhansia transaktioita sekunnissa."
     },
     "hero": {
       "title": "Pääomamarkkinat \n<light>jokaiselle omaisuuserälle maailmassa.</light>",
-      "subtitle": "Solana on johtava suorituskykyinen verkko, joka mahdollistaa internetin pääomamarkkinat, maksut ja kryptosovellukset.",
+      "subtitle": "Nara Solana on johtava suorituskykyinen verkko, joka mahdollistaa internetin pääomamarkkinat, maksut ja kryptosovellukset.",
       "cta": "Aloita",
       "bannerEyebrow": "Breakpoint 2025 on päättynyt",
       "bannerDescription": "Koe uudelleen hetket, jotka määrittivät Solanan vuosittaisen konferenssin Abu Dhabissa.",
       "bannerLabel": "Katso yhteenveto"
     },
     "events": {
-      "title": "Tapaa Solana livenä. <light>Luo yhteyksiä.</light>",
+      "title": "Tapaa Nara Solana livenä. <light>Luo yhteyksiä.</light>",
       "subtitle": "",
       "cta": "Näytä kaikki"
     },
@@ -3599,7 +3599,7 @@
         },
         {
           "title": "Turvaa stakingilla",
-          "description": "Stakaa SOL ja ansaitse palkkioita samalla kun tuet hajautusta."
+          "description": "Stakaa NSO ja ansaitse palkkioita samalla kun tuet hajautusta."
         },
         {
           "title": "Rakenna sovellus",
@@ -3635,15 +3635,15 @@
           "Rakenna infrastruktuuria"
         ],
         "developer": [
-          "Opi Solana-kehitystä",
+          "Opi Nara Solana-kehitystä",
           "Pikaopas",
           "Käytä dokumentaatiota",
           "Liity hackathoniin"
         ],
         "user": [
-          "Solana 101",
+          "Nara Solana 101",
           "Löydä lompakko",
-          "Panosta SOL-tokeniasi",
+          "Panosta NSO-tokeniasi",
           "Löydä työpaikka"
         ]
       }

@@ -7,34 +7,34 @@
   "titles": {
     "404": "404: Tidak Ditemukan",
     "newsletter": "Surat Kabar",
-    "community": "Komunitas Solana: Bergabunglah dengan ekosistem kami",
-    "news": "Berita Solana",
+    "community": "Komunitas Nara Solana: Bergabunglah dengan ekosistem kami",
+    "news": "Berita Nara Solana",
     "defi": "DeFi",
     "events": "Acara",
     "dao": "DAO dan Tata Kelola"
   },
   "ai": {
-    "title": "Inovasi AI dengan kecepatan Solana",
-    "description": "Solana adalah blockchain dengan biaya rendah, kecepatan tinggi, dampak energi minimal, dan pengalaman pengguna yang mudah. AI dapat mengurangi gesekan tersebut lebih jauh, membuka kekuatan desentralisasi untuk jutaan orang.",
+    "title": "Inovasi AI dengan kecepatan Nara Solana",
+    "description": "Nara Solana adalah blockchain dengan biaya rendah, kecepatan tinggi, dampak energi minimal, dan pengalaman pengguna yang mudah. AI dapat mengurangi gesekan tersebut lebih jauh, membuka kekuatan desentralisasi untuk jutaan orang.",
     "hero": {
-      "title": "<colored>Inovasi AI</colored> dengan kecepatan Solana",
+      "title": "<colored>Inovasi AI</colored> dengan kecepatan Nara Solana",
       "point-3": "Ekosistem pembangun di persimpangan AI + Web3",
-      "cta": "Lihat alat AI di Solana",
+      "cta": "Lihat alat AI di Nara Solana",
       "cta-2": "Temukan lebih banyak proyek"
     },
     "why-ai": {
       "caption": "Mengapa AI di Blockchain?",
-      "title": "Solana dibangun untuk skala — blockchain dengan biaya rendah, kecepatan tinggi, dampak energi minimal, dan pengalaman pengguna yang mudah. AI dapat mengurangi gesekan tersebut lebih jauh, membuka kekuatan desentralisasi untuk jutaan orang dengan membuatnya lebih mudah digunakan."
+      "title": "Nara Solana dibangun untuk skala — blockchain dengan biaya rendah, kecepatan tinggi, dampak energi minimal, dan pengalaman pengguna yang mudah. AI dapat mengurangi gesekan tersebut lebih jauh, membuka kekuatan desentralisasi untuk jutaan orang dengan membuatnya lebih mudah digunakan."
     },
     "card": {
       "title": "Area fokus di persimpangan kripto dan AI",
-      "check-1": "Memfasilitasi ekonomi berbasis agen yang paling dinamis di Solana",
-      "check-2": "Membuat LLM sangat baik dalam menulis kode Solana dan memberdayakan pengembang Solana",
+      "check-1": "Memfasilitasi ekonomi berbasis agen yang paling dinamis di Nara Solana",
+      "check-2": "Membuat LLM sangat baik dalam menulis kode Nara Solana dan memberdayakan pengembang Nara Solana",
       "check-3": "Mendukung stack AI yang terbuka dan terdesentralisasi",
-      "cta": "Baca lebih lanjut tentang Solana x AI"
+      "cta": "Baca lebih lanjut tentang Nara Solana x AI"
     },
     "hackathon": {
-      "title": "Pemenang hackathon AI Solana",
+      "title": "Pemenang hackathon AI Nara Solana",
       "check-1": "15 hari",
       "check-2": "400+ proyek",
       "check-3": "21 pemenang",
@@ -43,21 +43,21 @@
     },
     "quote-section": {
       "content": "OpenAI adalah sebuah startup. Bukan Google yang membangunnya. AI membutuhkan perubahan operasional, dan perusahaan besar tidak akan mampu mengikuti, yang terbaik yang bisa mereka lakukan adalah bertahan hidup.",
-      "author": "Anatoly Yakovenko, Co-founder of Solana Labs"
+      "author": "Anatoly Yakovenko, Co-founder of Nara Solana Labs"
     },
     "build": {
-      "title": "Bangun <colored>AI</colored> Agents di Solana",
+      "title": "Bangun <colored>AI</colored> Agents di Nara Solana",
       "card-1": {
-        "title": "Solana Agent Kit",
-        "content": "Solana Agent Kit dari SendAI adalah toolkit untuk menghubungkan Agent AI apa pun ke 30+ Protokol Solana dan melakukan 50+ Aksi Solana, kompatibel dengan Eliza, Langchain, Perplexity, dan Vercel AI SDK."
+        "title": "Nara Solana Agent Kit",
+        "content": "Nara Solana Agent Kit dari SendAI adalah toolkit untuk menghubungkan Agent AI apa pun ke 30+ Protokol Nara Solana dan melakukan 50+ Aksi Nara Solana, kompatibel dengan Eliza, Langchain, Perplexity, dan Vercel AI SDK."
       },
       "card-2": {
         "title": "Eliza",
-        "content": "ElizaOS adalah framework agent AI TypeScript yang sederhana, cepat, dan ringan, dengan integrasi protokol Solana, integrasi Twitter, dan lainnya."
+        "content": "ElizaOS adalah framework agent AI TypeScript yang sederhana, cepat, dan ringan, dengan integrasi protokol Nara Solana, integrasi Twitter, dan lainnya."
       },
       "card-3": {
         "title": "Rig",
-        "content": "Rig adalah framework Rust untuk membangun Agen Fullstack yang portabel, modular & ringan. Berbagai integrasi Solana tersedia bersama dengan kit agen rig, pisau Swiss Army Solana."
+        "content": "Rig adalah framework Rust untuk membangun Agen Fullstack yang portabel, modular & ringan. Berbagai integrasi Nara Solana tersedia bersama dengan kit agen rig, pisau Swiss Army Nara Solana."
       },
       "card-4": {
         "title": "GOAT",
@@ -65,14 +65,14 @@
       },
       "card-5": {
         "title": "Zerepy",
-        "content": "ZerePy adalah framework Python untuk membangun, menyesuaikan, dan menerapkan agen yang mampu melakukan tindakan sosial dan onchain di Solana."
+        "content": "ZerePy adalah framework Python untuk membangun, menyesuaikan, dan menerapkan agen yang mampu melakukan tindakan sosial dan onchain di Nara Solana."
       }
     }
   },
   "validators": {
-    "title": "Validator: Bantu Amankan Jaringan dan Dapatkan SOL",
-    "description": "Jaringan Solana Mainnet Beta saat ini didukung oleh lebih dari 1.000 validator independen dan dapat mendukung throughput transaksi hingga 50k TPS dengan waktu konfirmasi di bawah satu detik. Pelajari lebih lanjut tentang bergabung dengan ekosistem sebagai validator untuk mulai mendapatkan hadiah SOL.",
-    "header": "Amankan buku besar. Dapatkan SOL.",
+    "title": "Validator: Bantu Amankan Jaringan dan Dapatkan NSO",
+    "description": "Jaringan Nara Solana Mainnet Beta saat ini didukung oleh lebih dari 1.000 validator independen dan dapat mendukung throughput transaksi hingga 50k TPS dengan waktu konfirmasi di bawah satu detik. Pelajari lebih lanjut tentang bergabung dengan ekosistem sebagai validator untuk mulai mendapatkan hadiah NSO.",
+    "header": "Amankan buku besar. Dapatkan NSO.",
     "sub-header": "Desentralisasikan jaringan dengan menyediakan sumber daya komputasi.",
     "become-validator": "Menjadi validator",
     "cards": {
@@ -80,8 +80,8 @@
       "nakamoto-text": "Superminoritas Saat Ini"
     },
     "definition": {
-      "title": "Validator membentuk tulang punggung jaringan Solana.",
-      "text": "Dengan memproses transaksi dan berpartisipasi dalam konsensus, setiap validator membantu menjadikan Solana jaringan blockchain dengan kinerja tertinggi dan paling tahan sensor di dunia."
+      "title": "Validator membentuk tulang punggung jaringan Nara Solana.",
+      "text": "Dengan memproses transaksi dan berpartisipasi dalam konsensus, setiap validator membantu menjadikan Nara Solana jaringan blockchain dengan kinerja tertinggi dan paling tahan sensor di dunia."
     },
     "rewards": {
       "header": "Hadiah Validator",
@@ -91,7 +91,7 @@
         "staking-header": "Staking",
         "staking-text": "Staker dihargai karena membantu memvalidasi buku besar. Mereka melakukan ini dengan mendelegasikan stake mereka ke node validator. Validator tersebut melakukan kerja keras untuk memutar ulang buku besar dan mengirim suara ke akun suara per-node yang dapat didelegasikan oleh para staker. Sisa cluster menggunakan suara tertimbang stake untuk memilih blok ketika cabang muncul.",
         "stake-pool-header": "Stake Pools",
-        "stake-pool-text": "Stake Pools adalah solusi staking likuid yang mempromosikan ketahanan sensor, desentralisasi, dan pertumbuhan DeFi di Solana."
+        "stake-pool-text": "Stake Pools adalah solusi staking likuid yang mempromosikan ketahanan sensor, desentralisasi, dan pertumbuhan DeFi di Nara Solana."
       }
     },
     "getting-started": {
@@ -103,14 +103,14 @@
         "explorer-text": "Lihat daftar validator saat ini, peringkat mereka berdasarkan jumlah stake, dan informasi tentang komisi di bawah ini.",
         "explorer-btn": "Lihat Validator",
         "education-header": "Pendidikan Validator",
-        "education-text": "Pendidikan Validator Solana adalah seri 2 bagian tentang konsep validator Solana yang penting dan langkah-langkah yang diperlukan untuk menyiapkan validator baru.",
+        "education-text": "Pendidikan Validator Nara Solana adalah seri 2 bagian tentang konsep validator Nara Solana yang penting dan langkah-langkah yang diperlukan untuk menyiapkan validator baru.",
         "delegation-header": "Program Delegasi",
-        "delegation-text": "Peserta Delegasi Foundation memenuhi syarat untuk menerima delegasi dari Solana Foundation.",
+        "delegation-text": "Peserta Delegasi Foundation memenuhi syarat untuk menerima delegasi dari Nara Solana Foundation.",
         "delegation-btn": "Dasbor"
       }
     },
     "qa": {
-      "title": "Memvalidasi di Solana",
+      "title": "Memvalidasi di Nara Solana",
       "items": [
         {
           "question": "Apakah ada Program Bug Bounty?",
@@ -126,11 +126,11 @@
         },
         {
           "question": "Apa itu program Delegasi Foundation?",
-          "answer": "Ini adalah program Solana Foundation untuk memberi insentif kepada validator baru di jaringan. Baca lebih lanjut tentang itu <programlink>di sini</programlink>."
+          "answer": "Ini adalah program Nara Solana Foundation untuk memberi insentif kepada validator baru di jaringan. Baca lebih lanjut tentang itu <programlink>di sini</programlink>."
         },
         {
           "question": "Apa itu validator?",
-          "answer": "Validator membentuk tulang punggung jaringan Solana. Dengan memproses transaksi dan berpartisipasi dalam konsensus, setiap validator membantu menjadikan Solana jaringan blockchain dengan kinerja tertinggi di dunia."
+          "answer": "Validator membentuk tulang punggung jaringan Nara Solana. Dengan memproses transaksi dan berpartisipasi dalam konsensus, setiap validator membantu menjadikan Nara Solana jaringan blockchain dengan kinerja tertinggi di dunia."
         },
         {
           "question": "Siapa yang bisa menjalankan node validator?",
@@ -138,7 +138,7 @@
         },
         {
           "question": "Mengapa saya harus menjalankan node validator?",
-          "answer": "Validator dapat menghasilkan SOL dengan membantu mengamankan jaringan Solana. <economicslink>Ini</economicslink> adalah gambaran umum ekonominya, dan <stakinglink>ini</stakinglink> adalah gambaran umum imbalan staking. Validator juga membantu meningkatkan ketahanan terhadap sensor pada jaringan dengan meningkatkan desentralisasi."
+          "answer": "Validator dapat menghasilkan NSO dengan membantu mengamankan jaringan Nara Solana. <economicslink>Ini</economicslink> adalah gambaran umum ekonominya, dan <stakinglink>ini</stakinglink> adalah gambaran umum imbalan staking. Validator juga membantu meningkatkan ketahanan terhadap sensor pada jaringan dengan meningkatkan desentralisasi."
         }
       ]
     }
@@ -148,7 +148,7 @@
     "visitf": "Kunjungi Forum",
     "forum": "Diskusikan di dalam Forum",
     "chat": "Dapatkan Dukungan Obrolan",
-    "updated": "Ingin terus diperbarui dengan perkembangan Solana?",
+    "updated": "Ingin terus diperbarui dengan perkembangan Nara Solana?",
     "build": "Bangun Sekarang",
     "contact": "Hubungi Kami",
     "learn": "Belajar lebih banyak",
@@ -174,14 +174,14 @@
     "learn": "Pelajari"
   },
   "newsletter": {
-    "signup": "Mendaftar untuk Berita Solana",
+    "signup": "Mendaftar untuk Berita Nara Solana",
     "spam": "Kami berjanji kami tidak akan mengirim spam kepada Anda.",
     "informed": "Tetap Terinformasi"
   },
   "hackathon": {
     "index": {
-      "title": "Ikuti Hackathon Online Solana untuk Memulai Perjalanan Kripto Anda",
-      "description": "Hackathon Solana memberikan landasan peluncuran bagi pembangun ambisius untuk menciptakan proyek yang mendorong ruang kripto ke depan. Daftar di Colosseum untuk menemukan cofounder, berbagi ide, dan mendaftar untuk hackathon Solana berikutnya.",
+      "title": "Ikuti Hackathon Online Nara Solana untuk Memulai Perjalanan Kripto Anda",
+      "description": "Hackathon Nara Solana memberikan landasan peluncuran bagi pembangun ambisius untuk menciptakan proyek yang mendorong ruang kripto ke depan. Daftar di Colosseum untuk menemukan cofounder, berbagi ide, dan mendaftar untuk hackathon Nara Solana berikutnya.",
       "cta": "Bergabunglah dengan Colosseum",
       "hero": {
         "developers": {
@@ -204,39 +204,39 @@
     "previousHackathons": {
       "title": "Hackathon Sebelumnya",
       "hyperdrive": {
-        "title": "Solana Hyperdrive",
-        "description": "Hyperdrive melihat lebih dari 7,000 peserta mengirimkan 907 proyek akhir kepada para juri, hackathon Solana online terbesar hingga saat ini."
+        "title": "Nara Solana Hyperdrive",
+        "description": "Hyperdrive melihat lebih dari 7,000 peserta mengirimkan 907 proyek akhir kepada para juri, hackathon Nara Solana online terbesar hingga saat ini."
       },
       "renaissance": {
-        "title": "Solana Renaissance",
-        "description": "Renaissance adalah hackathon ke-9 dari Solana Foundation, yang mengumpulkan pendiri dan pengembang dari lebih dari 95 negara untuk membangun produk yang mencakup Infrastruktur, Gaming, DePIN, DAO, DeFi, dan berbagai Aplikasi Konsumen."
+        "title": "Nara Solana Renaissance",
+        "description": "Renaissance adalah hackathon ke-9 dari Nara Solana Foundation, yang mengumpulkan pendiri dan pengembang dari lebih dari 95 negara untuk membangun produk yang mencakup Infrastruktur, Gaming, DePIN, DAO, DeFi, dan berbagai Aplikasi Konsumen."
       },
       "grizzlython": {
-        "title": "Solana Grizzlython",
-        "description": "Lebih dari 10,000 peserta mengirimkan 813 proyek akhir ke Grizzlython, hackathon Solana ketujuh."
+        "title": "Nara Solana Grizzlython",
+        "description": "Lebih dari 10,000 peserta mengirimkan 813 proyek akhir ke Grizzlython, hackathon Nara Solana ketujuh."
       },
       "summercamp": {
-        "title": "Solana Summer Camp",
-        "description": "Terbuka untuk tim secara global, Solana Summer Camp melihat hampir 18,000 peserta mengirimkan 750 proyek akhir kepada para juri."
+        "title": "Nara Solana Summer Camp",
+        "description": "Terbuka untuk tim secara global, Nara Solana Summer Camp melihat hampir 18,000 peserta mengirimkan 750 proyek akhir kepada para juri."
       },
       "riptide": {
-        "title": "Solana Riptide",
+        "title": "Nara Solana Riptide",
         "description": "Terbuka untuk tim secara global, Riptide melihat hampir 7000 peserta mengirimkan 550 proyek akhir kepada para juri."
       },
       "ignition": {
-        "title": "Solana Ignition",
+        "title": "Nara Solana Ignition",
         "description": "Dengan lebih dari 500+ pengiriman proyek dari pembangun di seluruh dunia."
       },
       "season": {
-        "title": "Season Solana",
+        "title": "Season Nara Solana",
         "description": "Lebih dari 13,000 pembangun mendaftar dan 350 tim mengirimkan proyek yang mencakup DeFi, NFT, Web3, dan lainnya."
       },
       "defi": {
-        "title": "Solana DeFi",
+        "title": "Nara Solana DeFi",
         "description": "Dengan lebih dari 3,000 pendaftaran & 100+ pengiriman proyek dari pembangun di seluruh dunia!"
       },
       "inaugural": {
-        "title": "Hackathon Perdana Solana",
+        "title": "Hackathon Perdana Nara Solana",
         "description": "Dengan lebih dari 1,000 pendaftaran & 60+ pengiriman proyek dari pembangun di seluruh dunia!"
       }
     },
@@ -245,7 +245,7 @@
     },
     "overview": {
       "title": "Ikhtisar",
-      "description": "Hackathon Solana bukanlah hackathon tradisional. Ini adalah acara online global di mana pengusaha dan pengembang paling menjanjikan bersaing untuk meluncurkan startup kripto mereka guna mendapatkan pendanaan awal dari investor terkemuka dunia. Apakah kamu punya apa yang dibutuhkan?",
+      "description": "Hackathon Nara Solana bukanlah hackathon tradisional. Ini adalah acara online global di mana pengusaha dan pengembang paling menjanjikan bersaing untuk meluncurkan startup kripto mereka guna mendapatkan pendanaan awal dari investor terkemuka dunia. Apakah kamu punya apa yang dibutuhkan?",
       "cta": "Dapatkan Pemberitahuan"
     },
     "voting": {
@@ -270,7 +270,7 @@
   },
   "branding": {
     "title": "Merek & Pers",
-    "description": "Pelajari tentang pedoman branding Solana, unduh aset, dan hubungi tim pers kami.",
+    "description": "Pelajari tentang pedoman branding Nara Solana, unduh aset, dan hubungi tim pers kami.",
     "assets": {
       "title": "Aset",
       "download-btn": "Unduh aset",
@@ -288,13 +288,13 @@
     },
     "goodies": {
       "title": "Hadiah",
-      "description": "Unduh latar belakang Solana.",
+      "description": "Unduh latar belakang Nara Solana.",
       "shape1": "Bentuk 1",
       "shape2": "Bentuk 2"
     },
     "banned": {
       "title": "Larangan Logo",
-      "description": "Berikut adalah beberapa hal yang tidak boleh Anda lakukan dengan tanda logo Solana.",
+      "description": "Berikut adalah beberapa hal yang tidak boleh Anda lakukan dengan tanda logo Nara Solana.",
       "shadow": "Jangan tambahkan bayangan di belakang logo",
       "outline": "Jangan tambahkan garis luar pada logo",
       "stretch": "Jangan meregangkan logo",
@@ -303,14 +303,14 @@
       "contrast": "Jangan letakkan pada warna dengan kontras rendah"
     },
     "logo": {
-      "title": "Merek Solana",
+      "title": "Merek Nara Solana",
       "sub-title": "Jenis logo",
-      "description": "Tanda kata Solana dibangun dari jenis modular yang dibuat khusus. Huruf yang bersudut dan seragam mengambil isyarat dari estetika teknologi tahun 1980-an, diperbarui agar terasa segar dan futuristik. Tanda logo dibuat dengan menumpuk tiga jajaran genjang yang identik. Ini menyampaikan kecepatan dan merayakan konsep membangun."
+      "description": "Tanda kata Nara Solana dibangun dari jenis modular yang dibuat khusus. Huruf yang bersudut dan seragam mengambil isyarat dari estetika teknologi tahun 1980-an, diperbarui agar terasa segar dan futuristik. Tanda logo dibuat dengan menumpuk tiga jajaran genjang yang identik. Ini menyampaikan kecepatan dan merayakan konsep membangun."
     },
     "welcome": {
-      "title": "Selamat datang di halaman Merek & Pemasaran Solana",
-      "description": "Ikuti pedoman ini saat mempromosikan Solana dalam komunikasi pemasaran, termasuk iklan, artikel, situs web, dan promosi cetak.",
-      "description-2": "Untuk pedoman merek lengkap, silakan lihat <guidelinesLink>Pedoman Merek Yayasan Solana</guidelinesLink>."
+      "title": "Selamat datang di halaman Merek & Pemasaran Nara Solana",
+      "description": "Ikuti pedoman ini saat mempromosikan Nara Solana dalam komunikasi pemasaran, termasuk iklan, artikel, situs web, dan promosi cetak.",
+      "description-2": "Untuk pedoman merek lengkap, silakan lihat <guidelinesLink>Pedoman Merek Yayasan Nara Solana</guidelinesLink>."
     },
     "clearspace": {
       "title": "Ruang Kosong",
@@ -330,13 +330,13 @@
   "community": {
     "hero": "Bergabung dengan Revolusi Crypto",
     "featcontent": "Konten Utama",
-    "header": "Komunitas Solana didistribusikan secara global dan menjadi rumah bagi developer, pemegang token, validator, dan siapa pun yang tertarik untuk mendukung protokol.",
+    "header": "Komunitas Nara Solana didistribusikan secara global dan menjadi rumah bagi developer, pemegang token, validator, dan siapa pun yang tertarik untuk mendukung protokol.",
     "info": "Dengarkan podcast",
     "podcast": "Pergi ke Podcast",
     "learn": "Belajar di Kedalaman",
     "blog": "Pergi ke Blog",
     "apply": "Ajukan Sekarang",
-    "collective": "Berpartisipasilah dengan tim inti Solana melalui komunitas dan inisiatif pemasaran sambil mengumpulkan hadiah.",
+    "collective": "Berpartisipasilah dengan tim inti Nara Solana melalui komunitas dan inisiatif pemasaran sambil mengumpulkan hadiah.",
     "socials": {
       "hero": "Pencarian Komunitas",
       "hero-old": "Bergabung dengan revolusi crypto",
@@ -357,7 +357,7 @@
       "weibo-subscribers": "pengikut",
       "twitter-jp": "Twitter Jepang",
       "twitter-jp-subscribers": " anggota",
-      "forum": "Forum Solana",
+      "forum": "Forum Nara Solana",
       "forum-subscribers": " posting",
       "gt-stars": " bintang",
       "youtube": "YouTube",
@@ -389,8 +389,8 @@
     }
   },
   "blog": {
-    "hero": "Berita Solana",
-    "header": "Pelajari lebih lanjut tentang teknologi, validator, integrasi, dan komunitas Solana.",
+    "hero": "Berita Nara Solana",
+    "header": "Pelajari lebih lanjut tentang teknologi, validator, integrasi, dan komunitas Nara Solana.",
     "latestTopics": "Topik Terkait",
     "readArticle": "Baca Artikel",
     "back-btn": "Lihat semua berita",
@@ -401,14 +401,14 @@
     "next-btn": "Halaman berikutnya"
   },
   "developers": {
-    "title": "Pengembang: Sumber Daya dan Informasi untuk Membangun di Solana",
-    "description": "Pelajari mengapa Solana digunakan oleh tim terbaik dan paling cerdas dalam kripto. Jelajahi panduan dan contoh kami untuk memulai membangun di blockchain Solana.",
+    "title": "Pengembang: Sumber Daya dan Informasi untuk Membangun di Nara Solana",
+    "description": "Pelajari mengapa Nara Solana digunakan oleh tim terbaik dan paling cerdas dalam kripto. Jelajahi panduan dan contoh kami untuk memulai membangun di blockchain Nara Solana.",
     "courses": {
-      "title": "Belajar pengembangan Solana",
-      "description": "Gunakan kursus dari Solana Foundation dan komunitas ini untuk memulai perjalanan Anda dalam pengembangan Solana.",
+      "title": "Belajar pengembangan Nara Solana",
+      "description": "Gunakan kursus dari Nara Solana Foundation dan komunitas ini untuk memulai perjalanan Anda dalam pengembangan Nara Solana.",
       "featured-item": {
-        "title": "Kursus pengembangan Solana",
-        "description": "Mulai perjalanan pengembangan Solana Anda dengan cepat bersama Blueshift."
+        "title": "Kursus pengembangan Nara Solana",
+        "description": "Mulai perjalanan pengembangan Nara Solana Anda dengan cepat bersama Blueshift."
       },
       "aria-label": "Lihat kursus",
       "chapters_one": "{count} Bab",
@@ -420,18 +420,18 @@
       "start-lesson": "Mulai Pelajaran",
       "lesson-one": "Pelajaran",
       "lesson-many": "Pelajaran",
-      "seo-description": "Temukan sumber daya pengembang untuk ekosistem Solana. Dokumentasi, alat, kerangka kerja, SDK, dan lainnya."
+      "seo-description": "Temukan sumber daya pengembang untuk ekosistem Nara Solana. Dokumentasi, alat, kerangka kerja, SDK, dan lainnya."
     },
     "documents": {
       "title": "Pergi ke sumbernya.",
-      "description": "Baca dokumentasi untuk Solana dan alat populer.",
+      "description": "Baca dokumentasi untuk Nara Solana dan alat populer.",
       "solana-docs": {
-        "title": "Dokumentasi Solana",
-        "description": "Pelajari cara kerja Solana dan dapatkan pemahaman tingkat tinggi tentang arsitektur Solana."
+        "title": "Dokumentasi Nara Solana",
+        "description": "Pelajari cara kerja Nara Solana dan dapatkan pemahaman tingkat tinggi tentang arsitektur Nara Solana."
       },
       "anchor-docs": {
         "title": "Dokumentasi Anchor",
-        "description": "Bangun program Solana yang aman dengan cepat dalam Rust menggunakan kerangka kerja Anchor."
+        "description": "Bangun program Nara Solana yang aman dengan cepat dalam Rust menggunakan kerangka kerja Anchor."
       },
       "view-all": "Lihat semua"
     },
@@ -440,7 +440,7 @@
     },
     "content": {
       "newsletter": {
-        "title": "Pembaruan Pengembang Solana",
+        "title": "Pembaruan Pengembang Nara Solana",
         "description": "Daftar ke buletin dan pelajari tentang sumber daya baru, komit baru, proposal baru, dan lainnya."
       },
       "other-content": {
@@ -455,7 +455,7 @@
     },
     "featured-resources-list": {
       "title": "Sumber daya unggulan",
-      "description": "Sumber daya terbaik untuk membangun dApp Solana dari ujung ke ujung.",
+      "description": "Sumber daya terbaik untuk membangun dApp Nara Solana dari ujung ke ujung.",
       "start": "Jelajahi"
     },
     "resources-page": {
@@ -464,7 +464,7 @@
       "labels": "Label",
       "date": "Tanggal",
       "category": "Kategori",
-      "seo-description": "Temukan sumber daya pengembang untuk ekosistem Solana. Dokumentasi, alat, kerangka kerja, SDK, dan lainnya."
+      "seo-description": "Temukan sumber daya pengembang untuk ekosistem Nara Solana. Dokumentasi, alat, kerangka kerja, SDK, dan lainnya."
     },
     "resource-content": {
       "resources-title": "Materi",
@@ -484,7 +484,7 @@
       }
     },
     "hero": {
-      "description": "Panduan untuk bergabung dengan ekosistem Solana. Oleh pembangun untuk pembangun.",
+      "description": "Panduan untuk bergabung dengan ekosistem Nara Solana. Oleh pembangun untuk pembangun.",
       "explore": "Jelajahi Dokumentasi",
       "build": "Bangun Sekarang",
       "support": "Dapatkan dukungan",
@@ -492,7 +492,7 @@
     },
     "learning-paths": {
       "title": "Jalur Pembelajaran",
-      "subtitle": "Jalur terpandu untuk memperluas kemampuan Anda sebagai Pengembang Solana yang serba bisa.",
+      "subtitle": "Jalur terpandu untuk memperluas kemampuan Anda sebagai Pengembang Nara Solana yang serba bisa.",
       "articles": "Artikel",
       "articles_one": "{count} Artikel",
       "articles_other": "{count} Artikel",
@@ -509,7 +509,7 @@
         "title": "Beranda"
       },
       "solana-course": {
-        "title": "Kursus Solana"
+        "title": "Kursus Nara Solana"
       },
       "learning-paths": {
         "title": "Jalur pembelajaran"
@@ -523,52 +523,52 @@
     },
     "guides": {
       "title": "Tutorial dan panduan.",
-      "description": "Pelajari dari tutorial dan panduan dari seluruh ekosistem Solana yang lebih besar.",
+      "description": "Pelajari dari tutorial dan panduan dari seluruh ekosistem Nara Solana yang lebih besar.",
       "learn-more": "Pelajari lebih lanjut",
       "featured-guides-list": {
         "title": "Panduan unggulan",
-        "description": "Panduan mendalam terbaik untuk belajar dan membangun dApps Solana.",
+        "description": "Panduan mendalam terbaik untuk belajar dan membangun dApps Nara Solana.",
         "start": "Mulai"
       },
-      "seo-description": "Pelajari pengembangan Solana dengan panduan pengembang, dari pemula hingga mahir. JavaScript, TypeScript, Rust, dan lainnya."
+      "seo-description": "Pelajari pengembangan Nara Solana dengan panduan pengembang, dari pemula hingga mahir. JavaScript, TypeScript, Rust, dan lainnya."
     },
     "resources": {
       "title": "Alat dan sumber daya.",
-      "description": "Jelajahi sumber daya pengembang dari seluruh ekosistem Solana yang lebih besar.",
+      "description": "Jelajahi sumber daya pengembang dari seluruh ekosistem Nara Solana yang lebih besar.",
       "learn-more": "Pelajari lebih lanjut",
       "items": {
         "core-docs": {
           "title": "Dokumentasi Inti",
-          "description": "Dokumentasi resmi Solana tentang pengembangan, validator, token SPL, dompet, dan lainnya."
+          "description": "Dokumentasi resmi Nara Solana tentang pengembangan, validator, token SPL, dompet, dan lainnya."
         },
         "cookbook": {
-          "title": "Buku Resep Solana",
-          "description": "Buku Resep Solana adalah sumber daya pengembang yang menyediakan konsep dan referensi penting untuk membangun aplikasi di Solana."
+          "title": "Buku Resep Nara Solana",
+          "description": "Buku Resep Nara Solana adalah sumber daya pengembang yang menyediakan konsep dan referensi penting untuk membangun aplikasi di Nara Solana."
         },
         "stackexchange": {
-          "title": "Solana Stack Exchange",
-          "description": "Solana Stack Exchange adalah situs tanya jawab untuk pengguna dan pengembang perangkat lunak Solana.",
+          "title": "Nara Solana Stack Exchange",
+          "description": "Nara Solana Stack Exchange adalah situs tanya jawab untuk pengguna dan pengembang perangkat lunak Nara Solana.",
           "ask": {
             "title": "Punya pertanyaan?",
-            "description": "Pertanyaan ada di mana-mana, jawaban ada di Solana StackExchange.",
+            "description": "Pertanyaan ada di mana-mana, jawaban ada di Nara Solana StackExchange.",
             "cta-label": "Tanya di Stack Exchange"
           }
         },
         "playground": {
-          "title": "Solana Playground",
-          "description": "Bangun, terapkan, dan uji program dan kontrak pintar Solana dengan mudah dari IDE browser."
+          "title": "Nara Solana Playground",
+          "description": "Bangun, terapkan, dan uji program dan kontrak pintar Nara Solana dengan mudah dari IDE browser."
         },
         "create-dapp": {
           "title": "create-solana-dapp",
-          "description": "Mulai dengan cepat dengan dApps Solana, buat template proyek dalam hitungan detik."
+          "description": "Mulai dengan cepat dengan dApps Nara Solana, buat template proyek dalam hitungan detik."
         },
         "anchor": {
           "title": "Dokumentasi Anchor",
-          "description": "Anchor adalah framework untuk runtime Sealevel Solana yang menyediakan beberapa alat pengembang yang nyaman untuk menulis kontrak pintar."
+          "description": "Anchor adalah framework untuk runtime Sealevel Nara Solana yang menyediakan beberapa alat pengembang yang nyaman untuk menulis kontrak pintar."
         },
         "program-library": {
-          "title": "Perpustakaan Program Solana",
-          "description": "Perpustakaan Program Solana (SPL) adalah kumpulan program on-chain yang menargetkan runtime paralel Sealevel."
+          "title": "Perpustakaan Program Nara Solana",
+          "description": "Perpustakaan Program Nara Solana (SPL) adalah kumpulan program on-chain yang menargetkan runtime paralel Sealevel."
         },
         "program-examples": {
           "title": "Contoh Program",
@@ -594,43 +594,43 @@
   },
   "environment": {
     "title": "Lingkungan",
-    "description": "Bagaimana Solana Foundation dan komunitas yang lebih besar membangun web3 yang lebih baik dan lebih hemat energi.",
+    "description": "Bagaimana Nara Solana Foundation dan komunitas yang lebih besar membangun web3 yang lebih baik dan lebih hemat energi.",
     "hero": {
       "title-part-1": "Netral karbon.",
       "title-part-2": "Berfokus pada iklim.",
-      "subtitle": "Bagaimana Solana Foundation dan komunitas yang lebih besar membangun web3 yang lebih baik dan lebih hemat energi."
+      "subtitle": "Bagaimana Nara Solana Foundation dan komunitas yang lebih besar membangun web3 yang lebih baik dan lebih hemat energi."
     },
     "stats": {
-      "transaction": "Rata-rata energi yang digunakan per transaksi Solana, dalam Joule",
-      "nonvoting-transaction": "Rata-rata energi yang digunakan per transaksi non-voting Solana, dalam Joule",
+      "transaction": "Rata-rata energi yang digunakan per transaksi Nara Solana, dalam Joule",
+      "nonvoting-transaction": "Rata-rata energi yang digunakan per transaksi non-voting Nara Solana, dalam Joule",
       "annual-carbon-footprint": "Jejak karbon tahunan, dalam ton CO2",
       "net-carbon-impact": "Dampak karbon bersih"
     },
     "cta-data": "Lihat data mentah",
     "energy": {
-      "title": "Bagaimana penggunaan energi Solana dibandingkan",
-      "subtitle": "Bandingkan platform Solana yang sangat efisien.",
-      "solanaTransaction": "Satu transaksi Solana (voting + non-voting)",
+      "title": "Bagaimana penggunaan energi Nara Solana dibandingkan",
+      "subtitle": "Bandingkan platform Nara Solana yang sangat efisien.",
+      "solanaTransaction": "Satu transaksi Nara Solana (voting + non-voting)",
       "cta": "Baca Laporan Penggunaan Energi"
     },
     "report": {
-      "title": "Menetralkan dampak karbon Solana",
-      "description-part-1": "Solana Foundation berkomitmen untuk mempelajari dampak blockchain Solana, membuka data, dan mengambil langkah-langkah untuk mengurangi jejak rantai menjadi nol.",
-      "description-part-2": "Solana adalah blockchain lapisan 1 kontrak pintar pertama dengan pelacakan emisi energi real-time, memungkinkan siapa saja di dunia untuk memeriksa emisi jaringan hingga tingkat validator atau RPC."
+      "title": "Menetralkan dampak karbon Nara Solana",
+      "description-part-1": "Nara Solana Foundation berkomitmen untuk mempelajari dampak blockchain Nara Solana, membuka data, dan mengambil langkah-langkah untuk mengurangi jejak rantai menjadi nol.",
+      "description-part-2": "Nara Solana adalah blockchain lapisan 1 kontrak pintar pertama dengan pelacakan emisi energi real-time, memungkinkan siapa saja di dunia untuk memeriksa emisi jaringan hingga tingkat validator atau RPC."
     },
     "what-you-can-do": {
       "title": "Apa yang bisa Anda lakukan",
       "data": {
         "title": "Gunakan data",
-        "description": "Kami telah membuka data emisi Solana untuk mereka yang ingin memeriksa pekerjaan kami atau menggunakannya untuk analisis lain. Baca laporan penggunaan energi untuk informasi lebih lanjut."
+        "description": "Kami telah membuka data emisi Nara Solana untuk mereka yang ingin memeriksa pekerjaan kami atau menggunakannya untuk analisis lain. Baca laporan penggunaan energi untuk informasi lebih lanjut."
       },
       "footprint": {
         "title": "Kurangi jejak Anda",
-        "description": "Solana Foundation mendorong semua validator dan proyek untuk melihat data emisi mereka sendiri dan menguranginya jika memungkinkan. Pelajari dari perjalanan Orca."
+        "description": "Nara Solana Foundation mendorong semua validator dan proyek untuk melihat data emisi mereka sendiri dan menguranginya jika memungkinkan. Pelajari dari perjalanan Orca."
       },
       "grants": {
         "title": "Ajukan hibah",
-        "description": "Periksa beberapa ide proyek untuk membuat jaringan Solana lebih positif terhadap iklim, atau kirimkan proposal Anda sendiri."
+        "description": "Periksa beberapa ide proyek untuk membuat jaringan Nara Solana lebih positif terhadap iklim, atau kirimkan proposal Anda sendiri."
       }
     },
     "featured-projects": {
@@ -648,14 +648,14 @@
         },
         "ecoToken": {
           "title": "EcoToken",
-          "description": "EcoToken membawa kredit lingkungan ke Solana, menawarkan cara mudah bagi siapa saja untuk memiliki dampak lingkungan. Ini dilengkapi dengan pengakuan melalui papan peringkat dan Sertifikat Dampak NFT.",
+          "description": "EcoToken membawa kredit lingkungan ke Nara Solana, menawarkan cara mudah bagi siapa saja untuk memiliki dampak lingkungan. Ini dilengkapi dengan pengakuan melalui papan peringkat dan Sertifikat Dampak NFT.",
           "links": {
             "website": "Kunjungi EcoToken"
           }
         },
         "sunriseStake": {
           "title": "SunriseStake",
-          "description": "SunriseStake mendukung staking yang positif terhadap iklim di Solana.",
+          "description": "SunriseStake mendukung staking yang positif terhadap iklim di Nara Solana.",
           "links": {
             "website": "Kunjungi SunriseStake"
           }
@@ -678,21 +678,21 @@
     }
   },
   "events": {
-    "description": "Lihat acara Solana terbaru yang berbasis komunitas dan dasar. Datang ke acara dan bertemu dengan pembangun Solana!",
-    "title": "Solana, dalam kehidupan nyata",
+    "description": "Lihat acara Nara Solana terbaru yang berbasis komunitas dan dasar. Datang ke acara dan bertemu dengan pembangun Nara Solana!",
+    "title": "Nara Solana, dalam kehidupan nyata",
     "signup": "RSVP",
     "archive": {
       "page-title": "Arsip Acara",
       "title": "Acara Terdahulu",
-      "subtitle": "Lihat di mana pembangun Solana di komunitas Anda telah bertemu sebelumnya!",
+      "subtitle": "Lihat di mana pembangun Nara Solana di komunitas Anda telah bertemu sebelumnya!",
       "archive": "Lihat acara terdahulu di Arsip",
       "event-count": "Anda melihat {current} dari {total} acara yang diarsipkan",
       "next-page": "Acara Lama",
       "previous-page": "Acara Baru"
     },
     "hero": {
-      "title": "Solana, dalam kehidupan nyata",
-      "subtitle": "Temui pembangun Solana di komunitas Anda. Datang ke pertemuan!",
+      "title": "Nara Solana, dalam kehidupan nyata",
+      "subtitle": "Temui pembangun Nara Solana di komunitas Anda. Datang ke pertemuan!",
       "virtual": "Virtual",
       "in-person": "Tatap Muka",
       "hacker": "Hacker House",
@@ -700,12 +700,12 @@
     },
     "community": {
       "heading": "Acara komunitas",
-      "description": "Pertemuan, ruang bangun, dan lainnya dari komunitas Solana. Acara ini tidak diselenggarakan oleh Yayasan Solana.",
+      "description": "Pertemuan, ruang bangun, dan lainnya dari komunitas Nara Solana. Acara ini tidak diselenggarakan oleh Yayasan Nara Solana.",
       "help": "Butuh bantuan? Lihat <meetupLink>panduan pertemuan</meetupLink>."
     },
     "us": {
       "heading": "Solanamerica",
-      "description": "Daftar Terkurasi Acara Komunitas Solana Elit di AS."
+      "description": "Daftar Terkurasi Acara Komunitas Nara Solana Elit di AS."
     },
     "detail": {
       "action": "Detail"
@@ -721,9 +721,9 @@
   },
   "footer": {
     "foundation": "Dikelola oleh",
-    "copyright": "© {currentYear} Yayasan Solana. Semua hak dilindungi.",
+    "copyright": "© {currentYear} Yayasan Nara Solana. Semua hak dilindungi.",
     "solana": {
-      "heading": "Solana",
+      "heading": "Nara Solana",
       "grants": "Pendanaan",
       "media": "Media Kit",
       "careers": "Karir",
@@ -748,8 +748,8 @@
     },
     "community": {
       "title": "Gabung dengan Komunitas",
-      "discord": "Dukungan Solana Discord",
-      "forums": "Forum Solana",
+      "discord": "Dukungan Nara Solana Discord",
+      "forums": "Forum Nara Solana",
       "solhack-discord": "SolHack Discord (komunitas)",
       "solhack-training": "Pelatihan SolHack (komunitas)"
     },
@@ -777,7 +777,7 @@
         "title": "Edukasi",
         "items": {
           "what-is-solana": {
-            "title": "Tentang Solana",
+            "title": "Tentang Nara Solana",
             "description": "Jaringan cepat dan berbiaya rendah untuk aset digital",
             "cta": "Pelajari lebih lanjut"
           },
@@ -786,14 +786,14 @@
             "description": "Gerbang Anda ke pasar modal internet"
           },
           "defi": {
-            "title": "Pengenalan DeFi di Solana",
+            "title": "Pengenalan DeFi di Nara Solana",
             "description": "Jelajahi peluang keuangan terdesentralisasi"
           },
           "transactions": {
-            "description": "Kuasai dasar-dasar transaksi Solana"
+            "description": "Kuasai dasar-dasar transaksi Nara Solana"
           },
           "fees": {
-            "description": "Pelajari mengapa biaya Solana memungkinkan akses global"
+            "description": "Pelajari mengapa biaya Nara Solana memungkinkan akses global"
           },
           "all": {
             "title": "Jelajahi semua tutorial",
@@ -815,12 +815,12 @@
           "description": "Mulai belajar cara membangun hari ini"
         },
         "docs": {
-          "title": "Dokumentasi Solana",
-          "description": "Dokumentasi resmi untuk blockchain Solana"
+          "title": "Dokumentasi Nara Solana",
+          "description": "Dokumentasi resmi untuk blockchain Nara Solana"
         },
         "spl": {
-          "title": "Dokumentasi Perpustakaan Program Solana",
-          "description": "Dokumentasi resmi Perpustakaan Program Solana."
+          "title": "Dokumentasi Perpustakaan Program Nara Solana",
+          "description": "Dokumentasi resmi Perpustakaan Program Nara Solana."
         },
         "cookbook": {
           "title": "Cookbook",
@@ -828,7 +828,7 @@
         },
         "resources": {
           "title": "Sumber Daya",
-          "description": "Alat pengembang yang luas untuk membangun di Solana."
+          "description": "Alat pengembang yang luas untuk membangun di Nara Solana."
         },
         "courses": {
           "title": "Kursus",
@@ -840,7 +840,7 @@
         },
         "api": {
           "title": "RPC API",
-          "description": "Dokumentasi referensi Solana RPC API"
+          "description": "Dokumentasi referensi Nara Solana RPC API"
         }
       },
       "tutorials": {
@@ -958,19 +958,19 @@
         "items": [
           {
             "title": "Solscan",
-            "description": "Jelajahi blockchain Solana secara real time"
+            "description": "Jelajahi blockchain Nara Solana secara real time"
           },
           {
             "title": "SolanaFM",
-            "description": "Penjelajah dan pengindeks blockchain Solana"
+            "description": "Penjelajah dan pengindeks blockchain Nara Solana"
           },
           {
-            "title": "Solana Explorer",
+            "title": "Nara Solana Explorer",
             "description": "Blok, akun, transaksi, program dan token"
           },
           {
             "title": "Orb",
-            "description": "Penjelajah blok Solana yang cepat dan mudah dibaca manusia"
+            "description": "Penjelajah blok Nara Solana yang cepat dan mudah dibaca manusia"
           }
         ]
       },
@@ -979,7 +979,7 @@
         "items": [
           {
             "title": "Menjadi validator",
-            "description": "Bantu menjalankan jaringan Solana"
+            "description": "Bantu menjalankan jaringan Nara Solana"
           },
           {
             "title": "Penyedia RPC",
@@ -991,7 +991,7 @@
           },
           {
             "title": "On & Off ramps",
-            "description": "Bawa aset Anda ke Solana"
+            "description": "Bawa aset Anda ke Nara Solana"
           }
         ]
       }
@@ -1003,7 +1003,7 @@
         "items": [
           {
             "title": "Dapatkan info terbaru tentang semua berita terbaru",
-            "description": "Kabar terbaru di ekosistem Solana"
+            "description": "Kabar terbaru di ekosistem Nara Solana"
           },
           {
             "title": "Podcast",
@@ -1011,7 +1011,7 @@
           },
           {
             "title": "Acara",
-            "description": "Rasakan komunitas Solana, secara langsung"
+            "description": "Rasakan komunitas Nara Solana, secara langsung"
           },
           {
             "title": "The collective",
@@ -1022,8 +1022,8 @@
             "description": "Cara untuk bergabung"
           },
           {
-            "title": "Institut kebijakan Solana",
-            "description": "Mengedukasi pembuat kebijakan tentang Solana"
+            "title": "Institut kebijakan Nara Solana",
+            "description": "Mengedukasi pembuat kebijakan tentang Nara Solana"
           }
         ]
       },
@@ -1070,10 +1070,10 @@
     "prev": "Kasus penggunaan sebelumnya",
     "next": "Kasus penggunaan berikutnya",
     "hero": {
-      "title": "Pelajari tentang Solana",
-      "subtitle": "Kuasai hal-hal penting tentang Solana dengan sumber belajar tanpa kode ini untuk pengembang, investor, dan penggemar.",
+      "title": "Pelajari tentang Nara Solana",
+      "subtitle": "Kuasai hal-hal penting tentang Nara Solana dengan sumber belajar tanpa kode ini untuk pengembang, investor, dan penggemar.",
       "start-learning": "Mulai belajar",
-      "build": "Bangun di Solana"
+      "build": "Bangun di Nara Solana"
     },
     "tutorials": {
       "aria-label": "Jalur pembelajaran lengkap",
@@ -1082,58 +1082,58 @@
       "readMoreAriaLabel": "Baca lebih lanjut tentang",
       "items": {
         "what-is-solana": {
-          "title": "Apa itu Solana?",
-          "description": "Pengenalan tentang Solana - jaringan yang cepat, berbiaya rendah yang memungkinkan cara baru untuk mentransfer nilai, membuat aplikasi, dan berinteraksi secara online.",
-          "category": "Dasar-dasar Solana"
+          "title": "Apa itu Nara Solana?",
+          "description": "Pengenalan tentang Nara Solana - jaringan yang cepat, berbiaya rendah yang memungkinkan cara baru untuk mentransfer nilai, membuat aplikasi, dan berinteraksi secara online.",
+          "category": "Dasar-dasar Nara Solana"
         },
         "what-is-a-wallet": {
           "title": "Apa itu dompet?",
-          "description": "Pelajari apa itu dompet Solana, bagaimana cara kerjanya, dan cara mengaturnya dengan aman. Dompet adalah alat yang akan Anda gunakan untuk berinteraksi dengan aplikasi Solana.",
+          "description": "Pelajari apa itu dompet Nara Solana, bagaimana cara kerjanya, dan cara mengaturnya dengan aman. Dompet adalah alat yang akan Anda gunakan untuk berinteraksi dengan aplikasi Nara Solana.",
           "category": "Dasar-dasar dompet"
         },
         "getting-started": {
-          "title": "Memulai dengan Solana",
-          "description": "Pelajari dasar-dasar Solana dan cara memulai transaksi digital",
-          "category": "Dasar-dasar Solana"
+          "title": "Memulai dengan Nara Solana",
+          "description": "Pelajari dasar-dasar Nara Solana dan cara memulai transaksi digital",
+          "category": "Dasar-dasar Nara Solana"
         },
         "understanding-solana-transaction-fees": {
-          "title": "Memahami biaya transaksi Solana",
-          "description": "Pelajari bagaimana biaya transaksi bekerja di Solana, mengapa biayanya rendah, dan apa artinya untuk berbagai kasus penggunaan.",
+          "title": "Memahami biaya transaksi Nara Solana",
+          "description": "Pelajari bagaimana biaya transaksi bekerja di Nara Solana, mengapa biayanya rendah, dan apa artinya untuk berbagai kasus penggunaan.",
           "category": "Biaya transaksi"
         },
         "sending-and-receiving-sol": {
-          "title": "Mengirim dan menerima SOL",
-          "description": "Pelajari cara mengirim dan menerima token SOL - keterampilan dasar untuk berinteraksi dengan jaringan Solana dan aplikasinya.",
-          "category": "Transfer SOL"
+          "title": "Mengirim dan menerima NSO",
+          "description": "Pelajari cara mengirim dan menerima token NSO - keterampilan dasar untuk berinteraksi dengan jaringan Nara Solana dan aplikasinya.",
+          "category": "Transfer NSO"
         },
         "what-is-staking": {
           "title": "Apa itu Staking?",
-          "description": "Pelajari bagaimana staking bekerja di Solana, cara mendapatkan rewards dengan membantu mengamankan jaringan, dan apa yang perlu dipertimbangkan saat memilih validator.",
+          "description": "Pelajari bagaimana staking bekerja di Nara Solana, cara mendapatkan rewards dengan membantu mengamankan jaringan, dan apa yang perlu dipertimbangkan saat memilih validator.",
           "category": "Rewards Staking"
         },
         "introduction-to-solana-tokens": {
-          "title": "Pengenalan Token Solana",
-          "description": "Pelajari tentang token - berbagai jenis aset digital di Solana termasuk stablecoin, wrapped token, dan token proyek.",
+          "title": "Pengenalan Token Nara Solana",
+          "description": "Pelajari tentang token - berbagai jenis aset digital di Nara Solana termasuk stablecoin, wrapped token, dan token proyek.",
           "category": "Token"
         },
         "what-are-nfts": {
           "title": "Apa itu NFT?",
-          "description": "Pelajari tentang Non-Fungible Token (NFT) di Solana - aset digital unik yang mewakili kepemilikan item spesifik seperti seni, koleksi, dan lainnya.",
+          "description": "Pelajari tentang Non-Fungible Token (NFT) di Nara Solana - aset digital unik yang mewakili kepemilikan item spesifik seperti seni, koleksi, dan lainnya.",
           "category": "Dasar-dasar NFT"
         },
         "introduction-to-defi-on-solana": {
-          "title": "Pengenalan DeFi di Solana",
-          "description": "Pelajari tentang aplikasi keuangan terdesentralisasi (DeFi) di Solana, termasuk trading, peminjaman, dan peluang yield.",
+          "title": "Pengenalan DeFi di Nara Solana",
+          "description": "Pelajari tentang aplikasi keuangan terdesentralisasi (DeFi) di Nara Solana, termasuk trading, peminjaman, dan peluang yield.",
           "category": "Intro DeFi"
         },
         "exploring-solana-applications": {
-          "title": "Menjelajahi Aplikasi Solana",
-          "description": "Temukan ekosistem aplikasi yang beragam yang dibangun di Solana - dari layanan keuangan dan gaming hingga platform sosial dan alat kreatif, semuanya dapat diakses hanya dengan wallet Anda.",
+          "title": "Menjelajahi Aplikasi Nara Solana",
+          "description": "Temukan ekosistem aplikasi yang beragam yang dibangun di Nara Solana - dari layanan keuangan dan gaming hingga platform sosial dan alat kreatif, semuanya dapat diakses hanya dengan wallet Anda.",
           "category": "Aplikasi"
         },
         "staying-safe-on-solana": {
-          "title": "Tetap Aman di Solana",
-          "description": "Pelajari praktik keamanan penting untuk melindungi aset Anda dan menghindari penipuan umum saat menggunakan aplikasi Solana.",
+          "title": "Tetap Aman di Nara Solana",
+          "description": "Pelajari praktik keamanan penting untuk melindungi aset Anda dan menghindari penipuan umum saat menggunakan aplikasi Nara Solana.",
           "category": "Panduan Keamanan"
         }
       }
@@ -1160,13 +1160,13 @@
     },
     "resources": {
       "continueJourneyTitle": "Lanjutkan Perjalanan Anda",
-      "continueJourneySubtitle": "Siap untuk mendalami lebih jauh? Jelajahi sumber daya penting ini untuk pengembang Solana",
+      "continueJourneySubtitle": "Siap untuk mendalami lebih jauh? Jelajahi sumber daya penting ini untuk pengembang Nara Solana",
       "ariaLabel": "Sumber belajar tambahan",
       "opensInNewTab": "buka di tab baru",
       "documentation": {
         "label": "Dokumentasi",
-        "description": "Dokumentasi resmi Solana dan referensi API",
-        "ariaLabel": "Dokumentasi - Dokumentasi resmi Solana dan referensi API (buka di tab baru)"
+        "description": "Dokumentasi resmi Nara Solana dan referensi API",
+        "ariaLabel": "Dokumentasi - Dokumentasi resmi Nara Solana dan referensi API (buka di tab baru)"
       },
       "cookbook": {
         "label": "Buku Resep",
@@ -1175,13 +1175,13 @@
       },
       "courses": {
         "label": "Kursus",
-        "description": "Jalur pembelajaran terstruktur untuk pengembangan Solana",
-        "ariaLabel": "Kursus - Jalur pembelajaran terstruktur untuk pengembangan Solana (buka di tab baru)"
+        "description": "Jalur pembelajaran terstruktur untuk pengembangan Nara Solana",
+        "ariaLabel": "Kursus - Jalur pembelajaran terstruktur untuk pengembangan Nara Solana (buka di tab baru)"
       },
       "wallets": {
         "label": "Dompet",
-        "description": "Jelajahi dompet Solana untuk mengelola aset Anda",
-        "ariaLabel": "Dompet - Jelajahi dompet Solana untuk mengelola aset Anda (terbuka di tab baru)"
+        "description": "Jelajahi dompet Nara Solana untuk mengelola aset Anda",
+        "ariaLabel": "Dompet - Jelajahi dompet Nara Solana untuk mengelola aset Anda (terbuka di tab baru)"
       }
     }
   },
@@ -1198,8 +1198,8 @@
     "page": {
       "side-events": {
         "title": "Acara Sampingan Breakpoint",
-        "description": "Acara yang berlangsung sekitar waktu Solana Breakpoint 2024.",
-        "intro": "Breakpoint benar-benar acara untuk seluruh ekosistem Solana. Proyek, tim, dan individu dari seluruh dunia mengadakan acara mereka sendiri selama konferensi untuk bertemu dan merayakan dengan sesama pembangun mereka.",
+        "description": "Acara yang berlangsung sekitar waktu Nara Solana Breakpoint 2024.",
+        "intro": "Breakpoint benar-benar acara untuk seluruh ekosistem Nara Solana. Proyek, tim, dan individu dari seluruh dunia mengadakan acara mereka sendiri selama konferensi untuk bertemu dan merayakan dengan sesama pembangun mereka.",
         "featured": "Acara yang disorot",
         "community": "Acara komunitas",
         "community-cta": "Punya acara yang ingin Anda masukkan ke kalender ini? Kirimkan di sini."
@@ -1220,16 +1220,16 @@
     }
   },
   "format": {
-    "title": "FORMAT Festival x Solana Foundation",
-    "description": "Masuk ke Solana House untuk merasakan masa depan terdesentralisasi dari pembayaran blockchain, seni, dan lainnya.",
+    "title": "FORMAT Festival x Nara Solana Foundation",
+    "description": "Masuk ke Nara Solana House untuk merasakan masa depan terdesentralisasi dari pembayaran blockchain, seni, dan lainnya.",
     "hero": {
       "subtitle": "Rasakan masa depan seni dan teknologi — semuanya di satu tempat.",
-      "description": "Masuk ke Solana House di <formatLink>FORMAT Festival</formatLink> untuk mendapatkan camilan gratis dengan voucher digital bertenaga kripto, tenggelam dalam pameran NFT Solana pertama dari seniman terkenal dunia <artistLink>Nancy Baker Cahill</artistLink>, dan berpartisipasi dalam <auctionLink>lelang NFT</auctionLink>.",
+      "description": "Masuk ke Nara Solana House di <formatLink>FORMAT Festival</formatLink> untuk mendapatkan camilan gratis dengan voucher digital bertenaga kripto, tenggelam dalam pameran NFT Nara Solana pertama dari seniman terkenal dunia <artistLink>Nancy Baker Cahill</artistLink>, dan berpartisipasi dalam <auctionLink>lelang NFT</auctionLink>.",
       "dates": "Datang ke Bentonville, AR pada 23-25 September 2022."
     },
     "claim": {
       "title": "Klaim NFT misteri Anda",
-      "description": "Rayakan Solana + FORMAT Festival 2022 dengan menukarkan NFT misteri. Tidak perlu pengalaman kripto!",
+      "description": "Rayakan Nara Solana + FORMAT Festival 2022 dengan menukarkan NFT misteri. Tidak perlu pengalaman kripto!",
       "cta": "Klaim sekarang",
       "social": {
         "description": "Tetap ikuti perkembangan untuk mengetahui apa yang akan menjadi NFT misteri Anda dengan mengikuti <tipLink>@TipLinkOfficial</tipLink> & <solanaSpacesLink>@SolanaSpaces</solanaspaceslink/> di Twitter.",
@@ -1238,23 +1238,23 @@
     },
     "concessions": {
       "title": "Konsesi dengan Kripto",
-      "description": "Camilan gratis dengan satu scan! Gunakan voucher digital Solana House x FORMAT untuk mendapatkan camilan lezat, didukung oleh TipLink — selama persediaan masih ada."
+      "description": "Camilan gratis dengan satu scan! Gunakan voucher digital Nara Solana House x FORMAT untuk mendapatkan camilan lezat, didukung oleh TipLink — selama persediaan masih ada."
     },
     "slipstream": {
       "title": "Pengalaman NFT Slipstream",
-      "description": "Seniman media baru terkenal Nancy Baker Cahill memamerkan 10 NFT eksklusif di Solana House — yang akan dilelang ke publik dengan bantuan dari Magic Eden. <auctionLink>Lihat lelang</auctionLink>."
+      "description": "Seniman media baru terkenal Nancy Baker Cahill memamerkan 10 NFT eksklusif di Nara Solana House — yang akan dilelang ke publik dengan bantuan dari Magic Eden. <auctionLink>Lihat lelang</auctionLink>."
     },
     "ecosystem": {
       "title": "Pelajari lebih lanjut",
-      "description": "Jelajahi ekosistem Solana dan pelajari lebih lanjut tentang dunia NFT.",
+      "description": "Jelajahi ekosistem Nara Solana dan pelajari lebih lanjut tentang dunia NFT.",
       "nft": {
         "title": "Apa itu NFT?",
-        "description": "NFT? Mints? Dapatkan dasar-dasar tentang NFT di Solana.com",
+        "description": "NFT? Mints? Dapatkan dasar-dasar tentang NFT di Nara Solana.com",
         "cta": "Pelajari lebih lanjut"
       },
       "magiceden": {
         "title": "Magic Eden",
-        "description": "Beli, jual, dan temukan NFT Solana di pasar Magic Eden.",
+        "description": "Beli, jual, dan temukan NFT Nara Solana di pasar Magic Eden.",
         "cta": "Coba sekarang"
       },
       "tipLink": {
@@ -1264,10 +1264,10 @@
       }
     },
     "nft-volume": {
-      "title": "Ini adalah Solana.",
-      "description": "Dengan transaksi cepat, dampak energi rendah, dan biaya yang hanya sebagian kecil dari satu sen, Solana dengan cepat menjadi rumah bagi <learnNFTsLink>banyak proyek NFT</learnNFTsLink>.",
+      "title": "Ini adalah Nara Solana.",
+      "description": "Dengan transaksi cepat, dampak energi rendah, dan biaya yang hanya sebagian kecil dari satu sen, Nara Solana dengan cepat menjadi rumah bagi <learnNFTsLink>banyak proyek NFT</learnNFTsLink>.",
       "volume": {
-        "title": "20.3M+ NFT di Solana",
+        "title": "20.3M+ NFT di Nara Solana",
         "description": "Temukan komunitas Anda. Coba beberapa pasar NFT paling populer.",
         "nfts": "Pelajari tentang NFT",
         "me": "KUNJUNGI MAGIC EDEN",
@@ -1277,24 +1277,24 @@
   },
   "ecdr": {
     "title": "Laporan Pengembang Electric Capital",
-    "description": "Laporan Pengembang Electric Capital mengonfirmasi Solana sebagai salah satu blockchain dengan pertumbuhan tercepat pada tahun 2022.",
+    "description": "Laporan Pengembang Electric Capital mengonfirmasi Nara Solana sebagai salah satu blockchain dengan pertumbuhan tercepat pada tahun 2022.",
     "hero": {
-      "headline": "Lihat mengapa ribuan pengembang blockchain baru membangun di Solana.",
-      "subheadline": "Sekelompok pengembang blockchain yang sedang naik daun memilih Solana daripada rantai lain karena skalabilitas, kecepatan, dan biaya yang lebih rendah.",
+      "headline": "Lihat mengapa ribuan pengembang blockchain baru membangun di Nara Solana.",
+      "subheadline": "Sekelompok pengembang blockchain yang sedang naik daun memilih Nara Solana daripada rantai lain karena skalabilitas, kecepatan, dan biaya yang lebih rendah.",
       "note": "Hubungi kami untuk mempelajari lebih lanjut dan terhubung dengan tim kami.",
       "cta": "Hubungi kami"
     },
     "stats": {
-      "title": "Laporan Pengembang Electric Capital mengonfirmasi Solana sebagai salah satu blockchain dengan pertumbuhan tercepat pada tahun 2022.",
-      "learn": "<learnLink>Pelajari lebih lanjut</learnLink> tentang visi Solana untuk web3 dan laporan terbaru.",
+      "title": "Laporan Pengembang Electric Capital mengonfirmasi Nara Solana sebagai salah satu blockchain dengan pertumbuhan tercepat pada tahun 2022.",
+      "learn": "<learnLink>Pelajari lebih lanjut</learnLink> tentang visi Nara Solana untuk web3 dan laporan terbaru.",
       "full-time": {
         "title": "Pertumbuhan 16x dalam jumlah pengembang penuh waktu sejak 2018."
       },
       "blockchain": {
-        "title": "Jumlah total pengembang Solana tumbuh 83% pada tahun 2022."
+        "title": "Jumlah total pengembang Nara Solana tumbuh 83% pada tahun 2022."
       },
       "active-developers": {
-        "title": "Lebih dari pengembang aktif bulanan membangun di Solana.",
+        "title": "Lebih dari pengembang aktif bulanan membangun di Nara Solana.",
         "note": "*kedua dalam jumlah mentah hanya setelah Ethereum."
       },
       "open-source": {
@@ -1303,8 +1303,8 @@
       }
     },
     "join-community": {
-      "title": "Bergabunglah dengan Komunitas Solana yang Berkembang untuk Memulai Perjalanan Kripto Anda.",
-      "description": "Sebagai pembangun sendiri, taruhan kami akan selalu pada para pembangun di komunitas Solana. Kami sangat bersemangat tentang tahun-tahun di depan kami."
+      "title": "Bergabunglah dengan Komunitas Nara Solana yang Berkembang untuk Memulai Perjalanan Kripto Anda.",
+      "description": "Sebagai pembangun sendiri, taruhan kami akan selalu pada para pembangun di komunitas Nara Solana. Kami sangat bersemangat tentang tahun-tahun di depan kami."
     }
   },
   "playgg": {
@@ -1316,7 +1316,7 @@
     },
     "presentedby": {
       "title": "Diselenggarakan oleh",
-      "description": "Solana Foundation"
+      "description": "Nara Solana Foundation"
     },
     "signup": {
       "title": "Daftar dan dapatkan akses awal ke pendaftaran",
@@ -1329,16 +1329,16 @@
     }
   },
   "nft-showdown": {
-    "title": "The Solana NFT Showdown",
-    "description": "Solana Foundation mengundang semua kreator untuk mewujudkan ide bisnis mereka dalam kompetisi pitch NFT yang unik ini.",
-    "alert": "Bergabunglah dengan NFT Showdown - Bangun generasi berikutnya dari merek NFT di Solana ->",
+    "title": "The Nara Solana NFT Showdown",
+    "description": "Nara Solana Foundation mengundang semua kreator untuk mewujudkan ide bisnis mereka dalam kompetisi pitch NFT yang unik ini.",
+    "alert": "Bergabunglah dengan NFT Showdown - Bangun generasi berikutnya dari merek NFT di Nara Solana ->",
     "cta": "Lihat para pemenang",
     "intro": {
       "title": "Memperkenalkan",
-      "heading": "The Solana NFT Showdown",
+      "heading": "The Nara Solana NFT Showdown",
       "lead": "Mendorong generasi berikutnya dari merek NFT",
-      "description-1": "Bersiaplah untuk pertarungan epik! Solana Foundation mengundang semua kreator untuk mewujudkan ide bisnis mereka dalam kompetisi pitch NFT yang unik ini – kesempatan langka untuk berkolaborasi dengan pakar industri dan pemimpin komunitas NFT. Kami mencari merek NFT Solana baru yang bertujuan untuk menciptakan produk dunia nyata di berbagai bidang seperti fashion, hiburan, permainan, agensi kreatif.",
-      "description-2": "Merek NFT adalah cara yang bagus bagi pengusaha cerdas untuk memulai rencana bisnis mereka dan membangun komunitas yang langgeng. Apakah Anda memiliki konsep kreatif dan pitch bisnis yang Anda sukai? Manfaatkan kesempatan ini untuk mengakses dan memanfaatkan berbagai alat Solana baru yang menyediakan fleksibilitas dan skala. Pemenang proyek akan dipilih berdasarkan rencana bisnis yang layak dan inovasi produk yang mereka tampilkan – bekerja dengan juri yang akan memberikan panduan untuk memberi Anda pengetahuan yang Anda butuhkan untuk mewujudkan visi Anda.",
+      "description-1": "Bersiaplah untuk pertarungan epik! Nara Solana Foundation mengundang semua kreator untuk mewujudkan ide bisnis mereka dalam kompetisi pitch NFT yang unik ini – kesempatan langka untuk berkolaborasi dengan pakar industri dan pemimpin komunitas NFT. Kami mencari merek NFT Nara Solana baru yang bertujuan untuk menciptakan produk dunia nyata di berbagai bidang seperti fashion, hiburan, permainan, agensi kreatif.",
+      "description-2": "Merek NFT adalah cara yang bagus bagi pengusaha cerdas untuk memulai rencana bisnis mereka dan membangun komunitas yang langgeng. Apakah Anda memiliki konsep kreatif dan pitch bisnis yang Anda sukai? Manfaatkan kesempatan ini untuk mengakses dan memanfaatkan berbagai alat Nara Solana baru yang menyediakan fleksibilitas dan skala. Pemenang proyek akan dipilih berdasarkan rencana bisnis yang layak dan inovasi produk yang mereka tampilkan – bekerja dengan juri yang akan memberikan panduan untuk memberi Anda pengetahuan yang Anda butuhkan untuk mewujudkan visi Anda.",
       "description-3": "Saatnya membuat pitch yang cocok untuk ruang rapat. Masukkan email Anda di bawah ini untuk tetap mendapatkan informasi terbaru dan waktu. Jendela pengajuan akan dibuka pada awal Juni. Mulailah dengan pitch Anda dan semoga berhasil!",
       "description-4": "Untuk panduan pitch lengkap, lihat FAQ di bawah ini."
     },
@@ -1351,14 +1351,14 @@
         "title": "Hadiah",
         "description": "Finalis dan pemenang akan menerima",
         "list": [
-          "Bimbingan dan jam kantor dengan tim Solana.",
+          "Bimbingan dan jam kantor dengan tim Nara Solana.",
           "Kehadiran di lokakarya yang dikurasi yang diselenggarakan oleh pakar industri dan pemimpin komunitas NFT.",
           "Tiket ke Breakpoint, dijadwalkan dari 30 Okt - 3 Nov 2023 di Amsterdam."
         ]
       },
       "judging": {
         "title": "Penjurian",
-        "description-1": "Pemenang proyek akan dipilih berdasarkan rencana bisnis yang layak dan inovasi produk yang mereka tampilkan – kecakapan bisnis, pemikiran produk yang berpusat pada pengguna, arahan kreatif, penggunaan inovatif teknologi Solana, dan aplikasi dunia nyata semuanya akan menjadi faktor dalam mengidentifikasi pengajuan yang menang.",
+        "description-1": "Pemenang proyek akan dipilih berdasarkan rencana bisnis yang layak dan inovasi produk yang mereka tampilkan – kecakapan bisnis, pemikiran produk yang berpusat pada pengguna, arahan kreatif, penggunaan inovatif teknologi Nara Solana, dan aplikasi dunia nyata semuanya akan menjadi faktor dalam mengidentifikasi pengajuan yang menang.",
         "description-2": "Juri akan mempersempit entri menjadi sepuluh finalis. Dari sana, dalam kemitraan dengan mentor mereka, finalis akan mempresentasikan pitch mereka secara langsung. Dari sepuluh finalis, total lima proyek NFT akan diakui sebagai pemenang."
       }
     },
@@ -1366,32 +1366,32 @@
       "title": "Saya tertarik!"
     },
     "disclaimer": {
-      "rules": "Aturan Resmi Solana Foundation NFT Showdown",
+      "rules": "Aturan Resmi Nara Solana Foundation NFT Showdown",
       "title": "Penolakan",
-      "description-line-1": "The Solana NFT Showdown adalah kompetisi di mana proyek akan dievaluasi oleh juri berdasarkan kecakapan bisnis mereka, pemikiran produk yang berpusat pada pengguna, arahan kreatif dan cerita, penggunaan inovatif teknologi Solana, dan aplikasi dunia nyata tanpa mempertimbangkan kelayakan hukum. Semua peserta harus mematuhi hukum dan peraturan yang berlaku sehubungan dengan proyek mereka untuk NFT Showdown.",
-      "description-line-2": "Sumber daya pengembang yang disediakan oleh Solana Foundation (“SF”) hanya untuk tujuan pendidikan dan inspirasi. SF tidak mendorong, mendorong, atau menyetujui penerapan aplikasi semacam itu yang melanggar hukum atau peraturan yang berlaku. SF tidak mendorong, mendorong, atau menyetujui penerapan, integrasi, atau penggunaan aplikasi semacam itu (termasuk kode yang terdiri dari protokol blockchain Solana) yang melanggar hukum atau peraturan yang berlaku dan dengan ini melarang penerapan, integrasi, atau penggunaan semacam itu. Ini termasuk penggunaan aplikasi semacam itu oleh pembaca (a) yang melanggar undang-undang kontrol ekspor atau sanksi Amerika Serikat atau yurisdiksi lain yang berlaku, (b) jika pembaca berada di atau biasanya tinggal di negara atau wilayah yang dikenakan sanksi komprehensif yang dikelola oleh Kantor Pengawasan Aset Asing (OFAC) AS, (c) jika pembaca adalah atau bekerja atas nama Warga Negara yang Ditunjuk Khusus (SDN) atau adalah orang yang tunduk pada larangan pemblokiran atau pihak yang ditolak serupa, atau (d) yang melanggar Undang-Undang Komoditas dan Bursa.",
+      "description-line-1": "The Nara Solana NFT Showdown adalah kompetisi di mana proyek akan dievaluasi oleh juri berdasarkan kecakapan bisnis mereka, pemikiran produk yang berpusat pada pengguna, arahan kreatif dan cerita, penggunaan inovatif teknologi Nara Solana, dan aplikasi dunia nyata tanpa mempertimbangkan kelayakan hukum. Semua peserta harus mematuhi hukum dan peraturan yang berlaku sehubungan dengan proyek mereka untuk NFT Showdown.",
+      "description-line-2": "Sumber daya pengembang yang disediakan oleh Nara Solana Foundation (“SF”) hanya untuk tujuan pendidikan dan inspirasi. SF tidak mendorong, mendorong, atau menyetujui penerapan aplikasi semacam itu yang melanggar hukum atau peraturan yang berlaku. SF tidak mendorong, mendorong, atau menyetujui penerapan, integrasi, atau penggunaan aplikasi semacam itu (termasuk kode yang terdiri dari protokol blockchain Nara Solana) yang melanggar hukum atau peraturan yang berlaku dan dengan ini melarang penerapan, integrasi, atau penggunaan semacam itu. Ini termasuk penggunaan aplikasi semacam itu oleh pembaca (a) yang melanggar undang-undang kontrol ekspor atau sanksi Amerika Serikat atau yurisdiksi lain yang berlaku, (b) jika pembaca berada di atau biasanya tinggal di negara atau wilayah yang dikenakan sanksi komprehensif yang dikelola oleh Kantor Pengawasan Aset Asing (OFAC) AS, (c) jika pembaca adalah atau bekerja atas nama Warga Negara yang Ditunjuk Khusus (SDN) atau adalah orang yang tunduk pada larangan pemblokiran atau pihak yang ditolak serupa, atau (d) yang melanggar Undang-Undang Komoditas dan Bursa.",
       "read-more-button": "Baca selengkapnya...",
       "read-less-button": "Baca lebih sedikit..."
     }
   },
   "possible": {
     "meta": {
-      "title": "Hanya mungkin di Solana",
-      "description": "Pengembang dari seluruh dunia sedang membangun aplikasi di Solana untuk masa depan yang cepat, aman, skalabel, dan ramah pengguna. Masa depan yang hanya mungkin di Solana. Jelajahi sumber daya, hubungkan ke ekosistem, dan mulailah membangun."
+      "title": "Hanya mungkin di Nara Solana",
+      "description": "Pengembang dari seluruh dunia sedang membangun aplikasi di Nara Solana untuk masa depan yang cepat, aman, skalabel, dan ramah pengguna. Masa depan yang hanya mungkin di Nara Solana. Jelajahi sumber daya, hubungkan ke ekosistem, dan mulailah membangun."
     },
     "hero": {
       "title": "Dibangun untuk apa yang mungkin.",
-      "description": "Pengembang dari seluruh dunia sedang membangun aplikasi di Solana untuk masa depan yang cepat, aman, skalabel, dan ramah pengguna. Masa depan yang hanya mungkin di Solana. Jelajahi sumber daya, hubungkan ke ekosistem, dan mulailah membangun.",
+      "description": "Pengembang dari seluruh dunia sedang membangun aplikasi di Nara Solana untuk masa depan yang cepat, aman, skalabel, dan ramah pengguna. Masa depan yang hanya mungkin di Nara Solana. Jelajahi sumber daya, hubungkan ke ekosistem, dan mulailah membangun.",
       "cta-primary": "Mulai membangun"
     },
     "caseStudies": {
       "case-1": {
         "title": "Hivemapper memetakan dunia dengan pengemudi sehari-hari.",
-        "description": "Komunitas Hivemapper telah memetakan 6% jalan di seluruh dunia, dengan hadiah mingguan yang didukung oleh teknologi kompresi status Solana yang tak tertandingi."
+        "description": "Komunitas Hivemapper telah memetakan 6% jalan di seluruh dunia, dengan hadiah mingguan yang didukung oleh teknologi kompresi status Nara Solana yang tak tertandingi."
       },
       "case-2": {
         "title": "Helium Mobile memungkinkan layanan 5G yang didukung komunitas.",
-        "description": "Helium bermigrasi ke Solana, membawa “Jaringan Rakyat” ke semakin banyak kota di Amerika."
+        "description": "Helium bermigrasi ke Nara Solana, membawa “Jaringan Rakyat” ke semakin banyak kota di Amerika."
       },
       "case-3": {
         "title": "Tim Drip telah mendistribusikan 25 juta karya seni dengan biaya sekitar $3.000.",
@@ -1399,44 +1399,44 @@
       },
       "case-4": {
         "title": "Dialect telah mencetak jutaan dengan biaya pencetakan 2.400 hingga 24.000 kali lebih murah.",
-        "description": "Dialect secara dramatis menurunkan biaya pencetakan untuk memungkinkan pengguna berbagi stiker NFT dalam skala besar dengan NFT terkompresi di Solana."
+        "description": "Dialect secara dramatis menurunkan biaya pencetakan untuk memungkinkan pengguna berbagi stiker NFT dalam skala besar dengan NFT terkompresi di Nara Solana."
       },
       "case-5": {
         "title": "Sejauh ini, GainForest telah memantau 5,4 juta hektar lahan untuk konservasi lingkungan.",
-        "description": "GainForest menggunakan kontrak pintar Solana untuk mengumpulkan data waktu nyata dan mendorong upaya reboisasi di seluruh dunia."
+        "description": "GainForest menggunakan kontrak pintar Nara Solana untuk mengumpulkan data waktu nyata dan mendorong upaya reboisasi di seluruh dunia."
       }
     },
     "innovations": {
-      "title": "Temukan apa yang hanya mungkin dengan tumpukan teknologi Solana",
+      "title": "Temukan apa yang hanya mungkin dengan tumpukan teknologi Nara Solana",
       "mint": {
         "controlText": "NFT terkompresi",
         "title": "Cetak dalam jumlah besar",
         "description1": "Dengan kompresi negara untuk NFT, biaya penurunan volume tinggi menjadi jauh lebih murah. Bayangkan mengajak pengguna baru secara massal atau memberi penghargaan kepada pengguna yang ada hanya dengan beberapa ratus dolar, bukan beberapa ratus ribu. Dari tiket acara, hingga koleksi, hingga stiker media sosial dan banyak lagi, NFT terkompresi membuka dunia kemungkinan baru.",
-        "description2": "Ini dimungkinkan oleh <docsLink>kompresi negara</docsLink>, sebuah teknik di mana data transaksi yang diamankan oleh buku besar Solana di-hash dan diverifikasi terhadap akun pohon Merkle untuk digunakan dalam kontrak pintar. Ini berarti bahwa NFT terkompresi dapat dibuat onchain dengan cara yang mirip seperti sebelumnya, tetapi dengan biaya yang jauh lebih murah."
+        "description2": "Ini dimungkinkan oleh <docsLink>kompresi negara</docsLink>, sebuah teknik di mana data transaksi yang diamankan oleh buku besar Nara Solana di-hash dan diverifikasi terhadap akun pohon Merkle untuk digunakan dalam kontrak pintar. Ini berarti bahwa NFT terkompresi dapat dibuat onchain dengan cara yang mirip seperti sebelumnya, tetapi dengan biaya yang jauh lebih murah."
       },
       "scale": {
         "controlText": "Teknologi skalabel",
         "title": "Teknologi yang skalabel, sangat cepat",
-        "description1": "Dengan skalabilitas asli Solana, Anda tidak perlu membuat kompromi antara desentralisasi dan kinerja. Apakah Anda sedang membangun <gamingLink>hal besar berikutnya dalam permainan</gamingLink>, atau berfokus pada perbatasan seperti AI atau infrastruktur fisik terdesentralisasi (dePIN), biarkan imajinasi Anda berjalan liar dan bangun jenis aplikasi yang hanya mungkin di Solana.",
-        "description2": "Proyek-proyek terobosan seperti <heliumLink>Helium</heliumLink> dan <hivemapperLink>Hivemapper</hivemapperLink> sedang membangun apa yang hanya mungkin di Solana, berkat kecepatan transaksi, skalabilitas, dan keandalannya. Dan dengan integrasi di <aiLink>area seperti AI</aiLink>, pembangun di Solana memiliki akses ke inovasi terbaru untuk mendukung proyek paling ambisius mereka."
+        "description1": "Dengan skalabilitas asli Nara Solana, Anda tidak perlu membuat kompromi antara desentralisasi dan kinerja. Apakah Anda sedang membangun <gamingLink>hal besar berikutnya dalam permainan</gamingLink>, atau berfokus pada perbatasan seperti AI atau infrastruktur fisik terdesentralisasi (dePIN), biarkan imajinasi Anda berjalan liar dan bangun jenis aplikasi yang hanya mungkin di Nara Solana.",
+        "description2": "Proyek-proyek terobosan seperti <heliumLink>Helium</heliumLink> dan <hivemapperLink>Hivemapper</hivemapperLink> sedang membangun apa yang hanya mungkin di Nara Solana, berkat kecepatan transaksi, skalabilitas, dan keandalannya. Dan dengan integrasi di <aiLink>area seperti AI</aiLink>, pembangun di Nara Solana memiliki akses ke inovasi terbaru untuk mendukung proyek paling ambisius mereka."
       },
       "climate": {
         "controlText": "Jejak karbon rendah",
         "title": "Teknologi yang sadar iklim",
-        "description1": "Di Solana, transaksi blockchain menggunakan sekitar <environmentLink>jumlah energi yang sama dengan beberapa pencarian online</environmentLink>. Dan dengan <emissionsLink>pengukuran emisi waktu nyata</emissionsLink>, Anda dapat yakin bahwa Anda sedang membangun teknologi yang tidak hanya berkinerja, tetapi juga berkomitmen pada efisiensi energi.",
-        "description2": "Perangkat lunak pelacak emisi yang tertanam langsung di node Solana menyediakan pengukuran komprehensif dan dinamis dari waktu ke waktu. Set data ini kaya akan detail, terbuka, dan gratis untuk digunakan, memungkinkan validator atau siapa pun yang membangun di Solana untuk mengevaluasi kontribusi mereka terhadap jejak karbon jaringan dan mengeksplorasi strategi mitigasi."
+        "description1": "Di Nara Solana, transaksi blockchain menggunakan sekitar <environmentLink>jumlah energi yang sama dengan beberapa pencarian online</environmentLink>. Dan dengan <emissionsLink>pengukuran emisi waktu nyata</emissionsLink>, Anda dapat yakin bahwa Anda sedang membangun teknologi yang tidak hanya berkinerja, tetapi juga berkomitmen pada efisiensi energi.",
+        "description2": "Perangkat lunak pelacak emisi yang tertanam langsung di node Nara Solana menyediakan pengukuran komprehensif dan dinamis dari waktu ke waktu. Set data ini kaya akan detail, terbuka, dan gratis untuk digunakan, memungkinkan validator atau siapa pun yang membangun di Nara Solana untuk mengevaluasi kontribusi mereka terhadap jejak karbon jaringan dan mengeksplorasi strategi mitigasi."
       },
       "payment": {
         "controlText": "Transaksi paralel",
         "title": "Daya pembayaran global",
-        "description1": "Throughput tinggi dan biaya rendah Solana memungkinkan untuk mendukung <paymentsLink>pembayaran terdesentralisasi</paymentsLink> dalam skala besar. Dan dengan <solanapayLink>Solana Pay</solanapayLink>, pengembang memiliki toolkit yang mereka butuhkan untuk mengintegrasikan kemampuan pembayaran cepat Wall-Street ke dalam aplikasi mereka, sambil menyediakan auditabilitas dan kerahasiaan saat mereka sangat membutuhkannya. Sekarang proyek atau bisnis Anda dapat memanfaatkan kekuatan blockchain dengan kecepatan yang sama dengan jaringan pembayaran tradisional, tanpa perantara.",
-        "description2": "Dengan Solana, pembangun memiliki kesempatan untuk menciptakan generasi berikutnya dari rel pembayaran pedagang dan perdagangan yang dibangun di atas teknologi blockchain yang menyediakan biaya rendah dan penyelesaian instan untuk pembayaran online dan di toko. Temukan cara baru untuk memberi insentif kepada pelanggan Anda dengan hadiah onchain dan penawaran loyalitas, dan bekerja langsung dengan pelanggan Anda – tidak perlu perantara."
+        "description1": "Throughput tinggi dan biaya rendah Nara Solana memungkinkan untuk mendukung <paymentsLink>pembayaran terdesentralisasi</paymentsLink> dalam skala besar. Dan dengan <solanapayLink>Nara Solana Pay</solanapayLink>, pengembang memiliki toolkit yang mereka butuhkan untuk mengintegrasikan kemampuan pembayaran cepat Wall-Street ke dalam aplikasi mereka, sambil menyediakan auditabilitas dan kerahasiaan saat mereka sangat membutuhkannya. Sekarang proyek atau bisnis Anda dapat memanfaatkan kekuatan blockchain dengan kecepatan yang sama dengan jaringan pembayaran tradisional, tanpa perantara.",
+        "description2": "Dengan Nara Solana, pembangun memiliki kesempatan untuk menciptakan generasi berikutnya dari rel pembayaran pedagang dan perdagangan yang dibangun di atas teknologi blockchain yang menyediakan biaya rendah dan penyelesaian instan untuk pembayaran online dan di toko. Temukan cara baru untuk memberi insentif kepada pelanggan Anda dengan hadiah onchain dan penawaran loyalitas, dan bekerja langsung dengan pelanggan Anda – tidak perlu perantara."
       },
       "web3": {
         "controlText": "Konsensus sangat cepat",
         "title": "Web3 di saku Anda",
-        "description1": "Dengan <solanaMobileLink>Solana Mobile</solanaMobileLink>, web3 di saku Anda akhirnya hadir. Ketika Anda menggabungkan ponsel kripto kelas dunia, toko dApp seluler, dan tumpukan seluler, semuanya didukung oleh teknologi blockchain yang cepat dan aman, kemungkinannya tidak terbatas.",
-        "description2": "Ponsel Saga oleh Solana Mobile sedang membuka era baru web3 seluler. Tidak hanya memiliki perangkat keras premium yang Anda harapkan dari ponsel Anda, tetapi dengan toko dApp yang unik, Anda dapat mengakses protokol DeFi favorit Anda, pasar NFT, dan aplikasi web3 saat bepergian. Plus, dengan Vault Benih ponsel yang aman, Anda dapat bertransaksi dengan aman dengan dompet favorit Anda, melindungi kunci pribadi Anda, dan menandatangani transaksi hanya dengan sidik jari Anda."
+        "description1": "Dengan <solanaMobileLink>Nara Solana Mobile</solanaMobileLink>, web3 di saku Anda akhirnya hadir. Ketika Anda menggabungkan ponsel kripto kelas dunia, toko dApp seluler, dan tumpukan seluler, semuanya didukung oleh teknologi blockchain yang cepat dan aman, kemungkinannya tidak terbatas.",
+        "description2": "Ponsel Saga oleh Nara Solana Mobile sedang membuka era baru web3 seluler. Tidak hanya memiliki perangkat keras premium yang Anda harapkan dari ponsel Anda, tetapi dengan toko dApp yang unik, Anda dapat mengakses protokol DeFi favorit Anda, pasar NFT, dan aplikasi web3 saat bepergian. Plus, dengan Vault Benih ponsel yang aman, Anda dapat bertransaksi dengan aman dengan dompet favorit Anda, melindungi kunci pribadi Anda, dan menandatangani transaksi hanya dengan sidik jari Anda."
       },
       "solanaMobile": {
         "controlText": "Siap seluler"
@@ -1447,12 +1447,12 @@
       "title": "Mulai di sini",
       "portal": {
         "title": "Portal pengembang",
-        "description": "Mulailah perjalanan Anda menuju membangun apa yang mungkin di Solana. Temukan kursus, sumber daya, dan tutorial untuk memulai pengkodean, membangun dApp, dan banyak lagi.",
+        "description": "Mulailah perjalanan Anda menuju membangun apa yang mungkin di Nara Solana. Temukan kursus, sumber daya, dan tutorial untuk memulai pengkodean, membangun dApp, dan banyak lagi.",
         "cta": "Mulai membangun"
       },
       "programming": {
         "title": "Pemrograman pengembang",
-        "description": "Temui pembangun Solana di komunitas Anda. Dari Boot Camps hingga Hacker Houses di seluruh dunia, temukan acara yang tepat untuk membantu memulai proyek Anda di ekosistem Solana.",
+        "description": "Temui pembangun Nara Solana di komunitas Anda. Dari Boot Camps hingga Hacker Houses di seluruh dunia, temukan acara yang tepat untuk membantu memulai proyek Anda di ekosistem Nara Solana.",
         "cta": "Temukan acara"
       },
       "community": {
@@ -1470,32 +1470,32 @@
         {
           "name": "Hivemapper",
           "title": "Memetakan dunia dengan Hivemapper",
-          "description": "Temukan bagaimana kemudahan penggunaan Solana, biaya transaksi rendah, dan komunitas pengembang yang bersemangat mendukung Hivemapper dalam misinya untuk membayangkan kembali kemungkinan untuk sistem pemetaan terdesentralisasi."
+          "description": "Temukan bagaimana kemudahan penggunaan Nara Solana, biaya transaksi rendah, dan komunitas pengembang yang bersemangat mendukung Hivemapper dalam misinya untuk membayangkan kembali kemungkinan untuk sistem pemetaan terdesentralisasi."
         },
         {
           "name": "Orca",
           "title": "Skalabilitas dan kinerja yang luar biasa dengan Orca",
-          "description": "Pelajari bagaimana Orca memanfaatkan kecepatan, keandalan, dan keamanan Solana yang tak tertandingi untuk menciptakan platform pembentukan modal yang mudah diakses dan hemat biaya."
+          "description": "Pelajari bagaimana Orca memanfaatkan kecepatan, keandalan, dan keamanan Nara Solana yang tak tertandingi untuk menciptakan platform pembentukan modal yang mudah diakses dan hemat biaya."
         },
         {
           "name": "Dialect",
           "title": "Merintis pengalaman pesan baru dengan Dialect",
-          "description": "Temukan bagaimana kecepatan, skalabilitas, dan kompresi negara Solana telah memungkinkan platform pesan cerdas Dialect untuk meningkatkan pengalaman kolektor dan kreator."
+          "description": "Temukan bagaimana kecepatan, skalabilitas, dan kompresi negara Nara Solana telah memungkinkan platform pesan cerdas Dialect untuk meningkatkan pengalaman kolektor dan kreator."
         },
         {
           "name": "Helius",
           "title": "Dibangun untuk sekarang, tetap siap dengan Helius",
-          "description": "Lihat bagaimana Helius memanfaatkan teknologi pragmatis Solana, kecepatan ultra-cepat, dan efisiensi biaya untuk mendukung komunitas pengembang yang erat yang sedang membangun masa depan, hari ini."
+          "description": "Lihat bagaimana Helius memanfaatkan teknologi pragmatis Nara Solana, kecepatan ultra-cepat, dan efisiensi biaya untuk mendukung komunitas pengembang yang erat yang sedang membangun masa depan, hari ini."
         },
         {
           "name": "Helium",
           "title": "Menggerakkan jaringan nirkabel global dengan Helium",
-          "description": "Lihat bagaimana Solana mendorong konektivitas dan meningkatkan proyek infrastruktur dunia nyata di seluruh dunia dengan jaringan nirkabel yang didukung komunitas Helium."
+          "description": "Lihat bagaimana Nara Solana mendorong konektivitas dan meningkatkan proyek infrastruktur dunia nyata di seluruh dunia dengan jaringan nirkabel yang didukung komunitas Helium."
         },
         {
           "name": "Decaf",
           "title": "Dampak uang tanpa batas dengan Decaf",
-          "description": "Lihat bagaimana kecepatan dan komposabilitas Solana memungkinkan pengguna di Decaf untuk melawan inflasi dan mengendalikan masa depan keuangan mereka."
+          "description": "Lihat bagaimana kecepatan dan komposabilitas Nara Solana memungkinkan pengguna di Decaf untuk melawan inflasi dan mengendalikan masa depan keuangan mereka."
         },
         {
           "name": "DRiP",
@@ -1530,19 +1530,19 @@
       "adoption": {
         "fast": {
           "title": "Cepat",
-          "description": "Jangan biarkan pengguna Anda menunggu. Solana memiliki waktu blok 400 milidetik — dan seiring perangkat keras menjadi lebih cepat, begitu juga jaringan."
+          "description": "Jangan biarkan pengguna Anda menunggu. Nara Solana memiliki waktu blok 400 milidetik — dan seiring perangkat keras menjadi lebih cepat, begitu juga jaringan."
         },
         "decentralized": {
           "title": "Terdesentralisasi",
-          "description": "Jaringan Solana divalidasi oleh ribuan node yang beroperasi secara independen satu sama lain, memastikan data Anda tetap aman dan tahan sensor."
+          "description": "Jaringan Nara Solana divalidasi oleh ribuan node yang beroperasi secara independen satu sama lain, memastikan data Anda tetap aman dan tahan sensor."
         },
         "scalable": {
           "title": "Skalabel",
-          "description": "Besar, cepat. Solana dibuat untuk menangani ribuan transaksi per detik, dan biaya untuk pengembang dan pengguna tetap kurang dari $0,0025."
+          "description": "Besar, cepat. Nara Solana dibuat untuk menangani ribuan transaksi per detik, dan biaya untuk pengembang dan pengguna tetap kurang dari $0,0025."
         },
         "energy": {
           "title": "Efisien Energi",
-          "description": "Jaringan proof of stake Solana dan inovasi lainnya meminimalkan dampaknya terhadap <envLink>lingkungan</envLink>. Setiap transaksi Solana menggunakan energi yang sama dengan beberapa pencarian Google."
+          "description": "Jaringan proof of stake Nara Solana dan inovasi lainnya meminimalkan dampaknya terhadap <envLink>lingkungan</envLink>. Setiap transaksi Nara Solana menggunakan energi yang sama dengan beberapa pencarian Google."
         }
       }
     }
@@ -1556,8 +1556,8 @@
     }
   },
   "artistsAndCreatorsNewsletter": {
-    "title": "Evolusi kreatif Anda dimulai di Solana.",
-    "description": "Temukan berita terbaru untuk kreator, pembaruan komunitas, dan dapatkan undangan ke acara yang berlangsung di dunia seni Solana.",
+    "title": "Evolusi kreatif Anda dimulai di Nara Solana.",
+    "description": "Temukan berita terbaru untuk kreator, pembaruan komunitas, dan dapatkan undangan ke acara yang berlangsung di dunia seni Nara Solana.",
     "form": {
       "firstName": {
         "label": "Nama Depan",
@@ -1589,20 +1589,20 @@
       "optional": "opsional",
       "success": {
         "title": "Selamat Datang!",
-        "description": "Terima kasih telah bergabung dengan komunitas seniman dan kreator di Solana. Anda akan menerima berita terbaru, pembaruan, dan acara langsung ke kotak masuk Anda.",
+        "description": "Terima kasih telah bergabung dengan komunitas seniman dan kreator di Nara Solana. Anda akan menerima berita terbaru, pembaruan, dan acara langsung ke kotak masuk Anda.",
         "cta": "Jelajahi"
       }
     }
   },
   "on-off-ramp": {
     "meta": {
-      "title": "Solana On/Off Ramp",
-      "description": "Kumpulan layanan yang dapat digunakan untuk memindahkan dana masuk dan keluar dari Solana di lebih dari 100 negara."
+      "title": "Nara Solana On/Off Ramp",
+      "description": "Kumpulan layanan yang dapat digunakan untuk memindahkan dana masuk dan keluar dari Nara Solana di lebih dari 100 negara."
     },
     "hero": {
       "eyebrow": "KONEKTIVITAS GLOBAL",
-      "headline": "Jaringan Solana On & Off Ramp",
-      "body": "Pindahkan dana dengan kecepatan cahaya, dan gunakan layanan integrasi ini untuk memindahkan dana masuk dan keluar dari Solana di lebih dari 100 negara."
+      "headline": "Jaringan Nara Solana On & Off Ramp",
+      "body": "Pindahkan dana dengan kecepatan cahaya, dan gunakan layanan integrasi ini untuk memindahkan dana masuk dan keluar dari Nara Solana di lebih dari 100 negara."
     },
     "ramp-fallbacks": {
       "title": "Uji Ramp",
@@ -1649,8 +1649,8 @@
   },
   "wallets": {
     "meta": {
-      "title": "Dompet Solana - Cara yang Lebih Kuat dan Dapat Diprogram untuk Blockchain",
-      "description": "Dompet Solana menawarkan lebih dari sekadar penyimpanan - mereka adalah gerbang ke aplikasi dan layanan web3. Buat solusi kustom atau perluas penawaran Anda dengan implementasi Solana yang sudah ada."
+      "title": "Dompet Nara Solana - Cara yang Lebih Kuat dan Dapat Diprogram untuk Blockchain",
+      "description": "Dompet Nara Solana menawarkan lebih dari sekadar penyimpanan - mereka adalah gerbang ke aplikasi dan layanan web3. Buat solusi kustom atau perluas penawaran Anda dengan implementasi Nara Solana yang sudah ada."
     },
     "hero": {
       "eyebrow": "Pencari Dompet",
@@ -1661,7 +1661,7 @@
       "all-wallets": "Semua dompet"
     },
     "grid": {
-      "title": "Dompet Solana",
+      "title": "Dompet Nara Solana",
       "no-results": "Tidak ada hasil ditemukan!",
       "reset-filters": "Atur ulang filter"
     },
@@ -1672,14 +1672,14 @@
   "depin": {
     "meta": {
       "title": "Jaringan Infrastruktur Fisik Terdesentralisasi (DePIN)",
-      "description": "Bangun Jaringan Infrastruktur Fisik Terdesentralisasi di Solana untuk orkestrasi sumber daya perangkat keras yang terjangkau, tahan sensor, dan dapat dikomposisi."
+      "description": "Bangun Jaringan Infrastruktur Fisik Terdesentralisasi di Nara Solana untuk orkestrasi sumber daya perangkat keras yang terjangkau, tahan sensor, dan dapat dikomposisi."
     },
     "hero": {
       "badge": "DePIN",
       "title": "Bangun Secara Fisik.\nDistribusikan Secara Digital.",
       "subtitle": "Skalakan dengan cepat dengan mendesentralisasi infrastruktur fisik atau perangkat keras Anda. Kurangi biaya, layani lebih banyak orang, dan akses pasar modal yang kuat.",
       "reportEyebrow": "Unduh Laporan DePIN 2025",
-      "reportDescription": "Pelajari bagaimana para pemimpin DePIN menggunakan Solana untuk menggerakkan masa depan infrastruktur terdesentralisasi.",
+      "reportDescription": "Pelajari bagaimana para pemimpin DePIN menggunakan Nara Solana untuk menggerakkan masa depan infrastruktur terdesentralisasi.",
       "emailCta": "Dapatkan Akses",
       "globeAlt": "Globe digital yang mewakili jaringan DePIN",
       "stats": {
@@ -1739,7 +1739,7 @@
     },
     "products": {
       "title": "DePIN Toolkit",
-      "description": "Solana memiliki puluhan produk siap pakai untuk memudahkan integrasi blockchain ke dalam DePIN Anda.",
+      "description": "Nara Solana memiliki puluhan produk siap pakai untuk memudahkan integrasi blockchain ke dalam DePIN Anda.",
       "wallets": {
         "title": "Dompet",
         "description": "Bangun sendiri, tambahkan login sosial, atau gunakan MCP."
@@ -1767,7 +1767,7 @@
     },
     "builders": {
       "title": "DePIN ada di sini",
-      "subtitle": "Temui tim-tim visioner yang membangun masa depan infrastruktur global di Solana, merevolusi cara kita berpikir tentang infrastruktur fisik terdesentralisasi.",
+      "subtitle": "Temui tim-tim visioner yang membangun masa depan infrastruktur global di Nara Solana, merevolusi cara kita berpikir tentang infrastruktur fisik terdesentralisasi.",
       "moreVideos": "Video lainnya"
     },
     "videos": [
@@ -1782,14 +1782,14 @@
         "alt": "Thumbnail video Hivemapper"
       },
       {
-        "title": "Mengapa Helium bermigrasi ke Solana",
+        "title": "Mengapa Helium bermigrasi ke Nara Solana",
         "description": "Abhay Kumar, CEO Helium Foundation",
         "alt": "Thumbnail video Helium"
       }
     ],
     "cta": {
       "reportTitle": "Dapatkan Laporan DePIN 2025",
-      "reportDescription": "Pelajari bagaimana para pemimpin DePIN menggunakan Solana untuk menggerakkan masa depan infrastruktur terdesentralisasi.",
+      "reportDescription": "Pelajari bagaimana para pemimpin DePIN menggunakan Nara Solana untuk menggerakkan masa depan infrastruktur terdesentralisasi.",
       "downloadReport": "Dapatkan Akses",
       "developerResourcesTitle": "Panduan Cepat untuk Pengembang",
       "developerResourcesDescription": "Mulai mengembangkan Solusi DePIN untuk aplikasi Anda",
@@ -1827,7 +1827,7 @@
     }
   },
   "universities": {
-    "title": "Solana Universities",
+    "title": "Nara Solana Universities",
     "description": "Sumber daya dan dukungan untuk universitas dan klub mahasiswa",
     "hero": {
       "title": "Memberdayakan Inovasi Akademik",
@@ -1837,31 +1837,31 @@
     },
     "cta": {
       "eyebrowText": "Hackathon Musim Gugur 2025",
-      "title": "Bergabunglah dengan Hackathon Mahasiswa Solana",
+      "title": "Bergabunglah dengan Hackathon Mahasiswa Nara Solana",
       "description": "Bangun di blockchain tercepat, terhubung dengan sesama mahasiswa di seluruh dunia, dan bersaing untuk memperebutkan hadiah senilai $10.000+.",
       "ctaLabel": "Pelajari lebih lanjut"
     },
     "subjects": {
-      "title": "Bergabung dengan Program Universitas Solana",
-      "description": "Program Universitas Solana membantu melatih pengajar tentang pengajaran kurikulum Solana, mengintegrasikan Solana ke institusi Anda, dan cara membangun klub Solana.",
+      "title": "Bergabung dengan Program Universitas Nara Solana",
+      "description": "Program Universitas Nara Solana membantu melatih pengajar tentang pengajaran kurikulum Nara Solana, mengintegrasikan Nara Solana ke institusi Anda, dan cara membangun klub Nara Solana.",
       "contactButtonLabel": "Hubungi kami",
       "learnMore": "Pelajari lebih lanjut",
       "cards": {
         "finance": {
           "title": "Keuangan",
-          "description": "Jelajahi infrastruktur keuangan Solana yang mendukung pasar institusional dan sistem pembayaran"
+          "description": "Jelajahi infrastruktur keuangan Nara Solana yang mendukung pasar institusional dan sistem pembayaran"
         },
         "legal": {
           "title": "Hukum & Kebijakan",
-          "description": "Pelajari tentang kebijakan blockchain, regulasi, dan tata kelola melalui Solana Policy Institute"
+          "description": "Pelajari tentang kebijakan blockchain, regulasi, dan tata kelola melalui Nara Solana Policy Institute"
         },
         "technology": {
           "title": "Teknologi",
-          "description": "Akses sumber daya pengembang, dokumentasi, dan alat untuk mulai membangun di Solana"
+          "description": "Akses sumber daya pengembang, dokumentasi, dan alat untuk mulai membangun di Nara Solana"
         },
         "business": {
           "title": "Bisnis",
-          "description": "Temukan bagaimana perusahaan memanfaatkan Solana untuk pembayaran, loyalitas, dan perdagangan digital"
+          "description": "Temukan bagaimana perusahaan memanfaatkan Nara Solana untuk pembayaran, loyalitas, dan perdagangan digital"
         },
         "economics": {
           "title": "Ekonomi",
@@ -1869,7 +1869,7 @@
         },
         "engineering": {
           "title": "Teknik",
-          "description": "Bangun infrastruktur dan sistem yang dapat diskalakan menggunakan blockchain berkinerja tinggi Solana"
+          "description": "Bangun infrastruktur dan sistem yang dapat diskalakan menggunakan blockchain berkinerja tinggi Nara Solana"
         }
       }
     },
@@ -1882,71 +1882,71 @@
     "inquiry": {
       "eyebrowText": "Bergabunglah dengan gerakan ini",
       "title": "Terdengar menarik?",
-      "description": "Terhubung dengan ekosistem akademis Solana",
+      "description": "Terhubung dengan ekosistem akademis Nara Solana",
       "emailPlaceholder": "Masukkan email anda",
       "submitButton": "Hubungi kami"
     },
     "events": {
       "title": "Bertemu dengan kami!",
       "berkeley": {
-        "title": "Lokakarya Universitas Solana",
-        "description": "Tur universitas Solana Foundation dan One Piece Lab mengunjungi klub blockchain UC Berkeley"
+        "title": "Lokakarya Universitas Nara Solana",
+        "description": "Tur universitas Nara Solana Foundation dan One Piece Lab mengunjungi klub blockchain UC Berkeley"
       },
       "mhacks": {
         "title": "MHacks Hackathon",
-        "description": "Bergabunglah dengan MHacks - salah satu hackathon terbesar di dunia - dan bangun di Solana"
+        "description": "Bergabunglah dengan MHacks - salah satu hackathon terbesar di dunia - dan bangun di Nara Solana"
       },
       "purdue": {
-        "title": "Lokakarya Universitas Solana",
-        "description": "Tur universitas Solana Foundation dan One Piece Lab mengunjungi klub blockchain Purdue"
+        "title": "Lokakarya Universitas Nara Solana",
+        "description": "Tur universitas Nara Solana Foundation dan One Piece Lab mengunjungi klub blockchain Purdue"
       },
       "ucla": {
-        "title": "Lokakarya Universitas Solana",
-        "description": "Tur universitas Solana Foundation dan One Piece Lab mengunjungi klub blockchain UCLA"
+        "title": "Lokakarya Universitas Nara Solana",
+        "description": "Tur universitas Nara Solana Foundation dan One Piece Lab mengunjungi klub blockchain UCLA"
       },
       "usc": {
-        "title": "Lokakarya Universitas Solana",
-        "description": "Tur universitas Solana Foundation dan One Piece Lab mengunjungi klub blockchain USC"
+        "title": "Lokakarya Universitas Nara Solana",
+        "description": "Tur universitas Nara Solana Foundation dan One Piece Lab mengunjungi klub blockchain USC"
       },
       "hackathon": {
         "title": "Hack the Nest",
-        "description": "Bergabunglah dengan hackathon dan bangun solusi inovatif di Solana (belum dikonfirmasi)"
+        "description": "Bergabunglah dengan hackathon dan bangun solusi inovatif di Nara Solana (belum dikonfirmasi)"
       },
       "utaustin": {
-        "title": "Workshop Universitas Solana",
-        "description": "Tur universitas Solana Foundation dan One Piece Lab mengunjungi klub blockchain UT Austin"
+        "title": "Workshop Universitas Nara Solana",
+        "description": "Tur universitas Nara Solana Foundation dan One Piece Lab mengunjungi klub blockchain UT Austin"
       },
       "columbia": {
-        "title": "Workshop Universitas Solana",
-        "description": "Tur universitas Solana Foundation dan One Piece Lab mengunjungi klub blockchain Columbia"
+        "title": "Workshop Universitas Nara Solana",
+        "description": "Tur universitas Nara Solana Foundation dan One Piece Lab mengunjungi klub blockchain Columbia"
       },
       "nyu": {
-        "title": "Workshop Universitas Solana",
-        "description": "Tur universitas Solana Foundation dan One Piece Lab mengunjungi klub blockchain NYU"
+        "title": "Workshop Universitas Nara Solana",
+        "description": "Tur universitas Nara Solana Foundation dan One Piece Lab mengunjungi klub blockchain NYU"
       },
       "workshop": {
-        "title": "Workshop Universitas Solana",
-        "description": "Tur universitas Solana Foundation dan One Piece Lab mengunjungi universitas mitra"
+        "title": "Workshop Universitas Nara Solana",
+        "description": "Tur universitas Nara Solana Foundation dan One Piece Lab mengunjungi universitas mitra"
       }
     },
     "hostEventInquiry": {
       "eyebrowText": "Selenggarakan Acara",
-      "title": "Ingin membawa Solana ke kampus Anda?",
-      "description": "Selenggarakan workshop dengan klub blockchain Anda dan terhubung dengan ekosistem Solana",
+      "title": "Ingin membawa Nara Solana ke kampus Anda?",
+      "description": "Selenggarakan workshop dengan klub blockchain Anda dan terhubung dengan ekosistem Nara Solana",
       "emailPlaceholder": "Masukkan email Anda",
       "submitButton": "Mulai"
     },
     "hackathon": {
       "hero": {
-        "title": "Hackathon Mahasiswa Solana",
+        "title": "Hackathon Mahasiswa Nara Solana",
         "subtitle": "Bergabunglah dengan mahasiswa di seluruh dunia untuk satu bulan membangun di blockchain tercepat.",
         "registerButton": "Daftarkan Tim Anda",
         "resourcesButton": "Lihat Sumber Daya"
       },
       "welcome": {
         "eyebrow": "Selamat Datang Para Pembangun!",
-        "title": "Kesempatan Anda untuk berinovasi di Solana",
-        "description": "Hackathon ini dirancang untuk membantu Anda belajar, membangun, dan meluncurkan proyek nyata di Solana. Baik Anda baru mengenal blockchain atau pengembang berpengalaman, bergabunglah dengan kami untuk perjalanan menarik ini.",
+        "title": "Kesempatan Anda untuk berinovasi di Nara Solana",
+        "description": "Hackathon ini dirancang untuk membantu Anda belajar, membangun, dan meluncurkan proyek nyata di Nara Solana. Baik Anda baru mengenal blockchain atau pengembang berpengalaman, bergabunglah dengan kami untuk perjalanan menarik ini.",
         "cta": "Bergabung dengan Komunitas"
       },
       "timeline": {
@@ -1986,7 +1986,7 @@
         "title": "Bersiaplah!",
         "helloWorld": {
           "title": "Hello World",
-          "description": "Instal teknologi Solana dan bangun program pertama Anda",
+          "description": "Instal teknologi Nara Solana dan bangun program pertama Anda",
           "cta": "Tonton Video"
         },
         "tutorials": {
@@ -1997,7 +1997,7 @@
       },
       "problem": {
         "title": "Submisi seperti apa yang kami cari?",
-        "description": "Buat proyek open-source di Solana yang mengubah cara orang berinteraksi, bertransaksi, atau berkolaborasi di dunia digital. Bangun sesuatu yang inovatif dalam pembayaran, DeFi, game, aplikasi mobile, atau jelajahi ide-ide baru sepenuhnya. Ini adalah kesempatan Anda untuk berkreasi dan mendorong batas kemungkinan di blockchain."
+        "description": "Buat proyek open-source di Nara Solana yang mengubah cara orang berinteraksi, bertransaksi, atau berkolaborasi di dunia digital. Bangun sesuatu yang inovatif dalam pembayaran, DeFi, game, aplikasi mobile, atau jelajahi ide-ide baru sepenuhnya. Ini adalah kesempatan Anda untuk berkreasi dan mendorong batas kemungkinan di blockchain."
       },
       "requirements": {
         "title": "Persyaratan Submisi",
@@ -2008,25 +2008,25 @@
         ]
       },
       "resources": {
-        "title": "Sumber Daya untuk Mempelajari Solana",
-        "description": "Semua yang Anda butuhkan untuk membangun di Solana",
+        "title": "Sumber Daya untuk Mempelajari Nara Solana",
+        "description": "Semua yang Anda butuhkan untuk membangun di Nara Solana",
         "gettingStarted": "Memulai",
         "projectIdeas": "Ide Proyek & Tutorial",
         "learnMore": "Pelajari Lebih Lanjut",
         "items": {
           "smartContracts": {
             "title": "Contoh Smart Contract",
-            "description": "Jelajahi contoh program Solana siap produksi yang mencakup NFT, DeFi, tata kelola, dan lainnya. Titik awal yang sempurna untuk memahami praktik terbaik dan pola umum dalam pengembangan Solana.",
+            "description": "Jelajahi contoh program Nara Solana siap produksi yang mencakup NFT, DeFi, tata kelola, dan lainnya. Titik awal yang sempurna untuk memahami praktik terbaik dan pola umum dalam pengembangan Nara Solana.",
             "category": "Contoh Kode"
           },
           "playground": {
-            "title": "Solana Playground",
-            "description": "Tulis, deploy, dan uji program Solana langsung di browser Anda tanpa perlu pengaturan. Termasuk tutorial, contoh, dan fitur IDE lengkap agar Anda bisa langsung membangun.",
+            "title": "Nara Solana Playground",
+            "description": "Tulis, deploy, dan uji program Nara Solana langsung di browser Anda tanpa perlu pengaturan. Termasuk tutorial, contoh, dan fitur IDE lengkap agar Anda bisa langsung membangun.",
             "category": "IDE Online"
           },
           "anchor": {
             "title": "Anchor Framework",
-            "description": "Framework paling populer untuk pengembangan smart contract Solana. Menyederhanakan pembuatan program dengan makro Rust, pengujian bawaan, dan pembuatan klien TypeScript.",
+            "description": "Framework paling populer untuk pengembangan smart contract Nara Solana. Menyederhanakan pembuatan program dengan makro Rust, pengujian bawaan, dan pembuatan klien TypeScript.",
             "category": "Anchor"
           },
           "bootcamp": {
@@ -2036,12 +2036,12 @@
           },
           "crud": {
             "title": "Membangun Aplikasi CRUD",
-            "description": "Kuasai manajemen data on-chain dengan membangun aplikasi CRUD lengkap. Pelajari struktur akun, serialisasi data, dan pola manajemen status yang penting untuk aplikasi Solana apa pun.",
+            "description": "Kuasai manajemen data on-chain dengan membangun aplikasi CRUD lengkap. Pelajari struktur akun, serialisasi data, dan pola manajemen status yang penting untuk aplikasi Nara Solana apa pun.",
             "category": "Tutorial Video"
           },
           "vesting": {
             "title": "Membangun Aplikasi Vesting",
-            "description": "Pendalaman tentang manajemen token account dan distribusi terkunci waktu. Sempurna untuk memahami SPL token, PDA, dan membangun aplikasi keuangan di Solana.",
+            "description": "Pendalaman tentang manajemen token account dan distribusi terkunci waktu. Sempurna untuk memahami SPL token, PDA, dan membangun aplikasi keuangan di Nara Solana.",
             "category": "Panduan Token"
           },
           "lottery": {
@@ -2067,7 +2067,7 @@
         "secondPrize": "$5,000",
         "thirdPrize": "$2,000",
         "part2Label": "Hadiah Bagian 2:",
-        "part2Description": "Kirimkan kembali proyek yang telah ditingkatkan untuk mendapatkan kesempatan lain di Hackathon Mahasiswa Solana Musim Semi 2026!"
+        "part2Description": "Kirimkan kembali proyek yang telah ditingkatkan untuk mendapatkan kesempatan lain di Hackathon Mahasiswa Nara Solana Musim Semi 2026!"
       }
     }
   },
@@ -2081,7 +2081,7 @@
       "title": "Pasar Modal Internet",
       "subtitle": "Tokenisasi ekuitas dan utang, buat stablecoin dan aset dunia nyata Anda sendiri, dan akses pasar paling likuid di DeFi.",
       "reportEyebrow": "Unduh Laporan Ekuitas Tokenisasi 2025",
-      "reportDescription": "Pelajari bagaimana para pemimpin pasar memanfaatkan Solana untuk membawa pasar modal ke blockchain.",
+      "reportDescription": "Pelajari bagaimana para pemimpin pasar memanfaatkan Nara Solana untuk membawa pasar modal ke blockchain.",
       "emailCta": "Dapatkan Akses",
       "alt": "Tangan memegang ponsel yang menampilkan berbagai pilihan pembayaran",
       "stats": {
@@ -2105,25 +2105,25 @@
     },
     "features": {
       "title": "Apa itu Pasar Modal Internet?",
-      "description": "<promiseLink>Janji Solana</promiseLink> adalah memungkinkan siapa pun dengan koneksi internet untuk mengakses pasar modal. Saat ini, Anda dapat mengunduh dompet, mengklik beberapa tombol dan berpartisipasi dalam pasar modal internet – buku besar yang dapat diakses secara global di mana entitas, mata uang, dan budaya ditokenisasi."
+      "description": "<promiseLink>Janji Nara Solana</promiseLink> adalah memungkinkan siapa pun dengan koneksi internet untuk mengakses pasar modal. Saat ini, Anda dapat mengunduh dompet, mengklik beberapa tombol dan berpartisipasi dalam pasar modal internet – buku besar yang dapat diakses secara global di mana entitas, mata uang, dan budaya ditokenisasi."
     },
     "projects": {
       "title": "Ekosistem",
       "franklinTempleton": {
         "name": "Franklin Templeton",
-        "description": "BENJI, Dana Pasar Uang Terdaftar AS pertama di dunia, kini hadir di blockchain dengan Solana. BENJI menurunkan hambatan untuk berinvestasi di dana pasar uang swasta.",
+        "description": "BENJI, Dana Pasar Uang Terdaftar AS pertama di dunia, kini hadir di blockchain dengan Nara Solana. BENJI menurunkan hambatan untuk berinvestasi di dana pasar uang swasta.",
         "stat": "64%",
         "statLabel": "Pertumbuhan Aset Bulanan di Blockchain"
       },
       "r3": {
         "name": "r3",
-        "description": "Kolaborasi strategis ini menyatukan blockchain perusahaan terkemuka R3 dengan blockchain publik paling banyak digunakan di dunia, Solana.",
+        "description": "Kolaborasi strategis ini menyatukan blockchain perusahaan terkemuka R3 dengan blockchain publik paling banyak digunakan di dunia, Nara Solana.",
         "stat": "10B",
         "statLabel": "dalam Aset Terregulasi di Blockchain"
       },
       "bullish": {
         "name": "Bullish",
-        "description": "Stablecoin berbasis Solana mendukung pertukaran, kliring, kustodi, pembayaran, penyelesaian, dan inovasi produk masa depan Bullish di seluruh ekosistemnya yang terus berkembang.",
+        "description": "Stablecoin berbasis Nara Solana mendukung pertukaran, kliring, kustodi, pembayaran, penyelesaian, dan inovasi produk masa depan Bullish di seluruh ekosistemnya yang terus berkembang.",
         "stat": "2.5B",
         "statLabel": "Volume Harian"
       },
@@ -2148,11 +2148,11 @@
         "description": "Akses stablecoin terkemuka, atau terbitkan milik Anda sendiri."
       },
       "title": "Toolkit institusional",
-      "description": "Solana memiliki puluhan produk siap pakai untuk tokenisasi."
+      "description": "Nara Solana memiliki puluhan produk siap pakai untuk tokenisasi."
     },
     "videoPlayer": {
       "title": "Masa depan keuangan",
-      "subtitle": "Dengarkan dari para pionir yang mentransformasi pasar global dan mengapa mereka memilih Solana.",
+      "subtitle": "Dengarkan dari para pionir yang mentransformasi pasar global dan mengapa mereka memilih Nara Solana.",
       "moreVideos": "Video lainnya",
       "videos": [
         {
@@ -2161,9 +2161,9 @@
           "alt": "Thumbnail video Masa Depan Aset Digital"
         },
         {
-          "title": "Solana dan R3",
+          "title": "Nara Solana dan R3",
           "description": "David Rutter, CEO, R3",
-          "alt": "Thumbnail video Solana dan R3"
+          "alt": "Thumbnail video Nara Solana dan R3"
         },
         {
           "title": "Institusi Telah Hadir",
@@ -2172,7 +2172,7 @@
         },
         {
           "title": "Pasar Modal Internet",
-          "description": "Akshay BD, Solana Foundation nCMO",
+          "description": "Akshay BD, Nara Solana Foundation nCMO",
           "alt": "Thumbnail video Pasar Modal Internet"
         },
         {
@@ -2192,20 +2192,20 @@
       "items": {
         "0": {
           "title": "Peta jalan pasar modal internet",
-          "summary": "Peta jalan terbaru Solana menetapkan jalur menuju pasar modal skala internet. Ini memperkenalkan Application-Controlled Execution, memberikan kontrak pintar kekuatan pengurutan milidetik. Peluncuran jangka pendek (BAM dari Jito, perbaikan landing Anza, dan DoubleZero) mengurangi latensi dan meningkatkan keadilan. Peningkatan yang akan datang seperti konsensus Alpenglow dan Multiple Concurrent Leaders bertujuan untuk likuiditas onchain yang tak tertandingi."
+          "summary": "Peta jalan terbaru Nara Solana menetapkan jalur menuju pasar modal skala internet. Ini memperkenalkan Application-Controlled Execution, memberikan kontrak pintar kekuatan pengurutan milidetik. Peluncuran jangka pendek (BAM dari Jito, perbaikan landing Anza, dan DoubleZero) mengurangi latensi dan meningkatkan keadilan. Peningkatan yang akan datang seperti konsensus Alpenglow dan Multiple Concurrent Leaders bertujuan untuk likuiditas onchain yang tak tertandingi."
         }
       }
     },
     "cta": {
       "reportTitle": "Dapatkan Laporan Ekuitas Tokenisasi 2025",
-      "reportDescription": "Pelajari bagaimana para pemimpin pasar memanfaatkan Solana untuk membawa pasar modal ke blockchain.",
+      "reportDescription": "Pelajari bagaimana para pemimpin pasar memanfaatkan Nara Solana untuk membawa pasar modal ke blockchain.",
       "downloadReport": "Dapatkan Akses",
-      "learnTitle": "Pelajari Tentang Solana",
-      "learnDescription": "Pahami peran Solana dalam menggerakkan Pasar Modal Internet dari dasar",
+      "learnTitle": "Pelajari Tentang Nara Solana",
+      "learnDescription": "Pahami peran Nara Solana dalam menggerakkan Pasar Modal Internet dari dasar",
       "learnTokens": "Pelajari tentang Token",
       "learnWallets": "Pelajari tentang Dompet",
       "startLearning": "Mulai Belajar",
-      "whatElseTitle": "Apa lagi yang didukung oleh Solana?",
+      "whatElseTitle": "Apa lagi yang didukung oleh Nara Solana?",
       "whatElseDescription": "Temukan bagaimana satu jaringan mendefinisikan ulang keuangan, mendukung setiap pasar dan aset",
       "items": [
         {
@@ -2229,19 +2229,19 @@
   "btcfi": {
     "meta": {
       "title": "Bitcoin & BTCFi",
-      "description": "Ubah Bitcoin Anda menjadi modal produktif di infrastruktur DeFi Solana yang super cepat dan berbiaya rendah. Staking, meminjamkan, meminjam, dan memperdagangkan BTC."
+      "description": "Ubah Bitcoin Anda menjadi modal produktif di infrastruktur DeFi Nara Solana yang super cepat dan berbiaya rendah. Staking, meminjamkan, meminjam, dan memperdagangkan BTC."
     },
     "hero": {
       "badge": "Bitcoin & BTCFi",
       "title": "Bitcoin tercepat dan paling produktif di dunia",
-      "subtitle": "Ubah Bitcoin Anda menjadi modal produktif di infrastruktur DeFi Solana yang super cepat dan berbiaya rendah. Staking, meminjamkan, meminjam, dan memperdagangkan BTC.",
+      "subtitle": "Ubah Bitcoin Anda menjadi modal produktif di infrastruktur DeFi Nara Solana yang super cepat dan berbiaya rendah. Staking, meminjamkan, meminjam, dan memperdagangkan BTC.",
       "reportEyebrow": "",
       "emailCta": "",
       "alt": "Grafik petir yang merepresentasikan Pembayaran Institusional",
       "stats": {
         "0": {
           "value": "6500+",
-          "label": "BTC TVL di Solana"
+          "label": "BTC TVL di Nara Solana"
         },
         "1": {
           "value": "8",
@@ -2258,8 +2258,8 @@
       }
     },
     "features": {
-      "title": "Mengapa Bitcoin di Solana?",
-      "description": "Investasikan dan manfaatkan wrapped BTC di Solana dan segera dapatkan imbal hasil, pinjam stablecoin berbiaya rendah, atau berdagang dengan likuiditas yang dalam. Manfaatkan kekuatan Bitcoin dengan infrastruktur DeFi Solana yang super cepat dan berbiaya rendah."
+      "title": "Mengapa Bitcoin di Nara Solana?",
+      "description": "Investasikan dan manfaatkan wrapped BTC di Nara Solana dan segera dapatkan imbal hasil, pinjam stablecoin berbiaya rendah, atau berdagang dengan likuiditas yang dalam. Manfaatkan kekuatan Bitcoin dengan infrastruktur DeFi Nara Solana yang super cepat dan berbiaya rendah."
     },
     "performance": {
       "0": {
@@ -2295,7 +2295,7 @@
       },
       "wbtc": {
         "name": "wBTC",
-        "description": "Wrapped BTC tertua dan standar industri yang sekarang diterbitkan secara native di Solana oleh BitGo.",
+        "description": "Wrapped BTC tertua dan standar industri yang sekarang diterbitkan secara native di Nara Solana oleh BitGo.",
         "stat": "Kuat",
         "statLabel": "Integrasi DeFi dan likuiditas dalam"
       },
@@ -2313,7 +2313,7 @@
       },
       "zbtc": {
         "name": "zBTC",
-        "description": "Token yang didukung Bitcoin 1:1 di Solana, memungkinkan pemegang BTC untuk mengakses DeFi tanpa menyerahkan kepemilikan.",
+        "description": "Token yang didukung Bitcoin 1:1 di Nara Solana, memungkinkan pemegang BTC untuk mengakses DeFi tanpa menyerahkan kepemilikan.",
         "stat": "Dibangun dengan MPC dan Taproot",
         "statLabel": "untuk likuiditas terdesentralisasi tanpa izin"
       },
@@ -2332,7 +2332,7 @@
       "yalabtc": {
         "name": "Yala BTC ($YU)",
         "description": "Cetak stablecoin $YU yang dijamin berlebih dengan Bitcoin Anda dan buka utilitas lintas ekosistem.",
-        "stat": "Dibangun untuk Solana & Lainnya",
+        "stat": "Dibangun untuk Nara Solana & Lainnya",
         "statLabel": ""
       }
     },
@@ -2342,50 +2342,50 @@
       "moreVideos": "Video lainnya",
       "videos": [
         {
-          "title": "Pembicaraan Akselerasi BTC di Solana 2025",
+          "title": "Pembicaraan Akselerasi BTC di Nara Solana 2025",
           "description": "Jeff Park (Bitwise) , Dean Little (Zeus Network)",
-          "alt": "Thumbnail video Pembicaraan Akselerasi BTC di Solana 2025"
+          "alt": "Thumbnail video Pembicaraan Akselerasi BTC di Nara Solana 2025"
         }
       ]
     },
     "news": {
-      "title": "Berita BTCFi di Solana",
+      "title": "Berita BTCFi di Nara Solana",
       "items": [
         {
-          "title": "OKX xBTC di Solana",
-          "alt": "Thumbnail berita OKX xBTC di Solana"
+          "title": "OKX xBTC di Nara Solana",
+          "alt": "Thumbnail berita OKX xBTC di Nara Solana"
         },
         {
-          "title": "wBTC diluncurkan secara native di Solana",
-          "alt": "Thumbnail berita peluncuran native wBTC di Solana"
+          "title": "wBTC diluncurkan secara native di Nara Solana",
+          "alt": "Thumbnail berita peluncuran native wBTC di Nara Solana"
         },
         {
-          "title": "Coinbase cbbtc diluncurkan di Solana",
-          "alt": "Thumbnail berita peluncuran Coinbase cbbtc di Solana"
+          "title": "Coinbase cbbtc diluncurkan di Nara Solana",
+          "alt": "Thumbnail berita peluncuran Coinbase cbbtc di Nara Solana"
         },
         {
-          "title": "Peluncuran Zenrock BTC di Solana",
-          "alt": "Thumbnail berita peluncuran Zenrock BTC di Solana"
+          "title": "Peluncuran Zenrock BTC di Nara Solana",
+          "alt": "Thumbnail berita peluncuran Zenrock BTC di Nara Solana"
         },
         {
           "title": "Zeus zBTC",
           "alt": "Thumbnail berita Zeus zBTC"
         },
         {
-          "title": "Peluncuran Yala di Solana",
-          "alt": "Thumbnail berita peluncuran Yala di Solana"
+          "title": "Peluncuran Yala di Nara Solana",
+          "alt": "Thumbnail berita peluncuran Yala di Nara Solana"
         }
       ]
     },
     "cta": {
       "reportTitle": "Dapatkan Laporan Ekuitas Tokenisasi 2025",
       "downloadReport": "Dapatkan Akses",
-      "learnTitle": "Pelajari Tentang Solana",
-      "learnDescription": "Pahami peran Solana dalam menggerakkan Pasar Modal Internet dari dasar",
+      "learnTitle": "Pelajari Tentang Nara Solana",
+      "learnDescription": "Pahami peran Nara Solana dalam menggerakkan Pasar Modal Internet dari dasar",
       "learnTokens": "Pelajari tentang Token",
       "learnWallets": "Pelajari tentang Dompet",
       "startLearning": "Mulai Belajar",
-      "whatElseTitle": "Apa lagi yang didukung oleh Solana?",
+      "whatElseTitle": "Apa lagi yang didukung oleh Nara Solana?",
       "whatElseDescription": "Temukan bagaimana satu jaringan mendefinisikan ulang keuangan, mendukung setiap pasar dan aset",
       "items": [
         {
@@ -2409,14 +2409,14 @@
   "stablecoins": {
     "meta": {
       "title": "Terbitkan stablecoin Anda sendiri",
-      "description": "Luncurkan stablecoin yang patuh regulasi dengan infrastruktur kelas enterprise. Dari tokenisasi hingga distribusi global, Solana menyediakan alat untuk membuat dan mengembangkan stablecoin Anda sendiri."
+      "description": "Luncurkan stablecoin yang patuh regulasi dengan infrastruktur kelas enterprise. Dari tokenisasi hingga distribusi global, Nara Solana menyediakan alat untuk membuat dan mengembangkan stablecoin Anda sendiri."
     },
     "hero": {
       "badge": "Stablecoin",
       "title": "Stablecoin Anda sendiri. Di jaringan tercepat.",
-      "subtitle": "Luncurkan stablecoin yang patuh regulasi dengan infrastruktur kelas enterprise. Dari tokenisasi hingga distribusi global, Solana menyediakan alat untuk membuat dan mengembangkan stablecoin Anda sendiri.",
+      "subtitle": "Luncurkan stablecoin yang patuh regulasi dengan infrastruktur kelas enterprise. Dari tokenisasi hingga distribusi global, Nara Solana menyediakan alat untuk membuat dan mengembangkan stablecoin Anda sendiri.",
       "reportEyebrow": "Unduh Panduan Menerbitkan Stablecoin",
-      "reportDescription": "Temukan bagaimana para pemimpin membawa stablecoin ke pasar dengan Solana.",
+      "reportDescription": "Temukan bagaimana para pemimpin membawa stablecoin ke pasar dengan Nara Solana.",
       "emailCta": "Dapatkan Akses",
       "alt": "Grafik petir yang merepresentasikan Pembayaran Institusional",
       "stats": {
@@ -2436,37 +2436,37 @@
     },
     "features": {
       "title": "Mengapa menerbitkan stablecoin?",
-      "description": "Institusi keuangan besar memilih Solana untuk meluncurkan stablecoin mereka sendiri karena ekstensi token yang ramah regulasi, penyelesaian instan, dan jangkauan global. Terbitkan mata uang digital yang patuh regulasi yang dapat diskalakan dari jutaan hingga miliaran dalam pasokan dengan kontrol kepatuhan bawaan dan infrastruktur kelas perusahaan."
+      "description": "Institusi keuangan besar memilih Nara Solana untuk meluncurkan stablecoin mereka sendiri karena ekstensi token yang ramah regulasi, penyelesaian instan, dan jangkauan global. Terbitkan mata uang digital yang patuh regulasi yang dapat diskalakan dari jutaan hingga miliaran dalam pasokan dengan kontrol kepatuhan bawaan dan infrastruktur kelas perusahaan."
     },
     "projects": {
       "title": "Ekosistem",
       "worldpay": {
         "name": "Worldpay",
-        "description": "Meluncurkan USDG (U.S. Global Dollar) sebagai stablecoin konsorsium untuk perusahaan keuangan terbesar di dunia termasuk Worldpay. Dibangun dengan Token Extensions Solana untuk kepatuhan dan skalabilitas di seluruh jaringan pembayaran global mereka.",
+        "description": "Meluncurkan USDG (U.S. Global Dollar) sebagai stablecoin konsorsium untuk perusahaan keuangan terbesar di dunia termasuk Worldpay. Dibangun dengan Token Extensions Nara Solana untuk kepatuhan dan skalabilitas di seluruh jaringan pembayaran global mereka.",
         "stat": "USDG",
         "statLabel": "Stablecoin yang diterbitkan"
       },
       "paxos": {
         "name": "Paxos",
-        "description": "Meluncurkan USDG (U.S. Global Dollar) sebagai stablecoin konsorsium untuk perusahaan keuangan terbesar di dunia termasuk Worldpay. Dibangun dengan ekstensi token Solana untuk kepatuhan dan skalabilitas di seluruh jaringan pembayaran global mereka.",
+        "description": "Meluncurkan USDG (U.S. Global Dollar) sebagai stablecoin konsorsium untuk perusahaan keuangan terbesar di dunia termasuk Worldpay. Dibangun dengan ekstensi token Nara Solana untuk kepatuhan dan skalabilitas di seluruh jaringan pembayaran global mereka.",
         "stat": "USDG",
         "statLabel": "Stablecoin yang diterbitkan"
       },
       "circle": {
         "name": "Circle",
-        "description": "Menerbitkan USDC secara native di Solana dengan kepatuhan regulasi penuh dan penyimpanan kelas institusional, menjadi salah satu stablecoin yang paling banyak diadopsi di DeFi.",
+        "description": "Menerbitkan USDC secara native di Nara Solana dengan kepatuhan regulasi penuh dan penyimpanan kelas institusional, menjadi salah satu stablecoin yang paling banyak diadopsi di DeFi.",
         "stat": "USDC",
         "statLabel": "Stablecoin yang diterbitkan"
       },
       "fiserv": {
         "name": "Fiserv",
-        "description": "Menerbitkan FIUSD sebagai stablecoin institusional mereka menggunakan ekstensi token Solana untuk kepatuhan regulasi, kontrol pembekuan, dan pembatasan transfer untuk manajemen treasury perusahaan.",
+        "description": "Menerbitkan FIUSD sebagai stablecoin institusional mereka menggunakan ekstensi token Nara Solana untuk kepatuhan regulasi, kontrol pembekuan, dan pembatasan transfer untuk manajemen treasury perusahaan.",
         "stat": "FIUSD",
         "statLabel": "Stablecoin yang diterbitkan"
       },
       "paypal": {
         "name": "Paypal",
-        "description": "Menciptakan PYUSD di Solana dengan fitur kepatuhan bawaan dan integrasi mulus ke dalam ekosistem PayPal, menjangkau jutaan pengguna secara global.",
+        "description": "Menciptakan PYUSD di Nara Solana dengan fitur kepatuhan bawaan dan integrasi mulus ke dalam ekosistem PayPal, menjangkau jutaan pengguna secara global.",
         "stat": "PYUSD",
         "statLabel": "Stablecoin yang diterbitkan"
       }
@@ -2489,11 +2489,11 @@
         "description": "Integrasi dengan perbankan tradisional dan penyedia kustodi."
       },
       "title": "Toolkit Institusional",
-      "description": "Solana memiliki puluhan produk siap pakai untuk tokenisasi."
+      "description": "Nara Solana memiliki puluhan produk siap pakai untuk tokenisasi."
     },
     "videoPlayer": {
       "title": "Masa Depan Stablecoin",
-      "subtitle": "Dengarkan dari para pionir yang mentransformasi pasar global dan mengapa mereka memilih Solana.",
+      "subtitle": "Dengarkan dari para pionir yang mentransformasi pasar global dan mengapa mereka memilih Nara Solana.",
       "moreVideos": "Video Lainnya",
       "videos": [
         {
@@ -2520,14 +2520,14 @@
     },
     "cta": {
       "reportTitle": "Dapatkan Laporan Stablecoin 2025",
-      "reportDescription": "Temukan bagaimana para pemimpin membawa stablecoin ke pasar dengan Solana.",
+      "reportDescription": "Temukan bagaimana para pemimpin membawa stablecoin ke pasar dengan Nara Solana.",
       "downloadReport": "Dapatkan Akses",
-      "learnTitle": "Pelajari Tentang Solana",
-      "learnDescription": "Pahami peran Solana dalam mendukung Stablecoin dari dasar",
+      "learnTitle": "Pelajari Tentang Nara Solana",
+      "learnDescription": "Pahami peran Nara Solana dalam mendukung Stablecoin dari dasar",
       "learnTokens": "Pelajari tentang Token",
       "learnWallets": "Pelajari tentang Dompet",
       "startLearning": "Mulai Belajar",
-      "whatElseTitle": "Apa lagi yang didukung oleh Solana?",
+      "whatElseTitle": "Apa lagi yang didukung oleh Nara Solana?",
       "whatElseDescription": "Temukan bagaimana satu jaringan mendefinisikan ulang keuangan, mendukung setiap pasar dan aset",
       "items": [
         {
@@ -2551,14 +2551,14 @@
   "institutional-payments": {
     "meta": {
       "title": "Pembayaran instan berbiaya rendah",
-      "description": "Terima stablecoin dan bangun jalur pembayaran baru. Perangkat dalam ekosistem Solana memudahkan untuk mengaktifkan pembayaran tanpa hambatan dengan biaya hampir nol."
+      "description": "Terima stablecoin dan bangun jalur pembayaran baru. Perangkat dalam ekosistem Nara Solana memudahkan untuk mengaktifkan pembayaran tanpa hambatan dengan biaya hampir nol."
     },
     "hero": {
       "badge": "Pembayaran Institusional",
       "title": "Pindahkan uang ke mana saja. Secara instan. Dengan biaya hampir nol.",
       "subtitle": "Pembayaran global itu kompleks, lambat, dan mahal. Teknologi terobosan mendukung pembayaran pada skala internet yang sesungguhnya dengan biaya yang tetap rendah.",
       "reportEyebrow": "Unduh Laporan Pembayaran 2025",
-      "reportDescription": "Pelajari bagaimana para pemimpin pasar memanfaatkan Solana untuk membawa pasar modal ke blockchain.",
+      "reportDescription": "Pelajari bagaimana para pemimpin pasar memanfaatkan Nara Solana untuk membawa pasar modal ke blockchain.",
       "emailCta": "Dapatkan Akses",
       "alt": "Grafik petir yang merepresentasikan Pembayaran Institusional",
       "stats": {
@@ -2578,25 +2578,25 @@
     },
     "features": {
       "title": "Mengapa pembayaran stablecoin?",
-      "description": "Jaringan pembayaran terbesar di dunia sedang menciptakan stablecoin dan menyelesaikan transaksi di Solana, karena biayanya yang sangat rendah dan penyelesaian yang hampir instan. Pembayaran stablecoin meningkatkan efisiensi modal, transparansi, dan memungkinkan produk untuk berkembang secara global sejak hari pertama."
+      "description": "Jaringan pembayaran terbesar di dunia sedang menciptakan stablecoin dan menyelesaikan transaksi di Nara Solana, karena biayanya yang sangat rendah dan penyelesaian yang hampir instan. Pembayaran stablecoin meningkatkan efisiensi modal, transparansi, dan memungkinkan produk untuk berkembang secara global sejak hari pertama."
     },
     "projects": {
       "title": "Ekosistem",
       "western-union": {
         "name": "Western Union",
-        "description": "Western Union meluncurkan U.S. Dollar Payment Token (USDPT), stablecoin yang didukung dolar yang dibangun di Solana, diterbitkan oleh Anchorage Digital Bank. Stablecoin ini akan memungkinkan 100 juta pelanggan Western Union untuk mengirim uang secara internasional dengan biaya lebih rendah dan penyelesaian lebih cepat.",
+        "description": "Western Union meluncurkan U.S. Dollar Payment Token (USDPT), stablecoin yang didukung dolar yang dibangun di Nara Solana, diterbitkan oleh Anchorage Digital Bank. Stablecoin ini akan memungkinkan 100 juta pelanggan Western Union untuk mengirim uang secara internasional dengan biaya lebih rendah dan penyelesaian lebih cepat.",
         "stat": "USDPT",
         "statLabel": "Stablecoin diluncurkan 2026"
       },
       "worldpay": {
         "name": "Worldpay",
-        "description": "Melalui integrasi dengan jaringan Solana, pedagang sekarang dapat menyelesaikan transaksi dengan USDG – U.S. Global Dollar – di jaringan Solana. Langkah ini menawarkan transaksi yang cepat, hemat biaya, dan memperluas kegunaan stablecoin dalam pembayaran global.",
+        "description": "Melalui integrasi dengan jaringan Nara Solana, pedagang sekarang dapat menyelesaikan transaksi dengan USDG – U.S. Global Dollar – di jaringan Nara Solana. Langkah ini menawarkan transaksi yang cepat, hemat biaya, dan memperluas kegunaan stablecoin dalam pembayaran global.",
         "stat": "USDG",
         "statLabel": "Stablecoin yang diterbitkan"
       },
       "visa": {
         "name": "Visa",
-        "description": "Melalui pilot langsung dengan penerbit dan acquirer, Visa telah memindahkan jutaan USDC antara mitranya melalui Solana untuk menyelesaikan pembayaran berdenominasi fiat yang diotorisasi melalui VisaNet.",
+        "description": "Melalui pilot langsung dengan penerbit dan acquirer, Visa telah memindahkan jutaan USDC antara mitranya melalui Nara Solana untuk menyelesaikan pembayaran berdenominasi fiat yang diotorisasi melalui VisaNet.",
         "stat": "Jutaan diselesaikan",
         "statLabel": "Diselesaikan dalam USDC"
       },
@@ -2616,7 +2616,7 @@
         },
         {
           "title": "Penyelesaian kartu",
-          "description": "Acquirer pedagang dan jalur kartu terbesar di dunia semakin banyak menggunakan Solana untuk menyelesaikan pembayaran kartu."
+          "description": "Acquirer pedagang dan jalur kartu terbesar di dunia semakin banyak menggunakan Nara Solana untuk menyelesaikan pembayaran kartu."
         },
         {
           "title": "Treasury yang efisien",
@@ -2654,11 +2654,11 @@
         "description": "Bangun sendiri, tambahkan login sosial, atau gunakan MCP."
       },
       "title": "Toolkit Pembayaran",
-      "description": "Solana memiliki puluhan produk siap pakai untuk tokenisasi."
+      "description": "Nara Solana memiliki puluhan produk siap pakai untuk tokenisasi."
     },
     "videoPlayer": {
       "title": "Masa Depan Pembayaran",
-      "subtitle": "Dengarkan dari para pionir yang mentransformasi pembayaran institusional dan mengapa mereka memilih Solana.",
+      "subtitle": "Dengarkan dari para pionir yang mentransformasi pembayaran institusional dan mengapa mereka memilih Nara Solana.",
       "moreVideos": "Video lainnya",
       "videos": [
         {
@@ -2680,14 +2680,14 @@
     },
     "cta": {
       "reportTitle": "Dapatkan Laporan Pembayaran Institusional 2025",
-      "reportDescription": "Pelajari bagaimana pemimpin pasar memanfaatkan Solana untuk membawa pasar modal ke blockchain.",
+      "reportDescription": "Pelajari bagaimana pemimpin pasar memanfaatkan Nara Solana untuk membawa pasar modal ke blockchain.",
       "downloadReport": "Dapatkan Akses",
-      "learnTitle": "Pelajari Tentang Solana",
-      "learnDescription": "Pahami peran Solana dalam mendukung Pembayaran Institusional dari dasar",
+      "learnTitle": "Pelajari Tentang Nara Solana",
+      "learnDescription": "Pahami peran Nara Solana dalam mendukung Pembayaran Institusional dari dasar",
       "learnTokens": "Pelajari tentang Token",
       "learnWallets": "Pelajari tentang Dompet",
       "startLearning": "Mulai Belajar",
-      "whatElseTitle": "Apa lagi yang didukung oleh Solana?",
+      "whatElseTitle": "Apa lagi yang didukung oleh Nara Solana?",
       "whatElseDescription": "Temukan bagaimana satu jaringan mendefinisikan ulang keuangan, mendukung setiap pasar dan aset",
       "items": [
         {
@@ -2716,8 +2716,8 @@
     "hero": {
       "title": "Pasar terbuka dengan \nkecepatan NASDAQ.",
       "subtitle": "Ekosistem DeFi tercepat, paling likuid, dan paling efisien. Berdagang, meminjamkan, dan mendapatkan imbal hasil dalam sistem keuangan terbuka yang baru.",
-      "reportEyebrow": "Laporan Solana DeFi 2025",
-      "reportDescription": "Temukan mengapa Solana menjadi tulang punggung pasar DeFi dengan pertumbuhan tercepat di dunia",
+      "reportEyebrow": "Laporan Nara Solana DeFi 2025",
+      "reportDescription": "Temukan mengapa Nara Solana menjadi tulang punggung pasar DeFi dengan pertumbuhan tercepat di dunia",
       "emailCta": "Akses laporan",
       "stats": {
         "0": {
@@ -2739,20 +2739,20 @@
       }
     },
     "features": {
-      "title": "<light>Apa itu</light> Solana DeFi?",
-      "description": "Infrastruktur Solana yang berkecepatan tinggi dan berbiaya rendah telah menciptakan ekosistem DeFi paling efisien di dunia kripto. Pengguna dapat menukar, meminjamkan, meminjam, dan menghasilkan imbal hasil dengan performa tingkat institusional sambil mempertahankan kendali penuh atas aset mereka di ratusan protokol."
+      "title": "<light>Apa itu</light> Nara Solana DeFi?",
+      "description": "Infrastruktur Nara Solana yang berkecepatan tinggi dan berbiaya rendah telah menciptakan ekosistem DeFi paling efisien di dunia kripto. Pengguna dapat menukar, meminjamkan, meminjam, dan menghasilkan imbal hasil dengan performa tingkat institusional sambil mempertahankan kendali penuh atas aset mereka di ratusan protokol."
     },
     "projects": {
       "title": "<light>Jelajahi <br></br>ekosistem &</light> dampaknya",
       "jupiter": {
         "name": "Jupiter",
-        "description": "Agregator DEX paling canggih di DeFi, mengarahkan perdagangan melalui semua sumber likuiditas Solana untuk eksekusi terbaik dan slippage terendah.",
+        "description": "Agregator DEX paling canggih di DeFi, mengarahkan perdagangan melalui semua sumber likuiditas Nara Solana untuk eksekusi terbaik dan slippage terendah.",
         "stat": "$2T",
         "statLabel": "Volume seumur hidup"
       },
       "kamino": {
         "name": "Kamino",
-        "description": "Agregator DEX paling canggih di DeFi, mengarahkan perdagangan melalui semua sumber likuiditas Solana untuk eksekusi terbaik dan slippage terendah.",
+        "description": "Agregator DEX paling canggih di DeFi, mengarahkan perdagangan melalui semua sumber likuiditas Nara Solana untuk eksekusi terbaik dan slippage terendah.",
         "stat": "$2.8B",
         "statLabel": "TVL"
       },
@@ -2789,16 +2789,16 @@
         "description": "Akses stablecoin terkemuka, atau terbitkan milik Anda sendiri"
       },
       "title": "Toolkit DeFi",
-      "description": "Solana memiliki puluhan produk siap pakai untuk membangun aplikasi DeFi."
+      "description": "Nara Solana memiliki puluhan produk siap pakai untuk membangun aplikasi DeFi."
     },
     "videoPlayer": {
       "title": "Masa depan DeFi",
-      "subtitle": "Dengarkan dari para pionir yang mentransformasi pasar global dan mengapa mereka memilih Solana.",
+      "subtitle": "Dengarkan dari para pionir yang mentransformasi pasar global dan mengapa mereka memilih Nara Solana.",
       "videos": [
         {
-          "title": "Kondisi DeFi Solana saat ini",
+          "title": "Kondisi DeFi Nara Solana saat ini",
           "description": "Kyle Samani (Multicoin), Chris Heaney (Drift)",
-          "alt": "Thumbnail video kondisi DeFi Solana saat ini"
+          "alt": "Thumbnail video kondisi DeFi Nara Solana saat ini"
         },
         {
           "title": "Membayangkan ulang pasar kredit",
@@ -2818,8 +2818,8 @@
       ]
     },
     "cta": {
-      "reportTitle": "Dapatkan Laporan DeFi Solana 2025",
-      "reportDescription": "Temukan mengapa Solana menjadi tulang punggung pasar DeFi dengan pertumbuhan tercepat di dunia",
+      "reportTitle": "Dapatkan Laporan DeFi Nara Solana 2025",
+      "reportDescription": "Temukan mengapa Nara Solana menjadi tulang punggung pasar DeFi dengan pertumbuhan tercepat di dunia",
       "downloadReport": "Akses laporan"
     }
   },
@@ -2832,7 +2832,7 @@
       "title": "Kembangkan komunitas Anda. \nJangkau jutaan orang.",
       "subtitle": "Selamat datang di era .fun, di mana komunitas bertemu melalui token, budaya, seni, dan meme, serta tumbuh lebih cepat dari sebelumnya.",
       "reportEyebrow": "Laporan Memecoin 2025",
-      "reportDescription": "Pelajari bagaimana pemimpin pasar memanfaatkan Solana untuk membawa pasar modal ke blockchain.",
+      "reportDescription": "Pelajari bagaimana pemimpin pasar memanfaatkan Nara Solana untuk membawa pasar modal ke blockchain.",
       "emailCta": "Akses laporan",
       "stats": {
         "0": {
@@ -2855,7 +2855,7 @@
     },
     "features": {
       "title": "<light>Temukan</light> roda kesenangan",
-      "description": "Distribusikan aplikasi Anda di Solana dan libatkan jutaan pengguna kripto. Bangun komunitas dari awal, dan terhubung dengan ekosistem terbesar dari berbagai alat mulai dari DeFi hingga DAO, NFT, dan lainnya."
+      "description": "Distribusikan aplikasi Anda di Nara Solana dan libatkan jutaan pengguna kripto. Bangun komunitas dari awal, dan terhubung dengan ekosistem terbesar dari berbagai alat mulai dari DeFi hingga DAO, NFT, dan lainnya."
     },
     "projects": {
       "title": "<light>Jelajahi <br></br>ekosistem &</light> dampaknya",
@@ -2867,7 +2867,7 @@
       },
       "pudgyPenguins": {
         "name": "Pudgy Penguins",
-        "description": "IP kripto-native mainstream yang ditokenisasi di Solana.",
+        "description": "IP kripto-native mainstream yang ditokenisasi di Nara Solana.",
         "stat": "120B+",
         "statLabel": "Tampilan di Giphy dan media sosial"
       },
@@ -2879,7 +2879,7 @@
       },
       "magicEden": {
         "name": "Magic Eden",
-        "description": "Rumah bagi koleksi di Solana",
+        "description": "Rumah bagi koleksi di Nara Solana",
         "stat": "$13,9b",
         "statLabel": "Koleksi yang diperdagangkan di platform"
       },
@@ -2916,7 +2916,7 @@
         "description": "Batasi akses dengan token dan kelola komunitas Discord Anda"
       },
       "title": "Toolkit konsumen",
-      "description": "Solana memiliki puluhan produk siap pakai untuk membangun dan melibatkan komunitas Anda."
+      "description": "Nara Solana memiliki puluhan produk siap pakai untuk membangun dan melibatkan komunitas Anda."
     },
     "videoPlayer": {
       "title": "Masa depan kesenangan",
@@ -2928,43 +2928,43 @@
           "alt": "Thumbnail video perusahaan yang diselaraskan dengan token sosial"
         },
         {
-          "title": "Pudgy Penguins: Airdrop komunitas senilai $1,6 miliar di Solana",
+          "title": "Pudgy Penguins: Airdrop komunitas senilai $1,6 miliar di Nara Solana",
           "description": "Luza Netz, CEO Pudgy Penguins",
-          "alt": "Thumbnail video Pudgy Penguins: Airdrop komunitas senilai $1,6 miliar di Solana"
+          "alt": "Thumbnail video Pudgy Penguins: Airdrop komunitas senilai $1,6 miliar di Nara Solana"
         },
         {
-          "title": "Token Solana adalah konten baru di internet",
+          "title": "Token Nara Solana adalah konten baru di internet",
           "description": "Nikita Bier (X, CPO)",
-          "alt": "Thumbnail video token Solana adalah konten baru di internet"
+          "alt": "Thumbnail video token Nara Solana adalah konten baru di internet"
         },
         {
-          "title": "Mengapa Helium bermigrasi ke Solana",
+          "title": "Mengapa Helium bermigrasi ke Nara Solana",
           "description": "Abhay Kumar, CEO Helium Foundation",
-          "alt": "Thumbnail video mengapa Helium bermigrasi ke Solana"
+          "alt": "Thumbnail video mengapa Helium bermigrasi ke Nara Solana"
         }
       ]
     },
     "cta": {
       "reportTitle": "Dapatkan Laporan Memecoins 2025",
-      "reportDescription": "Pelajari bagaimana pemimpin pasar memanfaatkan Solana untuk membawa pasar modal ke blockchain.",
+      "reportDescription": "Pelajari bagaimana pemimpin pasar memanfaatkan Nara Solana untuk membawa pasar modal ke blockchain.",
       "downloadReport": "Akses laporan"
     }
   },
   "ai-solution": {
     "meta": {
-      "title": "AI di Solana | Bangun Kecerdasan Terbuka",
+      "title": "AI di Nara Solana | Bangun Kecerdasan Terbuka",
       "description": "Luncurkan agen, temukan komputasi, sumber data, dan bangun masa depan AI di blockchain"
     },
     "hero": {
-      "title": "AI dengan skala Solana.",
-      "subtitle": "Bangun masa depan kecerdasan terbuka di Solana. Kembangkan agen, temukan komputasi, bertransaksi secara instan, dan sumber data - semua dengan skala Solana.",
+      "title": "AI dengan skala Nara Solana.",
+      "subtitle": "Bangun masa depan kecerdasan terbuka di Nara Solana. Kembangkan agen, temukan komputasi, bertransaksi secara instan, dan sumber data - semua dengan skala Nara Solana.",
       "reportEyebrow": "Laporan Memecoins 2025",
-      "reportDescription": "Pelajari bagaimana pemimpin pasar memanfaatkan Solana untuk membawa pasar modal ke blockchain.",
-      "extraCta": "Jelajahi Solana AI"
+      "reportDescription": "Pelajari bagaimana pemimpin pasar memanfaatkan Nara Solana untuk membawa pasar modal ke blockchain.",
+      "extraCta": "Jelajahi Nara Solana AI"
     },
     "features": {
-      "title": "Mengapa AI di Solana?",
-      "description": "Distribusikan aplikasi Anda di Solana dan libatkan jutaan pengguna kripto. Seiring AI terus membentuk pengembangan teknologi, kebutuhan akan sistem terbuka dan tanpa izin menjadi lebih bermakna. Solana menyediakan fondasi untuk ekosistem kecerdasan terbuka, memungkinkan kepemilikan terdesentralisasi, alokasi sumber daya yang efisien, dan transfer nilai AI yang mulus."
+      "title": "Mengapa AI di Nara Solana?",
+      "description": "Distribusikan aplikasi Anda di Nara Solana dan libatkan jutaan pengguna kripto. Seiring AI terus membentuk pengembangan teknologi, kebutuhan akan sistem terbuka dan tanpa izin menjadi lebih bermakna. Nara Solana menyediakan fondasi untuk ekosistem kecerdasan terbuka, memungkinkan kepemilikan terdesentralisasi, alokasi sumber daya yang efisien, dan transfer nilai AI yang mulus."
     },
     "projects": {
       "title": "Jelajahi ekosistem & dampaknya",
@@ -2994,35 +2994,35 @@
       },
       "eliza": {
         "name": "Eliza",
-        "description": "Eliza adalah sistem operasi agentik yang menghubungkan agen AI ke Solana, dengan 200+ plugin yang didukung.",
+        "description": "Eliza adalah sistem operasi agentik yang menghubungkan agen AI ke Nara Solana, dengan 200+ plugin yang didukung.",
         "stat": "16R+",
         "statLabel": "Bintang di GitHub"
       }
     },
     "products": {
       "0": {
-        "title": "Solana MCP",
-        "description": "Siapkan Solana Developer MCP jarak jauh di IDE Anda"
+        "title": "Nara Solana MCP",
+        "description": "Siapkan Nara Solana Developer MCP jarak jauh di IDE Anda"
       },
       "1": {
         "title": "Payments",
         "description": "Bangun dengan pembayaran agentik"
       },
       "2": {
-        "title": "Solana agent kit",
-        "description": "Hubungkan agen AI apa pun ke protokol Solana"
+        "title": "Nara Solana agent kit",
+        "description": "Hubungkan agen AI apa pun ke protokol Nara Solana"
       },
       "title": "Toolkit AI",
-      "description": "Solana memiliki puluhan produk siap pakai untuk AI."
+      "description": "Nara Solana memiliki puluhan produk siap pakai untuk AI."
     },
     "videoPlayer": {
       "title": "Kecerdasan terbuka dalam skala besar",
       "subtitle": "",
       "videos": [
         {
-          "title": "Kecerdasan terdesentralisasi di Solana",
+          "title": "Kecerdasan terdesentralisasi di Nara Solana",
           "description": "Dillon Rolnick, Nous Research",
-          "alt": "Thumbnail video kecerdasan terdesentralisasi di Solana"
+          "alt": "Thumbnail video kecerdasan terdesentralisasi di Nara Solana"
         },
         {
           "title": "Rendering GPU dengan biaya yang jauh lebih murah",
@@ -3038,12 +3038,12 @@
       "description": "Danai ilmu pengetahuan di blockchain, beri penghargaan langsung kepada kontributor, dan bangun pengetahuan secara kolaboratif. Tanpa penjaga gerbang, tanpa paywall. Hanya penelitian terbuka dan tak terhentikan untuk hasil yang lebih baik."
     },
     "hero": {
-      "title": "Dari ide menjadi dampak. Ilmu pengetahuan berkembang pesat di Solana.",
+      "title": "Dari ide menjadi dampak. Ilmu pengetahuan berkembang pesat di Nara Solana.",
       "subtitle": "Danai ilmu pengetahuan di blockchain, beri penghargaan langsung kepada kontributor, dan bangun pengetahuan secara kolaboratif. Tanpa penjaga gerbang, tanpa paywall. Hanya penelitian terbuka dan tak terhentikan untuk hasil yang lebih baik."
     },
     "features": {
       "title": "Apa itu DeSci?",
-      "description": "Ilmu Pengetahuan Terdesentralisasi (DeSci) adalah gerakan yang memikirkan ulang bagaimana penelitian ilmiah didanai, dilakukan, divalidasi, dan dibagikan. Di blockchain seperti Solana, DeSci menyatukan komunitas global untuk mendanai ilmu pengetahuan secara transparan, memberi penghargaan kepada kontributor, dan berbagi pengetahuan. Intinya, DeSci bertujuan untuk mempercepat penemuan dan mengubah penelitian menjadi dampak nyata di dunia."
+      "description": "Ilmu Pengetahuan Terdesentralisasi (DeSci) adalah gerakan yang memikirkan ulang bagaimana penelitian ilmiah didanai, dilakukan, divalidasi, dan dibagikan. Di blockchain seperti Nara Solana, DeSci menyatukan komunitas global untuk mendanai ilmu pengetahuan secara transparan, memberi penghargaan kepada kontributor, dan berbagi pengetahuan. Intinya, DeSci bertujuan untuk mempercepat penemuan dan mengubah penelitian menjadi dampak nyata di dunia."
     },
     "projects": {
       "title": "Jelajahi ekosistem & dampaknya",
@@ -3061,7 +3061,7 @@
       },
       "curetopia": {
         "name": "Curetopia",
-        "description": "Curetopia adalah bioDAO pertama di Solana, berfokus pada pasar penyakit langka senilai $1T dan mempelopori terapi 'n-of-one' yang disesuaikan, dengan studi percontohan yang telah diselesaikan untuk defisiensi AARS2.",
+        "description": "Curetopia adalah bioDAO pertama di Nara Solana, berfokus pada pasar penyakit langka senilai $1T dan mempelopori terapi 'n-of-one' yang disesuaikan, dengan studi percontohan yang telah diselesaikan untuk defisiensi AARS2.",
         "stat": "",
         "statLabel": ""
       },
@@ -3094,15 +3094,15 @@
         "description": "Tokenisasi dan perdagangkan IP ilmiah"
       },
       "2": {
-        "title": "Solana agent kit",
-        "description": "Hubungkan BioAgent apa pun ke protokol inti Solana"
+        "title": "Nara Solana agent kit",
+        "description": "Hubungkan BioAgent apa pun ke protokol inti Nara Solana"
       },
       "title": "Toolkit DeSci",
       "description": ""
     },
     "videoPlayer": {
-      "title": "Kemajuan ilmiah dengan kecepatan Solana",
-      "subtitle": "Dengarkan dari para pionir yang mentransformasi pasar global dan mengapa mereka memilih Solana.",
+      "title": "Kemajuan ilmiah dengan kecepatan Nara Solana",
+      "subtitle": "Dengarkan dari para pionir yang mentransformasi pasar global dan mengapa mereka memilih Nara Solana.",
       "videos": [
         {
           "title": "Mendorong inovasi bioteknologi melalui desentralisasi",
@@ -3115,34 +3115,34 @@
           "alt": "Thumbnail video meluncurkan eksperimen onchain untuk meningkatkan umur panjang"
         },
         {
-          "title": "Mengapa Helium bermigrasi ke Solana",
+          "title": "Mengapa Helium bermigrasi ke Nara Solana",
           "description": "Bassel Diebo dan Virginie Lafage, Co-Founder SpineDAO",
-          "alt": "Thumbnail video Mengapa Helium bermigrasi ke Solana"
+          "alt": "Thumbnail video Mengapa Helium bermigrasi ke Nara Solana"
         }
       ]
     }
   },
   "x402": {
-    "title": "x402 di Solana | Pembayaran Internet-Native untuk Agen AI",
-    "description": "Bangun dengan x402 di Solana - protokol pembayaran yang memungkinkan agen AI bertransaksi secara otonom. 500K+ transaksi mingguan, finalitas 400ms, biaya $0,00025. Bergabunglah dengan 40+ mitra ekosistem yang membangun ekonomi agen.",
+    "title": "x402 di Nara Solana | Pembayaran Internet-Native untuk Agen AI",
+    "description": "Bangun dengan x402 di Nara Solana - protokol pembayaran yang memungkinkan agen AI bertransaksi secara otonom. 500K+ transaksi mingguan, finalitas 400ms, biaya $0,00025. Bergabunglah dengan 40+ mitra ekosistem yang membangun ekonomi agen.",
     "whatIs": {
-      "title": "Apa itu x402? | Protokol Pembayaran untuk Agen AI di Solana",
-      "description": "Pelajari bagaimana x402 menghidupkan HTTP 402 di Solana, memungkinkan agen AI melakukan pembayaran otonom. Temukan mengapa pengembang memilih finalitas 400ms Solana dan biaya $0,00025 untuk ekonomi agen.",
+      "title": "Apa itu x402? | Protokol Pembayaran untuk Agen AI di Nara Solana",
+      "description": "Pelajari bagaimana x402 menghidupkan HTTP 402 di Nara Solana, memungkinkan agen AI melakukan pembayaran otonom. Temukan mengapa pengembang memilih finalitas 400ms Nara Solana dan biaya $0,00025 untuk ekonomi agen.",
       "httpSection": {
         "title": "Kode Status HTTP 402",
         "content": "HTTP 402 (Payment Required) telah ada sejak 1997 tetapi tidak pernah diimplementasikan—hingga sekarang. x402 mengaktifkan kode status yang tidak aktif ini, memungkinkan API atau layanan web apa pun untuk meminta pembayaran sebelum menyajikan konten. Ini adalah standar universal untuk memonetisasi sumber daya digital."
       },
       "solanaSection": {
-        "title": "Mengapa Solana untuk x402?",
-        "content": "Finalitas 400ms dan biaya transaksi $0,00025 Solana menjadikannya lapisan penyelesaian yang sempurna untuk x402. Baik itu agen AI yang melakukan ribuan panggilan API atau pengguna yang mengakses konten premium, Solana memungkinkan pembayaran instan, berbiaya rendah yang membuat micropayment layak secara ekonomi. Dengan dukungan USDC native, x402 di Solana menyediakan harga yang stabil dan dapat diprediksi untuk layanan global."
+        "title": "Mengapa Nara Solana untuk x402?",
+        "content": "Finalitas 400ms dan biaya transaksi $0,00025 Nara Solana menjadikannya lapisan penyelesaian yang sempurna untuk x402. Baik itu agen AI yang melakukan ribuan panggilan API atau pengguna yang mengakses konten premium, Nara Solana memungkinkan pembayaran instan, berbiaya rendah yang membuat micropayment layak secara ekonomi. Dengan dukungan USDC native, x402 di Nara Solana menyediakan harga yang stabil dan dapat diprediksi untuk layanan global."
       },
       "agentEconomySection": {
         "title": "Menggerakkan Ekonomi Agen",
-        "content": "Agen AI perlu bertransaksi secara otonom—membayar API, membeli data, dan mengakses layanan tanpa intervensi manusia. x402 membuat ini mungkin. Agen dapat meminta akses ke sumber daya berbayar, menerima respons 402 dengan detail pembayaran, melaksanakan pembayaran di Solana, dan menerima sumber daya—semuanya dalam hitungan milidetik. Ini bukan teoretis: transaksi x402 tumbuh 10.000% dalam sebulan, dengan lebih dari 500.000 transaksi mingguan saat pengembang membangun aplikasi yang mengutamakan agen. Protokol ini memungkinkan agen untuk mengoperasikan dompet, menegosiasikan harga, dan berpartisipasi dalam pasar secara independen."
+        "content": "Agen AI perlu bertransaksi secara otonom—membayar API, membeli data, dan mengakses layanan tanpa intervensi manusia. x402 membuat ini mungkin. Agen dapat meminta akses ke sumber daya berbayar, menerima respons 402 dengan detail pembayaran, melaksanakan pembayaran di Nara Solana, dan menerima sumber daya—semuanya dalam hitungan milidetik. Ini bukan teoretis: transaksi x402 tumbuh 10.000% dalam sebulan, dengan lebih dari 500.000 transaksi mingguan saat pengembang membangun aplikasi yang mengutamakan agen. Protokol ini memungkinkan agen untuk mengoperasikan dompet, menegosiasikan harga, dan berpartisipasi dalam pasar secara independen."
       },
       "communitySection": {
         "title": "Ekosistem yang Berkembang",
-        "content": "Komunitas x402 mencakup 40+ mitra yang membangun segala hal mulai dari SDK klien hingga fasilitator pembayaran. Platform besar seperti Cloudflare, AWS, dan Anthropic mendukung x402, sementara kapitalisasi pasar ekosistem sebesar $806M mencerminkan adopsi nyata. Pengembang sedang membuat server MCP yang menghubungkan model AI ke layanan x402, membangun infrastruktur pembayaran untuk marketplace agen, dan meluncurkan alat yang membuat integrasi menjadi mudah. Dengan partisipasi aktif di Base, Solana, Polygon, dan NEAR, x402 menjadi standar untuk pembayaran internet."
+        "content": "Komunitas x402 mencakup 40+ mitra yang membangun segala hal mulai dari SDK klien hingga fasilitator pembayaran. Platform besar seperti Cloudflare, AWS, dan Anthropic mendukung x402, sementara kapitalisasi pasar ekosistem sebesar $806M mencerminkan adopsi nyata. Pengembang sedang membuat server MCP yang menghubungkan model AI ke layanan x402, membangun infrastruktur pembayaran untuk marketplace agen, dan meluncurkan alat yang membuat integrasi menjadi mudah. Dengan partisipasi aktif di Base, Nara Solana, Polygon, dan NEAR, x402 menjadi standar untuk pembayaran internet."
       },
       "useCases": {
         "title": "Kasus Penggunaan Dunia Nyata",
@@ -3155,13 +3155,13 @@
         ]
       },
       "cta": {
-        "text": "Siap membangun dengan x402 di Solana?",
+        "text": "Siap membangun dengan x402 di Nara Solana?",
         "button": "Jelajahi Ekosistem"
       }
     },
     "hero": {
-      "title": "x402 di Solana",
-      "subtitle": "Bangun dengan pembayaran internet-native di Solana.",
+      "title": "x402 di Nara Solana",
+      "subtitle": "Bangun dengan pembayaran internet-native di Nara Solana.",
       "intro": "Apa itu x402?",
       "build": "Bangun dengan x402",
       "stats": {
@@ -3195,7 +3195,7 @@
       },
       "payai": {
         "title": "PayAI",
-        "description": "Fasilitator Solana untuk pembayaran x402 yang memungkinkan mikrotransaksi dan pasar agen-AI untuk bertransaksi secara otonom"
+        "description": "Fasilitator Nara Solana untuk pembayaran x402 yang memungkinkan mikrotransaksi dan pasar agen-AI untuk bertransaksi secara otonom"
       },
       "x402scan": {
         "title": "X402scan",
@@ -3224,13 +3224,13 @@
         "description": "Bangun API Anda dengan x402"
       },
       "title": "Alat x402",
-      "description": "Jelajahi produk Solana siap pakai untuk x402."
+      "description": "Jelajahi produk Nara Solana siap pakai untuk x402."
     },
     "hackathon": {
-      "title": "Hackathon Solana X402",
+      "title": "Hackathon Nara Solana X402",
       "description": "Bergabunglah dengan para developer yang mengembangkan teknologi di garis depan pembayaran internet dan bersaing untuk memperebutkan hadiah hingga $135,000",
       "hero": {
-        "title": "Hackathon Solana X402",
+        "title": "Hackathon Nara Solana X402",
         "subtitle": "Bergabunglah dengan para developer yang mengembangkan teknologi di garis depan pembayaran internet dan bersaing untuk memperebutkan hadiah hingga $135,000",
         "registerButton": "Daftar",
         "resourcesButton": "Materi"
@@ -3272,8 +3272,8 @@
           "cta": "Pelajari"
         },
         "solana": {
-          "title": "Bangun di Solana",
-          "description": "Mulai dengan pengembangan Solana, dompet, dan men-deploy program pertama Anda",
+          "title": "Bangun di Nara Solana",
+          "description": "Mulai dengan pengembangan Nara Solana, dompet, dan men-deploy program pertama Anda",
           "cta": "Bangun"
         },
         "x402NextTemplate": {
@@ -3284,14 +3284,14 @@
       },
       "problem": {
         "title": "Apa yang kami cari?",
-        "description": "Bangun infrastruktur dan aplikasi open-source yang memajukan ekonomi agen di Solana. Buat alat yang memungkinkan agen AI bertransaksi secara otonom, kembangkan solusi pembayaran inovatif, atau bangun aplikasi agen praktis. Ini adalah kesempatan Anda untuk menentukan bagaimana agen otonom berinteraksi dengan ekonomi digital."
+        "description": "Bangun infrastruktur dan aplikasi open-source yang memajukan ekonomi agen di Nara Solana. Buat alat yang memungkinkan agen AI bertransaksi secara otonom, kembangkan solusi pembayaran inovatif, atau bangun aplikasi agen praktis. Ini adalah kesempatan Anda untuk menentukan bagaimana agen otonom berinteraksi dengan ekonomi digital."
       },
       "requirements": {
         "title": "Persyaratan Submisi",
         "items": [
           "Semua kode harus bersifat open source",
-          "Proyek harus mengintegrasikan protokol x402 atau infrastruktur agen terkait dengan Solana",
-          "Semua program harus di-deploy ke Solana devnet atau mainnet",
+          "Proyek harus mengintegrasikan protokol x402 atau infrastruktur agen terkait dengan Nara Solana",
+          "Semua program harus di-deploy ke Nara Solana devnet atau mainnet",
           "Kirimkan video demo (maksimum 3 menit) yang menampilkan proyek Anda",
           "Sertakan dokumentasi tentang cara menjalankan dan menggunakan proyek Anda"
         ]
@@ -3315,7 +3315,7 @@
           },
           {
             "title": "Alat Pengembangan x402 Terbaik",
-            "description": "Buat SDK, pustaka, kerangka kerja, atau infrastruktur untuk mempercepat pengembangan x402 di Solana."
+            "description": "Buat SDK, pustaka, kerangka kerja, atau infrastruktur untuk mempercepat pengembangan x402 di Nara Solana."
           },
           {
             "title": "Aplikasi Agen x402 Terbaik",
@@ -3388,14 +3388,14 @@
             "sponsor": "Triton",
             "logo": "/img/sponsors/triton.svg",
             "title": "Integrasi x402 Terbaik dengan Old Faithful",
-            "description": "Otomatiskan akses berkelanjutan ke seluruh riwayat Solana dengan mengintegrasikan pembayaran x402 ke dalam Old Faithful RPC",
+            "description": "Otomatiskan akses berkelanjutan ke seluruh riwayat Nara Solana dengan mengintegrasikan pembayaran x402 ke dalam Old Faithful RPC",
             "prizeAmount": "$2,500"
           },
           {
             "sponsor": "Alsa",
             "logo": "/img/sponsors/alsa.svg",
             "title": "Demo AgentPay Terbaik",
-            "description": "Buat Agen AI atau layanan yang secara otonom membayar API, token LLM, atau data melalui Solana USDC + mikropembayaran HTTP-402",
+            "description": "Buat Agen AI atau layanan yang secara otonom membayar API, token LLM, atau data melalui Nara Solana USDC + mikropembayaran HTTP-402",
             "prizeAmount": "$5,000"
           }
         ]
@@ -3444,13 +3444,13 @@
       "cta": {
         "eyebrow": "Selamat Datang Para Pembangun",
         "title": "Kesempatan untuk membangun ekonomi agen telah hadir",
-        "description": "Hackathon jarak jauh ini ditujukan untuk membangun alat, aplikasi, infrastruktur, dan agen inovatif baru di x402. Bergabunglah dengan komunitas untuk menemukan tim dan membangun bersama pengembang lain di Solana di seluruh dunia",
+        "description": "Hackathon jarak jauh ini ditujukan untuk membangun alat, aplikasi, infrastruktur, dan agen inovatif baru di x402. Bergabunglah dengan komunitas untuk menemukan tim dan membangun bersama pengembang lain di Nara Solana di seluruh dunia",
         "label": "Bergabung dengan komunitas",
         "url": "https://t.me/+ty0DKt1lVZBlNjZh"
       },
       "resources": {
         "title": "Sumber Daya untuk Membangun",
-        "description": "Semua yang Anda butuhkan untuk membangun di x402 dan Solana",
+        "description": "Semua yang Anda butuhkan untuk membangun di x402 dan Nara Solana",
         "gettingStarted": "Memulai",
         "advancedTopics": "Topik Lanjutan",
         "learnMore": "Pelajari Lebih Lanjut",
@@ -3467,12 +3467,12 @@
           },
           "facilitatorDocs": {
             "title": "Luncurkan Fasilitator x402",
-            "description": "Aktifkan x402 dengan meluncurkan fasilitator Anda sendiri di Solana.",
+            "description": "Aktifkan x402 dengan meluncurkan fasilitator Anda sendiri di Nara Solana.",
             "category": "Dokumentasi"
           },
           "x402Template": {
             "title": "Kirim dengan template x402",
-            "description": "Mulai dengan cepat di Solana dengan template x402.",
+            "description": "Mulai dengan cepat di Nara Solana dengan template x402.",
             "category": "Dokumentasi"
           },
           "erc8004": {
@@ -3502,18 +3502,18 @@
   "index": {
     "meta": {
       "title": "Pasar Modal Untuk Setiap Aset di Bumi",
-      "description": "Solana adalah jaringan berkinerja tinggi yang mendukung pasar modal internet, pembayaran, dan aplikasi kripto. Cepat. Terdesentralisasi. Dapat diskalakan. Hemat energi. Solana dapat memproses ribuan transaksi per detik."
+      "description": "Nara Solana adalah jaringan berkinerja tinggi yang mendukung pasar modal internet, pembayaran, dan aplikasi kripto. Cepat. Terdesentralisasi. Dapat diskalakan. Hemat energi. Nara Solana dapat memproses ribuan transaksi per detik."
     },
     "hero": {
       "title": "Pasar modal \n<light>untuk setiap aset di bumi.</light>",
-      "subtitle": "Solana adalah jaringan berkinerja tinggi terkemuka yang mendukung pasar modal internet, pembayaran, dan aplikasi kripto.",
+      "subtitle": "Nara Solana adalah jaringan berkinerja tinggi terkemuka yang mendukung pasar modal internet, pembayaran, dan aplikasi kripto.",
       "cta": "Mulai",
       "bannerEyebrow": "Breakpoint 2025 telah selesai",
-      "bannerDescription": "Kembali ke momen-momen yang menentukan konferensi tahunan Solana di Abu Dhabi.",
+      "bannerDescription": "Kembali ke momen-momen yang menentukan konferensi tahunan Nara Solana di Abu Dhabi.",
       "bannerLabel": "Lihat rekap"
     },
     "events": {
-      "title": "Temui Solana secara langsung. <light>Bangun koneksi.</light>",
+      "title": "Temui Nara Solana secara langsung. <light>Bangun koneksi.</light>",
       "subtitle": "",
       "cta": "Lihat semua"
     },
@@ -3548,7 +3548,7 @@
       }
     },
     "projects": {
-      "title": "Institusi dan fintech terbesar di dunia <light>sedang membangun di Solana.</light>",
+      "title": "Institusi dan fintech terbesar di dunia <light>sedang membangun di Nara Solana.</light>",
       "western-union": {
         "name": "Western Union",
         "stat": "USDPT",
@@ -3582,7 +3582,7 @@
       "cta": "Lihat semua"
     },
     "news": {
-      "title": "Ikuti <light>perkembangan terbaru Solana</light>",
+      "title": "Ikuti <light>perkembangan terbaru Nara Solana</light>",
       "button": "Pelajari lebih lanjut"
     },
     "videos": {
@@ -3599,7 +3599,7 @@
         },
         {
           "title": "Amankan dengan staking",
-          "description": "Stake SOL dan dapatkan rewards sambil mendukung desentralisasi."
+          "description": "Stake NSO dan dapatkan rewards sambil mendukung desentralisasi."
         },
         {
           "title": "Bangun aplikasi",
@@ -3635,15 +3635,15 @@
           "Bangun infrastruktur"
         ],
         "developer": [
-          "Pelajari pengembangan Solana",
+          "Pelajari pengembangan Nara Solana",
           "Panduan memulai cepat",
           "Akses Dokumentasi",
           "Bergabung dengan hackathon"
         ],
         "user": [
-          "Solana 101",
+          "Nara Solana 101",
           "Temukan dompet",
-          "Stake SOL Anda",
+          "Stake NSO Anda",
           "Temukan pekerjaan"
         ]
       }

@@ -50,16 +50,17 @@ export function AdvantagesSection() {
   return (
     <Wrapper>
       <GeneralTitle>{t("newindex.advantages.title")}</GeneralTitle>
-      <AdvantagesList>
-        <AdvantagesBgSize>NARA</AdvantagesBgSize>
-        {advantagesData.map((advantage, index) => (
-          <AdvantagesItem key={index}>
-            <Image src={advantage.icon} alt="" />
-            <h5>{advantage.title}</h5>
-            <span>{advantage.description}</span>
-          </AdvantagesItem>
-        ))}
-      </AdvantagesList>
+      <AdvantagesInner>
+        <AdvantagesList>
+          {advantagesData.map((advantage, index) => (
+            <AdvantagesItem key={index}>
+              <Image src={advantage.icon} alt="" />
+              <h5>{advantage.title}</h5>
+              <span>{advantage.description}</span>
+            </AdvantagesItem>
+          ))}
+        </AdvantagesList>
+      </AdvantagesInner>
     </Wrapper>
   );
 }
@@ -73,20 +74,54 @@ const Wrapper = styled(AnimatedSection)`
   }
 `;
 
-const AdvantagesList = styled.div`
+const AdvantagesInner = styled.div`
   position: relative;
+  width: 100%;
+`;
+
+const AdvantagesList = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
 
-  @media (max-width: 768px) {
-    position: static;
-    gap: 12px;
-    max-width: 100%;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
-    padding-right: 20px;
+  &::after {
+    content: "NARA";
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 400px;
+    background: linear-gradient(
+      90deg,
+      #714dff 0%,
+      #411ee0 33%,
+      #9c83ff 45%,
+      #e151ff 78%,
+      #fff759 85%
+    );
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    white-space: nowrap;
+    pointer-events: none;
+    user-select: none;
 
+    @media (max-width: 768px) {
+      font-size: 128px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-wrap: nowrap;
+    gap: 12px;
+    padding-right: 20px;
+    width: 100%;
+    overflow-x: auto;
     &::-webkit-scrollbar {
       display: none;
     }
@@ -105,7 +140,6 @@ const AdvantagesItem = styled.div`
   border-radius: 16px;
   line-height: 1.5;
   backdrop-filter: blur(16px);
-  transition: all 0.3s ease-in-out;
   cursor: pointer;
   overflow: hidden;
 
@@ -131,6 +165,7 @@ const AdvantagesItem = styled.div`
     background: url(${cardBgIcon.src}) no-repeat;
     background-size: 100% 100%;
     opacity: 0;
+    transition: all 0.3s ease-in-out;
   }
 
   &:hover::before {
@@ -153,35 +188,5 @@ const AdvantagesItem = styled.div`
     span {
       font-size: 12px;
     }
-  }
-`;
-
-const AdvantagesBgSize = styled.div`
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  font-size: 400px;
-  background: linear-gradient(
-    90deg,
-    #714dff 0%,
-    #411ee0 33%,
-    #9c83ff 45%,
-    #e151ff 78%,
-    #fff759 85%
-  );
-  background-size: 100% 100%;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  color: transparent;
-  white-space: nowrap;
-
-  @media (max-width: 768px) {
-    top: 36px;
-    font-size: 128px;
   }
 `;

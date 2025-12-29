@@ -42,7 +42,7 @@ export function InkeepSearchBar({ className }: InkeepSearchBarProps) {
         <button
           type="button"
           onClick={() => inkeepConfig.modalSettings.onOpenChange(true)}
-          className="w-full flex items-center gap-2 m-0 py-2.5 max-xl:px-2 xl:pr-6 xl:pl-5 !rounded-full bg-gray-900/50 max-xl:text-white xl:text-gray-400 hover:text-gray-300 hover:bg-gray-900/70 focus:ring-gray-700 xl:border-[1px] !border-gray-700 shadow-sm light:!bg-white light:!border-gray-300 light:text-[#7f8391] light:hover:!bg-white light:hover:text-gray-900 focus:outline-none focus:ring-2 text-sm md:text-base leading-6 tracking-normal cursor-text transition-all duration-200 ease-in-out"
+          className="w-full flex items-center gap-2 m-0 py-1.5 max-xl:px-2 xl:pr-6 xl:pl-5 rounded-[8px] bg-gray-900/50 max-xl:text-white xl:text-gray-50 hover:text-gray-300 hover:bg-gray-50/5 focus:ring-gray-700 xl:border-[1px] !border-gray-700 shadow-sm light:!bg-white light:!border-gray-300 light:text-[#7f8391] light:hover:!bg-white light:hover:text-gray-900 focus:outline-none focus:ring-2 text-sm md:text-[14px] leading-6 tracking-normal cursor-text transition-all duration-200 ease-in-out"
         >
           <SearchIcon className="flex-shrink-0" />
 

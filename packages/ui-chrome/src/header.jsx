@@ -31,7 +31,7 @@ function Header({
       <header className={`sticky top-0 z-50 ${className}`}>
         <nav
           id="navbar"
-          className={`navbar py-3 transition-colors duration-300 border-b border-[rgba(240,228,255,0.12)] bg-[rgb(18_18_18/95%)] light:bg-white/95`}
+          className={`navbar py-3 transition-colors duration-300 border-b border-[rgba(240,228,255,0.12)]  light:bg-white/95`}
         >
           <div
             className={`w-full max-w-[1440px] px-[20px] xl:px-[14px] mx-auto flex items-center justify-between gap-x-5 xl:gap-x-12 ${containerClassName}`}
@@ -44,7 +44,7 @@ function Header({
               <NaraLogo
                 style={{ color: "currentColor" }}
                 width={100}
-                height={40}
+                height={36}
                 viewBox="0 0 92 18"
                 className="block w-[80px] xl:w-[100px]"
               />
@@ -60,7 +60,7 @@ function Header({
               {/* Desktop Search and Language */}
               <div className="flex gap-5 items-center">
                 <InkeepSearchBar className="hidden md:block" />
-                <InkeepChatButton variant="inline" className="md:hidden" />
+                {/* <InkeepChatButton variant="inline" className="md:hidden" /> */}
                 {showLanguage && (
                   <div className="relative items-center hidden xl:flex">
                     <LanguageSelector />

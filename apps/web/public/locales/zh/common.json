@@ -7,34 +7,34 @@
   "titles": {
     "404": "404: 未找到",
     "newsletter": "简报",
-    "community": "Solana 社区：加入我们的生态",
-    "news": "Solana 新闻",
+    "community": "Nara Solana 社区：加入我们的生态",
+    "news": "Nara Solana 新闻",
     "defi": "去中心化金融",
     "events": "活动",
     "dao": "DAO 和 治理"
   },
   "ai": {
-    "title": "Solana 的 AI 创新速度",
-    "description": "Solana 是一个成本低、速度快、能量影响极小、用户使用简单的区块链。AI 甚至还能减少摩擦，推进去中心化的力量向成百上千万人开放。",
+    "title": "Nara Solana 的 AI 创新速度",
+    "description": "Nara Solana 是一个成本低、速度快、能量影响极小、用户使用简单的区块链。AI 甚至还能减少摩擦，推进去中心化的力量向成百上千万人开放。",
     "hero": {
-      "title": "Solana 的<colored>AI</colored> 创新速度",
+      "title": "Nara Solana 的<colored>AI</colored> 创新速度",
       "point-3": "一个在 AI 和 Web3 交叉领域的建设者生态",
-      "cta": "查看 Solana 上的 AI 工具",
+      "cta": "查看 Nara Solana 上的 AI 工具",
       "cta-2": "发现更多项目"
     },
     "why-ai": {
       "caption": "为什么将 AI 引入区块链？",
-      "title": "Solana 旨在实现规模化——一个低成本、高速度、能耗极低且用户体验友好的区块链。AI 可以进一步减少这种摩擦，通过简化使用流程，让数百万人更轻松地享受到去中心化的力量。"
+      "title": "Nara Solana 旨在实现规模化——一个低成本、高速度、能耗极低且用户体验友好的区块链。AI 可以进一步减少这种摩擦，通过简化使用流程，让数百万人更轻松地享受到去中心化的力量。"
     },
     "card": {
       "title": "加密货币和 AI 交叉领域的重点方向",
-      "check-1": "促进 Solana 上最具活力的代理驱动经济",
-      "check-2": "让 LLM 擅长编写 Solana 代码并赋能 Solana 开发者",
+      "check-1": "促进 Nara Solana 上最具活力的代理驱动经济",
+      "check-2": "让 LLM 擅长编写 Nara Solana 代码并赋能 Nara Solana 开发者",
       "check-3": "支持开放和去中心化的 AI 技术栈",
-      "cta": "了解更多关于 Solana x AI"
+      "cta": "了解更多关于 Nara Solana x AI"
     },
     "hackathon": {
-      "title": "Solana AI 黑客松获奖者",
+      "title": "Nara Solana AI 黑客松获奖者",
       "check-1": "15 天",
       "check-2": "400+ 个项目",
       "check-3": "21 位获奖者",
@@ -43,21 +43,21 @@
     },
     "quote-section": {
       "content": "OpenAI 是一个初创公司，但并不是谷歌创立的。AI 需要在公司运营管理上不断调整变化，大公司往往跟不上变化的速度，他们最多只能做到的就是生存。",
-      "author": "Solana Labs 共同创办人 Anatoly Yakovenko"
+      "author": "Nara Solana Labs 共同创办人 Anatoly Yakovenko"
     },
     "build": {
-      "title": "在 Solana 上构建 <colored>AI</colored> 代理",
+      "title": "在 Nara Solana 上构建 <colored>AI</colored> 代理",
       "card-1": {
-        "title": "Solana Agent Kit",
-        "content": "SendAI 的 Solana Agent Kit 是一个工具包，可以将任何 AI 代理连接到 30 多个 Solana 协议并执行 50 多个 Solana 操作，兼容 Eliza、Langchain、Perplexity 和 Vercel AI SDK。"
+        "title": "Nara Solana Agent Kit",
+        "content": "SendAI 的 Nara Solana Agent Kit 是一个工具包，可以将任何 AI 代理连接到 30 多个 Nara Solana 协议并执行 50 多个 Nara Solana 操作，兼容 Eliza、Langchain、Perplexity 和 Vercel AI SDK。"
       },
       "card-2": {
         "title": "Eliza",
-        "content": "ElizaOS 是一个简单、快速且轻量级的 TypeScript AI 代理框架，具有 Solana 协议集成、Twitter 集成等功能。"
+        "content": "ElizaOS 是一个简单、快速且轻量级的 TypeScript AI 代理框架，具有 Nara Solana 协议集成、Twitter 集成等功能。"
       },
       "card-3": {
         "title": "Rig",
-        "content": "Rig 是一个用 Rust 构建的可移植、模块化和轻量级全栈代理框架。它提供多个 Solana 集成，并配备了 rig 代理工具包，堪称 Solana 的瑞士军刀。"
+        "content": "Rig 是一个用 Rust 构建的可移植、模块化和轻量级全栈代理框架。它提供多个 Nara Solana 集成，并配备了 rig 代理工具包，堪称 Nara Solana 的瑞士军刀。"
       },
       "card-4": {
         "title": "GOAT",
@@ -65,13 +65,13 @@
       },
       "card-5": {
         "title": "Zerepy",
-        "content": "ZerePy 是一个 Python 框架，用于构建、定制和部署能够在 Solana 上执行社交和链上操作的代理。"
+        "content": "ZerePy 是一个 Python 框架，用于构建、定制和部署能够在 Nara Solana 上执行社交和链上操作的代理。"
       }
     }
   },
   "validators": {
     "title": "验证节点：帮助保护网络并赚取SOL",
-    "description": "Solana Mainnet Beta 网络目前由 1.000 多个独立验证节点支持，每秒可处理高达 50k TPS 的交易，确认时间低于一秒。了解更多关于加入生态系统作为验证节点以开始赚取 SOL 的信息。",
+    "description": "Nara Solana Mainnet Beta 网络目前由 1.000 多个独立验证节点支持，每秒可处理高达 50k TPS 的交易，确认时间低于一秒。了解更多关于加入生态系统作为验证节点以开始赚取 NSO 的信息。",
     "header": "确保账本安全，赚取 $SOL。",
     "sub-header": "通过提供算力资源将网络去中心化。",
     "become-validator": "成为验证者",
@@ -80,7 +80,7 @@
       "nakamoto-text": "当前的超级少数个体"
     },
     "definition": {
-      "title": "验证者构成 Solana 的主干网络。",
+      "title": "验证者构成 Nara Solana 的主干网络。",
       "text": "通过处理交易和参与共识，每个验证者助力Solana成为全球抗审查性最强、性能最高的区块链网络。"
     },
     "rewards": {
@@ -91,7 +91,7 @@
         "staking-header": "质押",
         "staking-text": "质押者通过将质押委托给验证节点来帮助验证账本，并因此获得奖励。这些验证节点负责重放账本并向每个节点的投票账户发送投票，质押者可以将自己的质押委托给这些账户。集群的其他部分则利用这些按质押加权的投票在出现分叉时选择区块。",
         "stake-pool-header": "质押池",
-        "stake-pool-text": "质押池是一个流动性质押解决方案，促进 Solana 上的抗审查性、去中心化及 DeFi 的发展。"
+        "stake-pool-text": "质押池是一个流动性质押解决方案，促进 Nara Solana 上的抗审查性、去中心化及 DeFi 的发展。"
       }
     },
     "getting-started": {
@@ -103,14 +103,14 @@
         "explorer-text": "查看当前验证者列表、按质押金额排名以及有关佣金的信息如下。",
         "explorer-btn": "查看验证者",
         "education-header": "验证者教育",
-        "education-text": "Solana 验证者教育是一个两部分系列课程，涵盖了重要的 Solana 验证者概念以及设置新验证者所需的步骤。",
+        "education-text": "Nara Solana 验证者教育是一个两部分系列课程，涵盖了重要的 Nara Solana 验证者概念以及设置新验证者所需的步骤。",
         "delegation-header": "委托计划",
-        "delegation-text": "基金会委托计划参与者有资格获得 Solana 基金会的委托。",
+        "delegation-text": "基金会委托计划参与者有资格获得 Nara Solana 基金会的委托。",
         "delegation-btn": "仪表板"
       }
     },
     "qa": {
-      "title": "在 Solana 上验证",
+      "title": "在 Nara Solana 上验证",
       "items": [
         {
           "question": "是否有漏洞赏金计划？",
@@ -126,11 +126,11 @@
         },
         {
           "question": "什么是基金会委托计划？",
-          "answer": "这是一个 Solana 基金会计划，旨在激励新的验证者加入网络。<programlink>在这里</programlink>了解更多信息。"
+          "answer": "这是一个 Nara Solana 基金会计划，旨在激励新的验证者加入网络。<programlink>在这里</programlink>了解更多信息。"
         },
         {
           "question": "什么是验证者？",
-          "answer": "验证者构成了 Solana 网络的主干。通过处理交易和参与共识，每个验证者帮助 Solana 成为世界上性能最高的区块链网络。"
+          "answer": "验证者构成了 Nara Solana 网络的主干。通过处理交易和参与共识，每个验证者帮助 Nara Solana 成为世界上性能最高的区块链网络。"
         },
         {
           "question": "谁可以运行验证节点？",
@@ -138,7 +138,7 @@
         },
         {
           "question": "为什么我要运行验证节点？",
-          "answer": "验证者可以通过帮助保护 Solana 网络来赚取 SOL。<economicslink>这里</economicslink>是经济概述，<stakinglink>这里</stakinglink>是质���奖励概述。验证者还通过增加去中心化来帮助提高网络的抗审查性。"
+          "answer": "验证者可以通过帮助保护 Nara Solana 网络来赚取 SOL。<economicslink>这里</economicslink>是经济概述，<stakinglink>这里</stakinglink>是质���奖励概述。验证者还通过增加去中心化来帮助提高网络的抗审查性。"
         }
       ]
     }
@@ -148,7 +148,7 @@
     "visitf": "访问论坛",
     "forum": "前往论坛进行讨论",
     "chat": "想了解更多，请与我们进一步沟通",
-    "updated": "想要随时获取 Solana 的最新进展吗？",
+    "updated": "想要随时获取 Nara Solana 的最新进展吗？",
     "build": "马上进行开发",
     "contact": "联系我们",
     "learn": "了解更多信息",
@@ -174,14 +174,14 @@
     "learn": "学习"
   },
   "newsletter": {
-    "signup": "注册以及接收 Solana 新闻通讯",
+    "signup": "注册以及接收 Nara Solana 新闻通讯",
     "spam": "我们保证不会向你发送垃圾邮件。",
     "informed": "保持联系"
   },
   "hackathon": {
     "index": {
-      "title": "加入 Solana 线上黑客松，开启你的加密之旅",
-      "description": "Solana 黑客松为有想法的建设者提供一个创建项目的启动平台，旨在推动加密行业的发展。注册 Colosseum 寻找联合创始人，分享想法，并注册下一次 Solana 黑客松。",
+      "title": "加入 Nara Solana 线上黑客松，开启你的加密之旅",
+      "description": "Nara Solana 黑客松为有想法的建设者提供一个创建项目的启动平台，旨在推动加密行业的发展。注册 Colosseum 寻找联合创始人，分享想法，并注册下一次 Nara Solana 黑客松。",
       "cta": "加入 Colosseum",
       "hero": {
         "developers": {
@@ -204,39 +204,39 @@
     "previousHackathons": {
       "title": "往期黑客松",
       "hyperdrive": {
-        "title": "Solana Hyperdrive",
-        "description": "Hyperdrive 见证了超过 7,000 名参与者提交了 907 个最终项目，这是迄今为止最大的线上 Solana 黑客松。"
+        "title": "Nara Solana Hyperdrive",
+        "description": "Hyperdrive 见证了超过 7,000 名参与者提交了 907 个最终项目，这是迄今为止最大的线上 Nara Solana 黑客松。"
       },
       "renaissance": {
-        "title": "Solana Renaissance",
-        "description": "Renaissance 是第九届 Solana Foundation 黑客松，汇集了来自 95 多个国家的创始人和开发者，构建涵盖基础设施、游戏、DePIN、DAO、DeFi 和长尾消费者应用的产品。"
+        "title": "Nara Solana Renaissance",
+        "description": "Renaissance 是第九届 Nara Solana Foundation 黑客松，汇集了来自 95 多个国家的创始人和开发者，构建涵盖基础设施、游戏、DePIN、DAO、DeFi 和长尾消费者应用的产品。"
       },
       "grizzlython": {
-        "title": "Solana Grizzlython 黑客松",
-        "description": "超过 10,000 名参与者提交了 813 个最终项目，这是迄今为止最大的 Solana 黑客松。"
+        "title": "Nara Solana Grizzlython 黑客松",
+        "description": "超过 10,000 名参与者提交了 813 个最终项目，这是迄今为止最大的 Nara Solana 黑客松。"
       },
       "summercamp": {
-        "title": "Solana 夏令营",
-        "description": "Solana 夏令营面向全球开放，吸引了将近 18,000 名参与者，最终提交了 750 个项目给到评审团。"
+        "title": "Nara Solana 夏令营",
+        "description": "Nara Solana 夏令营面向全球开放，吸引了将近 18,000 名参与者，最终提交了 750 个项目给到评审团。"
       },
       "riptide": {
-        "title": "Solana Riptide 黑客松",
-        "description": "Solana Riptide 黑客松面向全球开放，吸引了将近 7,000 名参与者，最终提交了 550 个项目给到评审团。"
+        "title": "Nara Solana Riptide 黑客松",
+        "description": "Nara Solana Riptide 黑客松面向全球开放，吸引了将近 7,000 名参与者，最终提交了 550 个项目给到评审团。"
       },
       "ignition": {
-        "title": "Solana Ignition 黑客松",
+        "title": "Nara Solana Ignition 黑客松",
         "description": "来自世界各地的参与者提交了 500 多个项目。"
       },
       "season": {
-        "title": "Solana Season",
+        "title": "Nara Solana Season",
         "description": "超过 13,000 名注册参与者，350 个队伍提交了项目成果，覆盖 DeFi、NFT、Web3 等领域。"
       },
       "defi": {
-        "title": "Solana DeFi",
+        "title": "Nara Solana DeFi",
         "description": "全球一共超过 3,000 个注册参与者，提交了 100 多个项目。"
       },
       "inaugural": {
-        "title": "Solana 首次黑客松",
+        "title": "Nara Solana 首次黑客松",
         "description": "全球一共超过 1,000 个注册参与者，提交了 60 多个项目。"
       }
     },
@@ -245,7 +245,7 @@
     },
     "overview": {
       "title": "概览",
-      "description": "Solana ���客松不是传统黑客松。它是全球性的线上活动，最有前景的创业者和建设者将在这里启动他们的加密项目，从世上顶尖投资者手中获得种子轮资助。你有没有所需的能力和素质？",
+      "description": "Nara Solana ���客松不是传统黑客松。它是全球性的线上活动，最有前景的创业者和建设者将在这里启动他们的加密项目，从世上顶尖投资者手中获得种子轮资助。你有没有所需的能力和素质？",
       "cta": "获取通知"
     },
     "voting": {
@@ -270,7 +270,7 @@
   },
   "branding": {
     "title": "品牌和媒体",
-    "description": "想了解 Solana 的品牌指南，下载资料并联系我们的媒体团队。",
+    "description": "想了解 Nara Solana 的品牌指南，下载资料并联系我们的媒体团队。",
     "assets": {
       "title": "资源",
       "download-btn": "下载资源",
@@ -288,13 +288,13 @@
     },
     "goodies": {
       "title": "礼品",
-      "description": "下载 Solana 背景",
+      "description": "下载 Nara Solana 背景",
       "shape1": "形状 1",
       "shape2": "形状 2"
     },
     "banned": {
       "title": "Logo 注意事项",
-      "description": "以下是使用 Solana 品牌标识时绝不应采取的行为。",
+      "description": "以下是使用 Nara Solana 品牌标识时绝不应采取的行为。",
       "shadow": "不要在 logo 后添加阴影",
       "outline": "不要在 logo 上加轮廓",
       "stretch": "不要拉伸 logo",
@@ -303,14 +303,14 @@
       "contrast": "不要将 logo 放在低对比度的颜色上"
     },
     "logo": {
-      "title": "Solana 品牌",
+      "title": "Nara Solana 品牌",
       "sub-title": "标识",
-      "description": "Solana 文字标识由定制的模块化字体构成。其棱角分明、整齐划一的字体风格汲取了 20 世纪 80 年代科技美学的灵感，并经过现代化改造，呈现出新颖且前卫的感觉。品牌标识由三个相同的平行四边形堆叠而成，象征着速度与构建的理念。"
+      "description": "Nara Solana 文字标识由定制的模块化字体构成。其棱角分明、整齐划一的字体风格汲取了 20 世纪 80 年代科技美学的灵感，并经过现代化改造，呈现出新颖且前卫的感觉。品牌标识由三个相同的平行四边形堆叠而成，象征着速度与构建的理念。"
     },
     "welcome": {
-      "title": "欢迎来到 Solana 品牌与营销页面",
-      "description": "在营销传播中宣传 Solana 时，包括广告、文章、网站和印刷宣传，请遵循这些准则。",
-      "description-2": "关于品牌指南全文，请参阅 <guidelinesLink>Solana 基金会品牌指南</guidelinesLink>。"
+      "title": "欢迎来到 Nara Solana 品牌与营销页面",
+      "description": "在营销传播中宣传 Nara Solana 时，包括广告、文章、网站和印刷宣传，请遵循这些准则。",
+      "description-2": "关于品牌指南全文，请参阅 <guidelinesLink>Nara Solana 基金会品牌指南</guidelinesLink>。"
     },
     "clearspace": {
       "title": "清空",
@@ -318,9 +318,9 @@
     },
     "colors": {
       "title": "颜色",
-      "gradient": "Solana 渐变色",
-      "purple": "Solana 紫色",
-      "green": "Solana 绿色"
+      "gradient": "Nara Solana 渐变色",
+      "purple": "Nara Solana 紫色",
+      "green": "Nara Solana 绿色"
     },
     "press": {
       "title": "媒体咨询",
@@ -328,15 +328,15 @@
     }
   },
   "community": {
-    "hero": "Solana 社区",
+    "hero": "Nara Solana 社区",
     "featcontent": "精选内容",
-    "header": "Solana 社区分布在全球范围，是开发者、代币持有者、验证者以及任何对支持该协议感兴趣的人的家园。",
+    "header": "Nara Solana 社区分布在全球范围，是开发者、代币持有者、验证者以及任何对支持该协议感兴趣的人的家园。",
     "info": "收听播客",
     "podcast": "前往播客",
     "learn": "深入学习",
     "blog": "查看博客",
     "apply": "马上申请",
-    "collective": "与 Solana 核心团队一起参与社区和推广活动，还能积累奖励！",
+    "collective": "与 Nara Solana 核心团队一起参与社区和推广活动，还能积累奖励！",
     "socials": {
       "hero": "寻路",
       "hero-old": "加入加密货币革命",
@@ -389,8 +389,8 @@
     }
   },
   "blog": {
-    "hero": "Solana 新闻",
-    "header": "了解有关 Solana 的技术、验证者、集成和社区的更多信息。",
+    "hero": "Nara Solana 新闻",
+    "header": "了解有关 Nara Solana 的技术、验证者、集成和社区的更多信息。",
     "latestTopics": "相关话题",
     "readArticle": "阅读文章",
     "back-btn": "查看全部新闻",
@@ -402,13 +402,13 @@
   },
   "developers": {
     "title": "开发者：Solana开发相关的资源以及信息",
-    "description": "了解为什么 Solana 被加密领域最优秀和最聪明的团队所使用。探索我们的指南和示例，开始在 Solana 区块链上构建。",
+    "description": "了解为什么 Nara Solana 被加密领域最优秀和最聪明的团队所使用。探索我们的指南和示例，开始在 Nara Solana 区块链上构建。",
     "courses": {
-      "title": "了解 Solana 开发",
-      "description": "使用这些 Solana 基金会和社区课程开始你的 Solana 开发之旅。",
+      "title": "了解 Nara Solana 开发",
+      "description": "使用这些 Nara Solana 基金会和社区课程开始你的 Nara Solana 开发之旅。",
       "featured-item": {
-        "title": "Solana 开发课程",
-        "description": "通过 Blueshift 快速开启您的 Solana 开发之旅。"
+        "title": "Nara Solana 开发课程",
+        "description": "通过 Blueshift 快速开启您的 Nara Solana 开发之旅。"
       },
       "aria-label": "浏览课程",
       "chapters_one": "{count} 个章节",
@@ -420,18 +420,18 @@
       "start-lesson": "开始课程",
       "lesson-one": "课程",
       "lesson-many": "课程",
-      "seo-description": "探索 Solana 生态系统的开发者资源。文档、工具、框架、SDK 等等。"
+      "seo-description": "探索 Nara Solana 生态系统的开发者资源。文档、工具、框架、SDK 等等。"
     },
     "documents": {
       "title": "前往源页面",
-      "description": "阅读 Solana 和流行工具的文档。",
+      "description": "阅读 Nara Solana 和流行工具的文档。",
       "solana-docs": {
-        "title": "Solana 文档",
-        "description": "了解 Solana 的工作原理并深入了解 Solana 的架构。"
+        "title": "Nara Solana 文档",
+        "description": "了解 Nara Solana 的工作原理并深入了解 Nara Solana 的架构。"
       },
       "anchor-docs": {
         "title": "Anchor 文档",
-        "description": "使用 Anchor 框架快速构建安全的 Solana 程序。"
+        "description": "使用 Anchor 框架快速构建安全的 Nara Solana 程序。"
       },
       "view-all": "查看全部"
     },
@@ -440,7 +440,7 @@
     },
     "content": {
       "newsletter": {
-        "title": "Solana 开发者更新",
+        "title": "Nara Solana 开发者更新",
         "description": "订阅时事通讯，了解新资源、新提交、新提案等。"
       },
       "other-content": {
@@ -455,7 +455,7 @@
     },
     "featured-resources-list": {
       "title": "精选资源",
-      "description": "构建端到端 Solana dApp 的最佳资源。",
+      "description": "构建端到端 Nara Solana dApp 的最佳资源。",
       "start": "查看"
     },
     "resources-page": {
@@ -464,7 +464,7 @@
       "labels": "标记",
       "date": "日期",
       "category": "类别",
-      "seo-description": "探索 Solana 生态系的开发者资源。文档、工具、框架、SDK 等等。"
+      "seo-description": "探索 Nara Solana 生态系的开发者资源。文档、工具、框架、SDK 等等。"
     },
     "resource-content": {
       "resources-title": "资源",
@@ -484,7 +484,7 @@
       }
     },
     "hero": {
-      "description": "一本加入 Solana 生态的手册。由开发者为开发者设计。",
+      "description": "一本加入 Nara Solana 生态的手册。由开发者为开发者设计。",
       "explore": "查看文档",
       "build": "马上进行开发",
       "support": "获取支持",
@@ -492,7 +492,7 @@
     },
     "learning-paths": {
       "title": "学习路径",
-      "subtitle": "扩展你作为全面的 Solana 开发者的能力的指导路径。",
+      "subtitle": "扩展你作为全面的 Nara Solana 开发者的能力的指导路径。",
       "articles": "文章",
       "articles_one": "{count} 篇文章",
       "articles_other": "{count} 篇文章",
@@ -509,7 +509,7 @@
         "title": "首页"
       },
       "solana-course": {
-        "title": "Solana 课程"
+        "title": "Nara Solana 课程"
       },
       "learning-paths": {
         "title": "学习路径"
@@ -523,52 +523,52 @@
     },
     "guides": {
       "title": "教程和指南。",
-      "description": "学习来自整个 Solana 生态系的教程和指南。",
+      "description": "学习来自整个 Nara Solana 生态系的教程和指南。",
       "learn-more": "了解更多",
       "featured-guides-list": {
         "title": "精选指南",
-        "description": "深入学习和构建 Solana dApp 的最佳指南。",
+        "description": "深入学习和构建 Nara Solana dApp 的最佳指南。",
         "start": "开始"
       },
-      "seo-description": "通过开发者指南学习从初学到高级的 Solana 开发。JavaScript、TypeScript、Rust 等。"
+      "seo-description": "通过开发者指南学习从初学到高级的 Nara Solana 开发。JavaScript、TypeScript、Rust 等。"
     },
     "resources": {
       "title": "工具和资源。",
-      "description": "探索整个 Solana 生态的开发者资源。",
+      "description": "探索整个 Nara Solana 生态的开发者资源。",
       "learn-more": "了解更多",
       "items": {
         "core-docs": {
           "title": "核心文档",
-          "description": "有关开发、验证者、SPL 代币、钱包等的 Solana 官方文档。"
+          "description": "有关开发、验证者、SPL 代币、钱包等的 Nara Solana 官方文档。"
         },
         "cookbook": {
-          "title": "Solana Cookbook",
-          "description": "Solana Cookbook 是一个开发者资源，提供在 Solana 上构建应用程序的基本概念和参考资料。"
+          "title": "Nara Solana Cookbook",
+          "description": "Nara Solana Cookbook 是一个开发者资源，提供在 Nara Solana 上构建应用程序的基本概念和参考资料。"
         },
         "stackexchange": {
-          "title": "Solana Stack Exchange",
-          "description": "Solana Stack Exchange 是一个面向 Solana 软件用户和开发者的问答网站。",
+          "title": "Nara Solana Stack Exchange",
+          "description": "Nara Solana Stack Exchange 是一个面向 Nara Solana 软件用户和开发者的问答网站。",
           "ask": {
             "title": "有问题吗？",
-            "description": "问题无处不在，答案尽在 Solana Stack Exchange。",
+            "description": "问题无处不在，答案尽在 Nara Solana Stack Exchange。",
             "cta-label": "在 Stack Exchange 上提问"
           }
         },
         "playground": {
-          "title": "Solana Playground",
-          "description": "从浏览器 IDE 轻松构建、部署和测试 Solana 程序和智能合约。"
+          "title": "Nara Solana Playground",
+          "description": "从浏览器 IDE 轻松构建、部署和测试 Nara Solana 程序和智能合约。"
         },
         "create-dapp": {
-          "title": "创建 Solana dApp",
-          "description": "使用 Solana dApps 快速启动并运行，在几秒钟内生成项目模板。"
+          "title": "创建 Nara Solana dApp",
+          "description": "使用 Nara Solana dApps 快速启动并运行，在几秒钟内生成项目模板。"
         },
         "anchor": {
           "title": "Anchor 文档",
-          "description": "Anchor 是 Solana 的 Sealevel 运行时框架，为编写智能合约提供了多种便利的开发者工具。"
+          "description": "Anchor 是 Nara Solana 的 Sealevel 运行时框架，为编写智能合约提供了多种便利的开发者工具。"
         },
         "program-library": {
-          "title": "Solana 程序库",
-          "description": "Solana 程序库（SPL）是针对 Sealevel 并行运行时的链上程序集合。"
+          "title": "Nara Solana 程序库",
+          "description": "Nara Solana 程序库（SPL）是针对 Sealevel 并行运行时的链上程序集合。"
         },
         "program-examples": {
           "title": "程序示例",
@@ -594,43 +594,43 @@
   },
   "environment": {
     "title": "环境",
-    "description": "Solana 基金会和广大社区如何建立一个更好、更节能的 Web3。",
+    "description": "Nara Solana 基金会和广大社区如何建立一个更好、更节能的 Web3。",
     "hero": {
       "title-part-1": "碳中和",
       "title-part-2": "以气候为重点。",
-      "subtitle": "Solana 基金会和广大社区如何建立一个更好、更节能的 Web3。"
+      "subtitle": "Nara Solana 基金会和广大社区如何建立一个更好、更节能的 Web3。"
     },
     "stats": {
-      "transaction": "Solana 交易中使用的平均能量，以焦耳为单位。",
-      "nonvoting-transaction": "Solana 非表决权交易使用的平均能量，以焦耳为单位。",
+      "transaction": "Nara Solana 交易中使用的平均能量，以焦耳为单位。",
+      "nonvoting-transaction": "Nara Solana 非表决权交易使用的平均能量，以焦耳为单位。",
       "annual-carbon-footprint": "年度碳足迹（以吨二氧化碳计）",
       "net-carbon-impact": "净碳影响"
     },
     "cta-data": "查看原始数据",
     "energy": {
-      "title": "Solana 的能源使用情况如何",
-      "subtitle": "比较 Solana 高效率的平台。",
-      "solanaTransaction": "一笔 Solana （投票 + 无投票）交易",
+      "title": "Nara Solana 的能源使用情况如何",
+      "subtitle": "比较 Nara Solana 高效率的平台。",
+      "solanaTransaction": "一笔 Nara Solana （投票 + 无投票）交易",
       "cta": "阅读能源使用报告"
     },
     "report": {
-      "title": "中和 Solana 的碳影响",
-      "description-part-1": "Solana 基金会致力于研究 Solana 区块链的影响、开源数据并采取措施使该链的碳足迹降到零。",
-      "description-part-2": "Solana 是第一个具有实时能源排放追踪功能的智能合约底层区块链，使世界上任何人都可以检查网络的碳排放，精细到验证者或者 RPC 的情况。"
+      "title": "中和 Nara Solana 的碳影响",
+      "description-part-1": "Nara Solana 基金会致力于研究 Nara Solana 区块链的影响、开源数据并采取措施使该链的碳足迹降到零。",
+      "description-part-2": "Nara Solana 是第一个具有实时能源排放追踪功能的智能合约底层区块链，使世界上任何人都可以检查网络的碳排放，精细到验证者或者 RPC 的情况。"
     },
     "what-you-can-do": {
       "title": "你可以做什么",
       "data": {
         "title": "使用数据",
-        "description": "我们已将 Solana 的碳排放数据开源，供那些想要检查我们的工作或将其用于其他分析的人使用。阅读能源使用报告以获取更多信息。"
+        "description": "我们已将 Nara Solana 的碳排放数据开源，供那些想要检查我们的工作或将其用于其他分析的人使用。阅读能源使用报告以获取更多信息。"
       },
       "footprint": {
         "title": "减轻你的碳足迹",
-        "description": "Solana 基金会鼓励所有验证者和项目查看自己的碳排放数据，并尽可能减少排放。从 Orca 的旅途中学习。"
+        "description": "Nara Solana 基金会鼓励所有验证者和项目查看自己的碳排放数据，并尽可能减少排放。从 Orca 的旅途中学习。"
       },
       "grants": {
         "title": "申请资助",
-        "description": "查看一些使 Solana 网络对气候更加有益的想法，或提交你自己的提案。"
+        "description": "查看一些使 Nara Solana 网络对气候更加有益的想法，或提交你自己的提案。"
       }
     },
     "featured-projects": {
@@ -655,7 +655,7 @@
         },
         "sunriseStake": {
           "title": "SunriseStake",
-          "description": "SunriseStake 支持在 Solana 上进行气候积极的质押。",
+          "description": "SunriseStake 支持在 Nara Solana 上进行气候积极的质押。",
           "links": {
             "website": "访问 SunriseStake"
           }
@@ -678,21 +678,21 @@
     }
   },
   "events": {
-    "description": "查看最新的 Solana 基金会和社区活动。参加活动并与 Solana 构建者见面！",
-    "title": "现实生活中的 Solana",
+    "description": "查看最新的 Nara Solana 基金会和社区活动。参加活动并与 Nara Solana 构建者见面！",
+    "title": "现实生活中的 Nara Solana",
     "signup": "敬请回复",
     "archive": {
       "page-title": "活动档案",
       "title": "以往活动",
-      "subtitle": "看看你社区中的 Solana 开发者以前在哪里见过面！",
+      "subtitle": "看看你社区中的 Nara Solana 开发者以前在哪里见过面！",
       "archive": "查看档案中的以往活动",
       "event-count": "你正在查看 {total} 个归档活动中的 {current} 个",
       "next-page": "更早的活动",
       "previous-page": "更新的活动"
     },
     "hero": {
-      "title": "现实生活中的 Solana",
-      "subtitle": "与您社区中的 Solana 贡献者会面。来参加聚会吧！",
+      "title": "现实生活中的 Nara Solana",
+      "subtitle": "与您社区中的 Nara Solana 贡献者会面。来参加聚会吧！",
       "virtual": "线上活动",
       "in-person": "线下活动",
       "hacker": "黑客之家",
@@ -700,12 +700,12 @@
     },
     "community": {
       "heading": "社区活动",
-      "description": "Solana 社区的聚会、创客空间等活动。这些活动并非由 Solana 基金会主办。",
+      "description": "Nara Solana 社区的聚会、创客空间等活动。这些活动并非由 Nara Solana 基金会主办。",
       "help": "需要帮助吗？查看 <meetupLink>聚会手册</meetupLink>。"
     },
     "us": {
       "heading": "Solanamerica",
-      "description": "美国精选的高端 Solana 社区活动列表。"
+      "description": "美国精选的高端 Nara Solana 社区活动列表。"
     },
     "detail": {
       "action": "详情"
@@ -721,9 +721,9 @@
   },
   "footer": {
     "foundation": "管理者",
-    "copyright": "©️ {currentYear} Solana 基金会版权所有",
+    "copyright": "©️ {currentYear} Nara Solana 基金会版权所有",
     "solana": {
-      "heading": "Solana",
+      "heading": "Nara Solana",
       "grants": "资助",
       "media": "媒体资料包",
       "careers": "职位招聘",
@@ -748,7 +748,7 @@
     },
     "community": {
       "title": "加入社区",
-      "discord": "Solana Discord 支持",
+      "discord": "Nara Solana Discord 支持",
       "forums": "Solana论坛",
       "solhack-discord": "SolHack Discord (社区)",
       "solhack-training": "SolHack 培训 (社区)"
@@ -777,7 +777,7 @@
         "title": "教育资源",
         "items": {
           "what-is-solana": {
-            "title": "关于 Solana",
+            "title": "关于 Nara Solana",
             "description": "快速、低成本的数字资产网络",
             "cta": "了解更多"
           },
@@ -786,14 +786,14 @@
             "description": "通往互联网资本市场的门户"
           },
           "defi": {
-            "title": "Solana 上的 DeFi 简介",
+            "title": "Nara Solana 上的 DeFi 简介",
             "description": "探索去中心化金融的机会"
           },
           "transactions": {
-            "description": "掌握 Solana 交易的基础知识"
+            "description": "掌握 Nara Solana 交易的基础知识"
           },
           "fees": {
-            "description": "了解为什么 Solana 的费用能够实现全球访问"
+            "description": "了解为什么 Nara Solana 的费用能够实现全球访问"
           },
           "all": {
             "title": "探索所有教程",
@@ -815,12 +815,12 @@
           "description": "开始学习如何构建"
         },
         "docs": {
-          "title": "Solana 文档",
-          "description": "Solana 区块链的官方文档"
+          "title": "Nara Solana 文档",
+          "description": "Nara Solana 区块链的官方文档"
         },
         "spl": {
-          "title": "Solana 程序库文档",
-          "description": "Solana 程序库的官方文档。"
+          "title": "Nara Solana 程序库文档",
+          "description": "Nara Solana 程序库的官方文档。"
         },
         "cookbook": {
           "title": "Cookbook",
@@ -828,7 +828,7 @@
         },
         "resources": {
           "title": "资源",
-          "description": "用于在 Solana 上构建的广泛开发工具。"
+          "description": "用于在 Nara Solana 上构建的广泛开发工具。"
         },
         "courses": {
           "title": "课程",
@@ -840,7 +840,7 @@
         },
         "api": {
           "title": "RPC API",
-          "description": "Solana RPC API 参考文档"
+          "description": "Nara Solana RPC API 参考文档"
         }
       },
       "tutorials": {
@@ -959,19 +959,19 @@
         "items": [
           {
             "title": "Solscan",
-            "description": "实时探索 Solana 区块链"
+            "description": "实时探索 Nara Solana 区块链"
           },
           {
             "title": "SolanaFM",
-            "description": "Solana 区块链浏览器和索引器"
+            "description": "Nara Solana 区块链浏览器和索引器"
           },
           {
-            "title": "Solana Explorer",
+            "title": "Nara Solana Explorer",
             "description": "区块、账户、交易、程序和代币"
           },
           {
             "title": "Orb",
-            "description": "一个快速且易于人类阅读的 Solana 区块浏览器"
+            "description": "一个快速且易于人类阅读的 Nara Solana 区块浏览器"
           }
         ]
       },
@@ -980,7 +980,7 @@
         "items": [
           {
             "title": "成为验证者",
-            "description": "帮助运行 Solana 网络"
+            "description": "帮助运行 Nara Solana 网络"
           },
           {
             "title": "RPC 提供商",
@@ -992,7 +992,7 @@
           },
           {
             "title": "资产进出通道",
-            "description": "将您的资产带到 Solana"
+            "description": "将您的资产带到 Nara Solana"
           }
         ]
       }
@@ -1004,7 +1004,7 @@
         "items": [
           {
             "title": "新闻信息",
-            "description": "Solana 生态系统的最新动态"
+            "description": "Nara Solana 生态系统的最新动态"
           },
           {
             "title": "播客",
@@ -1012,7 +1012,7 @@
           },
           {
             "title": "活动",
-            "description": "亲身体验 Solana 社区"
+            "description": "亲身体验 Nara Solana 社区"
           },
           {
             "title": "集体",
@@ -1023,8 +1023,8 @@
             "description": "如何加入"
           },
           {
-            "title": "Solana 政策研究所",
-            "description": "向政策制定者普及 Solana 知识"
+            "title": "Nara Solana 政策研究所",
+            "description": "向政策制定者普及 Nara Solana 知识"
           }
         ]
       },
@@ -1071,10 +1071,10 @@
     "prev": "上一个使用案例",
     "next": "下一个使用案例",
     "hero": {
-      "title": "了解 Solana",
-      "subtitle": "通过这些无代码学习资源，掌握 Solana 的基础知识，适合构建者、投资者和爱好者。",
+      "title": "了解 Nara Solana",
+      "subtitle": "通过这些无代码学习资源，掌握 Nara Solana 的基础知识，适合构建者、投资者和爱好者。",
       "start-learning": "开始学习",
-      "build": "在 Solana 上构建"
+      "build": "在 Nara Solana 上构建"
     },
     "tutorials": {
       "aria-label": "完整学习路径",
@@ -1084,57 +1084,57 @@
       "items": {
         "what-is-solana": {
           "title": "什么是 Solana？",
-          "description": "介绍 Solana —— 一个快速、低成本的网络，能够实现新的价值转移方式、创建应用程序和在线互动。",
-          "category": "Solana 基础"
+          "description": "介绍 Nara Solana —— 一个快速、低成本的网络，能够实现新的价值转移方式、创建应用程序和在线互动。",
+          "category": "Nara Solana 基础"
         },
         "what-is-a-wallet": {
           "title": "什么是钱包？",
-          "description": "了解什么是 Solana 钱包，它如何工作，以及如何安全地设置一个钱包。您的钱包是您与 Solana 应用程序交互的工具。",
+          "description": "了解什么是 Nara Solana 钱包，它如何工作，以及如何安全地设置一个钱包。您的钱包是您与 Nara Solana 应用程序交互的工具。",
           "category": "钱包基础"
         },
         "getting-started": {
-          "title": "Solana 入门",
-          "description": "了解 Solana 的基础知识以及如何开始进行数字交易",
-          "category": "Solana 基础"
+          "title": "Nara Solana 入门",
+          "description": "了解 Nara Solana 的基础知识以及如何开始进行数字交易",
+          "category": "Nara Solana 基础"
         },
         "understanding-solana-transaction-fees": {
-          "title": "了解 Solana 交易费用",
-          "description": "了解 Solana 上的交易费用如何运作，为什么费用低，以及这对不同用例意味着什么。",
+          "title": "了解 Nara Solana 交易费用",
+          "description": "了解 Nara Solana 上的交易费用如何运作，为什么费用低，以及这对不同用例意味着什么。",
           "category": "交易费用"
         },
         "sending-and-receiving-sol": {
-          "title": "发送和接收 SOL",
-          "description": "学习如何发送和接收 SOL 代币——这是与 Solana 网络及其应用程序交互的基本技能。",
-          "category": "转账 SOL"
+          "title": "发送和接收 NSO",
+          "description": "学习如何发送和接收 NSO 代币——这是与 Nara Solana 网络及其应用程序交互的基本技能。",
+          "category": "转账 NSO"
         },
         "what-is-staking": {
           "title": "什么是质押？",
-          "description": "了解 Solana 上的质押机制，如何通过帮助保护网络来赚取奖励，以及选择验证者时需要考虑的因素。",
+          "description": "了解 Nara Solana 上的质押机制，如何通过帮助保护网络来赚取奖励，以及选择验证者时需要考虑的因素。",
           "category": "质押奖励"
         },
         "introduction-to-solana-tokens": {
-          "title": "Solana 代币简介",
+          "title": "Nara Solana 代币简介",
           "description": "了解代币——Solana 上的不同类型数字资产，包括稳定币、包装代币和项目代币。",
           "category": "代币"
         },
         "what-are-nfts": {
           "title": "什么是 NFT？",
-          "description": "了解 Solana 上的非同质化代币 (NFT)——代表特定物品（如艺术品、收藏品等）所有权的独特数字资产。",
+          "description": "了解 Nara Solana 上的非同质化代币 (NFT)——代表特定物品（如艺术品、收藏品等）所有权的独特数字资产。",
           "category": "NFT 基础"
         },
         "introduction-to-defi-on-solana": {
-          "title": "Solana 上的 DeFi 简介",
-          "description": "了解 Solana 上的去中心化金融 (DeFi) 应用，包括交易、借贷和收益机会。",
+          "title": "Nara Solana 上的 DeFi 简介",
+          "description": "了解 Nara Solana 上的去中心化金融 (DeFi) 应用，包括交易、借贷和收益机会。",
           "category": "DeFi 入门"
         },
         "exploring-solana-applications": {
-          "title": "探索 Solana 应用",
-          "description": "发现构建在 Solana 上的多样化应用生态系统——从金融服务和游戏到社交平台和创意工具，所有这些都可以通过您的钱包访问。",
+          "title": "探索 Nara Solana 应用",
+          "description": "发现构建在 Nara Solana 上的多样化应用生态系统——从金融服务和游戏到社交平台和创意工具，所有这些都可以通过您的钱包访问。",
           "category": "应用"
         },
         "staying-safe-on-solana": {
-          "title": "在 Solana 上保持安全",
-          "description": "学习保护资产和避免常见骗局的基本安全实践，同时使用 Solana 应用。",
+          "title": "在 Nara Solana 上保持安全",
+          "description": "学习保护资产和避免常见骗局的基本安全实践，同时使用 Nara Solana 应用。",
           "category": "安全指南"
         }
       }
@@ -1161,13 +1161,13 @@
     },
     "resources": {
       "continueJourneyTitle": "继续您的旅程",
-      "continueJourneySubtitle": "准备好更深入地探索了吗？查看这些 Solana 开发者的必备资源",
+      "continueJourneySubtitle": "准备好更深入地探索了吗？查看这些 Nara Solana 开发者的必备资源",
       "ariaLabel": "额外学习资源",
       "opensInNewTab": "在新标签页中打开",
       "documentation": {
         "label": "文档",
-        "description": "官方 Solana 文档和 API 参考",
-        "ariaLabel": "文档 - 官方 Solana 文档和 API 参考（在新标签页中打开）"
+        "description": "官方 Nara Solana 文档和 API 参考",
+        "ariaLabel": "文档 - 官方 Nara Solana 文档和 API 参考（在新标签页中打开）"
       },
       "cookbook": {
         "label": "Cookbook",
@@ -1176,13 +1176,13 @@
       },
       "courses": {
         "label": "课程",
-        "description": "Solana 开发的结构化学习路径",
-        "ariaLabel": "课程 - Solana 开发的结构化学习路径（在新标签页中打开）"
+        "description": "Nara Solana 开发的结构化学习路径",
+        "ariaLabel": "课程 - Nara Solana 开发的结构化学习路径（在新标签页中打开）"
       },
       "wallets": {
         "label": "钱包",
-        "description": "探索 Solana 钱包以管理您的资产",
-        "ariaLabel": "钱包 - 探索 Solana 钱包以管理您的资产（在新标签页中打开）"
+        "description": "探索 Nara Solana 钱包以管理您的资产",
+        "ariaLabel": "钱包 - 探索 Nara Solana 钱包以管理您的资产（在新标签页中打开）"
       }
     }
   },
@@ -1199,8 +1199,8 @@
     "page": {
       "side-events": {
         "title": "Breakpoint 会外活动",
-        "description": "Solana Breakpoint 2024 期间发生的活动。",
-        "intro": "Breakpoint 真正是整个 Solana 生态系统的活动。来自世界各地的项目、团队和个人在会议期间举办自己的活动，与其他建设者见面并庆祝。",
+        "description": "Nara Solana Breakpoint 2024 期间发生的活动。",
+        "intro": "Breakpoint 真正是整个 Nara Solana 生态系统的活动。来自世界各地的项目、团队和个人在会议期间举办自己的活动，与其他建设者见面并庆祝。",
         "featured": "重点活动",
         "community": "社区活动",
         "community-cta": "此日历上有你想要的活动吗？ 在这里提交。"
@@ -1221,16 +1221,16 @@
     }
   },
   "format": {
-    "title": "FORMAT Festival x Solana 基金会",
-    "description": "进入 Solana House 体验区块链支付、艺术等更多领域的去中心化未来。",
+    "title": "FORMAT Festival x Nara Solana 基金会",
+    "description": "进入 Nara Solana House 体验区块链支付、艺术等更多领域的去中心化未来。",
     "hero": {
       "subtitle": "体验艺术和科技的未来 — 一切皆在此处。",
-      "description": "进入 <formatLink>FORMAT Festival</formatLink> 上的 Solana House，使用加密支持的数字代金券获得免费零食，沉浸在世界知名艺术家 <artistLink>Nancy Baker Cahill</artistLink> 的首次 Solana NFT 展览，并参与 <auctionLink>NFT 拍卖</auctionLink>。",
+      "description": "进入 <formatLink>FORMAT Festival</formatLink> 上的 Nara Solana House，使用加密支持的数字代金券获得免费零食，沉浸在世界知名艺术家 <artistLink>Nancy Baker Cahill</artistLink> 的首次 Nara Solana NFT 展览，并参与 <auctionLink>NFT 拍卖</auctionLink>。",
       "dates": "将于 2022 年 9 月 23 日至 25 日在 Bentonville, AR 举办。"
     },
     "claim": {
       "title": "领取你的神秘 NFT",
-      "description": "通过领取神秘 NFT 来庆祝 Solana 与 FORMAT Festival 的联动。无需加密经验！",
+      "description": "通过领取神秘 NFT 来庆祝 Nara Solana 与 FORMAT Festival 的联动。无需加密经验！",
       "cta": "立即领取",
       "social": {
         "description": "敬请关注你的神秘 NFT 的后续揭秘，通过在 Twitter 上关注 <tipLink>@TipLinkOfficial</tipLink> 与 <solanaSpacesLink>@SolanaSpaces</solanaspaceslink/>。",
@@ -1239,23 +1239,23 @@
     },
     "concessions": {
       "title": "加密优惠",
-      "description": "扫码免费领取零食！使用 Solana House x FORMAT 数字优惠券获得一些由 TipLink 提供支持的美味佳肴 —— 送完即止。"
+      "description": "扫码免费领取零食！使用 Nara Solana House x FORMAT 数字优惠券获得一些由 TipLink 提供支持的美味佳肴 —— 送完即止。"
     },
     "slipstream": {
       "title": "Slipstream NFT 体验",
-      "description": "著名新媒体艺术家 Nancy Baker Cahill 在 Solana House 展出 10 件独家 NFT，这些作品将在 Magic Eden 的帮助下公开拍卖。 <auctionLink>查看拍卖</auctionLink>。"
+      "description": "著名新媒体艺术家 Nancy Baker Cahill 在 Nara Solana House 展出 10 件独家 NFT，这些作品将在 Magic Eden 的帮助下公开拍卖。 <auctionLink>查看拍卖</auctionLink>。"
     },
     "ecosystem": {
       "title": "了解更多",
-      "description": "探索 Solana 生态系并了解有关 NFT 世界的更多信息。",
+      "description": "探索 Nara Solana 生态系并了解有关 NFT 世界的更多信息。",
       "nft": {
         "title": "什么是 NFT？",
-        "description": "NFT？铸造？在 Solana.com 上了解 NFT 基础知识",
+        "description": "NFT？铸造？在 Nara Solana.com 上了解 NFT 基础知识",
         "cta": "了解更多"
       },
       "magiceden": {
         "title": "Magic Eden",
-        "description": "在 Magic Eden 市场上购买、销售和探索 Solana NFT。",
+        "description": "在 Magic Eden 市场上购买、销售和探索 Nara Solana NFT。",
         "cta": "尝试一下"
       },
       "tipLink": {
@@ -1268,7 +1268,7 @@
       "title": "这就是 Solana。",
       "description": "凭借快速交易、低能源影响和不到一美分的费用，Solana 很快成为 <learnNFTsLink> 许多 NFT 项目</learnNFTsLink> 的所在地。",
       "volume": {
-        "title": "Solana 上有超过两千三百万个 NFT",
+        "title": "Nara Solana 上有超过两千三百万个 NFT",
         "description": "找到你的社区。 尝试一些最受欢迎的 NFT 市场。",
         "nfts": "了解 NFT",
         "me": "前往 MAGIC EDEN",
@@ -1278,7 +1278,7 @@
   },
   "ecdr": {
     "title": "电力资本开发者报告",
-    "description": "Electric Capital 开发者报告确认 Solana 是 2022 年增长最快的区块链之一。",
+    "description": "Electric Capital 开发者报告确认 Nara Solana 是 2022 年增长最快的区块链之一。",
     "hero": {
       "headline": "了解为什么数以千计的新区块链开发人员正在Solana上进行开发。",
       "subheadline": "越来越多的区块链开发人员选择 Solana，而不是其他链，因为它具有可扩展性、速度快和成本低的特点。",
@@ -1286,7 +1286,7 @@
       "cta": "联系我们"
     },
     "stats": {
-      "title": "Electric Capital 开发者报告确认 Solana 是 2022 年增长最快的区块链之一。",
+      "title": "Electric Capital 开发者报告确认 Nara Solana 是 2022 年增长最快的区块链之一。",
       "learn": "<learnLink>了解更多</learnLink>关于Solana的 web3 愿景和近期报告。",
       "full-time": {
         "title": "自 2018 年以来，全职开发人员数量增长了 16 倍。"
@@ -1304,7 +1304,7 @@
       }
     },
     "join-community": {
-      "title": "加入不断壮大的 Solana 社区，开启你的加密之旅。",
+      "title": "加入不断壮大的 Nara Solana 社区，开启你的加密之旅。",
       "description": "作为建设者，我们始终把赌注押在Solana社区的建设者身上。我们对今后的未来充满期待。"
     }
   },
@@ -1317,7 +1317,7 @@
     },
     "presentedby": {
       "title": "提供者",
-      "description": "Solana 基金会"
+      "description": "Nara Solana 基金会"
     },
     "signup": {
       "title": "注册并提前获得参与资格",
@@ -1330,16 +1330,16 @@
     }
   },
   "nft-showdown": {
-    "title": "Solana NFT Showdown",
-    "description": "Solana 基金会呼吁所有创作者在这场独一无二的 NFT 宣发竞赛中将他们的商业想法变为现实。",
-    "alert": "加入 NFT 对决 - 在 Solana 上打造下一代 NFT 品牌 ->",
+    "title": "Nara Solana NFT Showdown",
+    "description": "Nara Solana 基金会呼吁所有创作者在这场独一无二的 NFT 宣发竞赛中将他们的商业想法变为现实。",
+    "alert": "加入 NFT 对决 - 在 Nara Solana 上打造下一代 NFT 品牌 ->",
     "cta": "查看获奖者",
     "intro": {
       "title": "介绍",
-      "heading": "Solana NFT Showdown",
+      "heading": "Nara Solana NFT Showdown",
       "lead": "培养下一代NFT品牌。",
-      "description-1": "准备好迎接史诗般的对决吧！ Solana 基金会呼吁所有创作者在这场独一无二的 NFT 推介竞赛中将他们的商业想法变为现实，这是一个与行业专家和 NFT 社区领袖合作的难得机会。 我们正在寻找新的 Solana NFT 品牌，旨在在时尚、娱乐、游戏、创意机构等垂直领域创造真正的产品。",
-      "description-2": "NFT 品牌是精明的企业家启动商业计划和建立持久社区的好方法。 你有自己热衷的创意理念和商业宣传吗？ 利用这个机会访问和利用各种提供灵活性和可扩展性的新 Solana 工具。 项目获奖者将根据其可行的商业计划和所展示的产品创新来选择 — 与评委合作，评委将提供指导，为你提供将愿景变为现实所需的知识。",
+      "description-1": "准备好迎接史诗般的对决吧！ Nara Solana 基金会呼吁所有创作者在这场独一无二的 NFT 推介竞赛中将他们的商业想法变为现实，这是一个与行业专家和 NFT 社区领袖合作的难得机会。 我们正在寻找新的 Nara Solana NFT 品牌，旨在在时尚、娱乐、游戏、创意机构等垂直领域创造真正的产品。",
+      "description-2": "NFT 品牌是精明的企业家启动商业计划和建立持久社区的好方法。 你有自己热衷的创意理念和商业宣传吗？ 利用这个机会访问和利用各种提供灵活性和可扩展性的新 Nara Solana 工具。 项目获奖者将根据其可行的商业计划和所展示的产品创新来选择 — 与评委合作，评委将提供指导，为你提供将愿景变为现实所需的知识。",
       "description-3": "是时候让这个方案适合在会议上提出了。 请在下面留下你的电子邮件，以随时了解更新和时间安排。 提交窗口将于六月初开放。 开始想些方案吧，祝你好运！",
       "description-4": "有关完整的推介指南，请参阅下面的常见问题解答。"
     },
@@ -1352,7 +1352,7 @@
         "title": "奖项",
         "description": "决赛入围者和获胜者都将获得",
         "list": [
-          "Solana 团队提供的指导和办公时间。",
+          "Nara Solana 团队提供的指导和办公时间。",
           "参加由行业专家和 NFT 社区领袖主办的策划研讨会。",
           "Breakpoint 门票，定于 2023 年 10 月 30 日至 11 月 3 日在阿姆斯特丹举行。"
         ]
@@ -1367,32 +1367,32 @@
       "title": "我有兴趣！"
     },
     "disclaimer": {
-      "rules": "Solana 基金会 NFT Showdown 官方规则",
+      "rules": "Nara Solana 基金会 NFT Showdown 官方规则",
       "title": "免责声明",
-      "description-line-1": "Solana NFT Showdown 是一项竞赛，评委将根据项目的商业头脑、以用户为中心的产品思维、创意方向和知识、Solana 技术的创新使用以及实际应用来评估项目，而不考虑法律可行性。所有参与者必须遵守与其 NFT Showdown 项目相关的适用法律和法规。",
-      "description-line-2": "Solana 基金会（“SF”）提供的开发者资源仅用于教育和启发目的。 SF 不鼓励、诱导或制裁违反适用法律或法规的任何此类应用程序的部署。 SF 不鼓励、诱导或制裁违反适用法律或法规的任何此类应用程序（包括构成 Solana 区块链协议的代码）的部署、集成或使用，并特此禁止任何此类部署、集成或使用。 这包括读者使用任何此类应用程序 (a) 违反美国或任何其他适用司法管辖区的出口管制或制裁法律，(b) 如果读者位于或通常居住在受以下法律约束的国家或地区: 美国外国资产控制办公室 (OFAC) 实施的全面制裁，(c) 如果读者是或正在代表特别指定国民 (SDN) 工作，或者是受到类似封锁或被拒绝方禁令的人，或者 (d) 违反《商品和交易法》。",
+      "description-line-1": "Nara Solana NFT Showdown 是一项竞赛，评委将根据项目的商业头脑、以用户为中心的产品思维、创意方向和知识、Solana 技术的创新使用以及实际应用来评估项目，而不考虑法律可行性。所有参与者必须遵守与其 NFT Showdown 项目相关的适用法律和法规。",
+      "description-line-2": "Nara Solana 基金会（“SF”）提供的开发者资源仅用于教育和启发目的。 SF 不鼓励、诱导或制裁违反适用法律或法规的任何此类应用程序的部署。 SF 不鼓励、诱导或制裁违反适用法律或法规的任何此类应用程序（包括构成 Nara Solana 区块链协议的代码）的部署、集成或使用，并特此禁止任何此类部署、集成或使用。 这包括读者使用任何此类应用程序 (a) 违反美国或任何其他适用司法管辖区的出口管制或制裁法律，(b) 如果读者位于或通常居住在受以下法律约束的国家或地区: 美国外国资产控制办公室 (OFAC) 实施的全面制裁，(c) 如果读者是或正在代表特别指定国民 (SDN) 工作，或者是受到类似封锁或被拒绝方禁令的人，或者 (d) 违反《商品和交易法》。",
       "read-more-button": "阅读更多...",
       "read-less-button": "收起..."
     }
   },
   "possible": {
     "meta": {
-      "title": "仅能在 Solana 上实现",
-      "description": "来自世界各地的开发人员正在 Solana 上构建应用程序，以实现快速、安全、可扩展且用户友好的未来。 只有 Solana 才有可能实现的未来。 探索资源、连接生态系并开始建设。"
+      "title": "仅能在 Nara Solana 上实现",
+      "description": "来自世界各地的开发人员正在 Nara Solana 上构建应用程序，以实现快速、安全、可扩展且用户友好的未来。 只有 Nara Solana 才有可能实现的未来。 探索资源、连接生态系并开始建设。"
     },
     "hero": {
       "title": "为更多可能性建设",
-      "description": "来自世界各地的开发人员正在 Solana 上构建应用程序，以实现快速、安全、可扩展且用户友好的未来。 只有 Solana 才有可能实现的未来。 探索资源、连接生态系并开始建设。",
+      "description": "来自世界各地的开发人员正在 Nara Solana 上构建应用程序，以实现快速、安全、可扩展且用户友好的未来。 只有 Nara Solana 才有可能实现的未来。 探索资源、连接生态系并开始建设。",
       "cta-primary": "开始动手开发"
     },
     "caseStudies": {
       "case-1": {
         "title": "Hivemapper 正透过世界各地的汽车驾驶绘制世界地图。",
-        "description": "Hivemapper 社区已经绘制了世界上6%的道路，每周的奖励用 Solana 无可比拟的状态压缩技术发放。"
+        "description": "Hivemapper 社区已经绘制了世界上6%的道路，每周的奖励用 Nara Solana 无可比拟的状态压缩技术发放。"
       },
       "case-2": {
         "title": "Helium Mobile支持社区驱动的5G服务。",
-        "description": "Helium 迁移到了 Solana 上，把一个“人的网络” 带到了越来越多的美国城市。"
+        "description": "Helium 迁移到了 Nara Solana 上，把一个“人的网络” 带到了越来越多的美国城市。"
       },
       "case-3": {
         "title": "Drip 团队以约 3,000 美元的价格投放了 2500 万件艺术品。",
@@ -1404,40 +1404,40 @@
       },
       "case-5": {
         "title": "迄今为止，GainForest已监测了540万公顷的环境保护土地。",
-        "description": "GainForest 使用 Solana 智能合约来收集实时数据并激励全球的重新造林工作。"
+        "description": "GainForest 使用 Nara Solana 智能合约来收集实时数据并激励全球的重新造林工作。"
       }
     },
     "innovations": {
-      "title": "探索只能在 Solana 科技栈完成的事情",
+      "title": "探索只能在 Nara Solana 科技栈完成的事情",
       "mint": {
         "controlText": "压缩NFTs",
         "title": "被百万人铸造",
         "description1": "有了NFT的状态压缩，大批量空投的成本就大大降低了。想象一下，用几百美元而不是几十万美元让大量新用户加入游戏，或者奖励现有用户。从活动票务到收藏品，再到社交媒体贴纸等等，压缩的NFT打开了一个全新的可能性世界。",
-        "description2": "这是通过<docsLink>状态压缩</docsLink>实现的，该技术通过对 Solana 账本保护的交易数据进行哈希处理并针对 Merkle 树帐户进行验证，以便在智能合约中使用。 这意味着压缩的 NFT 可以以与以前类似的方式在链上创建，但成本仅为之前的一小部分。"
+        "description2": "这是通过<docsLink>状态压缩</docsLink>实现的，该技术通过对 Nara Solana 账本保护的交易数据进行哈希处理并针对 Merkle 树帐户进行验证，以便在智能合约中使用。 这意味着压缩的 NFT 可以以与以前类似的方式在链上创建，但成本仅为之前的一小部分。"
       },
       "scale": {
         "controlText": "可扩展的技术",
         "title": "可扩展的技术，速度极快",
-        "description1": "借助 Solana 的可扩展性，你无需在去中心化和性能之间进行权衡。 无论你是在构建<gamingLink>下一个游戏领域的大作</gamingLink>，还是专注于人工智能或去中心化物理基础设施 (dePIN) 等前沿领域，都可以尽情发挥你的想象力，构建只能在 Solana 上实现的应用程序。",
+        "description1": "借助 Nara Solana 的可扩展性，你无需在去中心化和性能之间进行权衡。 无论你是在构建<gamingLink>下一个游戏领域的大作</gamingLink>，还是专注于人工智能或去中心化物理基础设施 (dePIN) 等前沿领域，都可以尽情发挥你的想象力，构建只能在 Nara Solana 上实现的应用程序。",
         "description2": "像 <heliumLink>Helium</heliumLink> 和 <hivemapperLink>Hivemaper</hivemapperLink> 这样的颠覆性的项目正在建造只能在Solana上做的事情。 由于其交易速度、可扩展性和可靠性， <aiLink>如AI这样领域</aiLink>的贡献者能够获得最新的创新，为他们最雄心勃勃的项目提供燃料。"
       },
       "climate": {
         "controlText": "低碳足迹",
         "title": "关注环境的技术",
-        "description1": "在 Solana 上，区块链交易使用的能量大约与 <emissionsLink> 一些在线搜索的能量相同 </emissionsLink>。 借助 <emissionsLink> 实时排放测量 </emissionsLink>，你可以确信你所构建的技术不仅具���性能，而且致力于提高能源效率。",
+        "description1": "在 Nara Solana 上，区块链交易使用的能量大约与 <emissionsLink> 一些在线搜索的能量相同 </emissionsLink>。 借助 <emissionsLink> 实时排放测量 </emissionsLink>，你可以确信你所构建的技术不仅具���性能，而且致力于提高能源效率。",
         "description2": "直接嵌入Solana节点的排放跟踪软件随时间提供全面和动态的测量。该数据集细节丰富，开放且免费使用，使验证者或任何在Solana上的开发者都可以评估他们对网络碳足迹的贡献，并探索缓解策略。"
       },
       "payment": {
         "controlText": "并行交易",
         "title": "赋能全球支付交易",
-        "description1": "Solana 的高吞吐量和低费用使其能够大规模支持 < paymentsLink> 去中心化支付 </ paymentsLink>。 借助  <solanapayLink> Solana Pay </solanapayLink>，开发人员拥有将华尔街快速支付功能集成到他们的应用程序中所需的工具包，同时在他们最需要的时候提供可审核性和保密性。现在，你的项目或业务无需中间方，就可以以与传统支付网络相同的速度来驾驭区块链。",
+        "description1": "Nara Solana 的高吞吐量和低费用使其能够大规模支持 < paymentsLink> 去中心化支付 </ paymentsLink>。 借助  <solanapayLink> Nara Solana Pay </solanapayLink>，开发人员拥有将华尔街快速支付功能集成到他们的应用程序中所需的工具包，同时在他们最需要的时候提供可审核性和保密性。现在，你的项目或业务无需中间方，就可以以与传统支付网络相同的速度来驾驭区块链。",
         "description2": "有了Solana，开发者有机会创建基于区块链技术的下一代商业支付和商业轨道，为在线和店内支付提供低成本和即时结算。无需中间商，寻找新的方法，通过链上奖励和忠诚度产品来激励你的客户，并直接与你的客户合作。"
       },
       "web3": {
         "controlText": "闪电般快速的共识",
         "title": "Web3 在你的口袋里",
-        "description1": "有了 <solanaMobileLink>Solana Mobile</solanaMobileLink>，你口袋里的 web3 终于来了。 当你将以快速、安全的区块链技术为基础的世界一流加密手机、移动 dApp 商店和移动堆栈结合起来时，这些可能性是无限的。",
-        "description2": "Solana Mobile 的 Saga 手机正在引领 web3 的新移动时代。 它不仅拥有你期望从手机中获得的优质硬件，而且通过其独一无二的 dApp 商店，你可以随时随地访问你最喜欢的 DeFi 协议、NFT 市场和 web3 应用程序。 此外，借助手机的安全种子金库，你可以安全地使用你喜爱的钱包进行交易，保护你的私钥并仅使用指纹即可签署交易。"
+        "description1": "有了 <solanaMobileLink>Nara Solana Mobile</solanaMobileLink>，你口袋里的 web3 终于来了。 当你将以快速、安全的区块链技术为基础的世界一流加密手机、移动 dApp 商店和移动堆栈结合起来时，这些可能性是无限的。",
+        "description2": "Nara Solana Mobile 的 Saga 手机正在引领 web3 的新移动时代。 它不仅拥有你期望从手机中获得的优质硬件，而且通过其独一无二的 dApp 商店，你可以随时随地访问你最喜欢的 DeFi 协议、NFT 市场和 web3 应用程序。 此外，借助手机的安全种子金库，你可以安全地使用你喜爱的钱包进行交易，保护你的私钥并仅使用指纹即可签署交易。"
       },
       "solanaMobile": {
         "controlText": "移动端已准备好"
@@ -1448,12 +1448,12 @@
       "title": "从这里开始",
       "portal": {
         "title": "开发者入口",
-        "description": "开始在 Solana 上构建无限可能的旅程。 查找课程、资源和教程以开始编码、构建 dApp 等。",
+        "description": "开始在 Nara Solana 上构建无限可能的旅程。 查找课程、资源和教程以开始编码、构建 dApp 等。",
         "cta": "开始开发"
       },
       "programming": {
         "title": "开发者编程",
-        "description": "认识你社区中的 Solana 开发者。 从世界各地的新手训练营到 Hacker House，找到合适的活动来帮助在 Solana 生态系中启动你的项目。",
+        "description": "认识你社区中的 Nara Solana 开发者。 从世界各地的新手训练营到 Hacker House，找到合适的活动来帮助在 Nara Solana 生态系中启动你的项目。",
         "cta": "查找活动"
       },
       "community": {
@@ -1471,32 +1471,32 @@
         {
           "name": "Hivemapper",
           "title": "使用 Hivemapper 绘制全球地图",
-          "description": "了解 Solana 的易用性、低交易费用和热情的开发者社区如何支持 Hivemapper 重新构想去中心化地图系统的可能性。"
+          "description": "了解 Nara Solana 的易用性、低交易费用和热情的开发者社区如何支持 Hivemapper 重新构想去中心化地图系统的可能性。"
         },
         {
           "name": "Orca",
           "title": "使用 Orca 实现开箱即用的可扩展性和性能",
-          "description": "了解 Orca 如何利用 Solana 无与伦比的速度、可靠性和安全性，创建一个可访问、成本效益高的资本形成平台。"
+          "description": "了解 Orca 如何利用 Nara Solana 无与伦比的速度、可靠性和安全性，创建一个可访问、成本效益高的资本形成平台。"
         },
         {
           "name": "Dialect",
           "title": "使用 Dialect 开创全新的消息体验",
-          "description": "了解 Solana 的速度、可扩展性和状态压缩如何使 Dialect 的智能消息平台增强收藏者和创作者的体验。"
+          "description": "了解 Nara Solana 的速度、可扩展性和状态压缩如何使 Dialect 的智能消息平台增强收藏者和创作者的体验。"
         },
         {
           "name": "Helius",
           "title": "为现在而建，随时准备好与 Helius",
-          "description": "看看 Helius 如何利用 Solana 的实用技术、超快速度和成本效益，推动一个紧密联系的开发者社区，为未来而建。"
+          "description": "看看 Helius 如何利用 Nara Solana 的实用技术、超快速度和成本效益，推动一个紧密联系的开发者社区，为未来而建。"
         },
         {
           "name": "Helium",
           "title": "使用 Helium 推动全球无线网络",
-          "description": "看看 Solana 如何通过 Helium 的社区驱动无线网络激励连接并扩展全球的现实基础设施项目。"
+          "description": "看看 Nara Solana 如何通过 Helium 的社区驱动无线网络激励连接并扩展全球的现实基础设施项目。"
         },
         {
           "name": "Decaf",
           "title": "Decaf 的无国界货币影响",
-          "description": "看看 Solana 的速度和可组合性如何让 Decaf 的用户对抗通货膨胀并掌控他们的财务未来。"
+          "description": "看看 Nara Solana 的速度和可组合性如何让 Decaf 的用户对抗通货膨胀并掌控他们的财务未来。"
         },
         {
           "name": "DR<lowercase>i</lowercase>P",
@@ -1535,7 +1535,7 @@
         },
         "decentralized": {
           "title": "去中心化",
-          "description": "Solana 网络由数千个独立运行的节点进行验证，确保你的数据保持安全且抗审查。"
+          "description": "Nara Solana 网络由数千个独立运行的节点进行验证，确保你的数据保持安全且抗审查。"
         },
         "scalable": {
           "title": "可扩展的",
@@ -1543,7 +1543,7 @@
         },
         "energy": {
           "title": "高效节能",
-          "description": "Solana 的权益证明网络和其他创新最大限度的减少了其对<envLink>环境</envLink>的影响。每笔 Solana 交易消耗的能量与几次 Google 搜索的能量大致相同。"
+          "description": "Nara Solana 的权益证明网络和其他创新最大限度的减少了其对<envLink>环境</envLink>的影响。每笔 Nara Solana 交易消耗的能量与几次 Google 搜索的能量大致相同。"
         }
       }
     }
@@ -1557,8 +1557,8 @@
     }
   },
   "artistsAndCreatorsNewsletter": {
-    "title": "您的创意进化从 Solana 开始。",
-    "description": "发现最新的创作者新闻、社区更新，并受邀参加 Solana 艺术界的活动。",
+    "title": "您的创意进化从 Nara Solana 开始。",
+    "description": "发现最新的创作者新闻、社区更新，并受邀参加 Nara Solana 艺术界的活动。",
     "form": {
       "firstName": {
         "label": "名字",
@@ -1590,20 +1590,20 @@
       "optional": "可选",
       "success": {
         "title": "欢迎！",
-        "description": "感谢您加入 Solana 的艺术家和创作者社区。您将收到最新的新闻、更新和活动信息，直接发送到您的收件箱。",
+        "description": "感谢您加入 Nara Solana 的艺术家和创作者社区。您将收到最新的新闻、更新和活动信息，直接发送到您的收件箱。",
         "cta": "探索"
       }
     }
   },
   "on-off-ramp": {
     "meta": {
-      "title": "Solana 上/下坡道",
-      "description": "一系列可以在 100 多个国家/地区用于在 Solana 上下资金的服务。"
+      "title": "Nara Solana 上/下坡道",
+      "description": "一系列可以在 100 多个国家/地区用于在 Nara Solana 上下资金的服务。"
     },
     "hero": {
       "eyebrow": "全球连接",
-      "headline": "Solana 上 & 下坡道网络",
-      "body": "以光速转移资金，并使用这些集成服务在 100 多个国家/地区上下 Solana 资金。"
+      "headline": "Nara Solana 上 & 下坡道网络",
+      "body": "以光速转移资金，并使用这些集成服务在 100 多个国家/地区上下 Nara Solana 资金。"
     },
     "ramp-fallbacks": {
       "title": "测试坡道",
@@ -1650,8 +1650,8 @@
   },
   "wallets": {
     "meta": {
-      "title": "Solana 钱包 - 更强大、可编程的区块链方式",
-      "description": "Solana 钱包不仅仅是托管 - 它们是通往 web3 应用和服务的门户。创建自定义解决方案或通过现有的 Solana 实现扩展您的产品。"
+      "title": "Nara Solana 钱包 - 更强大、可编程的区块链方式",
+      "description": "Nara Solana 钱包不仅仅是托管 - 它们是通往 web3 应用和服务的门户。创建自定义解决方案或通过现有的 Nara Solana 实现扩展您的产品。"
     },
     "hero": {
       "eyebrow": "钱包查找器",
@@ -1662,7 +1662,7 @@
       "all-wallets": "所有钱包"
     },
     "grid": {
-      "title": "Solana 钱包",
+      "title": "Nara Solana 钱包",
       "no-results": "未找到结果！",
       "reset-filters": "重置筛选"
     },
@@ -1673,14 +1673,14 @@
   "depin": {
     "meta": {
       "title": "去中心化物理基础设施网络 (DePIN)",
-      "description": "在 Solana 上构建去中心化物理基础设施网络，实现经济实惠、抗审查和可组合的硬件资源编排。"
+      "description": "在 Nara Solana 上构建去中心化物理基础设施网络，实现经济实惠、抗审查和可组合的硬件资源编排。"
     },
     "hero": {
       "badge": "DePIN",
       "title": "构建实体。\n数字分发。",
       "subtitle": "通过去中心化您的物理基础设施或硬件快速扩展。降低成本，服务更多人群，并进入强大的资本市场。",
       "reportEyebrow": "下载 2025 DePIN 报告",
-      "reportDescription": "了解 DePIN 领导者如何利用 Solana 推动去中心化基础设施的未来。",
+      "reportDescription": "了解 DePIN 领导者如何利用 Nara Solana 推动去中心化基础设施的未来。",
       "emailCta": "获取访问权限",
       "globeAlt": "代表 DePIN 网络的数字地球",
       "stats": {
@@ -1740,7 +1740,7 @@
     },
     "products": {
       "title": "DePIN 工具包",
-      "description": "Solana 提供数十种即用型产品，轻松将区块链集成到您的 DePIN 中。",
+      "description": "Nara Solana 提供数十种即用型产品，轻松将区块链集成到您的 DePIN 中。",
       "wallets": {
         "title": "钱包",
         "description": "创建您自己的钱包，添加社交登录，或使用 MCP。"
@@ -1768,7 +1768,7 @@
     },
     "builders": {
       "title": "DePIN 在这里",
-      "subtitle": "与那些在 Solana 上构建全球基础设施未来的先锋团队会面，彻底改变我们对去中心化物理基础设施的思考方式。",
+      "subtitle": "与那些在 Nara Solana 上构建全球基础设施未来的先锋团队会面，彻底改变我们对去中心化物理基础设施的思考方式。",
       "moreVideos": "更多视频"
     },
     "videos": [
@@ -1783,14 +1783,14 @@
         "alt": "Hivemapper 视频缩略图"
       },
       {
-        "title": "为什么 Helium 迁移到 Solana",
+        "title": "为什么 Helium 迁移到 Nara Solana",
         "description": "Abhay Kumar，Helium Foundation 的 CEO",
         "alt": "Helium 视频缩略图"
       }
     ],
     "cta": {
       "reportTitle": "获取 DePIN 2025 报告",
-      "reportDescription": "了解 DePIN 领导者如何利用 Solana 推动去中心化基础设施的未来。",
+      "reportDescription": "了解 DePIN 领导者如何利用 Nara Solana 推动去中心化基础设施的未来。",
       "downloadReport": "获取访问权限",
       "developerResourcesTitle": "开发者快速入门",
       "developerResourcesDescription": "开始为您的应用开发 DePIN 解决方案",
@@ -1828,7 +1828,7 @@
     }
   },
   "universities": {
-    "title": "Solana 大学",
+    "title": "Nara Solana 大学",
     "description": "为大学和学生俱乐部提供资源和支持",
     "hero": {
       "title": "赋能学术创新",
@@ -1838,31 +1838,31 @@
     },
     "cta": {
       "eyebrowText": "2025 年秋季黑客松",
-      "title": "加入 Solana 学生黑客松",
+      "title": "加入 Nara Solana 学生黑客松",
       "description": "在最快的区块链上构建，与全球学生交流，并争夺超过 10,000 美元的奖品。",
       "ctaLabel": "了解更多"
     },
     "subjects": {
-      "title": "加入 Solana 的大学项目",
-      "description": "Solana 的大学项目帮助教师学习如何教授 Solana 课程，将 Solana 融入您的机构，以及如何建立 Solana 俱乐部。",
+      "title": "加入 Nara Solana 的大学项目",
+      "description": "Nara Solana 的大学项目帮助教师学习如何教授 Nara Solana 课程，将 Nara Solana 融入您的机构，以及如何建立 Nara Solana 俱乐部。",
       "contactButtonLabel": "联系我们",
       "learnMore": "了解更多",
       "cards": {
         "finance": {
           "title": "金融",
-          "description": "探索支持机构市场和支付系统的 Solana 金融基础设施"
+          "description": "探索支持机构市场和支付系统的 Nara Solana 金融基础设施"
         },
         "legal": {
           "title": "法律与政策",
-          "description": "通过 Solana 政策研究所了解区块链政策、法规和治理"
+          "description": "通过 Nara Solana 政策研究所了解区块链政策、法规和治理"
         },
         "technology": {
           "title": "技术",
-          "description": "获取开发者资源、文档和工具，开始在 Solana 上构建"
+          "description": "获取开发者资源、文档和工具，开始在 Nara Solana 上构建"
         },
         "business": {
           "title": "商业",
-          "description": "了解企业如何利用 Solana 进行支付、忠诚度计划和数字商务"
+          "description": "了解企业如何利用 Nara Solana 进行支付、忠诚度计划和数字商务"
         },
         "economics": {
           "title": "经济学",
@@ -1870,7 +1870,7 @@
         },
         "engineering": {
           "title": "工程",
-          "description": "使用 Solana 的高性能区块链构建可扩展的基础设施和系统"
+          "description": "使用 Nara Solana 的高性能区块链构建可扩展的基础设施和系统"
         }
       }
     },
@@ -1883,71 +1883,71 @@
     "inquiry": {
       "eyebrowText": "加入我们",
       "title": "感兴趣吗？",
-      "description": "与 Solana 学术生态系统建立联系",
+      "description": "与 Nara Solana 学术生态系统建立联系",
       "emailPlaceholder": "输入您的电子邮箱",
       "submitButton": "联系我们"
     },
     "events": {
       "title": "与我们会面！",
       "berkeley": {
-        "title": "Solana 大学研讨会",
-        "description": "Solana 基金会和 One Piece Lab 大学巡回活动将访问加州大学伯克利分校区块链俱乐部"
+        "title": "Nara Solana 大学研讨会",
+        "description": "Nara Solana 基金会和 One Piece Lab 大学巡回活动将访问加州大学伯克利分校区块链俱乐部"
       },
       "mhacks": {
         "title": "MHacks 黑客马拉松",
-        "description": "加入 MHacks —— 世界上最大型的黑客马拉松之一 —— 在 Solana 上进行开发"
+        "description": "加入 MHacks —— 世界上最大型的黑客马拉松之一 —— 在 Nara Solana 上进行开发"
       },
       "purdue": {
-        "title": "Solana 大学研讨会",
-        "description": "Solana 基金会和 One Piece Lab 大学巡回活动将访问普渡大学区块链俱乐部"
+        "title": "Nara Solana 大学研讨会",
+        "description": "Nara Solana 基金会和 One Piece Lab 大学巡回活动将访问普渡大学区块链俱乐部"
       },
       "ucla": {
-        "title": "Solana 大学研讨会",
-        "description": "Solana 基金会和 One Piece Lab 大学巡回活动将访问加州大学洛杉矶分校区块链俱乐部"
+        "title": "Nara Solana 大学研讨会",
+        "description": "Nara Solana 基金会和 One Piece Lab 大学巡回活动将访问加州大学洛杉矶分校区块链俱乐部"
       },
       "usc": {
-        "title": "Solana 大学研讨会",
-        "description": "Solana 基金会和 One Piece Lab 大学巡回活动将访问南加州大学区块链俱乐部"
+        "title": "Nara Solana 大学研讨会",
+        "description": "Nara Solana 基金会和 One Piece Lab 大学巡回活动将访问南加州大学区块链俱乐部"
       },
       "hackathon": {
         "title": "Hack the Nest",
-        "description": "加入黑客松，在 Solana 上构建创新解决方案（尚未确认）"
+        "description": "加入黑客松，在 Nara Solana 上构建创新解决方案（尚未确认）"
       },
       "utaustin": {
-        "title": "Solana 大学研讨会",
-        "description": "Solana 基金会和 One Piece Lab 大学巡回活动将访问 UT Austin 区块链俱乐部"
+        "title": "Nara Solana 大学研讨会",
+        "description": "Nara Solana 基金会和 One Piece Lab 大学巡回活动将访问 UT Austin 区块链俱乐部"
       },
       "columbia": {
-        "title": "Solana 大学研讨会",
-        "description": "Solana 基金会和 One Piece Lab 大学巡回活动将访问哥伦比亚大学区块链俱乐部"
+        "title": "Nara Solana 大学研讨会",
+        "description": "Nara Solana 基金会和 One Piece Lab 大学巡回活动将访问哥伦比亚大学区块链俱乐部"
       },
       "nyu": {
-        "title": "Solana 大学研讨会",
-        "description": "Solana 基金会和 One Piece Lab 大学巡回活动将访问纽约大学区块链俱乐部"
+        "title": "Nara Solana 大学研讨会",
+        "description": "Nara Solana 基金会和 One Piece Lab 大学巡回活动将访问纽约大学区块链俱乐部"
       },
       "workshop": {
-        "title": "Solana 大学研讨会",
-        "description": "Solana 基金会和 One Piece Lab 大学巡回活动将访问合作大学"
+        "title": "Nara Solana 大学研讨会",
+        "description": "Nara Solana 基金会和 One Piece Lab 大学巡回活动将访问合作大学"
       }
     },
     "hostEventInquiry": {
       "eyebrowText": "举办活动",
-      "title": "想把 Solana 带到你的校园吗？",
-      "description": "与您的区块链俱乐部一起举办研讨会，与 Solana 生态系统建立联系",
+      "title": "想把 Nara Solana 带到你的校园吗？",
+      "description": "与您的区块链俱乐部一起举办研讨会，与 Nara Solana 生态系统建立联系",
       "emailPlaceholder": "输入您的电子邮箱",
       "submitButton": "立即开始"
     },
     "hackathon": {
       "hero": {
-        "title": "Solana 学生黑客松",
+        "title": "Nara Solana 学生黑客松",
         "subtitle": "与全球学生一起，在最快的区块链上进行为期一个月的构建。",
         "registerButton": "注册您的团队",
         "resourcesButton": "查看资源"
       },
       "welcome": {
         "eyebrow": "欢迎，构建者们！",
-        "title": "在 Solana 上创新的机会",
-        "description": "本次黑客松旨在帮助您学习、构建并发布基于 Solana 的真实项目。无论您是区块链新手还是经验丰富的开发者，都欢迎加入我们这段激动人心的旅程。",
+        "title": "在 Nara Solana 上创新的机会",
+        "description": "本次黑客松旨在帮助您学习、构建并发布基于 Nara Solana 的真实项目。无论您是区块链新手还是经验丰富的开发者，都欢迎加入我们这段激动人心的旅程。",
         "cta": "加入社区"
       },
       "timeline": {
@@ -1987,7 +1987,7 @@
         "title": "准备好了吗！",
         "helloWorld": {
           "title": "Hello World",
-          "description": "安装 Solana 技术栈并构建您的第一个程序",
+          "description": "安装 Nara Solana 技术栈并构建您的第一个程序",
           "cta": "观看视频"
         },
         "tutorials": {
@@ -1998,7 +1998,7 @@
       },
       "problem": {
         "title": "我们期待什么样的提交？",
-        "description": "在 Solana 上创建一个开源项目，重新定义人们在数字世界中的互动、交易或协作方式。在支付、DeFi、游戏、移动应用程序等领域构建创新项目，或探索全新的创意。这是您发挥创意并突破区块链可能性边界的机会。"
+        "description": "在 Nara Solana 上创建一个开源项目，重新定义人们在数字世界中的互动、交易或协作方式。在支付、DeFi、游戏、移动应用程序等领域构建创新项目，或探索全新的创意。这是您发挥创意并突破区块链可能性边界的机会。"
       },
       "requirements": {
         "title": "提交要求",
@@ -2009,25 +2009,25 @@
         ]
       },
       "resources": {
-        "title": "学习 Solana 的资源",
-        "description": "构建 Solana 所需的一切",
+        "title": "学习 Nara Solana 的资源",
+        "description": "构建 Nara Solana 所需的一切",
         "gettingStarted": "入门",
         "projectIdeas": "项目创意与教程",
         "learnMore": "了解更多",
         "items": {
           "smartContracts": {
             "title": "智能合约示例",
-            "description": "探索涵盖 NFT、DeFi、治理等领域的生产级 Solana 程序示例。这些是理解 Solana 开发中最佳实践和常见模式的完美起点。",
+            "description": "探索涵盖 NFT、DeFi、治理等领域的生产级 Nara Solana 程序示例。这些是理解 Nara Solana 开发中最佳实践和常见模式的完美起点。",
             "category": "代码示例"
           },
           "playground": {
-            "title": "Solana Playground",
-            "description": "直接在浏览器中编写、部署和测试 Solana 程序，无需任何设置。包括教程、示例和完整的 IDE 功能，让您立即开始构建。",
+            "title": "Nara Solana Playground",
+            "description": "直接在浏览器中编写、部署和测试 Nara Solana 程序，无需任何设置。包括教程、示例和完整的 IDE 功能，让您立即开始构建。",
             "category": "在线 IDE"
           },
           "anchor": {
             "title": "Anchor 框架",
-            "description": "最受欢迎的 Solana 智能合约开发框架。通过 Rust 宏、内置测试和 TypeScript 客户端生成简化程序创建。",
+            "description": "最受欢迎的 Nara Solana 智能合约开发框架。通过 Rust 宏、内置测试和 TypeScript 客户端生成简化程序创建。",
             "category": "Anchor"
           },
           "bootcamp": {
@@ -2037,12 +2037,12 @@
           },
           "crud": {
             "title": "构建一个 CRUD 应用",
-            "description": "通过构建一个完整的 CRUD 应用掌握链上数据管理。学习账户结构、数据序列化和状态管理模式，这些是任何 Solana 应用的关键。",
+            "description": "通过构建一个完整的 CRUD 应用掌握链上数据管理。学习账户结构、数据序列化和状态管理模式，这些是任何 Nara Solana 应用的关键。",
             "category": "视频教程"
           },
           "vesting": {
             "title": "构建一个归属应用",
-            "description": "深入了解代币账户管理和时间锁定分发。非常适合理解 SPL 代币、PDA 和在 Solana 上构建金融应用。",
+            "description": "深入了解代币账户管理和时间锁定分发。非常适合理解 SPL 代币、PDA 和在 Nara Solana 上构建金融应用。",
             "category": "代币指南"
           },
           "lottery": {
@@ -2068,7 +2068,7 @@
         "secondPrize": "$5,000",
         "thirdPrize": "$2,000",
         "part2Label": "第二部分奖项：",
-        "part2Description": "重新提交改进后的项目，争取 2026 年春季 Solana 学生黑客松的另一次机会！"
+        "part2Description": "重新提交改进后的项目，争取 2026 年春季 Nara Solana 学生黑客松的另一次机会！"
       }
     }
   },
@@ -2082,7 +2082,7 @@
       "title": "互联网资本市场",
       "subtitle": "代币化股票和债务，创建您自己的稳定币和现实世界资产，并进入 DeFi 中流动性最强的市场。",
       "reportEyebrow": "下载 2025 年代币化股票报告",
-      "reportDescription": "了解市场领导者如何利用 Solana 将资本市场链上化。",
+      "reportDescription": "了解市场领导者如何利用 Nara Solana 将资本市场链上化。",
       "emailCta": "获取访问权限",
       "alt": "一只手拿着一部显示多种支付选项的手机",
       "stats": {
@@ -2106,25 +2106,25 @@
     },
     "features": {
       "title": "什么是互联网资本市场？",
-      "description": "<promiseLink>Solana 的承诺</promiseLink>是让任何拥有互联网连接的人都能访问资本市场。如今，您可以下载一个钱包，点击几下按钮，就能参与互联网资本市场——一个全球可访问的账本，在这里实体、货币和文化都被代币化。"
+      "description": "<promiseLink>Nara Solana 的承诺</promiseLink>是让任何拥有互联网连接的人都能访问资本市场。如今，您可以下载一个钱包，点击几下按钮，就能参与互联网资本市场——一个全球可访问的账本，在这里实体、货币和文化都被代币化。"
     },
     "projects": {
       "title": "生态系统",
       "franklinTempleton": {
         "name": "Franklin Templeton",
-        "description": "BENJI 是全球首个美国注册的货币市场基金，现已通过 Solana 上链。BENJI 降低了投资私人货币市场基金的门槛。",
+        "description": "BENJI 是全球首个美国注册的货币市场基金，现已通过 Nara Solana 上链。BENJI 降低了投资私人货币市场基金的门槛。",
         "stat": "64%",
         "statLabel": "每月链上资产增长率"
       },
       "r3": {
         "name": "r3",
-        "description": "这一战略合作将 R3 的领先私有企业区块链与全球使用最广泛的公有区块链 Solana 相结合。",
+        "description": "这一战略合作将 R3 的领先私有企业区块链与全球使用最广泛的公有区块链 Nara Solana 相结合。",
         "stat": "100 亿",
         "statLabel": "受监管的链上资产"
       },
       "bullish": {
         "name": "Bullish",
-        "description": "Solana 原生稳定币为 Bullish 的交易所、清算、托管、支付、结算以及其不断扩展的生态系统中的未来产品创新提供支持。",
+        "description": "Nara Solana 原生稳定币为 Bullish 的交易所、清算、托管、支付、结算以及其不断扩展的生态系统中的未来产品创新提供支持。",
         "stat": "25 亿",
         "statLabel": "日交易量"
       },
@@ -2149,7 +2149,7 @@
         "description": "访问领先的稳定币，或发行您自己的稳定币。"
       },
       "title": "机构工具包",
-      "description": "Solana 提供数十种代币化的即用型产品。"
+      "description": "Nara Solana 提供数十种代币化的即用型产品。"
     },
     "videoPlayer": {
       "title": "金融的未来",
@@ -2162,9 +2162,9 @@
           "alt": "数字资产的未来视频缩略图"
         },
         {
-          "title": "Solana 和 R3",
+          "title": "Nara Solana 和 R3",
           "description": "David Rutter，R3 首席执行官",
-          "alt": "Solana 和 R3 视频缩略图"
+          "alt": "Nara Solana 和 R3 视频缩略图"
         },
         {
           "title": "机构已经到来",
@@ -2193,24 +2193,24 @@
       "items": {
         "0": {
           "title": "互联网资本市场路线图",
-          "summary": "Solana 最新的路线图为互联网规模的资本市场绘制了路径。它引入了应用程序控制执行，为智能合约提供毫秒级的排序能力。近期推出的功能（如 Jito 的 BAM、Anza 的着陆修复和 DoubleZero）大幅降低延迟并提高公平性。即将到来的升级（如 Alpenglow 共识和多并发领导者）旨在实现无与伦比的链上流动性。"
+          "summary": "Nara Solana 最新的路线图为互联网规模的资本市场绘制了路径。它引入了应用程序控制执行，为智能合约提供毫秒级的排序能力。近期推出的功能（如 Jito 的 BAM、Anza 的着陆修复和 DoubleZero）大幅降低延迟并提高公平性。即将到来的升级（如 Alpenglow 共识和多并发领导者）旨在实现无与伦比的链上流动性。"
         }
       }
     },
     "cta": {
       "reportTitle": "获取 2025 年代币化股票报告",
-      "reportDescription": "了解市场领导者如何利用 Solana 将资本市场链上化。",
+      "reportDescription": "了解市场领导者如何利用 Nara Solana 将资本市场链上化。",
       "downloadReport": "获取访问权限",
-      "learnTitle": "了解 Solana",
-      "learnDescription": "从基础了解 Solana 在推动互联网资本市场中的角色",
+      "learnTitle": "了解 Nara Solana",
+      "learnDescription": "从基础了解 Nara Solana 在推动互联网资本市场中的角色",
       "learnTokens": "了解代币",
       "learnWallets": "了解钱包",
       "startLearning": "开始学习",
-      "whatElseTitle": "Solana 还能做什么？",
+      "whatElseTitle": "Nara Solana 还能做什么？",
       "whatElseDescription": "探索一个网络如何重新定义金融，支持每个市场和资产",
       "items": [
         {
-          "label": "Solana 权限环境",
+          "label": "Nara Solana 权限环境",
           "description": "为您的业务<br></br>量身定制",
           "image": "/src/img/solutions/icm/depin-cta.webp"
         },
@@ -2230,19 +2230,19 @@
   "btcfi": {
     "meta": {
       "title": "比特币与 BTCFi",
-      "description": "在 Solana 快速且低成本的 DeFi 基础设施上，将您的比特币转化为生产性资本。质押、借贷、借款和交易 BTC。"
+      "description": "在 Nara Solana 快速且低成本的 DeFi 基础设施上，将您的比特币转化为生产性资本。质押、借贷、借款和交易 BTC。"
     },
     "hero": {
       "badge": "比特币与 BTCFi",
       "title": "全球最快、最具生产力的比特币",
-      "subtitle": "在 Solana 快速且低成本的 DeFi 基础设施上，将您的比特币转化为生产性资本。质押、借贷、借款和交易 BTC。",
+      "subtitle": "在 Nara Solana 快速且低成本的 DeFi 基础设施上，将您的比特币转化为生产性资本。质押、借贷、借款和交易 BTC。",
       "reportEyebrow": "",
       "emailCta": "",
       "alt": "代表机构支付的闪电图表",
       "stats": {
         "0": {
           "value": "6500+",
-          "label": "Solana 上的 BTC TVL"
+          "label": "Nara Solana 上的 BTC TVL"
         },
         "1": {
           "value": "8",
@@ -2259,8 +2259,8 @@
       }
     },
     "features": {
-      "title": "为什么选择 Solana 上的比特币？",
-      "description": "在 Solana 上投资和使用包装 BTC，立即赚取收益、借入低成本稳定币或进行深度流动性交易。利用比特币的强大功能，结合 Solana 的极速、低成本 DeFi 基础设施。"
+      "title": "为什么选择 Nara Solana 上的比特币？",
+      "description": "在 Nara Solana 上投资和使用包装 BTC，立即赚取收益、借入低成本稳定币或进行深度流动性交易。利用比特币的强大功能，结合 Nara Solana 的极速、低成本 DeFi 基础设施。"
     },
     "performance": {
       "0": {
@@ -2296,7 +2296,7 @@
       },
       "wbtc": {
         "name": "wBTC",
-        "description": "最早的行业标准包装 BTC，现在由 BitGo 在 Solana 上原生发行。",
+        "description": "最早的行业标准包装 BTC，现在由 BitGo 在 Nara Solana 上原生发行。",
         "stat": "强",
         "statLabel": "DeFi 集成和深度流动性"
       },
@@ -2314,7 +2314,7 @@
       },
       "zbtc": {
         "name": "zBTC",
-        "description": "在 Solana 上以 1:1 比例支持的比特币代币，使 BTC 持有者无需放弃托管即可访问 DeFi。",
+        "description": "在 Nara Solana 上以 1:1 比例支持的比特币代币，使 BTC 持有者无需放弃托管即可访问 DeFi。",
         "stat": "采用 MPC 和 Taproot 构建",
         "statLabel": "实现去中心化、无许可的流动性"
       },
@@ -2333,7 +2333,7 @@
       "yalabtc": {
         "name": "Yala BTC ($YU)",
         "description": "使用您的比特币铸造超额抵押的 $YU 稳定币，并解锁跨生态系统的实用性。",
-        "stat": "为 Solana 及更广泛生态系统而构建",
+        "stat": "为 Nara Solana 及更广泛生态系统而构建",
         "statLabel": ""
       }
     },
@@ -2343,54 +2343,54 @@
       "moreVideos": "更多视频",
       "videos": [
         {
-          "title": "2025 年 Solana 加速大会上的 BTC 演讲",
+          "title": "2025 年 Nara Solana 加速大会上的 BTC 演讲",
           "description": "Jeff Park（Bitwise），Dean Little（Zeus Network）",
-          "alt": "2025 年 Solana 加速大会上的 BTC 演讲视频缩略图"
+          "alt": "2025 年 Nara Solana 加速大会上的 BTC 演讲视频缩略图"
         }
       ]
     },
     "news": {
-      "title": "Solana 上的 BTCFi 新闻",
+      "title": "Nara Solana 上的 BTCFi 新闻",
       "items": [
         {
-          "title": "OKX xBTC 在 Solana 上",
-          "alt": "OKX xBTC 在 Solana 上新闻缩略图"
+          "title": "OKX xBTC 在 Nara Solana 上",
+          "alt": "OKX xBTC 在 Nara Solana 上新闻缩略图"
         },
         {
-          "title": "wBTC 原生上线 Solana",
-          "alt": "wBTC 原生上线 Solana 新闻缩略图"
+          "title": "wBTC 原生上线 Nara Solana",
+          "alt": "wBTC 原生上线 Nara Solana 新闻缩略图"
         },
         {
-          "title": "Coinbase cbbtc 上线 Solana",
-          "alt": "Coinbase cbbtc 上线 Solana 新闻缩略图"
+          "title": "Coinbase cbbtc 上线 Nara Solana",
+          "alt": "Coinbase cbbtc 上线 Nara Solana 新闻缩略图"
         },
         {
-          "title": "Zenrock BTC 上线 Solana",
-          "alt": "Zenrock BTC 上线 Solana 新闻缩略图"
+          "title": "Zenrock BTC 上线 Nara Solana",
+          "alt": "Zenrock BTC 上线 Nara Solana 新闻缩略图"
         },
         {
           "title": "Zeus zBTC",
           "alt": "Zeus zBTC 新闻缩略图"
         },
         {
-          "title": "Yala 上线 Solana",
-          "alt": "Yala 上线 Solana 新闻缩略图"
+          "title": "Yala 上线 Nara Solana",
+          "alt": "Yala 上线 Nara Solana 新闻缩略图"
         }
       ]
     },
     "cta": {
       "reportTitle": "获取 2025 年代币化股票报告",
       "downloadReport": "获取访问权限",
-      "learnTitle": "了解 Solana",
-      "learnDescription": "从基础了解 Solana 在推动互联网资本市场中的角色",
+      "learnTitle": "了解 Nara Solana",
+      "learnDescription": "从基础了解 Nara Solana 在推动互联网资本市场中的角色",
       "learnTokens": "了解代币",
       "learnWallets": "了解钱包",
       "startLearning": "开始学习",
-      "whatElseTitle": "Solana 还能做什么？",
+      "whatElseTitle": "Nara Solana 还能做什么？",
       "whatElseDescription": "探索一个网络如何重新定义金融，支持每个市场和资产",
       "items": [
         {
-          "label": "Solana 权限环境",
+          "label": "Nara Solana 权限环境",
           "description": "为您的业务<br></br>量身定制",
           "image": "/src/img/solutions/icm/depin-cta.webp"
         },
@@ -2417,7 +2417,7 @@
       "title": "在最快的网络上，发行您自己的稳定币。",
       "subtitle": "通过企业级基础设施推出合规的稳定币。从代币化到全球分发，Solana 提供创建和扩展您自己的稳定币所需的工具。",
       "reportEyebrow": "下载稳定币发行指南",
-      "reportDescription": "了解领导者如何通过 Solana 将稳定币推向市场。",
+      "reportDescription": "了解领导者如何通过 Nara Solana 将稳定币推向市场。",
       "emailCta": "获取访问权限",
       "alt": "代表机构支付的闪电图表",
       "stats": {
@@ -2437,37 +2437,37 @@
     },
     "features": {
       "title": "为什么发行稳定币？",
-      "description": "主要金融机构选择 Solana 发行自己的稳定币，因为其具有合规友好的代币扩展、即时结算和全球覆盖范围。通过内置的合规控制和企业级基础设施，发行从数百万到数十亿供应量的合规数字货币。"
+      "description": "主要金融机构选择 Nara Solana 发行自己的稳定币，因为其具有合规友好的代币扩展、即时结算和全球覆盖范围。通过内置的合规控制和企业级基础设施，发行从数百万到数十亿供应量的合规数字货币。"
     },
     "projects": {
       "title": "生态系统",
       "worldpay": {
         "name": "Worldpay",
-        "description": "推出 USDG（美国全球美元），作为全球最大金融公司的联盟稳定币，包括 Worldpay。利用 Solana 的代币扩展功能实现合规性和全球支付网络的可扩展性。",
+        "description": "推出 USDG（美国全球美元），作为全球最大金融公司的联盟稳定币，包括 Worldpay。利用 Nara Solana 的代币扩展功能实现合规性和全球支付网络的可扩展性。",
         "stat": "USDG",
         "statLabel": "已发行稳定币"
       },
       "paxos": {
         "name": "Paxos",
-        "description": "推出 USDG（美国全球美元），作为全球最大金融公司的联盟稳定币，包括 Worldpay。利用 Solana 的代币扩展功能实现合规性和全球支付网络的可扩展性。",
+        "description": "推出 USDG（美国全球美元），作为全球最大金融公司的联盟稳定币，包括 Worldpay。利用 Nara Solana 的代币扩展功能实现合规性和全球支付网络的可扩展性。",
         "stat": "USDG",
         "statLabel": "已发行稳定币"
       },
       "circle": {
         "name": "Circle",
-        "description": "在 Solana 上原生发行 USDC，具有完全的合规性和机构级托管，成为 DeFi 中最广泛采用的稳定币之一。",
+        "description": "在 Nara Solana 上原生发行 USDC，具有完全的合规性和机构级托管，成为 DeFi 中最广泛采用的稳定币之一。",
         "stat": "USDC",
         "statLabel": "已发行稳定币"
       },
       "fiserv": {
         "name": "Fiserv",
-        "description": "使用 Solana 的代币扩展功能发行 FIUSD 作为其机构稳定币，提供合规性、冻结控制和企业财务管理的转账限制。",
+        "description": "使用 Nara Solana 的代币扩展功能发行 FIUSD 作为其机构稳定币，提供合规性、冻结控制和企业财务管理的转账限制。",
         "stat": "FIUSD",
         "statLabel": "已发行稳定币"
       },
       "paypal": {
         "name": "Paypal",
-        "description": "在 Solana 上创建了 PYUSD，具有内置的合规功能，并无缝集成到 PayPal 的生态系统中，覆盖全球数百万用户。",
+        "description": "在 Nara Solana 上创建了 PYUSD，具有内置的合规功能，并无缝集成到 PayPal 的生态系统中，覆盖全球数百万用户。",
         "stat": "PYUSD",
         "statLabel": "已发行稳定币"
       }
@@ -2490,7 +2490,7 @@
         "description": "与传统银行和托管服务提供商集成。"
       },
       "title": "机构工具包",
-      "description": "Solana 提供数十种代币化的即用型产品。"
+      "description": "Nara Solana 提供数十种代币化的即用型产品。"
     },
     "videoPlayer": {
       "title": "稳定币的未来",
@@ -2521,14 +2521,14 @@
     },
     "cta": {
       "reportTitle": "获取 2025 年稳定币报告",
-      "reportDescription": "了解领导者如何通过 Solana 将稳定币推向市场。",
+      "reportDescription": "了解领导者如何通过 Nara Solana 将稳定币推向市场。",
       "downloadReport": "获取访问权限",
-      "learnTitle": "了解 Solana",
-      "learnDescription": "了解 Solana 在从零开始推动稳定币方面的作用",
+      "learnTitle": "了解 Nara Solana",
+      "learnDescription": "了解 Nara Solana 在从零开始推动稳定币方面的作用",
       "learnTokens": "了解代币",
       "learnWallets": "了解钱包",
       "startLearning": "开始学习",
-      "whatElseTitle": "Solana 还能做什么？",
+      "whatElseTitle": "Nara Solana 还能做什么？",
       "whatElseDescription": "探索一个网络如何重新定义金融，支持每个市场和资产",
       "items": [
         {
@@ -2559,7 +2559,7 @@
       "title": "随时随地转账。即时完成。费用几乎为零。",
       "subtitle": "全球支付复杂、缓慢且昂贵。突破性的技术以真正的互联网规模支持支付，并保持可靠的低费用。",
       "reportEyebrow": "下载 2025 年支付报告",
-      "reportDescription": "了解市场领导者如何利用 Solana 将资本市场链上化。",
+      "reportDescription": "了解市场领导者如何利用 Nara Solana 将资本市场链上化。",
       "emailCta": "获取访问权限",
       "alt": "代表机构支付的闪电图表",
       "stats": {
@@ -2579,25 +2579,25 @@
     },
     "features": {
       "title": "为什么选择稳定币支付？",
-      "description": "由于超低成本和几乎即时的结算，全球最大的支付网络正在创建稳定币并在 Solana 上结算交易。稳定币支付提高了资本效率和透明度，并使产品从第一天起就能在全球范围内扩展。"
+      "description": "由于超低成本和几乎即时的结算，全球最大的支付网络正在创建稳定币并在 Nara Solana 上结算交易。稳定币支付提高了资本效率和透明度，并使产品从第一天起就能在全球范围内扩展。"
     },
     "projects": {
       "title": "生态系统",
       "western-union": {
         "name": "Western Union",
-        "description": "Western Union 正在推出 U.S. Dollar Payment Token (USDPT)，一种基于 Solana 构建的美元支持的稳定币，由 Anchorage Digital Bank 发行。该稳定币将使 Western Union 的 1 亿客户能够以更低的成本和更快的结算速度进行国际汇款。",
+        "description": "Western Union 正在推出 U.S. Dollar Payment Token (USDPT)，一种基于 Nara Solana 构建的美元支持的稳定币，由 Anchorage Digital Bank 发行。该稳定币将使 Western Union 的 1 亿客户能够以更低的成本和更快的结算速度进行国际汇款。",
         "stat": "USDPT",
         "statLabel": "稳定币将于 2026 年推出"
       },
       "worldpay": {
         "name": "Worldpay",
-        "description": "通过与 Solana 网络的集成，商家现在可以在 Solana 网络上使用 USDG（美国全球美元）结算交易。这一举措提供了快速、成本高效的交易，并扩展了稳定币在全球支付中的用途。",
+        "description": "通过与 Nara Solana 网络的集成，商家现在可以在 Nara Solana 网络上使用 USDG（美国全球美元）结算交易。这一举措提供了快速、成本高效的交易，并扩展了稳定币在全球支付中的用途。",
         "stat": "USDG",
         "statLabel": "已发行稳定币"
       },
       "visa": {
         "name": "Visa",
-        "description": "通过与发卡机构和收单机构的实时试点，Visa 已通过 Solana 在其合作伙伴之间转移了数百万 USDC，以结算通过 VisaNet 授权的法币支付。",
+        "description": "通过与发卡机构和收单机构的实时试点，Visa 已通过 Nara Solana 在其合作伙伴之间转移了数百万 USDC，以结算通过 VisaNet 授权的法币支付。",
         "stat": "已结算数百万",
         "statLabel": "以 USDC 结算"
       },
@@ -2617,7 +2617,7 @@
         },
         {
           "title": "卡支付结算",
-          "description": "全球最大的商户收单机构和卡支付网络越来越多地使用 Solana 结算卡支付。"
+          "description": "全球最大的商户收单机构和卡支付网络越来越多地使用 Nara Solana 结算卡支付。"
         },
         {
           "title": "高效的资金管理",
@@ -2655,7 +2655,7 @@
         "description": "创建您自己的钱包，添加社交登录，或使用 MCP。"
       },
       "title": "支付工具包",
-      "description": "Solana 提供数十种代币化的即用型产品。"
+      "description": "Nara Solana 提供数十种代币化的即用型产品。"
     },
     "videoPlayer": {
       "title": "支付的未来",
@@ -2681,14 +2681,14 @@
     },
     "cta": {
       "reportTitle": "获取 2025 年机构支付报告",
-      "reportDescription": "了解市场领导者如何利用 Solana 将资本市场链上化。",
+      "reportDescription": "了解市场领导者如何利用 Nara Solana 将资本市场链上化。",
       "downloadReport": "获取访问权限",
-      "learnTitle": "了解 Solana",
-      "learnDescription": "从基础了解 Solana 在支持机构支付中的角色",
+      "learnTitle": "了解 Nara Solana",
+      "learnDescription": "从基础了解 Nara Solana 在支持机构支付中的角色",
       "learnTokens": "了解代币",
       "learnWallets": "了解钱包",
       "startLearning": "开始学习",
-      "whatElseTitle": "Solana 还能做什么？",
+      "whatElseTitle": "Nara Solana 还能做什么？",
       "whatElseDescription": "探索一个网络如何重新定义金融，支持每个市场和资产",
       "items": [
         {
@@ -2717,8 +2717,8 @@
     "hero": {
       "title": "以 NASDAQ 的速度开启市场。",
       "subtitle": "最快速、流动性最强、效率最高的 DeFi 生态系统。在一个全新的开放金融系统中进行交易、借贷并赚取收益。",
-      "reportEyebrow": "Solana DeFi 报告 2025",
-      "reportDescription": "了解为什么 Solana 是全球增长最快的 DeFi 市场的支柱",
+      "reportEyebrow": "Nara Solana DeFi 报告 2025",
+      "reportDescription": "了解为什么 Nara Solana 是全球增长最快的 DeFi 市场的支柱",
       "emailCta": "获取访问权限",
       "stats": {
         "0": {
@@ -2740,20 +2740,20 @@
       }
     },
     "features": {
-      "title": "<light>什么是</light> Solana DeFi？",
+      "title": "<light>什么是</light> Nara Solana DeFi？",
       "description": "全球最大的支付网络正在创建稳定币，Solana 的高速、低成本基础设施打造了加密领域最有效率的 DeFi 生态系统。用户可以在数百个协议中以机构级性能进行资产交换、借贷、借款和收益耕作，同时保持对其资产的完全托管。"
     },
     "projects": {
       "title": "<light>探索 <br></br>生态系统与</light> 影响",
       "jupiter": {
         "name": "Jupiter",
-        "description": "通过与 DeFi 中最先进的 DEX 聚合器集成，Jupiter 在所有 Solana 流动性来源之间路由交易，以实现最佳执行和最低滑点。",
+        "description": "通过与 DeFi 中最先进的 DEX 聚合器集成，Jupiter 在所有 Nara Solana 流动性来源之间路由交易，以实现最佳执行和最低滑点。",
         "stat": "$2T",
         "statLabel": "总交易量"
       },
       "kamino": {
         "name": "Kamino",
-        "description": "通过与发行方和收单方的实时试点合作，DeFi 中最先进的 DEX 聚合器，跨所有 Solana 流动性来源路由交易，以实现最佳执行和最低滑点。",
+        "description": "通过与发行方和收单方的实时试点合作，DeFi 中最先进的 DEX 聚合器，跨所有 Nara Solana 流动性来源路由交易，以实现最佳执行和最低滑点。",
         "stat": "28 亿美元",
         "statLabel": "总锁仓价值 (TVL)"
       },
@@ -2790,16 +2790,16 @@
         "description": "访问领先的稳定币，或发行您自己的稳定币"
       },
       "title": "DeFi 工具包",
-      "description": "Solana 提供数十种即用型产品，用于构建 DeFi 应用程序。"
+      "description": "Nara Solana 提供数十种即用型产品，用于构建 DeFi 应用程序。"
     },
     "videoPlayer": {
       "title": "DeFi 的未来",
       "subtitle": "聆听那些正在变革全球市场的先驱者们，以及他们为何选择 Solana。",
       "videos": [
         {
-          "title": "Solana DeFi 的现状",
+          "title": "Nara Solana DeFi 的现状",
           "description": "Kyle Samani（Multicoin），Chris Heaney（Drift）",
-          "alt": "Solana DeFi 的现状视频缩略图"
+          "alt": "Nara Solana DeFi 的现状视频缩略图"
         },
         {
           "title": "重新构想信用市场",
@@ -2819,8 +2819,8 @@
       ]
     },
     "cta": {
-      "reportTitle": "获取 Solana DeFi 报告 2025",
-      "reportDescription": "了解为何 Solana 是全球增长最快的 DeFi 市场的支柱",
+      "reportTitle": "获取 Nara Solana DeFi 报告 2025",
+      "reportDescription": "了解为何 Nara Solana 是全球增长最快的 DeFi 市场的支柱",
       "downloadReport": "获取访问权限"
     }
   },
@@ -2833,7 +2833,7 @@
       "title": "扩展您的社区。\n触达数百万用户。",
       "subtitle": "欢迎来到 .fun 时代，在这里，社区围绕代币、文化、艺术和表情包相聚，并以前所未有的速度增长。",
       "reportEyebrow": "Memecoins 报告 2025",
-      "reportDescription": "了解市场领导者如何利用 Solana 将资本市场链上化。",
+      "reportDescription": "了解市场领导者如何利用 Nara Solana 将资本市场链上化。",
       "emailCta": "获取访问权限",
       "stats": {
         "0": {
@@ -2856,7 +2856,7 @@
     },
     "features": {
       "title": "<light>发现</light>有趣的飞轮效应",
-      "description": "在 Solana 上分发您的应用程序，与数百万加密原住民互动。从零开始建立社区，并接入从 DeFi 到 DAO、NFT 等在内的最大工具生态系统。"
+      "description": "在 Nara Solana 上分发您的应用程序，与数百万加密原住民互动。从零开始建立社区，并接入从 DeFi 到 DAO、NFT 等在内的最大工具生态系统。"
     },
     "projects": {
       "title": "<light>探索<br></br>生态系统与</light>影响",
@@ -2868,7 +2868,7 @@
       },
       "pudgyPenguins": {
         "name": "Pudgy Penguins",
-        "description": "在 Solana 上代币化的主流加密原生 IP。",
+        "description": "在 Nara Solana 上代币化的主流加密原生 IP。",
         "stat": "1200亿+",
         "statLabel": "Giphy 和社交平台上的浏览量"
       },
@@ -2880,7 +2880,7 @@
       },
       "magicEden": {
         "name": "Magic Eden",
-        "description": "Solana 上的收藏品之家",
+        "description": "Nara Solana 上的收藏品之家",
         "stat": "$139亿",
         "statLabel": "平台上交易的收藏品"
       },
@@ -2917,7 +2917,7 @@
         "description": "为您的 Discord 社区设置代币门控并进行管理"
       },
       "title": "消费者工具包",
-      "description": "Solana 提供数十种即用型产品，用于构建和吸引您的社区。"
+      "description": "Nara Solana 提供数十种即用型产品，用于构建和吸引您的社区。"
     },
     "videoPlayer": {
       "title": "娱乐的未来",
@@ -2934,37 +2934,37 @@
           "alt": "Pudgy Penguins：Solana 上 16 亿美元的社区空投视频缩略图"
         },
         {
-          "title": "Solana 代币是互联网的新内容",
+          "title": "Nara Solana 代币是互联网的新内容",
           "description": "Nikita Bier（X，首席产品官）",
-          "alt": "Solana 代币是互联网的新内容视频缩略图"
+          "alt": "Nara Solana 代币是互联网的新内容视频缩略图"
         },
         {
-          "title": "为什么 Helium 迁移到 Solana",
+          "title": "为什么 Helium 迁移到 Nara Solana",
           "description": "Abhay Kumar，Helium Foundation 的 CEO",
-          "alt": "为什么 Helium 迁移到 Solana 视频缩略图"
+          "alt": "为什么 Helium 迁移到 Nara Solana 视频缩略图"
         }
       ]
     },
     "cta": {
       "reportTitle": "获取 Memecoins 报告 2025",
-      "reportDescription": "了解市场领导者如何利用 Solana 将资本市场链上化。",
+      "reportDescription": "了解市场领导者如何利用 Nara Solana 将资本市场链上化。",
       "downloadReport": "获取报告"
     }
   },
   "ai-solution": {
     "meta": {
-      "title": "Solana 上的 AI | 构建开放智能",
+      "title": "Nara Solana 上的 AI | 构建开放智能",
       "description": "启动代理、寻找计算资源、获取数据，并在链上构建 AI 的未来"
     },
     "hero": {
-      "title": "Solana 规模的 AI。",
-      "subtitle": "在 Solana 上构建开放智能的未来。开发代理、寻找计算资源、即时交易并获取数据——一切都在 Solana 规模上。",
+      "title": "Nara Solana 规模的 AI。",
+      "subtitle": "在 Nara Solana 上构建开放智能的未来。开发代理、寻找计算资源、即时交易并获取数据——一切都在 Nara Solana 规模上。",
       "reportEyebrow": "Memecoins 报告 2025",
-      "reportDescription": "了解市场领导者如何利用 Solana 将资本市场链上化。",
-      "extraCta": "探索 Solana AI"
+      "reportDescription": "了解市场领导者如何利用 Nara Solana 将资本市场链上化。",
+      "extraCta": "探索 Nara Solana AI"
     },
     "features": {
-      "title": "<light>为什么选择</light> Solana 上的 AI？",
+      "title": "<light>为什么选择</light> Nara Solana 上的 AI？",
       "description": "将您的应用分发到 Solana，并吸引数百万加密用户。随着 AI 持续塑造技术发展，对开放、无许可系统的需求变得更加重要。Solana 为开放智能生态系统提供了基础，支持去中心化所有权、高效资源分配以及 AI 的无缝价值转移。"
     },
     "projects": {
@@ -3002,28 +3002,28 @@
     },
     "products": {
       "0": {
-        "title": "Solana MCP",
-        "description": "在您的 IDE 中设置远程 Solana 开发者 MCP"
+        "title": "Nara Solana MCP",
+        "description": "在您的 IDE 中设置远程 Nara Solana 开发者 MCP"
       },
       "1": {
         "title": "支付",
         "description": "构建代理支付功能"
       },
       "2": {
-        "title": "Solana 代理工具包",
-        "description": "将任何 AI 代理连接到 Solana 协议"
+        "title": "Nara Solana 代理工具包",
+        "description": "将任何 AI 代理连接到 Nara Solana 协议"
       },
       "title": "AI 工具包",
-      "description": "Solana 提供数十种即用型 AI 产品。"
+      "description": "Nara Solana 提供数十种即用型 AI 产品。"
     },
     "videoPlayer": {
       "title": "大规模开放智能",
       "subtitle": "",
       "videos": [
         {
-          "title": "Solana 上的去中心化智能",
+          "title": "Nara Solana 上的去中心化智能",
           "description": "Dillon Rolnick，Nous Research",
-          "alt": "Solana 上的去中心化智能视频缩略图"
+          "alt": "Nara Solana 上的去中心化智能视频缩略图"
         },
         {
           "title": "以极低成本实现 GPU 渲染",
@@ -3039,12 +3039,12 @@
       "description": "在链上资助科学研究，直接奖励贡献者，并协作构建知识。没有守门人，没有付费墙。只有开放且不可阻挡的研究，以实现更好的成果。"
     },
     "hero": {
-      "title": "从想法到影响。科学在 Solana 上加速发展。",
+      "title": "从想法到影响。科学在 Nara Solana 上加速发展。",
       "subtitle": "在链上资助科学研究，直接奖励贡献者，并协作构建知识。没有守门人，没有付费墙。只有开放且不可阻挡的研究，以实现更好的成果。"
     },
     "features": {
       "title": "<light>什么是</light> DeSci？",
-      "description": "去中心化科学（DeSci）是一场重新思考科学研究如何资助、进行、验证和共享的运动。在像 Solana 这样的区块链上，DeSci 使全球社区能够透明地资助科学研究、奖励贡献者并共享知识。DeSci 的核心是加速发现并将研究转化为现实世界的影响。"
+      "description": "去中心化科学（DeSci）是一场重新思考科学研究如何资助、进行、验证和共享的运动。在像 Nara Solana 这样的区块链上，DeSci 使全球社区能够透明地资助科学研究、奖励贡献者并共享知识。DeSci 的核心是加速发现并将研究转化为现实世界的影响。"
     },
     "projects": {
       "title": "<light>探索<br></br>生态系统与</light>影响",
@@ -3062,7 +3062,7 @@
       },
       "curetopia": {
         "name": "Curetopia",
-        "description": "Curetopia 是 Solana 上的第一个生物 DAO，专注于价值 1 万亿美元的罕见疾病市场，并开创了定制的“n-of-one”疗法，已完成 AARS2 缺陷的试点研究。",
+        "description": "Curetopia 是 Nara Solana 上的第一个生物 DAO，专注于价值 1 万亿美元的罕见疾病市场，并开创了定制的“n-of-one”疗法，已完成 AARS2 缺陷的试点研究。",
         "stat": "",
         "statLabel": ""
       },
@@ -3095,14 +3095,14 @@
         "description": "将科学知识产权代币化并进行交易"
       },
       "2": {
-        "title": "Solana Agent Kit",
-        "description": "将任何 BioAgent 连接到核心 Solana 协议"
+        "title": "Nara Solana Agent Kit",
+        "description": "将任何 BioAgent 连接到核心 Nara Solana 协议"
       },
       "title": "DeSci 工具包",
       "description": ""
     },
     "videoPlayer": {
-      "title": "以 Solana 的速度推动科学进步",
+      "title": "以 Nara Solana 的速度推动科学进步",
       "subtitle": "聆听那些正在变革全球市场的先驱者们，以及他们为何选择 Solana。",
       "videos": [
         {
@@ -3116,30 +3116,30 @@
           "alt": "启动链上实验以改善寿命视频缩略图"
         },
         {
-          "title": "为什么 Helium 迁移到 Solana",
+          "title": "为什么 Helium 迁移到 Nara Solana",
           "description": "SpineDAO 联合创始人 Bassel Diebo 和 Virginie Lafage",
-          "alt": "为什么 Helium 迁移到 Solana 视频缩略图"
+          "alt": "为什么 Helium 迁移到 Nara Solana 视频缩略图"
         }
       ]
     }
   },
   "x402": {
-    "title": "x402 在 Solana 上 | 面向 AI 代理的互联网原生支付",
-    "description": "在 Solana 上使用 x402 构建——一个支持 AI 代理自主交易的支付协议。每周超过 50 万笔交易，400 毫秒的最终确认时间，手续费仅 $0.00025。加入 40 多个生态系统合作伙伴，共同构建代理经济。",
+    "title": "x402 在 Nara Solana 上 | 面向 AI 代理的互联网原生支付",
+    "description": "在 Nara Solana 上使用 x402 构建——一个支持 AI 代理自主交易的支付协议。每周超过 50 万笔交易，400 毫秒的最终确认时间，手续费仅 $0.00025。加入 40 多个生态系统合作伙伴，共同构建代理经济。",
     "whatIs": {
-      "title": "什么是 x402？| Solana 上的 AI 代理支付协议",
-      "description": "了解 x402 如何在 Solana 上实现 HTTP 402，使 AI 代理能够进行自主支付。探索开发者为何选择 Solana 的 400 毫秒最终确认时间和 $0.00025 手续费来支持代理经济。",
+      "title": "什么是 x402？| Nara Solana 上的 AI 代理支付协议",
+      "description": "了解 x402 如何在 Nara Solana 上实现 HTTP 402，使 AI 代理能够进行自主支付。探索开发者为何选择 Nara Solana 的 400 毫秒最终确认时间和 $0.00025 手续费来支持代理经济。",
       "httpSection": {
         "title": "HTTP 402 状态码",
         "content": "HTTP 402（需要支付）自 1997 年以来就存在，但从未被实现——直到现在。x402 激活了这个休眠的状态码，使任何 API 或网络服务在提供内容之前都可以要求支付。这是一个用于数字资源货币化的通用标准。"
       },
       "solanaSection": {
-        "title": "为什么选择 Solana 支持 x402？",
-        "content": "Solana 的 400 毫秒最终确认时间和 $0.00025 的交易成本使其成为 x402 的理想结算层。无论是 AI 代理进行数千次 API 调用，还是用户访问高级内容，Solana 都能实现即时、低成本的支付，使微支付具有经济可行性。凭借原生 USDC 支持，Solana 上的 x402 为全球服务提供了稳定、可预测的定价。"
+        "title": "为什么选择 Nara Solana 支持 x402？",
+        "content": "Nara Solana 的 400 毫秒最终确认时间和 $0.00025 的交易成本使其成为 x402 的理想结算层。无论是 AI 代理进行数千次 API 调用，还是用户访问高级内容，Solana 都能实现即时、低成本的支付，使微支付具有经济可行性。凭借原生 USDC 支持，Solana 上的 x402 为全球服务提供了稳定、可预测的定价。"
       },
       "agentEconomySection": {
         "title": "推动代理经济",
-        "content": "AI 代理需要自主交易——支付 API、购买数据以及在无需人工干预的情况下访问服务。x402 使这一切成为可能。代理可以请求访问付费资源，接收带有支付详情的 402 响应，在 Solana 上执行支付并接收资源——这一切都在毫秒内完成。这不仅是理论：x402 的交易量在一个月内增长了 10,000%，每周交易量超过 50 万笔，开发者正在构建以代理为中心的应用程序。该协议使代理能够操作钱包、协商价格并独立参与市场。"
+        "content": "AI 代理需要自主交易——支付 API、购买数据以及在无需人工干预的情况下访问服务。x402 使这一切成为可能。代理可以请求访问付费资源，接收带有支付详情的 402 响应，在 Nara Solana 上执行支付并接收资源——这一切都在毫秒内完成。这不仅是理论：x402 的交易量在一个月内增长了 10,000%，每周交易量超过 50 万笔，开发者正在构建以代理为中心的应用程序。该协议使代理能够操作钱包、协商价格并独立参与市场。"
       },
       "communitySection": {
         "title": "不断增长的生态系统",
@@ -3156,13 +3156,13 @@
         ]
       },
       "cta": {
-        "text": "准备好在 Solana 上使用 x402 构建了吗？",
+        "text": "准备好在 Nara Solana 上使用 x402 构建了吗？",
         "button": "探索生态系统"
       }
     },
     "hero": {
-      "title": "x402 在 Solana",
-      "subtitle": "在 Solana 上构建互联网原生支付。",
+      "title": "x402 在 Nara Solana",
+      "subtitle": "在 Nara Solana 上构建互联网原生支付。",
       "intro": "什么是 x402？",
       "build": "使用 x402 构建",
       "stats": {
@@ -3196,7 +3196,7 @@
       },
       "payai": {
         "title": "PayAI",
-        "description": "Solana 的 x402 支付工具，支持微交易和 AI 代理市场的自主交易"
+        "description": "Nara Solana 的 x402 支付工具，支持微交易和 AI 代理市场的自主交易"
       },
       "x402scan": {
         "title": "X402scan",
@@ -3225,13 +3225,13 @@
         "description": "使用 x402 构建您的 API"
       },
       "title": "x402 工具",
-      "description": "探索适用于 x402 的 Solana 即用型产品。"
+      "description": "探索适用于 x402 的 Nara Solana 即用型产品。"
     },
     "hackathon": {
-      "title": "Solana X402 黑客松",
+      "title": "Nara Solana X402 黑客松",
       "description": "加入开发者的行列，在互联网支付的前沿进行开发，并争夺高达 $135,000 的奖品。",
       "hero": {
-        "title": "Solana X402 黑客松",
+        "title": "Nara Solana X402 黑客松",
         "subtitle": "加入开发者的行列，在互联网支付的前沿进行开发，并争夺高达 $135,000 的奖品。",
         "registerButton": "注册",
         "resourcesButton": "资源"
@@ -3273,8 +3273,8 @@
           "cta": "学习"
         },
         "solana": {
-          "title": "在 Solana 上构建",
-          "description": "开始 Solana 开发，了解钱包并部署您的第一个程序",
+          "title": "在 Nara Solana 上构建",
+          "description": "开始 Nara Solana 开发，了解钱包并部署您的第一个程序",
           "cta": "构建"
         },
         "x402NextTemplate": {
@@ -3285,14 +3285,14 @@
       },
       "problem": {
         "title": "我们在寻找什么？",
-        "description": "构建开源基础设施和应用程序，以推动 Solana 上的代理经济。创建使 AI 代理能够自主交易的工具，开发创新的支付解决方案，或构建实用的代理应用程序。这是您定义自主代理如何与数字经济互动的机会。"
+        "description": "构建开源基础设施和应用程序，以推动 Nara Solana 上的代理经济。创建使 AI 代理能够自主交易的工具，开发创新的支付解决方案，或构建实用的代理应用程序。这是您定义自主代理如何与数字经济互动的机会。"
       },
       "requirements": {
         "title": "提交要求",
         "items": [
           "所有代码必须开源",
-          "项目必须将 x402 协议或相关代理基础设施与 Solana 集成",
-          "所有程序必须部署到 Solana devnet 或 mainnet",
+          "项目必须将 x402 协议或相关代理基础设施与 Nara Solana 集成",
+          "所有程序必须部署到 Nara Solana devnet 或 mainnet",
           "提交一个展示您项目的演示视频（最长 3 分钟）",
           "包含有关如何运行和使用您项目的文档"
         ]
@@ -3316,7 +3316,7 @@
           },
           {
             "title": "最佳 x402 开发工具",
-            "description": "创建 SDK、库、框架或基础设施以加速 Solana 上的 x402 开发。"
+            "description": "创建 SDK、库、框架或基础设施以加速 Nara Solana 上的 x402 开发。"
           },
           {
             "title": "最佳 x402 代理应用",
@@ -3389,14 +3389,14 @@
             "sponsor": "Triton",
             "logo": "/img/sponsors/triton.svg",
             "title": "最佳 x402 与 Old Faithful 集成",
-            "description": "通过将 x402 支付集成到 Old Faithful RPC，实现对 Solana 全部历史的可持续自动访问",
+            "description": "通过将 x402 支付集成到 Old Faithful RPC，实现对 Nara Solana 全部历史的可持续自动访问",
             "prizeAmount": "$2,500"
           },
           {
             "sponsor": "Alsa",
             "logo": "/img/sponsors/alsa.svg",
             "title": "最佳 AgentPay 演示",
-            "description": "创建能够通过 Solana USDC + HTTP-402 微支付自动支付 API、LLM 代币或数据的 AI 代理或服务",
+            "description": "创建能够通过 Nara Solana USDC + HTTP-402 微支付自动支付 API、LLM 代币或数据的 AI 代理或服务",
             "prizeAmount": "$5,000"
           }
         ]
@@ -3445,13 +3445,13 @@
       "cta": {
         "eyebrow": "欢迎，构建者们",
         "title": "构建代理经济的机会来了",
-        "description": "这是一场远程黑客松，旨在基于 x402 构建新的创新工具、应用、基础设施和代理。加入社区，与全球的 Solana 开发者组队并共同构建。",
+        "description": "这是一场远程黑客松，旨在基于 x402 构建新的创新工具、应用、基础设施和代理。加入社区，与全球的 Nara Solana 开发者组队并共同构建。",
         "label": "加入社区",
         "url": "https://t.me/+ty0DKt1lVZBlNjZh"
       },
       "resources": {
         "title": "构建资源",
-        "description": "构建 x402 和 Solana 所需的一切",
+        "description": "构建 x402 和 Nara Solana 所需的一切",
         "gettingStarted": "入门",
         "advancedTopics": "高级主题",
         "learnMore": "了解更多",
@@ -3468,12 +3468,12 @@
           },
           "facilitatorDocs": {
             "title": "启动 x402 Facilitator",
-            "description": "通过在 Solana 上启动您自己的 facilitator 来上线 x402。",
+            "description": "通过在 Nara Solana 上启动您自己的 facilitator 来上线 x402。",
             "category": "文档"
           },
           "x402Template": {
             "title": "使用 x402 模板交付",
-            "description": "使用 x402 模板快速开始在 Solana 上的开发。",
+            "description": "使用 x402 模板快速开始在 Nara Solana 上的开发。",
             "category": "文档"
           },
           "erc8004": {
@@ -3583,7 +3583,7 @@
         "title": "代币经济模型",
         "totalSupply": "代币总量",
         "privatePresale": "公开 / 私募预售",
-        "airdropToSolanaHolders": "Solana 持有者空投",
+        "airdropToSolanaHolders": "Nara Solana 持有者空投",
         "dAppEcosystemRewards": "DApp 生态激励",
         "earlyStakingRewards": "早期质押奖励",
         "testnetParticipantRewards": "测试网参与奖励",
@@ -3618,18 +3618,18 @@
   "index": {
     "meta": {
       "title": "为地球上每一种资产打造的资本市场",
-      "description": "Solana 是一个高性能网络，为互联网资本市场、支付和加密应用提供支持。快速、去中心化、可扩展且节能。Solana 每秒可处理数千笔交易。"
+      "description": "Nara Solana 是一个高性能网络，为互联网资本市场、支付和加密应用提供支持。快速、去中心化、可扩展且节能。Solana 每秒可处理数千笔交易。"
     },
     "hero": {
       "title": "为地球上每一种资产打造的资本市场\n<light>。</light>",
-      "subtitle": "Solana 是领先的高性能网络，为互联网资本市场、支付和加密应用提供支持。",
+      "subtitle": "Nara Solana 是领先的高性能网络，为互联网资本市场、支付和加密应用提供支持。",
       "cta": "立即开始",
       "bannerEyebrow": "Breakpoint 2025 已圆满落幕",
-      "bannerDescription": "回顾在阿布扎比举办的 Solana 年度大会上那些具有标志性的精彩时刻。",
+      "bannerDescription": "回顾在阿布扎比举办的 Nara Solana 年度大会上那些具有标志性的精彩时刻。",
       "bannerLabel": "查看回顾"
     },
     "events": {
-      "title": "线下与 Solana 相遇。<light>建立联系。</light>",
+      "title": "线下与 Nara Solana 相遇。<light>建立联系。</light>",
       "subtitle": "",
       "cta": "查看全部"
     },
@@ -3664,7 +3664,7 @@
       }
     },
     "projects": {
-      "title": "全球最大的机构 <light>和金融科技公司正在基于 Solana 构建。</light>",
+      "title": "全球最大的机构 <light>和金融科技公司正在基于 Nara Solana 构建。</light>",
       "western-union": {
         "name": "Western Union",
         "stat": "USDPT",
@@ -3698,7 +3698,7 @@
       "cta": "查看全部"
     },
     "news": {
-      "title": "了解 <light>Solana 的最新动态</light>",
+      "title": "了解 <light>Nara Solana 的最新动态</light>",
       "button": "了解更多"
     },
     "videos": {
@@ -3751,12 +3751,12 @@
           "构建基础设施"
         ],
         "developer": [
-          "学习 Solana 开发",
+          "学习 Nara Solana 开发",
           "快速入门指南",
           "访问文档",
           "参加黑客松"
         ],
-        "user": ["Solana 101", "找到一个钱包", "质押您的 SOL", "寻找工作"]
+        "user": ["Nara Solana 101", "找到一个钱包", "质押您的 NSO", "寻找工作"]
       }
     }
   },

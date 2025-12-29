@@ -23,7 +23,7 @@ const LanguageSelector = ({ className = "" }) => {
         <button
           className={cn(
             "p-0 border-0 inline-flex items-center",
-            "text-[#848895] text-base light:text-[#7f8391]",
+            "text-[#848895] text-[14px] light:text-[#7f8391]",
             "hover:text-white light:hover:text-gray-900",
             "transition-colors duration-200",
             className,
@@ -31,7 +31,7 @@ const LanguageSelector = ({ className = "" }) => {
           type="button"
         >
           <Globe height="20" />
-          <span className="align-middle font-normal mx-1 uppercase text-base">
+          <span className="align-middle font-normal mx-1 uppercase text-[14px]">
             {currentLocale}
           </span>
           <ChevronGrabberVertical width="20" height="20" />

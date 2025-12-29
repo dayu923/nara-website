@@ -1,6 +1,7 @@
 import "@/scss/index.scss";
 import "@/app/globals.css";
 
+import classNames from "classnames";
 import CookieConsent from "@/components/CookieConsent/CookieConsent";
 import GTMTrackingSnippet from "@/components/GTMTrackingSnippet";
 import { NextIntlClientProvider } from "next-intl";
@@ -13,6 +14,7 @@ import { getBaseMetadata } from "@@/src/app/metadata";
 import { staticLocales } from "@workspace/i18n/config";
 import { getLangDir } from "rtl-detect";
 import { Header, Footer, ThemeProvider } from "@solana-com/ui-chrome";
+import styles from "./Layout.module.scss";
 
 type Props = {
   children: React.ReactNode;
@@ -46,7 +48,7 @@ export default async function RootLayout({ children, params }: Props) {
               <GTMTrackingSnippet />
               <SitewideTopAlert locale={builderLocale} />
               <CookieConsent />
-              <Header />
+              <Header className={classNames(styles.Header)} />
               {children}
               <Footer />
             </ThemeProvider>

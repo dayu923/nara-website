@@ -1,7 +1,11 @@
 .Header {
+  background: rgba(250, 250, 250, 0.06);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
   &,
   nav {
-    background: #000;
+    // background: #000;
   }
 }
 

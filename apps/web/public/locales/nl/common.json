@@ -7,34 +7,34 @@
   "titles": {
     "404": "404: Niet gevonden",
     "newsletter": "Nieuwsbrief",
-    "community": "Solana Gemeenschap: Doe mee aan ons ecosysteem",
-    "news": "Solana Nieuws",
+    "community": "Nara Solana Gemeenschap: Doe mee aan ons ecosysteem",
+    "news": "Nara Solana Nieuws",
     "defi": "DeFi",
     "events": "Evenementen",
     "dao": "DAO's en Bestuur"
   },
   "ai": {
-    "title": "AI-innovatie met de snelheid van Solana",
-    "description": "Solana is een blockchain met lage kosten, hoge snelheden, minimale energie-impact en een gebruiksvriendelijke ervaring. AI kan die wrijving nog verder verminderen, waardoor de kracht van decentralisatie voor miljoenen mensen toegankelijk wordt.",
+    "title": "AI-innovatie met de snelheid van Nara Solana",
+    "description": "Nara Solana is een blockchain met lage kosten, hoge snelheden, minimale energie-impact en een gebruiksvriendelijke ervaring. AI kan die wrijving nog verder verminderen, waardoor de kracht van decentralisatie voor miljoenen mensen toegankelijk wordt.",
     "hero": {
-      "title": "<colored>AI</colored> innovatie met de snelheid van Solana",
+      "title": "<colored>AI</colored> innovatie met de snelheid van Nara Solana",
       "point-3": "Een ecosysteem van bouwers op het snijvlak van AI + Web3",
       "cta": "SolanaのAIツールを見る",
       "cta-2": "もっとプロジェクトを見つける"
     },
     "why-ai": {
       "caption": "Waarom AI op de Blockchain?",
-      "title": "Solana is gebouwd voor schaalbaarheid — een blockchain met lage kosten, hoge snelheden, minimale energie-impact en een gebruiksvriendelijke ervaring. AI kan die wrijving nog verder verminderen, waardoor de kracht van decentralisatie voor miljoenen mensen toegankelijk wordt door het nog gemakkelijker te maken om te gebruiken."
+      "title": "Nara Solana is gebouwd voor schaalbaarheid — een blockchain met lage kosten, hoge snelheden, minimale energie-impact en een gebruiksvriendelijke ervaring. AI kan die wrijving nog verder verminderen, waardoor de kracht van decentralisatie voor miljoenen mensen toegankelijk wordt door het nog gemakkelijker te maken om te gebruiken."
     },
     "card": {
       "title": "Focusgebieden op het snijvlak van crypto en AI",
-      "check-1": "Faciliteer de meest levendige agent-gestuurde economie op Solana",
-      "check-2": "Maak LLM's zeer goed in het schrijven van Solana-code en versterk Solana-ontwikkelaars",
+      "check-1": "Faciliteer de meest levendige agent-gestuurde economie op Nara Solana",
+      "check-2": "Maak LLM's zeer goed in het schrijven van Nara Solana-code en versterk Nara Solana-ontwikkelaars",
       "check-3": "Ondersteun de open en gedecentraliseerde AI-stack",
-      "cta": "Lees meer over Solana x AI"
+      "cta": "Lees meer over Nara Solana x AI"
     },
     "hackathon": {
-      "title": "Solana AI hackathon winnaars",
+      "title": "Nara Solana AI hackathon winnaars",
       "check-1": "15 dagen",
       "check-2": "400+ projecten",
       "check-3": "21 winnaars",
@@ -43,21 +43,21 @@
     },
     "quote-section": {
       "content": "OpenAI is een startup. Het was niet Google die het bouwde. AI vereist operationele veranderingen, en grote bedrijven zullen niet kunnen bijhouden, het beste wat ze kunnen doen is overleven.",
-      "author": "Anatoly Yakovenko, Mede-oprichter van Solana Labs"
+      "author": "Anatoly Yakovenko, Mede-oprichter van Nara Solana Labs"
     },
     "build": {
-      "title": "Bouw <colored>AI</colored> Agents op Solana",
+      "title": "Bouw <colored>AI</colored> Agents op Nara Solana",
       "card-1": {
-        "title": "Solana Agent Kit",
-        "content": "SendAI's Solana Agent Kit is de toolkit om elke AI-agent te verbinden met meer dan 30 Solana-protocollen en meer dan 50 Solana-acties uit te voeren, compatibel met Eliza, Langchain, Perplexity en Vercel AI SDK."
+        "title": "Nara Solana Agent Kit",
+        "content": "SendAI's Nara Solana Agent Kit is de toolkit om elke AI-agent te verbinden met meer dan 30 Nara Solana-protocollen en meer dan 50 Nara Solana-acties uit te voeren, compatibel met Eliza, Langchain, Perplexity en Vercel AI SDK."
       },
       "card-2": {
         "title": "Eliza",
-        "content": "ElizaOS is een eenvoudig, snel en lichtgewicht Typescript AI-agent framework, met Solana-protocol integraties, Twitter-integratie en meer."
+        "content": "ElizaOS is een eenvoudig, snel en lichtgewicht Typescript AI-agent framework, met Nara Solana-protocol integraties, Twitter-integratie en meer."
       },
       "card-3": {
         "title": "Rig",
-        "content": "Rig is een Rust framework voor het bouwen van draagbare, modulaire en lichtgewicht Fullstack Agents. Meerdere Solana-integraties zijn beschikbaar samen met de rig agent kit, het Solana Zwitserse zakmes."
+        "content": "Rig is een Rust framework voor het bouwen van draagbare, modulaire en lichtgewicht Fullstack Agents. Meerdere Nara Solana-integraties zijn beschikbaar samen met de rig agent kit, het Nara Solana Zwitserse zakmes."
       },
       "card-4": {
         "title": "GOAT",
@@ -65,14 +65,14 @@
       },
       "card-5": {
         "title": "Zerepy",
-        "content": "ZerePy is een Python framework voor het bouwen, aanpassen en implementeren van agents die in staat zijn om sociale en onchain acties uit te voeren op Solana."
+        "content": "ZerePy is een Python framework voor het bouwen, aanpassen en implementeren van agents die in staat zijn om sociale en onchain acties uit te voeren op Nara Solana."
       }
     }
   },
   "validators": {
-    "title": "Validators: Help het netwerk beveiligen en verdien SOL",
-    "description": "Het Solana Mainnet Beta-netwerk wordt momenteel ondersteund door meer dan 1.000 onafhankelijke validators en kan een transactiedoorvoer van maximaal 50k TPS met bevestigingstijden van minder dan een seconde ondersteunen. Leer meer over het deelnemen aan het ecosysteem als validator om SOL-beloningen te verdienen.",
-    "header": "Beveilig het grootboek. Verdien SOL.",
+    "title": "Validators: Help het netwerk beveiligen en verdien NSO",
+    "description": "Het Nara Solana Mainnet Beta-netwerk wordt momenteel ondersteund door meer dan 1.000 onafhankelijke validators en kan een transactiedoorvoer van maximaal 50k TPS met bevestigingstijden van minder dan een seconde ondersteunen. Leer meer over het deelnemen aan het ecosysteem als validator om NSO-beloningen te verdienen.",
+    "header": "Beveilig het grootboek. Verdien NSO.",
     "sub-header": "Decentraliseer het netwerk door computerbronnen te leveren.",
     "become-validator": "Word een validator",
     "cards": {
@@ -80,8 +80,8 @@
       "nakamoto-text": "Huidige Superminderheid"
     },
     "definition": {
-      "title": "Validators vormen de ruggengraat van het Solana-netwerk.",
-      "text": "Door transacties te verwerken en deel te nemen aan consensus, helpt elke validator om van Solana het meest censuurbestendige en best presterende blockchain-netwerk ter wereld te maken."
+      "title": "Validators vormen de ruggengraat van het Nara Solana-netwerk.",
+      "text": "Door transacties te verwerken en deel te nemen aan consensus, helpt elke validator om van Nara Solana het meest censuurbestendige en best presterende blockchain-netwerk ter wereld te maken."
     },
     "rewards": {
       "header": "Validator Beloningen",
@@ -91,7 +91,7 @@
         "staking-header": "Staking",
         "staking-text": "Stakers worden beloond voor het helpen valideren van het grootboek. Ze doen dit door hun inzet te delegeren aan validator nodes. Die validators doen het werk van het opnieuw afspelen van het grootboek en sturen stemmen naar een per-node stemaccount waaraan stakers hun inzet kunnen delegeren. De rest van het cluster gebruikt die inzet-gewogen stemmen om een blok te selecteren wanneer er forks ontstaan.",
         "stake-pool-header": "Stake Pools",
-        "stake-pool-text": "Stake Pools zijn een liquid staking-oplossing die censuurbestendigheid, decentralisatie en de groei van DeFi op Solana bevorderen."
+        "stake-pool-text": "Stake Pools zijn een liquid staking-oplossing die censuurbestendigheid, decentralisatie en de groei van DeFi op Nara Solana bevorderen."
       }
     },
     "getting-started": {
@@ -103,14 +103,14 @@
         "explorer-text": "Bekijk de huidige lijst van validators, hun rangschikking op basis van inzetbedrag en informatie over commissie hieronder.",
         "explorer-btn": "Bekijk Validators",
         "education-header": "Validator Opleiding",
-        "education-text": "De Solana Validator Opleiding is een tweedelige serie over belangrijke Solana validator concepten en de benodigde stappen om een nieuwe validator op te zetten.",
+        "education-text": "De Nara Solana Validator Opleiding is een tweedelige serie over belangrijke Nara Solana validator concepten en de benodigde stappen om een nieuwe validator op te zetten.",
         "delegation-header": "Delegatie Programma",
-        "delegation-text": "Deelnemers aan het Foundation Delegatie Programma komen in aanmerking voor een delegatie van de Solana Foundation.",
+        "delegation-text": "Deelnemers aan het Foundation Delegatie Programma komen in aanmerking voor een delegatie van de Nara Solana Foundation.",
         "delegation-btn": "Dashboard"
       }
     },
     "qa": {
-      "title": "Valideren op Solana",
+      "title": "Valideren op Nara Solana",
       "items": [
         {
           "question": "Is er een Bug Bounty Programma?",
@@ -126,11 +126,11 @@
         },
         {
           "question": "Wat is het Foundation Delegatie Programma?",
-          "answer": "Het is een Solana Foundation programma om nieuwe validators te stimuleren om zich bij het netwerk aan te sluiten. Lees er meer over <programlink>hier</programlink>."
+          "answer": "Het is een Nara Solana Foundation programma om nieuwe validators te stimuleren om zich bij het netwerk aan te sluiten. Lees er meer over <programlink>hier</programlink>."
         },
         {
           "question": "Wat is een validator?",
-          "answer": "Validators vormen de ruggengraat van het Solana-netwerk. Door transacties te verwerken en deel te nemen aan consensus, helpt elke validator om van Solana het meest hoogpresterende blockchain-netwerk ter wereld te maken."
+          "answer": "Validators vormen de ruggengraat van het Nara Solana-netwerk. Door transacties te verwerken en deel te nemen aan consensus, helpt elke validator om van Nara Solana het meest hoogpresterende blockchain-netwerk ter wereld te maken."
         },
         {
           "question": "Wie kan een validator node uitvoeren?",
@@ -138,7 +138,7 @@
         },
         {
           "question": "Waarom zou ik een validator node uitvoeren?",
-          "answer": "Validators kunnen SOL verdienen door te helpen het Solana-netwerk te beveiligen. <economicslink>Hier</economicslink> is een overzicht van de economie, en <stakinglink>hier</stakinglink> is een overzicht van staking beloningen. Validators helpen ook de censuurbestendigheid op het netwerk te vergroten door de decentralisatie te verhogen."
+          "answer": "Validators kunnen NSO verdienen door te helpen het Nara Solana-netwerk te beveiligen. <economicslink>Hier</economicslink> is een overzicht van de economie, en <stakinglink>hier</stakinglink> is een overzicht van staking beloningen. Validators helpen ook de censuurbestendigheid op het netwerk te vergroten door de decentralisatie te verhogen."
         }
       ]
     }
@@ -148,7 +148,7 @@
     "visitf": "Forums bezoeken",
     "forum": "Discussieer op Forum",
     "chat": "Krijg Chat Ondersteuning",
-    "updated": "Wil je op de hoogte blijven van de voortgang van Solana?",
+    "updated": "Wil je op de hoogte blijven van de voortgang van Nara Solana?",
     "build": "Nu Bouwen",
     "contact": "Neem Contact Op",
     "learn": "Meer info",
@@ -174,14 +174,14 @@
     "learn": "Leren"
   },
   "newsletter": {
-    "signup": "Meld u aan voor de Solana nieuwsbrief",
+    "signup": "Meld u aan voor de Nara Solana nieuwsbrief",
     "spam": "We beloven dat we u niet zullen spammen.",
     "informed": "Blijf op de hoogte"
   },
   "hackathon": {
     "index": {
-      "title": "Doe mee aan een Solana Online Hackathon om je Crypto-reis te starten",
-      "description": "Solana hackathons bieden ambitieuze bouwers een lanceerplatform om projecten te creëren die de crypto-ruimte vooruit helpen. Meld je aan voor Colosseum om medeoprichters te vinden, ideeën te delen en je aan te melden voor de volgende Solana hackathon.",
+      "title": "Doe mee aan een Nara Solana Online Hackathon om je Crypto-reis te starten",
+      "description": "Nara Solana hackathons bieden ambitieuze bouwers een lanceerplatform om projecten te creëren die de crypto-ruimte vooruit helpen. Meld je aan voor Colosseum om medeoprichters te vinden, ideeën te delen en je aan te melden voor de volgende Nara Solana hackathon.",
       "cta": "Doe mee aan Colosseum",
       "hero": {
         "developers": {
@@ -204,39 +204,39 @@
     "previousHackathons": {
       "title": "Vorige Hackathons",
       "hyperdrive": {
-        "title": "Solana Hyperdrive",
-        "description": "Hyperdrive zag meer dan 7.000 deelnemers 907 eindprojecten indienen bij de jury, de grootste online Solana hackathon tot nu toe."
+        "title": "Nara Solana Hyperdrive",
+        "description": "Hyperdrive zag meer dan 7.000 deelnemers 907 eindprojecten indienen bij de jury, de grootste online Nara Solana hackathon tot nu toe."
       },
       "renaissance": {
-        "title": "Solana Renaissance",
-        "description": "Renaissance was de 9e Solana Foundation hackathon, die oprichters en ontwikkelaars uit meer dan 95 landen samenbracht om producten te bouwen op het gebied van Infrastructuur, Gaming, DePIN, DAOs, DeFi en een lange lijst van Consumentenapplicaties."
+        "title": "Nara Solana Renaissance",
+        "description": "Renaissance was de 9e Nara Solana Foundation hackathon, die oprichters en ontwikkelaars uit meer dan 95 landen samenbracht om producten te bouwen op het gebied van Infrastructuur, Gaming, DePIN, DAOs, DeFi en een lange lijst van Consumentenapplicaties."
       },
       "grizzlython": {
-        "title": "Solana Grizzlython",
-        "description": "Meer dan 10.000 deelnemers dienden 813 eindprojecten in bij Grizzlython, de zevende Solana hackathon."
+        "title": "Nara Solana Grizzlython",
+        "description": "Meer dan 10.000 deelnemers dienden 813 eindprojecten in bij Grizzlython, de zevende Nara Solana hackathon."
       },
       "summercamp": {
-        "title": "Solana Summer Camp",
-        "description": "Open voor teams wereldwijd, Solana Summer Camp zag bijna 18.000 deelnemers 750 eindprojecten indienen bij de jury."
+        "title": "Nara Solana Summer Camp",
+        "description": "Open voor teams wereldwijd, Nara Solana Summer Camp zag bijna 18.000 deelnemers 750 eindprojecten indienen bij de jury."
       },
       "riptide": {
-        "title": "Solana Riptide",
+        "title": "Nara Solana Riptide",
         "description": "Open voor teams wereldwijd, Riptide zag bijna 7.000 deelnemers 550 eindprojecten indienen bij de jury."
       },
       "ignition": {
-        "title": "Solana Ignition",
+        "title": "Nara Solana Ignition",
         "description": "Met meer dan 500+ projectinzendingen van bouwers over de hele wereld."
       },
       "season": {
-        "title": "Solana Season",
+        "title": "Nara Solana Season",
         "description": "Meer dan 13.000 bouwers registreerden zich en 350 teams dienden projecten in op het gebied van DeFi, NFT's, Web3 en meer."
       },
       "defi": {
-        "title": "Solana DeFi",
+        "title": "Nara Solana DeFi",
         "description": "Met meer dan 3.000 registraties en 100+ projectinzendingen van bouwers wereldwijd!"
       },
       "inaugural": {
-        "title": "Solana’s Eerste Hackathon",
+        "title": "Nara Solana’s Eerste Hackathon",
         "description": "Met meer dan 1.000 registraties en 60+ projectinzendingen van bouwers wereldwijd!"
       }
     },
@@ -245,7 +245,7 @@
     },
     "overview": {
       "title": "Overzicht",
-      "description": "Solana hackathons zijn geen traditionele hackathons. Het zijn wereldwijde, online evenementen waar de meest veelbelovende ondernemers en bouwers strijden om hun crypto-startups te lanceren en seed-rondes op te halen bij 's werelds toonaangevende investeerders. Heb jij wat nodig is?",
+      "description": "Nara Solana hackathons zijn geen traditionele hackathons. Het zijn wereldwijde, online evenementen waar de meest veelbelovende ondernemers en bouwers strijden om hun crypto-startups te lanceren en seed-rondes op te halen bij 's werelds toonaangevende investeerders. Heb jij wat nodig is?",
       "cta": "Wordt op de hoogte gehouden"
     },
     "voting": {
@@ -270,7 +270,7 @@
   },
   "branding": {
     "title": "Merk & Pers",
-    "description": "Leer over de merkrichtlijnen van Solana, download middelen en neem contact op met ons pers team.",
+    "description": "Leer over de merkrichtlijnen van Nara Solana, download middelen en neem contact op met ons pers team.",
     "assets": {
       "title": "Middelen",
       "download-btn": "Download middelen",
@@ -288,13 +288,13 @@
     },
     "goodies": {
       "title": "Goodies",
-      "description": "Download Solana achtergronden.",
+      "description": "Download Nara Solana achtergronden.",
       "shape1": "Vorm 1",
       "shape2": "Vorm 2"
     },
     "banned": {
       "title": "Logo Dont’s",
-      "description": "Hier zijn enkele dingen die je nooit met het Solana logomerk moet doen.",
+      "description": "Hier zijn enkele dingen die je nooit met het Nara Solana logomerk moet doen.",
       "shadow": "Voeg geen schaduwen toe achter het logo",
       "outline": "Voeg geen contouren toe aan het logo",
       "stretch": "Rek het logo niet uit",
@@ -303,14 +303,14 @@
       "contrast": "Plaats het niet op kleuren met weinig contrast"
     },
     "logo": {
-      "title": "Solana Merk",
+      "title": "Nara Solana Merk",
       "sub-title": "Logotype",
-      "description": "Het woordmerk van Solana is opgebouwd uit op maat gemaakte, modulaire letters. De hoekige en uniforme letters zijn geïnspireerd op de tech-esthetiek van de jaren 80, bijgewerkt om fris en futuristisch aan te voelen. Het logomerk is gemaakt door drie identieke parallellogrammen te stapelen. Het straalt snelheid uit en viert het concept van bouwen."
+      "description": "Het woordmerk van Nara Solana is opgebouwd uit op maat gemaakte, modulaire letters. De hoekige en uniforme letters zijn geïnspireerd op de tech-esthetiek van de jaren 80, bijgewerkt om fris en futuristisch aan te voelen. Het logomerk is gemaakt door drie identieke parallellogrammen te stapelen. Het straalt snelheid uit en viert het concept van bouwen."
     },
     "welcome": {
-      "title": "Welkom op de Solana Merk & Marketing pagina",
-      "description": "Volg deze richtlijnen bij het promoten van Solana in marketingcommunicatie, inclusief advertenties, artikelen, websites en gedrukte promoties.",
-      "description-2": "Voor volledige merkrichtlijnen zie <guidelinesLink>Solana Foundation Brand Guidelines</guidelinesLink>."
+      "title": "Welkom op de Nara Solana Merk & Marketing pagina",
+      "description": "Volg deze richtlijnen bij het promoten van Nara Solana in marketingcommunicatie, inclusief advertenties, artikelen, websites en gedrukte promoties.",
+      "description-2": "Voor volledige merkrichtlijnen zie <guidelinesLink>Nara Solana Foundation Brand Guidelines</guidelinesLink>."
     },
     "clearspace": {
       "title": "Vrije ruimte",
@@ -328,15 +328,15 @@
     }
   },
   "community": {
-    "hero": "Solana Gemeenschap",
+    "hero": "Nara Solana Gemeenschap",
     "featcontent": "Uitgelichte Inhoud",
-    "header": "De Solana-gemeenschap is een wereldwijd verspreid thuis voor ontwikkelaars, tokenhouders, validators en leden die het protocol ondersteunen.",
+    "header": "De Nara Solana-gemeenschap is een wereldwijd verspreid thuis voor ontwikkelaars, tokenhouders, validators en leden die het protocol ondersteunen.",
     "info": "Luister naar een podcast",
     "podcast": "Ga naar Podcasts",
     "learn": "Leer in detail",
     "blog": "Bezoek Blog",
     "apply": "Nu Aanmelden",
-    "collective": "Ondersteun het Solana kernteam door middel van gemeenschaps- en marketinginitiatieven terwijl je beloningen verzamelt.",
+    "collective": "Ondersteun het Nara Solana kernteam door middel van gemeenschaps- en marketinginitiatieven terwijl je beloningen verzamelt.",
     "socials": {
       "hero": "Wegwijzer",
       "hero-old": "Doe mee aan de crypto revolutie",
@@ -357,7 +357,7 @@
       "weibo-subscribers": "abonnees",
       "twitter-jp": "Twitter Japan",
       "twitter-jp-subscribers": "leden",
-      "forum": "Solana Forums",
+      "forum": "Nara Solana Forums",
       "forum-subscribers": " berichten",
       "gt-stars": "sterren",
       "youtube": "YouTube",
@@ -389,8 +389,8 @@
     }
   },
   "blog": {
-    "hero": "Solana Nieuws",
-    "header": "Leer meer over Solana’s technologie, validators, integraties en gemeenschap.",
+    "hero": "Nara Solana Nieuws",
+    "header": "Leer meer over Nara Solana’s technologie, validators, integraties en gemeenschap.",
     "latestTopics": "Gerelateerde Onderwerpen",
     "readArticle": "Lees Artikel",
     "back-btn": "Bekijk al het nieuws",
@@ -401,14 +401,14 @@
     "next-btn": "Volgende pagina"
   },
   "developers": {
-    "title": "Ontwikkelaars: Bronnen en Informatie voor het Bouwen op Solana",
-    "description": "Ontdek waarom Solana wordt gebruikt door de beste en meest briljante teams in crypto. Verken onze gidsen en voorbeelden om te beginnen met het bouwen op de Solana-blockchain.",
+    "title": "Ontwikkelaars: Bronnen en Informatie voor het Bouwen op Nara Solana",
+    "description": "Ontdek waarom Nara Solana wordt gebruikt door de beste en meest briljante teams in crypto. Verken onze gidsen en voorbeelden om te beginnen met het bouwen op de Nara Solana-blockchain.",
     "courses": {
-      "title": "Leer Solana-ontwikkeling",
-      "description": "Gebruik deze cursussen van de Solana Foundation en de gemeenschap om je reis naar Solana-ontwikkeling te beginnen.",
+      "title": "Leer Nara Solana-ontwikkeling",
+      "description": "Gebruik deze cursussen van de Nara Solana Foundation en de gemeenschap om je reis naar Nara Solana-ontwikkeling te beginnen.",
       "featured-item": {
-        "title": "Solana-ontwikkelingscursussen",
-        "description": "Begin snel aan je Solana-ontwikkelingstraject met Blueshift."
+        "title": "Nara Solana-ontwikkelingscursussen",
+        "description": "Begin snel aan je Nara Solana-ontwikkelingstraject met Blueshift."
       },
       "aria-label": "Bekijk cursus",
       "chapters_one": "{count} Hoofdstuk",
@@ -420,18 +420,18 @@
       "start-lesson": "Begin Les",
       "lesson-one": "Les",
       "lesson-many": "Lessen",
-      "seo-description": "Ontdek ontwikkelaarsbronnen voor het Solana-ecosysteem. Documentatie, tooling, frameworks, SDK's en meer."
+      "seo-description": "Ontdek ontwikkelaarsbronnen voor het Nara Solana-ecosysteem. Documentatie, tooling, frameworks, SDK's en meer."
     },
     "documents": {
       "title": "Ga naar de bron.",
-      "description": "Lees de documentatie voor Solana en populaire tools.",
+      "description": "Lees de documentatie voor Nara Solana en populaire tools.",
       "solana-docs": {
-        "title": "Solana Documentatie",
-        "description": "Leer hoe Solana werkt en krijg een hoogoverzicht van de architectuur van Solana."
+        "title": "Nara Solana Documentatie",
+        "description": "Leer hoe Nara Solana werkt en krijg een hoogoverzicht van de architectuur van Nara Solana."
       },
       "anchor-docs": {
         "title": "Anchor Documentatie",
-        "description": "Bouw snel veilige Solana-programma's in Rust met behulp van het Anchor-framework."
+        "description": "Bouw snel veilige Nara Solana-programma's in Rust met behulp van het Anchor-framework."
       },
       "view-all": "Bekijk alles"
     },
@@ -440,7 +440,7 @@
     },
     "content": {
       "newsletter": {
-        "title": "Solana Ontwikkelaarsupdate",
+        "title": "Nara Solana Ontwikkelaarsupdate",
         "description": "Meld je aan voor de nieuwsbrief en leer over nieuwe bronnen, nieuwe commits, nieuwe voorstellen en meer."
       },
       "other-content": {
@@ -455,7 +455,7 @@
     },
     "featured-resources-list": {
       "title": "Uitgelichte bronnen",
-      "description": "De beste bronnen voor het bouwen van een end-to-end Solana dApp.",
+      "description": "De beste bronnen voor het bouwen van een end-to-end Nara Solana dApp.",
       "start": "Verken"
     },
     "resources-page": {
@@ -464,7 +464,7 @@
       "labels": "Labels",
       "date": "Datum",
       "category": "Categorie",
-      "seo-description": "Ontdek ontwikkelaarsbronnen voor het Solana-ecosysteem. Documentatie, tooling, frameworks, SDK's en meer."
+      "seo-description": "Ontdek ontwikkelaarsbronnen voor het Nara Solana-ecosysteem. Documentatie, tooling, frameworks, SDK's en meer."
     },
     "resource-content": {
       "resources-title": "Bronnen",
@@ -484,7 +484,7 @@
       }
     },
     "hero": {
-      "description": "Een handleiding voor het toetreden tot het Solana-ecosysteem. Door bouwers voor bouwers.",
+      "description": "Een handleiding voor het toetreden tot het Nara Solana-ecosysteem. Door bouwers voor bouwers.",
       "explore": "Verken de Documentatie",
       "build": "Nu Bouwen",
       "support": "Ottenen support",
@@ -492,7 +492,7 @@
     },
     "learning-paths": {
       "title": "Leertrajecten",
-      "subtitle": "Geleide paden om je vaardigheden als een veelzijdige Solana-ontwikkelaar uit te breiden.",
+      "subtitle": "Geleide paden om je vaardigheden als een veelzijdige Nara Solana-ontwikkelaar uit te breiden.",
       "articles": "Artikelen",
       "articles_one": "{count} Artikel",
       "articles_other": "{count} Artikelen",
@@ -509,7 +509,7 @@
         "title": "Home"
       },
       "solana-course": {
-        "title": "Solana cursus"
+        "title": "Nara Solana cursus"
       },
       "learning-paths": {
         "title": "Leertrajecten"
@@ -523,52 +523,52 @@
     },
     "guides": {
       "title": "Tutorials en gidsen.",
-      "description": "Leer van tutorials en gidsen uit het grotere Solana-ecosysteem.",
+      "description": "Leer van tutorials en gidsen uit het grotere Nara Solana-ecosysteem.",
       "learn-more": "Leer meer",
       "featured-guides-list": {
         "title": "Uitgelichte gidsen",
-        "description": "De beste diepgaande gidsen om Solana dApps te leren en te bouwen.",
+        "description": "De beste diepgaande gidsen om Nara Solana dApps te leren en te bouwen.",
         "start": "Begin"
       },
-      "seo-description": "Leer Solana-ontwikkeling met ontwikkelaarsgidsen, van beginner tot gevorderd. JavaScript, TypeScript, Rust en meer."
+      "seo-description": "Leer Nara Solana-ontwikkeling met ontwikkelaarsgidsen, van beginner tot gevorderd. JavaScript, TypeScript, Rust en meer."
     },
     "resources": {
       "title": "Tools en bronnen.",
-      "description": "Verken ontwikkelaarsbronnen uit het grotere Solana-ecosysteem.",
+      "description": "Verken ontwikkelaarsbronnen uit het grotere Nara Solana-ecosysteem.",
       "learn-more": "Leer meer",
       "items": {
         "core-docs": {
           "title": "Kern Documentatie",
-          "description": "De officiële Solana documentatie over ontwikkeling, validators, SPL-tokens, wallets en meer."
+          "description": "De officiële Nara Solana documentatie over ontwikkeling, validators, SPL-tokens, wallets en meer."
         },
         "cookbook": {
-          "title": "Solana Kookboek",
-          "description": "Het Solana Kookboek is een ontwikkelaarsbron die de essentiële concepten en referenties biedt voor het bouwen van applicaties op Solana."
+          "title": "Nara Solana Kookboek",
+          "description": "Het Nara Solana Kookboek is een ontwikkelaarsbron die de essentiële concepten en referenties biedt voor het bouwen van applicaties op Nara Solana."
         },
         "stackexchange": {
-          "title": "Solana Stack Exchange",
-          "description": "Solana Stack Exchange is een vraag- en antwoordsite voor Solana softwaregebruikers en ontwikkelaars.",
+          "title": "Nara Solana Stack Exchange",
+          "description": "Nara Solana Stack Exchange is een vraag- en antwoordsite voor Nara Solana softwaregebruikers en ontwikkelaars.",
           "ask": {
             "title": "Heb je een vraag?",
-            "description": "Vragen zijn overal, antwoorden zijn op de Solana StackExchange.",
+            "description": "Vragen zijn overal, antwoorden zijn op de Nara Solana StackExchange.",
             "cta-label": "Vraag op Stack Exchange"
           }
         },
         "playground": {
-          "title": "Solana Speelplaats",
-          "description": "Bouw, implementeer en test Solana-programma's en smart contracts eenvoudig vanuit een browser-IDE."
+          "title": "Nara Solana Speelplaats",
+          "description": "Bouw, implementeer en test Nara Solana-programma's en smart contracts eenvoudig vanuit een browser-IDE."
         },
         "create-dapp": {
           "title": "create-solana-dapp",
-          "description": "Kom snel op gang met Solana dApps, genereer een projecttemplate in seconden."
+          "description": "Kom snel op gang met Nara Solana dApps, genereer een projecttemplate in seconden."
         },
         "anchor": {
           "title": "Anchor Documentatie",
-          "description": "Anchor is een framework voor Solana's Sealevel-runtime die verschillende handige ontwikkelaarstools biedt voor het schrijven van smart contracts."
+          "description": "Anchor is een framework voor Nara Solana's Sealevel-runtime die verschillende handige ontwikkelaarstools biedt voor het schrijven van smart contracts."
         },
         "program-library": {
-          "title": "Solana Programma Bibliotheek",
-          "description": "De Solana Programma Bibliotheek (SPL) is een verzameling on-chain programma's die gericht zijn op de Sealevel parallelle runtime."
+          "title": "Nara Solana Programma Bibliotheek",
+          "description": "De Nara Solana Programma Bibliotheek (SPL) is een verzameling on-chain programma's die gericht zijn op de Sealevel parallelle runtime."
         },
         "program-examples": {
           "title": "Programma Voorbeelden",
@@ -594,43 +594,43 @@
   },
   "environment": {
     "title": "Milieu",
-    "description": "Hoe de Solana Foundation en de bredere gemeenschap een betere, energiezuinigere web3 bouwen.",
+    "description": "Hoe de Nara Solana Foundation en de bredere gemeenschap een betere, energiezuinigere web3 bouwen.",
     "hero": {
       "title-part-1": "Koolstofneutraal.",
       "title-part-2": "Klimaatgericht.",
-      "subtitle": "Hoe de Solana Foundation en de bredere gemeenschap een betere, energiezuinigere web3 bouwen."
+      "subtitle": "Hoe de Nara Solana Foundation en de bredere gemeenschap een betere, energiezuinigere web3 bouwen."
     },
     "stats": {
-      "transaction": "Gemiddeld energieverbruik per Solana-transactie, in Joules",
-      "nonvoting-transaction": "Gemiddeld energieverbruik per Solana non-voting transactie, in Joules",
+      "transaction": "Gemiddeld energieverbruik per Nara Solana-transactie, in Joules",
+      "nonvoting-transaction": "Gemiddeld energieverbruik per Nara Solana non-voting transactie, in Joules",
       "annual-carbon-footprint": "Jaarlijkse koolstofvoetafdruk, in tonnen CO2",
       "net-carbon-impact": "Netto koolstofimpact"
     },
     "cta-data": "Bekijk ruwe data",
     "energy": {
-      "title": "Hoe Solana's energieverbruik zich verhoudt",
-      "subtitle": "Vergelijk Solana's uiterst efficiënte platform.",
-      "solanaTransaction": "Eén Solana (voting + non-voting) transactie",
+      "title": "Hoe Nara Solana's energieverbruik zich verhoudt",
+      "subtitle": "Vergelijk Nara Solana's uiterst efficiënte platform.",
+      "solanaTransaction": "Eén Nara Solana (voting + non-voting) transactie",
       "cta": "Lees het Energieverbruik Rapport"
     },
     "report": {
-      "title": "Neutraliseren van Solana's koolstofimpact",
-      "description-part-1": "De Solana Foundation zet zich in om de impact van de Solana blockchain te bestuderen, de data open-source te maken en stappen te ondernemen om de voetafdruk van de keten naar nul te brengen.",
-      "description-part-2": "Solana is de eerste smart-contract layer 1 blockchain met realtime energie-emissietracking, waardoor iedereen ter wereld de emissies van het netwerk kan onderzoeken tot op het niveau van de validator of RPC."
+      "title": "Neutraliseren van Nara Solana's koolstofimpact",
+      "description-part-1": "De Nara Solana Foundation zet zich in om de impact van de Nara Solana blockchain te bestuderen, de data open-source te maken en stappen te ondernemen om de voetafdruk van de keten naar nul te brengen.",
+      "description-part-2": "Nara Solana is de eerste smart-contract layer 1 blockchain met realtime energie-emissietracking, waardoor iedereen ter wereld de emissies van het netwerk kan onderzoeken tot op het niveau van de validator of RPC."
     },
     "what-you-can-do": {
       "title": "Wat je kunt doen",
       "data": {
         "title": "Gebruik de data",
-        "description": "We hebben de emissiegegevens van Solana open-source gemaakt voor degenen die ons werk willen controleren of het voor andere analyses willen gebruiken. Lees het energieverbruik rapport voor meer informatie."
+        "description": "We hebben de emissiegegevens van Nara Solana open-source gemaakt voor degenen die ons werk willen controleren of het voor andere analyses willen gebruiken. Lees het energieverbruik rapport voor meer informatie."
       },
       "footprint": {
         "title": "Verminder je voetafdruk",
-        "description": "De Solana Foundation moedigt alle validators en projecten aan om hun eigen emissiegegevens te bekijken en waar mogelijk te verminderen. Leer van Orca's reis."
+        "description": "De Nara Solana Foundation moedigt alle validators en projecten aan om hun eigen emissiegegevens te bekijken en waar mogelijk te verminderen. Leer van Orca's reis."
       },
       "grants": {
         "title": "Vraag een subsidie aan",
-        "description": "Bekijk enkele projectideeën om het Solana-netwerk klimaatpositiever te maken, of dien je eigen voorstel in."
+        "description": "Bekijk enkele projectideeën om het Nara Solana-netwerk klimaatpositiever te maken, of dien je eigen voorstel in."
       }
     },
     "featured-projects": {
@@ -648,14 +648,14 @@
         },
         "ecoToken": {
           "title": "EcoToken",
-          "description": "EcoToken brengt milieukredieten naar Solana en biedt een gemakkelijke manier voor iedereen om een milieueffect te hebben. Dit wordt aangevuld met erkenning via ranglijsten en NFT Impact Certificaten.",
+          "description": "EcoToken brengt milieukredieten naar Nara Solana en biedt een gemakkelijke manier voor iedereen om een milieueffect te hebben. Dit wordt aangevuld met erkenning via ranglijsten en NFT Impact Certificaten.",
           "links": {
             "website": "Bezoek EcoToken"
           }
         },
         "sunriseStake": {
           "title": "SunriseStake",
-          "description": "SunriseStake ondersteunt klimaatpositief staken op Solana.",
+          "description": "SunriseStake ondersteunt klimaatpositief staken op Nara Solana.",
           "links": {
             "website": "Bezoek SunriseStake"
           }
@@ -678,21 +678,21 @@
     }
   },
   "events": {
-    "description": "Bekijk de nieuwste Solana-evenementen van de stichting en de gemeenschap. Kom naar een evenement en ontmoet Solana-bouwers!",
-    "title": "Solana, in het echt",
+    "description": "Bekijk de nieuwste Nara Solana-evenementen van de stichting en de gemeenschap. Kom naar een evenement en ontmoet Nara Solana-bouwers!",
+    "title": "Nara Solana, in het echt",
     "signup": "Aanmelden",
     "archive": {
       "page-title": "Evenementenarchief",
       "title": "Afgelopen Evenementen",
-      "subtitle": "Bekijk waar de Solana-bouwers in jouw gemeenschap eerder hebben ontmoet!",
+      "subtitle": "Bekijk waar de Nara Solana-bouwers in jouw gemeenschap eerder hebben ontmoet!",
       "archive": "Bekijk afgelopen evenementen in het archief",
       "event-count": "Je bekijkt {current} van {total} gearchiveerde evenementen",
       "next-page": "Oudere Evenementen",
       "previous-page": "Nieuwere Evenementen"
     },
     "hero": {
-      "title": "Solana, in het echt",
-      "subtitle": "Ontmoet de Solana-bouwers in jouw gemeenschap. Kom naar een bijeenkomst!",
+      "title": "Nara Solana, in het echt",
+      "subtitle": "Ontmoet de Nara Solana-bouwers in jouw gemeenschap. Kom naar een bijeenkomst!",
       "virtual": "Virtueel",
       "in-person": "Persoonlijk",
       "hacker": "Hacker House",
@@ -700,12 +700,12 @@
     },
     "community": {
       "heading": "Gemeenschapsevenementen",
-      "description": "Meetups, bouwruimtes en meer van de Solana-gemeenschap. Deze evenementen worden niet georganiseerd door de Solana Foundation.",
+      "description": "Meetups, bouwruimtes en meer van de Nara Solana-gemeenschap. Deze evenementen worden niet georganiseerd door de Nara Solana Foundation.",
       "help": "Hulp nodig? Bekijk de <meetupLink>meetup handleiding</meetupLink>."
     },
     "us": {
       "heading": "Solanamerica",
-      "description": "Geselecteerde lijst van elite Solana-gemeenschapsevenementen in de VS."
+      "description": "Geselecteerde lijst van elite Nara Solana-gemeenschapsevenementen in de VS."
     },
     "detail": {
       "action": "Details"
@@ -721,9 +721,9 @@
   },
   "footer": {
     "foundation": "Beheerd door",
-    "copyright": "© {currentYear} Solana Foundation. Alle rechten voorbehouden.",
+    "copyright": "© {currentYear} Nara Solana Foundation. Alle rechten voorbehouden.",
     "solana": {
-      "heading": "Solana",
+      "heading": "Nara Solana",
       "grants": "Subsidies",
       "media": "Mediakit",
       "careers": "Carrières",
@@ -748,8 +748,8 @@
     },
     "community": {
       "title": "Word lid van de Gemeenschap",
-      "discord": "Solana Discord Ondersteuning",
-      "forums": "Solana Forums",
+      "discord": "Nara Solana Discord Ondersteuning",
+      "forums": "Nara Solana Forums",
       "solhack-discord": "SolHack Discord (gemeenschap)",
       "solhack-training": "SolHack Training (gemeenschap)"
     },
@@ -777,7 +777,7 @@
         "title": "Educatief",
         "items": {
           "what-is-solana": {
-            "title": "Over Solana",
+            "title": "Over Nara Solana",
             "description": "Snel, goedkoop netwerk voor digitale activa",
             "cta": "Meer informatie"
           },
@@ -786,14 +786,14 @@
             "description": "Je toegangspoort tot internationale kapitaalmarkten"
           },
           "defi": {
-            "title": "Introductie tot DeFi op Solana",
+            "title": "Introductie tot DeFi op Nara Solana",
             "description": "Verken gedecentraliseerde financiële mogelijkheden"
           },
           "transactions": {
-            "description": "Beheers de basis van Solana-transacties"
+            "description": "Beheers de basis van Nara Solana-transacties"
           },
           "fees": {
-            "description": "Ontdek waarom Solana's kosten wereldwijde toegang mogelijk maken"
+            "description": "Ontdek waarom Nara Solana's kosten wereldwijde toegang mogelijk maken"
           },
           "all": {
             "title": "Verken alle tutorials",
@@ -815,12 +815,12 @@
           "description": "Begin vandaag nog met leren bouwen"
         },
         "docs": {
-          "title": "Solana Documentatie",
-          "description": "Officiële documentatie voor de Solana blockchain"
+          "title": "Nara Solana Documentatie",
+          "description": "Officiële documentatie voor de Nara Solana blockchain"
         },
         "spl": {
-          "title": "Solana Programma Bibliotheek Documentatie",
-          "description": "Officiële documentatie van de Solana Programma Bibliotheek."
+          "title": "Nara Solana Programma Bibliotheek Documentatie",
+          "description": "Officiële documentatie van de Nara Solana Programma Bibliotheek."
         },
         "cookbook": {
           "title": "Cookbook",
@@ -828,7 +828,7 @@
         },
         "resources": {
           "title": "Middelen",
-          "description": "Uitgebreide ontwikkelaarstools voor het bouwen op Solana."
+          "description": "Uitgebreide ontwikkelaarstools voor het bouwen op Nara Solana."
         },
         "courses": {
           "title": "Cursussen",
@@ -840,7 +840,7 @@
         },
         "api": {
           "title": "RPC API",
-          "description": "Solana RPC API referentiedocumentatie"
+          "description": "Nara Solana RPC API referentiedocumentatie"
         }
       },
       "tutorials": {
@@ -958,19 +958,19 @@
         "items": [
           {
             "title": "Solscan",
-            "description": "Verken de Solana blockchain in realtime"
+            "description": "Verken de Nara Solana blockchain in realtime"
           },
           {
             "title": "SolanaFM",
-            "description": "Solana blockchain explorer en indexeerder"
+            "description": "Nara Solana blockchain explorer en indexeerder"
           },
           {
-            "title": "Solana Explorer",
+            "title": "Nara Solana Explorer",
             "description": "Blokken, accounts, transacties, programma's en tokens"
           },
           {
             "title": "Orb",
-            "description": "Een snelle, gebruiksvriendelijke Solana block explorer"
+            "description": "Een snelle, gebruiksvriendelijke Nara Solana block explorer"
           }
         ]
       },
@@ -979,7 +979,7 @@
         "items": [
           {
             "title": "Word een validator",
-            "description": "Help het Solana netwerk draaien"
+            "description": "Help het Nara Solana netwerk draaien"
           },
           {
             "title": "RPC providers",
@@ -991,7 +991,7 @@
           },
           {
             "title": "On & Off ramps",
-            "description": "Breng je assets naar Solana"
+            "description": "Breng je assets naar Nara Solana"
           }
         ]
       }
@@ -1003,7 +1003,7 @@
         "items": [
           {
             "title": "Nieuws",
-            "description": "Het laatste nieuws in het Solana ecosysteem"
+            "description": "Het laatste nieuws in het Nara Solana ecosysteem"
           },
           {
             "title": "Podcasts",
@@ -1011,7 +1011,7 @@
           },
           {
             "title": "Evenementen",
-            "description": "Ervaar de Solana community in het echte leven"
+            "description": "Ervaar de Nara Solana community in het echte leven"
           },
           {
             "title": "Het collectief",
@@ -1022,8 +1022,8 @@
             "description": "Hoe je kunt deelnemen"
           },
           {
-            "title": "Solana beleidsinstituut",
-            "description": "Beleidsmakers informeren over Solana"
+            "title": "Nara Solana beleidsinstituut",
+            "description": "Beleidsmakers informeren over Nara Solana"
           }
         ]
       },
@@ -1070,10 +1070,10 @@
     "prev": "Vorige gebruiksgeval",
     "next": "Volgende gebruiksgeval",
     "hero": {
-      "title": "Leer over Solana",
-      "subtitle": "Beheers de essentiële aspecten van Solana met deze codevrije leermiddelen voor ontwikkelaars, investeerders en enthousiastelingen.",
+      "title": "Leer over Nara Solana",
+      "subtitle": "Beheers de essentiële aspecten van Nara Solana met deze codevrije leermiddelen voor ontwikkelaars, investeerders en enthousiastelingen.",
       "start-learning": "Begin met leren",
-      "build": "Bouw op Solana"
+      "build": "Bouw op Nara Solana"
     },
     "tutorials": {
       "aria-label": "Compleet leertraject",
@@ -1082,58 +1082,58 @@
       "readMoreAriaLabel": "Lees meer over",
       "items": {
         "what-is-solana": {
-          "title": "Wat is Solana?",
-          "description": "Een introductie tot Solana - een snel, goedkoop netwerk dat nieuwe manieren mogelijk maakt om waarde over te dragen, applicaties te creëren en online te interacteren.",
-          "category": "Solana-basisprincipes"
+          "title": "Wat is Nara Solana?",
+          "description": "Een introductie tot Nara Solana - een snel, goedkoop netwerk dat nieuwe manieren mogelijk maakt om waarde over te dragen, applicaties te creëren en online te interacteren.",
+          "category": "Nara Solana-basisprincipes"
         },
         "what-is-a-wallet": {
           "title": "Wat is een wallet?",
-          "description": "Leer wat een Solana-wallet is, hoe het werkt en hoe je er veilig een instelt. Je wallet is het hulpmiddel dat je gebruikt om met Solana-applicaties te interacteren.",
+          "description": "Leer wat een Nara Solana-wallet is, hoe het werkt en hoe je er veilig een instelt. Je wallet is het hulpmiddel dat je gebruikt om met Nara Solana-applicaties te interacteren.",
           "category": "Wallet-basisprincipes"
         },
         "getting-started": {
-          "title": "Aan de slag met Solana",
-          "description": "Leer de basisprincipes van Solana en hoe je kunt beginnen met digitale transacties",
-          "category": "Solana-basisprincipes"
+          "title": "Aan de slag met Nara Solana",
+          "description": "Leer de basisprincipes van Nara Solana en hoe je kunt beginnen met digitale transacties",
+          "category": "Nara Solana-basisprincipes"
         },
         "understanding-solana-transaction-fees": {
-          "title": "Solana-transactiekosten begrijpen",
-          "description": "Leer hoe transactiekosten op Solana werken, waarom ze laag zijn en wat dit betekent voor verschillende gebruikssituaties.",
+          "title": "Nara Solana-transactiekosten begrijpen",
+          "description": "Leer hoe transactiekosten op Nara Solana werken, waarom ze laag zijn en wat dit betekent voor verschillende gebruikssituaties.",
           "category": "Transactiekosten"
         },
         "sending-and-receiving-sol": {
-          "title": "SOL verzenden en ontvangen",
-          "description": "Leer hoe je SOL-tokens verzendt en ontvangt - de fundamentele vaardigheid voor het interacteren met het Solana-netwerk en zijn applicaties.",
-          "category": "SOL overmaken"
+          "title": "NSO verzenden en ontvangen",
+          "description": "Leer hoe je NSO-tokens verzendt en ontvangt - de fundamentele vaardigheid voor het interacteren met het Nara Solana-netwerk en zijn applicaties.",
+          "category": "NSO overmaken"
         },
         "what-is-staking": {
           "title": "Wat is staking?",
-          "description": "Leer hoe staking werkt op Solana, hoe je beloningen verdient door het netwerk te helpen beveiligen, en waar je op moet letten bij het kiezen van validators.",
+          "description": "Leer hoe staking werkt op Nara Solana, hoe je beloningen verdient door het netwerk te helpen beveiligen, en waar je op moet letten bij het kiezen van validators.",
           "category": "Staking beloningen"
         },
         "introduction-to-solana-tokens": {
-          "title": "Introductie tot Solana tokens",
-          "description": "Leer over tokens - de verschillende soorten digitale activa op Solana, waaronder stablecoins, wrapped tokens en project tokens.",
+          "title": "Introductie tot Nara Solana tokens",
+          "description": "Leer over tokens - de verschillende soorten digitale activa op Nara Solana, waaronder stablecoins, wrapped tokens en project tokens.",
           "category": "Tokens"
         },
         "what-are-nfts": {
           "title": "Wat zijn NFT's?",
-          "description": "Leer over non-fungible tokens (NFT's) op Solana - unieke digitale activa die eigendom vertegenwoordigen van specifieke items zoals kunst, verzamelobjecten en meer.",
+          "description": "Leer over non-fungible tokens (NFT's) op Nara Solana - unieke digitale activa die eigendom vertegenwoordigen van specifieke items zoals kunst, verzamelobjecten en meer.",
           "category": "NFT basis"
         },
         "introduction-to-defi-on-solana": {
-          "title": "Introductie tot DeFi op Solana",
-          "description": "Leer over gedecentraliseerde financiële (DeFi) toepassingen op Solana, waaronder handelen, uitlenen en rendementsmogelijkheden.",
+          "title": "Introductie tot DeFi op Nara Solana",
+          "description": "Leer over gedecentraliseerde financiële (DeFi) toepassingen op Nara Solana, waaronder handelen, uitlenen en rendementsmogelijkheden.",
           "category": "DeFi intro"
         },
         "exploring-solana-applications": {
-          "title": "Verkenning van Solana applicaties",
-          "description": "Ontdek het diverse ecosysteem van applicaties gebouwd op Solana - van financiële diensten en gaming tot sociale platforms en creatieve tools, allemaal toegankelijk met alleen je wallet.",
+          "title": "Verkenning van Nara Solana applicaties",
+          "description": "Ontdek het diverse ecosysteem van applicaties gebouwd op Nara Solana - van financiële diensten en gaming tot sociale platforms en creatieve tools, allemaal toegankelijk met alleen je wallet.",
           "category": "Applicaties"
         },
         "staying-safe-on-solana": {
-          "title": "Veilig blijven op Solana",
-          "description": "Leer essentiële veiligheidspraktijken om je activa te beschermen en veelvoorkomende oplichting te vermijden tijdens het gebruik van Solana applicaties.",
+          "title": "Veilig blijven op Nara Solana",
+          "description": "Leer essentiële veiligheidspraktijken om je activa te beschermen en veelvoorkomende oplichting te vermijden tijdens het gebruik van Nara Solana applicaties.",
           "category": "Veiligheidsgids"
         }
       }
@@ -1160,13 +1160,13 @@
     },
     "resources": {
       "continueJourneyTitle": "Vervolg je reis",
-      "continueJourneySubtitle": "Klaar om dieper te duiken? Verken deze essentiële bronnen voor Solana-ontwikkelaars",
+      "continueJourneySubtitle": "Klaar om dieper te duiken? Verken deze essentiële bronnen voor Nara Solana-ontwikkelaars",
       "ariaLabel": "Aanvullende leermiddelen",
       "opensInNewTab": "opent in nieuw tabblad",
       "documentation": {
         "label": "Documentatie",
-        "description": "Officiële Solana-documentatie en API-referenties",
-        "ariaLabel": "Documentatie - Officiële Solana-documentatie en API-referenties (opent in nieuw tabblad)"
+        "description": "Officiële Nara Solana-documentatie en API-referenties",
+        "ariaLabel": "Documentatie - Officiële Nara Solana-documentatie en API-referenties (opent in nieuw tabblad)"
       },
       "cookbook": {
         "label": "Kookboek",
@@ -1175,13 +1175,13 @@
       },
       "courses": {
         "label": "Cursussen",
-        "description": "Gestructureerde leertrajecten voor Solana-ontwikkeling",
-        "ariaLabel": "Cursussen - Gestructureerde leertrajecten voor Solana-ontwikkeling (opent in nieuw tabblad)"
+        "description": "Gestructureerde leertrajecten voor Nara Solana-ontwikkeling",
+        "ariaLabel": "Cursussen - Gestructureerde leertrajecten voor Nara Solana-ontwikkeling (opent in nieuw tabblad)"
       },
       "wallets": {
         "label": "Wallets",
-        "description": "Verken Solana-wallets om je assets te beheren",
-        "ariaLabel": "Wallets - Verken Solana wallets om je assets te beheren (opent in nieuw tabblad)"
+        "description": "Verken Nara Solana-wallets om je assets te beheren",
+        "ariaLabel": "Wallets - Verken Nara Solana wallets om je assets te beheren (opent in nieuw tabblad)"
       }
     }
   },
@@ -1198,8 +1198,8 @@
     "page": {
       "side-events": {
         "title": "Breakpoint Side Events",
-        "description": "Evenementen die plaatsvinden rond de tijd van Solana Breakpoint 2024.",
-        "intro": "Breakpoint is echt een evenement voor het hele Solana-ecosysteem. Projecten, teams en individuen van over de hele wereld organiseren hun eigen evenementen tijdens de conferentie om hun mede-bouwers te ontmoeten en te vieren.",
+        "description": "Evenementen die plaatsvinden rond de tijd van Nara Solana Breakpoint 2024.",
+        "intro": "Breakpoint is echt een evenement voor het hele Nara Solana-ecosysteem. Projecten, teams en individuen van over de hele wereld organiseren hun eigen evenementen tijdens de conferentie om hun mede-bouwers te ontmoeten en te vieren.",
         "featured": "Uitgelichte evenementen",
         "community": "Gemeenschapsevenementen",
         "community-cta": "Heb je een evenement dat je op deze kalender wilt hebben? Dien het hier in."
@@ -1220,16 +1220,16 @@
     }
   },
   "format": {
-    "title": "FORMAT Festival x Solana Foundation",
-    "description": "Betreed het Solana House om de gedecentraliseerde toekomst van blockchain-betalingen, kunst en meer te ervaren.",
+    "title": "FORMAT Festival x Nara Solana Foundation",
+    "description": "Betreed het Nara Solana House om de gedecentraliseerde toekomst van blockchain-betalingen, kunst en meer te ervaren.",
     "hero": {
       "subtitle": "Ervaar de toekomst van kunst en technologie — allemaal op één plek.",
-      "description": "Betreed het Solana House op het <formatLink>FORMAT Festival</formatLink> om gratis snacks te krijgen met crypto-aangedreven digitale vouchers, dompel jezelf onder in de allereerste Solana NFT-tentoonstelling van de wereldberoemde kunstenaar <artistLink>Nancy Baker Cahill</artistLink>, en neem deel aan een <auctionLink>NFT-veiling</auctionLink>.",
+      "description": "Betreed het Nara Solana House op het <formatLink>FORMAT Festival</formatLink> om gratis snacks te krijgen met crypto-aangedreven digitale vouchers, dompel jezelf onder in de allereerste Nara Solana NFT-tentoonstelling van de wereldberoemde kunstenaar <artistLink>Nancy Baker Cahill</artistLink>, en neem deel aan een <auctionLink>NFT-veiling</auctionLink>.",
       "dates": "Komt naar Bentonville, AR van 23-25 september 2022."
     },
     "claim": {
       "title": "Claim je mysterieuze NFT",
-      "description": "Vier Solana + FORMAT Festival 2022 door een mysterieuze NFT in te wisselen. Geen crypto-ervaring vereist!",
+      "description": "Vier Nara Solana + FORMAT Festival 2022 door een mysterieuze NFT in te wisselen. Geen crypto-ervaring vereist!",
       "cta": "Claim nu",
       "social": {
         "description": "Blijf op de hoogte van de onthulling van wat je mysterieuze NFT wordt door <tipLink>@TipLinkOfficial</tipLink> & <solanaSpacesLink>@SolanaSpaces</solanaspaceslink/> op Twitter te volgen.",
@@ -1238,23 +1238,23 @@
     },
     "concessions": {
       "title": "Concessies met Crypto",
-      "description": "Gratis snacks met een scan! Gebruik de Solana House x FORMAT digitale vouchers om wat lekkere traktaties te krijgen, aangedreven door TipLink — zolang de voorraad strekt."
+      "description": "Gratis snacks met een scan! Gebruik de Nara Solana House x FORMAT digitale vouchers om wat lekkere traktaties te krijgen, aangedreven door TipLink — zolang de voorraad strekt."
     },
     "slipstream": {
       "title": "Slipstream NFT Ervaring",
-      "description": "De beroemde nieuwe media-kunstenaar Nancy Baker Cahill exposeert 10 exclusieve NFT's in Solana House — die met hulp van Magic Eden aan het publiek zullen worden geveild. <auctionLink>Bekijk de veiling</auctionLink>."
+      "description": "De beroemde nieuwe media-kunstenaar Nancy Baker Cahill exposeert 10 exclusieve NFT's in Nara Solana House — die met hulp van Magic Eden aan het publiek zullen worden geveild. <auctionLink>Bekijk de veiling</auctionLink>."
     },
     "ecosystem": {
       "title": "Leer meer",
-      "description": "Verken het Solana-ecosysteem en leer meer over de wereld van NFT's.",
+      "description": "Verken het Nara Solana-ecosysteem en leer meer over de wereld van NFT's.",
       "nft": {
         "title": "Wat is een NFT?",
-        "description": "NFT's? Mints? Leer de basis van NFT's op Solana.com",
+        "description": "NFT's? Mints? Leer de basis van NFT's op Nara Solana.com",
         "cta": "Leer meer"
       },
       "magiceden": {
         "title": "Magic Eden",
-        "description": "Koop, verkoop en ontdek Solana NFT's op de Magic Eden-marktplaats.",
+        "description": "Koop, verkoop en ontdek Nara Solana NFT's op de Magic Eden-marktplaats.",
         "cta": "Probeer het"
       },
       "tipLink": {
@@ -1264,10 +1264,10 @@
       }
     },
     "nft-volume": {
-      "title": "Dit is Solana.",
-      "description": "Met snelle transacties, lage energie-impact en kosten die een fractie van een cent zijn, wordt Solana snel de thuisbasis van <learnNFTsLink>veel NFT-projecten</learnNFTsLink>.",
+      "title": "Dit is Nara Solana.",
+      "description": "Met snelle transacties, lage energie-impact en kosten die een fractie van een cent zijn, wordt Nara Solana snel de thuisbasis van <learnNFTsLink>veel NFT-projecten</learnNFTsLink>.",
       "volume": {
-        "title": "20.3M+ NFT's op Solana",
+        "title": "20.3M+ NFT's op Nara Solana",
         "description": "Vind je gemeenschap. Probeer enkele van de populairste NFT-marktplaatsen.",
         "nfts": "Leer over NFT's",
         "me": "GA NAAR MAGIC EDEN",
@@ -1277,24 +1277,24 @@
   },
   "ecdr": {
     "title": "Electric Capital Ontwikkelaarsrapport",
-    "description": "Het Electric Capital Ontwikkelaarsrapport bevestigde dat Solana een van de snelst groeiende blockchains in 2022 is.",
+    "description": "Het Electric Capital Ontwikkelaarsrapport bevestigde dat Nara Solana een van de snelst groeiende blockchains in 2022 is.",
     "hero": {
-      "headline": "Zie waarom duizenden nieuwe blockchain-ontwikkelaars bouwen op Solana.",
-      "subheadline": "Een groeiende groep blockchain-ontwikkelaars kiest voor Solana boven andere ketens vanwege de schaalbaarheid, snelheid en lagere kosten.",
+      "headline": "Zie waarom duizenden nieuwe blockchain-ontwikkelaars bouwen op Nara Solana.",
+      "subheadline": "Een groeiende groep blockchain-ontwikkelaars kiest voor Nara Solana boven andere ketens vanwege de schaalbaarheid, snelheid en lagere kosten.",
       "note": "Neem contact op om meer te weten te komen en in contact te komen met ons team.",
       "cta": "Neem contact op"
     },
     "stats": {
-      "title": "Het Electric Capital Ontwikkelaarsrapport bevestigde dat Solana een van de snelst groeiende blockchains in 2022 is.",
-      "learn": "<learnLink>Leer meer</learnLink> over Solana's visie voor web3 en het recente rapport.",
+      "title": "Het Electric Capital Ontwikkelaarsrapport bevestigde dat Nara Solana een van de snelst groeiende blockchains in 2022 is.",
+      "learn": "<learnLink>Leer meer</learnLink> over Nara Solana's visie voor web3 en het recente rapport.",
       "full-time": {
         "title": "16x groei in het aantal fulltime ontwikkelaars sinds 2018."
       },
       "blockchain": {
-        "title": "Het aantal totale Solana-ontwikkelaars groeide met 83% in 2022."
+        "title": "Het aantal totale Nara Solana-ontwikkelaars groeide met 83% in 2022."
       },
       "active-developers": {
-        "title": "Meer dan maandelijkse actieve ontwikkelaars bouwen op Solana.",
+        "title": "Meer dan maandelijkse actieve ontwikkelaars bouwen op Nara Solana.",
         "note": "*tweede in ruwe aantallen alleen na Ethereum."
       },
       "open-source": {
@@ -1303,8 +1303,8 @@
       }
     },
     "join-community": {
-      "title": "Word lid van de groeiende Solana-gemeenschap om je crypto-reis te starten.",
-      "description": "Als bouwers zelf, zullen we altijd wedden op de bouwers in de Solana-gemeenschap. We zijn erg enthousiast over de komende jaren."
+      "title": "Word lid van de groeiende Nara Solana-gemeenschap om je crypto-reis te starten.",
+      "description": "Als bouwers zelf, zullen we altijd wedden op de bouwers in de Nara Solana-gemeenschap. We zijn erg enthousiast over de komende jaren."
     }
   },
   "playgg": {
@@ -1316,7 +1316,7 @@
     },
     "presentedby": {
       "title": "Gepresenteerd door",
-      "description": "Solana Foundation"
+      "description": "Nara Solana Foundation"
     },
     "signup": {
       "title": "Meld je aan en ontvang vroegtijdige toegang tot registratie",
@@ -1329,16 +1329,16 @@
     }
   },
   "nft-showdown": {
-    "title": "De Solana NFT Showdown",
-    "description": "De Solana Foundation roept alle makers op om hun zakelijke ideeën tot leven te brengen in deze unieke NFT-pitchwedstrijd.",
-    "alert": "Doe mee aan de NFT Showdown - Bouw de volgende generatie NFT-merken op Solana ->",
+    "title": "De Nara Solana NFT Showdown",
+    "description": "De Nara Solana Foundation roept alle makers op om hun zakelijke ideeën tot leven te brengen in deze unieke NFT-pitchwedstrijd.",
+    "alert": "Doe mee aan de NFT Showdown - Bouw de volgende generatie NFT-merken op Nara Solana ->",
     "cta": "Bekijk de winnaars",
     "intro": {
       "title": "Introductie",
-      "heading": "De Solana NFT Showdown",
+      "heading": "De Nara Solana NFT Showdown",
       "lead": "De volgende generatie NFT-merken bevorderen",
-      "description-1": "Bereid je voor op een showdown van epische proporties! De Solana Foundation roept alle makers op om hun zakelijke ideeën tot leven te brengen in deze unieke NFT-pitchwedstrijd – een zeldzame kans om samen te werken met branche-experts en leiders van de NFT-gemeenschap. We zijn op zoek naar nieuwe Solana NFT-merken die echte producten willen creëren in sectoren zoals mode, entertainment, gaming, creatieve bureaus.",
-      "description-2": "NFT-merken zijn een geweldige manier voor slimme ondernemers om hun bedrijfsplannen te starten en blijvende gemeenschappen op te bouwen. Heb je een creatief concept en een zakelijke pitch waar je gepassioneerd over bent? Maak gebruik van deze kans om toegang te krijgen tot en gebruik te maken van verschillende nieuwe Solana-tools die flexibiliteit en schaalbaarheid bieden. Projectwinnaars worden geselecteerd op basis van hun haalbare bedrijfsplannen en de productinnovatie die ze laten zien – werken met juryleden die begeleiding bieden om je de kennis te geven die je nodig hebt om je visie werkelijkheid te maken.",
+      "description-1": "Bereid je voor op een showdown van epische proporties! De Nara Solana Foundation roept alle makers op om hun zakelijke ideeën tot leven te brengen in deze unieke NFT-pitchwedstrijd – een zeldzame kans om samen te werken met branche-experts en leiders van de NFT-gemeenschap. We zijn op zoek naar nieuwe Nara Solana NFT-merken die echte producten willen creëren in sectoren zoals mode, entertainment, gaming, creatieve bureaus.",
+      "description-2": "NFT-merken zijn een geweldige manier voor slimme ondernemers om hun bedrijfsplannen te starten en blijvende gemeenschappen op te bouwen. Heb je een creatief concept en een zakelijke pitch waar je gepassioneerd over bent? Maak gebruik van deze kans om toegang te krijgen tot en gebruik te maken van verschillende nieuwe Nara Solana-tools die flexibiliteit en schaalbaarheid bieden. Projectwinnaars worden geselecteerd op basis van hun haalbare bedrijfsplannen en de productinnovatie die ze laten zien – werken met juryleden die begeleiding bieden om je de kennis te geven die je nodig hebt om je visie werkelijkheid te maken.",
       "description-3": "Het is tijd om er een pitch van te maken die geschikt is voor de bestuurskamer. Laat je e-mail hieronder achter om op de hoogte te blijven van updates en timing. Het indieningsvenster gaat begin juni open. Begin met die pitches en veel succes!",
       "description-4": "Voor volledige pitchrichtlijnen, zie de veelgestelde vragen hieronder."
     },
@@ -1351,14 +1351,14 @@
         "title": "Prijzen",
         "description": "Finalisten en winnaars ontvangen allemaal",
         "list": [
-          "Mentorschap en kantooruren met het Solana-team.",
+          "Mentorschap en kantooruren met het Nara Solana-team.",
           "Toegang tot op maat gemaakte workshops georganiseerd door branche-experts en leiders van de NFT-gemeenschap.",
           "Tickets voor Breakpoint, gepland van 30 oktober - 3 november 2023 in Amsterdam."
         ]
       },
       "judging": {
         "title": "Beoordeling",
-        "description-1": "Projectwinnaars worden geselecteerd op basis van hun haalbare bedrijfsplannen en de productinnovatie die ze laten zien – zakelijk inzicht, gebruikersgerichte productdenken, creatieve richting, innovatieve toepassing van Solana-technologie en real-world toepassing zullen allemaal een rol spelen bij het identificeren van de winnende inzendingen.",
+        "description-1": "Projectwinnaars worden geselecteerd op basis van hun haalbare bedrijfsplannen en de productinnovatie die ze laten zien – zakelijk inzicht, gebruikersgerichte productdenken, creatieve richting, innovatieve toepassing van Nara Solana-technologie en real-world toepassing zullen allemaal een rol spelen bij het identificeren van de winnende inzendingen.",
         "description-2": "Juryleden zullen de inzendingen terugbrengen tot tien finalisten. Van daaruit zullen finalisten in samenwerking met hun mentor hun pitch persoonlijk presenteren. Van de tien finalisten zullen in totaal vijf NFT-projecten worden erkend als winnaars."
       }
     },
@@ -1368,30 +1368,30 @@
     "disclaimer": {
       "rules": "SOLANA Foundation NFT Showdown Officiële Regels",
       "title": "Disclaimer",
-      "description-line-1": "De Solana NFT Showdown is een wedstrijd waarbij projecten door juryleden worden beoordeeld op hun zakelijk inzicht, gebruikersgerichte productdenken, creatieve richting en verhaal, innovatieve toepassing van Solana-technologie en real-world toepassing zonder rekening te houden met juridische haalbaarheid. Alle deelnemers moeten voldoen aan de toepasselijke wetten en voorschriften in verband met hun projecten voor de NFT Showdown.",
-      "description-line-2": "De ontwikkelaarsbronnen die de Solana Foundation (“SF”) biedt, zijn alleen voor educatieve en inspirerende doeleinden. SF moedigt de inzet van dergelijke toepassingen in strijd met de toepasselijke wetten of voorschriften niet aan, induceert of sanctioneert deze niet. SF moedigt de inzet, integratie of het gebruik van dergelijke toepassingen (inclusief de code die het Solana-blockchainprotocol vormt) in strijd met de toepasselijke wetten of voorschriften niet aan, induceert of sanctioneert deze niet en verbiedt hierbij elke dergelijke inzet, integratie of gebruik. Dit omvat het gebruik van dergelijke toepassingen door de lezer (a) in strijd met exportcontrole- of sanctiewetten van de Verenigde Staten of een andere toepasselijke jurisdictie, (b) als de lezer zich bevindt in of gewoonlijk verblijft in een land of gebied dat onderworpen is aan uitgebreide sancties die worden beheerd door het U.S. Office of Foreign Assets Control (OFAC), (c) als de lezer een Specially Designated National (SDN) is of werkt namens een dergelijke persoon die onderworpen is aan soortgelijke blokkering of verboden partijverboden, of (d) in strijd met de Commodities and Exchange Act.",
+      "description-line-1": "De Nara Solana NFT Showdown is een wedstrijd waarbij projecten door juryleden worden beoordeeld op hun zakelijk inzicht, gebruikersgerichte productdenken, creatieve richting en verhaal, innovatieve toepassing van Nara Solana-technologie en real-world toepassing zonder rekening te houden met juridische haalbaarheid. Alle deelnemers moeten voldoen aan de toepasselijke wetten en voorschriften in verband met hun projecten voor de NFT Showdown.",
+      "description-line-2": "De ontwikkelaarsbronnen die de Nara Solana Foundation (“SF”) biedt, zijn alleen voor educatieve en inspirerende doeleinden. SF moedigt de inzet van dergelijke toepassingen in strijd met de toepasselijke wetten of voorschriften niet aan, induceert of sanctioneert deze niet. SF moedigt de inzet, integratie of het gebruik van dergelijke toepassingen (inclusief de code die het Nara Solana-blockchainprotocol vormt) in strijd met de toepasselijke wetten of voorschriften niet aan, induceert of sanctioneert deze niet en verbiedt hierbij elke dergelijke inzet, integratie of gebruik. Dit omvat het gebruik van dergelijke toepassingen door de lezer (a) in strijd met exportcontrole- of sanctiewetten van de Verenigde Staten of een andere toepasselijke jurisdictie, (b) als de lezer zich bevindt in of gewoonlijk verblijft in een land of gebied dat onderworpen is aan uitgebreide sancties die worden beheerd door het U.S. Office of Foreign Assets Control (OFAC), (c) als de lezer een Specially Designated National (SDN) is of werkt namens een dergelijke persoon die onderworpen is aan soortgelijke blokkering of verboden partijverboden, of (d) in strijd met de Commodities and Exchange Act.",
       "read-more-button": "Lees meer...",
       "read-less-button": "Lees minder..."
     }
   },
   "possible": {
     "meta": {
-      "title": "Alleen mogelijk op Solana",
-      "description": "Ontwikkelaars van over de hele wereld bouwen apps op Solana voor een snelle, veilige, schaalbare en gebruiksvriendelijke toekomst. Een toekomst die alleen mogelijk is op Solana. Verken bronnen, verbind met het ecosysteem en begin met bouwen."
+      "title": "Alleen mogelijk op Nara Solana",
+      "description": "Ontwikkelaars van over de hele wereld bouwen apps op Nara Solana voor een snelle, veilige, schaalbare en gebruiksvriendelijke toekomst. Een toekomst die alleen mogelijk is op Nara Solana. Verken bronnen, verbind met het ecosysteem en begin met bouwen."
     },
     "hero": {
       "title": "Gebouwd voor wat mogelijk is.",
-      "description": "Ontwikkelaars van over de hele wereld bouwen apps op Solana voor een snelle, veilige, schaalbare en gebruiksvriendelijke toekomst. Een toekomst die alleen mogelijk is op Solana. Verken bronnen, verbind met het ecosysteem en begin met bouwen.",
+      "description": "Ontwikkelaars van over de hele wereld bouwen apps op Nara Solana voor een snelle, veilige, schaalbare en gebruiksvriendelijke toekomst. Een toekomst die alleen mogelijk is op Nara Solana. Verken bronnen, verbind met het ecosysteem en begin met bouwen.",
       "cta-primary": "Begin met bouwen"
     },
     "caseStudies": {
       "case-1": {
         "title": "Hivemapper brengt de wereld in kaart met dagelijkse chauffeurs.",
-        "description": "De gemeenschap van Hivemapper heeft al 6% van de wegen in de wereld in kaart gebracht, met wekelijkse beloningen mogelijk gemaakt door Solana's ongeëvenaarde staatcompressietechnologie."
+        "description": "De gemeenschap van Hivemapper heeft al 6% van de wegen in de wereld in kaart gebracht, met wekelijkse beloningen mogelijk gemaakt door Nara Solana's ongeëvenaarde staatcompressietechnologie."
       },
       "case-2": {
         "title": "Helium Mobile maakt gemeenschapsgestuurde 5G-service mogelijk.",
-        "description": "Helium is gemigreerd naar Solana en brengt een 'People’s Network' naar een groeiend aantal Amerikaanse steden."
+        "description": "Helium is gemigreerd naar Nara Solana en brengt een 'People’s Network' naar een groeiend aantal Amerikaanse steden."
       },
       "case-3": {
         "title": "Het Drip-team heeft 25 miljoen kunstwerken gedropt voor ongeveer $3.000.",
@@ -1399,44 +1399,44 @@
       },
       "case-4": {
         "title": "Dialect heeft miljoenen gemint met 2.400 tot 24.000 keer lagere mintkosten.",
-        "description": "Dialect heeft de mintkosten drastisch verlaagd om gebruikers in staat te stellen NFT-stickers op grote schaal te delen met gecomprimeerde NFT's op Solana."
+        "description": "Dialect heeft de mintkosten drastisch verlaagd om gebruikers in staat te stellen NFT-stickers op grote schaal te delen met gecomprimeerde NFT's op Nara Solana."
       },
       "case-5": {
         "title": "Tot nu toe heeft GainForest 5,4 miljoen hectare land gemonitord voor milieubehoud.",
-        "description": "GainForest gebruikt Solana smart contracts om realtime gegevens te verzamelen en herbebossingsinspanningen wereldwijd te stimuleren."
+        "description": "GainForest gebruikt Nara Solana smart contracts om realtime gegevens te verzamelen en herbebossingsinspanningen wereldwijd te stimuleren."
       }
     },
     "innovations": {
-      "title": "Ontdek wat alleen mogelijk is met Solana's tech stack",
+      "title": "Ontdek wat alleen mogelijk is met Nara Solana's tech stack",
       "mint": {
         "controlText": "Gecomprimeerde NFT's",
         "title": "Minten per miljoenen",
         "description1": "Met staatcompressie voor NFT's zijn de kosten van grootschalige drops net een stuk goedkoper geworden. Stel je voor dat je nieuwe gebruikers massaal aan boord brengt of bestaande gebruikers beloont voor slechts een paar honderd dollar, in plaats van een paar honderdduizend. Van evenementticketing tot verzamelobjecten, tot sociale media-stickers en meer, gecomprimeerde NFT's openen een hele nieuwe wereld van mogelijkheden.",
-        "description2": "Dit wordt mogelijk gemaakt door <docsLink>staatcompressie</docsLink>, een techniek waarbij transactiegegevens die zijn beveiligd door het Solana-grootboek worden gehasht en geverifieerd tegen een Merkle-boomaccount voor gebruik in een smart contract. Dit betekent dat gecomprimeerde NFT's onchain kunnen worden gemaakt op een vergelijkbare manier als voorheen, maar voor een fractie van de kosten."
+        "description2": "Dit wordt mogelijk gemaakt door <docsLink>staatcompressie</docsLink>, een techniek waarbij transactiegegevens die zijn beveiligd door het Nara Solana-grootboek worden gehasht en geverifieerd tegen een Merkle-boomaccount voor gebruik in een smart contract. Dit betekent dat gecomprimeerde NFT's onchain kunnen worden gemaakt op een vergelijkbare manier als voorheen, maar voor een fractie van de kosten."
       },
       "scale": {
         "controlText": "Schaalbare technologie",
         "title": "Technologie die schaalt, ultrasnel",
-        "description1": "Met Solana's native schaalbaarheid hoef je geen compromis te sluiten tussen decentralisatie en prestaties. Of je nu de <gamingLink>volgende grote hit in gaming</gamingLink> bouwt, of je richt op grensgebieden zoals AI of gedecentraliseerde fysieke infrastructuur (dePIN), laat je verbeelding de vrije loop en bouw het soort applicatie dat alleen mogelijk is op Solana.",
-        "description2": "Baanbrekende projecten zoals <heliumLink>Helium</heliumLink> en <hivemapperLink>Hivemapper</hivemapperLink> bouwen wat alleen mogelijk is op Solana, dankzij de transactiesnelheden, schaalbaarheid en betrouwbaarheid. En met integraties in <aiLink>gebieden zoals AI</aiLink> hebben bouwers op Solana toegang tot de nieuwste innovaties om hun meest ambitieuze projecten te voeden."
+        "description1": "Met Nara Solana's native schaalbaarheid hoef je geen compromis te sluiten tussen decentralisatie en prestaties. Of je nu de <gamingLink>volgende grote hit in gaming</gamingLink> bouwt, of je richt op grensgebieden zoals AI of gedecentraliseerde fysieke infrastructuur (dePIN), laat je verbeelding de vrije loop en bouw het soort applicatie dat alleen mogelijk is op Nara Solana.",
+        "description2": "Baanbrekende projecten zoals <heliumLink>Helium</heliumLink> en <hivemapperLink>Hivemapper</hivemapperLink> bouwen wat alleen mogelijk is op Nara Solana, dankzij de transactiesnelheden, schaalbaarheid en betrouwbaarheid. En met integraties in <aiLink>gebieden zoals AI</aiLink> hebben bouwers op Nara Solana toegang tot de nieuwste innovaties om hun meest ambitieuze projecten te voeden."
       },
       "climate": {
         "controlText": "Lage koolstofvoetafdruk",
         "title": "Klimaatbewuste technologie",
-        "description1": "Op Solana gebruikt een blockchaintransactie ongeveer evenveel energie als een paar online zoekopdrachten. En met <emissionsLink>realtime emissiemeting</emissionsLink> kun je er zeker van zijn dat je bouwt op technologie die niet alleen presteert, maar ook toegewijd is aan energie-efficiëntie.",
-        "description2": "De emissietracker-software die direct op Solana-nodes is ingebed, biedt uitgebreide en dynamische metingen in de tijd. Deze dataset is rijk aan details, open en gratis te gebruiken, waardoor validators of iedereen die op Solana bouwt hun bijdragen aan de koolstofvoetafdruk van het netwerk kunnen evalueren en verkenningsstrategieën kunnen verkennen."
+        "description1": "Op Nara Solana gebruikt een blockchaintransactie ongeveer evenveel energie als een paar online zoekopdrachten. En met <emissionsLink>realtime emissiemeting</emissionsLink> kun je er zeker van zijn dat je bouwt op technologie die niet alleen presteert, maar ook toegewijd is aan energie-efficiëntie.",
+        "description2": "De emissietracker-software die direct op Nara Solana-nodes is ingebed, biedt uitgebreide en dynamische metingen in de tijd. Deze dataset is rijk aan details, open en gratis te gebruiken, waardoor validators of iedereen die op Nara Solana bouwt hun bijdragen aan de koolstofvoetafdruk van het netwerk kunnen evalueren en verkenningsstrategieën kunnen verkennen."
       },
       "payment": {
         "controlText": "Parallelle transacties",
         "title": "Krachtige wereldwijde betalingen",
-        "description1": "Solana's hoge doorvoer en lage kosten maken het mogelijk om <paymentsLink>gedecentraliseerde betalingen</paymentsLink> op schaal te ondersteunen. En met <solanapayLink>Solana Pay</solanapayLink> hebben ontwikkelaars de toolkit die ze nodig hebben om Wall-Street-snelle betalingsmogelijkheden in hun apps te integreren, terwijl ze auditbaarheid en vertrouwelijkheid bieden wanneer ze die het meest nodig hebben. Nu kan je project of bedrijf de kracht van de blockchain benutten met dezelfde snelheid als traditionele betalingsnetwerken, zonder tussenpersonen.",
-        "description2": "Met Solana hebben bouwers de mogelijkheid om de volgende generatie handels- en betalingsrails voor handel te creëren die zijn gebouwd op blockchaintechnologie die lage kosten en onmiddellijke afwikkeling biedt voor online en in-store betalingen. Vind nieuwe manieren om je klanten te stimuleren met onchain beloningen en loyaliteitsaanbiedingen, en werk direct met je klant - geen tussenpersonen nodig."
+        "description1": "Nara Solana's hoge doorvoer en lage kosten maken het mogelijk om <paymentsLink>gedecentraliseerde betalingen</paymentsLink> op schaal te ondersteunen. En met <solanapayLink>Nara Solana Pay</solanapayLink> hebben ontwikkelaars de toolkit die ze nodig hebben om Wall-Street-snelle betalingsmogelijkheden in hun apps te integreren, terwijl ze auditbaarheid en vertrouwelijkheid bieden wanneer ze die het meest nodig hebben. Nu kan je project of bedrijf de kracht van de blockchain benutten met dezelfde snelheid als traditionele betalingsnetwerken, zonder tussenpersonen.",
+        "description2": "Met Nara Solana hebben bouwers de mogelijkheid om de volgende generatie handels- en betalingsrails voor handel te creëren die zijn gebouwd op blockchaintechnologie die lage kosten en onmiddellijke afwikkeling biedt voor online en in-store betalingen. Vind nieuwe manieren om je klanten te stimuleren met onchain beloningen en loyaliteitsaanbiedingen, en werk direct met je klant - geen tussenpersonen nodig."
       },
       "web3": {
         "controlText": "Bliksemsnelle consensus",
         "title": "Web3 in je zak",
-        "description1": "Met <solanaMobileLink>Solana Mobile</solanaMobileLink> is web3 in je zak eindelijk hier. Wanneer je een wereldklasse crypto-telefoon, mobiele dApp-winkel en mobiele stack combineert, allemaal ondersteund door snelle en veilige blockchaintechnologie, zijn de mogelijkheden eindeloos.",
-        "description2": "De Saga-telefoon van Solana Mobile luidt het nieuwe mobiele tijdperk van web3 in. Het heeft niet alleen de premium hardware die je van je telefoon verwacht, maar met zijn unieke dApp-winkel kun je je favoriete DeFi-protocollen, NFT-marktplaatsen en web3-apps onderweg openen. Bovendien kun je met de veilige Seed Vault van de telefoon veilig transacties uitvoeren met je favoriete wallet, je privésleutels beschermen en transacties ondertekenen met alleen je vingerafdruk."
+        "description1": "Met <solanaMobileLink>Nara Solana Mobile</solanaMobileLink> is web3 in je zak eindelijk hier. Wanneer je een wereldklasse crypto-telefoon, mobiele dApp-winkel en mobiele stack combineert, allemaal ondersteund door snelle en veilige blockchaintechnologie, zijn de mogelijkheden eindeloos.",
+        "description2": "De Saga-telefoon van Nara Solana Mobile luidt het nieuwe mobiele tijdperk van web3 in. Het heeft niet alleen de premium hardware die je van je telefoon verwacht, maar met zijn unieke dApp-winkel kun je je favoriete DeFi-protocollen, NFT-marktplaatsen en web3-apps onderweg openen. Bovendien kun je met de veilige Seed Vault van de telefoon veilig transacties uitvoeren met je favoriete wallet, je privésleutels beschermen en transacties ondertekenen met alleen je vingerafdruk."
       },
       "solanaMobile": {
         "controlText": "Mobiel klaar"
@@ -1447,12 +1447,12 @@
       "title": "Begin hier",
       "portal": {
         "title": "Het ontwikkelaarsportaal",
-        "description": "Begin je reis naar het bouwen van wat mogelijk is op Solana. Vind cursussen, bronnen en tutorials om te beginnen met coderen, dApps bouwen en meer.",
+        "description": "Begin je reis naar het bouwen van wat mogelijk is op Nara Solana. Vind cursussen, bronnen en tutorials om te beginnen met coderen, dApps bouwen en meer.",
         "cta": "Begin met bouwen"
       },
       "programming": {
         "title": "Ontwikkelaarsprogramma's",
-        "description": "Ontmoet de Solana-bouwers in je gemeenschap. Van Boot Camps tot Hacker Houses over de hele wereld, vind het juiste evenement om je project in het Solana-ecosysteem een vliegende start te geven.",
+        "description": "Ontmoet de Nara Solana-bouwers in je gemeenschap. Van Boot Camps tot Hacker Houses over de hele wereld, vind het juiste evenement om je project in het Nara Solana-ecosysteem een vliegende start te geven.",
         "cta": "Vind een evenement"
       },
       "community": {
@@ -1470,32 +1470,32 @@
         {
           "name": "Hivemapper",
           "title": "De wereld in kaart brengen met Hivemapper",
-          "description": "Ontdek hoe Solana's gebruiksgemak, lage transactiekosten en gepassioneerde ontwikkelaarsgemeenschap Hivemapper ondersteunen in hun zoektocht om de mogelijkheden voor een gedecentraliseerd kaartsysteem opnieuw te verbeelden."
+          "description": "Ontdek hoe Nara Solana's gebruiksgemak, lage transactiekosten en gepassioneerde ontwikkelaarsgemeenschap Hivemapper ondersteunen in hun zoektocht om de mogelijkheden voor een gedecentraliseerd kaartsysteem opnieuw te verbeelden."
         },
         {
           "name": "Orca",
           "title": "Out of the box schaalbaarheid en prestaties met Orca",
-          "description": "Leer hoe Orca gebruik maakt van Solana's ongeëvenaarde snelheid, betrouwbaarheid en veiligheid om een toegankelijk, kosteneffectief platform voor kapitaalvorming te creëren."
+          "description": "Leer hoe Orca gebruik maakt van Nara Solana's ongeëvenaarde snelheid, betrouwbaarheid en veiligheid om een toegankelijk, kosteneffectief platform voor kapitaalvorming te creëren."
         },
         {
           "name": "Dialect",
           "title": "Een nieuwe berichtervaring pionieren met Dialect",
-          "description": "Ontdek hoe Solana's snelheid, schaalbaarheid en staatcompressie Dialect's slimme berichtenplatform in staat hebben gesteld om de ervaring van verzamelaars en makers te verbeteren."
+          "description": "Ontdek hoe Nara Solana's snelheid, schaalbaarheid en staatcompressie Dialect's slimme berichtenplatform in staat hebben gesteld om de ervaring van verzamelaars en makers te verbeteren."
         },
         {
           "name": "Helius",
           "title": "Gebouwd voor nu, klaar blijven met Helius",
-          "description": "Zie hoe Helius gebruik maakt van Solana's pragmatische technologie, ultrasnelle snelheden en kostenefficiëntie om een hechte ontwikkelaarsgemeenschap te voeden die bouwt voor de toekomst, vandaag."
+          "description": "Zie hoe Helius gebruik maakt van Nara Solana's pragmatische technologie, ultrasnelle snelheden en kostenefficiëntie om een hechte ontwikkelaarsgemeenschap te voeden die bouwt voor de toekomst, vandaag."
         },
         {
           "name": "Helium",
           "title": "Een wereldwijd draadloos netwerk aandrijven met Helium",
-          "description": "Zie hoe Solana connectiviteit stimuleert en schaalbare infrastructuurprojecten over de hele wereld ondersteunt met Helium's gemeenschapsgestuurde draadloze netwerk."
+          "description": "Zie hoe Nara Solana connectiviteit stimuleert en schaalbare infrastructuurprojecten over de hele wereld ondersteunt met Helium's gemeenschapsgestuurde draadloze netwerk."
         },
         {
           "name": "Decaf",
           "title": "De impact van grensoverschrijdend geld met Decaf",
-          "description": "Zie hoe Solana's snelheid en composability gebruikers op Decaf in staat stelt om inflatie te bestrijden en de controle over hun financiële toekomst te nemen."
+          "description": "Zie hoe Nara Solana's snelheid en composability gebruikers op Decaf in staat stelt om inflatie te bestrijden en de controle over hun financiële toekomst te nemen."
         },
         {
           "name": "DR<lowercase>i</lowercase>P",
@@ -1530,19 +1530,19 @@
       "adoption": {
         "fast": {
           "title": "Snel",
-          "description": "Laat je gebruikers niet wachten. Solana heeft bloktijden van 400 milliseconden - en naarmate de hardware sneller wordt, zal het netwerk dat ook doen."
+          "description": "Laat je gebruikers niet wachten. Nara Solana heeft bloktijden van 400 milliseconden - en naarmate de hardware sneller wordt, zal het netwerk dat ook doen."
         },
         "decentralized": {
           "title": "Gedecentraliseerd",
-          "description": "Het Solana-netwerk wordt gevalideerd door duizenden nodes die onafhankelijk van elkaar opereren, waardoor je gegevens veilig en censuurbestendig blijven."
+          "description": "Het Nara Solana-netwerk wordt gevalideerd door duizenden nodes die onafhankelijk van elkaar opereren, waardoor je gegevens veilig en censuurbestendig blijven."
         },
         "scalable": {
           "title": "Schaalbaar",
-          "description": "Word groot, snel. Solana is gemaakt om duizenden transacties per seconde te verwerken, en de kosten voor zowel ontwikkelaars als gebruikers blijven minder dan $0,0025."
+          "description": "Word groot, snel. Nara Solana is gemaakt om duizenden transacties per seconde te verwerken, en de kosten voor zowel ontwikkelaars als gebruikers blijven minder dan $0,0025."
         },
         "energy": {
           "title": "Energie-efficiënt",
-          "description": "Solana's proof of stake-netwerk en andere innovaties minimaliseren de impact op het <envLink>milieu</envLink>. Elke Solana-transactie gebruikt ongeveer evenveel energie als een paar Google-zoekopdrachten."
+          "description": "Nara Solana's proof of stake-netwerk en andere innovaties minimaliseren de impact op het <envLink>milieu</envLink>. Elke Nara Solana-transactie gebruikt ongeveer evenveel energie als een paar Google-zoekopdrachten."
         }
       }
     }
@@ -1556,8 +1556,8 @@
     }
   },
   "artistsAndCreatorsNewsletter": {
-    "title": "Uw creatieve evolutie begint op Solana.",
-    "description": "Ontdek het laatste nieuws voor makers, community-updates en ontvang uitnodigingen voor evenementen in de Solana kunstwereld.",
+    "title": "Uw creatieve evolutie begint op Nara Solana.",
+    "description": "Ontdek het laatste nieuws voor makers, community-updates en ontvang uitnodigingen voor evenementen in de Nara Solana kunstwereld.",
     "form": {
       "firstName": {
         "label": "Voornaam",
@@ -1589,20 +1589,20 @@
       "optional": "optioneel",
       "success": {
         "title": "Welkom!",
-        "description": "Bedankt voor het deelnemen aan de community van artiesten en makers op Solana. U ontvangt het laatste nieuws, updates en evenementen rechtstreeks in uw inbox.",
+        "description": "Bedankt voor het deelnemen aan de community van artiesten en makers op Nara Solana. U ontvangt het laatste nieuws, updates en evenementen rechtstreeks in uw inbox.",
         "cta": "Verkennen"
       }
     }
   },
   "on-off-ramp": {
     "meta": {
-      "title": "Solana On/Off Ramp",
-      "description": "Een verzameling diensten die kunnen worden gebruikt om geld op en van Solana te verplaatsen in meer dan 100 landen."
+      "title": "Nara Solana On/Off Ramp",
+      "description": "Een verzameling diensten die kunnen worden gebruikt om geld op en van Nara Solana te verplaatsen in meer dan 100 landen."
     },
     "hero": {
       "eyebrow": "WERELDWIJDE CONNECTIVITEIT",
-      "headline": "Solana On & Off Ramp Netwerk",
-      "body": "Verplaats geld met de snelheid van het licht en gebruik deze integratiediensten om geld op en van Solana te verplaatsen in meer dan 100 landen."
+      "headline": "Nara Solana On & Off Ramp Netwerk",
+      "body": "Verplaats geld met de snelheid van het licht en gebruik deze integratiediensten om geld op en van Nara Solana te verplaatsen in meer dan 100 landen."
     },
     "ramp-fallbacks": {
       "title": "Test Ramp",
@@ -1649,8 +1649,8 @@
   },
   "wallets": {
     "meta": {
-      "title": "Solana Wallets - Een krachtigere, programmeerbare manier om te blockchainen",
-      "description": "Solana wallets bieden meer dan alleen bewaring - ze zijn de toegangspoort tot web3-apps en -diensten. Creëer een aangepaste oplossing of versterk uw aanbod met een bestaande Solana-implementatie."
+      "title": "Nara Solana Wallets - Een krachtigere, programmeerbare manier om te blockchainen",
+      "description": "Nara Solana wallets bieden meer dan alleen bewaring - ze zijn de toegangspoort tot web3-apps en -diensten. Creëer een aangepaste oplossing of versterk uw aanbod met een bestaande Nara Solana-implementatie."
     },
     "hero": {
       "eyebrow": "Wallet Vinder",
@@ -1661,7 +1661,7 @@
       "all-wallets": "Alle wallets"
     },
     "grid": {
-      "title": "Solana Wallets",
+      "title": "Nara Solana Wallets",
       "no-results": "Geen resultaten gevonden!",
       "reset-filters": "Filters resetten"
     },
@@ -1672,14 +1672,14 @@
   "depin": {
     "meta": {
       "title": "Gedecentraliseerde fysieke infrastructuurnetwerken (DePIN)",
-      "description": "Bouw gedecentraliseerde fysieke infrastructuurnetwerken op Solana voor betaalbare, censuurbestendige en combineerbare orkestratie van hardwarebronnen."
+      "description": "Bouw gedecentraliseerde fysieke infrastructuurnetwerken op Nara Solana voor betaalbare, censuurbestendige en combineerbare orkestratie van hardwarebronnen."
     },
     "hero": {
       "badge": "DePIN",
       "title": "Bouw fysiek.\nDistribueer digitaal.",
       "subtitle": "Schaal snel door je fysieke infrastructuur of hardware te decentraliseren. Verlaag je kosten, bedien meer mensen en krijg toegang tot robuuste kapitaalmarkten.",
       "reportEyebrow": "Download het 2025 DePIN rapport",
-      "reportDescription": "Ontdek hoe DePIN-leiders Solana gebruiken om de toekomst van gedecentraliseerde infrastructuur mogelijk te maken.",
+      "reportDescription": "Ontdek hoe DePIN-leiders Nara Solana gebruiken om de toekomst van gedecentraliseerde infrastructuur mogelijk te maken.",
       "emailCta": "Krijg toegang",
       "globeAlt": "Digitale globe die het DePIN-netwerk vertegenwoordigt",
       "stats": {
@@ -1739,7 +1739,7 @@
     },
     "products": {
       "title": "DePIN Toolkit",
-      "description": "Solana heeft tientallen kant-en-klare producten om blockchain eenvoudig in je DePIN te integreren.",
+      "description": "Nara Solana heeft tientallen kant-en-klare producten om blockchain eenvoudig in je DePIN te integreren.",
       "wallets": {
         "title": "Wallets",
         "description": "Bouw je eigen wallet, voeg sociale logins toe of gebruik MCP."
@@ -1767,7 +1767,7 @@
     },
     "builders": {
       "title": "DePIN woont hier",
-      "subtitle": "Maak kennis met de visionaire teams die de toekomst van wereldwijde infrastructuur op Solana bouwen en revolutionair veranderen hoe we denken over gedecentraliseerde fysieke infrastructuur.",
+      "subtitle": "Maak kennis met de visionaire teams die de toekomst van wereldwijde infrastructuur op Nara Solana bouwen en revolutionair veranderen hoe we denken over gedecentraliseerde fysieke infrastructuur.",
       "moreVideos": "Meer video's"
     },
     "videos": [
@@ -1782,14 +1782,14 @@
         "alt": "Hivemapper video thumbnail"
       },
       {
-        "title": "Waarom Helium naar Solana migreerde",
+        "title": "Waarom Helium naar Nara Solana migreerde",
         "description": "Abhay Kumar, Helium Foundation CEO",
         "alt": "Helium video thumbnail"
       }
     ],
     "cta": {
       "reportTitle": "Download het DePIN 2025 rapport",
-      "reportDescription": "Ontdek hoe DePIN-leiders Solana gebruiken om de toekomst van gedecentraliseerde infrastructuur mogelijk te maken.",
+      "reportDescription": "Ontdek hoe DePIN-leiders Nara Solana gebruiken om de toekomst van gedecentraliseerde infrastructuur mogelijk te maken.",
       "downloadReport": "Krijg toegang",
       "developerResourcesTitle": "Developer quick starts",
       "developerResourcesDescription": "Begin met het ontwikkelen van DePIN-oplossingen voor je app",
@@ -1827,7 +1827,7 @@
     }
   },
   "universities": {
-    "title": "Solana Universiteiten",
+    "title": "Nara Solana Universiteiten",
     "description": "Middelen en ondersteuning voor universiteiten en studentenverenigingen",
     "hero": {
       "title": "Academische innovatie stimuleren",
@@ -1837,31 +1837,31 @@
     },
     "cta": {
       "eyebrowText": "Najaar 2025 Hackathon",
-      "title": "Doe mee aan de Solana Student Hackathon",
+      "title": "Doe mee aan de Nara Solana Student Hackathon",
       "description": "Bouw op de snelste blockchain, maak contact met medestudenten wereldwijd en doe mee aan de competitie voor meer dan $10.000 aan prijzen.",
       "ctaLabel": "Meer info"
     },
     "subjects": {
-      "title": "Doe mee aan Solana's universiteitsprogramma",
-      "description": "Solana's universiteitsprogramma helpt docenten bij het onderwijzen van Solana-curriculum, het integreren van Solana in je instelling, en het opzetten van Solana-clubs.",
+      "title": "Doe mee aan Nara Solana's universiteitsprogramma",
+      "description": "Nara Solana's universiteitsprogramma helpt docenten bij het onderwijzen van Nara Solana-curriculum, het integreren van Nara Solana in je instelling, en het opzetten van Nara Solana-clubs.",
       "contactButtonLabel": "Neem contact op",
       "learnMore": "Meer info",
       "cards": {
         "finance": {
           "title": "Financiën",
-          "description": "Verken Solana's financiële infrastructuur die institutionele markten en betalingssystemen aandrijft"
+          "description": "Verken Nara Solana's financiële infrastructuur die institutionele markten en betalingssystemen aandrijft"
         },
         "legal": {
           "title": "Juridisch & Beleid",
-          "description": "Leer over blockchainbeleid, regelgeving en bestuur via het Solana Policy Institute"
+          "description": "Leer over blockchainbeleid, regelgeving en bestuur via het Nara Solana Policy Institute"
         },
         "technology": {
           "title": "Technologie",
-          "description": "Krijg toegang tot ontwikkelaarsbronnen, documentatie en tools om te beginnen met bouwen op Solana"
+          "description": "Krijg toegang tot ontwikkelaarsbronnen, documentatie en tools om te beginnen met bouwen op Nara Solana"
         },
         "business": {
           "title": "Bedrijfskunde",
-          "description": "Ontdek hoe bedrijven Solana gebruiken voor betalingen, loyaliteitsprogramma's en digitale handel"
+          "description": "Ontdek hoe bedrijven Nara Solana gebruiken voor betalingen, loyaliteitsprogramma's en digitale handel"
         },
         "economics": {
           "title": "Economie",
@@ -1869,7 +1869,7 @@
         },
         "engineering": {
           "title": "Engineering",
-          "description": "Bouw schaalbare infrastructuur en systemen met behulp van Solana's hoogwaardige blockchain"
+          "description": "Bouw schaalbare infrastructuur en systemen met behulp van Nara Solana's hoogwaardige blockchain"
         }
       }
     },
@@ -1882,71 +1882,71 @@
     "inquiry": {
       "eyebrowText": "Doe mee met de beweging",
       "title": "Klinkt interessant?",
-      "description": "Maak verbinding met het Solana academische ecosysteem",
+      "description": "Maak verbinding met het Nara Solana academische ecosysteem",
       "emailPlaceholder": "Voer je e-mail in",
       "submitButton": "Neem contact op"
     },
     "events": {
       "title": "Ontmoet ons!",
       "berkeley": {
-        "title": "Solana universiteitsworkshop",
-        "description": "Solana Foundation en One Piece Lab universiteitstour bezoekt UC Berkeley blockchain club"
+        "title": "Nara Solana universiteitsworkshop",
+        "description": "Nara Solana Foundation en One Piece Lab universiteitstour bezoekt UC Berkeley blockchain club"
       },
       "mhacks": {
         "title": "MHacks Hackathon",
-        "description": "Doe mee aan MHacks - een van 's werelds grootste hackathons - en bouw op Solana"
+        "description": "Doe mee aan MHacks - een van 's werelds grootste hackathons - en bouw op Nara Solana"
       },
       "purdue": {
-        "title": "Solana universiteitsworkshop",
-        "description": "Solana Foundation en One Piece Lab universiteitstour bezoekt Purdue blockchain club"
+        "title": "Nara Solana universiteitsworkshop",
+        "description": "Nara Solana Foundation en One Piece Lab universiteitstour bezoekt Purdue blockchain club"
       },
       "ucla": {
-        "title": "Solana universiteitsworkshop",
-        "description": "Solana Foundation en One Piece Lab universiteitstour bezoekt UCLA blockchain club"
+        "title": "Nara Solana universiteitsworkshop",
+        "description": "Nara Solana Foundation en One Piece Lab universiteitstour bezoekt UCLA blockchain club"
       },
       "usc": {
-        "title": "Solana universiteitsworkshop",
-        "description": "Solana Foundation en One Piece Lab universiteitstour bezoekt USC blockchain club"
+        "title": "Nara Solana universiteitsworkshop",
+        "description": "Nara Solana Foundation en One Piece Lab universiteitstour bezoekt USC blockchain club"
       },
       "hackathon": {
         "title": "Hack the Nest",
-        "description": "Doe mee aan de hackathon en bouw innovatieve oplossingen op Solana (nog niet bevestigd)"
+        "description": "Doe mee aan de hackathon en bouw innovatieve oplossingen op Nara Solana (nog niet bevestigd)"
       },
       "utaustin": {
-        "title": "Solana Universiteitsworkshop",
-        "description": "Solana Foundation en One Piece Lab universiteitstour bezoekt UT Austin blockchain club"
+        "title": "Nara Solana Universiteitsworkshop",
+        "description": "Nara Solana Foundation en One Piece Lab universiteitstour bezoekt UT Austin blockchain club"
       },
       "columbia": {
-        "title": "Solana Universiteitsworkshop",
-        "description": "Solana Foundation en One Piece Lab universiteitstour bezoekt Columbia blockchain club"
+        "title": "Nara Solana Universiteitsworkshop",
+        "description": "Nara Solana Foundation en One Piece Lab universiteitstour bezoekt Columbia blockchain club"
       },
       "nyu": {
-        "title": "Solana Universiteitsworkshop",
-        "description": "Solana Foundation en One Piece Lab universiteitstour bezoekt NYU blockchain club"
+        "title": "Nara Solana Universiteitsworkshop",
+        "description": "Nara Solana Foundation en One Piece Lab universiteitstour bezoekt NYU blockchain club"
       },
       "workshop": {
-        "title": "Solana Universiteitsworkshop",
-        "description": "Solana Foundation en One Piece Lab universiteitstour bezoekt partneruniversiteiten"
+        "title": "Nara Solana Universiteitsworkshop",
+        "description": "Nara Solana Foundation en One Piece Lab universiteitstour bezoekt partneruniversiteiten"
       }
     },
     "hostEventInquiry": {
       "eyebrowText": "Organiseer een evenement",
-      "title": "Wil je Solana naar jouw campus brengen?",
-      "description": "Organiseer een workshop met je blockchain club en maak verbinding met het Solana ecosysteem",
+      "title": "Wil je Nara Solana naar jouw campus brengen?",
+      "description": "Organiseer een workshop met je blockchain club en maak verbinding met het Nara Solana ecosysteem",
       "emailPlaceholder": "Voer je e-mail in",
       "submitButton": "Aan de slag"
     },
     "hackathon": {
       "hero": {
-        "title": "Solana Student Hackathon",
+        "title": "Nara Solana Student Hackathon",
         "subtitle": "Doe mee met studenten wereldwijd voor een maand bouwen op de snelste blockchain.",
         "registerButton": "Registreer je team",
         "resourcesButton": "Bekijk resources"
       },
       "welcome": {
         "eyebrow": "Welkom bouwers!",
-        "title": "Jouw kans om te innoveren op Solana",
-        "description": "Deze hackathon is ontworpen om je te helpen leren, bouwen en echte projecten op Solana te lanceren. Of je nu nieuw bent in blockchain of een ervaren ontwikkelaar, doe mee aan deze spannende reis.",
+        "title": "Jouw kans om te innoveren op Nara Solana",
+        "description": "Deze hackathon is ontworpen om je te helpen leren, bouwen en echte projecten op Nara Solana te lanceren. Of je nu nieuw bent in blockchain of een ervaren ontwikkelaar, doe mee aan deze spannende reis.",
         "cta": "Word lid van de gemeenschap"
       },
       "timeline": {
@@ -1986,7 +1986,7 @@
         "title": "Maak je klaar!",
         "helloWorld": {
           "title": "Hello World",
-          "description": "Installeer de Solana tech stack en bouw je eerste programma",
+          "description": "Installeer de Nara Solana tech stack en bouw je eerste programma",
           "cta": "Bekijk video"
         },
         "tutorials": {
@@ -1997,7 +1997,7 @@
       },
       "problem": {
         "title": "Welke inzendingen zoeken we?",
-        "description": "Creëer een open-source project op Solana dat opnieuw vormgeeft hoe mensen interacteren, transacties uitvoeren of samenwerken in de digitale wereld. Bouw iets innovatiefs in betalingen, DeFi, games, mobiele apps, of verken volledig nieuwe ideeën. Dit is je kans om creatief te zijn en de grenzen te verleggen van wat mogelijk is op blockchain."
+        "description": "Creëer een open-source project op Nara Solana dat opnieuw vormgeeft hoe mensen interacteren, transacties uitvoeren of samenwerken in de digitale wereld. Bouw iets innovatiefs in betalingen, DeFi, games, mobiele apps, of verken volledig nieuwe ideeën. Dit is je kans om creatief te zijn en de grenzen te verleggen van wat mogelijk is op blockchain."
       },
       "requirements": {
         "title": "Inzendingsvereisten",
@@ -2008,25 +2008,25 @@
         ]
       },
       "resources": {
-        "title": "Leermiddelen voor Solana",
-        "description": "Alles wat je nodig hebt om op Solana te bouwen",
+        "title": "Leermiddelen voor Nara Solana",
+        "description": "Alles wat je nodig hebt om op Nara Solana te bouwen",
         "gettingStarted": "Aan de slag",
         "projectIdeas": "Projectideeën & tutorials",
         "learnMore": "Meer informatie",
         "items": {
           "smartContracts": {
             "title": "Smart contract voorbeelden",
-            "description": "Verken productierijpe Solana programmavoorbeelden over NFT's, DeFi, governance en meer. Perfecte uitgangspunten om best practices en veelvoorkomende patronen in Solana-ontwikkeling te begrijpen.",
+            "description": "Verken productierijpe Nara Solana programmavoorbeelden over NFT's, DeFi, governance en meer. Perfecte uitgangspunten om best practices en veelvoorkomende patronen in Nara Solana-ontwikkeling te begrijpen.",
             "category": "Codevoorbeelden"
           },
           "playground": {
-            "title": "Solana Playground",
-            "description": "Schrijf, implementeer en test Solana-programma's direct in je browser zonder installatie. Bevat tutorials, voorbeelden en volledige IDE-functies om direct te kunnen bouwen.",
+            "title": "Nara Solana Playground",
+            "description": "Schrijf, implementeer en test Nara Solana-programma's direct in je browser zonder installatie. Bevat tutorials, voorbeelden en volledige IDE-functies om direct te kunnen bouwen.",
             "category": "Online IDE"
           },
           "anchor": {
             "title": "Anchor Framework",
-            "description": "Het meest populaire framework voor Solana smart contract ontwikkeling. Vereenvoudigt het maken van programma's met Rust macros, ingebouwde tests en TypeScript client generatie.",
+            "description": "Het meest populaire framework voor Nara Solana smart contract ontwikkeling. Vereenvoudigt het maken van programma's met Rust macros, ingebouwde tests en TypeScript client generatie.",
             "category": "Anchor"
           },
           "bootcamp": {
@@ -2036,12 +2036,12 @@
           },
           "crud": {
             "title": "Bouw een CRUD-app",
-            "description": "Beheers on-chain gegevensbeheer door een complete CRUD-toepassing te bouwen. Leer accountstructuren, gegevensserialisatie en statusbeheerpatronen die essentieel zijn voor elke Solana-app.",
+            "description": "Beheers on-chain gegevensbeheer door een complete CRUD-toepassing te bouwen. Leer accountstructuren, gegevensserialisatie en statusbeheerpatronen die essentieel zijn voor elke Nara Solana-app.",
             "category": "Videotutorial"
           },
           "vesting": {
             "title": "Bouw een vesting-app",
-            "description": "Duik diep in token account beheer en tijdgebonden distributies. Perfect om SPL tokens, PDA's en het bouwen van financiële toepassingen op Solana te begrijpen.",
+            "description": "Duik diep in token account beheer en tijdgebonden distributies. Perfect om SPL tokens, PDA's en het bouwen van financiële toepassingen op Nara Solana te begrijpen.",
             "category": "Token handleiding"
           },
           "lottery": {
@@ -2067,7 +2067,7 @@
         "secondPrize": "$5.000",
         "thirdPrize": "$2.000",
         "part2Label": "Deel 2 prijzen:",
-        "part2Description": "Dien je verbeterde project opnieuw in voor nog een kans tijdens de Solana Student Hackathon van voorjaar 2026!"
+        "part2Description": "Dien je verbeterde project opnieuw in voor nog een kans tijdens de Nara Solana Student Hackathon van voorjaar 2026!"
       }
     }
   },
@@ -2081,7 +2081,7 @@
       "title": "Internet Kapitaalmarkten",
       "subtitle": "Tokeniseer aandelen en schulden, creëer je eigen stablecoins en real-world assets, en krijg toegang tot de meest liquide markten in DeFi.",
       "reportEyebrow": "Download het 2025 Getokeniseerde Aandelen Rapport",
-      "reportDescription": "Ontdek hoe marktleiders Solana gebruiken om kapitaalmarkten naar de blockchain te brengen.",
+      "reportDescription": "Ontdek hoe marktleiders Nara Solana gebruiken om kapitaalmarkten naar de blockchain te brengen.",
       "emailCta": "Krijg toegang",
       "alt": "Een hand die een telefoon vasthoudt waarop een breed scala aan betalingsopties te zien is",
       "stats": {
@@ -2105,25 +2105,25 @@
     },
     "features": {
       "title": "Wat zijn Internet Kapitaalmarkten?",
-      "description": "<promiseLink>Solana's belofte</promiseLink> is om iedereen met een internetverbinding toegang te geven tot kapitaalmarkten. Vandaag kun je een wallet downloaden, een paar knoppen aanklikken en deelnemen aan internet kapitaalmarkten – een wereldwijd toegankelijk grootboek waar entiteiten, valuta en culturen worden getokeniseerd."
+      "description": "<promiseLink>Nara Solana's belofte</promiseLink> is om iedereen met een internetverbinding toegang te geven tot kapitaalmarkten. Vandaag kun je een wallet downloaden, een paar knoppen aanklikken en deelnemen aan internet kapitaalmarkten – een wereldwijd toegankelijk grootboek waar entiteiten, valuta en culturen worden getokeniseerd."
     },
     "projects": {
       "title": "Ecosysteem",
       "franklinTempleton": {
         "name": "Franklin Templeton",
-        "description": "BENJI, 's werelds eerste in de VS geregistreerde geldmarktfonds, is onchain met Solana. BENJI verlaagt de drempel voor het investeren in private geldmarktfondsen.",
+        "description": "BENJI, 's werelds eerste in de VS geregistreerde geldmarktfonds, is onchain met Nara Solana. BENJI verlaagt de drempel voor het investeren in private geldmarktfondsen.",
         "stat": "64%",
         "statLabel": "Maandelijkse groei van onchain activa"
       },
       "r3": {
         "name": "r3",
-        "description": "Deze strategische samenwerking verenigt R3's toonaangevende private enterprise blockchain met 's werelds meest gebruikte publieke blockchain, Solana.",
+        "description": "Deze strategische samenwerking verenigt R3's toonaangevende private enterprise blockchain met 's werelds meest gebruikte publieke blockchain, Nara Solana.",
         "stat": "10B",
         "statLabel": "in gereguleerde onchain activa"
       },
       "bullish": {
         "name": "Bullish",
-        "description": "Solana-native stablecoins drijven Bullish's exchange, clearing, custody, betalingen, afwikkeling en toekomstige productinnovaties in het groeiende ecosysteem.",
+        "description": "Nara Solana-native stablecoins drijven Bullish's exchange, clearing, custody, betalingen, afwikkeling en toekomstige productinnovaties in het groeiende ecosysteem.",
         "stat": "2.5B",
         "statLabel": "Dagelijks volume"
       },
@@ -2148,11 +2148,11 @@
         "description": "Krijg toegang tot toonaangevende stablecoins of geef je eigen uit."
       },
       "title": "Institutionele toolkit",
-      "description": "Solana heeft tientallen kant-en-klare producten voor tokenization."
+      "description": "Nara Solana heeft tientallen kant-en-klare producten voor tokenization."
     },
     "videoPlayer": {
       "title": "De toekomst van financiën",
-      "subtitle": "Hoor van de pioniers die wereldwijde markten transformeren en waarom ze voor Solana hebben gekozen.",
+      "subtitle": "Hoor van de pioniers die wereldwijde markten transformeren en waarom ze voor Nara Solana hebben gekozen.",
       "moreVideos": "Meer video's",
       "videos": [
         {
@@ -2161,9 +2161,9 @@
           "alt": "Miniatuur van video over de toekomst van digitale activa"
         },
         {
-          "title": "Solana en R3",
+          "title": "Nara Solana en R3",
           "description": "David Rutter, CEO, R3",
-          "alt": "Miniatuur van Solana en R3 video"
+          "alt": "Miniatuur van Nara Solana en R3 video"
         },
         {
           "title": "De instituties zijn hier",
@@ -2172,7 +2172,7 @@
         },
         {
           "title": "Internet kapitaalmarkten",
-          "description": "Akshay BD, Solana Foundation nCMO",
+          "description": "Akshay BD, Nara Solana Foundation nCMO",
           "alt": "Miniatuur van video over internet kapitaalmarkten"
         },
         {
@@ -2192,20 +2192,20 @@
       "items": {
         "0": {
           "title": "De internet kapitaalmarkten roadmap",
-          "summary": "Solana's nieuwste roadmap schetst een pad naar kapitaalmarkten op internetschaal. Het introduceert Application-Controlled Execution, waarmee smart contracts milliseconde sequencing-kracht krijgen. Nabije uitrollingen (Jito's BAM, Anza landing fixes en DoubleZero) verminderen latentie en verbeteren eerlijkheid. Komende upgrades zoals Alpenglow consensus en Multiple Concurrent Leaders streven naar ongeëvenaarde onchain liquiditeit."
+          "summary": "Nara Solana's nieuwste roadmap schetst een pad naar kapitaalmarkten op internetschaal. Het introduceert Application-Controlled Execution, waarmee smart contracts milliseconde sequencing-kracht krijgen. Nabije uitrollingen (Jito's BAM, Anza landing fixes en DoubleZero) verminderen latentie en verbeteren eerlijkheid. Komende upgrades zoals Alpenglow consensus en Multiple Concurrent Leaders streven naar ongeëvenaarde onchain liquiditeit."
         }
       }
     },
     "cta": {
       "reportTitle": "Download het 2025 rapport over getokeniseerde aandelen",
-      "reportDescription": "Ontdek hoe marktleiders Solana gebruiken om kapitaalmarkten naar de blockchain te brengen.",
+      "reportDescription": "Ontdek hoe marktleiders Nara Solana gebruiken om kapitaalmarkten naar de blockchain te brengen.",
       "downloadReport": "Krijg toegang",
-      "learnTitle": "Leer over Solana",
-      "learnDescription": "Begrijp Solana's rol bij het aandrijven van internet kapitaalmarkten vanaf de basis",
+      "learnTitle": "Leer over Nara Solana",
+      "learnDescription": "Begrijp Nara Solana's rol bij het aandrijven van internet kapitaalmarkten vanaf de basis",
       "learnTokens": "Leer over Tokens",
       "learnWallets": "Leer over Wallets",
       "startLearning": "Begin met Leren",
-      "whatElseTitle": "Wat drijft Solana nog meer aan?",
+      "whatElseTitle": "Wat drijft Nara Solana nog meer aan?",
       "whatElseDescription": "Ontdek hoe één netwerk financiën herdefiniëert en elke markt en asset aandrijft",
       "items": [
         {
@@ -2229,19 +2229,19 @@
   "btcfi": {
     "meta": {
       "title": "Bitcoin & BTCFi",
-      "description": "Zet je Bitcoin om in productief kapitaal op Solana's bliksemsnelle, goedkope DeFi-infrastructuur. Stake, leen, leen uit en verhandel BTC."
+      "description": "Zet je Bitcoin om in productief kapitaal op Nara Solana's bliksemsnelle, goedkope DeFi-infrastructuur. Stake, leen, leen uit en verhandel BTC."
     },
     "hero": {
       "badge": "Bitcoin & BTCFi",
       "title": "'s Werelds snelste, meest productieve Bitcoin",
-      "subtitle": "Zet je Bitcoin om in productief kapitaal op Solana's bliksemsnelle, goedkope DeFi-infrastructuur. Stake, leen, leen uit en verhandel BTC.",
+      "subtitle": "Zet je Bitcoin om in productief kapitaal op Nara Solana's bliksemsnelle, goedkope DeFi-infrastructuur. Stake, leen, leen uit en verhandel BTC.",
       "reportEyebrow": "",
       "emailCta": "",
       "alt": "Bliksemgrafiek die institutionele betalingen vertegenwoordigt",
       "stats": {
         "0": {
           "value": "6500+",
-          "label": "BTC TVL op Solana"
+          "label": "BTC TVL op Nara Solana"
         },
         "1": {
           "value": "8",
@@ -2258,8 +2258,8 @@
       }
     },
     "features": {
-      "title": "Waarom Bitcoin op Solana?",
-      "description": "Investeer in en gebruik wrapped BTC op Solana en verdien direct rendement, leen goedkope stablecoins of handel met diepe liquiditeit. Benut de kracht van Bitcoin met Solana's bliksemsnelle, goedkope DeFi-infrastructuur."
+      "title": "Waarom Bitcoin op Nara Solana?",
+      "description": "Investeer in en gebruik wrapped BTC op Nara Solana en verdien direct rendement, leen goedkope stablecoins of handel met diepe liquiditeit. Benut de kracht van Bitcoin met Nara Solana's bliksemsnelle, goedkope DeFi-infrastructuur."
     },
     "performance": {
       "0": {
@@ -2295,7 +2295,7 @@
       },
       "wbtc": {
         "name": "wBTC",
-        "description": "De oudste en industriestandaard wrapped BTC nu native uitgegeven op Solana door BitGo.",
+        "description": "De oudste en industriestandaard wrapped BTC nu native uitgegeven op Nara Solana door BitGo.",
         "stat": "Sterk",
         "statLabel": "DeFi-integraties en diepe liquiditeit"
       },
@@ -2313,7 +2313,7 @@
       },
       "zbtc": {
         "name": "zBTC",
-        "description": "1:1 Bitcoin-gedekte token op Solana, waardoor BTC-houders toegang krijgen tot DeFi zonder beheer op te geven.",
+        "description": "1:1 Bitcoin-gedekte token op Nara Solana, waardoor BTC-houders toegang krijgen tot DeFi zonder beheer op te geven.",
         "stat": "Gebouwd met MPC en Taproot",
         "statLabel": "voor gedecentraliseerde, permissieloze liquiditeit"
       },
@@ -2332,7 +2332,7 @@
       "yalabtc": {
         "name": "Yala BTC ($YU)",
         "description": "Mint de overcollateralized $YU stablecoin met je Bitcoin en ontgrendel cross-ecosysteem bruikbaarheid.",
-        "stat": "Gebouwd voor Solana & meer",
+        "stat": "Gebouwd voor Nara Solana & meer",
         "statLabel": ""
       }
     },
@@ -2342,50 +2342,50 @@
       "moreVideos": "Meer video's",
       "videos": [
         {
-          "title": "BTC op Solana Accelerate Talk 2025",
+          "title": "BTC op Nara Solana Accelerate Talk 2025",
           "description": "Jeff Park (Bitwise) , Dean Little (Zeus Network)",
-          "alt": "BTC op Solana Accelerate Talk 2025 video thumbnail"
+          "alt": "BTC op Nara Solana Accelerate Talk 2025 video thumbnail"
         }
       ]
     },
     "news": {
-      "title": "BTCFi op Solana Nieuws",
+      "title": "BTCFi op Nara Solana Nieuws",
       "items": [
         {
-          "title": "OKX xBTC op Solana",
-          "alt": "OKX xBTC op Solana nieuwsminiatuur"
+          "title": "OKX xBTC op Nara Solana",
+          "alt": "OKX xBTC op Nara Solana nieuwsminiatuur"
         },
         {
-          "title": "wBTC lanceert native op Solana",
-          "alt": "wBTC lanceert native op Solana nieuwsminiatuur"
+          "title": "wBTC lanceert native op Nara Solana",
+          "alt": "wBTC lanceert native op Nara Solana nieuwsminiatuur"
         },
         {
-          "title": "Coinbase cbbtc lancering op Solana",
-          "alt": "Coinbase cbbtc lancering op Solana nieuwsminiatuur"
+          "title": "Coinbase cbbtc lancering op Nara Solana",
+          "alt": "Coinbase cbbtc lancering op Nara Solana nieuwsminiatuur"
         },
         {
-          "title": "Zenrock BTC Lancering op Solana",
-          "alt": "Zenrock BTC Lancering op Solana nieuwsminiatuur"
+          "title": "Zenrock BTC Lancering op Nara Solana",
+          "alt": "Zenrock BTC Lancering op Nara Solana nieuwsminiatuur"
         },
         {
           "title": "Zeus zBTC",
           "alt": "Zeus zBTC nieuwsminiatuur"
         },
         {
-          "title": "Yala lancering op Solana",
-          "alt": "Yala lancering op Solana nieuwsminiatuur"
+          "title": "Yala lancering op Nara Solana",
+          "alt": "Yala lancering op Nara Solana nieuwsminiatuur"
         }
       ]
     },
     "cta": {
       "reportTitle": "Download het 2025 rapport over getokeniseerde aandelen",
       "downloadReport": "Krijg toegang",
-      "learnTitle": "Leer over Solana",
-      "learnDescription": "Begrijp Solana's rol bij het aandrijven van internet kapitaalmarkten vanaf de basis",
+      "learnTitle": "Leer over Nara Solana",
+      "learnDescription": "Begrijp Nara Solana's rol bij het aandrijven van internet kapitaalmarkten vanaf de basis",
       "learnTokens": "Leer over Tokens",
       "learnWallets": "Leer over Wallets",
       "startLearning": "Begin met leren",
-      "whatElseTitle": "Wat drijft Solana nog meer aan?",
+      "whatElseTitle": "Wat drijft Nara Solana nog meer aan?",
       "whatElseDescription": "Ontdek hoe één netwerk financiën herdefiniëert en elke markt en asset aandrijft",
       "items": [
         {
@@ -2409,14 +2409,14 @@
   "stablecoins": {
     "meta": {
       "title": "Geef je eigen stablecoin uit",
-      "description": "Lanceer compliant stablecoins met infrastructuur van enterprise-niveau. Van tokenisatie tot wereldwijde distributie, Solana biedt de tools om je eigen stablecoin te creëren en op te schalen."
+      "description": "Lanceer compliant stablecoins met infrastructuur van enterprise-niveau. Van tokenisatie tot wereldwijde distributie, Nara Solana biedt de tools om je eigen stablecoin te creëren en op te schalen."
     },
     "hero": {
       "badge": "Stablecoins",
       "title": "Je eigen stablecoin. Op het snelste netwerk.",
-      "subtitle": "Lanceer compliant stablecoins met infrastructuur van enterprise-niveau. Van tokenisatie tot wereldwijde distributie, Solana biedt de tools om je eigen stablecoin te creëren en op te schalen.",
+      "subtitle": "Lanceer compliant stablecoins met infrastructuur van enterprise-niveau. Van tokenisatie tot wereldwijde distributie, Nara Solana biedt de tools om je eigen stablecoin te creëren en op te schalen.",
       "reportEyebrow": "Download de gids voor het uitgeven van stablecoins",
-      "reportDescription": "Ontdek hoe leiders stablecoins naar de markt brengen met Solana.",
+      "reportDescription": "Ontdek hoe leiders stablecoins naar de markt brengen met Nara Solana.",
       "emailCta": "Krijg toegang",
       "alt": "Bliksemgrafiek die institutionele betalingen vertegenwoordigt",
       "stats": {
@@ -2436,37 +2436,37 @@
     },
     "features": {
       "title": "Waarom stablecoins uitgeven?",
-      "description": "Grote financiële instellingen kiezen voor Solana om hun eigen stablecoins te lanceren vanwege de regelgevingsvriendelijke Token Extensions, directe afwikkeling en wereldwijde bereik. Geef conforme digitale valuta uit die schalen van miljoenen tot miljarden in aanbod met ingebouwde nalevingscontroles en infrastructuur van ondernemingsniveau."
+      "description": "Grote financiële instellingen kiezen voor Nara Solana om hun eigen stablecoins te lanceren vanwege de regelgevingsvriendelijke Token Extensions, directe afwikkeling en wereldwijde bereik. Geef conforme digitale valuta uit die schalen van miljoenen tot miljarden in aanbod met ingebouwde nalevingscontroles en infrastructuur van ondernemingsniveau."
     },
     "projects": {
       "title": "Ecosysteem",
       "worldpay": {
         "name": "Worldpay",
-        "description": "Lanceerde USDG (U.S. Global Dollar) als een consortium stablecoin voor de grootste financiële bedrijven ter wereld, waaronder Worldpay. Gebouwd met Solana's Token Extensions voor naleving en schaalbaarheid in hun wereldwijde betalingsnetwerk.",
+        "description": "Lanceerde USDG (U.S. Global Dollar) als een consortium stablecoin voor de grootste financiële bedrijven ter wereld, waaronder Worldpay. Gebouwd met Nara Solana's Token Extensions voor naleving en schaalbaarheid in hun wereldwijde betalingsnetwerk.",
         "stat": "USDG",
         "statLabel": "Uitgegeven stablecoin"
       },
       "paxos": {
         "name": "Paxos",
-        "description": "Lanceerde USDG (U.S. Global Dollar) als een consortium stablecoin voor de grootste financiële bedrijven ter wereld, waaronder Worldpay. Gebouwd met Solana's Token Extensions voor naleving en schaalbaarheid in hun wereldwijde betalingsnetwerk.",
+        "description": "Lanceerde USDG (U.S. Global Dollar) als een consortium stablecoin voor de grootste financiële bedrijven ter wereld, waaronder Worldpay. Gebouwd met Nara Solana's Token Extensions voor naleving en schaalbaarheid in hun wereldwijde betalingsnetwerk.",
         "stat": "USDG",
         "statLabel": "Uitgegeven stablecoin"
       },
       "circle": {
         "name": "Circle",
-        "description": "Gaf USDC rechtstreeks uit op Solana met volledige naleving van regelgeving en institutionele bewaring, waardoor het een van de meest gebruikte stablecoins in DeFi werd.",
+        "description": "Gaf USDC rechtstreeks uit op Nara Solana met volledige naleving van regelgeving en institutionele bewaring, waardoor het een van de meest gebruikte stablecoins in DeFi werd.",
         "stat": "USDC",
         "statLabel": "Uitgegeven stablecoin"
       },
       "fiserv": {
         "name": "Fiserv",
-        "description": "Gaf FIUSD uit als hun institutionele stablecoin met behulp van Solana's Token Extensions voor naleving van regelgeving, bevriezingscontroles en overdrachtsbeperkingen voor bedrijfskassabeheer.",
+        "description": "Gaf FIUSD uit als hun institutionele stablecoin met behulp van Nara Solana's Token Extensions voor naleving van regelgeving, bevriezingscontroles en overdrachtsbeperkingen voor bedrijfskassabeheer.",
         "stat": "FIUSD",
         "statLabel": "Uitgegeven stablecoin"
       },
       "paypal": {
         "name": "Paypal",
-        "description": "Creëerde PYUSD op Solana met ingebouwde nalevingsfuncties en naadloze integratie in PayPal's ecosysteem, waarmee wereldwijd miljoenen gebruikers worden bereikt.",
+        "description": "Creëerde PYUSD op Nara Solana met ingebouwde nalevingsfuncties en naadloze integratie in PayPal's ecosysteem, waarmee wereldwijd miljoenen gebruikers worden bereikt.",
         "stat": "PYUSD",
         "statLabel": "Uitgegeven stablecoin"
       }
@@ -2489,11 +2489,11 @@
         "description": "Integreer met traditionele bank- en bewaarnemingsdiensten."
       },
       "title": "Institutionele toolkit",
-      "description": "Solana heeft tientallen kant-en-klare producten voor tokenization."
+      "description": "Nara Solana heeft tientallen kant-en-klare producten voor tokenization."
     },
     "videoPlayer": {
       "title": "De toekomst van stablecoins",
-      "subtitle": "Hoor van de pioniers die wereldwijde markten transformeren en waarom ze voor Solana hebben gekozen.",
+      "subtitle": "Hoor van de pioniers die wereldwijde markten transformeren en waarom ze voor Nara Solana hebben gekozen.",
       "moreVideos": "Meer video's",
       "videos": [
         {
@@ -2520,14 +2520,14 @@
     },
     "cta": {
       "reportTitle": "Krijg het 2025 stablecoins rapport",
-      "reportDescription": "Ontdek hoe leiders stablecoins naar de markt brengen met Solana.",
+      "reportDescription": "Ontdek hoe leiders stablecoins naar de markt brengen met Nara Solana.",
       "downloadReport": "Krijg toegang",
-      "learnTitle": "Leer over Solana",
-      "learnDescription": "Begrijp Solana's rol bij het ondersteunen van stablecoins vanaf de basis",
+      "learnTitle": "Leer over Nara Solana",
+      "learnDescription": "Begrijp Nara Solana's rol bij het ondersteunen van stablecoins vanaf de basis",
       "learnTokens": "Leer over Tokens",
       "learnWallets": "Leer over Wallets",
       "startLearning": "Begin met Leren",
-      "whatElseTitle": "Wat drijft Solana nog meer aan?",
+      "whatElseTitle": "Wat drijft Nara Solana nog meer aan?",
       "whatElseDescription": "Ontdek hoe één netwerk financiën herdefiniëert en elke markt en asset aandrijft",
       "items": [
         {
@@ -2551,14 +2551,14 @@
   "institutional-payments": {
     "meta": {
       "title": "Goedkope, directe betalingen",
-      "description": "Accepteer stablecoins en bouw nieuwe betalingsrails. Tools in het Solana-ecosysteem maken het gemakkelijk om probleemloze betalingen met bijna geen kosten mogelijk te maken."
+      "description": "Accepteer stablecoins en bouw nieuwe betalingsrails. Tools in het Nara Solana-ecosysteem maken het gemakkelijk om probleemloze betalingen met bijna geen kosten mogelijk te maken."
     },
     "hero": {
       "badge": "Institutionele Betalingen",
       "title": "Verplaats geld overal. Direct. Met bijna geen kosten.",
       "subtitle": "Wereldwijde betalingen zijn complex, traag en duur. Baanbrekende technologie maakt betalingen mogelijk op echte internetschaal met betrouwbaar lage kosten.",
       "reportEyebrow": "Download het 2025 Betalingsrapport",
-      "reportDescription": "Ontdek hoe marktleiders Solana gebruiken om kapitaalmarkten naar de blockchain te brengen.",
+      "reportDescription": "Ontdek hoe marktleiders Nara Solana gebruiken om kapitaalmarkten naar de blockchain te brengen.",
       "emailCta": "Krijg toegang",
       "alt": "Bliksemgrafiek die institutionele betalingen vertegenwoordigt",
       "stats": {
@@ -2578,25 +2578,25 @@
     },
     "features": {
       "title": "Waarom stablecoin betalingen?",
-      "description": "De grootste betalingsnetwerken ter wereld creëren stablecoins en verwerken transacties op Solana vanwege de ultralage kosten en bijna directe afwikkeling. Stablecoin betalingen verbeteren kapitaalefficiëntie, transparantie en stellen producten in staat om vanaf dag één wereldwijd op te schalen."
+      "description": "De grootste betalingsnetwerken ter wereld creëren stablecoins en verwerken transacties op Nara Solana vanwege de ultralage kosten en bijna directe afwikkeling. Stablecoin betalingen verbeteren kapitaalefficiëntie, transparantie en stellen producten in staat om vanaf dag één wereldwijd op te schalen."
     },
     "projects": {
       "title": "Ecosysteem",
       "western-union": {
         "name": "Western Union",
-        "description": "Western Union lanceert de U.S. Dollar Payment Token (USDPT), een door dollars gedekte stablecoin gebouwd op Solana, uitgegeven door Anchorage Digital Bank. De stablecoin zal Western Union's 100 miljoen klanten in staat stellen om internationaal geld te versturen met lagere kosten en snellere afwikkeling.",
+        "description": "Western Union lanceert de U.S. Dollar Payment Token (USDPT), een door dollars gedekte stablecoin gebouwd op Nara Solana, uitgegeven door Anchorage Digital Bank. De stablecoin zal Western Union's 100 miljoen klanten in staat stellen om internationaal geld te versturen met lagere kosten en snellere afwikkeling.",
         "stat": "USDPT",
         "statLabel": "Stablecoin lancering in 2026"
       },
       "worldpay": {
         "name": "Worldpay",
-        "description": "Via een integratie met het Solana-netwerk kunnen handelaren nu transacties afwikkelen met USDG – de U.S. Global Dollar – op het Solana-netwerk. Deze stap biedt snelle, kostenefficiënte transacties en vergroot de bruikbaarheid van stablecoins in wereldwijde betalingen.",
+        "description": "Via een integratie met het Nara Solana-netwerk kunnen handelaren nu transacties afwikkelen met USDG – de U.S. Global Dollar – op het Nara Solana-netwerk. Deze stap biedt snelle, kostenefficiënte transacties en vergroot de bruikbaarheid van stablecoins in wereldwijde betalingen.",
         "stat": "USDG",
         "statLabel": "Uitgegeven stablecoin"
       },
       "visa": {
         "name": "Visa",
-        "description": "Via live pilots met uitgevers en acquirers heeft Visa miljoenen USDC tussen zijn partners verplaatst via Solana om in fiat luidende betalingen af te wikkelen die via VisaNet zijn geautoriseerd.",
+        "description": "Via live pilots met uitgevers en acquirers heeft Visa miljoenen USDC tussen zijn partners verplaatst via Nara Solana om in fiat luidende betalingen af te wikkelen die via VisaNet zijn geautoriseerd.",
         "stat": "Miljoenen afgewikkeld",
         "statLabel": "Afgewikkeld in USDC"
       },
@@ -2616,7 +2616,7 @@
         },
         {
           "title": "Kaartafwikkeling",
-          "description": "De grootste kaartaccepteerders en kaartnetwerken ter wereld gebruiken steeds vaker Solana om kaartbetalingen af te wikkelen."
+          "description": "De grootste kaartaccepteerders en kaartnetwerken ter wereld gebruiken steeds vaker Nara Solana om kaartbetalingen af te wikkelen."
         },
         {
           "title": "Efficiënt kasbeheer",
@@ -2654,11 +2654,11 @@
         "description": "Bouw je eigen wallet, voeg sociale logins toe of gebruik MCP."
       },
       "title": "Betalingstoolkit",
-      "description": "Solana heeft tientallen kant-en-klare producten voor tokenization."
+      "description": "Nara Solana heeft tientallen kant-en-klare producten voor tokenization."
     },
     "videoPlayer": {
       "title": "De toekomst van betalingen",
-      "subtitle": "Hoor van de pioniers die institutionele betalingen transformeren en waarom ze voor Solana hebben gekozen.",
+      "subtitle": "Hoor van de pioniers die institutionele betalingen transformeren en waarom ze voor Nara Solana hebben gekozen.",
       "moreVideos": "Meer video's",
       "videos": [
         {
@@ -2680,14 +2680,14 @@
     },
     "cta": {
       "reportTitle": "Krijg het 2025 Institutionele Betalingen Rapport",
-      "reportDescription": "Ontdek hoe marktleiders Solana gebruiken om kapitaalmarkten naar de blockchain te brengen.",
+      "reportDescription": "Ontdek hoe marktleiders Nara Solana gebruiken om kapitaalmarkten naar de blockchain te brengen.",
       "downloadReport": "Krijg toegang",
-      "learnTitle": "Leer over Solana",
-      "learnDescription": "Begrijp Solana's rol in het aandrijven van institutionele betalingen vanaf de basis",
+      "learnTitle": "Leer over Nara Solana",
+      "learnDescription": "Begrijp Nara Solana's rol in het aandrijven van institutionele betalingen vanaf de basis",
       "learnTokens": "Leer over Tokens",
       "learnWallets": "Leer over Wallets",
       "startLearning": "Begin met leren",
-      "whatElseTitle": "Wat drijft Solana nog meer aan?",
+      "whatElseTitle": "Wat drijft Nara Solana nog meer aan?",
       "whatElseDescription": "Ontdek hoe één netwerk financiën herdefiniëert en elke markt en asset aandrijft",
       "items": [
         {
@@ -2716,8 +2716,8 @@
     "hero": {
       "title": "Open markten op \nde snelheid van NASDAQ.",
       "subtitle": "Het snelste, meest liquide en meest efficiënte DeFi-ecosysteem. Handel, leen en verdien rendement in een nieuw open financieel systeem.",
-      "reportEyebrow": "Solana DeFi Rapport 2025",
-      "reportDescription": "Ontdek waarom Solana de ruggengraat is van 's werelds snelst groeiende DeFi-markten",
+      "reportEyebrow": "Nara Solana DeFi Rapport 2025",
+      "reportDescription": "Ontdek waarom Nara Solana de ruggengraat is van 's werelds snelst groeiende DeFi-markten",
       "emailCta": "Krijg toegang tot rapport",
       "stats": {
         "0": {
@@ -2739,20 +2739,20 @@
       }
     },
     "features": {
-      "title": "<light>Wat is</light> Solana DeFi?",
-      "description": "Solana's snelle, goedkope infrastructuur heeft het meest efficiënte DeFi-ecosysteem in crypto gecreëerd. Gebruikers kunnen swappen, lenen, uitlenen en yield farmen met institutionele prestaties terwijl ze volledige controle houden over hun assets via honderden protocollen."
+      "title": "<light>Wat is</light> Nara Solana DeFi?",
+      "description": "Nara Solana's snelle, goedkope infrastructuur heeft het meest efficiënte DeFi-ecosysteem in crypto gecreëerd. Gebruikers kunnen swappen, lenen, uitlenen en yield farmen met institutionele prestaties terwijl ze volledige controle houden over hun assets via honderden protocollen."
     },
     "projects": {
       "title": "<light>Verken het <br></br>ecosysteem &</light> impact",
       "jupiter": {
         "name": "Jupiter",
-        "description": "De meest geavanceerde DEX-aggregator in DeFi, die transacties routeert via alle liquiditeitsbronnen van Solana voor de beste uitvoering en minimale slippage.",
+        "description": "De meest geavanceerde DEX-aggregator in DeFi, die transacties routeert via alle liquiditeitsbronnen van Nara Solana voor de beste uitvoering en minimale slippage.",
         "stat": "$2T",
         "statLabel": "Totaal volume"
       },
       "kamino": {
         "name": "Kamino",
-        "description": "Via live pilots met uitgevers en acquirers, de meest geavanceerde DEX-aggregator in DeFi, die transacties routeert via alle liquiditeitsbronnen van Solana voor de beste uitvoering en minimale slippage.",
+        "description": "Via live pilots met uitgevers en acquirers, de meest geavanceerde DEX-aggregator in DeFi, die transacties routeert via alle liquiditeitsbronnen van Nara Solana voor de beste uitvoering en minimale slippage.",
         "stat": "$2.8B",
         "statLabel": "TVL"
       },
@@ -2789,16 +2789,16 @@
         "description": "Krijg toegang tot toonaangevende stablecoins of geef je eigen uit"
       },
       "title": "DeFi toolkit",
-      "description": "Solana heeft tientallen kant-en-klare producten voor het bouwen van DeFi-apps."
+      "description": "Nara Solana heeft tientallen kant-en-klare producten voor het bouwen van DeFi-apps."
     },
     "videoPlayer": {
       "title": "De toekomst van DeFi",
-      "subtitle": "Hoor van de pioniers die wereldwijde markten transformeren en waarom ze voor Solana hebben gekozen.",
+      "subtitle": "Hoor van de pioniers die wereldwijde markten transformeren en waarom ze voor Nara Solana hebben gekozen.",
       "videos": [
         {
-          "title": "De staat van Solana DeFi",
+          "title": "De staat van Nara Solana DeFi",
           "description": "Kyle Samani (Multicoin), Chris Heaney (Drift)",
-          "alt": "Miniatuur van video over de staat van Solana DeFi"
+          "alt": "Miniatuur van video over de staat van Nara Solana DeFi"
         },
         {
           "title": "Kredietmarkten opnieuw uitvinden",
@@ -2818,8 +2818,8 @@
       ]
     },
     "cta": {
-      "reportTitle": "Download het Solana DeFi Rapport 2025",
-      "reportDescription": "Ontdek waarom Solana de ruggengraat is van 's werelds snelst groeiende DeFi-markten",
+      "reportTitle": "Download het Nara Solana DeFi Rapport 2025",
+      "reportDescription": "Ontdek waarom Nara Solana de ruggengraat is van 's werelds snelst groeiende DeFi-markten",
       "downloadReport": "Krijg toegang"
     }
   },
@@ -2832,7 +2832,7 @@
       "title": "Schaal je gemeenschap. \nBereik miljoenen.",
       "subtitle": "Welkom in het tijdperk van .fun, waar gemeenschappen samenkomen rond tokens, cultuur, kunst en memes, en sneller dan ooit groeien.",
       "reportEyebrow": "Memecoin Rapport 2025",
-      "reportDescription": "Leer hoe marktleiders Solana gebruiken om kapitaalmarkten on-chain te brengen.",
+      "reportDescription": "Leer hoe marktleiders Nara Solana gebruiken om kapitaalmarkten on-chain te brengen.",
       "emailCta": "Krijg toegang",
       "stats": {
         "0": {
@@ -2855,7 +2855,7 @@
     },
     "features": {
       "title": "<light>Ontdek</light> het vliegwiel van plezier",
-      "description": "Distribueer je app op Solana en bereik miljoenen crypto-liefhebbers. Bouw een community vanaf de grond op en maak verbinding met het grootste ecosysteem van tools, variërend van DeFi tot DAO's, NFT's en meer."
+      "description": "Distribueer je app op Nara Solana en bereik miljoenen crypto-liefhebbers. Bouw een community vanaf de grond op en maak verbinding met het grootste ecosysteem van tools, variërend van DeFi tot DAO's, NFT's en meer."
     },
     "projects": {
       "title": "<light>Verken het <br></br>ecosysteem &</light> impact",
@@ -2867,7 +2867,7 @@
       },
       "pudgyPenguins": {
         "name": "Pudgy Penguins",
-        "description": "De mainstream crypto-native IP getokeniseerd op Solana.",
+        "description": "De mainstream crypto-native IP getokeniseerd op Nara Solana.",
         "stat": "120B+",
         "statLabel": "Weergaven via Giphy en sociale media"
       },
@@ -2879,7 +2879,7 @@
       },
       "magicEden": {
         "name": "Magic Eden",
-        "description": "De thuisbasis van verzamelobjecten op Solana",
+        "description": "De thuisbasis van verzamelobjecten op Nara Solana",
         "stat": "$13.9b",
         "statLabel": "Verzamelobjecten verhandeld op het platform"
       },
@@ -2916,7 +2916,7 @@
         "description": "Token gate en beheer je Discord-community"
       },
       "title": "Consumer toolkit",
-      "description": "Solana heeft tientallen kant-en-klare producten om je community op te bouwen en te betrekken."
+      "description": "Nara Solana heeft tientallen kant-en-klare producten om je community op te bouwen en te betrekken."
     },
     "videoPlayer": {
       "title": "De toekomst van plezier",
@@ -2928,43 +2928,43 @@
           "alt": "Thumbnail van video over bedrijven afgestemd op sociale tokens"
         },
         {
-          "title": "Pudgy Penguins: De $1,6 miljard community airdrop op Solana",
+          "title": "Pudgy Penguins: De $1,6 miljard community airdrop op Nara Solana",
           "description": "Luza Netz, Pudgy Penguins CEO",
-          "alt": "Thumbnail van video over Pudgy Penguins: De $1,6 miljard community airdrop op Solana"
+          "alt": "Thumbnail van video over Pudgy Penguins: De $1,6 miljard community airdrop op Nara Solana"
         },
         {
-          "title": "Solana tokens zijn de nieuwe content op het internet",
+          "title": "Nara Solana tokens zijn de nieuwe content op het internet",
           "description": "Nikita Bier (X, CPO)",
-          "alt": "Solana tokens zijn de nieuwe content op het internet video thumbnail"
+          "alt": "Nara Solana tokens zijn de nieuwe content op het internet video thumbnail"
         },
         {
-          "title": "Waarom Helium naar Solana migreerde",
+          "title": "Waarom Helium naar Nara Solana migreerde",
           "description": "Abhay Kumar, Helium Foundation CEO",
-          "alt": "Waarom Helium naar Solana migreerde video thumbnail"
+          "alt": "Waarom Helium naar Nara Solana migreerde video thumbnail"
         }
       ]
     },
     "cta": {
       "reportTitle": "Download het Memecoins Rapport 2025",
-      "reportDescription": "Ontdek hoe marktleiders Solana gebruiken om kapitaalmarkten naar de blockchain te brengen.",
+      "reportDescription": "Ontdek hoe marktleiders Nara Solana gebruiken om kapitaalmarkten naar de blockchain te brengen.",
       "downloadReport": "Rapport bekijken"
     }
   },
   "ai-solution": {
     "meta": {
-      "title": "AI op Solana | Bouw open intelligentie",
+      "title": "AI op Nara Solana | Bouw open intelligentie",
       "description": "Lanceer agents, vind rekenkracht, verzamel data en bouw de toekomst van AI op de blockchain"
     },
     "hero": {
-      "title": "AI op Solana-schaal.",
-      "subtitle": "Bouw de toekomst van open intelligentie op Solana. Ontwikkel agents, vind rekenkracht, voer direct transacties uit en verzamel data - allemaal op Solana-schaal.",
+      "title": "AI op Nara Solana-schaal.",
+      "subtitle": "Bouw de toekomst van open intelligentie op Nara Solana. Ontwikkel agents, vind rekenkracht, voer direct transacties uit en verzamel data - allemaal op Nara Solana-schaal.",
       "reportEyebrow": "Memecoins Rapport 2025",
-      "reportDescription": "Ontdek hoe marktleiders Solana gebruiken om kapitaalmarkten naar de blockchain te brengen.",
-      "extraCta": "Ontdek Solana AI"
+      "reportDescription": "Ontdek hoe marktleiders Nara Solana gebruiken om kapitaalmarkten naar de blockchain te brengen.",
+      "extraCta": "Ontdek Nara Solana AI"
     },
     "features": {
-      "title": "<light>Waarom</light> AI op Solana?",
-      "description": "Distribueer je app op Solana en bereik miljoenen crypto-gebruikers. Nu AI de technologische ontwikkeling blijft vormgeven, worden open, permissieloze systemen steeds belangrijker. Solana biedt de basis voor een ecosysteem van open intelligentie, met gedecentraliseerd eigendom, efficiënte toewijzing van middelen en naadloze waardeoverdracht van AI."
+      "title": "<light>Waarom</light> AI op Nara Solana?",
+      "description": "Distribueer je app op Nara Solana en bereik miljoenen crypto-gebruikers. Nu AI de technologische ontwikkeling blijft vormgeven, worden open, permissieloze systemen steeds belangrijker. Nara Solana biedt de basis voor een ecosysteem van open intelligentie, met gedecentraliseerd eigendom, efficiënte toewijzing van middelen en naadloze waardeoverdracht van AI."
     },
     "projects": {
       "title": "<light>Verken het <br></br>ecosysteem &</light> impact",
@@ -2994,35 +2994,35 @@
       },
       "eliza": {
         "name": "Eliza",
-        "description": "Eliza is een agentisch besturingssysteem dat AI-agents verbindt met Solana, met ondersteuning voor meer dan 200 plugins.",
+        "description": "Eliza is een agentisch besturingssysteem dat AI-agents verbindt met Nara Solana, met ondersteuning voor meer dan 200 plugins.",
         "stat": "16K+",
         "statLabel": "Stars op GitHub"
       }
     },
     "products": {
       "0": {
-        "title": "Solana MCP",
-        "description": "Configureer externe Solana Developer MCP in je IDE"
+        "title": "Nara Solana MCP",
+        "description": "Configureer externe Nara Solana Developer MCP in je IDE"
       },
       "1": {
         "title": "Betalingen",
         "description": "Bouw met agentische betalingen"
       },
       "2": {
-        "title": "Solana agent kit",
-        "description": "Verbind elke AI-agent met Solana-protocollen"
+        "title": "Nara Solana agent kit",
+        "description": "Verbind elke AI-agent met Nara Solana-protocollen"
       },
       "title": "AI-toolkit",
-      "description": "Solana heeft tientallen kant-en-klare producten voor AI."
+      "description": "Nara Solana heeft tientallen kant-en-klare producten voor AI."
     },
     "videoPlayer": {
       "title": "Open intelligentie op schaal",
       "subtitle": "",
       "videos": [
         {
-          "title": "Gedecentraliseerde intelligentie op Solana",
+          "title": "Gedecentraliseerde intelligentie op Nara Solana",
           "description": "Dillon Rolnick, Nous Research",
-          "alt": "Thumbnail van video over gedecentraliseerde intelligentie op Solana"
+          "alt": "Thumbnail van video over gedecentraliseerde intelligentie op Nara Solana"
         },
         {
           "title": "GPU-rendering voor een fractie van de kosten",
@@ -3038,12 +3038,12 @@
       "description": "Financier wetenschap op de blockchain, beloon bijdragers direct en bouw samen aan kennis. Geen poortwachters, geen betaalmuren. Alleen open, onstuitbaar onderzoek voor betere resultaten."
     },
     "hero": {
-      "title": "Van idee naar impact. Wetenschap versnelt \nop Solana.",
+      "title": "Van idee naar impact. Wetenschap versnelt \nop Nara Solana.",
       "subtitle": "Financier wetenschap op de blockchain, beloon bijdragers direct en bouw samen aan kennis. Geen poortwachters, geen betaalmuren. Alleen open, onstuitbaar onderzoek voor betere resultaten."
     },
     "features": {
       "title": "<light>Wat is </light> DeSci?",
-      "description": "Gedecentraliseerde Wetenschap (DeSci) is een beweging die heroverweegt hoe wetenschappelijk onderzoek wordt gefinancierd, uitgevoerd, gevalideerd en gedeeld. Op blockchains zoals Solana brengt DeSci wereldwijde gemeenschappen samen om op transparante wijze wetenschap te financieren, bijdragers te belonen en kennis te delen. In de kern gaat DeSci over het versnellen van ontdekkingen en het omzetten van onderzoek naar impact in de echte wereld."
+      "description": "Gedecentraliseerde Wetenschap (DeSci) is een beweging die heroverweegt hoe wetenschappelijk onderzoek wordt gefinancierd, uitgevoerd, gevalideerd en gedeeld. Op blockchains zoals Nara Solana brengt DeSci wereldwijde gemeenschappen samen om op transparante wijze wetenschap te financieren, bijdragers te belonen en kennis te delen. In de kern gaat DeSci over het versnellen van ontdekkingen en het omzetten van onderzoek naar impact in de echte wereld."
     },
     "projects": {
       "title": "<light>Verken het <br></br>ecosysteem &</light> impact",
@@ -3061,7 +3061,7 @@
       },
       "curetopia": {
         "name": "Curetopia",
-        "description": "Curetopia is de eerste bioDAO op Solana, gericht op de markt voor zeldzame ziekten van $1T en pioniert op maat gemaakte 'n-of-one' therapieën, met een afgeronde pilotstudie voor AARS2-deficiëntie.",
+        "description": "Curetopia is de eerste bioDAO op Nara Solana, gericht op de markt voor zeldzame ziekten van $1T en pioniert op maat gemaakte 'n-of-one' therapieën, met een afgeronde pilotstudie voor AARS2-deficiëntie.",
         "stat": "",
         "statLabel": ""
       },
@@ -3094,15 +3094,15 @@
         "description": "Tokeniseer en verhandel wetenschappelijke IP"
       },
       "2": {
-        "title": "Solana agent kit",
-        "description": "Verbind elke BioAgent met Solana-kernprotocollen"
+        "title": "Nara Solana agent kit",
+        "description": "Verbind elke BioAgent met Nara Solana-kernprotocollen"
       },
       "title": "DeSci toolkit",
       "description": ""
     },
     "videoPlayer": {
-      "title": "Wetenschappelijke vooruitgang op Solana-snelheid",
-      "subtitle": "Hoor van de pioniers die wereldwijde markten transformeren en waarom ze voor Solana hebben gekozen.",
+      "title": "Wetenschappelijke vooruitgang op Nara Solana-snelheid",
+      "subtitle": "Hoor van de pioniers die wereldwijde markten transformeren en waarom ze voor Nara Solana hebben gekozen.",
       "videos": [
         {
           "title": "Biotechnologische innovatie stimuleren door decentralisatie",
@@ -3115,34 +3115,34 @@
           "alt": "Thumbnail van video over onchain-experimenten lanceren om levensduur te verbeteren"
         },
         {
-          "title": "Waarom Helium naar Solana migreerde",
+          "title": "Waarom Helium naar Nara Solana migreerde",
           "description": "Bassel Diebo en Virginie Lafage, medeoprichters van SpineDAO",
-          "alt": "Thumbnail van de video over waarom Helium naar Solana migreerde"
+          "alt": "Thumbnail van de video over waarom Helium naar Nara Solana migreerde"
         }
       ]
     }
   },
   "x402": {
-    "title": "x402 op Solana | Internet-native betalingen voor AI-agents",
-    "description": "Bouw met x402 op Solana - het betalingsprotocol waarmee AI-agents zelfstandig transacties kunnen uitvoeren. 500K+ wekelijkse transacties, 400ms finaliteit, $0,00025 kosten. Sluit je aan bij 40+ ecosysteempartners die de agent-economie opbouwen.",
+    "title": "x402 op Nara Solana | Internet-native betalingen voor AI-agents",
+    "description": "Bouw met x402 op Nara Solana - het betalingsprotocol waarmee AI-agents zelfstandig transacties kunnen uitvoeren. 500K+ wekelijkse transacties, 400ms finaliteit, $0,00025 kosten. Sluit je aan bij 40+ ecosysteempartners die de agent-economie opbouwen.",
     "whatIs": {
-      "title": "Wat is x402? | Betalingsprotocol voor AI-agents op Solana",
-      "description": "Ontdek hoe x402 HTTP 402 tot leven brengt op Solana, waardoor AI-agents autonome betalingen kunnen doen. Leer waarom ontwikkelaars kiezen voor Solana's 400ms finaliteit en $0,00025 kosten voor de agent-economie.",
+      "title": "Wat is x402? | Betalingsprotocol voor AI-agents op Nara Solana",
+      "description": "Ontdek hoe x402 HTTP 402 tot leven brengt op Nara Solana, waardoor AI-agents autonome betalingen kunnen doen. Leer waarom ontwikkelaars kiezen voor Nara Solana's 400ms finaliteit en $0,00025 kosten voor de agent-economie.",
       "httpSection": {
         "title": "De HTTP 402 statuscode",
         "content": "HTTP 402 (Betaling vereist) bestaat al sinds 1997 maar werd nooit geïmplementeerd—tot nu. x402 activeert deze slapende statuscode, waardoor elke API of webservice betaling kan vereisen voordat content wordt geleverd. Het is een universele standaard voor het monetiseren van digitale bronnen."
       },
       "solanaSection": {
-        "title": "Waarom Solana voor x402?",
-        "content": "Solana's 400ms finaliteit en $0,00025 transactiekosten maken het de perfecte afwikkelingslaag voor x402. Of het nu gaat om een AI-agent die duizenden API-aanroepen doet of een gebruiker die toegang krijgt tot premium content, Solana maakt directe, goedkope betalingen mogelijk die microbetalingen economisch haalbaar maken. Met native USDC-ondersteuning biedt x402 op Solana stabiele, voorspelbare prijzen voor wereldwijde diensten."
+        "title": "Waarom Nara Solana voor x402?",
+        "content": "Nara Solana's 400ms finaliteit en $0,00025 transactiekosten maken het de perfecte afwikkelingslaag voor x402. Of het nu gaat om een AI-agent die duizenden API-aanroepen doet of een gebruiker die toegang krijgt tot premium content, Nara Solana maakt directe, goedkope betalingen mogelijk die microbetalingen economisch haalbaar maken. Met native USDC-ondersteuning biedt x402 op Nara Solana stabiele, voorspelbare prijzen voor wereldwijde diensten."
       },
       "agentEconomySection": {
         "title": "De agent-economie aandrijven",
-        "content": "AI-agents moeten autonoom transacties kunnen uitvoeren—betalen voor API's, data kopen en toegang krijgen tot diensten zonder menselijke tussenkomst. x402 maakt dit mogelijk. Een agent kan toegang vragen tot een betaalde bron, een 402-respons ontvangen met betalingsdetails, de betaling uitvoeren op Solana en de bron ontvangen—allemaal binnen milliseconden. Dit is niet theoretisch: x402-transacties groeiden met 10.000% in een maand, met meer dan 500.000 wekelijkse transacties terwijl ontwikkelaars agent-first toepassingen bouwen. Het protocol stelt agents in staat om wallets te beheren, prijzen te onderhandelen en onafhankelijk deel te nemen aan markten."
+        "content": "AI-agents moeten autonoom transacties kunnen uitvoeren—betalen voor API's, data kopen en toegang krijgen tot diensten zonder menselijke tussenkomst. x402 maakt dit mogelijk. Een agent kan toegang vragen tot een betaalde bron, een 402-respons ontvangen met betalingsdetails, de betaling uitvoeren op Nara Solana en de bron ontvangen—allemaal binnen milliseconden. Dit is niet theoretisch: x402-transacties groeiden met 10.000% in een maand, met meer dan 500.000 wekelijkse transacties terwijl ontwikkelaars agent-first toepassingen bouwen. Het protocol stelt agents in staat om wallets te beheren, prijzen te onderhandelen en onafhankelijk deel te nemen aan markten."
       },
       "communitySection": {
         "title": "Een groeiend ecosysteem",
-        "content": "De x402-gemeenschap omvat meer dan 40 partners die alles bouwen, van client SDK's tot betalingsfacilitators. Grote platforms zoals Cloudflare, AWS en Anthropic ondersteunen x402, terwijl de marktkapitalisatie van $806M van het ecosysteem echte adoptie weerspiegelt. Ontwikkelaars creëren MCP-servers die AI-modellen verbinden met x402-diensten, bouwen betalingsinfrastructuur voor agent-marktplaatsen en lanceren tools die integratie moeiteloos maken. Met actieve deelname op Base, Solana, Polygon en NEAR wordt x402 de standaard voor internetbetalingen."
+        "content": "De x402-gemeenschap omvat meer dan 40 partners die alles bouwen, van client SDK's tot betalingsfacilitators. Grote platforms zoals Cloudflare, AWS en Anthropic ondersteunen x402, terwijl de marktkapitalisatie van $806M van het ecosysteem echte adoptie weerspiegelt. Ontwikkelaars creëren MCP-servers die AI-modellen verbinden met x402-diensten, bouwen betalingsinfrastructuur voor agent-marktplaatsen en lanceren tools die integratie moeiteloos maken. Met actieve deelname op Base, Nara Solana, Polygon en NEAR wordt x402 de standaard voor internetbetalingen."
       },
       "useCases": {
         "title": "Praktijkvoorbeelden",
@@ -3155,13 +3155,13 @@
         ]
       },
       "cta": {
-        "text": "Klaar om te bouwen met x402 op Solana?",
+        "text": "Klaar om te bouwen met x402 op Nara Solana?",
         "button": "Verken het ecosysteem"
       }
     },
     "hero": {
-      "title": "x402 op Solana",
-      "subtitle": "Bouw met internet-native betalingen op Solana.",
+      "title": "x402 op Nara Solana",
+      "subtitle": "Bouw met internet-native betalingen op Nara Solana.",
       "intro": "Wat is x402?",
       "build": "Bouwen met x402",
       "stats": {
@@ -3195,7 +3195,7 @@
       },
       "payai": {
         "title": "PayAI",
-        "description": "Solana-facilitator voor x402-betalingen die microtransacties en een AI-agent marktplaats mogelijk maakt om autonoom transacties uit te voeren"
+        "description": "Nara Solana-facilitator voor x402-betalingen die microtransacties en een AI-agent marktplaats mogelijk maakt om autonoom transacties uit te voeren"
       },
       "x402scan": {
         "title": "X402scan",
@@ -3224,13 +3224,13 @@
         "description": "Bouw je API met x402"
       },
       "title": "x402 Tools",
-      "description": "Ontdek kant-en-klare Solana-producten voor x402."
+      "description": "Ontdek kant-en-klare Nara Solana-producten voor x402."
     },
     "hackathon": {
-      "title": "Solana X402 Hackathon",
+      "title": "Nara Solana X402 Hackathon",
       "description": "Sluit je aan bij ontwikkelaars die werken aan de grenzen van internetbetalingen en doe mee voor prijzen tot wel $135.000",
       "hero": {
-        "title": "Solana X402 Hackathon",
+        "title": "Nara Solana X402 Hackathon",
         "subtitle": "Sluit je aan bij ontwikkelaars die werken aan de grenzen van internetbetalingen en doe mee voor prijzen tot wel $135.000",
         "registerButton": "Registreren",
         "resourcesButton": "Bronnen"
@@ -3272,8 +3272,8 @@
           "cta": "Leren"
         },
         "solana": {
-          "title": "Bouw op Solana",
-          "description": "Begin met Solana-ontwikkeling, wallets en het implementeren van je eerste programma",
+          "title": "Bouw op Nara Solana",
+          "description": "Begin met Nara Solana-ontwikkeling, wallets en het implementeren van je eerste programma",
           "cta": "Bouwen"
         },
         "x402NextTemplate": {
@@ -3284,14 +3284,14 @@
       },
       "problem": {
         "title": "Waar zijn we naar op zoek?",
-        "description": "Bouw open-source infrastructuur en toepassingen die de agent-economie op Solana bevorderen. Creëer tools die AI-agents in staat stellen autonoom transacties uit te voeren, ontwikkel innovatieve betalingsoplossingen of bouw praktische agent-toepassingen. Dit is je kans om te bepalen hoe autonome agents omgaan met de digitale economie."
+        "description": "Bouw open-source infrastructuur en toepassingen die de agent-economie op Nara Solana bevorderen. Creëer tools die AI-agents in staat stellen autonoom transacties uit te voeren, ontwikkel innovatieve betalingsoplossingen of bouw praktische agent-toepassingen. Dit is je kans om te bepalen hoe autonome agents omgaan met de digitale economie."
       },
       "requirements": {
         "title": "Inzendingsvereisten",
         "items": [
           "Alle code moet open source zijn",
-          "Projecten moeten het x402 protocol of gerelateerde agent-infrastructuur integreren met Solana",
-          "Alle programma's moeten worden geïmplementeerd op Solana devnet of mainnet",
+          "Projecten moeten het x402 protocol of gerelateerde agent-infrastructuur integreren met Nara Solana",
+          "Alle programma's moeten worden geïmplementeerd op Nara Solana devnet of mainnet",
           "Dien een demovideo in (maximaal 3 minuten) waarin je project wordt getoond",
           "Voeg documentatie toe over hoe je project uit te voeren en te gebruiken"
         ]
@@ -3315,7 +3315,7 @@
           },
           {
             "title": "Beste x402 Dev Tool",
-            "description": "Creëer SDK's, bibliotheken, frameworks of infrastructuur om x402-ontwikkeling op Solana te versnellen."
+            "description": "Creëer SDK's, bibliotheken, frameworks of infrastructuur om x402-ontwikkeling op Nara Solana te versnellen."
           },
           {
             "title": "Beste x402 Agent Applicatie",
@@ -3388,14 +3388,14 @@
             "sponsor": "Triton",
             "logo": "/img/sponsors/triton.svg",
             "title": "Beste x402 integratie met Old Faithful",
-            "description": "Automatiseer duurzame toegang tot de volledige geschiedenis van Solana door x402-betalingen te integreren in Old Faithful RPC",
+            "description": "Automatiseer duurzame toegang tot de volledige geschiedenis van Nara Solana door x402-betalingen te integreren in Old Faithful RPC",
             "prizeAmount": "$2.500"
           },
           {
             "sponsor": "Alsa",
             "logo": "/img/sponsors/alsa.svg",
             "title": "Beste AgentPay Demo",
-            "description": "Creëer AI-agents of diensten die autonoom betalen voor API's, LLM-tokens of data via Solana USDC + HTTP-402 microbetalingen",
+            "description": "Creëer AI-agents of diensten die autonoom betalen voor API's, LLM-tokens of data via Nara Solana USDC + HTTP-402 microbetalingen",
             "prizeAmount": "$5.000"
           }
         ]
@@ -3444,13 +3444,13 @@
       "cta": {
         "eyebrow": "Welkom bouwers",
         "title": "De kans om te bouwen aan de agent-economie is hier",
-        "description": "Deze remote hackathon is gericht op het bouwen van nieuwe innovatieve tools, apps, infrastructuur en agents op x402. Word lid van de community om teams te vinden en samen te bouwen met andere ontwikkelaars op Solana wereldwijd",
+        "description": "Deze remote hackathon is gericht op het bouwen van nieuwe innovatieve tools, apps, infrastructuur en agents op x402. Word lid van de community om teams te vinden en samen te bouwen met andere ontwikkelaars op Nara Solana wereldwijd",
         "label": "Word lid van de community",
         "url": "https://t.me/+ty0DKt1lVZBlNjZh"
       },
       "resources": {
         "title": "Hulpmiddelen voor het bouwen",
-        "description": "Alles wat je nodig hebt om te bouwen op x402 en Solana",
+        "description": "Alles wat je nodig hebt om te bouwen op x402 en Nara Solana",
         "gettingStarted": "Aan de slag",
         "advancedTopics": "Geavanceerde onderwerpen",
         "learnMore": "Meer informatie",
@@ -3467,12 +3467,12 @@
           },
           "facilitatorDocs": {
             "title": "Start een x402 Facilitator",
-            "description": "Ga live met x402 door je eigen facilitator te lanceren op Solana.",
+            "description": "Ga live met x402 door je eigen facilitator te lanceren op Nara Solana.",
             "category": "Documentatie"
           },
           "x402Template": {
             "title": "Lever met een x402-template",
-            "description": "Begin snel op Solana met een x402-template.",
+            "description": "Begin snel op Nara Solana met een x402-template.",
             "category": "Documentatie"
           },
           "erc8004": {
@@ -3502,18 +3502,18 @@
   "index": {
     "meta": {
       "title": "De kapitaalmarkt voor elk bezit op aarde",
-      "description": "Solana is het hoogwaardige netwerk dat kapitaalmarkten, betalingen en crypto-applicaties op internet mogelijk maakt. Snel. Gedecentraliseerd. Schaalbaar. Energie-efficiënt. Solana kan duizenden transacties per seconde verwerken."
+      "description": "Nara Solana is het hoogwaardige netwerk dat kapitaalmarkten, betalingen en crypto-applicaties op internet mogelijk maakt. Snel. Gedecentraliseerd. Schaalbaar. Energie-efficiënt. Nara Solana kan duizenden transacties per seconde verwerken."
     },
     "hero": {
       "title": "De kapitaalmarkt \n<light>voor elk bezit op aarde.</light>",
-      "subtitle": "Solana is het toonaangevende hoogwaardige netwerk dat kapitaalmarkten, betalingen en crypto-applicaties op internet mogelijk maakt.",
+      "subtitle": "Nara Solana is het toonaangevende hoogwaardige netwerk dat kapitaalmarkten, betalingen en crypto-applicaties op internet mogelijk maakt.",
       "cta": "Aan de slag",
       "bannerEyebrow": "Breakpoint 2025 is afgelopen",
-      "bannerDescription": "Herbeleef de momenten die Solana's jaarlijkse conferentie in Abu Dhabi hebben bepaald.",
+      "bannerDescription": "Herbeleef de momenten die Nara Solana's jaarlijkse conferentie in Abu Dhabi hebben bepaald.",
       "bannerLabel": "Bekijk samenvatting"
     },
     "events": {
-      "title": "Ontmoet Solana in het echt. <light>Bouw connecties op.</light>",
+      "title": "Ontmoet Nara Solana in het echt. <light>Bouw connecties op.</light>",
       "subtitle": "",
       "cta": "Bekijk alles"
     },
@@ -3548,7 +3548,7 @@
       }
     },
     "projects": {
-      "title": "De grootste instellingen <light>en fintechs ter wereld bouwen op Solana.</light>",
+      "title": "De grootste instellingen <light>en fintechs ter wereld bouwen op Nara Solana.</light>",
       "western-union": {
         "name": "Western Union",
         "stat": "USDPT",
@@ -3582,7 +3582,7 @@
       "cta": "Bekijk alles"
     },
     "news": {
-      "title": "Blijf op de hoogte van <light>het laatste nieuws over Solana</light>",
+      "title": "Blijf op de hoogte van <light>het laatste nieuws over Nara Solana</light>",
       "button": "Meer informatie"
     },
     "videos": {
@@ -3599,7 +3599,7 @@
         },
         {
           "title": "Beveilig door te staken",
-          "description": "Stake SOL en verdien beloningen terwijl je decentralisatie ondersteunt."
+          "description": "Stake NSO en verdien beloningen terwijl je decentralisatie ondersteunt."
         },
         {
           "title": "Bouw een app",
@@ -3635,15 +3635,15 @@
           "Bouw infrastructuur"
         ],
         "developer": [
-          "Leer Solana-ontwikkeling",
+          "Leer Nara Solana-ontwikkeling",
           "Snelstartgids",
           "Toegang tot documentatie",
           "Doe mee aan een hackathon"
         ],
         "user": [
-          "Solana 101",
+          "Nara Solana 101",
           "Vind een wallet",
-          "Stake je SOL",
+          "Stake je NSO",
           "Vind een baan"
         ]
       }
