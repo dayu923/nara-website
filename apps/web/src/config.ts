@@ -30,5 +30,6 @@ export const config = {
       },
     },
   },
-  siteIcon: `https://solana.com/favicon.png`,
+  siteIcon: `/nara-favicon.png`,
+  // siteIcon: `https://solana.com/favicon.png`,
 };

@@ -10,7 +10,7 @@ export function getBaseMetadata(locale: string) {
       language: locale,
     },
     title: {
-      template: "%s | Solana",
+      template: "%s | Nara Solana",
       default: siteMetadata.title,
     },
     description: siteMetadata.description,
@@ -26,23 +26,9 @@ export function getBaseMetadata(locale: string) {
     robots: "index, follow",
     manifest: "/site.webmanifest",
     metadataBase: new URL(siteUrl),
-    icons: [
-      {
-        url: "/favicon.png",
-        rel: "icon",
-        type: "image/png",
-      },
-      {
-        url: "/favicon.svg",
-        rel: "icon",
-        type: "image/svg+xml",
-      },
-      {
-        url: "/apple-touch-icon.png",
-        rel: "apple-touch-icon",
-        sizes: "180x180",
-      },
-    ],
+    icons: {
+      icon: [{ url: "/favicon.png", type: "image/png" }],
+    },
   };
 }
 
