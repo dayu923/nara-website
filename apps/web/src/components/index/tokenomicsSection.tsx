@@ -100,7 +100,7 @@ const Chat = styled.div`
 
 const ChaLablel = styled.div`
   font-size: 16px;
-  color: #656467;
+  color: #afafb0;
   @media (max-width: 768px) {
     font-size: 12px;
   }
@@ -164,7 +164,7 @@ const InfoLender = styled.div<{ $color: string }>`
 
 const InfoValue = styled.div`
   font-size: 16px;
-  color: #656467;
+  color: #afafb0;
 
   @media (max-width: 768px) {
     font-size: 12px;

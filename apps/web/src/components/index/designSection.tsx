@@ -105,7 +105,7 @@ const DesignItem = styled.div`
     font-size: 24px;
   }
   span {
-    color: #656467;
+    color: #afafb0;
     font-size: 16px;
   }
 

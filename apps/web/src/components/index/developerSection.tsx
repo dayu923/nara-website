@@ -87,7 +87,7 @@ const DeveloperItem = styled.div`
 
   span {
     font-size: 16px;
-    color: #656467;
+    color: #afafb0;
     line-height: 1.5;
   }
 

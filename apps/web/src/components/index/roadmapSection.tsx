@@ -104,7 +104,7 @@ const RoadItem = styled.div`
   }
 
   & > span {
-    color: #656467;
+    color: #afafb0;
     font-size: 64px;
     font-weight: 300;
     line-height: 1.1;
@@ -141,7 +141,7 @@ const StatList = styled.div`
     position: relative;
     margin: 0;
     font-size: 16px;
-    color: #656467;
+    color: #afafb0;
     line-height: 1.5;
   }
 

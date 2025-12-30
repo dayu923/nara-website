@@ -39,6 +39,7 @@ const AnimatedBox = styled(motion.div)`
   margin-bottom: 160px;
   line-height: 1.5;
   font-family: "Sans Tab";
+  font-weight: 300;
   @media (max-width: 768px) {
     gap: 20px;
     margin-bottom: 116px;

@@ -136,7 +136,8 @@ const PrivacyItem = styled.div`
   line-height: 1.5;
   color: #fafafa;
   strong {
-    color: #656467;
+    color: #afafb0;
+    font-weight: 300;
   }
   @media (max-width: 768px) {
     font-size: 12px;

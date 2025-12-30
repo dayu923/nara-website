@@ -304,7 +304,7 @@ const BarName = styled.div`
 const BarSubName = styled.div`
   margin-top: 8px;
   font-size: 16px;
-  color: #656467;
+  color: #afafb0;
   @media (max-width: 768px) {
     font-size: 12px;
   }
@@ -344,7 +344,7 @@ const BarInfo = styled.div`
 
 const BarSolInfo = styled(BarInfo)`
   align-items: center;
-  color: #656467;
+  color: #afafb0;
   b {
     font-size: 16px;
   }

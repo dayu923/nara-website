@@ -139,7 +139,7 @@ const AdvantagesItem = styled.div`
   background: rgba(250, 250, 250, 0.08);
   border-radius: 16px;
   line-height: 1.5;
-  backdrop-filter: blur(16px);
+  backdrop-filter: blur(30px);
   cursor: pointer;
   overflow: hidden;
 
@@ -154,7 +154,7 @@ const AdvantagesItem = styled.div`
     font-size: 24px;
   }
   span {
-    color: #656467;
+    color: #afafb0;
     font-size: 16px;
   }
 

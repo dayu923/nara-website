@@ -110,7 +110,7 @@ const WhatLeftTitle = styled.div`
 const Paragraph = styled.p`
   margin: 0;
   font-size: 16px;
-  color: #656467;
+  color: #afafb0;
 
   @media (max-width: 768px) {
     font-size: 12px;
