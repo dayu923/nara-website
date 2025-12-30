@@ -104,7 +104,7 @@ const PrivacyBg = styled.div`
 const PrivacyList = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 16px;
+  padding: 0 16px;
   border-radius: 16px;
   border: 1px solid rgba(250, 250, 250, 0.1);
   background: rgba(1, 0, 5, 0.6);
@@ -119,8 +119,12 @@ const PrivacyLine = styled.div`
   width: 1px;
   height: 100%;
   margin: 0 16px;
-  background: #656467;
-
+  background: linear-gradient(
+    180deg,
+    rgba(250, 250, 250, 0.1),
+    rgba(250, 250, 250, 0.4),
+    rgba(255, 255, 255, 0.1)
+  );
   @media (max-width: 768px) {
     width: 100%;
     height: 1px;
@@ -139,6 +143,21 @@ const PrivacyItem = styled.div`
     color: #afafb0;
     font-weight: 300;
   }
+
+  span {
+    position: relative;
+    &::before {
+      content: "";
+      display: block;
+      width: 2px;
+      height: 24px;
+      position: absolute;
+      left: -17px;
+      top: 6px;
+      background: #d9d9d9;
+    }
+  }
+
   @media (max-width: 768px) {
     font-size: 12px;
   }

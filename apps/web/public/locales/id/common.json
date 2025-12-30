@@ -953,6 +953,7 @@
     },
     "network": {
       "title": "Jaringan",
+      "testnet": "Jaringan uji",
       "inspect": {
         "title": "Periksa",
         "items": [
@@ -3499,6 +3500,118 @@
       }
     }
   },
+  "newindex": {
+      "meta": {
+        "title": "Nara Solana",
+        "description": "Blockchain Layer-1 berperforma tinggi yang berfokus pada privasi, sepenuhnya kompatibel dengan ekosistem Solana"
+      },
+      "privacy": {
+        "title": "Privacy-First Nara Solana Layer-1",
+        "heroDescription1": "Nara Solana: blockchain Layer-1 berperforma tinggi <light>yang berfokus pada privasi, dioptimalkan secara mendalam pada arsitektur Solana.</light>",
+        "heroDescription2": "Sepenuhnya <light>kompatibel dengan ekosistem Solana, pemetaan aset mainnet secara mulus, dibangun untuk keuangan generasi berikutnya, privasi, dan infrastruktur Web3 global.</light>",
+        "heroDescription3": "Bukan sekadar Solana yang lebih murah: <light>lapisan eksekusi baru untuk keuangan privat, sosial anonim, DeFi generasi berikutnya, dan aplikasi on-chain berskala besar.</light>"
+      },
+      "what": {
+        "title": "Apa itu Nara?",
+        "subTitle": "Nara Solana",
+        "subDescription": "Nara: “Linux”-nya AI trading — sistem operasi open-source dan transparan yang menyatukan pengambilan keputusan, manajemen risiko, dan eksekusi di seluruh kelas aset. Dimulai dari kripto, berkembang ke saham, forex, dan futures."
+      },
+      "advantages": {
+        "title": "Keunggulan Utama",
+        "gas": "Gas Lebih Rendah",
+        "gasDescription": "Biaya sangat rendah — sempurna untuk interaksi frekuensi tinggi dan aplikasi berskala besar.",
+        "lower": "Sewa Akun Lebih Rendah",
+        "lowerDescription": "Biaya penyimpanan state jangka panjang yang jauh lebih rendah — sangat meningkatkan keberlanjutan aplikasi.",
+        "ultra": "Akun Ultra-Besar",
+        "ultraDescription": "Mendukung akun aplikasi yang jauh lebih besar — melampaui batas penyimpanan tradisional Solana.",
+        "super": "On-Chain Skala Super-Besar",
+        "superDescription": "Dirancang untuk DeFi kompleks, game on-chain, protokol privasi, dan aplikasi big data.",
+        "program": "Kompatibilitas Program",
+        "programDescription": "Tidak perlu belajar ulang: program Solana yang ada dapat dimigrasikan dengan biaya rendah.",
+        "assets": "Aset Mainnet Solana",
+        "assetsDescription": "Bridging lintas-chain yang aman: aset Solana native masuk ke ekosistem Nara secara mulus."
+      },
+      "protocol": {
+        "title": "Peningkatan Parameter Tingkat Protokol Inti",
+        "description": "Mempertahankan arsitektur berperforma tinggi Solana — meningkatkan batas protokol secara signifikan.",
+        "description2": "Hal ini menjadikan Nara Solana sebagai public chain pertama yang benar-benar mampu menampung “aplikasi tingkat sistem operasi on-chain”.",
+        "subTitle1": "Data Instruction Maksimum",
+        "subTitle2": "Perluasan Akun per Instruction",
+        "subTitle3": "Ukuran Akun Maksimum",
+        "subTitle4": "Ukuran Stack Frame",
+        "subTitle5": "Batas Single Realloc",
+        "subTitle6": "Compute Units Default",
+        "subTitle7": "Compute Units Maksimum",
+        "subTitle8": "Batas Load Akun per Transaksi"
+      },
+      "design": {
+        "title": "Desain Native-Privasi",
+        "description": "Nara Solana memiliki lapisan protokol privasi lengkap yang terintegrasi:",
+        "zkId": "zkID – Sistem Identitas Anonim",
+        "zkIdDescription": "Identitas terdesentralisasi melalui zero-knowledge proofs — pengguna tidak pernah mengungkapkan identitas asli.",
+        "anonymousTransfers": "Transfer Anonim",
+        "anonymousDescription": "Aliran dana on-chain yang sepenuhnya privat melalui aset rahasia berbasis zkID.",
+        "anonymousVoting": "Voting Anonim",
+        "anonymousDescription2": "Cocok untuk tata kelola, DAO, manajemen komunitas, dan pemilihan yang menjaga privasi.",
+        "privacyDeFi": "DeFi Privat",
+        "privacyDescription": "Mendukung market making privat, lending anonim, derivatif privat, dan perdagangan dark pool.",
+        "privacySocialNetworks": "Jejaring Sosial Privat",
+        "privacyDescription2": "Memungkinkan follow anonim, publikasi konten privat, dan grafik relasi yang diprivatisasi.",
+        "nativeDeFiLaunchpad": "Launchpad DeFi Native",
+        "nativeDescription": "Platform peluncuran khusus untuk generasi berikutnya dari proyek anonim."
+      },
+      "developer": {
+        "title": "Ekosistem Developer & Program Insentif",
+        "description": "Untuk mendorong cold-start dan pertumbuhan ekosistem yang eksplosif, Nara Solana meluncurkan program developer berskala besar.",
+        "rewards": "Reward Migrasi Proyek Solana",
+        "rewardsDescription": "Dukungan penuh untuk migrasi DApp Solana yang ada dengan biaya rendah, termasuk bonus khusus.",
+        "funding": "Pendanaan Aplikasi Ekosistem",
+        "fundingDescription": "Dukungan penuh untuk aplikasi baru dengan insentif khusus.",
+        "program": "Program Early Builder",
+        "programDescription": "Insentif tambahan bagi validator awal dan kontributor ekosistem."
+      },
+      "early": {
+        "title": "Program Subsidi Staking Awal",
+        "description": "Untuk memastikan keamanan jaringan dan desentralisasi",
+        "subsidy1": "Subsidi awal dengan APR sangat tinggi",
+        "subsidy2": "Subsidi peluncuran node validator",
+        "subsidy3": "Bonus tambahan untuk peserta jangka panjang",
+        "subsidy4": "Semakin lama penguncian, semakin tinggi imbalannya"
+      },
+      "tokenomics": {
+        "title": "Tokenomics",
+        "totalSupply": "Total Pasokan",
+        "privatePresale": "Presale Publik/Privat",
+        "airdropToSolanaHolders": "Airdrop untuk Pemegang Solana",
+        "dAppEcosystemRewards": "Reward Ekosistem DApp",
+        "earlyStakingRewards": "Reward Staking Awal",
+        "testnetParticipantRewards": "Reward Partisipan Testnet",
+        "foundationReserve": "Cadangan Foundation"
+      },
+      "roadmap": {
+        "title": "Roadmap",
+        "testnetGenesis": "Genesis Testnet",
+        "testnetGenesisDescription": "Pengujian performa setara mainnet",
+        "testnetGenesisDescription2": "Peluncuran bridge lintas-chain Nara Bridge",
+        "testnetGenesisDescription3": "Rilis infrastruktur zkID",
+        "mainnetLaunch": "Peluncuran Mainnet",
+        "mainnetLaunchDescription": "Mainnet resmi diluncurkan",
+        "mainnetLaunchDescription2": "Transfer anonim & akun privat",
+        "mainnetLaunchDescription3": "Rekrutmen node dimulai",
+        "deFiExpansion": "Ekspansi DeFi & Privasi",
+        "deFiExpansionDescription": "DEX anonim",
+        "deFiExpansionDescription2": "Protokol lending privat",
+        "deFiExpansionDescription3": "Sistem tata kelola DAO anonim",
+        "massAdoption": "Adopsi Massal",
+        "massAdoptionDescription": "Jejaring sosial anonim",
+        "massAdoptionDescription2": "Solusi private chain tingkat enterprise",
+        "massAdoptionDescription3": "Program dukungan ekosistem developer global"
+      },
+      "build": {
+        "buildFreely": "Bangun dengan bebas. Bertransaksi secara privat. Skalakan tanpa batas.",
+        "buildAbove": "Bangun di atas cahaya, bebas dalam privasi."
+      }
+  },  
   "index": {
     "meta": {
       "title": "Pasar Modal Untuk Setiap Aset di Bumi",

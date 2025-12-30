@@ -244,6 +244,7 @@ const ProtocolList = styled.div`
 
 const ProtocolItem = styled.div<{ $width: string }>`
   position: relative;
+  z-index: 1;
   flex: 1 1 ${(props) => props.$width || "50%"};
   padding: 24px;
   background: rgba(250, 250, 250, 0.05);
@@ -265,6 +266,7 @@ const ProtocolItem = styled.div<{ $width: string }>`
 
 const CardBgIcon = styled.img`
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
   max-width: 294px;
@@ -346,6 +348,7 @@ const BarSolInfo = styled(BarInfo)`
   align-items: center;
   color: #afafb0;
   b {
+    font-weight: 300;
     font-size: 16px;
   }
 `;

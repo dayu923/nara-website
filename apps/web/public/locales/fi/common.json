@@ -953,6 +953,7 @@
     },
     "network": {
       "title": "Verkko",
+      "testnet": "Testiverkko",
       "inspect": {
         "title": "Tarkista",
         "items": [
@@ -3499,6 +3500,120 @@
       }
     }
   },
+  "newindex": {
+      "meta": {
+        "title": "Nara Solana",
+        "description": "Yksityisyyteen keskittyvä, korkean suorituskyvyn Layer-1-lohkoketju, täysin yhteensopiva Solana-ekosysteemin kanssa"
+      },
+      "privacy": {
+        "title": "Privacy-First Nara Solana Layer-1",
+        "heroDescription1": "Nara Solana: <light>korkean suorituskyvyn, yksityisyyteen keskittyvä Layer-1-lohkoketju, syvällisesti optimoitu Solanan arkkitehtuurille.</light>",
+        "heroDescription2": "Täysin yhteensopiva <light>Solana-ekosysteemin kanssa, saumaton mainnet-assetien kartoitus, rakennettu seuraavan sukupolven rahoitusta, yksityisyyttä ja globaalia Web3-infrastruktuuria varten.</light>",
+        "heroDescription3": "Ei vain halvempi Solana: <light>uusi execution layer yksityiselle rahoitukselle, anonyymeille sosiaalisille verkoille, next-gen DeFi:lle ja laajamittaisille on-chain-sovelluksille.</light>"
+      },
+      "what": {
+        "title": "Mikä on Nara?",
+        "subTitle": "Nara Solana",
+        "subDescription": "Nara: tekoälypohjaisen kaupankäynnin “Linux” — avoimen lähdekoodin, läpinäkyvä käyttöjärjestelmä, joka yhdistää päätöksenteon, riskienhallinnan ja toteutuksen kaikissa omaisuusluokissa. Aloittaa kryptosta ja laajenee osakkeisiin, forexiin ja futuureihin."
+      },
+      "advantages": {
+        "title": "Keskeiset Edut",
+        "gas": "Alhaisemmat Gas-maksut",
+        "gasDescription": "Erittäin matalat maksut — ihanteelliset korkean taajuuden vuorovaikutuksiin ja laajamittaisiin sovelluksiin.",
+        "lower": "Alhaisempi Account Rent",
+        "lowerDescription": "Merkittävästi pienemmät pitkän aikavälin tallennuskustannukset — parantaa sovellusten kestävyyttä huomattavasti.",
+        "ultra": "Ultra-suuret tilit",
+        "ultraDescription": "Tukee huomattavasti suurempia sovellustilejä — rikkoo Solanan perinteiset tallennusrajat.",
+        "super": "Super-laajamittainen On-Chain",
+        "superDescription": "Suunniteltu monimutkaiseen DeFiin, on-chain-peleihin, privacy-protokolliin ja big data -sovelluksiin.",
+        "program": "Ohjelmayhteensopivuus",
+        "programDescription": "Ei uudelleenopettelua: olemassa olevat Solana-ohjelmat voidaan siirtää matalin kustannuksin.",
+        "assets": "Solana Mainnet -varat",
+        "assetsDescription": "Turvallinen cross-chain-bridging: natiivien Solana-varojen saumaton siirtyminen Nara-ekosysteemiin."
+      },
+      "protocol": {
+        "title": "Keskeiset Protokollitason Parametriparannukset",
+        "description": "Säilyttää Solanan korkean suorituskyvyn arkkitehtuurin — mutta nostaa protokollarajat merkittävästi.",
+        "description2": "Tämä tekee Nara Solanasta ensimmäisen julkisen lohkoketjun, joka kykenee aidosti isännöimään “on-chain käyttöjärjestelmätason sovelluksia”.",
+        "subTitle1": "Maksimi Instruction Data",
+        "subTitle2": "Account-laajennus per Instruction",
+        "subTitle3": "Maksimi Account-koko",
+        "subTitle4": "Stack Frame -koko",
+        "subTitle5": "Single Realloc -raja",
+        "subTitle6": "Oletusarvoiset Compute Units",
+        "subTitle7": "Maksimi Compute Units",
+        "subTitle8": "Account Load -raja per Transaktio"
+      },
+      "design": {
+        "title": "Privacy-Natiivi Suunnittelu",
+        "description": "Nara Solana sisältää integroidun, täydellisen yksityisyysprotokollikerroksen:",
+        "zkId": "zkID – Anonyymi Identiteettijärjestelmä",
+        "zkIdDescription": "Hajautettu identiteetti zero-knowledge proofien avulla — käyttäjät eivät koskaan paljasta todellista identiteettiään.",
+        "anonymousTransfers": "Anonyymit Siirrot",
+        "anonymousDescription": "Täysin yksityiset on-chain-varavirrat zkID-pohjaisten luottamuksellisten assetien kautta.",
+        "anonymousVoting": "Anonyymi Äänestys",
+        "anonymousDescription2": "Soveltuu governanceen, DAOihin, yhteisöhallintaan ja yksityisyyttä suojaaviin vaaleihin.",
+        "privacyDeFi": "Privacy DeFi",
+        "privacyDescription": "Tukee private market makingia, anonyymiä lainausta, private-derivaatteja ja dark pool -kaupankäyntiä.",
+        "privacySocialNetworks": "Yksityiset Sosiaaliset Verkostot",
+        "privacyDescription2": "Mahdollistaa anonyymin seuraamisen, yksityisen sisällön julkaisun ja yksityistetyt suhdeverkostot.",
+        "nativeDeFiLaunchpad": "Natiivi DeFi Launchpad",
+        "nativeDescription": "Omistettu launch-alusta seuraavan sukupolven anonyymeille projekteille."
+      },
+      "developer": {
+        "title": "Kehittäjäekosysteemi & Kannustinohjelmat",
+        "description": "Kiihdyttääkseen cold-startia ja räjähdysmäistä ekosysteemin kasvua Nara Solana on käynnistänyt laajan kehittäjäohjelman.",
+        "rewards": "Solana-projektien migraatiopalkkiot",
+        "rewardsDescription": "Täysi tuki olemassa olevien Solana-DAppien matalakustannuksiseen migraatioon, mukaan lukien omistetut bonukset.",
+        "funding": "Ekosysteemisovellusten rahoitus",
+        "fundingDescription": "Kattava tuki ekosysteemisovelluksille erityisin kannustimin.",
+        "program": "Early Builder -ohjelma",
+        "programDescription": "Lisäkannustimia varhaisille validaattoreille ja ekosysteemin kontribuuttoreille."
+      },
+      "early": {
+        "title": "Varhaisen Stakingin Tukiohjelma",
+        "description": "Verkon turvallisuuden ja hajauttamisen varmistamiseksi",
+        "subsidy1": "Erittäin korkeat APR-tuet varhaisille osallistujille",
+        "subsidy2": "Validaattorisolmujen käynnistystuet",
+        "subsidy3": "Lisäbonuksia pitkäaikaisille osallistujille",
+        "subsidy4": "Mitä pidempi lukitusaika, sitä suuremmat palkkiot"
+      },
+      "tokenomics": {
+        "title": "Tokenomics",
+        "totalSupply": "Kokonaistarjonta",
+        "privatePresale": "Julkinen / Yksityinen Presale",
+        "airdropToSolanaHolders": "Airdrop Solana-holdereille",
+        "dAppEcosystemRewards": "DApp-ekosysteemipalkkiot",
+        "earlyStakingRewards": "Varhaisen Stakingin Palkkiot",
+        "testnetParticipantRewards": "Testnet-osallistujien palkkiot",
+        "foundationReserve": "Säätiön varanto"
+      },
+      "roadmap": {
+        "title": "Roadmap",
+        "testnetGenesis": "Testnet Genesis",
+        "testnetGenesisDescription": "Mainnet-tason suorituskykytestaus",
+        "testnetGenesisDescription2": "Nara Bridge -cross-chain-bridgen julkaisu",
+        "testnetGenesisDescription3": "zkID-infrastruktuurin julkaisu",
+        "mainnetLaunch": "Mainnet Launch",
+        "mainnetLaunchDescription": "Mainnet käynnistyy",
+        "mainnetLaunchDescription2": "Anonyymit siirrot ja private-tilit",
+        "mainnetLaunchDescription3": "Node-rekrytointi alkaa",
+        "deFiExpansion": "DeFi & Privacy Expansion",
+        "deFiExpansionDescription": "Anonyymi DEX",
+        "deFiExpansionDescription2": "Private lending -protokollat",
+        "deFiExpansionDescription3": "Anonyymi DAO-governance-järjestelmä",
+        "massAdoption": "Laajamittainen Käyttöönotto",
+        "massAdoptionDescription": "Anonyymit sosiaaliset verkostot",
+        "massAdoptionDescription2": "Enterprise-tason private chain -ratkaisut",
+        "massAdoptionDescription3": "Globaali kehittäjäekosysteemin tukiohjelma"
+      },
+      "build": {
+        "buildFreely": "Rakenna vapaasti. Tee transaktioita yksityisesti. Skaalaa rajattomasti.",
+        "buildAbove": "Rakenna valon yläpuolelle — vapaana yksityisyyden sisällä."
+      }
+  },
+  
+
   "index": {
     "meta": {
       "title": "Pääomamarkkinat jokaiselle omaisuuserälle maailmassa",

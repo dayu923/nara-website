@@ -953,6 +953,7 @@
     },
     "network": {
       "title": "Netwerk",
+      "testnet": "Testnetwerk",
       "inspect": {
         "title": "Inspecteren",
         "items": [
@@ -3498,6 +3499,118 @@
         }
       }
     }
+  },
+  "newindex": {
+      "meta": {
+        "title": "Nara Solana",
+        "description": "Privacy-gericht, high-performance Layer-1 blockchain, volledig compatibel met het Solana-ecosysteem"
+      },
+      "privacy": {
+        "title": "Privacy-first Nara Solana Layer-1",
+        "heroDescription1": "Nara Solana: een high-performance <light>privacy-gerichte Layer-1 blockchain, diep geoptimaliseerd op de Solana-architectuur.</light>",
+        "heroDescription2": "Volledig <light>compatibel met het Solana-ecosysteem, naadloze mapping van mainnet-assets, gebouwd voor next-generation financiën, privacy en wereldwijde Web3-infrastructuur.</light>",
+        "heroDescription3": "Niet zomaar een goedkopere Solana: <light>een nieuwe uitvoeringslaag voor private financiën, anonieme sociale netwerken, next-generation DeFi en grootschalige on-chain applicaties.</light>"
+      },
+      "what": {
+        "title": "Wat is Nara?",
+        "subTitle": "Nara Solana",
+        "subDescription": "Nara is het ‘Linux van AI-trading’ — een open-source en transparant besturingssysteem dat besluitvorming, risicobeheer en uitvoering verenigt over alle activaklassen. Begint met crypto en breidt uit naar aandelen, forex en futures."
+      },
+      "advantages": {
+        "title": "Belangrijkste voordelen",
+        "gas": "Lagere gaskosten",
+        "gasDescription": "Extreem lage kosten — ideaal voor hoge frequentie-interacties en applicaties op grote schaal.",
+        "lower": "Lagere account-huur",
+        "lowerDescription": "Sterk verlaagde langetermijnkosten voor statusopslag — verbetert de duurzaamheid van applicaties aanzienlijk.",
+        "ultra": "Ultra-grote accounts",
+        "ultraDescription": "Ondersteunt veel grotere applicatie-accounts — voorbij de traditionele opslaglimieten van Solana.",
+        "super": "On-chain op hyperschaal",
+        "superDescription": "Ontworpen voor complexe DeFi, on-chain gaming, privacyprotocollen en big-data applicaties.",
+        "program": "Programmacompatibiliteit",
+        "programDescription": "Geen herleren nodig: bestaande Solana-programma’s kunnen met minimale kosten worden gemigreerd.",
+        "assets": "Solana mainnet-assets",
+        "assetsDescription": "Veilige cross-chain bridging: native Solana-assets kunnen naadloos het Nara-ecosysteem binnenkomen."
+      },
+      "protocol": {
+        "title": "Kernverbeteringen op protocolniveau",
+        "description": "Behoudt de high-performance architectuur van Solana terwijl protocolgrenzen aanzienlijk worden uitgebreid.",
+        "description2": "Dit maakt Nara Solana de eerste publieke chain die echt “on-chain besturingssysteem-niveau applicaties” kan hosten.",
+        "subTitle1": "Maximale instruction data",
+        "subTitle2": "Accounts per instruction",
+        "subTitle3": "Maximale accountgrootte",
+        "subTitle4": "Stack frame-grootte",
+        "subTitle5": "Single realloc-limiet",
+        "subTitle6": "Standaard compute units",
+        "subTitle7": "Maximale compute units",
+        "subTitle8": "Account load-limiet per transactie"
+      },
+      "design": {
+        "title": "Privacy-native ontwerp",
+        "description": "Nara Solana bevat een volledig geïntegreerde privacyprotocol-laag:",
+        "zkId": "zkID – Anoniem identiteitssysteem",
+        "zkIdDescription": "Gedecentraliseerde identiteit via zero-knowledge proofs — gebruikers onthullen nooit hun echte identiteit.",
+        "anonymousTransfers": "Anonieme overdrachten",
+        "anonymousDescription": "Volledig private on-chain geldstromen via zkID-gebaseerde private assets.",
+        "anonymousVoting": "Anoniem stemmen",
+        "anonymousDescription2": "Geschikt voor governance, DAO’s, communitybeheer en privacybehoudende verkiezingen.",
+        "privacyDeFi": "Privacy DeFi",
+        "privacyDescription": "Ondersteunt private market making, anoniem lenen, private derivaten en dark pool trading.",
+        "privacySocialNetworks": "Privacy sociale netwerken",
+        "privacyDescription2": "Maakt anoniem volgen, privécontent en private sociale grafieken mogelijk.",
+        "nativeDeFiLaunchpad": "Native DeFi-launchpad",
+        "nativeDescription": "Een speciaal launchplatform voor next-generation anonieme projecten."
+      },
+      "developer": {
+        "title": "Ontwikkelaarsecosysteem en incentiveprogramma’s",
+        "description": "Om cold starts en explosieve ecosysteemgroei te stimuleren, lanceert Nara Solana grootschalige ontwikkelaarsprogramma’s.",
+        "rewards": "Migratiebeloningen voor Solana-projecten",
+        "rewardsDescription": "Volledige ondersteuning en exclusieve bonussen voor goedkope migratie van bestaande Solana DApps.",
+        "funding": "Financiering van ecosysteemapplicaties",
+        "fundingDescription": "Uitgebreide ondersteuning en speciale incentives voor nieuwe applicaties.",
+        "program": "Early Builder Program",
+        "programDescription": "Extra incentives voor vroege validators en ecosysteembijdragers."
+      },
+      "early": {
+        "title": "Vroegtijdig staking-subsidieprogramma",
+        "description": "Om netwerkbeveiliging en decentralisatie te waarborgen",
+        "subsidy1": "Zeer hoge APR-vroege subsidies",
+        "subsidy2": "Subsidies voor het opzetten van validatornodes",
+        "subsidy3": "Extra bonussen voor langdurige deelnemers",
+        "subsidy4": "Langere lock-up resulteert in hogere beloningen"
+      },
+      "tokenomics": {
+        "title": "Tokenomics",
+        "totalSupply": "Totale voorraad",
+        "privatePresale": "Publieke / private presale",
+        "airdropToSolanaHolders": "Airdrop voor Solana-houders",
+        "dAppEcosystemRewards": "DApp-ecosysteem beloningen",
+        "earlyStakingRewards": "Vroege stakingbeloningen",
+        "testnetParticipantRewards": "Beloningen voor testnet-deelnemers",
+        "foundationReserve": "Stichtingreserve"
+      },
+      "roadmap": {
+        "title": "Roadmap",
+        "testnetGenesis": "Testnet genesis",
+        "testnetGenesisDescription": "Mainnet-niveau prestatietests",
+        "testnetGenesisDescription2": "Lancering van de Nara Bridge cross-chain bridge",
+        "testnetGenesisDescription3": "Release van zkID-infrastructuur",
+        "mainnetLaunch": "Mainnet-lancering",
+        "mainnetLaunchDescription": "Mainnet gaat live",
+        "mainnetLaunchDescription2": "Anonieme transfers en private accounts",
+        "mainnetLaunchDescription3": "Start werving van nodes",
+        "deFiExpansion": "DeFi- en privacy-uitbreiding",
+        "deFiExpansionDescription": "Anonieme DEX",
+        "deFiExpansionDescription2": "Private leenprotocollen",
+        "deFiExpansionDescription3": "Anoniem DAO-governancesysteem",
+        "massAdoption": "Massale adoptie",
+        "massAdoptionDescription": "Anonieme sociale netwerken",
+        "massAdoptionDescription2": "Enterprise-grade private chain-oplossingen",
+        "massAdoptionDescription3": "Wereldwijde ontwikkelaarsecosysteem-ondersteuningsprogramma’s"
+      },
+      "build": {
+        "buildFreely": "Bouw vrij. Handel privé. Schaal onbeperkt.",
+        "buildAbove": "Bouw in het licht. Wees vrij in privacy."
+      }
   },
   "index": {
     "meta": {

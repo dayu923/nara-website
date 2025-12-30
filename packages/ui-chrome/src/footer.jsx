@@ -89,7 +89,7 @@ export const Footer = ({ className = "" }) => {
   return (
     <div
       className={classNames(
-        "relative bg-black text-base text-white",
+        "relative bg-[#0B0A0F] text-base text-white",
         "[&_ul_a]:inline-block [&_ul_a]:text-sm [&_ul_a]:md:text-base [&_ul_a]:font-normal [&_ul_a]:leading-[1.42] [&_ul_a]:md:leading-[1.5]",
         "[&_ul_li+li]:mt-3",
         className,

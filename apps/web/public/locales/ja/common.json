@@ -953,6 +953,7 @@
     },
     "network": {
       "title": "ネットワーク",
+      "testnet": "テストネット",
       "inspect": {
         "title": "検証",
         "items": [
@@ -3499,6 +3500,119 @@
       }
     }
   },
+  "newindex": {
+      "meta": {
+        "title": "Nara Solana",
+        "description": "プライバシー重視の高性能レイヤー1ブロックチェーン。Solanaエコシステムと完全互換"
+      },
+      "privacy": {
+        "title": "プライバシーファースト Nara Solana レイヤー1",
+        "heroDescription1": "Nara Solana：Solanaアーキテクチャ上に深く最適化された、高性能な<light>プライバシー重視のレイヤー1ブロックチェーン。</light>",
+        "heroDescription2": "Solanaエコシステムと完全に<light>互換性があり、メインネット資産をシームレスにマッピング。次世代金融、プライバシー、グローバルなWeb3インフラのために構築。</light>",
+        "heroDescription3": "単なる安価なSolanaではない：<light>プライバシーファイナンス、匿名ソーシャル、次世代DeFi、大規模オンチェーンアプリのための新しい実行レイヤー。</light>"
+      },
+      "what": {
+        "title": "Naraとは？",
+        "subTitle": "Nara Solana",
+        "subDescription": "NaraはAIトレーディングの「Linux」——意思決定、リスク管理、実行をすべての資産クラスで統合する、オープンソースで透明性の高いオペレーティングシステム。暗号資産から始まり、株式、FX、先物へ拡張。"
+      },
+      "advantages": {
+        "title": "主な強み",
+        "gas": "低ガスコスト",
+        "gasDescription": "非常に低い手数料——高頻度インタラクションや大規模アプリに最適。",
+        "lower": "低アカウントレンタル",
+        "lowerDescription": "長期的なステートストレージコストを大幅に削減——アプリの持続性を大きく向上。",
+        "ultra": "超大容量アカウント",
+        "ultraDescription": "従来のSolanaのストレージ制限を超える、はるかに大きなアプリ用アカウントをサポート。",
+        "super": "超大規模オンチェーン",
+        "superDescription": "複雑なDeFi、オンチェーンゲーム、プライバシープロトコル、ビッグデータアプリ向けに設計。",
+        "program": "プログラム互換性",
+        "programDescription": "再学習不要：既存のSolanaプログラムを低コストで移行可能。",
+        "assets": "Solanaメインネット資産",
+        "assetsDescription": "安全なクロスチェーンブリッジ：ネイティブなSolana資産がNaraエコシステムへシームレスに流入。"
+      },
+      "protocol": {
+        "title": "プロトコルレベルの主要パラメータ強化",
+        "description": "Solanaの高性能アーキテクチャを維持しつつ、プロトコル上限を大幅に拡張。",
+        "description2": "これによりNara Solanaは、「オンチェーンOSレベルのアプリケーション」を本当にホストできる初のパブリックチェーンとなる。",
+        "subTitle1": "最大Instructionデータ",
+        "subTitle2": "Instructionごとのアカウント拡張",
+        "subTitle3": "最大アカウントサイズ",
+        "subTitle4": "スタックフレームサイズ",
+        "subTitle5": "単一Realloc制限",
+        "subTitle6": "デフォルトCompute Units",
+        "subTitle7": "最大Compute Units",
+        "subTitle8": "トランザクションあたりのアカウントロード制限"
+      },
+      "design": {
+        "title": "プライバシーネイティブ設計",
+        "description": "Nara Solanaは、完全に統合されたプライバシープロトコルレイヤーを備えています：",
+        "zkId": "zkID – 匿名アイデンティティシステム",
+        "zkIdDescription": "ゼロ知識証明による分散型アイデンティティ——ユーザーが実際の身元を明かすことはありません。",
+        "anonymousTransfers": "匿名トランザクション",
+        "anonymousDescription": "zkIDベースの秘匿資産による、完全にプライベートなオンチェーン資金移動。",
+        "anonymousVoting": "匿名投票",
+        "anonymousDescription2": "ガバナンス、DAO、コミュニティ運営、プライバシー保護選挙に適しています。",
+        "privacyDeFi": "プライバシーDeFi",
+        "privacyDescription": "プライベートなマーケットメイキング、匿名レンディング、秘匿デリバティブ、ダークプール取引をサポート。",
+        "privacySocialNetworks": "プライバシーソーシャルネットワーク",
+        "privacyDescription2": "匿名フォロー、プライベートなコンテンツ公開、秘匿された関係グラフを実現。",
+        "nativeDeFiLaunchpad": "ネイティブDeFiローンチパッド",
+        "nativeDescription": "次世代の匿名プロジェクト向け専用ローンチプラットフォーム。"
+      },
+      "developer": {
+        "title": "開発者エコシステムとインセンティブプログラム",
+        "description": "コールドスタートと爆発的なエコシステム成長を促進するため、Nara Solanaは大規模な開発者プログラムを開始しました。",
+        "rewards": "Solanaプロジェクト移行報酬",
+        "rewardsDescription": "既存のSolana DAppを低コストで移行するための全面的な支援と専用ボーナス。",
+        "funding": "エコシステムアプリ資金提供",
+        "fundingDescription": "新規アプリケーションに対する包括的な支援と専用インセンティブ。",
+        "program": "アーリービルダープログラム",
+        "programDescription": "初期バリデータおよびエコシステム貢献者向けの追加インセンティブ。"
+      },
+      "early": {
+        "title": "初期ステーキング補助プログラム",
+        "description": "ネットワークの安全性と分散化を確保するため",
+        "subsidy1": "非常に高いAPRの初期補助",
+        "subsidy2": "バリデータノード立ち上げ補助",
+        "subsidy3": "長期参加者向けの追加ボーナス",
+        "subsidy4": "ロック期間が長いほど報酬が高くなる"
+      },
+      "tokenomics": {
+        "title": "トークノミクス",
+        "totalSupply": "総供給量",
+        "privatePresale": "パブリック／プライベートプレセール",
+        "airdropToSolanaHolders": "Solana保有者向けエアドロップ",
+        "dAppEcosystemRewards": "DAppエコシステム報酬",
+        "earlyStakingRewards": "初期ステーキング報酬",
+        "testnetParticipantRewards": "テストネット参加者報酬",
+        "foundationReserve": "財団リザーブ"
+      },
+      "roadmap": {
+        "title": "ロードマップ",
+        "testnetGenesis": "テストネット・ジェネシス",
+        "testnetGenesisDescription": "メインネットレベルのパフォーマンステスト",
+        "testnetGenesisDescription2": "Nara Bridgeクロスチェーンブリッジのローンチ",
+        "testnetGenesisDescription3": "zkIDインフラのリリース",
+        "mainnetLaunch": "メインネットローンチ",
+        "mainnetLaunchDescription": "メインネット稼働開始",
+        "mainnetLaunchDescription2": "匿名トランザクションとプライベートアカウント",
+        "mainnetLaunchDescription3": "ノード募集開始",
+        "deFiExpansion": "DeFi・プライバシー拡張",
+        "deFiExpansionDescription": "匿名DEX",
+        "deFiExpansionDescription2": "プライベートレンディングプロトコル",
+        "deFiExpansionDescription3": "匿名DAOガバナンスシステム",
+        "massAdoption": "大規模普及",
+        "massAdoptionDescription": "匿名ソーシャルネットワーキング",
+        "massAdoptionDescription2": "エンタープライズ向けプライベートチェーンソリューション",
+        "massAdoptionDescription3": "グローバル開発者エコシステム支援プログラム"
+      },
+      "build": {
+        "buildFreely": "自由に構築。プライベートに取引。無限にスケール。",
+        "buildAbove": "光の上に築き、プライバシーの中で自由であれ。"
+      }
+  },  
+
   "index": {
     "meta": {
       "title": "地球上のあらゆる資産のための資本市場",

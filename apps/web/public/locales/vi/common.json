@@ -953,6 +953,7 @@
     },
     "network": {
       "title": "Mạng lưới",
+      "testnet": "Mạng thử nghiệm",
       "inspect": {
         "title": "Kiểm tra",
         "items": [
@@ -3498,6 +3499,118 @@
         }
       }
     }
+  },
+  "newindex": {
+      "meta": {
+        "title": "Nara Solana",
+        "description": "Blockchain Layer-1 hiệu năng cao, tập trung vào quyền riêng tư, hoàn toàn tương thích với hệ sinh thái Solana"
+      },
+      "privacy": {
+        "title": "Nara Solana Layer-1 ưu tiên quyền riêng tư",
+        "heroDescription1": "Nara Solana là blockchain Layer-1 hiệu năng cao <light>lấy quyền riêng tư làm trọng tâm, được tối ưu sâu trên kiến trúc Solana.</light>",
+        "heroDescription2": "Hoàn toàn <light>tương thích với hệ sinh thái Solana, ánh xạ tài sản mainnet liền mạch, được thiết kế cho tài chính thế hệ mới, quyền riêng tư và hạ tầng Web3 toàn cầu.</light>",
+        "heroDescription3": "Không chỉ là một Solana rẻ hơn: <light>một lớp thực thi hoàn toàn mới cho tài chính riêng tư, mạng xã hội ẩn danh, DeFi thế hệ mới và các ứng dụng on-chain quy mô lớn.</light>"
+      },
+      "what": {
+        "title": "Nara là gì?",
+        "subTitle": "Nara Solana",
+        "subDescription": "Nara là “Linux của AI giao dịch” — một hệ điều hành mã nguồn mở, minh bạch, hợp nhất ra quyết định, quản lý rủi ro và thực thi trên mọi loại tài sản. Khởi đầu từ crypto và mở rộng sang cổ phiếu, forex và futures."
+      },
+      "advantages": {
+        "title": "Lợi thế cốt lõi",
+        "gas": "Phí gas thấp",
+        "gasDescription": "Phí cực thấp — lý tưởng cho các tương tác tần suất cao và ứng dụng quy mô lớn.",
+        "lower": "Chi phí thuê tài khoản thấp",
+        "lowerDescription": "Chi phí lưu trữ trạng thái dài hạn được giảm mạnh — cải thiện đáng kể tính bền vững của ứng dụng.",
+        "ultra": "Tài khoản siêu dung lượng",
+        "ultraDescription": "Hỗ trợ tài khoản ứng dụng lớn hơn nhiều — vượt qua giới hạn lưu trữ truyền thống của Solana.",
+        "super": "On-chain quy mô cực lớn",
+        "superDescription": "Được thiết kế cho DeFi phức tạp, game on-chain, giao thức quyền riêng tư và ứng dụng dữ liệu lớn.",
+        "program": "Tương thích chương trình",
+        "programDescription": "Không cần học lại: các chương trình Solana hiện có có thể di chuyển với chi phí thấp.",
+        "assets": "Tài sản mainnet Solana",
+        "assetsDescription": "Cầu nối cross-chain an toàn: tài sản Solana gốc được tích hợp liền mạch vào hệ sinh thái Nara."
+      },
+      "protocol": {
+        "title": "Nâng cấp tham số cốt lõi ở cấp giao thức",
+        "description": "Giữ nguyên kiến trúc hiệu năng cao của Solana đồng thời mở rộng đáng kể giới hạn giao thức.",
+        "description2": "Điều này giúp Nara Solana trở thành blockchain công khai đầu tiên thực sự hỗ trợ các ứng dụng “cấp hệ điều hành on-chain”.",
+        "subTitle1": "Kích thước dữ liệu lệnh tối đa",
+        "subTitle2": "Mở rộng tài khoản mỗi lệnh",
+        "subTitle3": "Kích thước tài khoản tối đa",
+        "subTitle4": "Kích thước stack frame",
+        "subTitle5": "Giới hạn realloc đơn",
+        "subTitle6": "Compute unit mặc định",
+        "subTitle7": "Compute unit tối đa",
+        "subTitle8": "Giới hạn tải tài khoản mỗi giao dịch"
+      },
+      "design": {
+        "title": "Thiết kế quyền riêng tư gốc",
+        "description": "Nara Solana tích hợp sẵn một lớp giao thức quyền riêng tư hoàn chỉnh:",
+        "zkId": "zkID — hệ thống định danh ẩn danh",
+        "zkIdDescription": "Định danh phi tập trung dựa trên bằng chứng không tiết lộ — người dùng không bao giờ phải tiết lộ danh tính thật.",
+        "anonymousTransfers": "Chuyển khoản ẩn danh",
+        "anonymousDescription": "Luồng giá trị on-chain hoàn toàn riêng tư thông qua tài sản bảo mật dựa trên zkID.",
+        "anonymousVoting": "Bỏ phiếu ẩn danh",
+        "anonymousDescription2": "Phù hợp cho governance, DAO, cộng đồng và bầu cử với bảo mật quyền riêng tư.",
+        "privacyDeFi": "DeFi riêng tư",
+        "privacyDescription": "Hỗ trợ market making riêng tư, cho vay ẩn danh, phái sinh riêng tư và giao dịch dark pool.",
+        "privacySocialNetworks": "Mạng xã hội riêng tư",
+        "privacyDescription2": "Cho phép theo dõi ẩn danh, xuất bản nội dung riêng tư và đồ thị xã hội kín.",
+        "nativeDeFiLaunchpad": "DeFi launchpad gốc",
+        "nativeDescription": "Nền tảng launch chuyên biệt cho thế hệ dự án ẩn danh tiếp theo."
+      },
+      "developer": {
+        "title": "Hệ sinh thái nhà phát triển & chương trình khuyến khích",
+        "description": "Để thúc đẩy cold start và tăng trưởng bùng nổ của hệ sinh thái, Nara Solana đã triển khai các chương trình dành cho nhà phát triển.",
+        "rewards": "Thưởng di chuyển dự án Solana",
+        "rewardsDescription": "Hỗ trợ toàn diện và ưu đãi đặc biệt cho việc di chuyển DApp Solana hiện có với chi phí thấp.",
+        "funding": "Tài trợ ứng dụng hệ sinh thái",
+        "fundingDescription": "Hỗ trợ toàn diện và ưu đãi riêng cho các ứng dụng mới.",
+        "program": "Chương trình builder sớm",
+        "programDescription": "Ưu đãi bổ sung cho validator và người tham gia hệ sinh thái giai đoạn đầu."
+      },
+      "early": {
+        "title": "Chương trình trợ cấp staking giai đoạn đầu",
+        "description": "Đảm bảo an ninh và phi tập trung cho mạng lưới",
+        "subsidy1": "APR trợ cấp giai đoạn đầu cực cao",
+        "subsidy2": "Trợ cấp triển khai node validator",
+        "subsidy3": "Thưởng bổ sung cho người tham gia dài hạn",
+        "subsidy4": "Thời gian khóa càng dài, phần thưởng càng cao"
+      },
+      "tokenomics": {
+        "title": "Tokenomics",
+        "totalSupply": "Tổng cung",
+        "privatePresale": "Presale công khai / riêng tư",
+        "airdropToSolanaHolders": "Airdrop cho holder Solana",
+        "dAppEcosystemRewards": "Phần thưởng hệ sinh thái DApp",
+        "earlyStakingRewards": "Phần thưởng staking sớm",
+        "testnetParticipantRewards": "Phần thưởng người tham gia testnet",
+        "foundationReserve": "Quỹ dự trữ Foundation"
+      },
+      "roadmap": {
+        "title": "Lộ trình",
+        "testnetGenesis": "Genesis testnet",
+        "testnetGenesisDescription": "Kiểm thử hiệu năng cấp mainnet",
+        "testnetGenesisDescription2": "Ra mắt cầu nối cross-chain Nara Bridge",
+        "testnetGenesisDescription3": "Phát hành hạ tầng zkID",
+        "mainnetLaunch": "Ra mắt mainnet",
+        "mainnetLaunchDescription": "Mainnet chính thức vận hành",
+        "mainnetLaunchDescription2": "Chuyển khoản ẩn danh & tài khoản riêng tư",
+        "mainnetLaunchDescription3": "Bắt đầu tuyển node",
+        "deFiExpansion": "Mở rộng DeFi & quyền riêng tư",
+        "deFiExpansionDescription": "DEX ẩn danh",
+        "deFiExpansionDescription2": "Giao thức cho vay riêng tư",
+        "deFiExpansionDescription3": "Hệ thống governance DAO ẩn danh",
+        "massAdoption": "Ứng dụng đại trà",
+        "massAdoptionDescription": "Mạng xã hội ẩn danh",
+        "massAdoptionDescription2": "Giải pháp blockchain riêng tư cho doanh nghiệp",
+        "massAdoptionDescription3": "Chương trình hỗ trợ hệ sinh thái nhà phát triển toàn cầu"
+      },
+      "build": {
+        "buildFreely": "Xây dựng tự do. Giao dịch riêng tư. Mở rộng không giới hạn.",
+        "buildAbove": "Xây dựng vượt trên ánh sáng — tự do trong quyền riêng tư."
+      }
   },
   "index": {
     "meta": {

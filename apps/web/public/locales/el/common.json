@@ -953,6 +953,7 @@
     },
     "network": {
       "title": "Δίκτυο",
+      "testnet": "Δίκτυο δοκιμών",
       "inspect": {
         "title": "Επιθεώρηση",
         "items": [
@@ -3498,6 +3499,118 @@
         }
       }
     }
+  },
+  "newindex": {
+      "meta": {
+        "title": "Nara Solana",
+        "description": "Blockchain Layer-1 υψηλής απόδοσης με επίκεντρο την ιδιωτικότητα, πλήρως συμβατή με το οικοσύστημα Solana"
+      },
+      "privacy": {
+        "title": "Privacy-First Nara Solana Layer-1",
+        "heroDescription1": "Nara Solana: Μια <light>υψηλής απόδοσης, privacy-focused blockchain Layer-1, βαθιά βελτιστοποιημένη πάνω στην αρχιτεκτονική Solana.</light>",
+        "heroDescription2": "Πλήρως συμβατή <light>με το οικοσύστημα Solana, με απρόσκοπτη αντιστοίχιση mainnet assets, σχεδιασμένη για next-gen finance, ιδιωτικότητα και παγκόσμια Web3 υποδομή.</light>",
+        "heroDescription3": "Όχι απλώς μια φθηνότερη Solana: <light>ένα νέο execution layer για privacy finance, ανώνυμα social δίκτυα, next-gen DeFi και εφαρμογές on-chain μεγάλης κλίμακας.</light>"
+      },
+      "what": {
+        "title": "Τι είναι το Nara;",
+        "subTitle": "Nara Solana",
+        "subDescription": "Το Nara: το «Linux» του AI trading — ένα open-source, διαφανές λειτουργικό σύστημα που ενοποιεί λήψη αποφάσεων, διαχείριση ρίσκου και εκτέλεση σε όλα τα assets. Ξεκινά από crypto και επεκτείνεται σε μετοχές, forex και futures."
+      },
+      "advantages": {
+        "title": "Βασικά Πλεονεκτήματα",
+        "gas": "Χαμηλότερα Gas Fees",
+        "gasDescription": "Εξαιρετικά χαμηλά τέλη — ιδανικά για υψηλής συχνότητας αλληλεπιδράσεις και εφαρμογές μεγάλης κλίμακας.",
+        "lower": "Χαμηλότερο Account Rent",
+        "lowerDescription": "Σημαντικά μειωμένο μακροπρόθεσμο κόστος αποθήκευσης — ενισχύει δραστικά τη βιωσιμότητα των εφαρμογών.",
+        "ultra": "Υπερ-μεγάλοι Λογαριασμοί",
+        "ultraDescription": "Υποστηρίζει πολύ μεγαλύτερα app accounts — ξεπερνώντας τα παραδοσιακά όρια αποθήκευσης της Solana.",
+        "super": "Υπερ-Μεγάλης Κλίμακας On-Chain",
+        "superDescription": "Σχεδιασμένο για σύνθετο DeFi, on-chain games, privacy protocols και εφαρμογές big data.",
+        "program": "Συμβατότητα Προγραμμάτων",
+        "programDescription": "Χωρίς επανεκμάθηση: υφιστάμενα Solana programs μεταφέρονται με χαμηλό κόστος.",
+        "assets": "Solana Mainnet Assets",
+        "assetsDescription": "Ασφαλές cross-chain bridging: native Solana assets εισέρχονται απρόσκοπτα στο οικοσύστημα Nara."
+      },
+      "protocol": {
+        "title": "Βασικές Ενισχύσεις Παραμέτρων σε Επίπεδο Πρωτοκόλλου",
+        "description": "Διατηρεί την αρχιτεκτονική υψηλής απόδοσης της Solana — αυξάνοντας δραστικά τα όρια του πρωτοκόλλου.",
+        "description2": "Αυτό καθιστά το Nara Solana την πρώτη public chain που μπορεί πραγματικά να φιλοξενήσει «εφαρμογές επιπέδου λειτουργικού συστήματος on-chain».",
+        "subTitle1": "Μέγιστα Instruction Data",
+        "subTitle2": "Επέκταση Λογαριασμών ανά Instruction",
+        "subTitle3": "Μέγιστο Μέγεθος Λογαριασμού",
+        "subTitle4": "Μέγεθος Stack Frame",
+        "subTitle5": "Όριο Single Realloc",
+        "subTitle6": "Προεπιλεγμένες Compute Units",
+        "subTitle7": "Μέγιστες Compute Units",
+        "subTitle8": "Όριο Φόρτωσης Λογαριασμών ανά Συναλλαγή"
+      },
+      "design": {
+        "title": "Privacy-Native Σχεδιασμός",
+        "description": "Το Nara Solana διαθέτει ενσωματωμένο, πλήρες privacy protocol layer:",
+        "zkId": "zkID – Ανώνυμο Σύστημα Ταυτότητας",
+        "zkIdDescription": "Αποκεντρωμένη ταυτότητα μέσω zero-knowledge proofs — οι χρήστες δεν αποκαλύπτουν ποτέ την πραγματική τους ταυτότητα.",
+        "anonymousTransfers": "Ανώνυμες Μεταφορές",
+        "anonymousDescription": "Πλήρως ιδιωτικές on-chain ροές κεφαλαίων μέσω zkID-based confidential assets.",
+        "anonymousVoting": "Ανώνυμη Ψηφοφορία",
+        "anonymousDescription2": "Κατάλληλο για governance, DAOs, διαχείριση κοινοτήτων και privacy-preserving εκλογές.",
+        "privacyDeFi": "Privacy DeFi",
+        "privacyDescription": "Υποστηρίζει private market making, ανώνυμο lending, private derivatives και dark pool trading.",
+        "privacySocialNetworks": "Privacy Social Networks",
+        "privacyDescription2": "Επιτρέπει ανώνυμο following, private content publishing και ιδιωτικοποιημένα relationship graphs.",
+        "nativeDeFiLaunchpad": "Native DeFi Launchpad",
+        "nativeDescription": "Αφιερωμένη πλατφόρμα εκκίνησης για την επόμενη γενιά ανώνυμων projects."
+      },
+      "developer": {
+        "title": "Οικοσύστημα Προγραμματιστών & Προγράμματα Κινήτρων",
+        "description": "Για να επιταχύνει το cold-start και την εκρηκτική ανάπτυξη του οικοσυστήματος, το Nara Solana λάνσαρε ένα εκτεταμένο developer program.",
+        "rewards": "Κίνητρα Μετανάστευσης Solana Projects",
+        "rewardsDescription": "Πλήρης υποστήριξη για χαμηλού κόστους migration υφιστάμενων Solana DApps, με αποκλειστικά bonuses.",
+        "funding": "Χρηματοδότηση Εφαρμογών Οικοσυστήματος",
+        "fundingDescription": "Ολοκληρωμένη υποστήριξη εφαρμογών οικοσυστήματος με ειδικά κίνητρα.",
+        "program": "Early Builder Program",
+        "programDescription": "Επιπλέον κίνητρα για early validators και contributors του οικοσυστήματος."
+      },
+      "early": {
+        "title": "Πρόγραμμα Επιδοτούμενου Early Staking",
+        "description": "Για τη διασφάλιση ασφάλειας δικτύου και αποκέντρωσης",
+        "subsidy1": "Υπερ-υψηλά APR επιδόματα για early συμμετέχοντες",
+        "subsidy2": "Επιδοτήσεις εκκίνησης validator nodes",
+        "subsidy3": "Επιπλέον bonuses για μακροπρόθεσμους συμμετέχοντες",
+        "subsidy4": "Όσο μεγαλύτερο το lock-up, τόσο υψηλότερες οι ανταμοιβές"
+      },
+      "tokenomics": {
+        "title": "Tokenomics",
+        "totalSupply": "Συνολική Προσφορά",
+        "privatePresale": "Δημόσιο / Ιδιωτικό Presale",
+        "airdropToSolanaHolders": "Airdrop σε Solana Holders",
+        "dAppEcosystemRewards": "Ανταμοιβές Οικοσυστήματος DApps",
+        "earlyStakingRewards": "Early Staking Rewards",
+        "testnetParticipantRewards": "Ανταμοιβές Συμμετεχόντων Testnet",
+        "foundationReserve": "Αποθεματικό Ιδρύματος"
+      },
+      "roadmap": {
+        "title": "Roadmap",
+        "testnetGenesis": "Testnet Genesis",
+        "testnetGenesisDescription": "Δοκιμές απόδοσης επιπέδου mainnet",
+        "testnetGenesisDescription2": "Λανσάρισμα Nara Bridge cross-chain bridge",
+        "testnetGenesisDescription3": "Κυκλοφορία zkID υποδομής",
+        "mainnetLaunch": "Mainnet Launch",
+        "mainnetLaunchDescription": "Το mainnet τίθεται σε λειτουργία",
+        "mainnetLaunchDescription2": "Ανώνυμες μεταφορές & private accounts",
+        "mainnetLaunchDescription3": "Έναρξη στρατολόγησης nodes",
+        "deFiExpansion": "DeFi & Privacy Expansion",
+        "deFiExpansionDescription": "Ανώνυμο DEX",
+        "deFiExpansionDescription2": "Private lending protocols",
+        "deFiExpansionDescription3": "Ανώνυμο σύστημα DAO governance",
+        "massAdoption": "Μαζική Υιοθέτηση",
+        "massAdoptionDescription": "Ανώνυμα κοινωνικά δίκτυα",
+        "massAdoptionDescription2": "Enterprise-grade private chain solutions",
+        "massAdoptionDescription3": "Παγκόσμιο πρόγραμμα υποστήριξης developer ecosystem"
+      },
+      "build": {
+        "buildFreely": "Χτίσε ελεύθερα. Συναλλάξου ιδιωτικά. Κλιμάκωσε απεριόριστα.",
+        "buildAbove": "Χτίσε πάνω από το φως — ελεύθερος μέσα στην ιδιωτικότητα."
+      }
   },
   "index": {
     "meta": {

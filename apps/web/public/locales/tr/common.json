@@ -953,6 +953,7 @@
     },
     "network": {
       "title": "Ağ",
+      "testnet": "Test ağı",
       "inspect": {
         "title": "İncele",
         "items": [
@@ -3498,6 +3499,118 @@
         }
       }
     }
+  },
+  "newindex": {
+      "meta": {
+        "title": "Nara Solana",
+        "description": "Gizlilik odaklı, yüksek performanslı Katman-1 blok zinciri; Solana ekosistemiyle tamamen uyumlu"
+      },
+      "privacy": {
+        "title": "Gizlilik Öncelikli Nara Solana Katman-1",
+        "heroDescription1": "Nara Solana: Solana mimarisi üzerine derinlemesine optimize edilmiş, <light>gizlilik odaklı yüksek performanslı bir Katman-1 blok zinciri.</light>",
+        "heroDescription2": "Solana ekosistemiyle tamamen <light>uyumlu, ana ağ varlıklarını sorunsuz şekilde eşleyen; yeni nesil finans, gizlilik ve küresel Web3 altyapısı için inşa edilmiştir.</light>",
+        "heroDescription3": "Sadece daha ucuz bir Solana değil: <light>özel finans, anonim sosyal ağlar, yeni nesil DeFi ve büyük ölçekli on-chain uygulamalar için yeni bir yürütme katmanı.</light>"
+      },
+      "what": {
+        "title": "Nara nedir?",
+        "subTitle": "Nara Solana",
+        "subDescription": "Nara, “AI trading’in Linux’u”dur — tüm varlık sınıflarında karar alma, risk yönetimi ve yürütmeyi birleştiren açık kaynaklı ve şeffaf bir işletim sistemi. Kripto ile başlar, hisse senetleri, forex ve vadeli işlemlere genişler."
+      },
+      "advantages": {
+        "title": "Temel Avantajlar",
+        "gas": "Daha Düşük Gas Ücretleri",
+        "gasDescription": "Son derece düşük ücretler — yüksek frekanslı etkileşimler ve büyük ölçekli uygulamalar için ideal.",
+        "lower": "Daha Düşük Hesap Kirası",
+        "lowerDescription": "Uzun vadeli durum depolama maliyetleri önemli ölçüde düşürülür — uygulama sürdürülebilirliğini büyük ölçüde artırır.",
+        "ultra": "Ultra Büyük Hesaplar",
+        "ultraDescription": "Çok daha büyük uygulama hesaplarını destekler — Solana’nın geleneksel depolama sınırlarını aşar.",
+        "super": "Süper Büyük Ölçekli On-Chain",
+        "superDescription": "Karmaşık DeFi, on-chain oyunlar, gizlilik protokolleri ve büyük veri uygulamaları için tasarlanmıştır.",
+        "program": "Program Uyumluluğu",
+        "programDescription": "Yeniden öğrenmeye gerek yok: mevcut Solana programlarını düşük maliyetle taşıyın.",
+        "assets": "Solana Ana Ağ Varlıkları",
+        "assetsDescription": "Güvenli cross-chain köprüleme: yerel Solana varlıkları Nara ekosistemine sorunsuz şekilde girer."
+      },
+      "protocol": {
+        "title": "Protokol Seviyesinde Temel Parametre İyileştirmeleri",
+        "description": "Solana’nın yüksek performanslı mimarisini korurken protokol sınırlarını önemli ölçüde genişletir.",
+        "description2": "Bu, Nara Solana’yı gerçekten “on-chain işletim sistemi seviyesinde uygulamaları” barındırabilen ilk halka açık zincir yapar.",
+        "subTitle1": "Maksimum Talimat Verisi",
+        "subTitle2": "Talimat Başına Hesap Genişletmesi",
+        "subTitle3": "Maksimum Hesap Boyutu",
+        "subTitle4": "Stack Frame Boyutu",
+        "subTitle5": "Tekli Realloc Limiti",
+        "subTitle6": "Varsayılan Hesaplama Birimleri",
+        "subTitle7": "Maksimum Hesaplama Birimleri",
+        "subTitle8": "İşlem Başına Hesap Yükleme Limiti"
+      },
+      "design": {
+        "title": "Gizlilik-Native Tasarım",
+        "description": "Nara Solana, yerleşik ve eksiksiz bir gizlilik protokol katmanına sahiptir:",
+        "zkId": "zkID – Anonim Kimlik Sistemi",
+        "zkIdDescription": "Sıfır bilgi kanıtlarıyla merkeziyetsiz kimlik — kullanıcılar gerçek kimliklerini asla açıklamaz.",
+        "anonymousTransfers": "Anonim Transferler",
+        "anonymousDescription": "zkID tabanlı gizli varlıklar sayesinde tamamen özel on-chain fon akışları.",
+        "anonymousVoting": "Anonim Oylama",
+        "anonymousDescription2": "Yönetişim, DAO’lar, topluluk yönetimi ve gizliliği koruyan seçimler için uygundur.",
+        "privacyDeFi": "Gizlilik DeFi",
+        "privacyDescription": "Özel market making, anonim borç verme, özel türevler ve dark pool ticaretini destekler.",
+        "privacySocialNetworks": "Gizli Sosyal Ağlar",
+        "privacyDescription2": "Anonim takip, özel içerik yayınlama ve gizli ilişki grafiklerini mümkün kılar.",
+        "nativeDeFiLaunchpad": "Yerel DeFi Launchpad",
+        "nativeDescription": "Yeni nesil anonim projeler için özel bir lansman platformu."
+      },
+      "developer": {
+        "title": "Geliştirici Ekosistemi ve Teşvik Programları",
+        "description": "Soğuk başlangıcı ve patlayıcı ekosistem büyümesini hızlandırmak için Nara Solana büyük geliştirici programları başlattı.",
+        "rewards": "Solana Proje Taşıma Ödülleri",
+        "rewardsDescription": "Mevcut Solana DApp’lerinin düşük maliyetli taşınması için tam destek ve özel bonuslar.",
+        "funding": "Ekosistem Uygulama Finansmanı",
+        "fundingDescription": "Yeni uygulamalar için kapsamlı destek ve özel teşvikler.",
+        "program": "Erken Geliştirici Programı",
+        "programDescription": "Erken doğrulayıcılar ve ekosistem katkı sağlayıcıları için ek teşvikler."
+      },
+      "early": {
+        "title": "Erken Staking Teşvik Programı",
+        "description": "Ağ güvenliğini ve merkeziyetsizliği sağlamak için",
+        "subsidy1": "Ultra yüksek APR erken teşvikler",
+        "subsidy2": "Doğrulayıcı düğüm başlatma teşvikleri",
+        "subsidy3": "Uzun vadeli katılımcılar için ek bonuslar",
+        "subsidy4": "Kilit süresi uzadıkça ödüller artar"
+      },
+      "tokenomics": {
+        "title": "Tokenomik",
+        "totalSupply": "Toplam Arz",
+        "privatePresale": "Halka Açık / Özel Ön Satış",
+        "airdropToSolanaHolders": "Solana Sahiplerine Airdrop",
+        "dAppEcosystemRewards": "DApp Ekosistemi Ödülleri",
+        "earlyStakingRewards": "Erken Staking Ödülleri",
+        "testnetParticipantRewards": "Testnet Katılımcı Ödülleri",
+        "foundationReserve": "Vakıf Rezervi"
+      },
+      "roadmap": {
+        "title": "Yol Haritası",
+        "testnetGenesis": "Testnet Genesis",
+        "testnetGenesisDescription": "Ana ağ seviyesinde performans testleri",
+        "testnetGenesisDescription2": "Nara Bridge cross-chain köprüsünün lansmanı",
+        "testnetGenesisDescription3": "zkID altyapısının yayınlanması",
+        "mainnetLaunch": "Mainnet Lansmanı",
+        "mainnetLaunchDescription": "Mainnet yayına girer",
+        "mainnetLaunchDescription2": "Anonim transferler ve özel hesaplar",
+        "mainnetLaunchDescription3": "Node alımı başlar",
+        "deFiExpansion": "DeFi ve Gizlilik Genişlemesi",
+        "deFiExpansionDescription": "Anonim DEX",
+        "deFiExpansionDescription2": "Özel borç verme protokolleri",
+        "deFiExpansionDescription3": "Anonim DAO yönetişim sistemi",
+        "massAdoption": "Kitlesel Benimseme",
+        "massAdoptionDescription": "Anonim sosyal ağlar",
+        "massAdoptionDescription2": "Kurumsal seviyede özel zincir çözümleri",
+        "massAdoptionDescription3": "Küresel geliştirici ekosistemi destek programı"
+      },
+      "build": {
+        "buildFreely": "Özgürce inşa et. Gizli şekilde işlem yap. Sınırsız ölçekle.",
+        "buildAbove": "Işığın ötesinde inşa et, gizlilik içinde özgür ol."
+      }
   },
   "index": {
     "meta": {

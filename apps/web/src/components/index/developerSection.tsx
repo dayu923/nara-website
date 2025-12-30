@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import { styled } from "styled-components";
 import AnimatedSection from "./AnimatedSection";
 import GeneralTitle from "./generalTitle";
-import ItemBgIcon from "@@/public/src/img/index/home_bg_dev.png";
+import ItemBgIcon from "@@/public/src/img/index/home_bg_dev.webp";
 
 export function DeveloperSection() {
   const t = useTranslations();
@@ -69,15 +69,33 @@ const DeveloperList = styled.div`
 `;
 
 const DeveloperItem = styled.div`
+  position: relative;
+  z-index: 1;
   flex: 1 1 33%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 16px;
   padding: 24px;
-  background-image: url("${ItemBgIcon.src}");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  cursor: pointer;
+  &::before {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url("${ItemBgIcon.src}");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
 
   h5 {
     margin: 0;

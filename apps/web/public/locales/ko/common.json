@@ -953,6 +953,7 @@
     },
     "network": {
       "title": "네트워크",
+      "testnet": "테스트넷",
       "inspect": {
         "title": "검사",
         "items": [
@@ -3498,6 +3499,118 @@
         }
       }
     }
+  },
+  "newindex": {
+      "meta": {
+        "title": "Nara Solana",
+        "description": "프라이버시에 중점을 둔 고성능 Layer-1 블록체인으로, Solana 생태계와 완전 호환"
+      },
+      "privacy": {
+        "title": "프라이버시 우선 Nara Solana Layer-1",
+        "heroDescription1": "Nara Solana: Solana 아키텍처에 깊이 최적화된 고성능 <light>프라이버시 중심 Layer-1 블록체인.</light>",
+        "heroDescription2": "Solana 생태계와 완전히 <light>호환되며, 메인넷 자산을 매끄럽게 매핑하고 차세대 금융, 프라이버시, 글로벌 Web3 인프라를 위해 구축.</light>",
+        "heroDescription3": "단순히 더 저렴한 Solana가 아님: <light>프라이버시 금융, 익명 소셜, 차세대 DeFi, 대규모 온체인 애플리케이션을 위한 새로운 실행 레이어.</light>"
+      },
+      "what": {
+        "title": "Nara란?",
+        "subTitle": "Nara Solana",
+        "subDescription": "Nara는 AI 트레이딩의 ‘Linux’ — 의사결정, 리스크 관리, 실행을 모든 자산 클래스에 걸쳐 통합하는 오픈소스이자 투명한 운영체제입니다. 암호화폐에서 시작해 주식, 외환, 선물로 확장됩니다."
+      },
+      "advantages": {
+        "title": "핵심 장점",
+        "gas": "더 낮은 가스 비용",
+        "gasDescription": "극도로 낮은 수수료 — 고빈도 상호작용과 대규모 애플리케이션에 최적.",
+        "lower": "더 낮은 계정 렌트",
+        "lowerDescription": "장기 상태 저장 비용을 크게 절감 — 애플리케이션의 지속 가능성을 대폭 향상.",
+        "ultra": "초대형 계정",
+        "ultraDescription": "기존 Solana의 저장 한계를 넘어서는 훨씬 더 큰 앱 계정을 지원.",
+        "super": "초대규모 온체인",
+        "superDescription": "복잡한 DeFi, 온체인 게임, 프라이버시 프로토콜, 빅데이터 애플리케이션을 위해 설계.",
+        "program": "프로그램 호환성",
+        "programDescription": "다시 배울 필요 없음: 기존 Solana 프로그램을 저비용으로 마이그레이션 가능.",
+        "assets": "Solana 메인넷 자산",
+        "assetsDescription": "안전한 크로스체인 브리징: 네이티브 Solana 자산이 Nara 생태계로 원활하게 진입."
+      },
+      "protocol": {
+        "title": "핵심 프로토콜 수준 파라미터 향상",
+        "description": "Solana의 고성능 아키텍처를 유지하면서 프로토콜 한계를 대폭 확장.",
+        "description2": "이를 통해 Nara Solana는 진정으로 “온체인 운영체제 수준 애플리케이션”을 호스팅할 수 있는 최초의 퍼블릭 체인이 됩니다.",
+        "subTitle1": "최대 Instruction 데이터",
+        "subTitle2": "Instruction당 계정 확장",
+        "subTitle3": "최대 계정 크기",
+        "subTitle4": "스택 프레임 크기",
+        "subTitle5": "단일 Realloc 한도",
+        "subTitle6": "기본 Compute Units",
+        "subTitle7": "최대 Compute Units",
+        "subTitle8": "트랜잭션당 계정 로드 한도"
+      },
+      "design": {
+        "title": "프라이버시 네이티브 설계",
+        "description": "Nara Solana는 완전히 통합된 프라이버시 프로토콜 레이어를 내장하고 있습니다:",
+        "zkId": "zkID – 익명 아이덴티티 시스템",
+        "zkIdDescription": "제로 지식 증명을 통한 탈중앙화 아이덴티티 — 사용자는 실제 신원을 절대 공개하지 않습니다.",
+        "anonymousTransfers": "익명 전송",
+        "anonymousDescription": "zkID 기반 비공개 자산을 통한 완전한 프라이빗 온체인 자금 흐름.",
+        "anonymousVoting": "익명 투표",
+        "anonymousDescription2": "거버넌스, DAO, 커뮤니티 관리 및 프라이버시 보존 선거에 적합.",
+        "privacyDeFi": "프라이버시 DeFi",
+        "privacyDescription": "프라이빗 마켓 메이킹, 익명 대출, 비공개 파생상품, 다크풀 트레이딩을 지원.",
+        "privacySocialNetworks": "프라이버시 소셜 네트워크",
+        "privacyDescription2": "익명 팔로우, 비공개 콘텐츠 게시, 프라이빗 관계 그래프를 가능하게 함.",
+        "nativeDeFiLaunchpad": "네이티브 DeFi 런치패드",
+        "nativeDescription": "차세대 익명 프로젝트를 위한 전용 런치 플랫폼."
+      },
+      "developer": {
+        "title": "개발자 생태계 및 인센티브 프로그램",
+        "description": "콜드 스타트와 폭발적인 생태계 성장을 촉진하기 위해 Nara Solana는 대규모 개발자 프로그램을 출시했습니다.",
+        "rewards": "Solana 프로젝트 마이그레이션 보상",
+        "rewardsDescription": "기존 Solana DApp의 저비용 마이그레이션을 위한 전면 지원 및 전용 보너스.",
+        "funding": "생태계 애플리케이션 펀딩",
+        "fundingDescription": "신규 애플리케이션을 위한 전면적인 지원과 전용 인센티브.",
+        "program": "얼리 빌더 프로그램",
+        "programDescription": "초기 검증자 및 생태계 기여자를 위한 추가 인센티브."
+      },
+      "early": {
+        "title": "초기 스테이킹 보조금 프로그램",
+        "description": "네트워크 보안과 탈중앙화를 보장하기 위해",
+        "subsidy1": "매우 높은 APR의 초기 보조금",
+        "subsidy2": "검증자 노드 출시 보조금",
+        "subsidy3": "장기 참여자를 위한 추가 보너스",
+        "subsidy4": "락업 기간이 길수록 보상이 높아짐"
+      },
+      "tokenomics": {
+        "title": "토크노믹스",
+        "totalSupply": "총 공급량",
+        "privatePresale": "퍼블릭/프라이빗 프리세일",
+        "airdropToSolanaHolders": "Solana 보유자 대상 에어드롭",
+        "dAppEcosystemRewards": "DApp 생태계 보상",
+        "earlyStakingRewards": "초기 스테이킹 보상",
+        "testnetParticipantRewards": "테스트넷 참여자 보상",
+        "foundationReserve": "재단 예비금"
+      },
+      "roadmap": {
+        "title": "로드맵",
+        "testnetGenesis": "테스트넷 제네시스",
+        "testnetGenesisDescription": "메인넷 수준의 성능 테스트",
+        "testnetGenesisDescription2": "Nara Bridge 크로스체인 브리지 출시",
+        "testnetGenesisDescription3": "zkID 인프라 릴리스",
+        "mainnetLaunch": "메인넷 출시",
+        "mainnetLaunchDescription": "메인넷 가동",
+        "mainnetLaunchDescription2": "익명 전송 및 프라이빗 계정",
+        "mainnetLaunchDescription3": "노드 모집 시작",
+        "deFiExpansion": "DeFi 및 프라이버시 확장",
+        "deFiExpansionDescription": "익명 DEX",
+        "deFiExpansionDescription2": "프라이빗 대출 프로토콜",
+        "deFiExpansionDescription3": "익명 DAO 거버넌스 시스템",
+        "massAdoption": "대중적 채택",
+        "massAdoptionDescription": "익명 소셜 네트워킹",
+        "massAdoptionDescription2": "엔터프라이즈급 프라이빗 체인 솔루션",
+        "massAdoptionDescription3": "글로벌 개발자 생태계 지원 프로그램"
+      },
+      "build": {
+        "buildFreely": "자유롭게 구축하세요. 프라이빗하게 거래하세요. 무한히 확장하세요.",
+        "buildAbove": "빛 위에 구축하고, 프라이버시 속에서 자유로워지세요."
+      }
   },
   "index": {
     "meta": {

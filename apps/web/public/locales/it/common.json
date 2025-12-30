@@ -953,6 +953,7 @@
     },
     "network": {
       "title": "Rete",
+      "testnet": "Rete di test",
       "inspect": {
         "title": "Ispeziona",
         "items": [
@@ -3499,6 +3500,121 @@
       }
     }
   },
+
+  "newindex": {
+      "meta": {
+        "title": "Nara Solana",
+        "description": "Blockchain Layer-1 ad alte prestazioni focalizzata sulla privacy, completamente compatibile con l’ecosistema Solana"
+      },
+      "privacy": {
+        "title": "Privacy-First Nara Solana Layer-1",
+        "heroDescription1": "Nara Solana: blockchain Layer-1 ad alte prestazioni <light>incentrata sulla privacy, profondamente ottimizzata sull’architettura Solana.</light>",
+        "heroDescription2": "Completamente <light>compatibile con l’ecosistema Solana, mappatura fluida degli asset mainnet, progettata per la finanza di nuova generazione, la privacy e l’infrastruttura Web3 globale.</light>",
+        "heroDescription3": "Non solo una Solana più economica: <light>un nuovo livello di esecuzione per la finanza privata, il social anonimo, la DeFi di nuova generazione e applicazioni on-chain su larga scala.</light>"
+      },
+      "what": {
+        "title": "Cos’è Nara?",
+        "subTitle": "Nara Solana",
+        "subDescription": "Nara: il “Linux” dell’AI trading — un sistema operativo open-source e trasparente che unifica decisione, gestione del rischio ed esecuzione su tutte le classi di asset. Parte dal crypto, si espande a azioni, forex e futures."
+      },
+      "advantages": {
+        "title": "Vantaggi principali",
+        "gas": "Gas più basso",
+        "gasDescription": "Costi estremamente ridotti — ideali per interazioni ad alta frequenza e applicazioni su larga scala.",
+        "lower": "Affitto dell’account più basso",
+        "lowerDescription": "Costi di storage dello stato a lungo termine notevolmente ridotti — migliora sensibilmente la sostenibilità delle applicazioni.",
+        "ultra": "Account ultra-grandi",
+        "ultraDescription": "Supporta account applicativi molto più grandi — supera i limiti di storage tradizionali di Solana.",
+        "super": "On-chain su scala super-grande",
+        "superDescription": "Progettato per DeFi complessa, giochi on-chain, protocolli di privacy e applicazioni di big data.",
+        "program": "Compatibilità dei programmi",
+        "programDescription": "Nessuna necessità di reimparare: i programmi Solana esistenti possono essere migrati a basso costo.",
+        "assets": "Asset Mainnet Solana",
+        "assetsDescription": "Bridge cross-chain sicuro: gli asset Solana nativi entrano senza attriti nell’ecosistema Nara."
+      },
+      "protocol": {
+        "title": "Miglioramenti chiave dei parametri a livello di protocollo",
+        "description": "Mantiene l’architettura ad alte prestazioni di Solana — aumentando drasticamente i limiti del protocollo.",
+        "description2": "Questo rende Nara Solana la prima public chain realmente capace di ospitare “applicazioni on-chain a livello di sistema operativo”.",
+        "subTitle1": "Dati massimi per Instruction",
+        "subTitle2": "Estensione account per Instruction",
+        "subTitle3": "Dimensione massima dell’account",
+        "subTitle4": "Dimensione dello stack frame",
+        "subTitle5": "Limite di single realloc",
+        "subTitle6": "Compute unit di default",
+        "subTitle7": "Compute unit massime",
+        "subTitle8": "Limite di load account per transazione"
+      },
+      "design": {
+        "title": "Design nativo per la privacy",
+        "description": "Nara Solana integra un livello completo di protocollo per la privacy:",
+        "zkId": "zkID – Sistema di identità anonima",
+        "zkIdDescription": "Identità decentralizzata tramite zero-knowledge proofs — gli utenti non rivelano mai la propria identità reale.",
+        "anonymousTransfers": "Trasferimenti anonimi",
+        "anonymousDescription": "Flussi di fondi on-chain completamente privati tramite asset confidenziali basati su zkID.",
+        "anonymousVoting": "Votazioni anonime",
+        "anonymousDescription2": "Adatto per governance, DAO, gestione delle community ed elezioni che preservano la privacy.",
+        "privacyDeFi": "DeFi privata",
+        "privacyDescription": "Supporta market making privato, lending anonimo, derivati privati e dark pool trading.",
+        "privacySocialNetworks": "Social network privati",
+        "privacyDescription2": "Consente following anonimo, pubblicazione di contenuti privati e grafi relazionali privatizzati.",
+        "nativeDeFiLaunchpad": "Launchpad DeFi nativo",
+        "nativeDescription": "Piattaforma di lancio dedicata alla nuova generazione di progetti anonimi."
+      },
+      "developer": {
+        "title": "Ecosistema sviluppatori e programmi di incentivo",
+        "description": "Per stimolare il cold-start e una crescita esplosiva dell’ecosistema, Nara Solana ha lanciato un ampio programma per sviluppatori.",
+        "rewards": "Ricompense per la migrazione di progetti Solana",
+        "rewardsDescription": "Supporto completo alla migrazione a basso costo delle DApp Solana esistenti, con bonus dedicati.",
+        "funding": "Finanziamento delle applicazioni dell’ecosistema",
+        "fundingDescription": "Supporto completo per nuove applicazioni con incentivi dedicati.",
+        "program": "Programma Early Builder",
+        "programDescription": "Incentivi aggiuntivi per validator iniziali e contributori dell’ecosistema."
+      },
+      "early": {
+        "title": "Programma di sussidi per lo staking iniziale",
+        "description": "Per garantire sicurezza e decentralizzazione della rete",
+        "subsidy1": "Sussidi iniziali con APR estremamente elevato",
+        "subsidy2": "Sussidi per il lancio dei nodi validator",
+        "subsidy3": "Bonus aggiuntivi per i partecipanti a lungo termine",
+        "subsidy4": "Più lungo è il lock, maggiori sono le ricompense"
+      },
+      "tokenomics": {
+        "title": "Tokenomics",
+        "totalSupply": "Offerta totale",
+        "privatePresale": "Presale pubblica/privata",
+        "airdropToSolanaHolders": "Airdrop per i detentori di Solana",
+        "dAppEcosystemRewards": "Ricompense dell’ecosistema DApp",
+        "earlyStakingRewards": "Ricompense di staking iniziale",
+        "testnetParticipantRewards": "Ricompense per i partecipanti al testnet",
+        "foundationReserve": "Riserva della fondazione"
+      },
+      "roadmap": {
+        "title": "Roadmap",
+        "testnetGenesis": "Genesis del testnet",
+        "testnetGenesisDescription": "Test di performance a livello mainnet",
+        "testnetGenesisDescription2": "Lancio del bridge cross-chain Nara Bridge",
+        "testnetGenesisDescription3": "Rilascio dell’infrastruttura zkID",
+        "mainnetLaunch": "Lancio del mainnet",
+        "mainnetLaunchDescription": "Mainnet online",
+        "mainnetLaunchDescription2": "Trasferimenti anonimi e account privati",
+        "mainnetLaunchDescription3": "Avvio del reclutamento dei nodi",
+        "deFiExpansion": "Espansione DeFi e privacy",
+        "deFiExpansionDescription": "DEX anonimo",
+        "deFiExpansionDescription2": "Protocolli di lending privati",
+        "deFiExpansionDescription3": "Sistema di governance DAO anonimo",
+        "massAdoption": "Adozione di massa",
+        "massAdoptionDescription": "Social networking anonimo",
+        "massAdoptionDescription2": "Soluzioni di private chain di livello enterprise",
+        "massAdoptionDescription3": "Programma globale di supporto all’ecosistema degli sviluppatori"
+      },
+      "build": {
+        "buildFreely": "Costruisci liberamente. Transazioni private. Scala all’infinito.",
+        "buildAbove": "Costruisci oltre la luce, libero nella privacy."
+      }
+  },
+  
+
   "index": {
     "meta": {
       "title": "Il mercato dei capitali per ogni asset sulla terra",
