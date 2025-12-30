@@ -86,6 +86,8 @@ const RoadList = styled.div`
 `;
 
 const RoadItem = styled.div`
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -95,12 +97,25 @@ const RoadItem = styled.div`
   background: rgba(250, 250, 250, 0.05);
   border-radius: 16px;
   border: 1px solid rgba(250, 250, 250, 0.05);
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-image: url(${roadmapBg1.src});
+  cursor: pointer;
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url(${roadmapBg1.src});
+    opacity: 0.8;
+    transition: opacity 0.3s ease-in-out;
+  }
 
-  &:nth-child(2n) {
+  &:nth-child(2n)::before {
     background-image: url(${roadmapBg2.src});
+  }
+
+  &:hover::before {
+    opacity: 1;
   }
 
   & > span {
