@@ -62,7 +62,7 @@ function Header({
                 <InkeepSearchBar className="hidden md:block" />
                 {/* <InkeepChatButton variant="inline" className="md:hidden" /> */}
                 {showLanguage && (
-                  <div className="relative items-center hidden xl:flex">
+                  <div className="relative items-center hidden xl:flex  py-[8px] px-[16px] rounded-[8px] !bg-gray-50/5">
                     <LanguageSelector />
                   </div>
                 )}

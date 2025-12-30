@@ -1,8 +1,10 @@
 "use client";
-
+import { useState,useEffect } from "react";
 import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import Globe from "./assets/globe.inline.svg";
-import ChevronGrabberVertical from "./assets/chevron-grabber-vertical.inline.svg";
+// import ChevronGrabberVertical from "./assets/chevron-grabber-vertical.inline.svg";
+import AngleDown from "./assets/angle-down.inline.svg";
+import AngleUp from "./assets/angle-up.inline.svg";
 import { languages } from "@workspace/i18n/config";
 import { usePathname } from "@workspace/i18n/routing";
 import { useLocale } from "next-intl";
@@ -16,9 +18,14 @@ function cn(...inputs) {
 const LanguageSelector = ({ className = "" }) => {
   const currentLocale = useLocale();
   const asPath = usePathname();
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    console.log(open,"open");
+  },[open])
 
   return (
-    <DropdownMenu.Root>
+    <DropdownMenu.Root open={open} onOpenChange={setOpen}>
       <DropdownMenu.Trigger asChild>
         <button
           className={cn(
@@ -31,10 +38,20 @@ const LanguageSelector = ({ className = "" }) => {
           type="button"
         >
           <Globe height="20" />
-          <span className="align-middle font-normal mx-1 uppercase text-[14px]">
+          <span className="align-middle font-normal mx-1 uppercase text-[14px] leading-[16px]">
             {currentLocale}
           </span>
-          <ChevronGrabberVertical width="20" height="20" />
+          {!open? <AngleDown
+                    aria-hidden="true"
+                    width={20}
+                    height={20}
+                    viewBox="0 0 24 24"
+                    />:<AngleUp  
+                    aria-hidden="true"
+                    width={20}
+                    height={20}
+                    viewBox="0 0 24 24"
+                    />}
         </button>
       </DropdownMenu.Trigger>
       <DropdownMenu.Content
