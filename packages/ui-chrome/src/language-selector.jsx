@@ -20,10 +20,6 @@ const LanguageSelector = ({ className = "" }) => {
   const asPath = usePathname();
   const [open, setOpen] = useState(false);
 
-  useEffect(() => {
-    console.log(open,"open");
-  },[open])
-
   return (
     <DropdownMenu.Root open={open} onOpenChange={setOpen}>
       <DropdownMenu.Trigger asChild>

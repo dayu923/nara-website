@@ -110,6 +110,7 @@ const PrivacyList = styled.div`
   background: rgba(1, 0, 5, 0.6);
   height: 152px;
   @media (max-width: 768px) {
+    padding: 16px;
     flex-direction: column;
     height: auto;
   }
