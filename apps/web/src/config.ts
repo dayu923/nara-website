@@ -1,8 +1,9 @@
 export const config = {
   siteMetadata: {
     title: `Nara Solana`,
-    description: `Fast. Decentralized. Scalable. Energy efficient. Solana can power thousands of transactions per second.`,
-    socialShare: `https://solana.com/social/solana.jpg`,
+    description: `Fast. Decentralized. Scalable. Energy efficient.Nara Solana can power thousands of transactions per second.`,
+    // socialShare: `https://solana.com/social/solana.jpg`,
+    socialShare: `/img/share-bg.png`,
     author: `@solana`,
     googleAnalytics: {
       trackingId: `G-94WS0LRZRS`,
@@ -22,7 +23,7 @@ export const config = {
   shareImageHeight: 523,
   social: {
     twitter: {
-      name: `solana`,
+      name: `Nara Solana`,
       mapping: {
         title: "title",
         tags: "hashtags",
