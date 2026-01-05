@@ -66,6 +66,7 @@ export function PrivacySection() {
 
 const PrivacySectionBox = styled(AnimatedSection)`
   position: relative;
+  z-index: 1;
   @media (max-width: 768px) {
     padding: 0 20px;
   }
@@ -73,6 +74,7 @@ const PrivacySectionBox = styled(AnimatedSection)`
 
 const PrivacyShadowBg = styled(Image)`
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 50%;
   transform: translateX(-50%);

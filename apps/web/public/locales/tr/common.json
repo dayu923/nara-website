@@ -3610,6 +3610,13 @@
       "build": {
         "buildFreely": "Özgürce inşa et. Gizli şekilde işlem yap. Sınırsız ölçekle.",
         "buildAbove": "Işığın ötesinde inşa et, gizlilik içinde özgür ol."
+      },
+      "download": {
+        "title": "Nara’yı edinin",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "Tarayıcı eklentisi",
+        "download": "İndir"
       }
   },
   "index": {

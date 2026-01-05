@@ -3610,6 +3610,13 @@
       "build": {
         "buildFreely": "Xây dựng tự do. Giao dịch riêng tư. Mở rộng không giới hạn.",
         "buildAbove": "Xây dựng vượt trên ánh sáng — tự do trong quyền riêng tư."
+      },
+      "download": {
+        "title": "Tải Nara",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "Tiện ích trình duyệt",
+        "download": "Tải xuống"
       }
   },
   "index": {

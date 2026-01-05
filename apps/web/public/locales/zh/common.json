@@ -3611,9 +3611,15 @@
       "build": {
         "buildFreely": "自由构建，私密交易，无限扩展。",
         "buildAbove": "构建于光之上，自由于隐私之中。"
+      },
+      "download": {
+        "title": "获取 Nara",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "浏览器扩展",
+        "download": "下载"
       }
     },
-  
 
   "index": {
     "meta": {

@@ -3610,7 +3610,15 @@
       "build": {
         "buildFreely": "Buduj swobodnie. Transakcje prywatnie. Skaluj bez ograniczeń.",
         "buildAbove": "Buduj ponad światłem, bądź wolny w prywatności."
+      },
+      "download": {
+        "title": "Pobierz Nara",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "Rozszerzenie przeglądarki",
+        "download": "Pobierz"
       }
+
   },  
   "index": {
     "meta": {

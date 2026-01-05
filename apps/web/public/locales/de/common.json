@@ -3611,6 +3611,13 @@
       "build": {
         "buildFreely": "Frei bauen. Privat transagieren. Unendlich skalieren.",
         "buildAbove": "Baue über dem Licht – frei innerhalb der Privatsphäre."
+      },
+      "download": {
+        "title": "Nara herunterladen",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "Browser-Erweiterung",
+        "download": "Herunterladen"
       }
   },
   

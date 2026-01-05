@@ -3610,6 +3610,13 @@
       "build": {
         "buildFreely": "자유롭게 구축하세요. 프라이빗하게 거래하세요. 무한히 확장하세요.",
         "buildAbove": "빛 위에 구축하고, 프라이버시 속에서 자유로워지세요."
+      },
+      "download": {
+        "title": "Nara 받기",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "브라우저 확장 프로그램",
+        "download": "다운로드"
       }
   },
   "index": {

@@ -3610,6 +3610,13 @@
       "build": {
         "buildFreely": "自由に構築。プライベートに取引。無限にスケール。",
         "buildAbove": "光の上に築き、プライバシーの中で自由であれ。"
+      },
+      "download": {
+        "title": "Nara を入手",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "ブラウザ拡張機能",
+        "download": "ダウンロード"
       }
   },  
 

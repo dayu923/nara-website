@@ -70,6 +70,7 @@ const Wrapper = styled(AnimatedSection)`
 
   @media (max-width: 768px) {
     position: relative;
+    gap: 20px;
     padding-left: 20px;
   }
 `;

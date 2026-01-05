@@ -27,5 +27,6 @@ const Title = styled(motion.div)`
   line-height: 1.5;
   @media (max-width: 768px) {
     font-size: 24px;
+    text-align: center;
   }
 `;

@@ -76,7 +76,7 @@ const Wrapper = styled(AnimatedSection)`
 
   @media (max-width: 768px) {
     gap: 12px;
-    padding: 0 36px;
+    padding: 0 20px;
   }
 `;
 

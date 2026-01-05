@@ -3610,6 +3610,13 @@
       "build": {
         "buildFreely": "Rakenna vapaasti. Tee transaktioita yksityisesti. Skaalaa rajattomasti.",
         "buildAbove": "Rakenna valon yläpuolelle — vapaana yksityisyyden sisällä."
+      },
+      "download": {
+        "title": "Hanki Nara",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "Selainlaajennus",
+        "download": "Lataa"
       }
   },
   

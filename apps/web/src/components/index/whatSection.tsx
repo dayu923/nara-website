@@ -58,6 +58,7 @@ const Wrapper = styled(AnimatedSection)`
 
 const Grid = styled.div`
   position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   gap: 42px;
@@ -75,6 +76,7 @@ const Grid = styled.div`
 
 const GridShaowBg = styled(Image)`
   position: absolute;
+  z-index: -1;
   top: 0;
   left: 0;
   max-width: 275px;
@@ -82,6 +84,7 @@ const GridShaowBg = styled(Image)`
 
 const GridShaowBg2 = styled(Image)`
   position: absolute;
+  z-index: -1;
   top: 0;
   right: 0;
   max-width: 275px;
@@ -118,7 +121,6 @@ const Paragraph = styled.p`
 `;
 
 const CodeBox = styled.div`
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -130,7 +132,7 @@ const CodeBox = styled.div`
   background: linear-gradient(
     360deg,
     rgba(250, 250, 250, 0) 0%,
-    rgba(250, 250, 250, 0.05) 100%
+    rgba(250, 250, 250, 0.08) 100%
   );
 
   pre {

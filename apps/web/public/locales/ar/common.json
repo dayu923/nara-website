@@ -3610,7 +3610,15 @@
       "build": {
         "buildFreely": "ابنِ بحرية. تعامل بخصوصية. توسّع بلا حدود.",
         "buildAbove": "ابنِ فوق الضوء، وكن حرًا داخل الخصوصية."
+      },
+      "download": {
+        "title": "احصل على Nara",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "إضافة المتصفح",
+        "download": "تنزيل"
       }
+
   },
   "index": {
     "meta": {

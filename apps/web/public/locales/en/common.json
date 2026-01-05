@@ -3729,6 +3729,13 @@
       "buildFreely":"Build Freely. Transact Privately. Scale Infinitely.",
       "buildAbove":"Build above the light, be free within privacy."
 
+    },
+    "download":{
+      "title":"Get Nara",
+      "google":"Google Play",
+      "apple":"Apple Store",
+      "browser":"Browser Extension",
+      "download":"Download"
     }
   },
 

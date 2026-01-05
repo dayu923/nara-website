@@ -3610,6 +3610,13 @@
       "build": {
         "buildFreely": "Bangun dengan bebas. Bertransaksi secara privat. Skalakan tanpa batas.",
         "buildAbove": "Bangun di atas cahaya, bebas dalam privasi."
+      },
+      "download": {
+        "title": "Dapatkan Nara",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "Ekstensi Browser",
+        "download": "Unduh"
       }
   },  
   "index": {

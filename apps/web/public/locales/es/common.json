@@ -3500,7 +3500,8 @@
       }
     }
   },
-   "newindex": {      "meta": {
+   "newindex": {     
+       "meta": {
         "title": "Nara Solana",
         "description": "Blockchain Layer-1 de alto rendimiento centrada en la privacidad, totalmente compatible con el ecosistema Solana"
       },
@@ -3609,7 +3610,14 @@
       "build": {
         "buildFreely": "Construye libremente. Transacciona en privado. Escala sin límites.",
         "buildAbove": "Construye por encima de la luz, sé libre dentro de la privacidad."
-      }
+      },
+      "download": {
+      "title": "Obtener Nara",
+      "google": "Google Play",
+      "apple": "App Store",
+      "browser": "Extensión del navegador",
+      "download": "Descargar"
+    }
   },
 
   "index": {

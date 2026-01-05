@@ -3610,6 +3610,13 @@
       "build": {
         "buildFreely": "Construa livremente. Transacione com privacidade. Escale infinitamente.",
         "buildAbove": "Construa acima da luz, seja livre dentro da privacidade."
+      },
+      "download": {
+        "title": "Obter Nara",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "Extensão do navegador",
+        "download": "Baixar"
       }
   },
   "index": {

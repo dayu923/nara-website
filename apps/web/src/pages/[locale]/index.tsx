@@ -13,6 +13,7 @@ import { EarlySection } from "@/components/index/earlySection";
 import { TokenomicsSection } from "@/components/index/tokenomicsSection";
 import { RoadmapSection } from "@/components/index/roadmapSection";
 import { TipsSection } from "@/components/index/tipsSection";
+import { DownloadSection } from "@/components/index/downloadSection";
 import { useTranslations } from "next-intl";
 import HTMLHead from "@/components/HTMLHead";
 import { Logos } from "@/component-library/logos";
@@ -125,7 +126,7 @@ export default function Home({
       <HTMLHead
         title={t("index.meta.title")}
         description={t("index.meta.description")}
-        socialShare="/src/img/index/og-image.png"
+        socialShare="/src/img/index/og-image.png?v=2"
       />
 
       <HeroSection />
@@ -139,6 +140,7 @@ export default function Home({
       <TokenomicsSection />
       <RoadmapSection />
       <TipsSection />
+      <DownloadSection />
 
       {/* <Hero
         title={t.rich("index.hero.title", {

@@ -3610,6 +3610,13 @@
       "build": {
         "buildFreely": "Bouw vrij. Handel privé. Schaal onbeperkt.",
         "buildAbove": "Bouw in het licht. Wees vrij in privacy."
+      },
+      "download": {
+        "title": "Nara downloaden",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "Browserextensie",
+        "download": "Downloaden"
       }
   },
   "index": {

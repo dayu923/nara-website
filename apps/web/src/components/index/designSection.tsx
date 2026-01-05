@@ -125,6 +125,7 @@ const DesignItem = styled.div`
     }
 
     span {
+      text-align: center;
       font-size: 12px;
     }
   }

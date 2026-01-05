@@ -3611,10 +3611,16 @@
       "build": {
         "buildFreely": "Costruisci liberamente. Transazioni private. Scala all’infinito.",
         "buildAbove": "Costruisci oltre la luce, libero nella privacy."
+      },
+      "download": {
+        "title": "Ottieni Nara",
+        "google": "Google Play",
+        "apple": "App Store",
+        "browser": "Estensione del browser",
+        "download": "Scarica"
       }
   },
   
-
   "index": {
     "meta": {
       "title": "Il mercato dei capitali per ogni asset sulla terra",

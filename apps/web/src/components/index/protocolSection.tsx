@@ -143,7 +143,7 @@ export function ProtocolSection() {
 
   return (
     <Wrapper>
-      <GeneralTitle>{t("newindex.protocol.title")}</GeneralTitle>
+      <Title>{t("newindex.protocol.title")}</Title>
       <Description>{t("newindex.protocol.description")}</Description>
 
       <ProtocolContent>
@@ -192,7 +192,6 @@ export function ProtocolSection() {
           </ProtocolList>
         ))}
       </ProtocolContent>
-
       <Description>{t("newindex.protocol.description2")}</Description>
     </Wrapper>
   );
@@ -205,12 +204,20 @@ const Wrapper = styled(AnimatedSection)`
   }
 `;
 
+const Title = styled(GeneralTitle)`
+  @media (max-width: 768px) {
+    padding-right: 20px;
+  }
+`;
+
 const Description = styled.div`
   font-size: 16px;
   color: #979699;
   line-height: 1.5;
 
   @media (max-width: 768px) {
+    padding-right: 20px;
+    text-align: center;
     font-size: 12px;
   }
 `;
