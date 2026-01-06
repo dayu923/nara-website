@@ -163,5 +163,9 @@ const PrivacyItem = styled.div`
 
   @media (max-width: 768px) {
     font-size: 12px;
+
+    span::before {
+      display: none;
+    }
   }
 `;

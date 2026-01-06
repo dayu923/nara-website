@@ -118,11 +118,11 @@ const RoadItem = styled.div`
     opacity: 1;
   }
 
-  & > span {
+  span {
     color: #afafb0;
     font-size: 64px;
-    font-weight: 300;
     line-height: 1.1;
+    font-family: "auto";
   }
 
   h5 {

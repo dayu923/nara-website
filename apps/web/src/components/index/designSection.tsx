@@ -83,6 +83,10 @@ const DesignList = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  @media (max-width: 768px) {
+    gap: 16px;
+    padding: 0 20px;
+  }
 `;
 
 const DesignItem = styled.div`
@@ -112,8 +116,8 @@ const DesignItem = styled.div`
   @media (max-width: 768px) {
     align-items: center;
     gap: 8px;
-    padding: 0 20px;
-    border: none;
+    padding: 0 0 16px 0;
+    /* border: none; */
 
     img {
       width: 20px;

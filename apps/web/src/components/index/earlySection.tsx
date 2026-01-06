@@ -62,7 +62,9 @@ const EarlyList = styled.div`
   gap: 24px;
   width: 100%;
   @media (max-width: 768px) {
-    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0 20px;
   }
 `;
 
@@ -87,8 +89,11 @@ const EarlyItem = styled(motion.div)`
   }
 
   @media (max-width: 768px) {
-    flex: 1 1 100%;
-    gap: 8px;
+    flex: 1 1 45%;
+    gap: 16px;
+    background: rgba(250, 250, 250, 0.06);
+    border-radius: 8px;
+    padding: 16px 0;
     img {
       width: 56px;
       height: 56px;

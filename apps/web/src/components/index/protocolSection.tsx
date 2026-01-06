@@ -358,6 +358,14 @@ const BarSolInfo = styled(BarInfo)`
     font-weight: 300;
     font-size: 16px;
   }
+  @media (max-width: 768px) {
+    b {
+      font-size: 12px;
+    }
+    span {
+      font-size: 10px;
+    }
+  }
 `;
 
 const Bar = styled.div`
